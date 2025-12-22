@@ -1,85 +1,145 @@
 ---
-ruby: Ruby
-slogan: най-добрият приятел на програмиста
 
-sitelinks:
-- text: Начало
-  url: /bg
-  home: true
+navigation:
 - text: За сваляне
-  url: /bg/downloads
+  url: /bg/documentation/installation/
+  submenu:
+  - text: Installing Ruby
+    url: /bg/documentation/installation/
+  - text: За сваляне
+    url: /bg/downloads/
+  - text: Мениджъри на пакети
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: Документация
-  url: /bg/documentation
-- text: Библиотеки
-  url: /bg/libraries
-- text: Общност
-  url: /bg/community
-- text: Новини
-  url: /bg/news
-- text: Сигурност
-  url: /bg/security
-- text: Относно
-  url: /bg/about
-
-search:
-  text: Търси
-
-sidebar:
-  get_started:
-    text: <strong>Започнете</strong> лесно е!
-    try_ruby:
-      text: Пробвайте Ruby! (в браузъра)
+  url: /bg/documentation/
+  submenu:
+  - text: Документация
+    url: /bg/documentation/
+  - text: Относно
+    url: /bg/about/
+  - text: Ruby в 20 минути
+    url: /bg/documentation/quickstart/
+  - text: Ruby от други езици
+    url: /bg/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Oт C/C++ към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Oт Java към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Oт Perl към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Oт PHP към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Oт Python към Ruby
+      url: /bg/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Започнете & Изследвайте
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby в 20 минути
-      url: /bg/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby от други езици
-      url: /bg/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Изследвайте</strong> нов свят…
-    documentation:
-      text: Документация
-      url: /bg/documentation/
-    # books:
-    #   text: Книги
-    libraries:
-      text: Библиотеки
-      url: /bg/libraries/
-    success_stories:
-      text: Успешни истории
-      url: /bg/documentation/success-stories/
-  participate:
-    text: <strong>Участвайте</strong> в приятелски настроено общество.
-    mailing_lists:
-      text: Пощенски списъци
-      url: /bg/community/mailing-lists/
-      description: Дискусии относно Ruby с програмисти от цял свят.
-    user_groups:
-      text: Потребителски групи
-      url: /bg/community/user-groups/
-      description: Свържете се с рубисти в твоя район.
-    weblogs:
-      text: Блогове
-      url: /bg/community/weblogs/
-      description: Прочетете какво се случва в Ruby обществото.
-    ruby_core:
-      text: Ruby ядро
-      url: /bg/community/ruby-core/
-      description: Помогнете за разработката на Ruby.
-    issue_tracking:
-      text: Следене на бъгове
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Библиотеки
+  url: /bg/libraries/
+  submenu:
+  - text: Библиотеки
+    url: /bg/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Популярни Gem-ове
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Принос
+  url: /bg/community/ruby-core/
+  submenu:
+  - text: Разработка на Ruby ядро
+    url: /bg/community/ruby-core/
+  - text: Ръководство за хранилището
+    url: /bg/documentation/repository-guide/
+  - text: Пощенски списъци
+    url: /bg/community/mailing-lists/
+  - text: Други
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: Докладвайте или помогнете за решаването на проблеми в
-        Ruby.
-  syndicate:
-    text: Новини
-    recent_news:
-      text: Последните новини (RSS)
-      url: /bg/feeds/news.rss
+      external: true
+- text: Общност
+  url: /bg/community/
+  submenu:
+  - text: Общност
+    url: /bg/community/
+  - text: Потребителски групи
+    url: /bg/community/user-groups/
+  - text: Блогове
+    url: /bg/community/weblogs/
+  - text: Събития и конференции
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: Новини
+  url: /bg/news/
+  submenu:
+  - text: Новини
+    url: /bg/news/
+  - text: Сигурност
+    url: /bg/security/
+
+syndicate:
+  text: Новини
+  recent_news:
+    text: Последните новини (RSS)
+    url: /bg/feeds/news.rss
 
 languages_heading: 'Този сайт на други езици:'
 
+toc:
+  heading: Съдържание
 credits:
   <a href="/bg/about/website/">Този сайт</a>
   се поддържа от членове на Ruby обществото.
@@ -118,3 +178,31 @@ news:
   monthly_archives: Архив по месец
   yearly_archive_link: "%Y"
   monthly_archive_link: "%B %Y"
+  select_year: "--- Изберете година ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Пощенски списъци
+      url: /bg/community/mailing-lists/
+    security:
+      text: Сигурност
+      url: /bg/security/
+    about_website:
+      text: За този сайт
+      url: /bg/about/website/
+    logo_page:
+      text: За логото
+      url: /bg/about/logo/
+    news_rss:
+      text: Новини RSS
+      url: /bg/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt
