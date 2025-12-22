@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const totalImages = images.length;
   let loadedImages = 0;
 
-  // Track loading states for hero images and Try Ruby
+  // Track loading state for hero images
+  // Note: TryRuby examples are now inlined at build time, no async loading needed
   let heroImagesReady = false;
-  let tryRubyReady = false;
 
   const layers = {
     finalGem: document.querySelector('[data-hero-layer="gem"]'),
@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Check if both hero images and Try Ruby are ready
+  // Check if hero images are ready to start animation
   const checkAllReady = () => {
-    if (heroImagesReady && tryRubyReady) {
+    if (heroImagesReady) {
       // Update to 100% and start animation
       if (loaderNumber) {
         loaderNumber.textContent = '100';
@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const updateProgress = () => {
     loadedImages++;
-    // Show progress up to 80% for hero images, reserve 20% for Try Ruby
-    const percentage = Math.round((loadedImages / totalImages) * 80);
+    // Show progress up to 100% for hero images
+    const percentage = Math.round((loadedImages / totalImages) * 100);
     if (loaderNumber) {
         loaderNumber.textContent = `${percentage}`;
     }
@@ -82,23 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     heroImagesReady = true;
   }
 
-  // Subscribe to Try Ruby examples loading
-  if (typeof TryRubyExamples !== 'undefined') {
-    TryRubyExamples.setOnReady(() => {
-      tryRubyReady = true;
-      // Update progress to show Try Ruby is loaded (80% -> 95%)
-      if (loaderNumber && !heroImagesReady) {
-        const currentPercent = parseInt(loaderNumber.textContent) || 0;
-        loaderNumber.textContent = `${Math.max(currentPercent, 95)}`;
-      }
-      checkAllReady();
-    });
-  } else {
-    // TryRubyExamples not available, skip waiting for it
-    tryRubyReady = true;
-  }
-
-  // Initial check in case both are already ready
+  // Initial check in case images are already loaded
   checkAllReady();
 
   function startAnimation() {
