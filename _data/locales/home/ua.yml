@@ -100,7 +100,7 @@ community:
   motto_translation: "Matz is nice and so we are nice"
   links:
     - text: "Дізнайтеся більше про спільноту"
-      url: "/ua/community/"
+      url: "/community/"
     - text: "Майбутні міжнародні конференції"
       url: "https://www.rubyevents.org"
       external: true
