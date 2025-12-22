@@ -43,7 +43,7 @@ Ruby 다운로드 및 설치에 대한 최신 정보는
 
 ### 어떤 운영 체제에서 Ruby를 지원하나요?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby는 Linux에서 개발되었으며 매우 간단한 C로 작성되었습니다. Linux 및 기타
 UNIX와 유사한 운영 체제 macOS, Windows, DOS, BeOS, Amiga, Acorn Risc OS,
@@ -58,7 +58,7 @@ OS/2에서 실행됩니다.
 
 ### 개발 소스 트리를 볼 수 있나요?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 CVS 클라이언트가 있는 경우 다음을 사용하여 현재 소스 트리를 확인할 수 있습니다.
 
@@ -98,7 +98,7 @@ $ ./configure --help
 
 ### 내 라이브러리가 어디에 있는지 Ruby에게 알려주려면 어떻게 하나요?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 일부 시스템에서는 빌드 프로세스가 확장 모듈에서 사용하는
 라이브러리(예: `dbm` 라이브러리)를 찾지 못할 수 있습니다.
@@ -154,7 +154,7 @@ HP의 기본 `sed`에도 문제가 있을 수 있습니다. 그는 GNU 버전을
 
 ### "cygwin", "mingw", "djgpp"는 다 뭐죠?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby는 Unix 환경의 풍부한 기능 세트를 활용하도록 작성되었습니다.
 안타깝게도 Windows에는 일부 기능이 누락되어 있고 다른 기능도 다르게 구현되어
@@ -182,7 +182,7 @@ rbcw 버전을 사용하려면 Cygwin의 .dll을 별도로 설치해야 합니�
 
 ### Windows에서 Tk 그래픽이 작동하지 않는 이유는 무엇인가요?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Windows에 Tk가 올바르게 설치되었나요? [https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae)로
 이동하여 해당 운영 체제에 대해 미리 컴파일된 Tcl/Tk 바이너리 배포판을 찾아보세요.

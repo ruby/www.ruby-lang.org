@@ -9,7 +9,7 @@ e mais conferências, onde se juntam para compartilhar relatórios sobre projeto
 em andamento, discutir o futuro do Ruby, e dar as boas vindas a novos membros
 da comunidade Ruby.
 
-[RubyConferences.org][rc] é uma simples lista de conferência especificamente
+[RubyEvents.org][rc] é uma simples lista de conferência especificamente
 sobre Ruby, publicada em colaboração com a comunidade Ruby. Nela você encontrará
 datas de eventos, localizações, CFP (_Call For Proposals_) e informações sobre
 inscrições.
@@ -74,7 +74,7 @@ O’Reilly) e, para finalizar a Canada on Rails.
 
 
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/

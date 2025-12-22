@@ -1,0 +1,89 @@
+{% assign home = site.data.locales.home[page.lang] %}
+
+<!-- Community Section Wrapper with background decorations -->
+<div class="community-wrapper bg-gold-150 dark:bg-stone-770 relative overflow-hidden isolate before:content-[''] before:hidden before:lg:block before:absolute before:z-[-1] before:w-[840px] before:h-[1328px] before:bg-[url('/images/home/hero/bg.svg')] dark:before:bg-[url('/images/home/hero/bg-dark.svg')] before:bg-no-repeat before:bg-contain before:-left-[20rem] before:-bottom-[20rem] before:pointer-events-none after:content-[''] after:hidden after:lg:block after:absolute after:z-[-1] after:w-[840px] after:h-[1328px] after:bg-[url('/images/home/hero/bg.svg')] dark:after:bg-[url('/images/home/hero/bg-dark.svg')] after:bg-no-repeat after:bg-contain after:-right-[20rem] after:-top-[20rem] after:rotate-180 after:pointer-events-none">
+
+  <!-- Wave Border from previous section (white fills the valleys, gold peaks show through) -->
+  <div class="h-6 md:h-8 text-white dark:text-stone-900">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-full h-full">
+      <path d="M0,0 L400,0 L400,10 C400,20 380,0 360,10 C340,20 320,0 300,10 C280,20 260,0 240,10 C220,20 200,0 180,10 C160,20 140,0 120,10 C100,20 80,0 60,10 C40,20 20,0 0,10 Z" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <!-- Community Section -->
+  <section class="community-section py-16 md:py-20 lg:py-24">
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-6 lg:mb-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-8">
+        <a href="/{{ page.lang }}/community/" class="text-stone-900 dark:text-white hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+          {{ home.community.title }}<span class="icon-chevron-right text-3xl md:text-4xl" aria-hidden="true"></span>
+        </a>
+      </h2>
+      <div class="max-w-4xl mx-auto">
+        <p class="text-sm md:text-base text-stone-800 dark:text-stone-200">
+          {{ home.community.description_1 }}<br>
+          {{ home.community.description_2 }}
+        </p>
+      </div>
+    </div>
+
+    <!-- Motto -->
+    <div class="text-center mb-8 lg:mb-10">
+      <p class="text-lg md:text-xl text-ruby-600 dark:text-ruby-500">
+        {{ home.community.motto_prefix }} "<span class="font-bold">{{ home.community.motto_minaswan }}</span>" {{ home.community.motto_separator }} <span class="italic">{{ home.community.motto_translation }}</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- SVG Mask Definition -->
+  <svg width="0" height="0" class="absolute">
+    <defs>
+      <clipPath id="ruby-gem-mask" clipPathUnits="objectBoundingBox" transform="scale(0.005, 0.00556)">
+        <path d="M56.6.55h86.84c6.79,0,13.13,3.39,16.9,9.04l36.26,54.34c5.26,7.89,4.37,18.37-2.15,25.25l-79.68,84.14c-8.01,8.46-21.49,8.46-29.51,0L5.59,89.18c-6.52-6.88-7.41-17.36-2.15-25.25L39.7,9.59C43.47,3.94,49.81.55,56.6.55Z"/>
+      </clipPath>
+    </defs>
+  </svg>
+
+  <!-- Photo Gallery (Full Width) -->
+  {% assign community_photos = site.static_files | where_exp: "file", "file.path contains '/images/home/community/pics/'" | where_exp: "file", "file.extname == '.jpg' or file.extname == '.png' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.PNG' or file.extname == '.JPEG'" %}
+  {% assign photo_count = community_photos | size %}
+  {% assign scroll_duration = photo_count | times: 2.5 %}
+  <div class="relative overflow-hidden mb-6 lg:mb-8 pt-2 h-[170px] 2xl:h-[200px]">
+    <div class="flex gap-6 2xl:gap-8 absolute w-max will-change-transform animate-scroll-left [animation-duration:{{ scroll_duration }}s]">
+      {% for i in (1..2) %}
+        <div class="flex gap-6 2xl:gap-8 flex-shrink-0">
+          {% for photo in community_photos %}
+          <div class="flex-shrink-0 transition-transform duration-300 hover:scale-105 w-[160px] h-[144px] 2xl:w-[200px] 2xl:h-[180px]">
+            <img src="{{ photo.path }}" alt="Ruby Community" class="w-full h-full object-cover" style="clip-path: url(#ruby-gem-mask);" loading="lazy">
+          </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Links -->
+    <div class="flex justify-center">
+      <ul class="list-disc space-y-2 text-sm sm:text-base marker:text-stone-400 dark:marker:text-stone-500">
+        {% for link in home.community.links %}
+        <li>
+          <a href="{% if link.external %}{{ link.url }}{% else %}/{{ page.lang }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank" rel="noopener noreferrer"{% endif %} class="text-stone-900 dark:text-stone-200 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
+            {{ link.text }}{% if link.external %}<span class="icon-external text-sm" aria-hidden="true"></span>{% else %}<span class="icon-chevron-right text-sm" aria-hidden="true"></span>{% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </section>
+
+  <!-- Wave Border to next section -->
+  <div class="absolute -bottom-1 left-0 right-0 h-6 md:h-8 text-white dark:text-stone-900">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 20" preserveAspectRatio="none" class="w-full h-full">
+      <path d="M0,10 C20,0 40,20 60,10 C80,0 100,20 120,10 C140,0 160,20 180,10 C200,0 220,20 240,10 C260,0 280,20 300,10 C320,0 340,20 360,10 C380,0 400,20 400,10 L400,20 L0,20 Z" fill="currentColor"/>
+    </svg>
+  </div>
+
+</div>
