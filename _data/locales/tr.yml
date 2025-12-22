@@ -1,89 +1,153 @@
 ---
-ruby: Ruby
-slogan: BİR PROGRAMCININ EN İYİ ARKADAŞI
 
-sitelinks:
-- text: Ana Sayfa
-  url: /tr
-  home: true
+navigation:
 - text: İndirin
-  url: /tr/downloads
+  url: /tr/documentation/installation/
+  submenu:
+  - text: Installing Ruby
+    url: /tr/documentation/installation/
+  - text: İndirin
+    url: /tr/downloads/
+  - text: Paket Yöneticileri
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: Belgeler
-  url: /tr/documentation
-- text: Kütüphaneler
-  url: /tr/libraries
-- text: Topluluk
-  url: /tr/community
-- text: Haberler
-  url: /tr/news
-- text: Güvenlik
-  url: /tr/security
-- text: Ruby Hakkında
-  url: /tr/about
-
-search:
-  text: Ara
-  cx_id: '011743037637077038592:5tuc9cqilws'
-
-sidebar:
-  get_started:
-    text: <strong>Başlamak</strong>, çok kolay!
-    try_ruby:
-      text: Ruby'yi Deneyin! (tarayıcınızda)
+  url: /tr/documentation/
+  submenu:
+  - text: Belgeler
+    url: /tr/documentation/
+  - text: Ruby Hakkında
+    url: /tr/about/
+  - text: Yirmi Dakikada Ruby
+    url: /tr/documentation/quickstart/
+  - text: Diğer Dillerden Ruby'ye
+    url: /tr/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C ve C++ dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Java'dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Perl'den Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHP'den Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Python'dan Ruby'ye
+      url: /tr/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Başlamak & Keşfedin
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: Yirmi Dakikada Ruby
-      url: /tr/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Diğer Dillerden Ruby'ye
-      url: /tr/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Yeni Bir Dünya</strong> keşfedin…
-    documentation:
-      text: Belgeler
-      url: /tr/documentation/
-    # books:
-    #   text: Kitaplar
-    rubybib:
-      text: Akademik Araştırma
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
       url: https://rubybib.org/
-    libraries:
-      text: Kütüphaneler
-      url: /tr/libraries/
-    success_stories:
-      text: Başarı Hikayeleri
-      url: /tr/documentation/success-stories/
-  participate:
-    text: <strong>Arkadaşça</strong> ve büyüyen bir topluluğa katılın.
-    mailing_lists:
-      text: Mail Listeleri
-      url: /tr/community/mailing-lists/
-      description: Tüm dünyadan Ruby programcılarıyla görüşün.
-    user_groups:
-      text: Kullanıcı Grupları
-      url: /tr/community/user-groups/
-      description: Bölgenizdeki Ruby'cilerle temas kurun.
-    weblogs:
-      text: Web günlükleri
-      url: /tr/community/weblogs/
-      description: Ruby'de neler olduğunu takip edin.
-    ruby_core:
-      text: Ruby Core
-      url: /tr/community/ruby-core/
-      description: En son Ruby'nin kaba taraflarının parlatılmasına yardımcı
-        olun.
-    issue_tracking:
-      text: Sorun Takibi
+      external: true
+- text: Kütüphaneler
+  url: /tr/libraries/
+  submenu:
+  - text: Kütüphaneler
+    url: /tr/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Popüler Gem'ler
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Katkıda Bulunun
+  url: /tr/community/ruby-core/
+  submenu:
+  - text: Ruby Core Geliştirme
+    url: /tr/community/ruby-core/
+  - text: Depo Rehberi
+    url: /tr/documentation/repository-guide/
+  - text: Mail Listeleri
+    url: /tr/community/mailing-lists/
+  - text: E-posta Listesi Yönergeleri
+    url: /tr/community/mailing-lists/ruby-talk-guidelines/
+  - text: Yama Yazma Kılavuzu
+    url: /tr/community/ruby-core/writing-patches/
+  - text: Diğer
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: Ruby sorunlarını rapor edin ya da çözümüne yardım edin.
-  syndicate:
-    text: Takip Edin
-    recent_news:
-      text: Son Haberler (RSS)
-      url: /tr/feeds/news.rss
+      external: true
+- text: Topluluk
+  url: /tr/community/
+  submenu:
+  - text: Topluluk
+    url: /tr/community/
+  - text: Kullanıcı Grupları
+    url: /tr/community/user-groups/
+  - text: Web günlükleri
+    url: /tr/community/weblogs/
+  - text: Podcast'ler
+    url: /tr/community/podcasts/
+  - text: Davranış Yönergesi
+    url: /tr/conduct/
+  - text: Etkinlikler ve Konferanslar
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: Haberler
+  url: /tr/news/
+  submenu:
+  - text: Haberler
+    url: /tr/news/
+  - text: Güvenlik
+    url: /tr/security/
+
+syndicate:
+  text: Takip Edin
+  recent_news:
+    text: Son Haberler (RSS)
+    url: /tr/feeds/news.rss
 
 languages_heading: 'Diğer dillerde bu site:'
 
+toc:
+  heading: İçindekiler
 credits:
   <a href="/tr/about/website/">Bu web sitesi</a>
   Ruby topluluğunun üyeleri tarafından gururla sürdürülmektedir.
@@ -122,3 +186,31 @@ news:
   monthly_archives: Aylara göre Arşivler
   yearly_archive_link: "%Y Arşivleri"
   monthly_archive_link: "%B %Y"
+  select_year: "--- Yıl seçin ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Mail Listeleri
+      url: /tr/community/mailing-lists/
+    security:
+      text: Güvenlik
+      url: /tr/security/
+    about_website:
+      text: Bu Web Sitesi Hakkında
+      url: /tr/about/website/
+    logo_page:
+      text: Logo hakkında
+      url: /tr/about/logo/
+    news_rss:
+      text: Haberler RSS
+      url: /tr/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

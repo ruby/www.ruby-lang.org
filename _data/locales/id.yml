@@ -1,88 +1,147 @@
 ---
-ruby: Ruby
-slogan: Sahabat Terbaik Programmer
 
-sitelinks:
-- text: Beranda
-  url: /id
-  home: true
+navigation:
 - text: Unduh
-  url: /id/downloads
+  url: /id/documentation/installation/
+  submenu:
+  - text: Installing Ruby
+    url: /id/documentation/installation/
+  - text: Unduh
+    url: /id/downloads/
+  - text: Manajer Paket
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: Dokumentasi
-  url: /id/documentation
-- text: Pustaka
-  url: /id/libraries
-- text: Komunitas
-  url: /id/community
-- text: Berita
-  url: /id/news
-- text: Keamanan
-  url: /id/security
-- text: Tentang Ruby
-  url: /id/about
-
-search:
-  text: Cari
-
-sidebar:
-  get_started:
-    text: <strong>Coba Sekarang</strong>, sangat mudah!
-    try_ruby:
-      text: Try Ruby! (langsung di browser Anda)
+  url: /id/documentation/
+  submenu:
+  - text: Dokumentasi
+    url: /id/documentation/
+  - text: Tentang Ruby
+    url: /id/about/
+  - text: Menguasai Ruby dalam 20 Menit
+    url: /id/documentation/quickstart/
+  - text: Dari Bahasa Pemrograman Lain ke Ruby
+    url: /id/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Dari C dan C++ ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Dari Java ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Dari Perl ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Dari PHP ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Dari Python ke Ruby
+      url: /id/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Coba Sekarang & Jelajahi
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: Menguasai Ruby dalam 20 Menit
-      url: /id/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Dari Bahasa Pemrograman Lain ke Ruby
-      url: /id/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Jelajahi</strong> sebuah dunia baru…
-    documentation:
-      text: Dokumentasi
-      url: /id/documentation/
-    # books:
-    #   text: Buku-buku
-    rubybib:
-      text: Penelitian Akademis
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
       url: https://rubybib.org/
-    libraries:
-      text: Pustaka
-      url: /id/libraries/
-    success_stories:
-      text: Kisah Sukses
-      url: /id/documentation/success-stories/
-  participate:
-    text: <strong>Bergabunglah</strong> dalam komunitas yang ramah dan makin berkembang.
-    mailing_lists:
-      text: Mailing List
-      url: /id/community/mailing-lists/
-      description: Berdiskusi dengan programmer Ruby dari Indonesia dan
-        seluruh dunia.
-    user_groups:
-      text: Komunitas Pengguna
-      url: /id/community/user-groups/
-      description: Berpartisipasilah dengan Rubyist di lokasi Anda.
-    weblogs:
-      text: Blog
-      url: /id/community/weblogs/
-      description: Ulasan terbaru dari komunitas Ruby.
-    ruby_core:
-      text: Ruby Core
-      url: /id/community/ruby-core/
-      description: Silakan berkontribusi untuk versi Ruby terbaru.
-    issue_tracking:
-      text: Laporkan Masalah
+      external: true
+- text: Pustaka
+  url: /id/libraries/
+  submenu:
+  - text: Pustaka
+    url: /id/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Gem Populer
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Kontribusi
+  url: /id/community/ruby-core/
+  submenu:
+  - text: Pengembangan Ruby Core
+    url: /id/community/ruby-core/
+  - text: Panduan Repositori
+    url: /id/documentation/repository-guide/
+  - text: Mailing List
+    url: /id/community/mailing-lists/
+  - text: Lainnya
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: Lapor atau bantu memecahkan masalah yang ada di Ruby.
-  syndicate:
-    text: Sindikasi Web
-    recent_news:
-      text: Umpan Web (RSS)
-      url: /id/feeds/news.rss
+      external: true
+- text: Komunitas
+  url: /id/community/
+  submenu:
+  - text: Komunitas
+    url: /id/community/
+  - text: Komunitas Pengguna
+    url: /id/community/user-groups/
+  - text: Blog
+    url: /id/community/weblogs/
+  - text: Podcast
+    url: /id/community/podcasts/
+  - text: Acara & Konferensi
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: Berita
+  url: /id/news/
+  submenu:
+  - text: Berita
+    url: /id/news/
+  - text: Keamanan
+    url: /id/security/
+
+syndicate:
+  text: Sindikasi Web
+  recent_news:
+    text: Umpan Web (RSS)
+    url: /id/feeds/news.rss
 
 languages_heading: 'Situs ini dalam bahasa lain:'
 
+toc:
+  heading: Daftar Isi
 credits:
   <a href="/id/about/website/">Situs ini</a>
   dengan bangga dirawat oleh anggota komunitas Ruby.
@@ -121,3 +180,31 @@ news:
   monthly_archives: Arsip Bulanan
   yearly_archive_link: Tahun %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Pilih Tahun ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Mailing List
+      url: /id/community/mailing-lists/
+    security:
+      text: Keamanan
+      url: /id/security/
+    about_website:
+      text: Tentang Situs Web Ini
+      url: /id/about/website/
+    logo_page:
+      text: Tentang logo
+      url: /id/about/logo/
+    news_rss:
+      text: Berita RSS
+      url: /id/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

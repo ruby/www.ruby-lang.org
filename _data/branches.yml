@@ -13,11 +13,6 @@
   date:
   eol_date:
 
-- name: 3.5
-  status: preview
-  date:
-  eol_date:
-
 - name: 3.4
   status: normal maintenance
   date: 2024-12-25
