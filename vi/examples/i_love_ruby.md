@@ -8,7 +8,7 @@ nói = "I love Ruby"
 puts nói
 
 # In ra "I *LOVE* RUBY"
-nói['love'] = "*love*"
+nói = nói.sub("love", "*love*")
 puts nói.upcase
 
 # In ra "I *love* Ruby" 5 lần

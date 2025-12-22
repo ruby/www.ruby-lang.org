@@ -1,0 +1,119 @@
+/* CSS variables for colors (light and dark modes) */
+
+/* Light mode (default) */
+:root {
+  /* Ruby color palette */
+  --color-ruby-50: #fdeae9;   /* ruby-90 */
+  --color-ruby-100: #fadad3;  /* ruby-80 */
+  --color-ruby-200: #f8bfbd;  /* ruby-70 */
+  --color-ruby-300: #f5a9a7;  /* ruby-60 */
+  --color-ruby-400: #f07f7b;  /* ruby-50 */
+  --color-ruby-500: #eb544f;  /* ruby-40 */
+  --color-ruby-600: #e62923;  /* ruby-30 */
+  --color-ruby-700: #b8211c;  /* ruby-20 */
+  --color-ruby-800: #8a1915;  /* ruby-10 */
+  --color-ruby-900: #5c100e;  /* ruby-5 */
+
+  /* Gold color palette */
+  --color-gold-50: #FAF7F1;
+  --color-gold-100: #F6F3EB;
+  --color-gold-150: #F1EEE4;
+  --color-gold-200: #EDE9DD;
+  --color-gold-300: #ebe5d5;
+  --color-gold-400: #E2D1AA;
+  --color-gold-500: #D8C28E;
+  --color-gold-600: #CEB372;
+  --color-gold-700: #A8925C;
+  --color-gold-800: #837147;
+  --color-gold-900: #5D5131;
+  /* Code highlighting colors */
+  --code-blue: #1d4ed8;
+  --code-green: #047857;
+  --code-orange: #d97706;
+  --code-purple: #7e22ce;
+  --code-red: #dc2626;
+
+  /* Background colors */
+  --color-background-default: #ffffff;
+  --color-background-subtle: #f3f4f6;
+  --color-background-subtler: #e5e7eb;
+  --color-background-primary-action-enabled: #e62923;
+  --color-background-primary-action-hovered: #b8211c;
+  --color-background-primary-action-pressed: #8a1915;
+  --color-background-secondary-action-enabled: #f9fafb;
+  --color-background-secondary-action-hovered: #f3f4f6;
+  --color-background-secondary-action-pressed: #e5e7eb;
+
+  /* Border colors */
+  --color-border-bold: #374151;
+  --color-border-default: #111827;
+  --color-border-inverse: #f9fafb;
+  --color-border-subtle: #d1d5db;
+  --color-border-primary-action-focused: #e62923;
+  --color-border-secondary-action-enabled: #9ca3af;
+  --color-border-secondary-action-focused: #374151;
+
+  /* Text colors */
+  --color-text-danger: #dc2626;
+  --color-text-default: #111827;
+  --color-text-hovered: #e62923;
+  --color-text-link: #e62923;
+  --color-text-link-hovered: #b8211c;
+  --color-text-primary: #e62923;
+  --color-text-primary-action: #ffffff;
+  --color-text-secondary: #ccb758;
+  --color-text-secondary-action: #111827;
+  --color-text-subtle: #78716c;
+  --color-text-subtler: #a8a29e;
+  --color-text-success: #047857;
+
+  /* Icon colors */
+  --color-icon-default: #78716c;
+}
+
+/* Dark mode */
+.dark {
+  /* Code highlighting colors */
+  --code-blue: #60a5fa;
+  --code-green: #34d399;
+  --code-orange: #fbbf24;
+  --code-purple: #c084fc;
+  --code-red: #f87171;
+
+  /* Background colors */
+  --color-background-default: #111827;
+  --color-background-subtle: #1f2937;
+  --color-background-subtler: #374151;
+  --color-background-primary-action-enabled: #eb544f;
+  --color-background-primary-action-hovered: #f07f7b;
+  --color-background-primary-action-pressed: #f5a9a7;
+  --color-background-secondary-action-enabled: #111827;
+  --color-background-secondary-action-hovered: #1f2937;
+  --color-background-secondary-action-pressed: #374151;
+
+  /* Border colors */
+  --color-border-bold: #f3f4f6;
+  --color-border-default: #4b5563;
+  --color-border-inverse: #111827;
+  --color-border-subtle: #374151;
+  --color-border-primary-action-focused: #b8211c;
+  --color-border-secondary-action-enabled: #4b5563;
+  --color-border-secondary-action-focused: #f3f4f6;
+
+  /* Text colors */
+  --color-text-danger: #f87171;
+  --color-text-default: #ffffff;
+  --color-text-hovered: #eb544f;
+  --color-text-link: #eb544f;
+  --color-text-link-hovered: #f07f7b;
+  --color-text-primary: #eb544f;
+  --color-text-primary-action: #ffffff;
+  --color-text-secondary: #e1c95d;
+  --color-text-secondary-action: #f9fafb;
+  --color-text-subtle: #e7e5e4;
+  --color-text-subtler: #a8a29e;
+  --color-text-success: #34d399;
+
+  /* Icon colors */
+  --color-icon-default: #a8a29e;
+}

@@ -25,7 +25,7 @@ module Jekyll
                     format = @context.registers[:site].data["locales"][lang]["posted_by"] ||
                              @context.registers[:site].data["locales"]["en"]["posted_by"]
 
-                    format.gsub("AUTHOR", author)
+                    format.gsub("AUTHOR", "<strong>#{author}</strong>")
                   end
 
       if date.respond_to?(:strftime)
