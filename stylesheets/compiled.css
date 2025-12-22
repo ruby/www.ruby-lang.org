@@ -1944,19 +1944,19 @@ video {
   display: none;
 }
 
- html:lang(zh-Hans) body {
+body:lang(zh-Hans) {
   font-family: "Plus Jakarta Sans", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
- html:lang(zh-TW) body {
+body:lang(zh-TW) {
   font-family: "Plus Jakarta Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
- html:lang(ko) body {
+body:lang(ko) {
   font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
- html:lang(ja) body {
+body:lang(ja) {
   font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -1978,19 +1978,19 @@ body:is(.dark *){
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
 }
 
-:root:lang(zh-CN), body:lang(zh-CN), html:lang(zh-Hans) .font-default {
+:root:lang(zh-CN), body:lang(zh-CN), .font-default:lang(zh-Hans) {
   font-family: "Plus Jakarta Sans", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-:root:lang(zh-TW), html:lang(zh-TW) .font-default {
+:root:lang(zh-TW), body:lang(zh-TW), .font-default:lang(zh-TW) {
   font-family: "Plus Jakarta Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-:root:lang(ko), html:lang(ko) .font-default {
+:root:lang(ko), body:lang(ko), .font-default:lang(ko) {
   font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-:root:lang(ja), html:lang(ja) .font-default {
+:root:lang(ja), body:lang(ja), .font-default:lang(ja) {
   font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
