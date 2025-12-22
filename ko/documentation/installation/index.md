@@ -227,7 +227,7 @@ $ pkg install runtime/ruby
 Windows에서 [Windows 패키지 관리자 CLI](https://github.com/microsoft/winget-cli)를
 사용해서 Ruby를 설치할 수 있습니다.
 
-{% highlight ps1 %}
+{% highlight powershell %}
 > winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
 # 예시
 > winget install RubyInstallerTeam.Ruby.3.2
