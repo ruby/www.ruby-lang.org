@@ -40,7 +40,7 @@ header: |
 ### How can I use Ruby interactively?
 {: #irb}
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 You can try using `irb`. The following is paraphrased from Kentaro Goto
 (Gotoken), and originally appeared in [\[ruby-talk:444\]][ruby-talk:444].
@@ -107,7 +107,7 @@ and at the various supplied extensions in the `ext/` directory
 
 ### Can I use Tcl/Tk in Ruby?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 There are two interfaces to Tcl/Tk included in the standard distribution.
 One is under `ext/tcltk/` and loaded with `require "tcltk"`. The syntax is
@@ -120,20 +120,20 @@ interfaces.
 
 ### Tk won't work. Why?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Your Tk version may be old, try a newer version.
 
 ### Can I use gtk+ or xforms interfaces in Ruby?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 You will find `ruby-gtk-x.xx.tar.gz` and `ruby-forms-x.x.tar.gz`
 under `contrib/` on the Ruby ftp sites.
 
 ### How can I do date arithmetic?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 A `Time` object can express only the dates between Jan 1, 1970 and
 Jan 19, 2038.

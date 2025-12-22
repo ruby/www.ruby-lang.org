@@ -244,7 +244,7 @@ We've customized `foo` without changing the characteristics of `Foo`.
 
 ### What is a module function?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 A module function is a private, singleton method defined in a module.
 In effect, it is similar to a [class method](#class-method),
@@ -364,7 +364,7 @@ as the constants are within scope. At the top level, you have to use the
 
 ### What is the difference between `include` and `extend`?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 `include` mixes a module into a class or another module. Methods from that
 module are called function-style (without a receiver).

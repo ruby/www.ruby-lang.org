@@ -1,0 +1,51 @@
+{% comment %}
+  Side navigation component
+  Displays contextual navigation based on current page section
+{% endcomment %}
+
+{% comment %}Load locale data{% endcomment %}
+{% if site.data.locales[page.lang].navigation %}
+  {% assign nav_items = site.data.locales[page.lang].navigation %}
+{% else %}
+  {% assign nav_items = site.data.locales['en'].navigation %}
+{% endif %}
+
+{% if site.data.locales[page.lang].syndicate %}
+  {% assign syndicate = site.data.locales[page.lang].syndicate %}
+{% else %}
+  {% assign syndicate = site.data.locales['en'].syndicate %}
+{% endif %}
+
+{% comment %}Detect current section{% endcomment %}
+{% include nav_helpers/detect_section.html %}
+
+{% comment %}Render appropriate navigation based on section{% endcomment %}
+{% comment %}Standard hierarchical navigation{% endcomment %}
+{% comment %}Find submenu for current section{% endcomment %}
+{% include nav_helpers/find_submenu.html nav_section=nav_section nav_items=nav_items %}
+
+<div class="md:bg-transparent md:dark:bg-transparent md:p-0 md:border-0">
+  {% comment %}Section title (desktop only){% endcomment %}
+  <div class="mb-1 hidden md:block border-b border-stone-200 dark:border-stone-700 pb-3">
+    <h3 class="text-xs font-semibold text-stone-500 dark:text-stone-400">{{ current_section_title }}</h3>
+  </div>
+
+  {% comment %}Render navigation menu{% endcomment %}
+  <nav class="space-y-0">
+    {% for subitem in current_section_submenu %}
+      {% include nav_helpers/render_submenu.html subitem=subitem is_first=forloop.first %}
+    {% endfor %}
+  </nav>
+
+  {% comment %}RSS link{% endcomment %}
+  {% if syndicate and syndicate.recent_news %}
+  <div class="pt-6">
+    <p class="pl-1">
+      <a href="{{ syndicate.recent_news.url }}" target="_blank" rel="noopener noreferrer" class="text-sm font-normal text-stone-900 dark:text-stone-100 hover:text-semantic-text-link-hovered dark:hover:text-ruby-400 transition-colors inline-flex items-center gap-1">
+        <span class="icon-rss-feed" aria-hidden="true"></span>
+        {{ syndicate.recent_news.text }}<span class="icon-external text-xs" aria-hidden="true"></span>
+      </a>
+    </p>
+  </div>
+  {% endif %}
+</div>

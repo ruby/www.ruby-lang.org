@@ -1,0 +1,23 @@
+{% comment %}
+  Helper to detect the current navigation section from page URL
+  Sets: nav_section variable
+{% endcomment %}
+
+{% assign nav_section = nil %}
+
+{% comment %}Check URL patterns - order matters, most specific first{% endcomment %}
+{% if page.url contains '/news/' %}
+  {% assign nav_section = 'news' %}
+{% elsif page.url contains '/security/' %}
+  {% assign nav_section = 'news' %}
+{% elsif page.url contains '/downloads/' or page.url contains '/documentation/installation/' %}
+  {% assign nav_section = 'install' %}
+{% elsif page.url contains '/dev/' or page.url contains '/documentation/repository-guide/' or page.url contains '/community/mailing-lists/' or page.url contains '/community/ruby-core/' %}
+  {% assign nav_section = 'contribution' %}
+{% elsif page.url contains '/documentation/' or page.url contains '/about/' %}
+  {% assign nav_section = 'documentation' %}
+{% elsif page.url contains '/libraries/' %}
+  {% assign nav_section = 'libraries' %}
+{% elsif page.url contains '/community/' or page.url contains '/conduct/' %}
+  {% assign nav_section = 'community' %}
+{% endif %}

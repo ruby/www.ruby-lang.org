@@ -1,85 +1,145 @@
 ---
-ruby: Ruby
-slogan: Il migliore amico dei programmatori
 
-sitelinks:
-- text: Home
-  url: /it
-  home: true
+navigation:
 - text: Scarica
-  url: /it/downloads
+  url: /it/documentation/installation/
+  submenu:
+  - text: Installare Ruby
+    url: /it/documentation/installation/
+  - text: Scarica
+    url: /it/downloads/
+  - text: Gestori di Pacchetti
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: Documentazione
-  url: /it/documentation
-- text: Librerie
-  url: /it/libraries
-- text: Comunità
-  url: /it/community
-- text: Notizie
-  url: /it/news
-- text: Sicurezza
-  url: /it/security
-- text: A proposito di Ruby
-  url: /it/about
-
-search:
-  text: Cerca
-
-sidebar:
-  get_started:
-    text: <strong>Per iniziare</strong>, è facile!
-    try_ruby:
-      text: Prova Ruby! (nel tuo browser)
+  url: /it/documentation/
+  submenu:
+  - text: Documentazione
+    url: /it/documentation/
+  - text: A proposito di Ruby
+    url: /it/about/
+  - text: Ruby in venti minuti
+    url: /it/documentation/quickstart/
+  - text: Ruby a partire da altri linguaggi
+    url: /it/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Da C/C++ a Ruby
+      url: /it/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Da Java a Ruby
+      url: /it/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Da Perl a Ruby
+      url: /it/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Da PHP a Ruby
+      url: /it/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Da Python a Ruby
+      url: /it/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Per iniziare & Esplora
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby in venti minuti
-      url: /it/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby a partire da altri linguaggi
-      url: /it/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Esplora</strong> un nuovo mondo…
-    documentation:
-      text: Documentazione
-      url: /it/documentation/
-    # books:
-    #   text: Libri
-    libraries:
-      text: Librerie
-      url: /it/libraries/
-    success_stories:
-      text: Esperienze Positive
-      url: /it/documentation/success-stories/
-  participate:
-    text: <strong>Partecipa</strong> ad una comunità amichevole e in crescita.
-    mailing_lists:
-      text: Liste di Discussione
-      url: /it/community/mailing-lists/
-      description: Parla con altri programmatori Ruby da tutto il mondo.
-    user_groups:
-      text: Gruppi di Utenti
-      url: /it/community/user-groups/
-      description: Entra in contatto con "Rubysti" nella tua zona.
-    weblogs:
-      text: Blog
-      url: /it/community/weblogs/
-      description: Leggi cosa sta succedendo proprio adesso nella comunità
-        di Ruby.
-    ruby_core:
-      text: Ruby Core
-      url: /it/community/ruby-core/
-      description: Aiutaci a perfezionare l'ultimo Ruby.
-    issue_tracking:
-      text: Issue Tracking
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Librerie
+  url: /it/libraries/
+  submenu:
+  - text: Librerie
+    url: /it/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Gem Popolari
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Contribuire
+  url: /it/community/ruby-core/
+  submenu:
+  - text: Sviluppo di Ruby Core
+    url: /it/community/ruby-core/
+  - text: Guida al repository
+    url: /it/documentation/repository-guide/
+  - text: Liste di Discussione
+    url: /it/community/mailing-lists/
+  - text: Altri
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: Segnalaci o aiutaci a risolvere problemi in Ruby
-  syndicate:
-    text: Feed RSS
-    recent_news:
-      text: Ultime Notizie (RSS)
-      url: /it/feeds/news.rss
+      external: true
+- text: Comunità
+  url: /it/community/
+  submenu:
+  - text: Comunità
+    url: /it/community/
+  - text: Gruppi di Utenti
+    url: /it/community/user-groups/
+  - text: Blog
+    url: /it/community/weblogs/
+  - text: Eventi e Conferenze
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: Notizie
+  url: /it/news/
+  submenu:
+  - text: Notizie
+    url: /it/news/
+  - text: Sicurezza
+    url: /it/security/
+
+syndicate:
+  text: Feed RSS
+  recent_news:
+    text: Ultime Notizie (RSS)
+    url: /it/feeds/news.rss
 
 languages_heading: 'Questo sito in altre lingue:'
 
+toc:
+  heading: Indice
 credits:
   <a href="/it/about/website/">Questo sito web</a>
   è mantenuto con orgoglio dai membri della comunità Ruby.
@@ -118,3 +178,31 @@ news:
   monthly_archives: Archivio Mensile
   yearly_archive_link: Archivio dell'anno %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Seleziona un anno ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Liste di Discussione
+      url: /it/community/mailing-lists/
+    security:
+      text: Sicurezza
+      url: /it/security/
+    about_website:
+      text: Informazioni su questo sito web
+      url: /it/about/website/
+    logo_page:
+      text: Informazioni sul logo
+      url: /it/about/logo/
+    news_rss:
+      text: Notizie RSS
+      url: /it/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

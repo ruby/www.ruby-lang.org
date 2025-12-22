@@ -113,3 +113,10 @@ Ruby {{ release.version }} が公開されました。Ruby 4.0では、Unicode�
 ## What is Ruby
 
 Rubyはまつもとゆきひろ (Matz) によって1993年に開発が始められ、今もオープンソースソフトウェアとして開発が続けられています。Rubyは様々なプラットフォームで動き、世界中で、特にWebアプリケーション開発のために使われています。
+
+[Feature #21047]: https://bugs.ruby-lang.org/issues/21047
+[Bug #21049]: https://bugs.ruby-lang.org/issues/21049
+[Feature #20610]: https://bugs.ruby-lang.org/issues/20610
+[Feature #19908]: https://bugs.ruby-lang.org/issues/19908
+[Feature #20724]: https://bugs.ruby-lang.org/issues/20724
+[Feature #21275]: https://bugs.ruby-lang.org/issues/21275

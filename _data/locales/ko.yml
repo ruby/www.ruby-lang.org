@@ -1,87 +1,159 @@
 ---
-ruby: Ruby
-slogan: 프로그래머의 단짝 친구
 
-sitelinks:
-- text: 홈
-  url: /ko
-  home: true
+navigation:
 - text: 다운로드
-  url: /ko/downloads
+  url: /ko/documentation/installation/
+  submenu:
+  - text: Ruby 설치
+    url: /ko/documentation/installation/
+  - text: 다운로드
+    url: /ko/downloads/
+  - text: 릴리스
+    url: /ko/downloads/releases/
+  - text: 브랜치
+    url: /ko/downloads/branches/
+  - text: 패키지 관리자
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: 문서
-  url: /ko/documentation
-- text: 라이브러리
-  url: /ko/libraries
-- text: 커뮤니티
-  url: /ko/community
-- text: 뉴스
-  url: /ko/news
-- text: 보안
-  url: /ko/security
-- text: Ruby에 대해서
-  url: /ko/about
-
-search:
-  text: 찾기
-
-sidebar:
-  get_started:
-    text: <strong>시작하기</strong>
-    try_ruby:
-      text: Try Ruby!
+  url: /ko/documentation/
+  submenu:
+  - text: 문서
+    url: /ko/documentation/
+  - text: Ruby에 대해서
+    url: /ko/about/
+  - text: 20분 가이드
+    url: /ko/documentation/quickstart/
+  - text: 다른 언어에서 Ruby로
+    url: /ko/documentation/ruby-from-other-languages/
+    submenu:
+    - text: C나 C++에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Java에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Perl에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: PHP에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Python에서 Ruby로
+      url: /ko/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: FAQ
+    url: /ko/documentation/faq/
+  - text: 시작하기 & 탐색하기
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: 20분 가이드
-      url: /ko/documentation/quickstart/
-    ruby_from_other_languages:
-      text: 다른 언어에서 Ruby로
-      url: /ko/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>탐색하기</strong>
-    documentation:
-      text: 문서
-      url: /ko/documentation/
-    # books:
-    #   text: 책
-    rubybib:
-      text: 학술 연구
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
       url: https://rubybib.org/
-    libraries:
-      text: 라이브러리
-      url: /ko/libraries/
-    success_stories:
-      text: 사용 사례
-      url: /ko/documentation/success-stories/
-  participate:
-    text: <strong>커뮤니티에 참여하기</strong>
-    mailing_lists:
-      text: 메일링 리스트
-      url: /ko/community/mailing-lists/
-      description: 전 세계의 프로그래머와 Ruby와 관련된 대화를 나누기
-    user_groups:
-      text: 유저 그룹
-      url: /ko/community/user-groups/
-      description: 근처의 루비스트와 연락하기
-    weblogs:
-      text: 블로그와 뉴스레터
-      url: /ko/community/weblogs/
-      description: Ruby 커뮤니티에서 지금 무슨 일이 일어나는지 읽기
-    ruby_core:
-      text: Ruby 코어
-      url: /ko/community/ruby-core/
-      description: 최신 버전 Ruby의 연마를 돕기
-    issue_tracking:
-      text: 이슈 관리
+      external: true
+- text: 라이브러리
+  url: /ko/libraries/
+  submenu:
+  - text: 라이브러리
+    url: /ko/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 인기 Gem
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: 기여하기
+  url: /ko/community/ruby-core/
+  submenu:
+  - text: Ruby 코어 개발
+    url: /ko/community/ruby-core/
+  - text: 저장소 가이드
+    url: /ko/documentation/repository-guide/
+  - text: 메일링 리스트
+    url: /ko/community/mailing-lists/
+  - text: 메일링 리스트 가이드라인
+    url: /ko/community/mailing-lists/ruby-talk-guidelines/
+  - text: 패치 작성 가이드
+    url: /ko/community/ruby-core/writing-patches/
+  - text: 기타
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: Ruby에 관한 이슈를 제보하거나 해결을 돕기
-  syndicate:
-    text: 구독
-    recent_news:
-      text: 최근 소식(RSS)
-      url: /ko/feeds/news.rss
+      external: true
+- text: 커뮤니티
+  url: /ko/community/
+  submenu:
+  - text: 커뮤니티
+    url: /ko/community/
+  - text: 유저 그룹
+    url: /ko/community/user-groups/
+  - text: 블로그와 뉴스레터
+    url: /ko/community/weblogs/
+  - text: 팟캐스트
+    url: /ko/community/podcasts/
+  - text: 행동 지침
+    url: /ko/conduct/
+  - text: 이벤트 & 컨퍼런스
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: 뉴스
+  url: /ko/news/
+  submenu:
+  - text: 뉴스
+    url: /ko/news/
+  - text: 보안
+    url: /ko/security/
+
+syndicate:
+  text: 구독
+  recent_news:
+    text: 최근 소식(RSS)
+    url: /ko/feeds/news.rss
 
 languages_heading:
 
+toc:
+  heading: 목차
 credits:
   <a href="/ko/about/website/">이 사이트</a>는 Ruby 커뮤니티의 구성원들이 직접 관리합니다.
 
@@ -107,3 +179,31 @@ news:
   monthly_archives: 월별 아카이브
   yearly_archive_link: "%Y년"
   monthly_archive_link: "%Y년 %m월"
+  select_year: "--- 연도 선택 ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: 메일링 리스트
+      url: /ko/community/mailing-lists/
+    security:
+      text: 보안
+      url: /ko/security/
+    about_website:
+      text: 이 웹사이트에 대해서
+      url: /ko/about/website/
+    logo_page:
+      text: 로고 정보
+      url: /ko/about/logo/
+    news_rss:
+      text: 뉴스 RSS
+      url: /ko/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt
