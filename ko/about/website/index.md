@@ -7,8 +7,17 @@ lang: ko
 이 웹 사이트는 Ruby와 [Jekyll][jekyll]로 생성되었고,<br>
 소스코드는 [GitHub][github-repo]에서 호스트 됩니다.
 
-이 사이트는 Ruby Visual Identity 팀의 이전 디자인을 기초로
+## 디자인
+
+현재 비주얼 디자인은 [Taeko Akatsuka][akatsuka] 님이 담당했습니다.
+2025년 12월에 사이트가 리뉴얼되었습니다.
+
+2025년 12월 이전의 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
+
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="이전 ruby-lang.org 디자인" width="400" style="border: 1px solid #d6d3d1;" />
+
+## 로고
 
 [Ruby 로고][logo]의 저작권은 &copy; 2006, 마츠모토
 유키히로에게 있습니다.
@@ -36,54 +45,50 @@ lang: ko
 
 지원해주신 단체들에게도 감사드립니다.
 
-[Ruby Association][rubyassociation] (호스팅)
-
-<img src="../../../images/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
-
-[Ruby no Kai][rubynokai] (빌드 서버)
-
-<img src="../../../images/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
-
-[AWS][aws] (호스팅)
-
-<img src="../../../images/sponsor/aws.png" alt="AWS" width="200" height="120" />
-
-[Heroku][heroku] (호스팅)
-
-<img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
-
-[IBM][ibm] (호스팅)
-
-[Fastly][fastly] (CDN)
-
-<img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
-
-[Hatena][hatena] ([mackerel][mackerel], 서버 모니터링)
-
-<img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
-
-[Datadog][datadog] (서버 모니터링)
-
-<img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
-
-[1Password][1password] (비밀번호 관리자)
-
-<img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
+<table class="not-prose sponsor-table">
+  <tr>
+    <td><a href="http://www.ruby.or.jp">Ruby Association</a> (호스팅)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/ra.png" alt="Ruby Association" /></td>
+  </tr>
+  <tr>
+    <td><a href="http://ruby-no-kai.org/">Ruby no Kai</a> (빌드 서버)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/ruby-no-kai.png" alt="Ruby no Kai" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://aws.amazon.com/">AWS</a> (호스팅)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/aws.png" alt="AWS" style="width: 150px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.heroku.com/">Heroku</a> (호스팅)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/heroku.png" alt="Heroku" style="width: 100px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ibm.com/">IBM</a> (호스팅)</td>
+    <td class="sponsor-logo"></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.fastly.com">Fastly</a> (CDN)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/fastly.png" alt="Fastly" style="width: 200px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="http://hatenacorp.jp/">Hatena</a> (<a href="https://mackerel.io/">Mackerel</a>, 서버 모니터링)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/mackerel.png" alt="Mackerel" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.datadoghq.com/">Datadog</a> (서버 모니터링)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 120px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://1password.com/">1Password</a> (비밀번호 관리자)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/1password.png" alt="1Password" style="width: 250px;" /></td>
+  </tr>
+</table>
 
 [logo]: /ko/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
+[akatsuka]: https://x.com/ken_c_lo
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[rubyassociation]: http://www.ruby.or.jp
-[heroku]: https://www.heroku.com/
-[ibm]: https://www.ibm.com
-[fastly]: http://www.fastly.com
-[hatena]: http://hatenacorp.jp/
-[mackerel]: https://mackerel.io/
-[rubynokai]: http://ruby-no-kai.org/
-[aws]: https://aws.amazon.com/
-[datadog]: https://www.datadoghq.com/
-[1password]: https://1password.com/

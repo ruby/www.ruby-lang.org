@@ -319,7 +319,7 @@ with a `\n`, otherwise it matches at the end of a string.
 
 ### What is the difference between `thread` and `fork`?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby threads are implemented within the interpreter, while `fork` invokes the
 operating system to create a separately executing subprocess.

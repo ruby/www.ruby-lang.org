@@ -1,90 +1,148 @@
 ---
-ruby: Ruby
-slogan: Người bạn tri kỉ của lập trình viên
 
-sitelinks:
-- text: Home
-  url: /vi
-  home: true
+navigation:
 - text: Downloads
-  url: /vi/downloads
+  url: /vi/documentation/installation/
+  submenu:
+  - text: Installing Ruby
+    url: /vi/documentation/installation/
+  - text: Downloads
+    url: /vi/downloads/
+  - text: Trình quản lý gói
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: Tài liệu
-  url: /vi/documentation
-- text: Thư viện
-  url: /vi/libraries
-- text: Cộng đồng
-  url: /vi/community
-- text: Tin tức
-  url: /vi/news
-- text: Bảo mật
-  url: /vi/security
-- text: Về Ruby
-  url: /vi/about
-
-search:
-  text: Tìm
-
-sidebar:
-  get_started:
-    text: <strong>Nhập môn</strong>, quá dễ!
-    try_ruby:
-      text: Thử Ruby! (trong trình duyệt)
+  url: /vi/documentation/
+  submenu:
+  - text: Tài liệu
+    url: /vi/documentation/
+  - text: Về Ruby
+    url: /vi/about/
+  - text: Ruby trong 20 phút
+    url: /vi/documentation/quickstart/
+  - text: Ruby từ những ngôn ngữ khác
+    url: /vi/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Đến với Ruby từ C và C++
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Đến với Ruby từ Java
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Đến với Ruby từ Perl
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Đến với Ruby từ PHP
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Đến với Ruby từ Python
+      url: /vi/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Nhập môn & Khám phá
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: Ruby trong 20 phút
-      url: /vi/documentation/quickstart/
-    ruby_from_other_languages:
-      text: Ruby từ những ngôn ngữ khác
-      url: /vi/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>Khám phá</strong> một thề giới mới…
-    documentation:
-      text: Tài liệu
-      url: /vi/documentation/
-    # books:
-    #   text: Sách
-    libraries:
-      text: Thư viện
-      url: /vi/libraries/
-    success_stories:
-      text: Những câu chuyện thành công
-      url: /vi/documentation/success-stories/
-  participate:
-    text: <strong>Tham gia</strong> vào một cộng đồng lớn mạnh và thân thiện.
-    mailing_lists:
-      text: Mailing Lists
-      url: /vi/community/mailing-lists/
-      description: Trao đổi về Ruby với các lập trình viên trên thế giới
-    user_groups:
-      text: Nhóm người dùng
-      url: /vi/community/user-groups/
-      description: Làm quen với những Rubyist trong khu vực của bạn.
-    weblogs:
-      text: Weblogs
-      url: /vi/community/weblogs/
-      description: Đọc về những gì đang xảy ra với cộng đồng Ruby.
-    ruby_core:
-      text: Lõi Ruby
-      url: /vi/community/ruby-core/
-      description: Giúp hoàn thiện Ruby.
-    issue_tracking:
-      text: Thông báo lỗi
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Thư viện
+  url: /vi/libraries/
+  submenu:
+  - text: Thư viện
+    url: /vi/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Gem Phổ biến
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Đóng góp
+  url: /vi/community/ruby-core/
+  submenu:
+  - text: Phát triển Lõi Ruby
+    url: /vi/community/ruby-core/
+  - text: Hướng dẫn kho lưu trữ
+    url: /vi/documentation/repository-guide/
+  - text: Mailing Lists
+    url: /vi/community/mailing-lists/
+  - text: Khác
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: Báo hoặc giúp xử lý các lỗi trong Ruby.
-  syndicate:
-    text: Syndicate
-    recent_news:
-      text: Tin mới (RSS)
-      url: /vi/feeds/news.rss
+      external: true
+- text: Cộng đồng
+  url: /vi/community/
+  submenu:
+  - text: Cộng đồng
+    url: /vi/community/
+  - text: Nhóm người dùng
+    url: /vi/community/user-groups/
+  - text: Weblogs
+    url: /vi/community/weblogs/
+  - text: Sự kiện & Hội nghị
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: Tin tức
+  url: /vi/news/
+  submenu:
+  - text: Tin tức
+    url: /vi/news/
+  - text: Bảo mật
+    url: /vi/security/
+
+syndicate:
+  text: Syndicate
+  recent_news:
+    text: Tin mới (RSS)
+    url: /vi/feeds/news.rss
 
 languages_heading:
 
+toc:
+  heading: Mục lục
 credits:
-  Website này được tạo ra với Ruby sử dụng <a href="http://www.jekyllrb.com/">Jekyll</a>.
-  Trang được bảo trì bởi các thành viên của cộng đồng Ruby. Xin đóng góp
-  trên <a href="https://github.com/ruby/www.ruby-lang.org/">GitHub</a> hay
-  liên lạc với <a href="mailto:webmaster@ruby-lang.org">webmaster</a> (bằng
-  tiếng Anh) nếu có câu hỏi hoặc ý kiến phản hồi về trang này.
+  <a href="/vi/about/website/">Trang web này</a>
+  được tự hào duy trì bởi các thành viên của cộng đồng Ruby.
 
 month_names:
 - Tháng một
@@ -120,3 +178,31 @@ news:
   monthly_archives: Lưu trữ bằng Tháng
   yearly_archive_link: Lưu trữ %Y
   monthly_archive_link: "%B %Y"
+  select_year: "--- Chọn năm ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Mailing Lists
+      url: /vi/community/mailing-lists/
+    security:
+      text: Bảo mật
+      url: /vi/security/
+    about_website:
+      text: Về Trang Web Này
+      url: /vi/about/website/
+    logo_page:
+      text: Về logo
+      url: /vi/about/logo/
+    news_rss:
+      text: Tin tức RSS
+      url: /vi/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt

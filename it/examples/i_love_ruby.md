@@ -8,7 +8,7 @@ frase = "Mi piace Ruby"
 puts frase
 
 # Stampa "MI *PIACE* RUBY"
-frase['piace'] = "*piace*"
+frase = frase.sub("piace", "*piace*")
 puts frase.upcase
 
 # Stampa "Mi *piace* Ruby"

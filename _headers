@@ -1,0 +1,10 @@
+# Cloudflare Pages Headers Configuration
+# This file sets custom HTTP headers for specific paths
+
+# RSS feeds - add charset to Content-Type header
+/*/feeds/*.rss
+  Content-Type: application/rss+xml; charset=utf-8
+
+# Alternative RSS feed paths (if any)
+/*.rss
+  Content-Type: application/rss+xml; charset=utf-8
