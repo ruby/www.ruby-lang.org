@@ -1,87 +1,147 @@
 ---
-ruby: Ruby
-slogan: 程式設計師的摯友
 
-sitelinks:
-- text: 首頁
-  url: /zh_tw
-  home: true
+navigation:
 - text: 下載安裝
-  url: /zh_tw/downloads
+  url: /zh_tw/documentation/installation/
+  submenu:
+  - text: 安裝 Ruby
+    url: /zh_tw/documentation/installation/
+  - text: 下載安裝
+    url: /zh_tw/downloads/
+  - text: 套件管理器
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
 - text: 文件
-  url: /zh_tw/documentation
-- text: 函式庫
-  url: /zh_tw/libraries
-- text: 社群
-  url: /zh_tw/community
-- text: 新聞
-  url: /zh_tw/news
-- text: 安全
-  url: /zh_tw/security
-- text: 關於 Ruby
-  url: /zh_tw/about
-
-search:
-  text: 搜尋
-
-sidebar:
-  get_started:
-    text: <strong>上手入門</strong>，一點都不難!
-    try_ruby:
-      text: 在瀏覽器中試用 Ruby!
+  url: /zh_tw/documentation/
+  submenu:
+  - text: 文件
+    url: /zh_tw/documentation/
+  - text: 關於 Ruby
+    url: /zh_tw/about/
+  - text: 20 分鐘 Ruby 體驗
+    url: /zh_tw/documentation/quickstart/
+  - text: 從其他語言到 Ruby
+    url: /zh_tw/documentation/ruby-from-other-languages/
+    submenu:
+    - text: 從 C 和 C++ 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: 從 Java 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: 從 Perl 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: 從 PHP 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: 從 Python 到 Ruby
+      url: /zh_tw/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: 上手入門 & 探索
+    submenu:
+    - text: TryRuby
       url: https://try.ruby-lang.org/
-    quickstart:
-      text: 20 分鐘 Ruby 體驗
-      url: /zh_tw/documentation/quickstart/
-    ruby_from_other_languages:
-      text: 從其他語言到 Ruby
-      url: /zh_tw/documentation/ruby-from-other-languages/
-  explore:
-    text: <strong>探索</strong> 新世界…
-    documentation:
-      text: 文件
-      url: /zh_tw/documentation/
-    # books:
-    #   text: 書籍
-    rubybib:
-      text: 學術研究
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
       url: https://rubybib.org/
-    libraries:
-      text: 函式庫
-      url: /zh_tw/libraries/
-    success_stories:
-      text: 成功案例
-      url: /zh_tw/documentation/success-stories/
-  participate:
-    text: <strong>加入</strong> 友善且持續成長的社群
-    mailing_lists:
-      text: 郵件論壇
-      url: /zh_tw/community/mailing-lists/
-      description: 與世界各地的程式設計師一同聊聊
-    user_groups:
-      text: 使用者群組
-      url: /zh_tw/community/user-groups/
-      description: 與身旁的 Ruby 使用者接觸
-    weblogs:
-      text: 部落格與電子報
-      url: /zh_tw/community/weblogs/
-      description: 了解 Ruby 社群中的最新消息
-    ruby_core:
-      text: Ruby 核心
-      url: /zh_tw/community/ruby-core/
-      description: 幫助開發最新的 Ruby
-    issue_tracking:
-      text: 問題追蹤
+      external: true
+- text: 函式庫
+  url: /zh_tw/libraries/
+  submenu:
+  - text: 函式庫
+    url: /zh_tw/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: 熱門 Gems
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: 貢獻
+  url: /zh_tw/community/ruby-core/
+  submenu:
+  - text: Ruby 核心開發
+    url: /zh_tw/community/ruby-core/
+  - text: 儲存庫指南
+    url: /zh_tw/documentation/repository-guide/
+  - text: 郵件論壇
+    url: /zh_tw/community/mailing-lists/
+  - text: 其他
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
       url: https://bugs.ruby-lang.org/
-      description: 回報或解決 Ruby 問題
-  syndicate:
-    text: 訂閱
-    recent_news:
-      text: 最新消息（RSS）
-      url: /zh_tw/feeds/news.rss
+      external: true
+- text: 社群
+  url: /zh_tw/community/
+  submenu:
+  - text: 社群
+    url: /zh_tw/community/
+  - text: 使用者群組
+    url: /zh_tw/community/user-groups/
+  - text: 部落格與電子報
+    url: /zh_tw/community/weblogs/
+  - text: Podcast
+    url: /zh_tw/community/podcasts/
+  - text: 活動與研討會
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: 新聞
+  url: /zh_tw/news/
+  submenu:
+  - text: 新聞
+    url: /zh_tw/news/
+  - text: 安全
+    url: /zh_tw/security/
+
+syndicate:
+  text: 訂閱
+  recent_news:
+    text: 最新消息（RSS）
+    url: /zh_tw/feeds/news.rss
 
 languages_heading:
 
+toc:
+  heading: 目錄
 credits:
   <a href="/zh_tw/about/website/">本站</a>由 Ruby 社群成員共同維護。
 
@@ -107,3 +167,31 @@ news:
   monthly_archives: 按月份彙整
   yearly_archive_link: "%Y 年彙整"
   monthly_archive_link: "%Y 年 %-m 月彙整"
+  select_year: "--- 選擇年份 ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: 郵件論壇
+      url: /zh_tw/community/mailing-lists/
+    security:
+      text: 安全
+      url: /zh_tw/security/
+    about_website:
+      text: 關於本網站
+      url: /zh_tw/about/website/
+    logo_page:
+      text: 關於標誌
+      url: /zh_tw/about/logo/
+    news_rss:
+      text: 新聞 RSS
+      url: /zh_tw/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt
