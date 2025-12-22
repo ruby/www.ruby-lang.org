@@ -1,9 +1,9 @@
 hero:
-  since: "Since"
+  since: "З"
   year: "1995"
   title: "Ruby"
-  latest_version_label: "Latest Version:"
-  download_button: "Download"
+  latest_version_label: "Остання версія:"
+  download_button: "Завантажити"
   or: "або"
   learn_more: "Дізнатися більше"
 
@@ -19,7 +19,7 @@ why_ruby:
   description: Чому програмісти по всьому світу люблять Ruby? Що робить його <strong>цікавим</strong>?
   features:
     - id: ecosystem
-      title: Ecosystem
+      title: Екосистема
       read: Багаті геми підтримують усі види розробки.<br />Зрілі інструменти готові до використання.
       copy: |
         Ruby має велику колекцію бібліотек, що називаються гемами, які підтримують усе — від веброзробки до обробки даних.
@@ -29,13 +29,13 @@ why_ruby:
         author:
           id: matz
           name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          title: Творець Ruby
         content: |
           Коли я випустив Ruby у світ, я й не уявляв, що з нього виросте така багата екосистема.
           Понад 200 000 гемів, Ruby on Rails, RSpec, Bundler — усе це створила й підтримувала спільнота.
           Моє бажання «зробити програмістів щасливими» здійснилося так, як я не зміг би досягти сам.
     - id: simple
-      title: Simple
+      title: Простота
       read: Легко писати, легко читати.<br />Природний синтаксис, як у розмовній мові.
       copy: |
         Ruby має простий та інтуїтивний синтаксис, який читається як природна мова.
@@ -45,13 +45,13 @@ why_ruby:
         author:
           id: dhh
           name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          title: Творець Ruby on Rails
         content: |
           Ruby — це просто найкрасивіша мова програмування, яку я коли-небудь бачив.<br />
           І я приділяю чималу увагу новим мовам програмування, що з'являються,
           новим середовищам, новим фреймворкам, і досі не бачив нічого, що відповідало б Ruby або перевершило його в чистоті дизайну.
     - id: productivity
-      title: Productivity
+      title: Продуктивність
       read: Робіть більше з меншим обсягом коду.<br />Інтуїтивний синтаксис прискорює розробку.
       copy: |
         Виразний синтаксис Ruby дозволяє стисло писати складну логіку.
@@ -61,7 +61,7 @@ why_ruby:
         author:
           id: pragdave
           name: Dave Thomas
-          title: Author of "The Pragmatic Programmer"
+          title: Автор "The Pragmatic Programmer"
         content: |
           Ruby швидко перетворює ідеї на код.
           Його простота допомагає мені залишатися зосередженим; його виразність дозволяє писати так, як я думаю.<br />
@@ -69,7 +69,7 @@ why_ruby:
           З чудовими інструментами та бібліотеками ідеї швидко стають працюючим, елегантним кодом.
 
     - id: community
-      title: Community
+      title: Спільнота
       read: Розробники по всьому світу підтримують одне одного.<br />Тепла, активна спільнота.
       copy: |
         Спільнота Ruby дотримується культури "Matz is nice and so we are nice (MINASWAN)",
@@ -79,7 +79,7 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of Rails Foundation
+          title: Виконавчий директор Rails Foundation
         content: |
           Спільнота Ruby сповнена таланту й креативності — розробників, яких приваблює елегантний синтаксис Ruby і які програмують заради задоволення.
           Це яскрава, гостинна спільнота, готова поділитися своєю любов'ю до програмування з усіма.

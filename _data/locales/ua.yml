@@ -98,8 +98,6 @@ navigation:
   submenu:
   - text: Розробка ядра Ruby
     url: /ua/community/ruby-core/
-  - text: Посібник з репозиторію
-    url: /en/documentation/repository-guide/
   - text: Поштові розсилки
     url: /ua/community/mailing-lists/
   - text: Правила поштових розсилок
@@ -181,7 +179,7 @@ month_names:
 - Грудень
 
 posted_by: Опублікував AUTHOR %d-%m-%Y
-translated_by: 'Переклав: Andrii Furmanets'
+translated_by: 'Переклав:'
 
 feed:
   title: Новини Ruby
