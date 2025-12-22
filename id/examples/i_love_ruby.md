@@ -8,7 +8,7 @@ say = "Saya cinta Ruby"
 puts say
 
 # Keluaran "SAYA *CINTA* RUBY"
-say['cinta'] = "*cinta*"
+say = say.sub("cinta", "*cinta*")
 puts say.upcase
 
 # Keluaran "Saya *cinta* Ruby"

@@ -1,0 +1,26 @@
+/* Import CSS variables */
+@import './variables.css';
+
+/* Custom fonts if needed */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Import component styles */
+@import './components/base.css';
+@import './components/pagination.css';
+@import './components/toc.css';
+@import './components/tables.css';
+@import './components/icons.css';
+@import './components/print.css';
+@import './components/syntax-highlighting.css';
+
+/* Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-stone-900 text-base leading-5 font-default;
+    @apply dark:bg-stone-900 dark:text-stone-50;
+  }
+}

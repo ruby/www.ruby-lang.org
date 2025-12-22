@@ -8,3 +8,7 @@ vendor
 .env
 bin
 .jekyll*
+node_modules/
+package-lock.json
+_figma/
+_svg-backup/

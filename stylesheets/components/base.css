@@ -1,0 +1,32 @@
+/* Base styles */
+
+/* Fixed header scroll offset */
+html {
+  scroll-padding-top: 6rem; /* 96px - header height (80px) + extra spacing */
+}
+
+/* Global image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  border: none;
+}
+
+/* Footer credits link styles */
+.credits a {
+  text-decoration: underline;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.credits a:hover {
+  color: var(--color-ruby-600);
+}
+
+.dark .credits a:hover {
+  color: var(--color-ruby-400);
+}
