@@ -125,6 +125,24 @@
   --color-icon-default: #a8a29e;
 }
 
+/* Language-specific font subsets */
+
+:root:lang(zh-CN), [lang="zh-CN"] {
+  --noto-sans-subset: "Noto Sans SC";
+}
+
+:root:lang(zh-TW), [lang="zh-TW"] {
+  --noto-sans-subset: "Noto Sans TC";
+}
+
+:root:lang(ko), [lang="ko"] {
+  --noto-sans-subset: "Noto Sans KR";
+}
+
+:root:lang(ja), [lang="ja"] {
+  --noto-sans-subset: "Noto Sans JP";
+}
+
 /* Custom fonts if needed */
 
 /* Import component styles */
@@ -1966,21 +1984,7 @@ body:is(.dark *){
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
 }
 
-html:lang(zh-CN), [lang="zh-CN"] {
-  --noto-sans-subset: "Noto Sans SC";
-}
-
-html:lang(zh-TW), [lang="zh-TW"] {
-  --noto-sans-subset: "Noto Sans TC";
-}
-
-html:lang(ko), [lang="ko"] {
-  --noto-sans-subset: "Noto Sans KR";
-}
-
-html:lang(ja), [lang="ja"] {
-  --noto-sans-subset: "Noto Sans JP";
-}
+/* CJK fonts */
 
 html:lang(ja),
   body:lang(ja),

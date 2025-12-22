@@ -117,3 +117,20 @@
   /* Icon colors */
   --color-icon-default: #a8a29e;
 }
+
+/* Language-specific font subsets */
+:root:lang(zh-CN), [lang="zh-CN"] {
+  --noto-sans-subset: "Noto Sans SC";
+}
+
+:root:lang(zh-TW), [lang="zh-TW"] {
+  --noto-sans-subset: "Noto Sans TC";
+}
+
+:root:lang(ko), [lang="ko"] {
+  --noto-sans-subset: "Noto Sans KR";
+}
+
+:root:lang(ja), [lang="ja"] {
+  --noto-sans-subset: "Noto Sans JP";
+}

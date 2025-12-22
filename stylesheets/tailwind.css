@@ -24,22 +24,7 @@
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
 
-  html:lang(zh-CN), [lang="zh-CN"] {
-    --noto-sans-subset: "Noto Sans SC";
-  }
-
-  html:lang(zh-TW), [lang="zh-TW"] {
-    --noto-sans-subset: "Noto Sans TC";
-  }
-
-  html:lang(ko), [lang="ko"] {
-    --noto-sans-subset: "Noto Sans KR";
-  }
-
-  html:lang(ja), [lang="ja"] {
-    --noto-sans-subset: "Noto Sans JP";
-  }
-
+  /* CJK fonts */
   html:lang(ja),
   body:lang(ja),
   .font-default:lang(ja),
