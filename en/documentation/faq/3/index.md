@@ -43,7 +43,7 @@ or [Downloads](/en/downloads/) page.
 
 ### What operating systems support Ruby?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby is developed under Linux, and is written in fairly straightforward C.
 It runs under Linux and other UNIX-like operating systems, macOS,
@@ -59,7 +59,7 @@ Also on this page is a link to a nightly snapshot of the development tree.
 
 ### Can I get to the development source tree?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 If you have a CVS client, you can check out the current source tree using:
 
@@ -100,7 +100,7 @@ If you are working from the source repository, you may need to run
 
 ### How do I tell Ruby where my libraries are?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 On some systems, the build process may fail to find libraries used by
 extension modules (for example the `dbm` libraries).
@@ -156,7 +156,7 @@ Windows operating systems is available from [RubyInstaller](https://rubyinstalle
 
 ### What's all this “cygwin”, “mingw”, and “djgpp” stuff?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Ruby is written to take advantage of the rich feature set of a Unix
 environment. Unfortunately, Windows is missing some of the functions, and
@@ -186,7 +186,7 @@ Thanks to Anders Schneiderman for the basis of this description.
 
 ### Why doesn't Tk graphics work under Windows?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 Is Tk installed correctly on your Windows box? Go to
 [https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae)

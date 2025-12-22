@@ -14,6 +14,7 @@ class Linter
   EXCLUDE_PATTERNS = [
     %r{\A404\.md\z},
     %r{\AREADME\.md\z},
+    %r{\ACLAUDE\.md\z},
     %r{\Aadmin/index\.md},
     %r{\A[^/]*/examples/},
     %r{\A_includes/},
