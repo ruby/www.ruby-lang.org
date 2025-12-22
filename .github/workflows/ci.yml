@@ -24,6 +24,15 @@ jobs:
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
           fetch-depth: 1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854 # v1.190.0
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
+      - name: Dump Ruby version
+        run: ruby -v
+      - name: Run tests
+        run: bundle exec rake test
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -35,12 +44,3 @@ jobs:
         run: |
           npm run build-css
           git diff --exit-code stylesheets/compiled.css || (echo "Error: compiled.css is out of date. Run 'npm run build-css' and commit the changes." && exit 1)
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854 # v1.190.0
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
-      - name: Dump Ruby version
-        run: ruby -v
-      - name: Run tests
-        run: bundle exec rake test
