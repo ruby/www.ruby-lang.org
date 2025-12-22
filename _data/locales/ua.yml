@@ -1,0 +1,233 @@
+---
+
+navigation:
+- text: Встановлення
+  url: /ua/documentation/installation/
+  submenu:
+  - text: Встановлення Ruby
+    url: /ua/documentation/installation/
+  - text: Завантаження
+    url: /ua/downloads/
+  - text: Релізи
+    url: /ua/downloads/releases/
+  - text: Гілки
+    url: /ua/downloads/branches/
+  - text: Дзеркала
+    url: /ua/downloads/mirrors/
+  - text: Менеджери пакетів
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: Документація
+  url: /ua/documentation/
+  submenu:
+  - text: Документація
+    url: /ua/documentation/
+  - text: Що таке Ruby
+    url: /ua/about/
+  - text: Ruby за двадцять хвилин
+    url: /ua/documentation/quickstart/
+  - text: Ruby з інших мов
+    url: /ua/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Перехід на Ruby з C та C++
+      url: /ua/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Перехід на Ruby з Java
+      url: /ua/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Перехід на Ruby з Perl
+      url: /ua/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Перехід на Ruby з PHP
+      url: /ua/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Перехід на Ruby з Python
+      url: /ua/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Поширені запитання
+    url: /ua/documentation/faq/
+  - text: Почати та дослідити
+    submenu:
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Бібліотеки
+  url: /ua/libraries/
+  submenu:
+  - text: Бібліотеки
+    url: /ua/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Популярні геми
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Внесок у розвиток
+  url: /ua/community/ruby-core/
+  submenu:
+  - text: Розробка ядра Ruby
+    url: /ua/community/ruby-core/
+  - text: Посібник з репозиторію
+    url: /en/documentation/repository-guide/
+  - text: Поштові розсилки
+    url: /ua/community/mailing-lists/
+  - text: Правила поштових розсилок
+    url: /ua/community/mailing-lists/ruby-talk-guidelines/
+  - text: Посібник з написання патчів
+    url: /ua/community/ruby-core/writing-patches/
+  - text: Інше
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Система відстеження проблем Ruby
+      url: https://bugs.ruby-lang.org/
+      external: true
+- text: Спільнота
+  url: /ua/community/
+  submenu:
+  - text: Спільнота
+    url: /ua/community/
+  - text: Групи користувачів
+    url: /ua/community/user-groups/
+  - text: Блоги та розсилки
+    url: /ua/community/weblogs/
+  - text: Подкасти
+    url: /ua/community/podcasts/
+  - text: Кодекс поведінки
+    url: /ua/conduct/
+  - text: Події та конференції
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+  - text: Організації
+    submenu:
+    - text: Асоціація Ruby
+      url: https://www.ruby.or.jp/en/
+      external: true
+- text: Новини
+  url: /ua/news/
+  submenu:
+  - text: Новини
+    url: /ua/news/
+  - text: Безпека
+    url: /ua/security/
+
+syndicate:
+  text: Підписатися
+  recent_news:
+    text: Останні новини (RSS)
+    url: /ua/feeds/news.rss
+
+languages_heading: 'Цей сайт іншими мовами:'
+
+toc:
+  heading: Зміст
+
+credits:
+  <a href="/ua/about/website/">Цей вебсайт</a>
+  з гордістю підтримується членами спільноти Ruby.
+
+month_names:
+- Січень
+- Лютий
+- Березень
+- Квітень
+- Травень
+- Червень
+- Липень
+- Серпень
+- Вересень
+- Жовтень
+- Листопад
+- Грудень
+
+posted_by: Опублікував AUTHOR %d-%m-%Y
+translated_by: 'Переклав: Andrii Furmanets'
+
+feed:
+  title: Новини Ruby
+  description: Останні новини з ruby-lang.org.
+  lang_code: uk-UA
+
+news:
+  other_news: Інші новини
+  more_news: Більше новин...
+  continue: Читати далі...
+  back_to_year: Назад до архівів %Y року
+  recent_news: Останні новини
+  yearly_archive_title: Архіви %Y року
+  monthly_archive_title: Архіви %B %Y
+  yearly_archives: Архіви за роками
+  monthly_archives: Архіви за місяцями
+  yearly_archive_link: Архіви %Y
+  monthly_archive_link: "%B %Y"
+  select_year: "--- Виберіть рік ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Поштові розсилки
+      url: /ua/community/mailing-lists/
+    security:
+      text: Безпека
+      url: /ua/security/
+    about_website:
+      text: Про цей сайт
+      url: /ua/about/website/
+    logo_page:
+      text: Про логотип
+      url: /ua/about/logo/
+    news_rss:
+      text: RSS новин
+      url: /ua/feeds/news.rss
+    privacy:
+      text: Політика конфіденційності
+      url: /ua/privacy/
+    ruby_license:
+      text: Ліцензія Ruby
+      url: /ua/about/license.txt
