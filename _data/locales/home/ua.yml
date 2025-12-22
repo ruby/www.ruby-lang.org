@@ -97,7 +97,7 @@ community:
   motto_prefix: "Універсальний девіз —"
   motto_minaswan: "MINASWAN"
   motto_separator: "—"
-  motto_translation: "Matz is nice and so we are nice"
+  motto_translation: "Matz добрий, тож і ми добрі"
   links:
     - text: "Дізнайтеся більше про спільноту"
       url: "/community/"

@@ -54,13 +54,13 @@ navigation:
     url: /ua/documentation/faq/
   - text: Почати та дослідити
     submenu:
-    - text: TryRuby
+    - text: Спробуйте Ruby
       url: https://try.ruby-lang.org/
       external: true
-    - text: Ruby Reference Manual
+    - text: Довідник Ruby
       url: https://docs.ruby-lang.org/en/3.4/
       external: true
-    - text: The Ruby Bibliography
+    - text: Бібліографія Ruby
       url: https://rubybib.org/
       external: true
 - text: Бібліотеки
