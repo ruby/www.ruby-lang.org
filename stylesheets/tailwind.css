@@ -24,19 +24,19 @@
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
 
-  :root:lang(zh-CN), body:lang(zh-CN), .font-default:lang(zh-Hans) {
+  html:lang(zh-CN), body:lang(zh-CN), .font-default:lang(zh-Hans) {
     font-family: "Plus Jakarta Sans", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
-  :root:lang(zh-TW), body:lang(zh-TW), .font-default:lang(zh-TW) {
+  html:lang(zh-TW), body:lang(zh-TW), .font-default:lang(zh-TW) {
     font-family: "Plus Jakarta Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
-  :root:lang(ko), body:lang(ko), .font-default:lang(ko) {
+  html:lang(ko), body:lang(ko), .font-default:lang(ko) {
     font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
-  :root:lang(ja), body:lang(ja), .font-default:lang(ja) {
+  html:lang(ja), body:lang(ja), .font-default:lang(ja) {
     font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
   }
 }
