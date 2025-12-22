@@ -1498,7 +1498,7 @@ a .icon-external::before {
   --tw-contain-style:  ;
 }
 
-/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1944,10 +1944,26 @@ video {
   display: none;
 }
 
+ html:lang(zh-Hans) body {
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+ html:lang(zh-TW) body {
+  font-family: "Plus Jakarta Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+ html:lang(ko) body {
+  font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+ html:lang(ja) body {
+  font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 body{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-  font-family: "Plus Jakarta Sans", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1rem;
   line-height: 1.7;
   line-height: 1.25rem;
@@ -1960,6 +1976,22 @@ body:is(.dark *){
   background-color: rgb(28 25 23 / var(--tw-bg-opacity, 1));
   --tw-text-opacity: 1;
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
+}
+
+:root:lang(zh-CN), body:lang(zh-CN), html:lang(zh-Hans) .font-default {
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root:lang(zh-TW), html:lang(zh-TW) .font-default {
+  font-family: "Plus Jakarta Sans", "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root:lang(ko), html:lang(ko) .font-default {
+  font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root:lang(ja), html:lang(ja) .font-default {
+  font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .container{
@@ -4363,7 +4395,7 @@ body:is(.dark *){
 }
 
 .font-default{
-  font-family: "Plus Jakarta Sans", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .font-handwritten{
@@ -4371,7 +4403,7 @@ body:is(.dark *){
 }
 
 .font-logo{
-  font-family: "Plus Jakarta Sans", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .font-mono{
