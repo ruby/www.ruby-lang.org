@@ -84,6 +84,21 @@ layout: root
   <script type="text/javascript" src="/javascripts/theme-toggle.js" defer></script>
   <script type="text/javascript" src="/javascripts/try-ruby-examples.js"></script>
   <script type="text/javascript" src="/javascripts/hero-animation.js" defer></script>
+
+  <!-- Fallback styles when JavaScript is disabled -->
+  <noscript>
+    <style>
+      #hero-loader { display: none !important; }
+      [data-hero-layer="gem"],
+      [data-hero-layer="content"],
+      [data-hero-layer="sunburst"],
+      [data-hero-layer="illust-main"],
+      [data-hero-layer="illust-sub"],
+      [data-hero-layer="illust-main"] img { opacity: 1 !important; }
+      #try-ruby-section { opacity: 1 !important; max-height: none !important; overflow: visible !important; }
+      .try-ruby-content { opacity: 1 !important; }
+    </style>
+  </noscript>
 </head>
 
 <body id="home-page-layout">

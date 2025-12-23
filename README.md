@@ -5,115 +5,123 @@ www.ruby-lang.org
 
 [![Build Status](https://github.com/ruby/www.ruby-lang.org/workflows/ci/badge.svg)](https://github.com/ruby/www.ruby-lang.org/actions?query=branch%3Amaster)
 
-This is the [Jekyll](http://www.jekyllrb.com/) source of
-the [www.ruby-lang.org](https://www.ruby-lang.org/) website.
+This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Ruby programming language website](https://www.ruby-lang.org/).
 
-## How to Contribute?
+## 🚀 Quick Start
 
-You can contribute by reporting errors or suggesting improvements.
-Just open an issue or pull request.
+**First time contributing?** Welcome! This guide will help you get the website running locally in just a few steps.
 
-This is a big project with many translations involved.
-Please help us stay on top of things by following our
-[guidelines for contributors](https://github.com/ruby/www.ruby-lang.org/wiki).
+### Prerequisites
 
-## Get It!
+- **Ruby** (latest stable version recommended) - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- **Git** - [Install Git](https://git-scm.com/downloads)
 
-Bundler will take care of the dependencies, so unless you
-already have done so, you might need to install bundler with:
+### Get It Running
 
-``` sh
-gem install bundler
-```
+1. **Install Bundler** (if you haven't already):
+   ```sh
+   gem install bundler
+   ```
 
-Then clone the repository and install the dependencies:
+2. **Clone and setup the project**:
+   ```sh
+   git clone https://github.com/ruby/www.ruby-lang.org.git
+   cd www.ruby-lang.org/
+   bundle config set --local without production
+   bundle install
+   ```
 
-``` sh
-git clone https://github.com/ruby/www.ruby-lang.org.git
-cd www.ruby-lang.org/
-bundle config set --local without production
-bundle install
-```
+3. **Start the development server**:
+   ```sh
+   bundle exec rake serve
+   ```
 
-## Make Changes
+4. **View the website**: Open [http://localhost:4000/](http://localhost:4000/) in your browser
 
-Making changes is easy:
-just locate the Markdown source of the page you want to improve,
-then make your changes or add content.
+   ⏱️ **Note:** The initial build takes several minutes. Make some tea! 🍵
 
-If you plan to submit a pull request or want to preview your changes
-on Heroku, you need to
+## 🤝 How to Contribute
 
-* create a topic branch,
-* commit your changes to this branch.
+### Quick Fixes
+- **Found a typo?** Just edit the Markdown file and submit a pull request!
+- **Broken link?** Open an issue and we'll fix it quickly
+- **Translation error?** Check our [translation guidelines](https://github.com/ruby/www.ruby-lang.org/wiki)
 
-See the [project's wiki][wiki] for some guidelines on how
-your commits and PRs should look like.
+### Making Changes
 
-## Preview Your Changes
+1. **Find the content**: Website pages are in Markdown format in language-specific folders (e.g., `en/`, `ja/`, `es/`)
+2. **Create a branch**: `git checkout -b fix-typo-in-getting-started`
+3. **Make your changes**: Edit the Markdown files
+4. **Test as you go**: Run `bundle exec rake serve` to preview your changes
+5. **Run the test suite**: Before submitting, ensure all tests pass (see Testing section below)
+6. **Submit**: Open a pull request with a clear description
 
-### Preview Locally
+**New to open source?** Check out [First Contributions](https://github.com/firstcontributions/first-contributions) for a beginner-friendly guide.
 
-Generate the website with
+## 🛠️ Development
 
-``` sh
+### Local Development
+```sh
+# Quick development server (faster rebuilds)
+bundle exec jekyll serve --watch --future --incremental
+
+# Full build (for testing)
 bundle exec rake build
 ```
 
-Then start a local web server with
+### Testing Your Changes
 
-``` sh
-bundle exec rake serve
+**Important**: Always run the full test suite before submitting a pull request:
+
+```sh
+bundle exec rake lint          # Check markdown formatting
+bundle exec rake check:markup  # Validate HTML output
+bundle exec rake check:links   # Check for broken links (requires local server)
 ```
 
-Open [http://localhost:4000/](http://localhost:4000/)
-in your browser to access the preview.
+You can run these tests while developing to catch issues early.
 
-**Note:** The build of the site will take several minutes.
+## 🌐 Translations
 
-Alternatively, you can use Jekyll directly.
+This project supports multiple languages! Each language has its own folder:
+- `en/` - English (base language)
+- `ja/` - Japanese
+- `es/` - Spanish
+- `fr/` - French
+- And many more...
 
-```
-bundle exec jekyll serve --watch --future --incremental
-```
+**Want to help translate?** See our [translation guide](https://github.com/ruby/www.ruby-lang.org/wiki) for detailed instructions.
 
-If your draft uses future date, you may want to use `--future` option.
+## 📝 Content Guidelines
 
-### Preview on Heroku
+- **Keep it simple**: Write for a global audience of developers with varying English proficiency
+- **Be clear**: Use straightforward language that's easy to understand
+- **Stay current**: Update version numbers and examples regularly
+- **Test your changes**: Always preview locally before submitting
 
-In case a build is not possible on your local machine
-or you want to test your changes under production conditions
-you can also create a preview on Heroku.
+## 🔧 Heroku Preview (Advanced)
 
-  * Sign up for [Heroku](http://www.heroku.com) if you do not have
-    an account yet.
+If you can't build locally or want to test under production conditions:
 
-  * Install the [Heroku Toolbelt](https://toolbelt.heroku.com).
+1. **Setup Heroku**: Sign up at [heroku.com](http://www.heroku.com) and install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
-  * Unless you already have, `cd` into your local working copy of this repo.
+2. **Create preview app**:
+   ```sh
+   heroku login
+   heroku create --buildpack https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
+   ```
 
-  * Create a preview app on Heroku using the custom buildpack:
+3. **Deploy your branch**:
+   ```sh
+   git push heroku your-branch-name:master
+   heroku open
+   ```
 
-    ``` sh
-    heroku login
-    heroku create --buildpack https://github.com/ruby/heroku-buildpack-www-ruby-lang.git
-    ```
+## 💬 Getting Help
 
-  * Push your feature branch:
-
-    ``` sh
-    git push heroku feature_branch:master
-    ```
-
-    To create a preview of the master branch:
-
-    ``` sh
-    git push heroku master
-    ```
-
-Open the preview in your browser with `heroku open` or
-retrieve the preview URL using `heroku info` and open it in your browser.
-
+- **Questions?** Join our [Gitter chat](https://gitter.im/ruby/www.ruby-lang.org)
+- **Found a bug?** [Open an issue](https://github.com/ruby/www.ruby-lang.org/issues)
+- **Need more info?** Check the [project wiki](https://github.com/ruby/www.ruby-lang.org/wiki)
 
 ## Styling with Tailwind CSS
 
@@ -139,8 +147,10 @@ bundle exec rake check:markup  # check markup for all generated pages
 bundle exec rake check:links   # check for 404's (needs a running local server)
 ```
 
-## More Information
+## 📚 More Information
 
-For more information see the [wiki][wiki].
+For detailed contribution guidelines, coding standards, and project structure, see our [wiki](https://github.com/ruby/www.ruby-lang.org/wiki).
 
-[wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
+---
+
+**Thank you for helping make Ruby's website better for everyone!** 🎉

@@ -1,18 +1,11 @@
 "use strict";
 
 var TryRubyExamples = {
-  loadedCount: 0,
-  totalExamples: 3,
-  isReady: false,
-  onReadyCallback: null,
+  isReady: true, // Examples are inlined at build time, always ready
 
-  extractCodeFromHtml: function(html) {
-    // Create a temporary element to parse the HTML
-    var temp = document.createElement('div');
-    temp.innerHTML = html;
-
+  extractCodeFromElement: function(element) {
     // Find the code element and extract its text content
-    var codeElement = temp.querySelector('code');
+    var codeElement = element.querySelector('code');
     if (!codeElement) {
       return '';
     }
@@ -26,25 +19,10 @@ var TryRubyExamples = {
     return 'https://try.ruby-lang.org/playground/#code=' + encodedCode;
   },
 
-  onExampleLoaded: function() {
-    TryRubyExamples.loadedCount++;
-
-    // When all examples are loaded, mark as ready and notify
-    if (TryRubyExamples.loadedCount >= TryRubyExamples.totalExamples) {
-      TryRubyExamples.isReady = true;
-      if (TryRubyExamples.onReadyCallback) {
-        TryRubyExamples.onReadyCallback();
-      }
-    }
-  },
-
   // Set callback to be called when all examples are ready
+  // Since examples are inlined, call immediately
   setOnReady: function(callback) {
-    TryRubyExamples.onReadyCallback = callback;
-    // If already ready, call immediately
-    if (TryRubyExamples.isReady) {
-      callback();
-    }
+    callback();
   },
 
   showAllExamples: function() {
@@ -88,59 +66,26 @@ var TryRubyExamples = {
     }
   },
 
-  loadExample: function(exampleName, targetId, buttonId) {
-    var lang = document.location.pathname.split('/')[1] || 'en';
-    var target = document.getElementById(targetId);
-    var button = document.getElementById(buttonId);
+  // Set up TryRuby button URLs based on inlined code examples
+  setupButtons: function() {
+    for (var i = 1; i <= 3; i++) {
+      var exampleElement = document.getElementById('try-ruby-example-' + i);
+      var button = document.getElementById('try-ruby-button-' + i);
 
-    if (!target) {
-      console.error('Target element not found:', targetId);
-      return;
+      if (exampleElement && button) {
+        var rubyCode = TryRubyExamples.extractCodeFromElement(exampleElement);
+        if (rubyCode) {
+          var tryRubyUrl = TryRubyExamples.generateTryRubyUrl(rubyCode);
+          button.href = tryRubyUrl;
+        }
+      }
     }
-
-    // Use fetch API to load the example
-    fetch('/' + lang + '/examples/' + exampleName + '/')
-      .then(function(response) {
-        if (!response.ok) {
-          throw new Error('Failed to load example: ' + exampleName);
-        }
-        return response.text();
-      })
-      .then(function(html) {
-        target.innerHTML = html;
-
-        // Update button URL if button exists
-        if (button) {
-          // Extract Ruby code from the loaded HTML
-          var rubyCode = TryRubyExamples.extractCodeFromHtml(html);
-          if (rubyCode) {
-            var tryRubyUrl = TryRubyExamples.generateTryRubyUrl(rubyCode);
-            button.href = tryRubyUrl;
-          }
-        }
-
-        // Notify that this example has loaded
-        TryRubyExamples.onExampleLoaded();
-      })
-      .catch(function(error) {
-        console.error('Error loading example:', error);
-        target.innerHTML = '<p class="text-stone-500">Failed to load example</p>';
-        // Still count as loaded to prevent infinite loading state
-        TryRubyExamples.onExampleLoaded();
-      });
-  },
-
-  loadAll: function() {
-    // Load each example into its corresponding container
-    TryRubyExamples.loadExample('i_love_ruby', 'try-ruby-example-1', 'try-ruby-button-1');
-    TryRubyExamples.loadExample('cities', 'try-ruby-example-2', 'try-ruby-button-2');
-    TryRubyExamples.loadExample('greeter', 'try-ruby-example-3', 'try-ruby-button-3');
   }
 };
 
-// Load examples when DOM is ready
+// Set up button URLs when DOM is ready
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', TryRubyExamples.loadAll);
+  document.addEventListener('DOMContentLoaded', TryRubyExamples.setupButtons);
 } else {
-  TryRubyExamples.loadAll();
+  TryRubyExamples.setupButtons();
 }

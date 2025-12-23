@@ -47,4 +47,12 @@
   [lang="zh-TW"] {
     font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
   }
+  
+  /* Ensure syntax highlighting colors are not overridden by body color */
+  .highlight code {
+    color: inherit;
+  }
+  .highlight pre {
+    color: var(--color-text-default);
+  }
 }
