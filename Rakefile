@@ -8,7 +8,7 @@ rescue LoadError => e
   exit(-1)
 end
 
-LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw].freeze
+LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr ua vi zh_cn zh_tw].freeze
 CONFIG = "_config.yml"
 
 task default: [:build]

@@ -38,6 +38,9 @@
 - code: tr
   name: Turkish
   native_name: Türkçe
+- code: ua
+  name: Ukrainian
+  native_name: Українська
 - code: vi
   name: Vietnamese
   native_name: Tiếng Việt
