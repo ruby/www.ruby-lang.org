@@ -1,0 +1,231 @@
+---
+
+navigation:
+- text: Встановлення
+  url: /uk/documentation/installation/
+  submenu:
+  - text: Встановлення Ruby
+    url: /uk/documentation/installation/
+  - text: Завантаження
+    url: /uk/downloads/
+  - text: Релізи
+    url: /uk/downloads/releases/
+  - text: Гілки
+    url: /uk/downloads/branches/
+  - text: Дзеркала
+    url: /uk/downloads/mirrors/
+  - text: Менеджери пакетів
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: Документація
+  url: /uk/documentation/
+  submenu:
+  - text: Документація
+    url: /uk/documentation/
+  - text: Що таке Ruby
+    url: /uk/about/
+  - text: Ruby за двадцять хвилин
+    url: /uk/documentation/quickstart/
+  - text: Ruby з інших мов
+    url: /uk/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Перехід на Ruby з C та C++
+      url: /uk/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Перехід на Ruby з Java
+      url: /uk/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Перехід на Ruby з Perl
+      url: /uk/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Перехід на Ruby з PHP
+      url: /uk/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Перехід на Ruby з Python
+      url: /uk/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Поширені запитання
+    url: /uk/documentation/faq/
+  - text: Почати та дослідити
+    submenu:
+    - text: Спробуйте Ruby
+      url: https://try.ruby-lang.org/
+      external: true
+    - text: Довідник Ruby
+      url: https://docs.ruby-lang.org/en/3.4/
+      external: true
+    - text: Бібліографія Ruby
+      url: https://rubybib.org/
+      external: true
+- text: Бібліотеки
+  url: /uk/libraries/
+  submenu:
+  - text: Бібліотеки
+    url: /uk/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Популярні геми
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Внесок у розвиток
+  url: /uk/community/ruby-core/
+  submenu:
+  - text: Розробка ядра Ruby
+    url: /uk/community/ruby-core/
+  - text: Поштові розсилки
+    url: /uk/community/mailing-lists/
+  - text: Правила поштових розсилок
+    url: /uk/community/mailing-lists/ruby-talk-guidelines/
+  - text: Посібник з написання патчів
+    url: /uk/community/ruby-core/writing-patches/
+  - text: Інше
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Система відстеження проблем Ruby
+      url: https://bugs.ruby-lang.org/
+      external: true
+- text: Спільнота
+  url: /uk/community/
+  submenu:
+  - text: Спільнота
+    url: /uk/community/
+  - text: Групи користувачів
+    url: /uk/community/user-groups/
+  - text: Блоги та розсилки
+    url: /uk/community/weblogs/
+  - text: Подкасти
+    url: /uk/community/podcasts/
+  - text: Кодекс поведінки
+    url: /uk/conduct/
+  - text: Події та конференції
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/2025/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+  - text: Організації
+    submenu:
+    - text: Асоціація Ruby
+      url: https://www.ruby.or.jp/en/
+      external: true
+- text: Новини
+  url: /uk/news/
+  submenu:
+  - text: Новини
+    url: /uk/news/
+  - text: Безпека
+    url: /uk/security/
+
+syndicate:
+  text: Підписатися
+  recent_news:
+    text: Останні новини (RSS)
+    url: /uk/feeds/news.rss
+
+languages_heading: 'Цей сайт іншими мовами:'
+
+toc:
+  heading: Зміст
+
+credits:
+  <a href="/uk/about/website/">Цей вебсайт</a>
+  з гордістю підтримується членами спільноти Ruby.
+
+month_names:
+- Січень
+- Лютий
+- Березень
+- Квітень
+- Травень
+- Червень
+- Липень
+- Серпень
+- Вересень
+- Жовтень
+- Листопад
+- Грудень
+
+posted_by: Опублікував AUTHOR %d-%m-%Y
+translated_by: 'Переклав:'
+
+feed:
+  title: Новини Ruby
+  description: Останні новини з ruby-lang.org.
+  lang_code: uk
+
+news:
+  other_news: Інші новини
+  more_news: Більше новин...
+  continue: Читати далі...
+  back_to_year: Назад до архівів %Y року
+  recent_news: Останні новини
+  yearly_archive_title: Архіви %Y року
+  monthly_archive_title: Архіви %B %Y
+  yearly_archives: Архіви за роками
+  monthly_archives: Архіви за місяцями
+  yearly_archive_link: Архіви %Y
+  monthly_archive_link: "%B %Y"
+  select_year: "--- Виберіть рік ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Поштові розсилки
+      url: /uk/community/mailing-lists/
+    security:
+      text: Безпека
+      url: /uk/security/
+    about_website:
+      text: Про цей сайт
+      url: /uk/about/website/
+    logo_page:
+      text: Про логотип
+      url: /uk/about/logo/
+    news_rss:
+      text: RSS новин
+      url: /uk/feeds/news.rss
+    privacy:
+      text: Політика конфіденційності
+      url: /uk/privacy/
+    ruby_license:
+      text: Ліцензія Ruby
+      url: /uk/about/license.txt
