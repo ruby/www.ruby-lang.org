@@ -17,7 +17,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 4.0�
 
 ## 코어 클래스 변경
 
-주의: 주목할만한 코어 클래스 변경만을 포함합니다.
+주의: 주목할 만한 코어 클래스 변경만을 포함합니다.
 
 * Binding
 
@@ -38,7 +38,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 4.0�
 
 ## 표준 라이브러리 변경
 
-주의: 주목할만한 표준 라이브러리 변경만을 포함합니다.
+주의: 주목할 만한 표준 라이브러리 변경만을 포함합니다.
 
 * ostruct 0.6.1
 * pstore 0.2.0
@@ -51,13 +51,13 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 4.0�
 * readline 0.0.4
 * fiddle 1.1.6
 
-## 호환성 이슈
+## 호환성 문제
 
 주의: 기능 버그 수정은 포함되어 있지 않습니다.
 
 
 
-## 표준 라이브러리 호환성 이슈
+## 표준 라이브러리 호환성 문제
 
 
 ## C API 변경
@@ -69,7 +69,7 @@ Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다. Ruby 4.0�
     * YJIT 통계
         * `ratio_in_yjit`은 더 이상 기본 빌드에서 작동하지 않습니다.
           `--yjit-stats`에서 활성화하려면 `configure`에서 `--enable-yjit=stats`를 사용하세요.
-        * TracePoint에 의해 모든 코드가 무효화될 때 증가하는 `invalidate_everything`을 기본 통계에 추가합니다.
+        * 기본 통계에 `invalidate_everything`이 추가되었습니다. TracePoint에 의해 모든 코드가 무효화될 때 증가합니다.
     * `RubyVM::YJIT.enable`에 `mem_size:`와 `call_threshold:` 옵션을 추가합니다.
 * ZJIT
     * 실험적인 메서드 기반 JIT 컴파일러를 추가합니다.
