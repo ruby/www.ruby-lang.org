@@ -1962,6 +1962,16 @@ body:is(.dark *){
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
 }
 
+/* Ensure syntax highlighting colors are not overridden by body color */
+
+.highlight code {
+  color: inherit;
+}
+
+.highlight pre {
+  color: var(--color-text-default);
+}
+
 .container{
   width: 100%;
   margin-right: auto;
