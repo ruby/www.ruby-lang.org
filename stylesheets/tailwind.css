@@ -24,6 +24,30 @@
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
 
+  /* CJK fonts */
+  html:lang(ja),
+  body:lang(ja),
+  .font-default:lang(ja),
+  .font-sans:lang(ja),
+  [lang="ja"],
+  html:lang(ko),
+  body:lang(ko),
+  .font-default:lang(ko),
+  .font-sans:lang(ko),
+  [lang="ko"],
+  html:lang(zh-CN),
+  body:lang(zh-CN),
+  .font-default:lang(zh-CN),
+  .font-sans:lang(zh-CN),
+  [lang="zh-CN"],
+  html:lang(zh-TW),
+  body:lang(zh-TW),
+  .font-default:lang(zh-TW),
+  .font-sans:lang(zh-TW),
+  [lang="zh-TW"] {
+    font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
   /* Ensure syntax highlighting colors are not overridden by body color */
   .highlight code {
     color: inherit;
