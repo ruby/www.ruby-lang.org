@@ -43,7 +43,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
 ## 코어 클래스 변경
 
-주의: 주목할만한 클래스 변경만을 포함합니다.
+주의: 주목할 만한 클래스 변경만을 포함합니다.
 
 * Kernel
 
@@ -67,7 +67,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
         [[Feature #21219]]
 
-    * Deprecate 되었던, 선행 `|`를 사용한 `Kernel#open`의 프로세스 생성 기능이 제거되었습니다.
+    * 폐기 예정이었던, 선행 `|`를 사용한 `Kernel#open`의 프로세스 생성 기능이 제거되었습니다.
       [[Feature #19630]]
 
 * Binding
@@ -78,7 +78,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
 * File
 
-    * `File::Stat#birthtime`이 커널과 파일시스템에서 지원되는 경우 statx 시스템 콜을 통해
+    * 커널과 파일 시스템에서 지원하는 경우, `File::Stat#birthtime`이 statx 시스템 콜을 통해
       Linux에서 사용 가능합니다. [[Feature #21205]]
 
 * IO
@@ -86,7 +86,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
     * `IO.select`는 타임아웃 인자로 `Float::INFINITY`를 허용합니다.
       [[Feature #20610]]
 
-    * Deprecate 되었던, 선행 `|`를 사용한 `IO` 클래스 메서드의 프로세스 생성 기능이 제거되었습니다.
+    * 폐기 예정이었던, 선행 `|`를 사용한 `IO` 클래스 메서드의 프로세스 생성 기능이 제거되었습니다.
       [[Feature #19630]]
 
 * Math
@@ -96,13 +96,13 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 * Method
 
     * `Method#source_location`, `Proc#source_location`, `UnboundMethod#source_location`은
-      이제 5개의 요소를 가진 확장된 위치 정보를 반환합니다: `[path, start_line, start_column,
+      이제 5개의 요소를 가진 확장된 위치 정보를 반환합니다. `[path, start_line, start_column,
       end_line, end_column]`. 이전의 2개 요소 형식 `[path, line]`은 결과에 `.take(2)`를
       호출하여 얻을 수 있습니다. [[Feature #6012]]
 
 * Proc
 
-    * `Proc#parameters`는 이제 익명 선택적 매개변수를 `[:opt, nil]` 대신 `[:opt]`로 표시하여,
+    * `Proc#parameters`는 이제 선택적 익명 매개변수를 `[:opt, nil]` 대신 `[:opt]`로 표시하여,
       익명 매개변수가 필수인 경우와 일관된 출력을 제공합니다. [[Bug #20974]]
 
 * Ractor
@@ -146,7 +146,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
     * `Ractor#close_incoming`과 `Ractor#close_outgoing`이 제거되었습니다.
 
-    * 공유 가능한 Proc 또는 lambda를 만들기 위해 `Ractor.shareable_proc`와 `Ractor.shareable_lambda`가
+    * 공유 가능한 Proc 또는 lambda를 만들기 위해 `Ractor.shareable_proc`과 `Ractor.shareable_lambda`가
       도입되었습니다. [[Feature #21550]], [[Feature #21557]]
 
 * Range
@@ -154,7 +154,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
     * `Range#to_set`과 `Enumerator#to_set`은 이제 끝이 없는 범위 문제를 방지하기 위해
       크기 검사를 수행합니다. [[Bug #21654]]
 
-    * `Range#overlap?`은 이제 무한(경계가 없는) 범위를 올바르게 처리합니다.
+    * `Range#overlap?`은 이제 무한한(경계가 없는) 범위를 올바르게 처리합니다.
       [[Bug #21185]]
 
     * 시작이 없는 정수 범위에서 `Range#max` 동작이 수정되었습니다.
@@ -174,14 +174,14 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
 * Set
 
-    * `Set`은 이제 코어 클래스이며, 더 이상 autoloaded stdlib 클래스가 아닙니다.
+    * `Set`은 이제 코어 클래스이며, 더 이상 자동 로드되는 표준 라이브러리 클래스가 아닙니다.
       [[Feature #21216]]
 
     * `Set#inspect`은 이제 `Set[]` 구문을 사용하여 `eval`에 적합한 문자열을 반환합니다
       (예: `#<Set: {1, 2, 3}>` 대신 `Set[1, 2, 3]`). 이는 Array, Hash와 같은
       다른 코어 컬렉션 클래스와 일관성을 유지합니다. [[Feature #21389]]
 
-    * `Set#to_set`과 `Enumerable#to_set`에 인자를 전달하는 것은 deprecate 되었습니다.
+    * `Set#to_set`과 `Enumerable#to_set`에 인자를 전달하는 것은 폐기 예정 상태가 되었습니다.
       [[Feature #21390]]
 
 * Socket
@@ -233,7 +233,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 * readline 0.0.4
 * fiddle 1.1.8
 
-주목할만한 기능 변경인 표준 라이브러리 변경만을 나열합니다.
+주목할 만한 기능 변경인 표준 라이브러리 변경만을 나열합니다.
 
 다른 변경 사항은 아래 섹션에 나열되어 있습니다. Ruby 3.3.0 이후 번들된 버전의
 릴리스 히스토리가 GitHub 릴리스에 있는 경우 함께 나열했습니다.
@@ -302,7 +302,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
     * 14.0보다 오래된 MSVC 버전(_MSC_VER 1900) 지원이 중단되었습니다.
       이는 Visual Studio 2015 이상이 필요함을 의미합니다.
 
-## 호환성 이슈
+## 호환성 문제
 
 * `Ractor::Port` 추가로 인해 다음 메서드가 Ractor에서 제거되었습니다.
 
@@ -313,16 +313,16 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
     [[Feature #21262]]
 
-* `ObjectSpace._id2ref`가 deprecate 되었습니다. [[Feature #15408]]
+* `ObjectSpace._id2ref`가 폐기 예정 상태가 되었습니다. [[Feature #15408]]
 
 * `Process::Status#&`와 `Process::Status#>>`가 제거되었습니다.
-  Ruby 3.3에서 deprecate 된 바 있습니다. [[Bug #19868]]
+  Ruby 3.3에서 폐기 예정 상태가 되었습니다. [[Bug #19868]]
 
 * `rb_path_check`가 제거되었습니다. 이 함수는 Ruby 2.7에서 제거된
-  `$SAFE` 경로 검사에 사용되었었으며, 이미 deprecate 되었었습니다.
+  `$SAFE` 경로 검사에 사용되었었으며, 이미 폐기 예정이었습니다.
   [[Feature #20971]]
 
-## 표준 라이브러리 호환성 이슈
+## 표준 라이브러리 호환성 문제
 
 * CGI 라이브러리가 기본 gem에서 제거되었습니다. 이제 다음 메서드를 위한
   `cgi/escape`만 제공합니다.
@@ -335,7 +335,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
     [[Feature #21258]]
 
 * `Set`이 표준 라이브러리에서 코어 클래스로 이동함에 따라, `set/sorted_set.rb`가
-  제거되었고, `SortedSet`은 더 이상 autoloaded 상수가 아닙니다. `SortedSet`을 사용하려면
+  제거되었고, `SortedSet`은 더 이상 자동 로드되는 상수가 아닙니다. `SortedSet`을 사용하려면
   `sorted_set` gem을 설치하고 `require 'sorted_set'`을 통해 이용해주세요.
   [[Feature #21287]]
 
@@ -343,7 +343,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
 * IO
 
-    * `rb_thread_fd_close`가 deprecate 되었으며 이제 아무 작업도 하지 않습니다.
+    * `rb_thread_fd_close`는 폐기 예정 상태가 되었으며 이제 아무 작업도 하지 않습니다.
       C 확장에서 Ruby 코드로 파일 디스크립터를 노출해야 하는 경우,
       `RUBY_IO_MODE_EXTERNAL`을 사용하여 `IO` 인스턴스를 만들고 `rb_io_close(io)`를 사용하여
       닫으세요(이렇게 하면 `IO` 인스턴스의 모든 대기 중인 작업도 인터럽트하고 대기합니다).
@@ -380,11 +380,11 @@ Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 �
 이러한 개선으로 Ractor 구현이 실험적 상태를 벗어나는 데 더 가까워졌습니다.
 
 * 성능 개선
-    * 동결된 문자열과 심볼 테이블은 내부적으로 잠금 없는 해시 셋을 사용합니다
-    * 메서드 캐시 조회는 대부분의 경우 잠금을 피합니다
-    * 클래스(및 geniv) 인스턴스 변수 접근이 더 빠르고 잠금을 피합니다
-    * 객체 할당 중 캐시 경합을 피합니다
-    * `object_id`는 대부분의 경우 잠금을 피합니다
+    * 얼린 문자열과 심볼 테이블은 내부적으로 잠금 없는 해시 셋 사용
+    * 메서드 캐시 조회는 대부분의 경우 잠금을 회피
+    * 클래스(및 geniv) 인스턴스 변수 접근이 더 빠르고 잠금을 회피
+    * 객체 할당 중 캐시 경합을 회피
+    * `object_id`는 대부분의 경우 잠금을 회피
 * 버그 수정 및 안정성
     * Ractor와 Thread를 결합할 때 발생할 수 있는 데드락 수정
     * Ractor에서 require 및 autoload 관련 문제 수정
@@ -417,9 +417,8 @@ Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 �
 또는 [커밋 로그](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})를
 참조하세요.
 
-이러한 변경으로 Ruby 3.4.0 이후
-[파일 {{ release.stats.files_changed }}개 변경, {{ release.stats.insertions }}개 추가(+), {{ release.stats.deletions }}개 삭제(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)
-가 있었습니다!
+이러한 변경사항에 따라, Ruby 3.4.0 이후로 [파일 {{ release.stats.files_changed }}개 변경, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
 ## 다운로드
 
@@ -444,10 +443,10 @@ Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 �
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Ruby란
+## Ruby는
 
-Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했으며,
-현재는 오픈 소스로 개발되고 있습니다. 여러 플랫폼에서 실행되며
+Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고,
+현재는 오픈 소스로 개발되고 있습니다. 여러 플랫폼에서 동작하며,
 전 세계적으로 특히 웹 개발에 사용됩니다.
 
 [Feature #6012]: https://bugs.ruby-lang.org/issues/6012
@@ -489,3 +488,4 @@ Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했으며,
 [Feature #21552]: https://bugs.ruby-lang.org/issues/21552
 [Feature #21557]: https://bugs.ruby-lang.org/issues/21557
 [Bug #21654]:     https://bugs.ruby-lang.org/issues/21654
+[Feature #21552]: https://bugs.ruby-lang.org/issues/21552
