@@ -493,3 +493,4 @@ Ruby уперше розробив Matz (Yukihiro Matsumoto) у 1993 році,
 [Feature #21550]: https://bugs.ruby-lang.org/issues/21550
 [Feature #21557]: https://bugs.ruby-lang.org/issues/21557
 [Bug #21654]:     https://bugs.ruby-lang.org/issues/21654
+[Feature #21552]: https://bugs.ruby-lang.org/issues/21552
