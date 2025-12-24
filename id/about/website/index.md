@@ -12,6 +12,14 @@ Kode sumber situs ada di [GitHub][github-repo].
 Desain visual saat ini dibuat oleh [Taeko Akatsuka][akatsuka].
 Situs ini diperbarui pada Desember 2025.
 
+<img src="../../../images/about/screenshot.png" alt="Desain ruby-lang.org saat ini" width="400" style="border: 1px solid #d6d3d1;" />
+
+"Happy Hacking" di footer ditulis tangan oleh [Yukihiro Matsumoto (Matz)][matz].
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking di footer" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Desain Sebelumnya
+
 Desain visual sebelum Desember 2025 oleh [Jason Zimdars][jzimdars].<br>
 Didasarkan pada desain awal oleh Ruby Visual Identity Team.
 
@@ -86,6 +94,7 @@ Terima kasih juga kepada organisasi-organisasi yang telah mendukung kami:
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
