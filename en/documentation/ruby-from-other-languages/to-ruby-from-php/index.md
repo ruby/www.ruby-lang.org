@@ -36,7 +36,7 @@ Unlike in PHP, in Ruby…
   convert between strings, integers and so on, instead of relying on the
   language to do it.
 * Strings, numbers, arrays, hashes, etc. are objects. Instead of calling
-  abs(-1) it’s -1.abs.
+  `abs(-1)` it’s `-1.abs`.
 * Parentheses are optional in method calls, except to clarify which
   parameters go to which method calls.
 * The standard library and extensions are organized in modules and classes.

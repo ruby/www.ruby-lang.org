@@ -35,7 +35,7 @@ Không giống như PHP, trong Ruby…
 * Cách gõ ngắn gọn. Bạn có thể gọi `to_s`, `to_i` v.v. để
   chuyển đổi sang kiểu chuỗi, số vân vân, thay vì dựa vào ngôn ngữ.
 * Strings, numbers, arrays, hashes, v.v đều là các đối tượng. Thay vì
-  gọi abs(-1) chỉ cần gọi -1.abs.
+  gọi `abs(-1)` chỉ cần gọi `-1.abs`.
 * Các dấu ngoặc được tùy chọn khi gọi phương thức, ngoại trừ một số
   tham số cần được làm rõ khi gọi phương thức.
 * Thay cho các quy ước đặt tên, như gạch chân, các phần mở rộng của
