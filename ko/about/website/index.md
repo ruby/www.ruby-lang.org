@@ -16,7 +16,7 @@ lang: ko
 
 하단의 "Happy Hacking"은 [마츠모토 유키히로(Matz)][matz] 님의 친필입니다.
 
-<img src="../../../images/about/screenshot-happy-hacking.png" alt="푸터의 Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="하단의 Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
 
 ## 이전 디자인
 
