@@ -14,7 +14,7 @@ lang: ko
 
 <img src="../../../images/about/screenshot.png" alt="현재 ruby-lang.org 디자인" width="400" style="border: 1px solid #d6d3d1;" />
 
-푸터의 "Happy Hacking"은 [마츠모토 유키히로 (Matz)][matz] 님의 친필입니다.
+하단의 "Happy Hacking"은 [마츠모토 유키히로(Matz)][matz] 님의 친필입니다.
 
 <img src="../../../images/about/screenshot-happy-hacking.png" alt="푸터의 Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
 
