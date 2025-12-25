@@ -2,8 +2,8 @@ hero:
   since: "Since"
   year: "1995"
   title: "Ruby"
-  latest_version_label: "Latest Version:"
-  download_button: "Download"
+  latest_version_label: "최신 버전:"
+  download_button: "다운로드"
   or: "또는"
   learn_more: "자세히 알아보기"
 
