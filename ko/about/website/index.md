@@ -12,6 +12,14 @@ lang: ko
 현재 비주얼 디자인은 [Taeko Akatsuka][akatsuka] 님이 담당했습니다.
 2025년 12월에 사이트가 리뉴얼되었습니다.
 
+<img src="../../../images/about/screenshot.png" alt="현재 ruby-lang.org 디자인" width="400" style="border: 1px solid #d6d3d1;" />
+
+하단의 "Happy Hacking"은 [마츠모토 유키히로(Matz)][matz] 님의 친필입니다.
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="하단의 Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
+
+## 이전 디자인
+
 2025년 12월 이전의 비주얼 디자인은 Ruby Visual Identity 팀의 이전 디자인을 기초로
 [Jason Zimdars][jzimdars] 님이 디자인했습니다.
 
@@ -88,6 +96,7 @@ lang: ko
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
