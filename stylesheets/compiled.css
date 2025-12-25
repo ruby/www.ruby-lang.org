@@ -1962,7 +1962,7 @@ video {
   display: none;
 }
 
-body:lang(ja),body:lang(ko),body:lang(zh-CN),body:lang(zh-TW) {
+body:lang(ja):not([lang] *:not([lang="ja"])),body:lang(ko):not([lang] *:not([lang="ko"])),body:lang(zh-CN):not([lang] *:not([lang="zh-CN"])),body:lang(zh-TW):not([lang] *:not([lang="zh-TW"])) {
   font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -1986,25 +1986,25 @@ body:is(.dark *){
 
 /* CJK fonts */
 
-html:lang(ja),
-  body:lang(ja),
-  .font-default:lang(ja),
-  .font-sans:lang(ja),
+html:lang(ja):not([lang] *:not([lang="ja"])),
+  body:lang(ja):not([lang] *:not([lang="ja"])),
+  .font-default:lang(ja):not([lang] *:not([lang="ja"])),
+  .font-sans:lang(ja):not([lang] *:not([lang="ja"])),
   [lang="ja"],
-  html:lang(ko),
-  body:lang(ko),
-  .font-default:lang(ko),
-  .font-sans:lang(ko),
+  html:lang(ko):not([lang] *:not([lang="ko"])),
+  body:lang(ko):not([lang] *:not([lang="ko"])),
+  .font-default:lang(ko):not([lang] *:not([lang="ko"])),
+  .font-sans:lang(ko):not([lang] *:not([lang="ko"])),
   [lang="ko"],
-  html:lang(zh-CN),
-  body:lang(zh-CN),
-  .font-default:lang(zh-CN),
-  .font-sans:lang(zh-CN),
+  html:lang(zh-CN):not([lang] *:not([lang="zh-CN"])),
+  body:lang(zh-CN):not([lang] *:not([lang="zh-CN"])),
+  .font-default:lang(zh-CN):not([lang] *:not([lang="zh-CN"])),
+  .font-sans:lang(zh-CN):not([lang] *:not([lang="zh-CN"])),
   [lang="zh-CN"],
-  html:lang(zh-TW),
-  body:lang(zh-TW),
-  .font-default:lang(zh-TW),
-  .font-sans:lang(zh-TW),
+  html:lang(zh-TW):not([lang] *:not([lang="zh-TW"])),
+  body:lang(zh-TW):not([lang] *:not([lang="zh-TW"])),
+  .font-default:lang(zh-TW):not([lang] *:not([lang="zh-TW"])),
+  .font-sans:lang(zh-TW):not([lang] *:not([lang="zh-TW"])),
   [lang="zh-TW"] {
   font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
 }
