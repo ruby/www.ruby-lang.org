@@ -24,7 +24,7 @@ Expected use cases are:
 * Run web app boxes in parallel to evaluate dependency updates for a certain period of time by checking response diff using Ruby code
 * Used as the foundation (low-level) API to implement kind of "package" (high-level) API (it is not designed yet)
 
-For the detail of "Ruby Box", see [doc/language/box.md](doc/language/box.md).
+For the detail of "Ruby Box", see  [Ruby::Box](https://docs.ruby-lang.org/en/master/Ruby/Box.html).
 [[Feature #21311]] [[Misc #21385]]
 
 ## ZJIT

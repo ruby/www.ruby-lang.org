@@ -24,7 +24,7 @@ Ruby Boxの主要なユースケースとしては、次のものが想定され
 * WebアプリケーションをBox内で実行することで、依存関係の更新時などに、一定期間並列で動かしてRubyコードを用いてレスポンス等を検証すること
 * (未設計の)「パッケージAPI」のような新しい高レベルAPIを作るための低レベルAPIとしての機能を提供すること
 
-"Ruby Box"の詳細については次のドキュメントを参照してください: [doc/language/box.md](doc/language/box.md).
+"Ruby Box"の詳細については次のドキュメントを参照してください: [Ruby::Box](https://docs.ruby-lang.org/en/master/Ruby/Box.html).
 [[Feature #21311]] [[Misc #21385]]
 
 ## ZJIT
