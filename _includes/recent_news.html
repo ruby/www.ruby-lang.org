@@ -36,13 +36,13 @@
   <div class="space-y-4">
     {% for post in recent_posts %}
     <article class="pb-4 border-b border-stone-200 dark:border-stone-700 last:border-b-0">
-      <h3 class="text-lg font-bold mb-2">
+      <h3 class="text-lg font-bold mb-2"{% if post.fallback %} lang="en"{% endif %}>
         <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
           {{ post.title }}
         </a>
       </h3>
 
-      <p class="text-stone-600 dark:text-stone-400 text-sm mb-2 line-clamp-2">
+      <p class="text-stone-600 dark:text-stone-400 text-sm mb-2 line-clamp-2" {% if post.fallback %}lang="en"{% endif %}>
         {{ post.excerpt | strip_html | truncatewords: 25 }}
       </p>
 

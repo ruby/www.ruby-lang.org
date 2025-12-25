@@ -46,13 +46,13 @@
         <div class="space-y-6">
           {% for post in news_posts %}
           <article class="pb-6 border-b border-stone-200 dark:border-stone-700">
-            <h3 class="text-2xl font-bold mb-3">
+            <h3 class="text-2xl font-bold mb-3"{% if post.fallback %} lang="en"{% endif %}>
               <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
                 {{ post.title }}
               </a>
             </h3>
 
-            <div class="text-stone-900 dark:text-stone-300 text-sm mb-1">
+            <div class="text-stone-900 dark:text-stone-300 text-sm mb-1" {% if post.fallback %}lang="en"{% endif %}>
               {{ post.excerpt | strip_html | truncatewords: 30 }}
             </div>
 
@@ -86,7 +86,7 @@
         <div class="space-y-6">
           {% for post in security_posts %}
           <article class="pb-6 border-b border-stone-200 dark:border-stone-700">
-            <h3 class="text-base font-bold mb-3">
+            <h3 class="text-base font-bold mb-3" {% if post.fallback %}lang="en"{% endif %}>
               <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
                 {{ post.title }}
               </a>
