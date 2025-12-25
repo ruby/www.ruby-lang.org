@@ -17,11 +17,11 @@ describe Jekyll::FallbackGenerator do
       permalink: pretty
     CONFIG
     
-    # 2. Setup languages data from actual file + add a test language 'zz'
-    # 'zz' is a virtual language guaranteed to have no translation or locale file,
+    # 2. Setup languages data from actual file + add a test language 'xz'
+    # 'xz' is a virtual language guaranteed to have no translation or locale file,
     # ensuring the test for fallback to English notice remains robust.
     actual_langs = YAML.load_file(actual_languages_path)
-    actual_langs << { 'code' => 'zz', 'name' => 'Test Language', 'native_name' => 'Test' }
+    actual_langs << { 'code' => 'xz', 'name' => 'Test Language', 'native_name' => 'Test' }
     create_file("source/_data/languages.yml", YAML.dump(actual_langs))
     
     # 3. Setup locales from actual files
@@ -157,9 +157,9 @@ describe Jekyll::FallbackGenerator do
   end
 
   it "should use English notice when specific locale notice is missing" do
-    # 'zz' is a virtual language with no locale file, so it should fallback to English notice
-    zz_page = File.read("_site/zz/about/index.html")
-    _(zz_page).must_match "This content is not currently available in the language you selected"
+    # 'xz' is a virtual language with no locale file, so it should fallback to English notice
+    xz_page = File.read("_site/xz/about/index.html")
+    _(xz_page).must_match "This content is not currently available in the language you selected"
   end
 
   it "should not have a period at the end of the notice" do
@@ -177,9 +177,9 @@ describe Jekyll::FallbackGenerator do
   end
 
   it "should correctly set categories for fallback posts" do
-    zz_post = @site.posts.docs.find { |d| d.data['lang'] == 'zz' && d.data['fallback'] }
-    _(zz_post.data['categories']).must_include 'zz'
-    _(zz_post.data['categories']).wont_include 'en'
+    xz_post = @site.posts.docs.find { |d| d.data['lang'] == 'xz' && d.data['fallback'] }
+    _(xz_post.data['categories']).must_include 'xz'
+    _(xz_post.data['categories']).wont_include 'en'
   end
 
   it "should maintain post sorting after adding fallback posts" do
