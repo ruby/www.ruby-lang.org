@@ -113,6 +113,7 @@ module Jekyll
         LANGS.each do |lang|
           categories[lang].each do |post|
             next if too_old(post.date)
+            next if post.data["fallback"]
 
             name = post.url.gsub(%r{\A/#{lang}/news/}, "")
             @posts[name].translations << lang
