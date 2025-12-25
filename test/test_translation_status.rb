@@ -39,10 +39,10 @@ describe Jekyll::TranslationStatus do
     create_file("source/ja/news/_posts/2025-01-01-test-post.md", <<~MARKDOWN)
       ---
       layout: news_post
-      title: "Japanese Translation"
+      title: "日本語のポスト"
       lang: ja
       ---
-      Content
+      コンテント
     MARKDOWN
 
     # French post is missing, will be generated as fallback
