@@ -8,7 +8,7 @@ module Jekyll
   # Outputs HTML.
   module TranslationStatus
 
-    LANGS = %w[en bg de es fr id it ja ko pl pt ru tr ua vi zh_cn zh_tw].freeze
+    LANGS = %w[en bg de es fr id it ja ko pl pt ru tr uk vi zh_cn zh_tw].freeze
     START_DATE = "2013-04-01"
 
     OK_CHAR      = "✓"
@@ -107,17 +107,21 @@ module Jekyll
       end
 
       def render(context)
+        @posts = Hash.new {|posts, name| posts[name] = Post.new(name) }
         categories = context.registers[:site].categories
         ignored_langs = categories.keys - LANGS - ["news"]
 
         LANGS.each do |lang|
-          categories[lang].each do |post|
+          (categories[lang] || []).each do |post|
             next if too_old(post.date)
-            next if post.data["fallback"]
+            if post.data["fallback"]
+              # puts "DEBUG: Skipping fallback post #{post.url} for lang #{lang}"
+              next
+            end
 
             name = post.url.gsub(%r{\A/#{lang}/news/}, "")
             @posts[name].translations << lang
-            @posts[name].security = true  if post.data["tags"].include?("security")
+            @posts[name].security = true  if post.data["tags"] && post.data["tags"].include?("security")
           end
         end
 
