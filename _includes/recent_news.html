@@ -42,7 +42,7 @@
         </a>
       </h3>
 
-      <p class="text-stone-600 dark:text-stone-400 text-sm mb-2 line-clamp-2" {% if post.fallback %}lang="en"{% endif %}>
+      <p class="text-stone-600 dark:text-stone-400 text-sm mb-2 line-clamp-2"{% if post.fallback %} lang="en"{% endif %}>
         {{ post.excerpt | strip_html | truncatewords: 25 }}
       </p>
 

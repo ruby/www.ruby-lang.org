@@ -51,7 +51,7 @@ layout: default
               </a>
             </h3>
 
-            <div class="text-stone-900 dark:text-stone-300" {% if post.fallback %}lang="en"{% endif %}>
+            <div class="text-stone-900 dark:text-stone-300"{% if post.fallback %} lang="en"{% endif %}>
               {{ post.excerpt | markdownify }}
             </div>
 
