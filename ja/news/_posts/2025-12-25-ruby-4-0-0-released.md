@@ -538,10 +538,9 @@ Ruby をビルドする場合、ZJIT サポートを含めるには Rust 1.85.0 
 より詳細な情報は [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
 か [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}) を参照してください。
 
-これらの変更により、Ruby 3.4.0から [{{ release.stats.files_changed }} ファイルが変更され、 {{ release.stats.insertions }} 行が追加され、 {{ release.stats.deletions }} 行が削除されました!deletions(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)
+これらの変更により、Ruby 3.4.0から [{{ release.stats.files_changed }} ファイルが変更され、 {{ release.stats.insertions }} 行が追加され、 {{ release.stats.deletions }} 行が削除されました](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)！
 
-メリークリスマス、良いお年を、そして Happy Hacking with Ruby 4.0!
-！
+メリークリスマス、良いお年を、そして Happy Hacking with Ruby 4.0！
 
 ## Download
 
