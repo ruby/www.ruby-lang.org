@@ -15,4 +15,3 @@ Big Nerd Ranch Europe пропонує свої класи Ruby on Rails Bootcam
 
 
 [1]: http://www.bignerdranch.com/news/2006-12-20.shtml
-

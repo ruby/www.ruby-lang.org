@@ -57,4 +57,3 @@ VIT-Discuss][4].
 [2]: http://redhanded.hobix.com/redesign2005/
 [3]: http://radiantcms.org
 [4]: http://rubyforge.org/mailman/listinfo/vit-discuss/
-

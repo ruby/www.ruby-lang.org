@@ -13,4 +13,3 @@ Bryan Kang.
 
 
 [1]: http://cafe.naver.com/ruby/
-

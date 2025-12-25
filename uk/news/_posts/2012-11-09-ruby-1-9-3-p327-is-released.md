@@ -41,4 +41,3 @@ Ruby 1.9.3-p327 випущено.
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.zip
-

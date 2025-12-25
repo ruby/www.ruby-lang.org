@@ -32,4 +32,3 @@ ruby-1.8.0.tar.gz. Його MD5SUM:
 
 [1]: {{ site.url }}/download-1.8.0.rbx
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/changes.1.8.0
-

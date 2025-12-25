@@ -138,4 +138,3 @@ Ruby 2.6 вводить модуль `RubyVM::AbstractSyntaxTree`.
       SHA1:   3b93fdf1c5bd969ab4fe0a8176a6cf64e4597e6e
       SHA256: 21d9d54c20e45ccacecf8bea4dfccd05edc52479c776381ae98ef6a7b4afa739
       SHA512: 3d93d8d80e4900e8b3a27f904ed60581cebc6c55f4ab7acafc81e95001f92f3ea4ddec2da6169b1ed5e0146f7b7c35c1c13b3243955d5825c72170834fe933f3
-

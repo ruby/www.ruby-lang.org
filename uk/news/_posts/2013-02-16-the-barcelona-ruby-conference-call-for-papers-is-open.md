@@ -29,4 +29,3 @@ Ruby), серед інших.
 [1]: http://baruco.org
 [2]: http://baruco.org/speakers
 [3]: http://baruco.org/call_for_papers
-

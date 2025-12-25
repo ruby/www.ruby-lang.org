@@ -17,4 +17,3 @@ ConFoo Vancouver відбудеться 5-7 грудня 2016 року. Для �
 
 [1]: https://confoo.ca/en/yvr2016/call-for-papers
 [2]: https://confoo.ca/en/yvr2016
-

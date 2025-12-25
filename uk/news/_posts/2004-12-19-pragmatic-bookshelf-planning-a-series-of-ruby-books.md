@@ -20,4 +20,3 @@ API. Замість цього ми хочемо показати, як отри
 
 
 [1]: https://blade.ruby-lang.org/ruby-talk/123137
-

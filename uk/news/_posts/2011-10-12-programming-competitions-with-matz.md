@@ -51,4 +51,3 @@ Ruby. Проекти повинні бути розроблені або зав�
 
 
 [1]: http://www.myfukuoka.com/events/2012-fukuoka-ruby-award-competition
-

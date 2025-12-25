@@ -17,4 +17,3 @@ Brad Cox, творець Objective-C, виступить з ключовою п�
 
 [1]: http://www.rubycentral.org/conference
 [2]: http://www.rubycentral.org/conference/register.html
-

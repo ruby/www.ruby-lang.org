@@ -22,4 +22,3 @@ md5sum: 8ffc79d96f336b80f2690a17601dea9b
 
 
 [1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.2.tar.gz
-

@@ -55,4 +55,3 @@ Ruby 1.9.3-p125 випущено.
 [7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
 [8]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
 [9]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip
-

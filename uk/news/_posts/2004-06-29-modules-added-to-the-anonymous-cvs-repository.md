@@ -17,4 +17,3 @@ lang: uk
 * ruby-parser
 * shim
 * vms
-

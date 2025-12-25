@@ -21,4 +21,3 @@ lang: uk
 
 
 [1]: https://blade.ruby-lang.org/ruby-talk/65418
-

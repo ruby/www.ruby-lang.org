@@ -191,4 +191,3 @@ refinement:
 [11]: http://www.infoq.com/news/2012/11/ruby-20-preview1
 [12]: http://jp.rubyist.net/magazine/?0041-200Special
 [13]: https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks
-

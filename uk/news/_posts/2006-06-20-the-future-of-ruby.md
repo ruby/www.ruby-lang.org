@@ -23,4 +23,3 @@ lang: uk
 [1]: http://eigenclass.org/hiki.rb?Changes+in+Ruby+1.9
 [2]: https://blade.ruby-lang.org/ruby-talk/197229
 [3]: http://www.rubyist.net/~matz/slides/rc2005/mgp00006.html
-

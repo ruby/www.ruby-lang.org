@@ -57,4 +57,3 @@ Engine Yard Cloud (перші 5,000 годин безкоштовно), запр
 [5]: http://www.myfukuoka.com/news/2010-fukuoka-ruby-award-winners.html
 [6]: http://www.myfukuoka.com/events/2009-fukuoka-ruby-award-winners.html
 [7]: http://www.myfukuoka.com/events/2012-fukuoka-ruby-forum.html
-

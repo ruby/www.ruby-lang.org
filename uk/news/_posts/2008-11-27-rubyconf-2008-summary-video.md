@@ -16,4 +16,3 @@ Envy][2]. Це ідеальний спосіб отримати огляд то�
 
 [1]: http://rubyconf2008.confreaks.com/
 [2]: http://www.railsenvy.com/2008/11/26/rubyconf-videos
-

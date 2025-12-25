@@ -50,4 +50,3 @@ CVE-2010-0541. Див. [звіт про вразливість][1] для біл
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.zip
-

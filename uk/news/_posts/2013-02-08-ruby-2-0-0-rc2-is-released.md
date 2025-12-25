@@ -120,4 +120,3 @@ Ruby 2.0.0.
 [12]: https://blade.ruby-lang.org/ruby-core/48984
 [13]: https://blade.ruby-lang.org/ruby-core/49119
 [14]: https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft
-

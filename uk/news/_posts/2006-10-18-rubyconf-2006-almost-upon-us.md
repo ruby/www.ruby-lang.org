@@ -33,4 +33,3 @@ Iron Mongrel (гарячий новий веб-сервер, написаний 
 [5]: http://wiki.rubygarden.org/Ruby/page/show/RubyConf2006Facebook/
 [6]: http://technorati.com/tags/rubyconf2006/
 [7]: http://flickr.com/photos/tags/rubyconf2006/
-

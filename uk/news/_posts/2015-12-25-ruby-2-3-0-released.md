@@ -80,4 +80,3 @@ Ruby 2.3 також включає багато покращень продук�
       SHA1:   3f88617568d9a4f491e8b32dca532363f73eaa71
       SHA256: 8270bdcbc6b62a18fdf1b75bd28d5d6fc0fc26b9bd778d422393a1b98006020a
       SHA512: a3f397bb3c9c19d9b797552c5d60bb01c82db884cfa966df84881125bea35713cffd99f88fb86b271bae72d9cfb09ad9b33838cffcf6365c091459479914fdef
-

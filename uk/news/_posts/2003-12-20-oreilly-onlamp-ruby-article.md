@@ -20,4 +20,3 @@ Ruby конференції, представлений на головній с
 [2]: http://www.onlamp.com
 [3]: http://onestepback.org/index.cgi/Tech/Conferences/RubyConf2003
 [4]: http://www.zenspider.com/Languages/Ruby/RubyConf2003.html
-

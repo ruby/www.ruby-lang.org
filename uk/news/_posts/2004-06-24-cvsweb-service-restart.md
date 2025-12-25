@@ -13,4 +13,3 @@ lang: uk
 
 
 [1]: {{ site.url }}/cgi-bin/cvsweb.cgi/
-

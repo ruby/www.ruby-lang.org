@@ -54,4 +54,3 @@ lang: uk
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.zip
-

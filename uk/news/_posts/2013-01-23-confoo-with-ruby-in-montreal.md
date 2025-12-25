@@ -30,4 +30,3 @@ lang: uk
 
 [1]: http://confoo.ca/en/2013/schedule
 [2]: http://confoo.ca/en/register
-

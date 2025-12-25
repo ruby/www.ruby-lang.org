@@ -34,4 +34,3 @@ helium.ruby-lang.org, та списки членів списків.
 http://www.ruby-lang.org. Вибачте за деякий час незручностей.
 
 група адміністраторів ruby-lang.org
-

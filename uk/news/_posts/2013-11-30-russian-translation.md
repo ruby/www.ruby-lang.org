@@ -27,4 +27,3 @@ lang: uk
 
 [1]: {{ site.url }}/ru/
 [2]: https://github.com/ruby/www.ruby-lang.org/
-

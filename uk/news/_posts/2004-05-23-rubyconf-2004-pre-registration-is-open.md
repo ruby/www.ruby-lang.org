@@ -17,4 +17,3 @@ RubyConf][1] Навіть якщо ви новачок у Ruby, подивіть
 
 
 [1]: http://www.rubycentral.org/conference
-

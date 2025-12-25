@@ -44,4 +44,3 @@ http://raa.ruby-lang.org/rdf.xml. Ви також можете отримати 
 
 
 [1]: http://raa.ruby-lang.org/
-

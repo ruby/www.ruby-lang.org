@@ -21,4 +21,3 @@ MountainWest RubyConf відбувається в Солт-Лейк-Сіті, Ю
 [1]: http://mtnwestrubyconf.org/2009/index
 [2]: http://mtnwestrubyconf.org/2009/schedule
 [3]: http://twitter.com/mwrc
-

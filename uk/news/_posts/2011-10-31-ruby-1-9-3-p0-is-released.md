@@ -35,4 +35,3 @@ Ruby 1.9.3 p0 випущено. Це остання стабільна верс�
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.zip
-

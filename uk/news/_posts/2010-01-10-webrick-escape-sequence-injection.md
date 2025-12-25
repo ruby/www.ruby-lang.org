@@ -84,4 +84,3 @@ lang: uk
 [8]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.gz
 [9]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.tar.bz2
 [10]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p388.zip
-

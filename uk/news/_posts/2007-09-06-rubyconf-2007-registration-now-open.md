@@ -15,4 +15,3 @@ lang: uk
 
 [1]: http://www.regonline.com/rubyconf2007
 [2]: http://www.rubyconf.org/agenda.html
-

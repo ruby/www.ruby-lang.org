@@ -66,4 +66,3 @@ FileUtils.remove\_entry\_secure. Вразливість дозволяє лок�
 [7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
 [8]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.bz2
 [9]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.zip
-

@@ -20,4 +20,3 @@ David A. Black оголосив на ruby-talk, що пропозиції доп
 
 [1]: http://rubyconf.org/
 [2]: http://proposals.rubycentral.org
-

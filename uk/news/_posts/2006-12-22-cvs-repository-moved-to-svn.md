@@ -21,4 +21,3 @@ Microsystems][3]. Ми використовуємо [Solaris 10][4] на нов�
 [2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [3]: http://www.sun.com
 [4]: http://www.sun.com/software/solaris/
-

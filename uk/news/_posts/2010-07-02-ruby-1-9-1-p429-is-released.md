@@ -54,4 +54,3 @@ Ruby 1.9.1. Це виправляє багато помилок та включ�
 [1]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.bz2
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p429.zip
-

@@ -55,4 +55,3 @@ SHA256(ruby-1.8.7-p302.zip):
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip
-

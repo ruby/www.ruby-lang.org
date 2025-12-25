@@ -16,4 +16,3 @@ lang: uk
 [1]: http://conferences.oreilly.com/os2004 "OSCON"
 [2]: http://conferences.oreillynet.com/pub/w/29/track_ruby.html
 [3]: http://conferences.oreillynet.com/pub/w/29/tutorial_ruby.html
-

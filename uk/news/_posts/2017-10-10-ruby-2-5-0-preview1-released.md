@@ -77,4 +77,3 @@ Ruby 2.5.0-preview1 - це перший preview випуск до Ruby 2.5.0.
       SHA1:   eef2901270c235a97d132ebcfb275f130ba368fd
       SHA256: c2f518eb04b38bdd562ba5611abd2521248a1608fc466368563dd794ddeddd09
       SHA512: 1153a1fc4eb1a9556af2d392743998eb9cffd2a07e4648bf124dea1044bb378c7f4534dd87c0d30563ec438d2995ba1832faaaf4261db5d0840ca32ae7ea65d9
-

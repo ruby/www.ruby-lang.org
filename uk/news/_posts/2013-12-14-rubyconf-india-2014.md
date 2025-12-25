@@ -24,4 +24,3 @@ RubyConf India 2014 відбудеться в Гоа, Індія 22-23 бере�
 
 [proposals]: https://rubyconfindia2014.busyconf.com/proposals/new
 [tickets]: http://rubyconfindia.org/2014/tickets.html
-

@@ -78,4 +78,3 @@ Gem did_you_mean
 Див. також розклад випуску та іншу інформацію:
 
 [ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)
-

@@ -14,4 +14,3 @@ RubyConf Taiwan 2014 відбудеться в Тайбеї, Тайвань 25-2
 Квитки відкриті до 31 березня 2014 року.
 
 [Зарезервуйте ваш квиток!](http://rubytaiwan.kktix.cc/events/rubyconftw2014?locale=en)
-

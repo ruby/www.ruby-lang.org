@@ -78,4 +78,3 @@ lang: uk
 [8]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p22.tar.gz
 [9]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz
 [10]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1891
-

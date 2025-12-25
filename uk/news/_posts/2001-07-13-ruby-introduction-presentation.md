@@ -13,4 +13,3 @@ Menard 10 липня 2001 року.
 
 
 [1]: http://www.io.com/~jimm/downloads/rubytalk/
-

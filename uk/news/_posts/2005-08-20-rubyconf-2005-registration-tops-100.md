@@ -14,4 +14,3 @@ David A. Black недавно повідомив на ruby-talk, що понад
 
 
 [1]: http://www.rubyconf.org/
-

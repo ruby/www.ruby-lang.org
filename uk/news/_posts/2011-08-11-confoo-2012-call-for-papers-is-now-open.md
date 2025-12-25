@@ -34,4 +34,3 @@ Ruby, PHP, Python, .Net, Java, безпека, системи управлінн
 
 
 [1]: http://confoo.ca/
-

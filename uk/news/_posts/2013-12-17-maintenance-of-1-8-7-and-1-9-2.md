@@ -73,4 +73,3 @@ lang: uk
 [source-192]:    https://bugs.ruby-lang.org/projects/ruby-192/repository
 [security-en]:   https://www.ruby-lang.org/uk/security/
 [sunset-187-en]: https://www.ruby-lang.org/uk/news/2013/06/30/we-retire-1-8-7/
-

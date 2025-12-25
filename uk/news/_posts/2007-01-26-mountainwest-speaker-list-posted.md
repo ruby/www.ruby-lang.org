@@ -15,4 +15,3 @@ lang: uk
 
 [1]: http://mtnwestruby.org/speakers
 [2]: http://mtnwestruby.conferencemeetup.com/people
-

@@ -17,4 +17,3 @@ lang: uk
 
 
 [1]: https://bugs.ruby-lang.org
-

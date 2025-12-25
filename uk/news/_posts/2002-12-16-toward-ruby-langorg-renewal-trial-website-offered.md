@@ -36,4 +36,3 @@ lang: uk
 
 [1]: http://dev.ruby-lang.org/en/
 [2]: http://dev.ruby-lang.org/ja/
-

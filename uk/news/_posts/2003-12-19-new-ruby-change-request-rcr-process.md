@@ -24,4 +24,3 @@ lang: uk
 [3]: http://www.rubyist.net/%7Ematz/slides/rc2003
 [4]: http://rcrchive.net
 [5]: http://pragprog.com/pragdave
-

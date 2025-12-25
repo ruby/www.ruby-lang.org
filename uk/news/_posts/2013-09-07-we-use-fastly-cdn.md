@@ -16,4 +16,3 @@ ruby-lang.org почав надавати https://cache.ruby-lang.org для
 Величезна подяка Fastly за їхню підтримку.
 
 [1]: http://www.fastly.com
-

@@ -19,4 +19,3 @@ Mauricio Fernandez написав [підсумок змін][2].
 
 [1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5.tar.gz
 [2]: http://eigenclass.org/hiki.rb?ruby+1.8.5+changelog
-

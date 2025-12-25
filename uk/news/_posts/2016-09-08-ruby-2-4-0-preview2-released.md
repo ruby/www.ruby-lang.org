@@ -119,4 +119,3 @@ Ruby має виявлення deadlock навколо потоків очіку
 Див. також розклад випуску та іншу інформацію:
 
 [ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)
-

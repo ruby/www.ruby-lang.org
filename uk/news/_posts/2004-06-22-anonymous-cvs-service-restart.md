@@ -25,4 +25,3 @@ http://cvs.ruby-lang.org/cvsup/.
 
 Shugo Maeda &lt;shugo@ruby-lang.org&gt;<br />
 група адміністраторів ruby-lang.org
-

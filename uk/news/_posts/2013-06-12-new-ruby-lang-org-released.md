@@ -31,4 +31,3 @@ Hiroshi Shibata (hsbt).
 
 
 [1]: https://github.com/ruby/www.ruby-lang.org/wiki
-

@@ -23,4 +23,3 @@ Ruby.
 
 
 [1]: http://investfk.com/
-

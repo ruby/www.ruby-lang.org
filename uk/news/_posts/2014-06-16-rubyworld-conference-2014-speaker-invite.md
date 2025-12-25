@@ -15,4 +15,3 @@ lang: uk
 
 Див. [CFP](http://www.rubyworld-conf.org/en/news/2014/06/speaker-invite/)
 для більше інформації про те, як ви можете подати заявку!
-

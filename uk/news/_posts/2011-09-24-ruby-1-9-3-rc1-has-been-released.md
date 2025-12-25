@@ -37,4 +37,3 @@ Ruby 1.9.3 rc1 випущено. Це другий preview наступної
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip
-

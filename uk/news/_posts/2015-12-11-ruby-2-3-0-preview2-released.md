@@ -88,4 +88,3 @@ Ruby 2.3 включає багато виправлень налаштуванн
 Див. також розклад випуску та іншу інформацію:
 
 [ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)
-

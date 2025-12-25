@@ -13,4 +13,3 @@ CVS][1]. Сервіс буде перезапущено після оновле�
 
 
 [1]: https://ccvs.cvshome.org/servlets/NewsItemView?newsItemID=141
-

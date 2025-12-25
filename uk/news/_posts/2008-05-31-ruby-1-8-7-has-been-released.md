@@ -53,4 +53,3 @@ Akinori MUSHA оголосив сьогодні, що Ruby 1.8.7 випущен�
 [1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip
-

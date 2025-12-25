@@ -71,4 +71,3 @@ Konstantin Haase (@konstantinhaase) написав хороше резюме у 
 Див. також розклад випуску та іншу інформацію:
 
 [https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210)
-

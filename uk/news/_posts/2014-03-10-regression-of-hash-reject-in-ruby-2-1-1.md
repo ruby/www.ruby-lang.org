@@ -43,4 +43,3 @@ Ruby 2.1.0 ми [змінили нашу політику версіонуван
 [http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211](http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211).
 
 Вибачте за будь-які незручності, та дякуємо за вашу підтримку.
-

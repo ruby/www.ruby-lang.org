@@ -43,4 +43,3 @@ Yugui (Yuki Sonoda) оголосив про випуск Ruby 1.9.1-preview 1:
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.zip
-

@@ -24,4 +24,3 @@ lang: uk
 [2]: http://www.ruby-talk.com/60604
 [3]: http://www.ruby-talk.com/60731
 [4]: http://www.vendian.org/language_year/
-

@@ -92,4 +92,3 @@ Ruby 2.2. Оскільки Rails 5.0 вимагатиме Symbol GC, він пі
 Див. також розклад випуску та іншу інформацію:
 
 [ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)
-

@@ -13,4 +13,3 @@ Ruby 1.8.3 випущено. Вихідний код [тут][1], а md5sum
 
 
 [1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.3.tar.gz
-

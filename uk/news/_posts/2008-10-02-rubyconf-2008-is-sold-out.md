@@ -16,4 +16,3 @@ lang: uk
 
 [1]: http://rubyconf.org/
 [2]: http://www.regonline.com/builder/site/Default.aspx?eventid=636797
-

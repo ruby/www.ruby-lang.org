@@ -69,4 +69,3 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
 
 * Оновлення опубліковано 2014-10-27 21:00:00 (UTC)
 * Спочатку опубліковано 2014-10-27 12:00:00 (UTC)
-

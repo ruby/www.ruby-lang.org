@@ -18,4 +18,3 @@ ConFoo Montreal відбудеться 8-10 березня 2017 року. Для
 
 [1]: https://confoo.ca/en/yul2017/call-for-papers
 [2]: https://confoo.ca/en
-

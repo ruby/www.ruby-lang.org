@@ -27,4 +27,3 @@ Queue: Маленьке - це красиво][5], яка вперше з'яви
 [3]: http://www.artima.com/rubycs/articles/modular_apis_with_ruby.html
 [4]: http://www.artima.com/rubycs/articles/pdf_writer.html
 [5]: http://www.artima.com/rubycs/articles/rubyqueue.html
-

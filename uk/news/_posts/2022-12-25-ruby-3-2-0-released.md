@@ -669,4 +669,3 @@ Ruby уперше розробив Matz (Yukihiro Matsumoto) у 1993 році,
 [CVE-2021-33621]:     https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/
 [wasm/README.md]:     https://github.com/ruby/ruby/blob/master/wasm/README.md
 [ruby.wasm]:          https://github.com/ruby/ruby.wasm
-

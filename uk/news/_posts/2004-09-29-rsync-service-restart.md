@@ -8,4 +8,3 @@ lang: uk
 
 Сервіс RSYNC перезапущено.
 [rsync://ftp.ruby-lang.org/](rsync://ftp.ruby-lang.org/)
-

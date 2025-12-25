@@ -31,4 +31,3 @@ O+F Kansai (японська) доступні.
 [2]: http://oopsla.acm.org/
 [3]: http://ll2.ai.mit.edu/
 [4]: http://of.good-day.net/
-

@@ -28,4 +28,3 @@ Matz оголосив про випуск Ruby 1.9.0, версії розроб�
 [1]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.zip
-

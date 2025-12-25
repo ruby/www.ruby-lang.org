@@ -53,4 +53,3 @@ Ruby. Ruby 1.8 залишиться стабільною твердинею дл
 [1]: http://blog.nicksieger.com/
 [2]: http://blog.tewk.com/
 [3]: http://juixe.com/techknow/
-

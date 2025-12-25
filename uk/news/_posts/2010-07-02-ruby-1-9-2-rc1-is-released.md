@@ -61,4 +61,3 @@ Ruby та повідомте нам через [наш трекер пробле
 [4]: https://bugs.ruby-lang.org/projects/show/ruby-19/
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.zip
-

@@ -17,4 +17,3 @@ Alexey Verkhovsky каже: \`Ruby Forum - це новостворена дош�
 
 
 [1]: http://www.ruby-forum.org/bb
-

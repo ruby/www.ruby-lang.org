@@ -13,4 +13,3 @@ Ruby 1.8.4 preview 2 випущено. Ви можете завантажити 
 
 
 [1]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.4-preview2.tar.gz
-

@@ -21,4 +21,3 @@ lang: uk
 [2]: http://rubycentral.org/03/index.rb?dest=start_reg
 [3]: http://www.ruby-talk.org/83169
 [4]: http://www.ruby-talk.org/84427
-

@@ -89,4 +89,3 @@ Ruby 2.2 включає багато нових функцій та покращ
 Див. також розклад випуску та іншу інформацію:
 
 [ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)
-

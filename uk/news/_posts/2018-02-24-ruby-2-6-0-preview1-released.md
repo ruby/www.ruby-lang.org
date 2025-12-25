@@ -104,4 +104,3 @@ JIT компілятор має на меті покращити продукт�
       SHA1:   bbbc89d760cdaadbca3cbff587295864edeff0af
       SHA256: 1d99139116e4e245ce543edb137b2a8873c26e9f0bde88d8cee6789617cc8d0e
       SHA512: d12ff29778d8d940344619881b4d8247c2fb6b44ac2b2dbddb7078828e893cfac9a5a95b5588f0afdbed52bdb6dea95cff1b9ce3ad47dfa62209e97dab8810b6
-

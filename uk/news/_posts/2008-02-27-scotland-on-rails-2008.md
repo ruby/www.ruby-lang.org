@@ -28,4 +28,3 @@ Weirich, Bruce Williams та Giles Bowkett) вдень. Всі
 
 [1]: http://scotlandonrails.com/register
 [2]: http://scotlandonrails.com/talks
-

@@ -16,4 +16,3 @@ Pearson Education проводить конференцію [Voices That Matter]
 
 
 [1]: http://www.voicesthatmatter.com/ruby2008/
-

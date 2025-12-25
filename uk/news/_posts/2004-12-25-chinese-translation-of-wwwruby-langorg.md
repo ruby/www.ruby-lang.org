@@ -13,4 +13,3 @@ KOBAYASHI Toshihito.
 
 
 [1]: http://rubycn.ce-lab.net/
-

@@ -15,4 +15,3 @@ Weirich написав статтю про [Як написати RCR][2]. Ма�
 
 [1]: http://rcrchive.net
 [2]: http://onestepback.org/index.cgi/Tech/Ruby/WritingRcrs.rdoc
-

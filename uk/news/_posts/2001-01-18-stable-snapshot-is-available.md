@@ -13,4 +13,3 @@ lang: uk
 
 
 [1]: https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.gz
-

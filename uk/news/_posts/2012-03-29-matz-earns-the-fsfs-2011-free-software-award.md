@@ -21,4 +21,3 @@ lang: uk
 
 
 [1]: https://www.fsf.org/news/2011-free-software-awards-announced
-

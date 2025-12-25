@@ -173,4 +173,3 @@ Akira за розкриття цих проблем команді безпек�
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz
 [4]: {{ site.url }}/uk/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/
-

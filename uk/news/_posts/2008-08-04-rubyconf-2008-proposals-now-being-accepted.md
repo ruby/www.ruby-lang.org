@@ -17,4 +17,3 @@ lang: uk
 
 [1]: http://www.rubyconf.org
 [2]: http://www.rubyconf.org/proposals/new
-

@@ -20,4 +20,3 @@ Inc][1] та RubyConf 2003!. Див. [\[ruby-talk:65632\]][2].
 
 [1]: http://rubycentral.org
 [2]: https://blade.ruby-lang.org/ruby-talk/65632
-

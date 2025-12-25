@@ -69,4 +69,3 @@ Matz та група панелістів виберуть переможців 
 [3]: http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html
 [4]: http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc
 [5]: mailto:award@f-ruby.com
-

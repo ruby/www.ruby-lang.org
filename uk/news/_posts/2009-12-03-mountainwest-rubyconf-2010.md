@@ -23,4 +23,3 @@ MountainWest RubyConf 2010 відбудеться 11 та 12 березня 2010
 
 [1]: http://mtnwestrubyconf.org
 [2]: http://spreadsheets.google.com/viewform?formkey=dERsdEVIc0FTSlBtanVxTWFNamdHcmc6MA
-

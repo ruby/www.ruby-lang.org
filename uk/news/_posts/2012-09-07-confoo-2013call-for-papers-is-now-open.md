@@ -34,4 +34,3 @@ lang: uk
 [3]: http://twitter.com/confooca
 [4]: http://twitter.com/#!/search/%23confoo
 [5]: http://confoo.ca/en/propaganda
-

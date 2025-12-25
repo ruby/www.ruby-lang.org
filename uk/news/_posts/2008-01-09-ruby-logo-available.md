@@ -14,4 +14,3 @@ Illustrator/SVG/PDF/PNG.
 
 
 [1]: http://www.ruby-assn.org/index.html.en
-

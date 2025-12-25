@@ -17,4 +17,3 @@ lang: uk
 
 
 [1]: http://www.rubycentral.org/conference/register
-

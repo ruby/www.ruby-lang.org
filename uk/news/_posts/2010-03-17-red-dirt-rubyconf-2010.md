@@ -115,4 +115,3 @@ James Edward Gray II
 [1]: http://reddirtrubyconf.com/
 [2]: http://reddirtrubyconf.com/register_to_attend
 [3]: http://reddirtrubyconf.com/program
-

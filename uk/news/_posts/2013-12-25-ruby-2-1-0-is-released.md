@@ -50,4 +50,3 @@ Ruby 2.1 має багато покращень, включаючи приско
 * видалено curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
 Див. більше деталей змін: [NEWS в репозиторії Ruby](https://github.com/ruby/ruby/blob/v2_1_0/NEWS).
-

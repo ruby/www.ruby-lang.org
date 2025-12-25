@@ -16,4 +16,3 @@ lang: uk
 
 [1]: http://www.rubycentral.org/conference/prereg/
 [2]: http://www.ruby-talk.org/cgi-bin/scat.rb/ruby/ruby-talk/134660
-

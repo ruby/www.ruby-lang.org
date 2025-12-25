@@ -31,4 +31,3 @@ lang: uk
 [5]: http://www.railsconf.org
 [6]: http://conferences.oreillynet.com/cs/os2006/create/e_sess/
 [7]: http://conferences.oreillynet.com/os2006/
-

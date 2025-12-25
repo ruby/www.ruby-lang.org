@@ -24,4 +24,3 @@ sponsorship@mtnwestruby.org, якщо ви зацікавлені.
 
 
 [1]: http://mtnwestrubyconf.org
-

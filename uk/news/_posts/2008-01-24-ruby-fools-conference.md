@@ -15,4 +15,3 @@ lang: uk
 
 
 [1]: http://jaoo.dk/ruby-cph/conference/
-

@@ -17,4 +17,3 @@ David Black [оголосив][1] на ruby-talk, що тепер 136
 
 [1]: https://blade.ruby-lang.org/ruby-talk/154337
 [2]: http://www.rubyconf.org
-

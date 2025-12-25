@@ -32,4 +32,3 @@ lang: uk
 
 
 [1]: http://tulsarb.org/wiki/Tulsa_Ruby_Workshop
-

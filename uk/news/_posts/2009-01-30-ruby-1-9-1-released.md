@@ -59,4 +59,3 @@ Ruby 1.9 - це нова серія Ruby. Це сучасна, швидша, з 
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.zip
-

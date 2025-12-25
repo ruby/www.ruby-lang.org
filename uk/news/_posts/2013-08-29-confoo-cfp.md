@@ -34,4 +34,3 @@ ConFoo - це конференція для розробників, яка за�
 [logo]: http://confoo.ca/images/propaganda/2014/en/t-ruby.gif
 [1]: http://confoo.ca/en/call-for-papers
 [2]: http://confoo.ca/en/register
-

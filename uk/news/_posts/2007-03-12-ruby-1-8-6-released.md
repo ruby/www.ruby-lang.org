@@ -42,4 +42,3 @@ Ruby 1.8.6 випущено (див. [оголошення на Ruby-Talk][1]).
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip
 [5]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/NEWS
 [6]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/ChangeLog
-

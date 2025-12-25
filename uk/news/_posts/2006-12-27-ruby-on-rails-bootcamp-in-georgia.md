@@ -15,4 +15,3 @@ Big Nerd Ranch, Inc. пропонує свої класи Ruby on Rails Bootcamp
 
 
 [1]: http://bignerdranch.com/news/2006-10-11.shtml
-

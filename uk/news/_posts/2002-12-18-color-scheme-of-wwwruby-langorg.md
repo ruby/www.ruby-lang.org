@@ -19,4 +19,3 @@ ruby-talk.
 
 
 [1]: https://blade.ruby-lang.org/ruby-talk/59202
-

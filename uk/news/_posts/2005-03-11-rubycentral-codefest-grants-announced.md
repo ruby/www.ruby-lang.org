@@ -17,4 +17,3 @@ Ruby Central [оголосив][1] отримувачів своєї першо�
 
 [1]: https://blade.ruby-lang.org/ruby-talk/133197
 [2]: http://www.rubycentral.org/grant/announce.html
-

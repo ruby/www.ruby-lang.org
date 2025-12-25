@@ -25,4 +25,3 @@ lang: uk
 
 
 [1]: http://rubyheroes.com
-

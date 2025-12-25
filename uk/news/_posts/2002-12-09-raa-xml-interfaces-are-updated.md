@@ -33,4 +33,3 @@ lang: uk
 [4]: http://raa.ruby-lang.org/raa-rdf10.xml
 [5]: http://raa.ruby-lang.org/raa-yaml.yml
 [6]: http://raa.ruby-lang.org/raa-yaml10.yml
-

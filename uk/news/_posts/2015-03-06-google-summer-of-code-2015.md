@@ -31,4 +31,3 @@ Ruby братиме участь у [Google Summer of Code 2015][gsoc] як ор
 [ruby-ideas]: https://github.com/rubygsoc/rubygsoc/wiki/Ideas-List#mri-matz-ruby-interpreter
 [ror]: http://rubyonrails.org/
 [sciruby]: http://sciruby.com/
-

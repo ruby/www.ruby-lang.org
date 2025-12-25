@@ -26,4 +26,3 @@ lang: uk
 
 [1]: {{ site.url }}/vi/
 [2]: https://github.com/ruby/www.ruby-lang.org/
-

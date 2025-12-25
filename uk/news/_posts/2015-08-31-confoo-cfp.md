@@ -17,4 +17,3 @@ ConFoo знову шукає пристрасних доповідачів дл�
 
 [1]: https://confoo.ca/en/call-for-papers
 [2]: https://confoo.ca/en/register
-

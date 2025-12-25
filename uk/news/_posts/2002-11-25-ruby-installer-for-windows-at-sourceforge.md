@@ -28,4 +28,3 @@ lang: uk
 [1]: http://rubyinstaller.sourceforge.net/
 [2]: http://www.dm4lab.to/~usa/ruby/index_en.html#download
 [3]: https://www.ruby-lang.org/~eban/ruby/binaries/
-
