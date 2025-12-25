@@ -110,7 +110,7 @@ module Jekyll
       
       # Using a combination of Tailwind classes and inline styles to ensure visibility
       new_obj.content = <<~HTML
-        <div class="fallback-notice bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 p-4 mb-8 rounded-lg text-stone-700 dark:text-stone-300">
+        <div class="fallback-notice bg-sky-50 dark:bg-sky-900/30 border border-sky-200 dark:border-sky-800 p-4 mb-8 rounded-lg text-sky-800 dark:text-sky-200">
           #{notice}
         </div>
         <div lang="en" markdown="1">

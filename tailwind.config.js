@@ -25,6 +25,12 @@ module.exports = {
     'mt-2',
     'text-stone-700',
     'dark:text-stone-300',
+    'bg-sky-50',
+    'dark:bg-sky-900/30',
+    'border-sky-200',
+    'dark:border-sky-800',
+    'text-sky-800',
+    'dark:text-sky-200',
     'transition-colors',
     // SVG fill for custom stone-770 color
     'fill-stone-770',
