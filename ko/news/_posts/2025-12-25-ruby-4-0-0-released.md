@@ -358,7 +358,7 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
   * 2.0.5 to [v3.0.0][power_assert-v3.0.0], [v3.0.1][power_assert-v3.0.1]
 * rake 13.3.1
   * 13.2.1 to [v13.3.0][rake-v13.3.0], [v13.3.1][rake-v13.3.1]
-* test-unit 3.7.3
+* test-unit 3.7.5
   * 3.6.7 to [3.6.8][test-unit-3.6.8], [3.6.9][test-unit-3.6.9], [3.7.0][test-unit-3.7.0], [3.7.1][test-unit-3.7.1], [3.7.2][test-unit-3.7.2], [3.7.3][test-unit-3.7.3], [3.7.4][test-unit-3.7.4], [3.7.5][test-unit-3.7.5]
 * rexml 3.4.4
 * rss 0.3.2
