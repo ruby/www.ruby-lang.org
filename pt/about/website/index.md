@@ -12,6 +12,14 @@ seu código fonte está hospedado no [GitHub][github-repo].
 O design visual atual é de [Taeko Akatsuka][akatsuka].
 O site foi renovado em dezembro de 2025.
 
+<img src="../../../images/about/screenshot.png" alt="Design atual do ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />
+
+O "Happy Hacking" no rodapé é escrito à mão por [Yukihiro Matsumoto (Matz)][matz].
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking no rodapé" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Design anterior
+
 Design visual antes de dezembro de 2025 por [Jason Zimdars][jzimdars].<br>
 Baseado em um design prévio do Ruby Visual Identity Team.
 
@@ -86,6 +94,7 @@ Também agradecemos a todas as organizações que nos dão suporte:
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

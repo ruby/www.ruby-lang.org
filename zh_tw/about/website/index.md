@@ -12,6 +12,14 @@ lang: zh_tw
 目前的視覺設計由 [Taeko Akatsuka][akatsuka] 完成。
 網站於2025年12月進行了改版。
 
+<img src="../../../images/about/screenshot.png" alt="目前 ruby-lang.org 設計" width="400" style="border: 1px solid #d6d3d1;" />
+
+頁尾的「Happy Hacking」是由[松本行弘（Matz）][matz]親筆書寫的。
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="頁尾的 Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
+
+## 以前的設計
+
 2025年12月之前的視覺設計 [Jason Zimdars][jzimdars]。<br>
 基於 Ruby Visual Identity 團隊的設計成果。
 
@@ -83,6 +91,7 @@ lang: zh_tw
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

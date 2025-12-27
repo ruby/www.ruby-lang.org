@@ -11,6 +11,14 @@ lang: zh_cn
 当前的视觉设计由 [Taeko Akatsuka][akatsuka] 完成。
 网站于2025年12月进行了改版。
 
+<img src="../../../images/about/screenshot.png" alt="当前 ruby-lang.org 设计" width="400" style="border: 1px solid #d6d3d1;" />
+
+页脚的"Happy Hacking"是由[松本行弘（Matz）][matz]亲笔书写的。
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="页脚的 Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
+
+## 以前的设计
+
 2025年12月之前的视觉设计由 [Jason Zimdars][jzimdars] 完成。基于 Ruby 视觉识别团队之前的设计。
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="原 ruby-lang.org 设计" width="400" style="border: 1px solid #d6d3d1;" />
@@ -81,6 +89,7 @@ lang: zh_cn
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

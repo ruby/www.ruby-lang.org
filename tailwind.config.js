@@ -275,7 +275,6 @@ module.exports = {
         'logo': ['"Plus Jakarta Sans"', '"Noto Sans JP"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
         'code': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
         'icon': ['"Material Icons"', 'sans-serif'],
-        'handwritten': ['"Rock Salt"', 'cursive'],
       },
       fontSize: {
         'sm': ['0.875rem', { lineHeight: '1.7' }],

@@ -12,6 +12,14 @@ kaynağı [GitHub][github-repo]'da barındırılmaktadır.
 Mevcut görsel tasarım [Taeko Akatsuka][akatsuka] tarafından yapılmıştır.
 Site Aralık 2025'te yenilendi.
 
+<img src="../../../images/about/screenshot.png" alt="Mevcut ruby-lang.org tasarımı" width="400" style="border: 1px solid #d6d3d1;" />
+
+Altbilgideki "Happy Hacking" [Yukihiro Matsumoto (Matz)][matz] tarafından el yazısıyla yazılmıştır.
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Altbilgideki Happy Hacking" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Önceki Tasarım
+
 Aralık 2025 öncesi görsel tasarım [Jason Zimdars][jzimdars] tarafından yapılmıştır.<br>
 Ruby Visual Identity Team'in daha önceki bir tasarımı tabanlıdır.
 
@@ -83,6 +91,7 @@ Ayrıca bizi destekleyen organizasyonlara çok teşekkür ederiz:
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

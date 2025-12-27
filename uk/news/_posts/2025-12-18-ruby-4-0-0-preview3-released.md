@@ -234,7 +234,7 @@ Ruby 4.0 вводить Ruby::Box і "ZJIT" та додає багато пок�
 * logger 1.7.0
 * rdoc 6.17.0
 * win32ole 1.9.2
-* irb 1.15.3
+* irb 1.16.0
 * reline 0.6.3
 * readline 0.0.4
 * fiddle 1.1.8
@@ -250,52 +250,53 @@ Ruby 4.0 вводить Ruby::Box і "ZJIT" та додає багато пок�
 
 Оновлено такі default gems.
 
-* RubyGems 4.0.1
-* bundler 4.0.1
+* RubyGems 4.0.2
+* bundler 4.0.2
 * date 3.5.1
 * digest 3.2.1
 * english 0.8.1
-* erb 6.0.0
+* erb 6.0.1
 * etc 1.4.6
 * fcntl 1.3.0
 * fileutils 1.8.0
 * forwardable 1.4.0
-* io-console 0.8.1
+* io-console 0.8.2
 * io-nonblock 0.3.2
-* io-wait 0.4.0.dev
+* io-wait 0.4.0
 * ipaddr 1.2.8
-* json 2.17.1
-* net-http 0.8.0
-* openssl 4.0.0.pre
+* json 2.18.0
+* net-http 0.9.1
+* openssl 4.0.0
 * optparse 0.8.1
 * pp 0.6.3
 * prism 1.6.0
-* psych 5.3.0
+* psych 5.3.1
 * resolv 0.7.0
-* stringio 3.1.9.dev
-* strscan 3.1.6.dev
-* timeout 0.5.0
+* stringio 3.2.0
+* strscan 3.1.6
+* time 0.4.2
+* timeout 0.6.0
 * uri 1.1.1
 * weakref 0.1.4
 * zlib 3.2.2
 
 Оновлено такі bundled gems.
 
-* minitest 5.26.2
+* minitest 5.27.0
 * power_assert 3.0.1
 * rake 13.3.1
 * test-unit 3.7.3
 * rexml 3.4.4
 * net-ftp 0.3.9
-* net-imap 0.5.12
+* net-imap 0.6.1
 * net-smtp 0.5.1
 * matrix 0.4.3
 * prime 0.1.4
-* rbs 3.9.5
+* rbs 3.10.0.pre.2
 * typeprof 0.31.0
 * debug 1.11.0
 * base64 0.3.0
-* bigdecimal 3.3.1
+* bigdecimal 4.0.1
 * drb 2.2.3
 * syslog 0.3.0
 * csv 3.3.5
