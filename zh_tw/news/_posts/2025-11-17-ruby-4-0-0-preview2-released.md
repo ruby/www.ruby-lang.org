@@ -86,7 +86,7 @@ lang: zh_tw
 和 [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
 來了解更多。
 
-自 Ruby 3.4.0 以來，計 [{{ release.stats.files_changed }} 檔案變更，{{ release.stats.insertions }} 行新增（+），{{ release.stats.deletions }}  行刪減（-）](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)!
+自 Ruby 3.4.0 以來，計 [{{ release.stats.files_changed }} 檔案變更，{{ release.stats.insertions }} 行新增（+），{{ release.stats.deletions }}  行刪減（-）](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)!
 
 ## 下載
 
