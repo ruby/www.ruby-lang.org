@@ -12,6 +12,14 @@ mã nguồn được lưu trữ trên [GitHub][github-repo].
 Thiết kế hình ảnh hiện tại được thực hiện bởi [Taeko Akatsuka][akatsuka].
 Trang web đã được làm mới vào tháng 12 năm 2025.
 
+<img src="../../../images/about/screenshot.png" alt="Thiết kế hiện tại của ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />
+
+"Happy Hacking" ở footer được viết tay bởi [Yukihiro Matsumoto (Matz)][matz].
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking ở footer" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Thiết kế trước đó
+
 Thiết kế hình ảnh trước tháng 12 năm 2025 bởi [Jason Zimdars][jzimdars].<br>
 Dựa trên thiết kế trước đó của Ruby Visual Identity Team.
 
@@ -86,6 +94,7 @@ Chúng tôi cũng cảm ơn các tổ chức đã hỗ trợ chúng tôi:
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

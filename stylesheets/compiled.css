@@ -2840,6 +2840,10 @@ html:lang(ja),
   bottom: 0px;
 }
 
+.bottom-2{
+  bottom: 0.5rem;
+}
+
 .left-0{
   left: 0px;
 }
@@ -3108,6 +3112,10 @@ html:lang(ja),
   isolation: isolate;
 }
 
+.z-0{
+  z-index: 0;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -3293,6 +3301,10 @@ html:lang(ja),
 
 .h-20{
   height: 5rem;
+}
+
+.h-24{
+  height: 6rem;
 }
 
 .h-28{
@@ -3505,6 +3517,10 @@ html:lang(ja),
 
 .w-\[88px\]{
   width: 88px;
+}
+
+.w-auto{
+  width: auto;
 }
 
 .w-full{
@@ -4423,10 +4439,6 @@ html:lang(ja),
   font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.font-handwritten{
-  font-family: "Rock Salt", cursive;
-}
-
 .font-logo{
   font-family: "Plus Jakarta Sans", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -5118,6 +5130,11 @@ html:lang(ja),
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.dark\:invert:is(.dark *){
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .dark\:marker\:text-stone-500 *:is(.dark *)::marker{
   color: rgb(120 113 108 );
 }
@@ -5263,6 +5280,10 @@ html:lang(ja),
     top: -31px;
   }
 
+  .md\:bottom-3{
+    bottom: 0.75rem;
+  }
+
   .md\:-mt-6{
     margin-top: -1.5rem;
   }
@@ -5297,6 +5318,10 @@ html:lang(ja),
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-28{
+    height: 7rem;
   }
 
   .md\:h-8{
