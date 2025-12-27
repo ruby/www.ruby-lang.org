@@ -1,82 +1,125 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+---
+layout: root
+---
+<head>
+  <meta charset="utf-8">
 
-    {% if page.title != null %}
-    <title>{{ page.title }}</title>
+  {% if page.title != null %}
+    {% capture homepage_path %}/{{ page.lang }}/{% endcapture %}
+    {% if page.url == homepage_path %}
+  <title>{{ page.title }}</title>
     {% else %}
-    <title>Ruby Programming Language</title>
+  <title>{{ page.title }} | Ruby</title>
     {% endif %}
+  {% else %}
+  <title>Ruby Programming Language</title>
+  {% endif %}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta itemprop="image" content="https://www.ruby-lang.org/images/header-ruby-logo@2x.png">
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% capture homepage_path %}/{{ page.lang }}/{% endcapture %}
+  {% if page.url == homepage_path %}
+    {% assign meta_description = "A Programmer's Best Friend" %}
+  {% elsif page.description %}
+    {% assign meta_description = page.description %}
+  {% elsif page.excerpt %}
+    {% assign meta_description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+  {% else %}
+    {% assign meta_description = page.content | strip_html | strip_newlines | truncate: 160 %}
+  {% endif %}
+
+  {% if page.title %}
+    {% if page.url == homepage_path %}
+      {% assign meta_title = page.title %}
     {% else %}
-    <meta name="description" content="">
+      {% assign meta_title = page.title | append: " | Ruby" %}
     {% endif %}
+  {% else %}
+    {% assign meta_title = "Ruby Programming Language" %}
+  {% endif %}
 
-    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/pygments.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/mobile.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
-    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&amp;subset=latin,cyrillic,greek,vietnamese' rel='stylesheet' type='text/css'>
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta name="description" content="{{ meta_description }}">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    {% include rss_discovery.html %}
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta property="og:title" content="{{ meta_title }}">
+  <meta property="og:description" content="{{ meta_description }}">
+  <meta property="og:image" content="{{ site.url }}/images/og-image.png">
+  <meta property="og:site_name" content="Ruby Programming Language">
+  <meta property="og:locale" content="{{ page.lang | default: 'en' }}">
 
-    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
-    <script type="text/javascript" src="/javascripts/page.js"></script>
-    {% if layout.javascript != null %}
-    {% for javascript in layout.javascript %}
-    <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
-    {% endfor %}
-    {% endif %}
-  </head>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta name="twitter:title" content="{{ meta_title }}">
+  <meta name="twitter:description" content="{{ meta_description }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/twitter-card-square.png">
 
-  {% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
+  <!-- Schema.org -->
+  <meta itemprop="name" content="{{ meta_title }}">
+  <meta itemprop="description" content="{{ meta_description }}">
+  <meta itemprop="image" content="{{ site.url }}/images/og-image.png">
 
-  <body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
-    <div id="header">
-      <div id="header_content" class="container">
-        <a href="/{{ page.lang }}/">
-          <h1>{{ site.data.locales[page.lang].ruby }}</h1>
-          <h2>{{ site.data.locales[page.lang].slogan }}</h2>
-        </a>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/compiled.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Material+Icons&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..24,200..700,0,0&display=swap" rel="stylesheet">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
 
-        <div class="site-links">
-          {% include sitelinks.html %}
-          <a href="#" class="menu selected">Menu</a>
-        </div>
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/images/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  {% include rss_discovery.html %}
 
-        <div id="search-box">
-          {% include search.html %}
-        </div>
-      </div>
-    </div>
+  <!-- Apply theme immediately to prevent flash -->
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme-preference') || 'auto';
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else if (theme === 'light') {
+        document.documentElement.classList.remove('dark');
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
 
-    <div id="page">
-      {% include intro.html %}
+  <!-- Detect icon font loading to prevent FOUT -->
+  <script>
+    (function() {
+      if (document.fonts && document.fonts.load) {
+        document.fonts.load('24px "Material Symbols Rounded"').then(function() {
+          document.documentElement.classList.add('fonts-loaded');
+        }).catch(function() {
+          document.documentElement.classList.add('fonts-loaded');
+        });
+      } else {
+        document.documentElement.classList.add('fonts-loaded');
+      }
+    })();
+  </script>
 
-      <div id="main-wrapper" class="container">
-        <div id="main">
-          {{ content }}
-        </div>
-      </div>
-    </div>
+  <script type="text/javascript" src="/javascripts/navigation-toggle.js" defer></script>
+  <script type="text/javascript" src="/javascripts/header-navigation.js" defer></script>
+  <script type="text/javascript" src="/javascripts/toc.js" defer></script>
+  <script type="text/javascript" src="/javascripts/theme-toggle.js" defer></script>
+  {% if layout.javascript != null %}
+  {% for javascript in layout.javascript %}
+  <script type="text/javascript" src="/javascripts/{{ javascript }}.js"></script>
+  {% endfor %}
+  {% endif %}
+</head>
 
-    <div class="container">
-      <div id="footer">
-        <div class="site-links">
-          {% include sitelinks.html %}
-        </div>
+{% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
 
-        {% include languages.html %}
-        {% include credits.html %}
-      </div>
-    </div>
-  </body>
-</html>
+<body{% if page.url == homepage_url %} id="home-page-layout"{% endif %}>
+  {% include header.html %}
+
+  <div id="page" class="pt-20">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</body>

@@ -13,6 +13,7 @@
         "pt":    "pt",
         "ru":    "ru",
         "tr":    "tr",
+        "uk":    "uk",
         "zh-CN": "zh_cn",
         "zh-TW": "zh_tw"
       };
@@ -23,13 +24,21 @@
       var language = languages[code];
       if (!language) { language = "en"; }
 
-      document.location = "/" + language + "/";
+      // If we're running on localhost/loopback for local development,
+      // keep redirects relative so the developer can test locally.
+      var host = window.location.hostname;
+      var isLocal = (host === 'localhost' || host === '127.0.0.1' || host === '::1');
+      if (isLocal) {
+        document.location = "/" + language + "/";
+      } else {
+        document.location = "https://www.ruby-lang.org/" + language + "/";
+      }
     </script>
     <noscript>
-      <meta http-equiv="refresh" content="0; url=/en/">
+      <meta http-equiv="refresh" content="0; url=https://www.ruby-lang.org/en/">
     </noscript>
   </head>
   <body>
-    <p><a href="/en/">Click here</a> to be redirected.</p>
+    <p><a href="https://www.ruby-lang.org/en/">Click here</a> to be redirected.</p>
   </body>
 </html>

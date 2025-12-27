@@ -7,8 +7,25 @@ lang: en
 This website was generated with Ruby using [Jekyll][jekyll],<br>
 its source is hosted on [GitHub][github-repo].
 
-Visual design by [Jason Zimdars][jzimdars].<br>
+## Design
+
+The current visual design is by [Taeko Akatsuka][akatsuka].
+The site was renewed in December 2025.
+
+<img src="../../../images/about/screenshot.png" alt="Current ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />
+
+The "Happy Hacking" in the footer is handwritten by [Yukihiro Matsumoto (Matz)][matz].
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking on Footer" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Previous Design
+
+Visual design before December 2025 by [Jason Zimdars][jzimdars].<br>
 Based on an earlier design by the Ruby Visual Identity Team.
+
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Previous ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Logo
 
 [The Ruby logo][logo] is Copyright &copy; 2006, Yukihiro Matsumoto.
 
@@ -34,54 +51,51 @@ to this website.
 
 Also many thanks to the organizations that support us:
 
-[Ruby Association][rubyassociation] (hosting)
-
-<img src="../../../images/sponsor/ra.png" alt="Ruby Association" width="227" height="70" />
-
-[Ruby no Kai][rubynokai] (build server)
-
-<img src="../../../images/sponsor/ruby-no-kai.png" alt="Ruby no Kai" width="225" height="50" />
-
-[AWS][aws] (hosting)
-
-<img src="../../../images/sponsor/aws.png" alt="AWS" width="200" height="120" />
-
-[Heroku][heroku] (hosting)
-
-<img src="../../../images/sponsor/heroku.png" alt="Heroku" width="216" height="256" />
-
-[IBM][ibm] (hosting)
-
-[Fastly][fastly] (CDN)
-
-<img src="../../../images/sponsor/fastly.png" alt="Fastly" width="200" height="200" />
-
-[Hatena][hatena] ([Mackerel][mackerel], server monitoring)
-
-<img src="../../../images/sponsor/mackerel.png" alt="mackerel" width="300" height="80" />
-
-[Datadog][datadog] (server monitoring)
-
-<img src="../../../images/sponsor/dd.png" alt="Datadog" width="200" height="200" />
-
-[1Password][1password] (password manager)
-
-<img src="../../../images/sponsor/1password.png" alt="1password" width="300" height="57" />
+<table class="not-prose sponsor-table">
+  <tr>
+    <td><a href="http://www.ruby.or.jp">Ruby Association</a> (hosting)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/ra.png" alt="Ruby Association" /></td>
+  </tr>
+  <tr>
+    <td><a href="http://ruby-no-kai.org/">Ruby no Kai</a> (build server)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/ruby-no-kai.png" alt="Ruby no Kai" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://aws.amazon.com/">AWS</a> (hosting)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/aws.png" alt="AWS" style="width: 150px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.heroku.com/">Heroku</a> (hosting)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/heroku.png" alt="Heroku" style="width: 100px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ibm.com/">IBM</a> (hosting)</td>
+    <td class="sponsor-logo"></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.fastly.com">Fastly</a> (CDN)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/fastly.png" alt="Fastly" style="width: 200px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="http://hatenacorp.jp/">Hatena</a> (<a href="https://mackerel.io/">Mackerel</a>, server monitoring)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/mackerel.png" alt="Mackerel" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.datadoghq.com/">Datadog</a> (server monitoring)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 120px;" /></td>
+  </tr>
+  <tr>
+    <td><a href="https://1password.com/">1Password</a> (password manager)</td>
+    <td class="sponsor-logo"><img src="../../../images/about/sponsor/1password.png" alt="1Password" style="width: 250px;" /></td>
+  </tr>
+</table>
 
 [logo]: /en/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
+[akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
 [github-wiki]: https://github.com/ruby/www.ruby-lang.org/wiki
-[rubyassociation]: http://www.ruby.or.jp
-[heroku]: https://www.heroku.com/
-[ibm]: https://www.ibm.com
-[fastly]: http://www.fastly.com
-[hatena]: http://hatenacorp.jp/
-[mackerel]: https://mackerel.io/
-[rubynokai]: http://ruby-no-kai.org/
-[aws]: https://aws.amazon.com/
-[datadog]: https://www.datadoghq.com/
-[1password]: https://1password.com/

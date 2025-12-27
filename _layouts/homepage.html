@@ -1,46 +1,113 @@
 ---
-layout: page
-
-javascript:
- - examples
-
+layout: root
 ---
+<head>
+  <meta charset="utf-8">
 
-{{ content }}
+  {% if page.title != null %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>Ruby Programming Language</title>
+  {% endif %}
 
-{% assign number_of_excerpts = 4 %}
-{% assign number_of_other    = 6 %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% if site.data.locales[page.lang].news %}
-  {% assign news = site.data.locales[page.lang].news %}
-{% else %}
-  {% assign news = site.data.locales['en'].news %}
-{% endif %}
+  {% assign meta_description = "A Programmer's Best Friend" %}
+  {% assign meta_title = page.title | default: "Ruby Programming Language" %}
 
-{% for post in site.categories[page.lang] limit:number_of_excerpts %}
-<div class="post">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <meta name="description" content="{{ meta_description }}">
 
-  {{ post.excerpt | markdownify }}
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta property="og:title" content="{{ meta_title }}">
+  <meta property="og:description" content="{{ meta_description }}">
+  <meta property="og:image" content="{{ site.url }}/images/og-image.png">
+  <meta property="og:site_name" content="Ruby Programming Language">
+  <meta property="og:locale" content="{{ page.lang | default: 'en' }}">
 
-  <p class="post-link"><a href="{{ post.url }}">{{ news.continue }}</a></p>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
+  <meta name="twitter:title" content="{{ meta_title }}">
+  <meta name="twitter:description" content="{{ meta_description }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/twitter-card-square.png">
 
-  <p class="post-info">{{ post.date | posted_by:post.author }}</p>
-</div>
-{% endfor %}
+  <!-- Schema.org -->
+  <meta itemprop="name" content="{{ meta_title }}">
+  <meta itemprop="description" content="{{ meta_description }}">
+  <meta itemprop="image" content="{{ site.url }}/images/og-image.png">
 
-<div id="news">
-  <h3>{{ news.other_news }}</h3>
-  <ul>
-    {% for post in site.categories[page.lang] offset:number_of_excerpts limit:number_of_other %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
-      <span class="post-info">{{ post.date | posted_by:post.author }}</span>
-    </li>
-    {% endfor %}
-  </ul>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/compiled.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Material+Icons&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..24,200..700,0,0&display=swap" rel="stylesheet">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
 
-  <p class="more">
-    <a href="news/">{{ news.more_news }}</a>
-  </p>
-</div>
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/images/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  {% include rss_discovery.html %}
+
+  <!-- Apply theme immediately to prevent flash -->
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme-preference') || 'auto';
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else if (theme === 'light') {
+        document.documentElement.classList.remove('dark');
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+
+  <!-- Detect icon font loading to prevent FOUT -->
+  <script>
+    (function() {
+      if (document.fonts && document.fonts.load) {
+        document.fonts.load('24px "Material Symbols Rounded"').then(function() {
+          document.documentElement.classList.add('fonts-loaded');
+        }).catch(function() {
+          document.documentElement.classList.add('fonts-loaded');
+        });
+      } else {
+        document.documentElement.classList.add('fonts-loaded');
+      }
+    })();
+  </script>
+
+  <script type="text/javascript" src="/javascripts/navigation-toggle.js" defer></script>
+  <script type="text/javascript" src="/javascripts/header-navigation.js" defer></script>
+  <script type="text/javascript" src="/javascripts/toc.js" defer></script>
+  <script type="text/javascript" src="/javascripts/theme-toggle.js" defer></script>
+  <script type="text/javascript" src="/javascripts/try-ruby-examples.js"></script>
+  <script type="text/javascript" src="/javascripts/hero-animation.js" defer></script>
+
+  <!-- Fallback styles when JavaScript is disabled -->
+  <noscript>
+    <style>
+      #hero-loader { display: none !important; }
+      [data-hero-layer="gem"],
+      [data-hero-layer="content"],
+      [data-hero-layer="sunburst"],
+      [data-hero-layer="illust-main"],
+      [data-hero-layer="illust-sub"],
+      [data-hero-layer="illust-main"] img { opacity: 1 !important; }
+      #try-ruby-section { opacity: 1 !important; max-height: none !important; overflow: visible !important; }
+      .try-ruby-content { opacity: 1 !important; }
+    </style>
+  </noscript>
+</head>
+
+<body id="home-page-layout">
+  {% include header.html %}
+
+  <div id="page" class="pt-20">
+    <!-- Hero and Try Ruby Sections (Full Width) -->
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</body>

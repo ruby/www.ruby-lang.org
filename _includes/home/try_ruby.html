@@ -1,0 +1,49 @@
+{% assign home = site.data.locales.home[page.lang] %}
+{% assign examples = "i_love_ruby,cities,greeter" | split: "," %}
+
+<!-- Try Ruby Section -->
+<section id="try-ruby-section" class="try-ruby-section pb-0 relative opacity-0 max-h-0 overflow-hidden transition-all duration-700 ease-out">
+  <div class="container mx-auto px-6 lg:px-8">
+    <!-- Code Examples Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 2xl:gap-16 mb-16">
+      {% for example in examples %}
+      {% assign i = forloop.index %}
+      <div class="try-ruby-card group bg-white dark:bg-stone-900 rounded-2xl overflow-hidden flex flex-col shadow-sm border border-gold-400 dark:border-gold-500 has-[a:hover]:border-ruby-600 dark:has-[a:hover]:border-ruby-600 transition-colors box-border">
+        <!-- Code Area -->
+        <div class="code-example-wrapper relative flex-grow min-h-[200px]">
+          <!-- Code Content (inlined at build time) -->
+          <div id="try-ruby-example-{{ i }}" class="try-ruby-content code-example px-8 py-6 font-mono text-sm overflow-x-auto h-full opacity-0 transition-opacity duration-500">
+            {% include home/code_examples/{{ example }}.html %}
+          </div>
+        </div>
+
+        <!-- TRY Button -->
+        <div id="try-ruby-bottom-{{ i }}" class="try-ruby-content px-6 pb-5 flex justify-center opacity-0 transition-opacity duration-500">
+          <a id="try-ruby-button-{{ i }}"
+             href="{{ home.try_ruby.button_url }}"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center justify-center gap-2 bg-gold-500 dark:bg-gold-500 text-stone-800 hover:bg-ruby-600 dark:hover:bg-ruby-600 hover:text-white text-lg px-8 py-2.5 rounded-full font-bold tracking-wide transition-all duration-200 shadow-sm hover:scale-105">
+            TRY!
+            <span class="icon-external text-xs transition-colors" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Bottom Link -->
+    <div class="text-center pb-16 md:pb-20">
+      <p class="text-stone-700 dark:text-stone-300">
+        {{ home.try_ruby.bottom_text }}
+        <a href="{{ home.try_ruby.bottom_link_url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-semantic-text-link text-lg font-bold hover:underline inline-flex items-center gap-1">
+          <span class="icon-arrow-forward" aria-hidden="true"></span>Try Ruby
+          <span class="icon-external text-xs" aria-hidden="true"></span>
+        </a>
+      </p>
+    </div>
+  </div>
+</section>

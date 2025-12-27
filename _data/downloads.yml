@@ -4,12 +4,12 @@
 # optional
 preview:
 
-  - 3.5.0-preview1
 
 stable:
 
-  - 3.4.7
-  - 3.3.9
+  - 4.0.0
+  - 3.4.8
+  - 3.3.10
   - 3.2.9
 
 # optional

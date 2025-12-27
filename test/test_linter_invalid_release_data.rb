@@ -57,4 +57,15 @@ describe Linter do
     create_file("_data/releases.yml", content)
     _(linter_output).must_match "release date and post date do not match"
   end
+
+  it "reports release data with wrong date format" do
+    content = <<~YAML
+      - version: 2.7.1
+        date: '2020-01-01'
+        post: /en/news/2020/01/01/post/
+    YAML
+
+    create_file("_data/releases.yml", content)
+    _(linter_output).must_match "release date is a string, not a Date object"
+  end
 end
