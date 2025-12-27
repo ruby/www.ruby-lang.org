@@ -12,6 +12,14 @@ lang: ja
 現在のビジュアルデザインは [Taeko Akatsuka][akatsuka] によるものです。
 2025年12月にリニューアルしました。
 
+<img src="../../../images/about/screenshot.png" alt="現在のruby-lang.orgデザイン" width="400" style="border: 1px solid #d6d3d1;" />
+
+フッター の "Happy Hacking" は [まつもとゆきひろ (Matz)][matz] 直筆のものです。
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking on Footer" width="400" style="border: 1px solid #d6d3d1;" />
+
+## 以前のデザイン
+
 2025年12月以前のビジュアルデザインは [Jason Zimdars][jzimdars] によるものです。<br />
 Ruby Visual Identity Team による初期のデザインが元になっています。
 
@@ -85,6 +93,7 @@ Ruby Visual Identity Team による初期のデザインが元になっていま
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues

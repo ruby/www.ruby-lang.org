@@ -12,6 +12,14 @@ lang: uk
 Поточний візуальний дизайн створила [Taeko Akatsuka][akatsuka].
 Сайт було оновлено в грудні 2025 року.
 
+<img src="../../../images/about/screenshot.png" alt="Поточний дизайн ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />
+
+«Happy Hacking» у футері написано від руки [Yukihiro Matsumoto (Matz)][matz].
+
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking у футері" width="400" style="border: 1px solid #d6d3d1;" />
+
+## Попередній дизайн
+
 Візуальний дизайн до грудня 2025 року — [Jason Zimdars][jzimdars].<br>
 На основі попереднього дизайну команди Ruby Visual Identity Team.
 
@@ -87,6 +95,7 @@ lang: uk
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo
+[matz]: https://x.com/yukihiro_matz
 [jzimdars]: https://twitter.com/jasonzimdars
 [github-repo]: https://github.com/ruby/www.ruby-lang.org/
 [github-issues]: https://github.com/ruby/www.ruby-lang.org/issues
