@@ -14,7 +14,7 @@ CONFIG = "_config.yml"
 task default: [:build]
 
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-news-plugin test-linter lint build]
+task test: %i[test-news-plugin test-fallback-generator test-translation-status test-linter lint build]
 
 desc "Build the Jekyll site"
 task :build do
@@ -127,5 +127,21 @@ Rake::TestTask.new(:"test-news-plugin") do |t|
   t.description = "Run tests for the news archive plugin"
   t.libs = ["test"]
   t.test_files = FileList['test/test_plugin_news.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-fallback-generator") do |t|
+  t.description = "Run tests for the fallback generator plugin"
+  t.libs = ["test"]
+  t.test_files = FileList['test/test_fallback_generator.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-translation-status") do |t|
+  t.description = "Run tests for the translation status plugin"
+  t.libs = ["test"]
+  t.test_files = FileList['test/test_translation_status.rb']
   t.verbose = true
 end
