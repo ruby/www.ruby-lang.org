@@ -112,7 +112,7 @@ navigation:
     url: /ru/community/
   - text: Группы пользователей
     url: /ru/community/user-groups/
-  - text: Блоги
+  - text: Блоги и рассылки
     url: /ru/community/weblogs/
   - text: События и конференции
     submenu:

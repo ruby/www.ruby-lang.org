@@ -17,9 +17,9 @@ Displays current language and dropdown menu for switching languages
   <button class="flex items-center gap-1 px-3 py-1.5 text-sm border border-stone-300 dark:border-stone-600 rounded-md hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
     <span class="text-stone-700 dark:text-stone-300">
       {% if current_language %}
-        {{ current_language.native_name }}<span class="hidden sm:inline"> ({{ current_language.code }})</span>
+      {{ current_language.native_name }}<span class="hidden sm:inline"> (<span lang="und-Latn">{{ current_language.code }}</span>)</span>
       {% else %}
-        English<span class="hidden sm:inline"> (en)</span>
+      <span lang="en">English<span class="hidden sm:inline"> (en)</span></span>
       {% endif %}
     </span>
     <span class="icon-dropdown text-base" aria-hidden="true"></span>
