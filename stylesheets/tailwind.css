@@ -19,6 +19,8 @@
 @tailwind utilities;
 
 @layer base {
+  /* Fixed: CJK fonts incorrectly applied to elements
+   with non-CJK lang attribute when page language is CJK */
   html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp) {
     @apply font-default;
   }
