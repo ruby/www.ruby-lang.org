@@ -69,6 +69,9 @@
 
   /* Icon colors */
   --color-icon-default: #78716c;
+
+  /* CJK font stack */
+  --font-sans-cjk: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont;
 }
 
 /* Dark mode */
