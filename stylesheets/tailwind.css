@@ -19,7 +19,7 @@
 @tailwind utilities;
 
 @layer base {
-  html [lang]:not(code):not(pre):not(kbd):not(samp) {
+  html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp) {
     @apply font-default;
   }
 
@@ -54,10 +54,6 @@
 }
 
 @layer utilities {
-  .font-sans[lang] {
-    @apply font-sans;
-  }
-
   .font-default:lang(ja),
   .font-sans:lang(ja),
   .font-default:lang(ko),
