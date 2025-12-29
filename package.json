@@ -2,10 +2,6 @@
   "name": "www-renewal",
   "version": "1.0.0",
   "description": "Ruby Language Website Renewal with Tailwind CSS",
-  "scripts": {
-    "build-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css",
-    "watch-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css --watch"
-  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
     "autoprefixer": "^10.4.23",
