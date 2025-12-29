@@ -19,6 +19,12 @@ exclude:
   - test
   - vendor
   - tsconfig.json
+  - package.json
+  - package-lock.json
+  - node_modules
+
+plugins:
+  - jekyll-postcss-v2
 
 url: https://www.ruby-lang.org
 
