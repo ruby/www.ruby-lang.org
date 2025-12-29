@@ -83,7 +83,7 @@ bundle exec rake new_post:fr    # French
 - `_data/`: YAML data files (releases.yml, downloads.yml, branches.yml, locales/)
 - `lib/`: Ruby utilities (linter, markup checker, draft release)
 - `test/`: Test files for plugins and linter
-- `stylesheets/`: CSS source and compiled output
+- `stylesheets/`: CSS source
 - `_javascripts_src/`: TypeScript source files
 - `javascripts/`: Compiled JavaScript output
 
@@ -98,8 +98,6 @@ The site uses a custom Tailwind configuration with:
 - **Typography plugin** for prose styling
 - **Custom breakpoints**: Container max-widths configured for content layouts
 - **Dark mode**: Enabled via OS preference (`darkMode: 'media'`)
-
-Input: `stylesheets/tailwind.css` → Output: `stylesheets/compiled.css`
 
 ### News System
 
