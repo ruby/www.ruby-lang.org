@@ -28,7 +28,7 @@ stable_snapshots:
       gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_4_0.tar.gz
       xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_4_0.tar.xz
       zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_4_0.zip
-    version: '3.4'
+    version: '4.0'
 
   - branch: ruby_3_4
     url:
