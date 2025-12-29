@@ -8,6 +8,9 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
     "tailwindcss": "^3.4.14"
   }
 }

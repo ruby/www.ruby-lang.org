@@ -14,3 +14,7 @@ gem "validate-website", "~> 1.6"
 # Jekyll need them for Ruby 3.4+
 gem "csv"
 gem "base64"
+
+group :jekyll_plugins do
+  gem 'jekyll-postcss-v2'
+end
