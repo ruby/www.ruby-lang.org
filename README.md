@@ -14,6 +14,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
 ### Prerequisites
 
 - **Ruby** (latest stable version recommended) - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- **Node.js** (for Tailwind CSS) - [Install Node.js](https://nodejs.org/)
 - **Git** - [Install Git](https://git-scm.com/downloads)
 
 ### Get It Running
@@ -29,6 +30,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
    cd www.ruby-lang.org/
    bundle config set --local without production
    bundle install
+   npm install
    ```
 
 3. **Start the development server**:
@@ -65,9 +67,60 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
 # Quick development server (faster rebuilds)
 bundle exec jekyll serve --watch --future --incremental
 
+# development server (faster rebuilds, but may miss CSS changes)
+bundle exec jekyll serve --watch --future
+
 # Full build (for testing)
 bundle exec rake build
 ```
+
+⚠️ **About `--incremental` flag**: While it speeds up rebuilds, it can sometimes miss changes due to caching. If your changes aren't appearing:
+1. Try restarting the server
+2. If that doesn't work, clean the cache:
+   ```sh
+   rm -rf _site .jekyll-cache
+   bundle exec jekyll serve --watch --future
+   ```
+
+### 🎨 Working with Tailwind CSS
+
+This site uses [Tailwind CSS](https://tailwindcss.com/) via [jekyll-postcss-v2](https://github.com/mhanberg/jekyll-postcss-v2).
+
+**CSS is automatically processed during Jekyll builds**, so you don't need to run separate commands in most cases.
+
+#### CSS File Structure
+- `stylesheets/main.css` - Main CSS file (imports all others + Tailwind)
+- `stylesheets/variables.css` - CSS custom properties
+- `stylesheets/components/*.css` - Component-specific styles
+
+#### When CSS Changes Don't Apply
+
+If you modify `stylesheets/components/*.css` or `variables.css` and changes aren't reflected:
+
+1. **Without `--incremental`**: Changes should be detected automatically
+2. **With `--incremental`**: Restart Jekyll first
+   ```sh
+   # Stop the server (Ctrl+C) and restart
+   bundle exec jekyll serve --watch --future --incremental
+   ```
+3. **Still not working?** Clean build cache and restart (this always works):
+   ```sh
+   rm -rf _site .jekyll-cache
+   bundle exec jekyll serve --watch --future
+   ```
+
+💡 **Tip**: For CSS-heavy development, consider using `--watch --future` without `--incremental` for more reliable change detection.
+
+#### How It Works
+
+CSS processing happens automatically via PostCSS:
+- `postcss-import` - Combines all CSS files into one
+- `tailwindcss` - Processes Tailwind utilities based on HTML/Markdown content
+- `autoprefixer` - Adds vendor prefixes for browser compatibility
+
+Configuration files:
+- `tailwind.config.js` - Tailwind configuration
+- `postcss.config.js` - PostCSS plugins
 
 ### Testing Your Changes
 
@@ -123,24 +176,12 @@ If you can't build locally or want to test under production conditions:
 - **Found a bug?** [Open an issue](https://github.com/ruby/www.ruby-lang.org/issues)
 - **Need more info?** Check the [project wiki](https://github.com/ruby/www.ruby-lang.org/wiki)
 
-## Styling with Tailwind CSS
-
-This site uses [Tailwind CSS](https://tailwindcss.com/) for styling.
-After making changes to HTML/Markdown files or Tailwind configuration:
-
-``` sh
-npm run build-css   # build CSS
-npm run watch-css   # watch and rebuild CSS automatically
-```
-
-**Note:** You need to have Node.js installed to run these commands.
-
 
 ## Testing
 
 Besides generating and previewing the site
 you can perform additional tests with these tasks:
-
+ 
 ``` sh
 bundle exec rake lint          # run linter on markdown files
 bundle exec rake check:markup  # check markup for all generated pages
