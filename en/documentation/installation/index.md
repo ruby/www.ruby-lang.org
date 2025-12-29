@@ -40,6 +40,7 @@ Here are available installation methods:
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
   * [Snap](#snap)
+  * [Exherbo Linux](#cave)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
@@ -125,6 +126,20 @@ $ sudo snap switch ruby --channel=2.3/stable
 $ sudo snap refresh
 {% endhighlight %}
 
+### cave (Exherbo Linux)
+{: #cave}
+
+Exherbo Linux uses a package manager named cave.
+To get Ruby, just do this:
+
+{% highlight sh %}
+$ sudo cave resolve -x ruby
+{% endhighlight %}
+
+This should install the latest stable Ruby version.
+
+To install a specific version, check those available with `cave show ruby`.
+Then use, for example: `cave resolve -x ruby:3.2`
 
 ### portage (Gentoo)
 {: #portage}

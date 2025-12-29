@@ -28,25 +28,27 @@ Il existe plusieurs manières d'installer Ruby :
 La synthèse suivante liste les méthodes d'installation disponibles pour
 différents besoins et plateformes.
 
-* [Gestionnaires de paquets](#package-management-systems)
-  * [Debian, Ubuntu](#apt)
-  * [CentOS, Fedora, RHEL](#yum)
-  * [Gentoo](#portage)
-  * [Arch Linux](#pacman)
-  * [macOS](#homebrew)
-  * [Solaris, OpenIndiana](#solaris)
-  * [Autres Distributions](#other-systems)
-* [Installateurs](#installers)
-  * [ruby-build](#ruby-build)
-  * [ruby-install](#ruby-install)
-  * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller et Ruby Stack](#railsinstaller)
-* [Managers](#managers)
-  * [chruby](#chruby)
-  * [rbenv](#rbenv)
-  * [RVM](#rvm)
-  * [uru](#uru)
-* [Compiler les sources](#building-from-source)
+- [Choisissez Votre Méthode d'Installation](#choisissez-votre-méthode-dinstallation)
+- [Gestionnaires de paquets](#gestionnaires-de-paquets)
+  - [apt (Debian ou Ubuntu)](#apt-debian-ou-ubuntu)
+  - [yum (CentOS, Fedora, ou RHEL)](#yum-centos-fedora-ou-rhel)
+  - [cave (Exherbo Linux)](#cave-exherbo-linux)
+  - [portage (Gentoo)](#portage-gentoo)
+  - [pacman (Arch Linux)](#pacman-arch-linux)
+  - [Homebrew (macOS)](#homebrew-macos)
+  - [Ruby sur Solaris et OpenIndiana](#ruby-sur-solaris-et-openindiana)
+  - [Autres Distributions](#autres-distributions)
+- [Installateurs](#installateurs)
+  - [ruby-build](#ruby-build)
+  - [ruby-install](#ruby-install)
+  - [RubyInstaller](#rubyinstaller)
+  - [RailsInstaller et Ruby Stack](#railsinstaller-et-ruby-stack)
+- [Managers](#managers)
+  - [chruby](#chruby)
+  - [rbenv](#rbenv)
+  - [RVM ("Ruby Version Manager")](#rvm-ruby-version-manager)
+  - [uru](#uru)
+- [Compiler les sources](#compiler-les-sources)
 
 
 ## Gestionnaires de paquets
@@ -93,6 +95,21 @@ $ sudo yum install ruby
 La version installée est généralement la version la plus récente disponible de
 Ruby au moment de la sortie de la version spécifique de la distribution.
 
+### cave (Exherbo Linux)
+{: #cave}
+
+Exherbo Linux utilse le gestionnaire de paquet cave.
+Vous pouvez l'utiliser de la façon suivante :
+
+{% highlight sh %}
+$ sudo cave resolve -x ruby
+{% endhighlight %}
+
+La version installée est généralement la version la plus récente disponible de
+Ruby au moment de la sortie de la version spécifique de la distribution.
+
+Pour installer une version précise, vérifiez celles disponibles avec `cave show ruby`.
+Puis utilisez, par exemple: `cave resolve -x ruby:3.2`
 
 ### portage (Gentoo)
 {: #portage}
