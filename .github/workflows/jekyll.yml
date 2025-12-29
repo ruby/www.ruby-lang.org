@@ -27,6 +27,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Install node dependencies
+        run: npm install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
