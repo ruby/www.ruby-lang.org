@@ -1964,11 +1964,14 @@ video {
   display: none;
 }
 
-html [lang]:not(code):not(pre):not(kbd):not(samp){
+/* Fixed: CJK fonts incorrectly applied to elements
+   with non-CJK lang attribute when page language is CJK */
+
+html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp){
   font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-html [lang]:not(code):not(pre):not(kbd):not(samp):lang(ja),html [lang]:not(code):not(pre):not(kbd):not(samp):lang(ko),html [lang]:not(code):not(pre):not(kbd):not(samp):lang(zh-CN),html [lang]:not(code):not(pre):not(kbd):not(samp):lang(zh-TW) {
+html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(ja),html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(ko),html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(zh-CN),html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(zh-TW) {
   font-family: var(--font-sans-cjk), sans-serif;
 }
 
@@ -4676,9 +4679,7 @@ html:lang(ja),
 }
 
 .transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
