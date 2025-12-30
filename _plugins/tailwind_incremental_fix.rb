@@ -23,14 +23,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   next if Jekyll::PostcssTrigger.css_touched
 
   # Check if any HTML/Markdown files have changed
-  content_patterns = [
-    "_layouts/**/*.html",
-    "_includes/**/*.html",
-    "*.html",
-    "*.md",
-    "*/**/*.html",
-    "*/**/*.md"
-  ]
+  content_patterns = %w[_layouts/**/*.html _includes/**/*.html *.html *.md */**/*.html */**/*.md]
 
   html_changed = false
   last_check = Jekyll::PostcssTrigger.last_check_time
@@ -39,7 +32,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     Dir.glob(site.in_source_dir(pattern)).each do |file|
       next if file.start_with?(site.dest) # Exclude _site directory
 
-      # Check if file was modified since last check
+      # Check if a file was modified since the last check
       if File.exist?(file) && File.mtime(file) > last_check
         html_changed = true
         Jekyll.logger.info "PostCSS Trigger:", "Detected change in #{File.basename(file)}"
