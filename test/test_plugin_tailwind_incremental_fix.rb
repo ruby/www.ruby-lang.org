@@ -19,29 +19,14 @@ describe Jekyll::PostcssTrigger do
     Jekyll::PostcssTrigger.css_touched = false
   end
 
-  describe "module initialization" do
-    it "has last_check_time accessor" do
-      _(Jekyll::PostcssTrigger).must_respond_to :last_check_time
-      _(Jekyll::PostcssTrigger).must_respond_to :last_check_time=
-    end
-
-    it "has css_touched accessor" do
-      _(Jekyll::PostcssTrigger).must_respond_to :css_touched
-      _(Jekyll::PostcssTrigger).must_respond_to :css_touched=
-    end
-
-    it "initializes with nil last_check_time" do
+  describe "state management" do
+    it "initializes with nil last_check_time and false css_touched" do
       _(Jekyll::PostcssTrigger.last_check_time).must_be_nil
-    end
-
-    it "initializes with false css_touched" do
       _(Jekyll::PostcssTrigger.css_touched).must_equal false
     end
-  end
 
-  describe "state management" do
     it "can set and get last_check_time" do
-      time = Time.now
+      time = Time. now
       Jekyll::PostcssTrigger.last_check_time = time
       _(Jekyll::PostcssTrigger.last_check_time).must_equal time
     end
@@ -50,172 +35,238 @@ describe Jekyll::PostcssTrigger do
       Jekyll::PostcssTrigger.css_touched = true
       _(Jekyll::PostcssTrigger.css_touched).must_equal true
     end
+  end
 
-    it "can reset state" do
-      Jekyll::PostcssTrigger.last_check_time = Time.now
-      Jekyll::PostcssTrigger.css_touched = true
+  describe "integration:  HTML change triggers CSS rebuild" do
+    before do
+      chdir_tempdir
+      create_file("stylesheets/main.css", "/* css */")
 
-      Jekyll::PostcssTrigger.last_check_time = nil
-      Jekyll::PostcssTrigger.css_touched = false
+      # Create a minimal Jekyll site
+      @site = Jekyll::Site.new(
+        Jekyll.configuration(
+          source: ".",
+          incremental: true,
+          quiet: true
+        )
+      )
+    end
 
+    after do
+      teardown_tempdir
+    end
+
+    it "records initial check time on first post_read" do
       _(Jekyll::PostcssTrigger.last_check_time).must_be_nil
+
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger. last_check_time).wont_be_nil
       _(Jekyll::PostcssTrigger.css_touched).must_equal false
     end
-  end
 
-  describe "file modification detection logic" do
-    before do
-      chdir_tempdir
-    end
+    it "touches CSS when HTML file changes after first build" do
+      # Create HTML file BEFORE first build
+      create_file("index.html", "<html>original</html>")
 
-    after do
-      teardown_tempdir
-    end
+      # First build - establish baseline
+      Jekyll::Hooks.trigger :site, :post_read, @site
+      first_check_time = Jekyll::PostcssTrigger. last_check_time
 
-    it "detects files modified after a timestamp" do
-      # Create a file
-      create_file("test.html", "<html>content</html>")
+      sleep 0.2
 
-      # Record current time
-      check_time = Time.now
-
-      # Wait to ensure time difference
-      sleep 0.1
-
-      # Modify the file
-      create_file("test.html", "<html>modified</html>")
-
-      # Check mtime
-      _(File.mtime("test.html") > check_time).must_equal true
-    end
-
-    it "does not detect unmodified files" do
-      # Create a file
-      create_file("test.html", "<html>content</html>")
-
-      # Record time after creation
-      sleep 0.1
-      check_time = Time.now
-
-      # Wait
-      sleep 0.1
-
-      # Don't modify the file
-
-      # Check mtime
-      _(File.mtime("test.html") > check_time).must_equal false
-    end
-
-    it "can touch a file to update mtime" do
-      create_file("test.css", "/* css */")
-      original_mtime = File.mtime("test.css")
+      # NOW modify HTML file (after first build)
+      create_file("index.html", "<html>modified</html>")
+      css_original_mtime = File. mtime("stylesheets/main.css")
 
       sleep 0.1
 
-      FileUtils.touch("test.css")
-      new_mtime = File.mtime("test.css")
+      # Second build - should detect change
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(new_mtime > original_mtime).must_equal true
+      _(Jekyll::PostcssTrigger.css_touched).must_equal true
+      _(File.mtime("stylesheets/main.css") > css_original_mtime).must_equal true
     end
 
-    it "matches HTML files with glob pattern" do
-      create_file("index.html", "<html></html>")
-      create_file("about.html", "<html></html>")
-      create_file("style.css", "/* css */")
+    it "touches CSS when markdown file changes" do
+      # Create markdown file first
+      create_file("about. md", "# About Page")
 
-      html_files = Dir.glob("*.html")
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(html_files.length).must_equal 2
-      _(html_files).must_include "index.html"
-      _(html_files).must_include "about.html"
-      _(html_files).wont_include "style.css"
+      sleep 0.2
+
+      # Modify markdown file
+      create_file("about.md", "# About Page Modified")
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger.css_touched).must_equal true
+      _(File.mtime("stylesheets/main.css") > css_original_mtime).must_equal true
     end
 
-    it "matches nested HTML files with glob pattern" do
-      create_file("_includes/header.html", "<header></header>")
-      create_file("_layouts/default.html", "<html></html>")
+    it "touches CSS when layout file changes" do
+      # Create layout file first
+      create_file("_layouts/default.html", "<html>{{ content }}</html>")
 
-      includes_files = Dir.glob("_includes/**/*.html")
-      layouts_files = Dir.glob("_layouts/**/*.html")
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(includes_files.length).must_equal 1
-      _(layouts_files.length).must_equal 1
+      sleep 0.2
+
+      # Modify layout file
+      create_file("_layouts/default.html", "<html><body>{{ content }}</body></html>")
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger. css_touched).must_equal true
+      _(File.mtime("stylesheets/main.css") > css_original_mtime).must_equal true
     end
 
-    it "matches markdown files with glob pattern" do
-      create_file("about.md", "# About")
-      create_file("contact.md", "# Contact")
+    it "touches CSS when include file changes" do
+      # Create include file first
+      create_file("_includes/header.html", "<header>Header</header>")
 
-      md_files = Dir.glob("*.md")
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(md_files.length).must_equal 2
+      sleep 0.2
+
+      # Modify include file
+      create_file("_includes/header.html", "<header>New Header</header>")
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger.css_touched).must_equal true
+      _(File.mtime("stylesheets/main.css") > css_original_mtime).must_equal true
     end
-  end
 
-  describe "integration with incremental config" do
-    before do
-      chdir_tempdir
+    it "does not touch CSS when no HTML/MD files changed" do
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      sleep 0.2
+
+      # Don't modify any files
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger.css_touched).must_equal false
+      _(File.mtime("stylesheets/main.css")).must_equal css_original_mtime
     end
 
-    after do
-      teardown_tempdir
+    it "does not touch CSS multiple times in same build" do
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      sleep 0.2
+
+      # Modify multiple HTML files
+      create_file("index.html", "<html>modified</html>")
+      create_file("about.html", "<html>also modified</html>")
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+      first_touch_mtime = File.mtime("stylesheets/main.css")
+
+      # Try to trigger again in same "build"
+      Jekyll::Hooks.trigger :site, :post_read, @site
+      second_touch_mtime = File.mtime("stylesheets/main.css")
+
+      _(first_touch_mtime).must_equal second_touch_mtime
     end
 
-    it "recognizes incremental mode in config" do
-      config = Jekyll.configuration(
-        source: ".",
-        incremental: true,
-        quiet: true
+    it "resets css_touched flag after post_write" do
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      sleep 0.2
+      create_file("index.html", "<html>modified</html>")
+      sleep 0.1
+
+      # Second build - CSS should be touched
+      Jekyll::Hooks.trigger :site, :post_read, @site
+      _(Jekyll::PostcssTrigger.css_touched).must_equal true
+
+      # Trigger post_write
+      Jekyll::Hooks.trigger :site, :post_write, @site
+
+      # Flag should be reset
+      _(Jekyll::PostcssTrigger.css_touched).must_equal false
+    end
+
+    it "does nothing when not in incremental mode" do
+      # Create non-incremental site
+      non_incremental_site = Jekyll::Site.new(
+        Jekyll.configuration(
+          source: ".",
+          incremental: false,
+          quiet: true
+        )
       )
 
-      _(config['incremental']).must_equal true
+      Jekyll::PostcssTrigger.last_check_time = nil
+
+      # Trigger hook
+      Jekyll::Hooks.trigger :site, :post_read, non_incremental_site
+
+      # Should not set check time
+      _(Jekyll::PostcssTrigger.last_check_time).must_be_nil
     end
 
-    it "recognizes non-incremental mode in config" do
-      config = Jekyll.configuration(
-        source: ".",
-        incremental: false,
-        quiet: true
-      )
+    it "handles missing CSS file gracefully" do
+      # Remove CSS file
+      FileUtils.rm_f("stylesheets/main.css")
 
-      _(config['incremental']).must_equal false
-    end
-  end
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-  describe "CSS file operations" do
-    before do
-      chdir_tempdir
-    end
+      sleep 0.2
+      create_file("index.html", "<html>modified</html>")
+      sleep 0.1
 
-    after do
-      teardown_tempdir
+      # Should not crash when CSS file doesn't exist
+      _{ Jekyll::Hooks.trigger :site, :post_read, @site }.must_be_silent
     end
 
-    it "can check if CSS file exists" do
-      create_file("stylesheets/main.css", "/* css */")
+    it "excludes _site directory from change detection" do
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(File.exist?("stylesheets/main.css")).must_equal true
-    end
+      sleep 0.2
 
-    it "can touch CSS file" do
-      create_file("stylesheets/main.css", "/* css */")
-      original_mtime = File.mtime("stylesheets/main.css")
+      # Modify file in _site (generated output)
+      create_file("_site/index.html", "<html>generated</html>")
+      css_original_mtime = File.mtime("stylesheets/main.css")
 
       sleep 0.1
 
-      FileUtils.touch("stylesheets/main.css")
-      new_mtime = File.mtime("stylesheets/main.css")
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(new_mtime > original_mtime).must_equal true
-    end
-
-    it "preserves CSS file content when touched" do
-      content = "/* original css */"
-      create_file("stylesheets/main.css", content)
-
-      FileUtils.touch("stylesheets/main.css")
-
-      _(File.read("stylesheets/main.css")).must_equal content
+      # CSS should NOT be touched (changes in _site are ignored)
+      _(Jekyll::PostcssTrigger.css_touched).must_equal false
+      _(File.mtime("stylesheets/main.css")).must_equal css_original_mtime
     end
   end
 end
