@@ -4,7 +4,7 @@ require "helper"
 require "jekyll"
 require "fileutils"
 require "time"
-require_relative "../_plugins/tailwind_incremental_fix"
+require_relative "../_plugins/postcss_incremental_fix"
 
 describe Jekyll::PostcssTrigger do
   before do
@@ -37,7 +37,7 @@ describe Jekyll::PostcssTrigger do
     end
   end
 
-  describe "integration:  HTML change triggers CSS rebuild" do
+  describe "integration: HTML change triggers CSS rebuild" do
     before do
       chdir_tempdir
       create_file("stylesheets/main.css", "/* css */")
@@ -61,7 +61,7 @@ describe Jekyll::PostcssTrigger do
 
       Jekyll::Hooks.trigger :site, :post_read, @site
 
-      _(Jekyll::PostcssTrigger. last_check_time).wont_be_nil
+      _(Jekyll::PostcssTrigger.last_check_time).wont_be_nil
       _(Jekyll::PostcssTrigger.css_touched).must_equal false
     end
 
@@ -71,13 +71,13 @@ describe Jekyll::PostcssTrigger do
 
       # First build - establish baseline
       Jekyll::Hooks.trigger :site, :post_read, @site
-      first_check_time = Jekyll::PostcssTrigger. last_check_time
+      first_check_time = Jekyll::PostcssTrigger.last_check_time
 
       sleep 0.2
 
       # NOW modify HTML file (after first build)
       create_file("index.html", "<html>modified</html>")
-      css_original_mtime = File. mtime("stylesheets/main.css")
+      css_original_mtime = File.mtime("stylesheets/main.css")
 
       sleep 0.1
 
@@ -90,7 +90,7 @@ describe Jekyll::PostcssTrigger do
 
     it "touches CSS when markdown file changes" do
       # Create markdown file first
-      create_file("about. md", "# About Page")
+      create_file("about.md", "# About Page")
 
       # First build
       Jekyll::Hooks.trigger :site, :post_read, @site
@@ -99,6 +99,50 @@ describe Jekyll::PostcssTrigger do
 
       # Modify markdown file
       create_file("about.md", "# About Page Modified")
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger.css_touched).must_equal true
+      _(File.mtime("stylesheets/main.css") > css_original_mtime).must_equal true
+    end
+
+    it "touches CSS when CSS partial (e.g. _variables.css) changes" do
+      # Create CSS partial first
+      create_file("stylesheets/_variables.css", ":root { --color: red; }")
+
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      sleep 0.2
+
+      # Modify CSS partial
+      create_file("stylesheets/_variables.css", ":root { --color: blue; }")
+      css_original_mtime = File.mtime("stylesheets/main.css")
+
+      sleep 0.1
+
+      # Second build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      _(Jekyll::PostcssTrigger.css_touched).must_equal true
+      _(File.mtime("stylesheets/main.css") > css_original_mtime).must_equal true
+    end
+
+    it "touches CSS when CSS file in sub-directory (e.g. _components/*.css) changes" do
+      # Create CSS file in sub-directory first
+      create_file("stylesheets/_components/base.css", ".btn { color: red; }")
+
+      # First build
+      Jekyll::Hooks.trigger :site, :post_read, @site
+
+      sleep 0.2
+
+      # Modify CSS file in sub-directory
+      create_file("stylesheets/_components/base.css", ".btn { color: blue; }")
       css_original_mtime = File.mtime("stylesheets/main.css")
 
       sleep 0.1

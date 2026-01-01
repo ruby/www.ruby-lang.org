@@ -14,7 +14,7 @@ CONFIG = "_config.yml"
 task default: [:build]
 
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-news-plugin test-html-lang-plugin test-tailwind-incremental-fix-plugin test-linter lint build]
+task test: %i[test-news-plugin test-html-lang-plugin test-postcss-incremental-fix-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
 task :build do
@@ -139,9 +139,9 @@ Rake::TestTask.new(:"test-html-lang-plugin") do |t|
 end
 
 require "rake/testtask"
-Rake::TestTask.new(:"test-tailwind-incremental-fix-plugin") do |t|
-  t.description = "Run tests for the Tailwind incremental fix plugin"
+Rake::TestTask.new(:"test-postcss-incremental-fix-plugin") do |t|
+  t.description = "Run tests for the PostCSS incremental fix plugin"
   t.libs = ["test"]
-  t.test_files = FileList['test/test_plugin_tailwind_incremental_fix.rb']
+  t.test_files = FileList['test/test_plugin_postcss_incremental_fix.rb']
   t.verbose = true
 end

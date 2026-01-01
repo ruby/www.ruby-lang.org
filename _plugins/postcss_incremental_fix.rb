@@ -1,4 +1,6 @@
-# Regenerate CSS only when HTML/Markdown files change
+# Regenerate CSS when HTML/Markdown files or imported CSS partials change
+# Detects changes in content files and CSS partials (e.g., _components/*.css, _variables.css)
+# to trigger PostCSS rebuild via jekyll-postcss-v2 plugin
 
 module Jekyll
   module PostcssTrigger
@@ -22,8 +24,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
   # Skip if CSS was already touched in this build
   next if Jekyll::PostcssTrigger.css_touched
 
-  # Check if any HTML/Markdown files have changed
-  content_patterns = %w[_layouts/**/*.html _includes/**/*.html *.html *.md */**/*.html */**/*.md]
+  # Check if any HTML/Markdown files or included CSS files have changed
+  content_patterns = %w[_layouts/**/*.html _includes/**/*.html *.html *.md */**/*.html */**/*.md stylesheets/**/_*.css stylesheets/_*/**/*.css]
 
   html_changed = false
   last_check = Jekyll::PostcssTrigger.last_check_time
