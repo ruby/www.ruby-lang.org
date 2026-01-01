@@ -4,6 +4,18 @@
 
 module Jekyll
   module PostcssTrigger
+    # File patterns to watch for changes that should trigger CSS rebuild
+    WATCHED_FILE_PATTERNS = %w[
+      _layouts/**/*.html
+      _includes/**/*.html
+      *.html
+      *.md
+      */**/*.html
+      */**/*.md
+      stylesheets/**/_*.css
+      stylesheets/_*/**/*.css
+    ].freeze
+
     class << self
       attr_accessor :last_check_time, :css_touched
     end
@@ -25,7 +37,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
   next if Jekyll::PostcssTrigger.css_touched
 
   # Check if any HTML/Markdown files or included CSS files have changed
-  content_patterns = %w[_layouts/**/*.html _includes/**/*.html *.html *.md */**/*.html */**/*.md stylesheets/**/_*.css stylesheets/_*/**/*.css]
+  content_patterns = Jekyll::PostcssTrigger::WATCHED_FILE_PATTERNS
 
   html_changed = false
   last_check = Jekyll::PostcssTrigger.last_check_time
