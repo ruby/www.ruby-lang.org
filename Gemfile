@@ -16,5 +16,5 @@ gem "csv"
 gem "base64"
 
 group :jekyll_plugins do
-  gem 'jekyll-postcss-v2'
+  gem "jekyll-postcss-v2"
 end
