@@ -138,7 +138,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
     * `Ractor#join`을 내부적으로 구현하는 데 사용되는 저수준 인터페이스로
       `Ractor#monitor`와 `Ractor#unmonitor`가 추가되었습니다.
 
-    * `Ractor.select`는 이제 Ractor와 Port만 허용합니다. Ractor가 주어지면,
+    * `Ractor.select`는 이제 Ractor와 Port만 받습니다. Ractor가 주어지면,
       Ractor가 종료될 때 반환됩니다.
 
     * `Ractor#default_port`가 추가되었습니다. 각 `Ractor`는 `Ractor.send`, `Ractor.receive`에서
