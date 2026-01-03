@@ -14,6 +14,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
 ### Prerequisites
 
 - **Ruby** (latest stable version recommended) - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- **Node.js** - [Install Node.js](https://nodejs.org/en/download/)
 - **Git** - [Install Git](https://git-scm.com/downloads)
 
 ### Get It Running
