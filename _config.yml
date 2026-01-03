@@ -25,6 +25,9 @@ exclude:
   - node_modules
   - tailwind.config.js
   - postcss.config.js
+  - .git
+  - .gitignore
+  - .github
   - .idea
   - .vscode
 
