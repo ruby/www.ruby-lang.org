@@ -74,7 +74,7 @@ bundle exec rake new_post:fr    # French
 - `_data/`: YAML data files (releases.yml, downloads.yml, branches.yml, locales/)
 - `lib/`: Ruby utilities (linter, markup checker, draft release)
 - `test/`: Test files for plugins and linter
-- `stylesheets/`: CSS source (includes partials that Jekyll excludes by default:  directories prefixed with `_` and files starting with `_`)
+- `stylesheets/`: CSS source (includes partials that Jekyll excludes by default: directories prefixed with `_` and files starting with `_`)
 - `_javascripts_src/`: TypeScript source files
 - `javascripts/`: Compiled JavaScript output
 
