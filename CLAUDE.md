@@ -171,6 +171,10 @@ lang: en
 **Node (package.json):**
 - `tailwindcss` - CSS framework
 - `@tailwindcss/typography` - Prose styling plugin
+- `postcss` - CSS transformation tool
+- `postcss-cli` - PostCSS command-line interface
+- `postcss-import` - PostCSS plugin for @import resolution
+- `autoprefixer` - PostCSS plugin for vendor prefix automation
 
 ## Important Conventions
 
