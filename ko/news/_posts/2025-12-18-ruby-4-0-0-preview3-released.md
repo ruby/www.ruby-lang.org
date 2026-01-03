@@ -486,7 +486,6 @@ Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고,
 [Feature #21459]: https://bugs.ruby-lang.org/issues/21459
 [Feature #21527]: https://bugs.ruby-lang.org/issues/21527
 [Feature #21550]: https://bugs.ruby-lang.org/issues/21550
-[Feature #21552]: https://bugs.ruby-lang.org/issues/21552
 [Feature #21557]: https://bugs.ruby-lang.org/issues/21557
 [Bug #21654]:     https://bugs.ruby-lang.org/issues/21654
 [Feature #21552]: https://bugs.ruby-lang.org/issues/21552
