@@ -286,11 +286,11 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 * net-smtp 0.5.1
 * matrix 0.4.3
 * prime 0.1.4
-* rbs 3.9.5
+* rbs 3.10.0.pre.2
 * typeprof 0.31.0
 * debug 1.11.0
 * base64 0.3.0
-* bigdecimal 3.3.1
+* bigdecimal 4.0.1
 * drb 2.2.3
 * syslog 0.3.0
 * csv 3.3.5
