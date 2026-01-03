@@ -129,7 +129,7 @@ If you can't build locally or want to test under production conditions:
 
 This site uses [Tailwind CSS](https://tailwindcss.com/) for styling. 
 
-> **Note:** When you modify CSS files, it might take a moment for the changes to be reflected in the preview, as the CSS needs to be rebuilt.
+> **Note:** When you modify CSS files or add/modify CSS classes in HTML or Markdown files, it might take a moment for the changes to be reflected in the preview, as the CSS needs to be rebuilt.
 
 ## Testing
 
