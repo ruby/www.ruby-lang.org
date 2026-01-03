@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude. ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
@@ -17,7 +17,7 @@ bundle exec rake build
 # Serve locally at http://localhost:4000/
 bundle exec rake serve
 
-# Alternative:  Jekyll direct serve with incremental builds
+# Alternative: Jekyll direct serve with incremental builds
 bundle exec jekyll serve --watch --future --incremental
 ```
 
@@ -37,16 +37,16 @@ bundle exec rake lint                 # Markdown linter
 
 # Post-build validation (requires built site)
 bundle exec rake check:markup         # Validate HTML markup
-bundle exec rake check: links          # Check for broken links (needs local server running)
+bundle exec rake check:links          # Check for broken links (needs local server running)
 ```
 
 ### Creating News Posts
 
 ```bash
 # Create news post template for specific language
-bundle exec rake new_post: en    # English
+bundle exec rake new_post:en    # English
 bundle exec rake new_post:ja    # Japanese
-bundle exec rake new_post: fr    # French
+bundle exec rake new_post:fr    # French
 # ... etc for: bg, de, es, id, it, ja, ko, pl, pt, ru, tr, vi, zh_cn, zh_tw
 ```
 
@@ -61,7 +61,7 @@ bundle exec rake new_post: fr    # French
 
 ### Jekyll Configuration
 
-- **Markdown**:  Kramdown with Rouge syntax highlighting
+- **Markdown**: Kramdown with Rouge syntax highlighting
 - **Timezone**: UTC (critical for news posts)
 - **Permalinks**: Pretty URLs
 - **Build output**: `_site/` directory
@@ -71,7 +71,7 @@ bundle exec rake new_post: fr    # French
 - `_layouts/`: Page templates (default, homepage, news_post, news_archive_month, etc.)
 - `_includes/`: Reusable components (header, footer, navigation, toc, sidebar)
 - `_plugins/`: Custom Jekyll plugins (news archive generator, posted_by, translation_status)
-- `_data/`: YAML data files (releases.yml, downloads. yml, branches.yml, locales/)
+- `_data/`: YAML data files (releases.yml, downloads.yml, branches.yml, locales/)
 - `lib/`: Ruby utilities (linter, markup checker, draft release)
 - `test/`: Test files for plugins and linter
 - `stylesheets/`: CSS source (includes partials that Jekyll excludes by default:  directories prefixed with `_` and files starting with `_`)
@@ -133,7 +133,7 @@ default.html (base)
 ```yaml
 ---
 layout: page
-title:  "Page Title"
+title: "Page Title"
 lang: en
 ---
 ```
@@ -145,7 +145,7 @@ layout: news_post
 title: "Post Title"
 author: "Author Name"
 translator: "Translator Name"  # Required for non-original language
-date: YYYY-MM-DD HH:MM: SS +0000  # Must be UTC
+date: YYYY-MM-DD HH:MM:SS +0000  # Must be UTC
 lang: en
 ---
 ```
@@ -178,8 +178,8 @@ lang: en
 2. **File naming**: News posts must be `YYYY-MM-DD-title.md` matching the date in front matter
 3. **Language codes**: Must match directory structure (e.g., `lang: en` for files in `/en/`)
 4. **Translator field**: Required for translated news posts, not for original posts
-5. **Line endings**:  LF only, no CRLF
-6. **Release posts**:  Must include valid SHA checksums if referencing downloads
+5. **Line endings**: LF only, no CRLF
+6. **Release posts**: Must include valid SHA checksums if referencing downloads
 
 ## CI/CD
 
