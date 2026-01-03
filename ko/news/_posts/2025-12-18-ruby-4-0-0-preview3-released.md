@@ -79,7 +79,8 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 * File
 
     * 커널과 파일 시스템에서 지원하는 경우, `File::Stat#birthtime`이 statx 시스템 콜을 통해
-      Linux에서 사용 가능합니다. [[Feature #21205]]
+      Linux에서 사용 가능합니다.
+      [[Feature #21205]]
 
 * IO
 
@@ -95,15 +96,18 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
 * Method
 
-    * `Method#source_location`, `Proc#source_location`, `UnboundMethod#source_location`은
-      이제 5개의 요소를 가진 확장된 위치 정보를 반환합니다. `[path, start_line, start_column,
+    * `Method#source_location`, `Proc#source_location`,
+      `UnboundMethod#source_location`은 이제 5개의 요소를 가진 확장된 위치
+      정보를 반환합니다. `[path, start_line, start_column,
       end_line, end_column]`. 이전의 2개 요소 형식 `[path, line]`은 결과에 `.take(2)`를
-      호출하여 얻을 수 있습니다. [[Feature #6012]]
+      호출하여 얻을 수 있습니다.
+      [[Feature #6012]]
 
 * Proc
 
-    * `Proc#parameters`는 이제 선택적 익명 매개변수를 `[:opt, nil]` 대신 `[:opt]`로 표시하여,
-      익명 매개변수가 필수인 경우와 일관된 출력을 제공합니다. [[Bug #20974]]
+    * `Proc#parameters`는 이제 선택적 익명 매개변수를 `[:opt, nil]` 대신
+      `[:opt]`로 표시하여, 익명 매개변수가 필수인 경우와
+      일관된 출력을 제공합니다. [[Bug #20974]]
 
 * Ractor
 
@@ -132,7 +136,8 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
         그 결과, `Ractor.yield`와 `Ractor#take`가 제거되었습니다.
 
-    * Ractor의 종료를 기다리기 위해 `Ractor#join`과 `Ractor#value`가 추가되었습니다.
+    * Ractor의 종료를 기다리기 위해
+      `Ractor#join`과 `Ractor#value`가 추가되었습니다.
       이들은 `Thread#join` 및 `Thread#value`와 유사합니다.
 
     * `Ractor#join`을 내부적으로 구현하는 데 사용되는 저수준 인터페이스로
@@ -146,8 +151,9 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
     * `Ractor#close_incoming`과 `Ractor#close_outgoing`이 제거되었습니다.
 
-    * 공유 가능한 Proc 또는 lambda를 만들기 위해 `Ractor.shareable_proc`과 `Ractor.shareable_lambda`가
-      도입되었습니다. [[Feature #21550]], [[Feature #21557]]
+    * 공유 가능한 Proc 또는 lambda를 만들기 위해
+      `Ractor.shareable_proc`과 `Ractor.shareable_lambda`가 도입되었습니다.
+      [[Feature #21550]], [[Feature #21557]]
 
 * Range
 
@@ -178,7 +184,8 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
       [[Feature #21216]]
 
     * `Set#inspect`은 이제 `Set[]` 구문을 사용하여 `eval`에 적합한 문자열을 반환합니다
-      (예: `#<Set: {1, 2, 3}>` 대신 `Set[1, 2, 3]`). 이는 Array, Hash와 같은
+      (예: `#<Set: {1, 2, 3}>` 대신 `Set[1, 2, 3]`).
+      이는 Array, Hash와 같은
       다른 코어 컬렉션 클래스와 일관성을 유지합니다. [[Feature #21389]]
 
     * `Set#to_set`과 `Enumerable#to_set`에 인자를 전달하는 것은 폐기 예정 상태가 되었습니다.
@@ -210,7 +217,8 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 * Fiber::Scheduler
 
     * 주어진 예외로 fiber를 인터럽트하기 위한 `Fiber::Scheduler#fiber_interrupt`가 도입되었습니다.
-      초기 사용 사례는 IO 작업이 닫힐 때 블로킹 IO 작업을 기다리는 fiber를 인터럽트하는 것입니다.
+      초기 사용 사례는 IO 작업이 닫힐 때 블로킹 IO 작업을 기다리는
+      fiber를 인터럽트하는 것입니다.
       [[Feature #21166]]
 
 * Pathname
@@ -236,7 +244,8 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 주목할 만한 기능 변경인 표준 라이브러리 변경만을 나열합니다.
 
 다른 변경 사항은 아래 섹션에 나열되어 있습니다. Ruby 3.3.0 이후 번들된 버전의
-릴리스 히스토리가 GitHub 릴리스에 있는 경우 함께 나열했습니다.
+릴리스 히스토리가 GitHub 릴리스에 있는 경우 함께
+나열했습니다.
 
 다음 기본 gem이 추가되었습니다.
 
@@ -320,7 +329,8 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
   Ruby 3.3에서 폐기 예정 상태가 되었습니다. [[Bug #19868]]
 
 * `rb_path_check`가 제거되었습니다. 이 함수는 Ruby 2.7에서 제거된
-  `$SAFE` 경로 검사에 사용되었었으며, 이미 폐기 예정이었습니다.
+  `$SAFE` 경로 검사에 사용되었었으며,
+  이미 폐기 예정이었습니다.
   [[Feature #20971]]
 
 ## 표준 라이브러리 호환성 문제
@@ -377,8 +387,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 
 ### Ractor
 
-Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 위해 많은 작업이 진행되었습니다.
-이러한 개선으로 Ractor 구현이 실험적 상태를 벗어나는 데 더 가까워졌습니다.
+Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 위해 많은 작업이 진행되었습니다. 이러한 개선으로 Ractor 구현이 실험적 상태를 벗어나는 데 더 가까워졌습니다.
 
 * 성능 개선
     * 얼린 문자열과 심볼 테이블은 내부적으로 잠금 없는 해시 셋 사용
