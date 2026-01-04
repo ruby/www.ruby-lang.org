@@ -175,6 +175,7 @@ lang: en
 - `postcss-cli` - PostCSS command-line interface
 - `postcss-import` - PostCSS plugin for @import resolution
 - `autoprefixer` - PostCSS plugin for vendor prefix automation
+- `cssnano` - CSS minification tool (activated only in production builds to optimize CSS file size)
 
 ## Important Conventions
 
