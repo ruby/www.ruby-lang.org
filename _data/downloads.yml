@@ -23,6 +23,13 @@ eol:
 
 stable_snapshots:
 
+  - branch: ruby_4_0
+    url:
+      gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_4_0.tar.gz
+      xz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_4_0.tar.xz
+      zip: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_4_0.zip
+    version: '4.0'
+
   - branch: ruby_3_4
     url:
       gz: https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_3_4.tar.gz
