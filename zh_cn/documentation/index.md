@@ -63,9 +63,6 @@ ruby -v
 [RubyDoc.info][16]
 :  关于 Ruby gems 和 GitHub 上托管的 Ruby 项目的参考文档的一站式站点。
 
-[Ruby 和 Rails 可检索 API 文档][17]
-: 可以智能搜索的 Rails 和 Ruby 文档。
-
 [APIdock][18]
 : 带有用户评注的 Ruby、Rails 和 RSpec 文档。
 
@@ -117,7 +114,6 @@ ruby -v
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/
