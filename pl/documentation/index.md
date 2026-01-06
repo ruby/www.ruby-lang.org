@@ -80,9 +80,6 @@ Znajdziesz tutaj odnośniki do podręczników, tutoriali i materiałów
 : Strona internetowa z dokumentacją referencyjną gemów Rubiego i
   utrzymywanych na GitHubie projektów Rubiego.
 
-[Ruby & Rails Searchable API Docs][17]
-: Dokumentacja Railsów i Rubiego ze sprytnym wyszukiwaniem.
-
 [APIdock][18]
 : Dokumentacja Rubiego, Railsów i RSpeca z komentarzami użytkowników.
 
@@ -138,7 +135,6 @@ Jeśli szukasz pomocy w języku polskim, zajrzyj na [forum][pl-2].
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
