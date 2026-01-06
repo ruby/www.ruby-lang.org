@@ -85,9 +85,6 @@ isterseniz, [kurulum kılavuzu](installation/)nu okuyabilirsiniz.
 : Ruby gem’leri ve GitHub’daki Ruby projelerinin başvuru belgelendirmeleri için
   tek site.
 
-[Ruby & Rails Aranabilir API Belgeleri][17]
-: Akıllı arama özellikleri olan Rails ve Ruby belgelendirmesi.
-
 [APIdock][18]
 : Kullanıcı notları ile Ruby, Rails ve RSpec belgelendirmesi.
 
@@ -147,7 +144,6 @@ olacaktır.
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/

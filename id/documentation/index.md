@@ -74,9 +74,6 @@ dapat membaca [panduan instalasi](installation/) untuk memasang Ruby.
 : Situs *web* lengkap untuk dokumentasi referensi tentang Ruby *gem* dan
   proyek Ruby yang di-*host* di GitHub.
 
-[Ruby & Rails Searchable API Docs][17]
-: Dokumentasi Rails dan Ruby yang dilengkapi dengan pencarian cerdas.
-
 [APIdock][18]
 : Dokumentasi Ruby, Rails, dan RSpec dengan catatan para pengguna.
 
@@ -140,7 +137,6 @@ adalah tempat yang baik untuk memulai.
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/

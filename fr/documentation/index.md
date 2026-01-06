@@ -107,10 +107,6 @@ pour les nombreuses façons d'obtenir Ruby.
 [rubydoc.info][20]
 : Documentation auto-générée pour un grand nombre de bibliothèques Ruby.
 
-[Ruby & Rails Searchable API Docs][21]
-: Documentation sur les API Ruby et Ruby On Rails, proposant un système
-  de recherche poussé.
-
 ### Lectures additionnelles
 
 [Ruby-Doc.org][22] maintient à jour une liste presque exhaustive de la
@@ -138,6 +134,5 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [18]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [20]: http://rubydoc.info/
-[21]: http://rubydocs.org/
 [22]: http://ruby-doc.org
 [24]: http://rubyfrance.org/liens/livres/
