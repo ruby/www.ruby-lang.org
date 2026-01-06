@@ -85,9 +85,6 @@ diversas maneiras de obter o Ruby.
 : O website essencial para documentação de referência sobre as Gems do Ruby e
   projetos Ruby hospedados no GitHub.
 
-[Ruby & Rails Searchable API Docs][17]
-: Documentação do Ruby e do Rails com busca inteligente.
-
 [APIdock][18]
 : Documentação do Ruby, Rails e RSpec com notas de usuários.
 
@@ -145,7 +142,6 @@ perguntas sobre Ruby, a [lista de e-mails](/pt/community/mailing-lists/)
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

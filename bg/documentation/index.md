@@ -80,9 +80,6 @@ ruby -v
 [RubyDoc.info][16]
 : Документация за Ruby gem-ове и Ruby проекти, хоствани в github.com
 
-[Ruby & Rails Searchable API Docs][17]
-: Rails и Ruby документация с възможност за умно търсене.
-
 [APIdock][18]
 : Документация за Ruby, Rails и RSpec, включваща потребителски забележки и
   коментари.
@@ -136,7 +133,6 @@ ruby -v
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

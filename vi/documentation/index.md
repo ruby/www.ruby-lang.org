@@ -86,9 +86,6 @@ việc cài đặt Ruby.
 : Các trang web một cửa cho tài liệu tham khảo về Ruby gems và GitHub chứa các
   dự án Ruby.
 
-[Ruby & Rails Searchable API Docs][17]
-: Tài liệu Rails và Ruby với tìm kiếm thông minh.
-
 [APIdock][18]
 : Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
 
@@ -144,7 +141,6 @@ là một nơi tuyệt vời.
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/
