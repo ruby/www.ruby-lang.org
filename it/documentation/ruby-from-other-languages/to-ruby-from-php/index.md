@@ -37,7 +37,7 @@ A differenza di PHP, in Ruby…
   effettuare delle conversioni tra stringhe, numeri interi, e così via,
   invece di lasciare al linguaggio tale compito.
 * Stringhe, numeri, array, hash ecc. sono degli oggetti. Invece di
-  chiamare abs(-1) si chiama -1.abs.
+  chiamare `abs(-1)` si chiama `-1.abs`.
 * Le parentesi sono opzionali nelle chiamate ai metodi, eccetto per
   chiarificare quali parametri si riferiscono a quali metodi.
 * La libreria standard e le estensioni sono organizzate in moduli e classi.
