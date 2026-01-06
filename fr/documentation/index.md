@@ -130,7 +130,7 @@ la [liste de diffusion](/en/community/mailing-lists/) est un bon endroit
 [7]: http://www.ruby-doc.org/docs/ApprendreProgrammer/Apprendre_%E0_Programmer.pdf
 [10]: http://www.techotopia.com/index.php/Ruby_Essentials
 [11]: http://www.meshplex.org/wiki/Ruby/Ruby_on_Rails_programming_tutorials
-[12]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[12]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
 [13]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [15]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: http://www.ruby-doc.org/core
