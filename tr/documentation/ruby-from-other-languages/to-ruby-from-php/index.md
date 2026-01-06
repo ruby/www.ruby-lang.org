@@ -39,7 +39,7 @@ PHP’nin aksine, Rubyde…
   arasında çeviri yapabilmek için bunu yapması için dile güvenmek yerine
   `to_s`, `to_i` vs. metodları kullanmalısınız.
 * Karakter dizileri, sayılar, dizeler, hash veri tipleri, vs. nesnedir.
-  abs(-1) yerine -1.abs olarak kullanılır.
+  `abs(-1)` yerine `-1.abs` olarak kullanılır.
 * Parantezler metod çağrılarında isteğe bağlıdır, hangi parametrelerin
   hangi metod çağrılarına gideceğini netleştirmek için kullanılanlar
   hariç.

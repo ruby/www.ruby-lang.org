@@ -38,7 +38,7 @@ Im Gegensatz zu PHP hat Ruby…
 * Es gibt auch strenge Typisierung: man muss explizit Funktionen zur
   Typkonvertierung aufrufen. Z.B. `to_s` oder `to_i`
 * strings, numbers, arrays, hashes, etc. sind Objekte. Also statt
-  abs(-1) schreibt man in Ruby -1.abs
+  `abs(-1)` schreibt man in Ruby `-1.abs`
 * Parameter bei Methodenaufrufen brauchen nicht in runde Klammern
   gesetzt werden – außer, falls notwendig, um Mehrdeutigkeit zu
   vermeiden.
