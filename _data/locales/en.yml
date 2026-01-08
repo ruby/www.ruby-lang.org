@@ -182,6 +182,7 @@ month_names:
 
 posted_by: Posted by AUTHOR on %-d %b %Y
 translated_by: Translated by
+fallback_notice: "This content is not currently available in the language you selected"
 
 feed:
   title: Ruby News
