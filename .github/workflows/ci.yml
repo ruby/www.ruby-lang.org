@@ -33,3 +33,14 @@ jobs:
         run: ruby -v
       - name: Run tests
         run: bundle exec rake test
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Check CSS is up-to-date
+        run: |
+          npm run build-css
+          git diff --exit-code stylesheets/compiled.css || (echo "Error: compiled.css is out of date. Run 'npm run build-css' and commit the changes." && exit 1)
