@@ -81,9 +81,6 @@ como instalar Ruby.
 : El sitio de parada obligada, con documentación de referencia, respecto
   a las gemas Ruby y a los proyectos Ruby alojados en GitHub.
 
-[Documentos de la API de Ruby y de Rails con facilidad de búsqueda][17]
-: Documentación de Rails y Ruby con búsqueda inteligente.
-
 [APIdock][18]
 : Documentación de Ruby, Rails y RSpec con notas de los usuarios.
 
@@ -141,7 +138,7 @@ comenzar.
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
-[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[9]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
@@ -149,7 +146,6 @@ comenzar.
 [15]: http://www.ruby-doc.org/stdlib
 [extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [rubyapi-org]: https://rubyapi.org/
 [19]: http://www.aptana.com/

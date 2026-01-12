@@ -39,7 +39,7 @@ W przeciwieństwie do PHP, w Rubim…
   przeprowadzić konwersje pomiędzy łańcuchami znaków, liczbami
   całkowitymi i podobnymi, zamiast polegać, że język zrobi to za ciebie.
 * Stringi, liczby, tablice, hasze itp. są obiektami. Zamiast wywoływać
-  abs(-1) piszesz -1.abs.
+  `abs(-1)` piszesz `-1.abs`.
 * Nawiasy są opcjonalne w wywołaniach metod, chyba że musisz wyjaśnić w
   ten sposób, które parametry odnoszą się do odpowiednich wywołań metod.
 * Zamiast konwencji nazw (np. podkreśleń), biblioteka standardowa
