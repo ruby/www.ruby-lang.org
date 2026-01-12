@@ -24,6 +24,10 @@
     @apply dark:bg-stone-900 dark:text-stone-50;
   }
 
+  [lang] {
+    @apply font-default;
+  }
+
   /* CJK fonts */
   html:lang(ja),
   body:lang(ja),

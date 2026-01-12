@@ -1984,6 +1984,14 @@ body:is(.dark *){
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
 }
 
+[lang]:lang(ja),[lang]:lang(ko),[lang]:lang(zh-CN),[lang]:lang(zh-TW) {
+  font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+[lang]{
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 /* CJK fonts */
 
 html:lang(ja),
