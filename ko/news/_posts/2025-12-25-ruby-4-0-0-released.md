@@ -8,12 +8,12 @@ lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "4.0.0" | first %}
-Ruby {{ release.version }}이 공개되었습니다.
-Ruby 4.0에는 "Ruby Box", "ZJIT" 외에 다수의 개선 사항이 포함되어 있습니다.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
+Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니다.
 
 ## Ruby Box
 
-Ruby Box는 클래스 등의 정의를 분리/격리하기 위한 기능을 제공하는 실험적 기능입니다. Ruby Box는 환경 변수로 `RUBY_BOX=1`을 지정하여 활성화할 수 있습니다. 클래스 이름은 `Ruby::Box`입니다.
+정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다. Ruby Box는 환경 변수로 `RUBY_BOX=1`을 지정하여 활성화할 수 있습니다. 클래스 이름은 `Ruby::Box`입니다.
 
 Box 내에서 로드된 정의는 해당 Box 내에 격리된 상태가 됩니다. Ruby Box가 격리할 수 있는 정의로는 기존 클래스에 대한 몽키 패치, 전역 변수나 클래스 변수 조작, 클래스나 모듈 정의, 그리고 .rb 파일이나 확장 라이브러리로 구현된 라이브러리들이 있습니다.
 
@@ -44,11 +44,11 @@ Ruby에서 쉽게 병렬 처리를 수행하기 위한 Ractor에 많은 개선�
 
 Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험적 상태를 해제하고 싶습니다.
 
-## 언어 사양 변경
+## 언어 변경
 
-* `*nil`은 더 이상 `nil.to_a`를 호출하지 않습니다. `**nil`이 `nil.to_hash`를 호출하지 않는 것과 마찬가지입니다. [[Feature #21047]]
+* `**nil`이 `nil.to_hash`를 호출하지 않는 것과 마찬가지로, `*nil`은 더 이상 `nil.to_a`를 호출하지 않습니다. [[Feature #21047]]
 
-* 행 시작 부분의 논리 이항 연산자(`||`, `&&`, `and`, `or`)가 점 표기법처럼 이전 행을 계속 이어가도록 변경되었습니다. 다음 코드는 동등합니다.
+* 줄 시작 부분에 있는 논리 이항 연산자(`||`, `&&`, `and`, `or`)는 유연한 점(fluent dot)처럼 이전 줄을 이어갑니다. 다음 두 코드는 동일합니다.
 
     ```ruby
     if condition1
@@ -74,23 +74,23 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 
     [[Feature #20925]]
 
-## 코어 클래스 업데이트
+## 코어 클래스 변경
 
-주의: 특기할 만한 클래스 업데이트만 기재하고 있습니다.
+주의: 주목할 만한 클래스 변경만을 포함합니다.
 
 * Array
 
-    * `array.reverse_each.find`보다 효율적인 대안으로 `Array#rfind`를 추가했습니다. [[Feature #21678]]
-    * `Enumerable#find`를 더 효율적으로 실행하는 `Array#find`를 추가했습니다. [[Feature #21678]]
+    * `array.reverse_each.find`보다 효율적인 대안으로 `Array#rfind`가 추가되었습니다. [[Feature #21678]]
+    * `Enumerable#find`를 더 효율적으로 실행하는 `Array#find`가 추가되었습니다. [[Feature #21678]]
 * Binding
 
-    * `Binding#local_variables`는 번호 매개변수를 포함하지 않게 되었습니다. 또한 `Binding#local_variable_get`, `Binding#local_variable_set`, `Binding#local_variable_defined?`는 번호 매개변수를 다루지 않게 되었습니다. [[Bug #21049]]
+    * `Binding#local_variables`는 더 이상 번호가 매겨진 매개변수를 포함하지 않습니다. 또한, `Binding#local_variable_get`과 `Binding#local_variable_set`은 번호가 매겨진 매개변수를 처리하지 않습니다. [[Bug #21049]]
 
-    * 번호 매개변수 및 "it" 매개변수에 액세스하기 위해 `Binding#implicit_parameters`, `Binding#implicit_parameter_get`, `Binding#implicit_parameter_defined?`를 추가했습니다. [[Bug #21049]]
+    * 번호 매개변수 및 "it" 매개변수에 액세스하기 위해 `Binding#implicit_parameters`, `Binding#implicit_parameter_get`, `Binding#implicit_parameter_defined?`가 추가되었습니다. [[Bug #21049]]
 
 * Enumerator
 
-    * `Enumerator.produce`가 옵션 키워드 인수 `size`를 받을 수 있게 되었습니다. 크기에는 정수, `Float::INFINITY`, 람다 등의 호출 가능 객체, 또는 알 수 없음을 나타내는 `nil`을 지정할 수 있습니다. 생략 시에는 `Float::INFINITY`입니다.
+    * `Enumerator.produce`는 이제 선택적 키워드 인자 `size`를 받습니다. 크기에는 정수, `Float::INFINITY`, 람다와 같은 호출 가능한 객체, 또는 알 수 없음을 나타내는 `nil`을 지정할 수 있습니다. 생략 시에는 `Float::INFINITY`입니다.
 
         ```ruby
         # 무한 열거자
@@ -110,7 +110,7 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 
 * ErrorHighlight
 
-    * `ArgumentError`가 발생했을 때 메서드 호출 측(caller)과 메서드 정의 측(callee) 양쪽의 코드 스니펫을 표시하게 되었습니다. [[Feature #21543]]
+    * `ArgumentError`가 발생했을 때 메서드 호출 측(caller)과 메서드 정의 측(callee) 양쪽의 코드 스니펫을 표시합니다. [[Feature #21543]]
 
       ```
       test.rb:1:in 'Object#add': wrong number of arguments (given 1, expected 2) (ArgumentError)
@@ -126,31 +126,31 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 
 * Fiber
 
-    * `Kernel#raise`와 마찬가지로 `Fiber#raise(cause:)` 인수를 지원했습니다. [[Feature #21360]]
+    * `Kernel#raise`와 유사한 `Fiber#raise(cause:)` 인자 지원이 도입되었습니다. [[Feature #21360]]
 
 * Fiber::Scheduler
 
-    * 지정한 예외로 파이버를 중단하는 `Fiber::Scheduler#fiber_interrupt`를 추가했습니다. 초기 용도는 IO 작업이 닫혔을 때 블로킹 IO를 기다리는 파이버를 중단하는 것입니다. [[Feature #21166]]
+    * 주어진 예외로 fiber를 인터럽트하기 위한 `Fiber::Scheduler#fiber_interrupt`가 도입되었습니다. 초기 사용 사례는 IO 작업이 닫힐 때 블로킹 IO 작업을 기다리는 fiber를 인터럽트하는 것입니다. [[Feature #21166]]
 
-    * 시그널 예외가 무효일 때도 스케줄러가 처리를 계속할 수 있도록 `Fiber::Scheduler#yield`를 추가했습니다. [[Bug #21633]]
+    * 시그널 예외가 무효일 때도 스케줄러가 처리를 계속할 수 있도록 `Fiber::Scheduler#yield`가 추가되었습니다. [[Bug #21633]]
 
-    * 비동기 `IO#close`용 `Fiber::Scheduler#io_close` 훅을 재도입했습니다.
+    * 비동기 `IO#close`용 `Fiber::Scheduler#io_close` 훅이 재도입되었습니다.
 
-    * IO 쓰기 버퍼를 flush할 때 `Fiber::Scheduler#io_write`를 호출하게 되었습니다. [[Bug #21789]]
+    * IO 쓰기 버퍼를 flush할 때 `Fiber::Scheduler#io_write`를 호출합니다. [[Bug #21789]]
 
 * File
 
-    * 커널과 파일 시스템이 지원하면 statx 시스템 콜을 통해 Linux에서도 `File::Stat#birthtime`을 사용할 수 있게 되었습니다. [[Feature #21205]]
+    * 커널과 파일 시스템에서 지원하는 경우, `File::Stat#birthtime`이 statx 시스템 콜을 통해 Linux에서 사용 가능합니다. [[Feature #21205]]
 
 * IO
 
-    * `IO.select`가 타임아웃 인수로 `Float::INFINITY`를 받을 수 있게 되었습니다. [[Feature #20610]]
+    * `IO.select`는 타임아웃 인자로 `Float::INFINITY`를 허용합니다. [[Feature #20610]]
 
-    * `|`로 시작하는 `IO` 클래스 메서드에 의한 프로세스 생성이라는 비권장 동작을 삭제했습니다. [[Feature #19630]]
+    * 폐기 예정이었던, 선행 `|`를 사용한 `IO` 클래스 메서드의 프로세스 생성 기능이 제거되었습니다. [[Feature #19630]]
 
 * Kernel
 
-    * `Kernel#inspect`는 `#instance_variables_to_inspect` 메서드의 유무를 확인하여 `#inspect` 문자열에 표시할 인스턴스 변수를 제어할 수 있게 되었습니다.
+    * `Kernel#inspect`는 이제 `#instance_variables_to_inspect` 메서드의 존재 여부를 확인하여, `#inspect` 문자열에 표시되는 인스턴스 변수를 제어할 수 있습니다.
 
         ```ruby
         class DatabaseConfig
@@ -169,23 +169,23 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 
         [[Feature #21219]]
 
-    * `|`로 시작하는 `Kernel#open`에 의한 프로세스 생성이라는 비권장 동작을 삭제했습니다. [[Feature #19630]]
+    * 폐기 예정이었던, 선행 `|`를 사용한 `Kernel#open`의 프로세스 생성 기능이 제거되었습니다. [[Feature #19630]]
 
 * Math
 
-    * `Math.log1p`와 `Math.expm1`을 추가했습니다. [[Feature #21527]]
+    * `Math.log1p`와 `Math.expm1`이 추가되었습니다. [[Feature #21527]]
 
 * Pathname
 
-    * Pathname은 default gem에서 Ruby의 코어 클래스로 승격되었습니다. [[Feature #17473]]
+    * Pathname이 기본 gem에서 Ruby의 코어 클래스로 승격되었습니다. [[Feature #17473]]
 
 * Proc
 
-    * `Proc#parameters`는 익명 옵션 인수를 `[:opt, nil]`이 아닌 `[:opt]`로 표시하게 되어 필수 익명 인수의 경우와 일치하게 되었습니다. [[Bug #20974]]
+    * `Proc#parameters`는 이제 선택적 익명 매개변수를 `[:opt, nil]` 대신 `[:opt]`로 표시하여, 익명 매개변수가 필수인 경우와 일관된 출력을 제공합니다. [[Bug #20974]]
 
 * Ractor
 
-    * Ractor 간 통신을 위한 새로운 동기화 메커니즘으로 `Ractor::Port` 클래스를 추가했습니다. [[Feature #21262]]
+    * Ractor 간 통신을 위한 새로운 동기화 메커니즘으로 `Ractor::Port` 클래스가 추가되었습니다. [[Feature #21262]]
 
         ```ruby
         port1 = Ractor::Port.new
@@ -207,66 +207,66 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
         * `Ractor::Port#close`
         * `Ractor::Port#closed?`
 
-        이 결과 `Ractor.yield`와 `Ractor#take`는 삭제되었습니다.
+        그 결과, `Ractor.yield`와 `Ractor#take`가 제거되었습니다.
 
-    * Ractor의 종료를 기다리기 위해 `Ractor#join`과 `Ractor#value`를 추가했습니다. `Thread#join`, `Thread#value`에 해당합니다.
+    * Ractor의 종료를 기다리기 위해 `Ractor#join`과 `Ractor#value`가 추가되었습니다. 이들은 `Thread#join` 및 `Thread#value`와 유사합니다.
 
-    * `Ractor#join`을 구현하기 위해 내부에서 사용되는 저수준 인터페이스로 `Ractor#monitor`와 `Ractor#unmonitor`를 추가했습니다.
+    * `Ractor#join`을 내부적으로 구현하는 데 사용되는 저수준 인터페이스로 `Ractor#monitor`와 `Ractor#unmonitor`가 추가되었습니다.
 
-    * `Ractor.select`는 Ractor와 Port만 받도록 변경되었습니다. Ractor가 주어진 경우 해당 Ractor가 종료되면 반환합니다.
+    * `Ractor.select`는 이제 Ractor와 Port만 받습니다. Ractor가 주어지면, Ractor가 종료될 때 반환됩니다.
 
-    * 각 `Ractor`는 기본 포트를 가지며, `Ractor.send`, `Ractor.receive`에서 사용되게 되었습니다(`Ractor#default_port` 추가).
+    * `Ractor#default_port`가 추가되었습니다. 각 `Ractor`는 `Ractor.send`, `Ractor.receive`에서 사용하는 기본 포트를 가집니다.
 
-    * `Ractor#close_incoming`과 `Ractor#close_outgoing`은 삭제되었습니다.
+    * `Ractor#close_incoming`과 `Ractor#close_outgoing`이 제거되었습니다.
 
-    * 공유 가능한 Proc / lambda를 만들기 위해 `Ractor.shareable_proc`과 `Ractor.shareable_lambda`를 추가했습니다. [[Feature #21550]] [[Feature #21557]]
+    * 공유 가능한 Proc 또는 lambda를 만들기 위해 `Ractor.shareable_proc`과 `Ractor.shareable_lambda`가 도입되었습니다. [[Feature #21550]] [[Feature #21557]]
 
 * Range
 
-    * `Range#to_set`은 크기 검사를 수행하게 되어 끝점이 없는 범위에서의 문제를 방지합니다. [[Bug #21654]]
+    * `Range#to_set`과 `Enumerator#to_set`은 이제 끝이 없는 범위 문제를 방지하기 위해 크기 검사를 수행합니다. [[Bug #21654]]
 
-    * `Range#overlap?`은 무한(비경계) 범위를 올바르게 처리하게 되었습니다. [[Bug #21185]]
+    * `Range#overlap?`은 이제 무한한(경계가 없는) 범위를 올바르게 처리합니다. [[Bug #21185]]
 
-    * 시작점이 없는 정수 범위에서 `Range#max`의 동작을 수정했습니다. [[Bug #21174]] [[Bug #21175]]
+    * 시작이 없는 정수 범위에서 `Range#max` 동작이 수정되었습니다. [[Bug #21174]] [[Bug #21175]]
 
 * Ruby
 
-    * Ruby에 관한 상수를 포함하는 새로운 최상위 모듈 `Ruby`를 정의했습니다. 이 모듈은 Ruby 3.4에서 예약되었으며, 이번에 정식으로 정의되었습니다. [[Feature #20884]]
+    * Ruby 관련 상수를 포함하는 새로운 최상위 모듈 `Ruby`가 정의되었습니다. 이 모듈은 Ruby 3.4에서 예약되었으며 이제 공식적으로 정의되었습니다. [[Feature #20884]]
 
 * Ruby::Box
 
-    * 정의의 분리를 제공하는 새로운(실험적) 기능입니다. 자세한 내용은 [doc/language/box.md](doc/language/box.md)를 참조하세요. [[Feature #21311]] [[Misc #21385]]
+    * 정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다. "Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md)를 참조하세요. [[Feature #21311]] [[Misc #21385]]
 
 * Set
 
-    * `Set`은 자동 로드되는 stdlib 클래스에서 코어 클래스가 되었습니다. [[Feature #21216]]
+    * `Set`은 이제 코어 클래스이며, 더 이상 자동 로드되는 표준 라이브러리 클래스가 아닙니다. [[Feature #21216]]
 
-    * `Set#inspect`는 배열 리터럴 스타일의 간결한 표시가 되었습니다(예: `#<Set: {1, 2, 3}>`이 아닌 `Set[1, 2, 3]`). [[Feature #21389]]
+    * `Set#inspect`은 이제 `Set[]` 구문을 사용하여 `eval`에 적합한 문자열을 반환합니다 (예: `#<Set: {1, 2, 3}>` 대신 `Set[1, 2, 3]`). 이는 Array, Hash와 같은 다른 코어 컬렉션 클래스와 일관성을 유지합니다. [[Feature #21389]]
 
-    * `Set#to_set`과 `Enumerable#to_set`에 인수 지정은 비권장이 되었습니다. [[Feature #21390]]
+    * `Set#to_set`과 `Enumerable#to_set`에 인자를 전달하는 것은 폐기 예정 상태가 되었습니다. [[Feature #21390]]
 
 * Socket
 
-    * `Socket.tcp`와 `TCPSocket.new`가 초기 연결 타임아웃을 지정하는 키워드 인수 `open_timeout`을 받을 수 있게 되었습니다. [[Feature #21347]]
+    * `Socket.tcp`와 `TCPSocket.new`는 초기 연결에 대한 타임아웃을 지정하기 위해 `open_timeout` 키워드 인자를 허용합니다. [[Feature #21347]]
     * `TCPSocket.new`에서 사용자 지정 타임아웃이 발생한 경우, 상황에 따라 `Errno::ETIMEDOUT` 또는 `IO::TimeoutError`가 발생할 수 있었지만, 이제는 일관되게 `IO::TimeoutError`를 발생시킵니다(단, `Socket.tcp`에서는 유사한 상황에서 `Errno::ETIMEDOUT`이 될 수 있으며, OS 레벨의 타임아웃에서는 어느 경우든 `Errno::ETIMEDOUT`이 발생할 수 있습니다).
 
 * String
 
-    * Unicode를 Version 17.0.0, Emoji를 Version 17.0으로 업데이트했습니다(Regexp에도 적용). [[Feature #19908]][[Feature #20724]][[Feature #21275]]
+    * 유니코드 17.0.0 및 이모지 버전 17.0으로 업데이트합니다. [[Feature #19908]][[Feature #20724]][[Feature #21275]] (Regexp에도 적용됩니다)
 
-    * `String#strip`, `strip!`, `lstrip`, `lstrip!`, `rstrip`, `rstrip!`이 `*selectors` 인수를 받을 수 있게 되었습니다. [[Feature #21552]]
+    * `String#strip`, `strip!`, `lstrip`, `lstrip!`, `rstrip`, `rstrip!`이 `*selectors` 인자를 허용하도록 확장되었습니다. [[Feature #21552]]
 
 * Thread
 
-    * `Kernel#raise`와 마찬가지로 `Thread#raise(cause:)` 인수를 지원했습니다. [[Feature #21360]]
+    * `Kernel#raise`와 유사한 `Thread#raise(cause:)` 인자 지원이 도입되었습니다. [[Feature #21360]]
 
-## Stdlib 업데이트
+## Stdlib 변경
 
-여기서는 주목할 만한 기능 변경만 기재합니다.
+주목할 만한 기능 변경인 표준 라이브러리 변경만을 나열합니다.
 
-기타 변경 사항은 아래 섹션에 기재하고 있습니다. 또한 이전 번들 버전(Ruby 3.4.0)으로부터의 GitHub 릴리스 이력이 있는 경우 그것도 기재하고 있습니다.
+다른 변경 사항은 아래 섹션에 나열되어 있습니다. Ruby 3.4.0 이후 번들된 버전의 릴리스 히스토리가 GitHub 릴리스에 있는 경우 함께 나열했습니다.
 
-다음 bundled gem이 default gem에서 승격되었습니다.
+다음 번들 gem이 기본 gem에서 승격되었습니다.
 
 * ostruct 0.6.3
   * 0.6.1 to [v0.6.2][ostruct-v0.6.2], [v0.6.3][ostruct-v0.6.3]
@@ -288,11 +288,11 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 * fiddle 1.1.8
   * 1.1.6 to [v1.1.7][fiddle-v1.1.7], [v1.1.8][fiddle-v1.1.8]
 
-다음 default gem을 추가했습니다.
+다음 기본 gem이 추가되었습니다.
 
 * win32-registry 0.1.2
 
-다음 default gem을 업데이트했습니다.
+다음 기본 gem이 업데이트되었습니다.
 
 * RubyGems 4.0.3
 * bundler 4.0.3
@@ -351,7 +351,7 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 * zlib 3.2.2
   * 3.2.1 to [v3.2.2][zlib-v3.2.2]
 
-다음 bundled gem을 업데이트했습니다.
+다음 번들 gem이 업데이트되었습니다.
 
 * minitest 6.0.0
 * power_assert 3.0.1
@@ -405,11 +405,11 @@ RubyGems와 Bundler는 Version 4가 동봉되어 있습니다. 자세한 내용�
 
 * Windows
 
-    * _MSC_VER 1900보다 오래된 MSVC를 지원 대상에서 제외했습니다. 즉, Visual Studio 2015 이상이 필수가 됩니다.
+    * 14.0보다 오래된 MSVC 버전(_MSC_VER 1900) 지원이 중단되었습니다. 이는 Visual Studio 2015 이상이 필요함을 의미합니다.
 
-## 호환성 관련 주의사항
+## 호환성 문제
 
-* `Ractor::Port` 추가에 따라 Ractor에서 다음 메서드를 삭제했습니다.
+* `Ractor::Port` 추가로 인해 다음 메서드가 Ractor에서 제거되었습니다.
 
     * `Ractor.yield`
     * `Ractor#take`
@@ -418,15 +418,15 @@ RubyGems와 Bundler는 Version 4가 동봉되어 있습니다. 자세한 내용�
 
     [[Feature #21262]]
 
-* `ObjectSpace._id2ref`는 비권장이 되었습니다. [[Feature #15408]]
+* `ObjectSpace._id2ref`가 폐기 예정 상태가 되었습니다. [[Feature #15408]]
 
-* `Process::Status#&`와 `Process::Status#>>`를 삭제했습니다(Ruby 3.3에서 비권장). [[Bug #19868]]
+* `Process::Status#&`와 `Process::Status#>>`가 제거되었습니다. Ruby 3.3에서 폐기 예정 상태가 되었습니다. [[Bug #19868]]
 
-* `$SAFE`의 경로 체크(Ruby 2.7에서 삭제)에 사용되었고, 이미 비권장이었던 `rb_path_check`를 삭제했습니다. [[Feature #20971]]
+* `rb_path_check`가 제거되었습니다. 이 함수는 Ruby 2.7에서 제거된 `$SAFE` 경로 검사에 사용되었었으며, 이미 폐기 예정이었습니다. [[Feature #20971]]
 
-* "wrong number of arguments"의 `ArgumentError` 백트레이스에 수신자의 클래스/모듈명이 포함되게 되었습니다(예: `bar`가 아닌 `Foo#bar`). [[Bug #21698]]
+* "wrong number of arguments"의 `ArgumentError` 백트레이스에 수신자의 클래스/모듈명이 포함됩니다(예: `bar`가 아닌 `Foo#bar`). [[Bug #21698]]
 
-* 백트레이스에 `internal` 프레임이 표시되지 않게 되었습니다. C 구현 메서드도 다른 C 구현과 마찬가지로 Ruby 소스 파일 상에 있는 것처럼 표시됩니다. [[Bug #20968]]
+* 백트레이스에 `internal` 프레임이 표시되지 않습니다. C 구현 메서드도 다른 C 구현과 마찬가지로 Ruby 소스 파일 상에 있는 것처럼 표시됩니다. [[Bug #20968]]
 
   변경 전:
   ```
@@ -445,39 +445,38 @@ RubyGems와 Bundler는 Version 4가 동봉되어 있습니다. 자세한 내용�
           from -e:1:in '<main>'
   ```
 
-## Stdlib 호환성 주의사항
+## 표준 라이브러리 호환성 문제
 
-* CGI 라이브러리는 default gem에서 제외되었습니다. 현재는 다음 메서드를 위해 `cgi/escape`만 제공합니다.
+* CGI 라이브러리가 기본 gem에서 제거되었습니다. 이제 다음 메서드를 위한 `cgi/escape`만 제공합니다.
 
-    * `CGI.escape` / `CGI.unescape`
-    * `CGI.escapeHTML` / `CGI.unescapeHTML`
-    * `CGI.escapeURIComponent` / `CGI.unescapeURIComponent`
-    * `CGI.escapeElement` / `CGI.unescapeElement`
+    * `CGI.escape`와 `CGI.unescape`
+    * `CGI.escapeHTML`과 `CGI.unescapeHTML`
+    * `CGI.escapeURIComponent`와 `CGI.unescapeURIComponent`
+    * `CGI.escapeElement`와 `CGI.unescapeElement`
 
     [[Feature #21258]]
 
-* `Set`이 stdlib에서 코어 클래스로 이동했기 때문에 `set/sorted_set.rb`를 삭제했고, `SortedSet`은 자동 로드되는 상수가 아니게 되었습니다. 사용하려면 `sorted_set` gem을 설치하고 `require 'sorted_set'`을 해야 합니다. [[Feature #21287]]
+* `Set`이 표준 라이브러리에서 코어 클래스로 이동함에 따라, `set/sorted_set.rb`가 제거되었고, `SortedSet`은 더 이상 자동 로드되는 상수가 아닙니다. `SortedSet`을 사용하려면 `sorted_set` gem을 설치하고 `require 'sorted_set'`을 통해 이용해주세요. [[Feature #21287]]
 
 
 
 * Net::HTTP
 
-    * 본문(body)을 가진 요청(예: POST, PUT)에서 Content-Type 헤더가 명시적으로 설정되지 않은 경우 기본적으로 application/x-www-form-urlencoded를 자동 설정하는 동작이 삭제되었습니다. 만약 애플리케이션이 이 자동 설정에 의존하고 있었다면, 이제는 Content-Type 헤더 없이 요청이 전송되며, 특정 서버와의 호환성이 손실될 수 있습니다.
-[[GH-net-http #205]]
+    * 본문(body)을 가진 요청(예: POST, PUT)에서 Content-Type 헤더가 명시적으로 설정되지 않은 경우 기본적으로 application/x-www-form-urlencoded를 자동 설정하는 동작이 제거되었습니다. 애플리케이션이 이 자동 설정에 의존하고 있었다면, 이제 Content-Type 헤더 없이 요청이 전송되며 특정 서버와의 호환성이 손실될 수 있습니다. [[GH-net-http #205]]
 
-## C API 업데이트
+## C API 변경
 
 * IO
 
-    * `rb_thread_fd_close`는 비권장이 되었으며, 아무것도 하지 않게 되었습니다. C 확장에서 파일 디스크립터를 Ruby 코드에 노출해야 하는 경우 `RUBY_IO_MODE_EXTERNAL`을 사용하여 `IO` 인스턴스를 생성하고, `rb_io_close(io)`로 닫아야 합니다(이렇게 하면 해당 IO의 모든 보류 중인 작업이 중단되고 완료를 기다립니다). 디스크립터를 직접 닫으면 보류 중인 작업이 중단되지 않으며, 미정의 동작이 발생할 수 있습니다. 즉, 동일한 파일 디스크립터를 공유하는 두 개의 `IO` 객체 중 하나를 닫아도 다른 하나에는 영향을 주지 않습니다. [[Feature #18455]]
+    * `rb_thread_fd_close`는 폐기 예정 상태가 되었으며 이제 아무 작업도 하지 않습니다. C 확장에서 Ruby 코드로 파일 디스크립터를 노출해야 하는 경우, `RUBY_IO_MODE_EXTERNAL`을 사용하여 `IO` 인스턴스를 만들고 `rb_io_close(io)`를 사용하여 닫으세요(이렇게 하면 `IO` 인스턴스의 모든 대기 중인 작업도 인터럽트하고 대기합니다). 파일 디스크립터를 직접 닫으면 대기 중인 작업을 인터럽트하지 않으며, 정의되지 않은 동작이 발생할 수 있습니다. 다시 말해, 두 개의 `IO` 객체가 같은 파일 디스크립터를 공유하는 경우, 하나를 닫아도 다른 하나에는 영향을 미치지 않습니다. [[Feature #18455]]
 
 * GVL
 
-    * `rb_thread_call_with_gvl`은 GVL의 유무와 관계없이 동작하게 되었습니다. 이로 인해 gem은 `ruby_thread_has_gvl_p`를 확인하지 않아도 되지만, GVL 처리에는 계속 주의해야 합니다. [[Feature #20750]]
+    * `rb_thread_call_with_gvl`은 이제 GVL 유무에 관계없이 작동합니다. 이를 통해 gem은 `ruby_thread_has_gvl_p` 확인을 피할 수 있습니다. 그래도 GVL에 대해서는 여전히 주의해주세요. [[Feature #20750]]
 
 * Set
 
-    * `Set`의 C API를 추가했습니다. 다음 메서드를 지원합니다. [[Feature #21459]]
+    * `Set`에 대한 C API가 추가되었습니다. 다음 메서드가 지원됩니다. [[Feature #21459]]
 
         * `rb_set_foreach`
         * `rb_set_new`
@@ -490,55 +489,56 @@ RubyGems와 Bundler는 Version 4가 동봉되어 있습니다. 자세한 내용�
 
 ## 구현 개선
 
-* `Class#new`(예: `Object.new`)가 전반적으로 고속화되었으며, 특히 키워드 인수를 전달하는 경우에 효과적입니다. YJIT와 ZJIT에도 적용되었습니다. [[Feature #21254]]
-* 크기 풀이 다른 GC 힙을 독립적으로 성장시키도록 하여, 일부 풀에만 장수명 객체가 있는 경우의 메모리 사용량을 줄였습니다.
+* `Class#new`(예: `Object.new`)가 전반적으로 고속화되었으며, 특히 키워드 인수를 전달할 때 효과적입니다. YJIT와 ZJIT에도 적용됩니다. [[Feature #21254]]
+* 크기 풀이 다른 GC 힙을 독립적으로 성장시켜, 일부 풀에만 장수명 객체가 있는 경우 메모리 사용량을 줄입니다.
 * 큰 객체 페이지에서의 GC 스윕이 고속화되었습니다.
 * "Generic ivar" 객체(String, Array, `TypedData` 등)는 새로운 내부 "fields" 객체를 사용하여 인스턴스 변수 액세스를 고속화합니다.
-* GC는 내부 `id2ref` 테이블을 첫 사용 시까지 보유하지 않도록 하여 `object_id` 할당과 GC 스윕을 고속화했습니다.
+* GC는 내부 `id2ref` 테이블을 첫 사용 시까지 보유하지 않도록 하여 `object_id` 할당과 GC 스윕을 고속화합니다.
 * Class / Module 객체에서의 `object_id`와 `hash`가 고속화되었습니다.
 * 더 큰 다배정도 정수도 가변 폭 할당을 통해 임베디드 상태로 유지할 수 있게 되었습니다.
 * `Random`, `Enumerator::Product`, `Enumerator::Chain`, `Addrinfo`, `StringScanner` 및 일부 내부 객체가 쓰기 배리어로 보호되어 GC 오버헤드를 줄입니다.
 
 ### Ractor
 
-Ractor를 더욱 안정적이고 고성능이며 실용적으로 만들기 위해 많은 개선을 수행했습니다. 이를 통해 Ractor 구현은 실험적 상태를 벗어나는 단계에 가까워지고 있습니다.
+Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 위해 많은 작업이 진행되었습니다. 이러한 개선으로 Ractor 구현이 실험적 상태를 벗어나는 데 더 가까워졌습니다.
 
 * 성능 개선
-    * 동결된 문자열과 심볼 테이블이 내부적으로 락 프리 해시 셋을 사용합니다. [[Feature #21268]]
-    * 메서드 캐시 참조에서 많은 경우 락을 회피합니다.
-    * 클래스(및 generic ivar)의 인스턴스 변수 액세스가 고속화되어 락을 피합니다.
-    * Ractor별 카운터를 사용하여 객체 할당 시 CPU 캐시 경합을 회피합니다.
-    * 스레드 로컬 카운터를 사용하여 xmalloc/xfree에서 CPU 캐시 경합을 회피합니다.
-    * 많은 경우 `object_id` 취득 시 락을 회피합니다.
+    * 얼린 문자열과 심볼 테이블은 내부적으로 잠금 없는 해시 셋 사용 [[Feature #21268]]
+    * 메서드 캐시 조회는 대부분의 경우 잠금을 회피
+    * 클래스(및 geniv) 인스턴스 변수 접근이 더 빠르고 잠금을 회피
+    * Ractor별 카운터를 사용하여 객체 할당 중 CPU 캐시 경합을 회피
+    * 스레드 로컬 카운터를 사용하여 xmalloc/xfree에서 CPU 캐시 경합을 회피
+    * `object_id`는 대부분의 경우 잠금을 회피
 * 버그 수정 및 안정성
-    * Ractor와 Thread 병용 시 발생할 수 있는 데드락을 수정했습니다.
-    * Ractor 내에서의 require / autoload 문제를 수정했습니다.
-    * Ractor 간 인코딩/트랜스코드 문제를 수정했습니다.
-    * GC 작업과 메서드 무효화에 관한 경합을 수정했습니다.
-    * Ractor 시작 후 프로세스를 fork할 때의 문제를 수정했습니다.
-    * Ractor 환경에서 GC의 할당 카운트가 정확해졌습니다.
-    * GC 후 TracePoint가 동작하지 않는 문제를 수정했습니다. [[Bug #19112]]
+    * Ractor와 Thread를 결합할 때 발생할 수 있는 데드락 수정
+    * Ractor에서 require 및 autoload 관련 문제 수정
+    * Ractor 간 인코딩/트랜스코딩 문제 수정
+    * GC 작업 및 메서드 무효화의 경쟁 조건 수정
+    * Ractor 시작 후 프로세스 fork 관련 문제 수정
+    * Ractor 환경에서 GC의 할당 카운트가 정확해짐
+    * GC 후 TracePoint가 동작하지 않는 문제 수정 [[Bug #19112]]
 
 ## JIT
 
 * ZJIT
-    * [메서드 기반의 실험적 JIT 컴파일러](https://docs.ruby-lang.org/en/master/jit/zjit_md.html)를 도입했습니다. 사용 가능한 경우 ZJIT는 `--zjit` 옵션 또는 `RubyVM::ZJIT.enable`을 호출하여 런타임에 활성화할 수 있습니다.
-Ruby를 빌드하는 경우 ZJIT 지원을 포함하려면 Rust 1.85.0 이상이 필요합니다.
-    * Ruby 4.0.0 시점에서 ZJIT는 인터프리터보다 빠르지만, 아직 YJIT에는 미치지 못합니다. ZJIT 시험 사용을 권장하지만, 현시점에서는 프로덕션 사용을 권장하지 않습니다.
-    * 목표는 Ruby 4.1에서 ZJIT를 YJIT보다 빠르고 프로덕션 대응 가능하게 만드는 것입니다.
+    * [실험적 메서드 기반 JIT 컴파일러](https://docs.ruby-lang.org/en/master/jit/zjit_md.html)가 도입되었습니다. `--zjit` 지원을 활성화하려면 Rust 1.85.0 이상으로 Ruby를 빌드하세요.
+    * Ruby 4.0.0 기준, ZJIT는 인터프리터보다 빠르지만 아직 YJIT만큼 빠르지는 않습니다. ZJIT 실험을 권장하지만, 아직 프로덕션 배포는 권장하지 않습니다.
+    * Ruby 4.1에서 ZJIT를 YJIT보다 빠르게 만들고 프로덕션에 사용할 수 있게 만드는 것이 목표입니다.
 * YJIT
     * `RubyVM::YJIT.runtime_stats`
-        * 기본 빌드에서는 `ratio_in_yjit`를 사용할 수 없게 되었습니다. `configure`에서 `--enable-yjit=stats`를 지정하고, `--yjit-stats`로 활성화하세요.
-        * 모든 코드가 TracePoint에 의해 무효화된 횟수를 나타내는 `invalidate_everything`를 기본 통계에 추가했습니다.
-    * `RubyVM::YJIT.enable`에 `mem_size:`와 `call_threshold:` 옵션을 추가했습니다.
+        * `ratio_in_yjit`는 기본 빌드에서 더 이상 작동하지 않습니다. `--yjit-stats`에서 활성화하려면 `configure`에서 `--enable-yjit=stats`를 사용하세요.
+        * 기본 통계에 `invalidate_everything`이 추가되었습니다. TracePoint에 의해 모든 코드가 무효화될 때 증가합니다.
+    * `RubyVM::YJIT.enable`에 `mem_size:`와 `call_threshold:` 옵션이 추가되었습니다.
 * RJIT
-    * `--rjit`를 삭제했습니다. 서드파티 JIT API 구현은 [ruby/rjit](https://github.com/ruby/rjit) 리포지토리로 이동합니다.
+    * `--rjit`가 제거되었습니다. 서드파티 JIT API의 구현을 [ruby/rjit](https://github.com/ruby/rjit) 저장소로 이동할 예정입니다.
 
 
-더 자세한 정보는 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-나 [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})를 참조하세요.
+자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+또는 [커밋 로그](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})를
+참조하세요.
 
-이러한 변경으로 Ruby 3.4.0부터 [{{ release.stats.files_changed }}개의 파일이 변경되었고, {{ release.stats.insertions }}줄이 추가되었으며, {{ release.stats.deletions }}줄이 삭제되었습니다](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)!
+이러한 변경사항에 따라, Ruby 3.4.0 이후로 [파일 {{ release.stats.files_changed }}개 변경, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
 메리 크리스마스, 새해 복 많이 받으시고, Happy Hacking with Ruby 4.0!
 
@@ -565,9 +565,9 @@ Ruby를 빌드하는 경우 ZJIT 지원을 포함하려면 Rust 1.85.0 이상이
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Ruby란?
+## Ruby는
 
-Ruby는 마츠모토 유키히로(Matz)가 1993년에 개발을 시작했으며, 현재도 오픈소스 소프트웨어로 개발이 계속되고 있습니다. Ruby는 다양한 플랫폼에서 동작하며, 전 세계에서 특히 웹 애플리케이션 개발을 위해 사용되고 있습니다.
+Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고, 현재는 오픈 소스로 개발되고 있습니다. 여러 플랫폼에서 동작하며, 전 세계적으로 특히 웹 개발에 사용됩니다.
 
 [Feature #15408]: https://bugs.ruby-lang.org/issues/15408
 [Feature #17473]: https://bugs.ruby-lang.org/issues/17473
