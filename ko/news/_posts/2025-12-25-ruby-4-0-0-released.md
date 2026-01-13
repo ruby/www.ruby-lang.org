@@ -495,7 +495,7 @@ RubyGems와 Bundler는 Version 4가 동봉되어 있습니다. 자세한 내용�
 * "Generic ivar" 객체(String, Array, `TypedData` 등)는 새로운 내부 "fields" 객체를 사용하여 인스턴스 변수 액세스를 고속화합니다.
 * GC는 내부 `id2ref` 테이블을 첫 사용 시까지 보유하지 않도록 하여 `object_id` 할당과 GC 스윕을 고속화합니다.
 * Class / Module 객체에서의 `object_id`와 `hash`가 고속화되었습니다.
-* 더 큰 다배정도 정수도 가변 폭 할당을 통해 임베디드 상태로 유지할 수 있게 되었습니다.
+* 더 큰 Bignum 정수도 가변 폭 할당을 통해 임베디드 상태로 유지할 수 있게 되었습니다.
 * `Random`, `Enumerator::Product`, `Enumerator::Chain`, `Addrinfo`, `StringScanner` 및 일부 내부 객체가 쓰기 배리어로 보호되어 GC 오버헤드를 줄입니다.
 
 ### Ractor
