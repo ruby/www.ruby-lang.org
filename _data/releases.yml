@@ -21,6 +21,30 @@
 
 # 4.0 series
 
+- version: 4.0.1
+  date: 2026-01-13
+  post: /en/news/2026/01/13/ruby-4-0-1-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.1.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.1.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.1.tar.xz
+  size:
+    gz:  23807304
+    zip: 29107093
+    xz:  17892492
+  sha1:
+    gz:  01db5746bbb29b028bd44d505a147d06866b1ab2
+    zip: d3a9217c848b22636025c525971578557ba5f7a3
+    xz:  266e6fa80ed2b4f4bb7de2e98973dc084a1f380e
+  sha256:
+    gz:  3924be2d05db30f4e35f859bf028be85f4b7dd01714142fd823e4af5de2faf9d
+    zip: 36cbcea4972e201464ae1c6686a3a785b115aee9b836d9bbbe6d961dcef2358d
+    xz:  0531fe57dfdb56bf591620d2450642ea0e0964f3512a6ebee7dc9305de69395f
+  sha512:
+    gz:  f4eead09c7355b878a34343dd8cfb9c4c36f02ad3b9a7fd42981d722444beca0182ddea4fc771e2e01a05d9f14978a979ba0ba3590d366f53b6947f43fd78aff
+    zip: a8512d3f57254bfacfd4c68ee50bb7cad3168f4d9c3be51658378e5db589032745759c360d8711a060b2ed5b9b78855e498b54fcba869a4e60f03ed4aae68ea8
+    xz:  b67d9d1f97ba30200d103f8454e39dc2d0450819d51d91eb5451d44b0bafc56d2fa48bb1be6c5081babe5828f679984bad02b9bcee7441f6bd34c0a95b8f200b
+
 - version: 4.0.0
   date: 2025-12-25
   post: /en/news/2025/12/25/ruby-4-0-0-released/
