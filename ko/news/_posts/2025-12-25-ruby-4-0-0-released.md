@@ -136,7 +136,7 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 
     * 비동기 `IO#close`용 `Fiber::Scheduler#io_close` 훅이 재도입되었습니다.
 
-    * IO 쓰기 버퍼를 flush할 때 `Fiber::Scheduler#io_write`를 호출합니다. [[Bug #21789]]
+    * IO 쓰기 버퍼를 플러시할 때 `Fiber::Scheduler#io_write`를 호출합니다. [[Bug #21789]]
 
 * File
 
