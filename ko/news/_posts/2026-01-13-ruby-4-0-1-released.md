@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 4.0.1 Released"
+title: "Ruby 4.0.1 릴리스"
 author: k0kubun
-translator:
+translator: "shia"
 date: 2026-01-13 02:28:48 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 4.0.1 has been released.
+Ruby 4.0.1이 릴리스되었습니다.
 
-This release includes a bugfix for spurious wakeup from `Kernel#sleep` when subprocess exits in another thread,
-along with other bugfixes. Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.1) for further details.
+이번 릴리스에는 다른 스레드에서 서브 프로세스가 종료될 때 `Kernel#sleep`이 잘못 깨어나는 버그에 대한 수정과
+기타 버그 수정이 포함되어 있습니다. 자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v4.0.1)를 참조하세요.
 
-## Release Schedule
+## 릴리스 일정
 
-We intend to release the latest stable Ruby version (currently Ruby 4.0) every two months following the most recent release.
-Ruby 4.0.2 will be released in March, 4.0.3 in May, 4.0.4 in July, 4.0.5 in September, and 4.0.6 in November.
+Ruby의 최신 안정 버전(현재 Ruby 4.0)을 최신 릴리스 이후 2개월마다 릴리스할 계획입니다.
+Ruby 4.0.2는 3월에, 4.0.3은 5월에, 4.0.4는 7월에, 4.0.5는 9월에, 4.0.6은 11월에 릴리스될 예정입니다.
 
-If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
+만약 많은 사용자에게 영향을 미치는 변경 사항이 있을 경우, 해당 버전은 예상보다 빨리 릴리스될 수 있고, 이후 일정도 그에 따라 조정될 수 있습니다.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "4.0.1" | first %}
 
@@ -44,7 +44,7 @@ If a change arises that significantly affects users, a release may occur earlier
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
