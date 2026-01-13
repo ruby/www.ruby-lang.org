@@ -235,7 +235,7 @@ Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험
 
 * Ruby::Box
 
-    * 정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다. "Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md)를 참조하세요. [[Feature #21311]] [[Misc #21385]]
+    * 정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다. "Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](doc/language/box.md)를 참조하세요. [[Feature #21311]] [[Misc #21385]]
 
 * Set
 
