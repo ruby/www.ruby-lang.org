@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 4.0.0 Released"
+title: "Ruby 4.0.0 發布"
 author: "naruse"
 translator: "Bear Su"
 date: 2025-12-25 00:00:00 +0000
