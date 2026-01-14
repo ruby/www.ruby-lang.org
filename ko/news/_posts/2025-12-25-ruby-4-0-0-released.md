@@ -1,65 +1,54 @@
 ---
 layout: news_post
-title: "Ruby 4.0.0 發布"
+title: "Ruby 4.0.0 릴리스"
 author: "naruse"
-translator: "Bear Su"
+translator: "Kim Dongjin"
 date: 2025-12-25 00:00:00 +0000
-lang: zh_tw
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "4.0.0" | first %}
-我們很高興宣布 Ruby {{ release.version }} 發布了。
-Ruby 4.0 導入了 Ruby::Box 和 "ZJIT"，以及許多改進功能。
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
+Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니다.
 
 ## Ruby Box
 
-Ruby Box 是一項用來提供定義區隔的(實驗性質)新功能。
-可以透過設定環境變數 `RUBY_BOX=1` 啟用 Ruby Box。類別是 `Ruby::Box`。
+정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다. Ruby Box는 환경 변수로 `RUBY_BOX=1`을 지정하여 활성화할 수 있습니다. 클래스 이름은 `Ruby::Box`입니다.
 
-在 Ruby Box 中載入的定義是互相隔離的。
-Ruby Box 可以將從其他 boxes 載入的 monkey patches、全域/類別變數、類別/模組定義、和載入的原生/Ruby 函式庫做隔離。
+Box 내에서 로드된 정의는 해당 Box 내에 격리된 상태가 됩니다. Ruby Box가 격리할 수 있는 정의로는 기존 클래스에 대한 몽키 패치, 전역 변수나 클래스 변수 조작, 클래스나 모듈 정의, 그리고 .rb 파일이나 확장 라이브러리로 구현된 라이브러리들이 있습니다.
 
-預期的使用場景有：
+Ruby Box의 주요 유스케이스로는 다음과 같은 것들이 예상됩니다:
 
-* Run test cases in box to protect other tests when the test case uses monkey patches to override something
-* 當測試案例使用 monkey patches 覆蓋時，在 box 環境中執行測試案例可以保護其他測試。
-* 在 Ruby 進程中平行執行 Web 應用伺服器 boxes，以在應用程式伺服器上執行藍綠部署。
-* 執行 Web 應用伺服器 boxes 來用 Ruby 程式碼檢查回應差異，評估特定時間段內的依賴更新。
-* 作為基礎（底層）API，以實現某種「套件」（高層）API（尚未設計）。
+* 테스트를 위해 특정 동작을 덮어쓰는 몽키 패치가 필요한 테스트 케이스를 Box 내에서 격리하여 실행하는 것
+* 웹 애플리케이션을 Box 내에서 실행하여 Blue-Green 배포를 프로세스 내에서, 애플리케이션 서버 상에서 실행하는 것
+* 웹 애플리케이션을 Box 내에서 실행하여 의존성 업데이트 시 등에 일정 기간 병렬로 실행하고 Ruby 코드를 통해 응답 등을 검증하는 것
+* (아직 미설계인) "패키지 API"와 같은 새로운 고수준 API를 만들기 위한 저수준 API로서의 기능을 제공하는 것
 
-參見  [Ruby::Box](https://docs.ruby-lang.org/en/master/Ruby/Box.html) 以了解更多關於「Ruby Box」的細節。
+"Ruby Box"의 자세한 내용은 다음 문서를 참조하세요: [Ruby::Box](https://docs.ruby-lang.org/en/master/Ruby/Box.html).
 [[Feature #21311]] [[Misc #21385]]
 
 ## ZJIT
 
-ZJIT 是一個新型的即時 (JIT) 編譯器，它是作為 YJIT 的下一代產品而開發的。
-要建置支援 ZJIT 的 Ruby，您需要 Rust 1.85.0 或更高版本，指定 `--zjit` 參數啟用 ZJIT。
+ZJIT는 YJIT의 차세대로 개발된 새로운 just-in-time(JIT) 컴파일러입니다. ZJIT 지원을 포함하여 Ruby를 빌드하려면 Rust 1.85.0 이상이 필요하며, --zjit를 지정하면 ZJIT가 활성화됩니다.
 
-我們之所以為 Ruby 建立一個新的編譯器，是因為我們既想提高效能上限（更大的編譯單元大小和 SSA IR），並鼓勵更多外部貢獻（透過成為一個更傳統的編譯器）。
-參見 [我們的部落格文章](https://railsatscale.com/2025-12-24-launch-zjit/) 來了解更多。
+우리가 Ruby를 위한 새로운 컴파일러를 개발하는 이유는 성능 상한선을 높이고(더 큰 컴파일 단위 크기와 SSA IR을 도입), 더 일반적인 설계인 메서드 컴파일러로 만들어 외부의 기여를 촉진하고 싶기 때문입니다. 자세한 내용은 [블로그 게시물](https://railsatscale.com/2025-12-24-launch-zjit/)을 참조하세요.
+<!-- 이 블로그 게시물은 2025-12-24 9:00am UTC에 자동 공개됩니다. -->
 
-ZJIT 比直譯器快，但還不如 YJIT 快。
-我們鼓勵您嘗試使用 ZJIT，但目前最好不要部署到生產環境中。
-敬請期待 Ruby 4.1 的 ZJIT 版本。
+ZJIT는 일반적인 Ruby 인터프리터보다 빠르지만, 아직 YJIT만큼 빠르지는 않습니다. ZJIT를 꼭 시도해 보시길 바라지만, 현시점에서는 프로덕션 환경 배포는 삼가는 것이 좋을 수 있습니다. Ruby 4.1의 ZJIT를 기대해 주세요.
 
-## Ractor 改進
+## Ractor 개선
 
-Ruby 的平行執行機制 Ractor 已經得到了多項改進。
-導入了一個新的類別 `Ractor::Port`，用於解決與訊息發送和接收相關的問題。 (參見 [我們的部落格文章](https://dev.to/ko1/ractorport-revamping-the-ractor-api-98))。
-此外，`Ractor.shareable proc` 讓在 Reactor 之間共用 `Proc` 物件變得更加容易。
+Ruby에서 쉽게 병렬 처리를 수행하기 위한 Ractor에 많은 개선이 있었습니다. 먼저 `Ractor::Port`라는 클래스를 추가하여 메시지 송수신에 대한 문제를 해결했습니다([블로그 게시물](https://product.st.inc/entry/2025/06/24/110606)). 또한 `Ractor.shareable_proc`을 통해 Proc을 Ractor 간에 공유하기 쉽게 만들었습니다.
 
-在效能方面，許多內部資料結構都得到了改進，顯著減少了對全域鎖定的競爭，從而提高了平行執行的效率。
-此外，Ractor 共用的內部資料也減少了，因此在平行執行時，CPU 快取競爭也相應降低。
+성능 측면에서는 많은 데이터 구조를 개선하여 글로벌 락에 대한 경합이 크게 감소하고 병렬 처리 성능이 향상되었습니다. 또한 Ractor 간에 공유하는 데이터를 줄임으로써 병렬 실행 시 CPU 캐시 충돌을 줄였습니다.
 
-Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明年取消其「實驗性」狀態。
+Ruby 3.0에서 실험적 기능으로 도입되었지만, 내년쯤에는 실험적 상태를 해제하고 싶습니다.
 
-## 語法變更
+## 언어 변경
 
-* `*nil` 不再呼叫 `nil.to_a`，就跟 `**nil` 不呼叫 `nil.to_hash` 一樣。[[Feature #21047]]
+* `**nil`이 `nil.to_hash`를 호출하지 않는 것과 마찬가지로, `*nil`은 더 이상 `nil.to_a`를 호출하지 않습니다. [[Feature #21047]]
 
-
-* 位於行首的邏輯二元運算子(`||`、`&&`、`and` 和 `or`)會延續前一行的內容，如同 fluent dot。
-  以下兩段程式碼是相同的效果：
+* 줄 시작 부분에 있는 논리 이항 연산자(`||`, `&&`, `and`, `or`)는 유연한 점(fluent dot)처럼 이전 줄을 이어갑니다. 다음 두 코드는 동일합니다.
 
     ```ruby
     if condition1
@@ -68,7 +57,7 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
     end
     ```
 
-    之前：
+    기존 작성법:
 
     ```ruby
     if condition1 && condition2
@@ -85,36 +74,30 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 
     [[Feature #20925]]
 
-## 核心類別更新
+## 코어 클래스 변경
 
-注意：我們只列出特別的類別更新。
+주의: 주목할 만한 클래스 변경만을 포함합니다.
 
 * Array
 
-    * 新增 `Array#rfind` 提供比 `array.reverse_each.find` 更有效率的替代方法。 [[Feature #21678]]
-    * 新增 `Array#find` 提供比 `Enumerable#find` 更有效率的 Override 方法。 [[Feature #21678]]
-
+    * `array.reverse_each.find`보다 효율적인 대안으로 `Array#rfind`가 추가되었습니다. [[Feature #21678]]
+    * `Enumerable#find`를 더 효율적으로 실행하는 `Array#find`가 추가되었습니다. [[Feature #21678]]
 * Binding
 
-    * `Binding#local_variables` 不再包含編號參數。
-      同時，`Binding#local_variable_get` 、 `Binding#local_variable_set` 和 `Binding#local_variable_defined?` 也不再處理編號參數。
-      [[Bug #21049]]
+    * `Binding#local_variables`는 더 이상 번호가 매겨진 매개변수를 포함하지 않습니다. 또한, `Binding#local_variable_get`과 `Binding#local_variable_set`은 번호가 매겨진 매개변수를 처리하지 않습니다. [[Bug #21049]]
 
-    * 新增`Binding#implicit_parameters`、`Binding#implicit_parameter_get`、和
-      `Binding#implicit_parameter_defined?` 存取編號參數和 `it` 參數。 [[Bug #21049]]
+    * 번호 매개변수 및 "it" 매개변수에 액세스하기 위해 `Binding#implicit_parameters`, `Binding#implicit_parameter_get`, `Binding#implicit_parameter_defined?`가 추가되었습니다. [[Bug #21049]]
 
 * Enumerator
 
-    * `Enumerator.produce` 現在接受一個可選的 `size` 關鍵字參數，用於指定列舉的大小。
-      參數可以是個整數、`Float::INFINITY`、可呼叫的對象(如 lambda)、或是 `nil` 表示未知大小。
-      未指定時，大小預設為 `Float::INFINITY`。
+    * `Enumerator.produce`는 이제 선택적 키워드 인자 `size`를 받습니다. 크기에는 정수, `Float::INFINITY`, 람다와 같은 호출 가능한 객체, 또는 알 수 없음을 나타내는 `nil`을 지정할 수 있습니다. 생략 시에는 `Float::INFINITY`입니다.
 
         ```ruby
-        # 無限列舉
+        # 무한 열거자
         enum = Enumerator.produce(1, size: Float::INFINITY, &:succ)
         enum.size  # => Float::INFINITY
 
-        # 指定了已知/可計算大小的有限列舉
+        # 크기가 알려진/계산 가능한 유한 열거자
         abs_dir = File.expand_path("./baz") # => "/foo/bar/baz"
         traverser = Enumerator.produce(abs_dir, size: -> { abs_dir.count("/") + 1 }) {
           raise StopIteration if it == "/"
@@ -127,8 +110,7 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 
 * ErrorHighlight
 
-    * 當拋出 ArgumentError 時，現在會顯示方法呼叫（呼叫者）和方法定義（被呼叫者）的程式碼片段。
-      [[Feature #21543]]
+    * `ArgumentError`가 발생했을 때 메서드 호출 측(caller)과 메서드 정의 측(callee) 양쪽의 코드 스니펫을 표시합니다. [[Feature #21543]]
 
       ```
       test.rb:1:in 'Object#add': wrong number of arguments (given 1, expected 2) (ArgumentError)
@@ -144,36 +126,31 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 
 * Fiber
 
-    * 導入了 `Fiber#raise(cause:)` 參數支援，與 `Kernel#raise` 的用法類似。 [[Feature #21360]]
+    * `Kernel#raise`와 유사한 `Fiber#raise(cause:)` 인자 지원이 도입되었습니다. [[Feature #21360]]
 
 * Fiber::Scheduler
 
-    * 導入了 `Fiber::Scheduler#fiber_interrupt`，可用於拋出特定的例外來中斷 fiber。
-      最初的使用案例是當 IO 操作關閉時，用來中斷正在等待該阻塞 IO 操作的 fiber。
-      [[Feature #21166]]
+    * 주어진 예외로 fiber를 인터럽트하기 위한 `Fiber::Scheduler#fiber_interrupt`가 도입되었습니다. 초기 사용 사례는 IO 작업이 닫힐 때 블로킹 IO 작업을 기다리는 fiber를 인터럽트하는 것입니다. [[Feature #21166]]
 
-    * 導入 `Fiber::Scheduler#yield`，允許 Fiber 調度器在訊號異常被停用時繼續處理。
-      [[Bug #21633]]
+    * 시그널 예외가 무효일 때도 스케줄러가 처리를 계속할 수 있도록 `Fiber::Scheduler#yield`가 추가되었습니다. [[Bug #21633]]
 
-    * 重新導入 `Fiber::Scheduler#io_close` hook，用於非同步 `IO#close`。
+    * 비동기 `IO#close`용 `Fiber::Scheduler#io_close` 훅이 재도입되었습니다.
 
-    * 當刷新 IO 寫入緩衝區時呼叫 `Fiber::Scheduler#io_write`。
-      [[Bug #21789]]
+    * IO 쓰기 버퍼를 플러시할 때 `Fiber::Scheduler#io_write`를 호출합니다. [[Bug #21789]]
 
 * File
 
-    * `File::Stat#birthtime` 現在可在核心與系統支援 statx 系統呼叫 的 Linux 上使用。 [[Feature #21205]]
+    * 커널과 파일 시스템에서 지원하는 경우, `File::Stat#birthtime`이 statx 시스템 콜을 통해 Linux에서 사용 가능합니다. [[Feature #21205]]
 
 * IO
 
-     * `IO.select` 允許 `Float::INFINITY` 作為逾時參數。
-      [[Feature #20610]]
+    * `IO.select`는 타임아웃 인자로 `Float::INFINITY`를 허용합니다. [[Feature #20610]]
 
-    * 移除被棄用的行為：透過 `IO` 並在開頭使用 `|` 符號來建立行程 [[Feature #19630]]
+    * 폐기 예정이었던, 선행 `|`를 사용한 `IO` 클래스 메서드의 프로세스 생성 기능이 제거되었습니다. [[Feature #19630]]
 
 * Kernel
 
-    * `Kernel#inspect` 現在會檢查是否存在 `#instance_variables_to_inspect` 方法，這讓開發者可以控制哪些實體變數(instance variables)可以顯示在 `#inspect` 的字串中：
+    * `Kernel#inspect`는 이제 `#instance_variables_to_inspect` 메서드의 존재 여부를 확인하여, `#inspect` 문자열에 표시되는 인스턴스 변수를 제어할 수 있습니다.
 
         ```ruby
         class DatabaseConfig
@@ -192,25 +169,23 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 
         [[Feature #21219]]
 
-    * 移除被棄用的行為：透過 `Kernel#open` 並在開頭使用 `|` 符號來建立 process。 [[Feature #19630]]
+    * 폐기 예정이었던, 선행 `|`를 사용한 `Kernel#open`의 프로세스 생성 기능이 제거되었습니다. [[Feature #19630]]
 
 * Math
 
-     * 新增 `Math.log1p` 和 `Math.expm1`。 [[Feature #21527]]
+    * `Math.log1p`와 `Math.expm1`이 추가되었습니다. [[Feature #21527]]
 
 * Pathname
 
-    * Pathname 已從預設 gem 升級為 Ruby 的核心類別。
-      [[Feature #17473]]
+    * Pathname이 기본 gem에서 Ruby의 코어 클래스로 승격되었습니다. [[Feature #17473]]
 
 * Proc
 
-    * `Proc#parameters` 現在會將匿名可選參數顯示為 `[:opt]` 而非 `[:opt, nil]`，使得其輸出與匿名參數為必要時的格式保持一致。 [[Bug #20974]]
-
+    * `Proc#parameters`는 이제 선택적 익명 매개변수를 `[:opt, nil]` 대신 `[:opt]`로 표시하여, 익명 매개변수가 필수인 경우와 일관된 출력을 제공합니다. [[Bug #20974]]
 
 * Ractor
 
-    * 新增了 `Ractor::Port` 類別，為 Ractor 之間的通訊提供了一種新的同步機制。 [[Feature #21262]]
+    * Ractor 간 통신을 위한 새로운 동기화 메커니즘으로 `Ractor::Port` 클래스가 추가되었습니다. [[Feature #21262]]
 
         ```ruby
         port1 = Ractor::Port.new
@@ -225,82 +200,73 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
         2.times{ p port2.receive } #=> 11, 12
         ```
 
-        `Ractor::Port` 提供以下方法：
+        `Ractor::Port`는 다음 메서드를 제공합니다.
 
         * `Ractor::Port#receive`
-        * `Ractor::Port#send` (or `Ractor::Port#<<`)
+        * `Ractor::Port#send`(또는 `Ractor::Port#<<`)
         * `Ractor::Port#close`
         * `Ractor::Port#closed?`
 
-        最後移除了 `Ractor.yield` 和 `Ractor#take`。
+        그 결과, `Ractor.yield`와 `Ractor#take`가 제거되었습니다.
 
-    * 新增了 `Ractor#join` 與 `Ractor#value` 用於等待 Ractor 終止。這些方法與 `Thread#join` 及 `Thread#value` 類似。
+    * Ractor의 종료를 기다리기 위해 `Ractor#join`과 `Ractor#value`가 추가되었습니다. 이들은 `Thread#join` 및 `Thread#value`와 유사합니다.
 
-    * 新增了 `Ractor#monitor` 與 `Ractor#unmonitor`，作為內部實作 `Ractor#join` 時所使用的低階介面。
+    * `Ractor#join`을 내부적으로 구현하는 데 사용되는 저수준 인터페이스로 `Ractor#monitor`와 `Ractor#unmonitor`가 추가되었습니다.
 
-    * `Ractor.select` 現在僅接受 Ractors 與 Ports。若傳入的是 Ractors，它會在該 Ractor 終止時回傳。
+    * `Ractor.select`는 이제 Ractor와 Port만 받습니다. Ractor가 주어지면, Ractor가 종료될 때 반환됩니다.
 
-    * 新增了 `Ractor#default_port`。每個 `Ractor` 都有一個預設埠，供 `Ractor.send` 與 `Ractor.receive` 使用。
+    * `Ractor#default_port`가 추가되었습니다. 각 `Ractor`는 `Ractor.send`, `Ractor.receive`에서 사용하는 기본 포트를 가집니다.
 
-    * 移除了 `Ractor#close_incoming` 與 `Ractor#close_outgoing`。
+    * `Ractor#close_incoming`과 `Ractor#close_outgoing`이 제거되었습니다.
 
-    * 導入了 `Ractor.shareable_proc` 與 `Ractor.shareable_lambda` 以建立共享的 Proc 或 lambda。 [[Feature #21550]], [[Feature #21557]]
+    * 공유 가능한 Proc 또는 lambda를 만들기 위해 `Ractor.shareable_proc`과 `Ractor.shareable_lambda`가 도입되었습니다. [[Feature #21550]] [[Feature #21557]]
 
 * Range
 
-    * `Range#to_set` 與 `Enumerator#to_set` 現在會進行大小檢查，以避免發生無窮範圍的問題。 [[Bug #21654]]
+    * `Range#to_set`과 `Enumerator#to_set`은 이제 끝이 없는 범위 문제를 방지하기 위해 크기 검사를 수행합니다. [[Bug #21654]]
 
-    * `Range#overlap?` 現在能正確處理無限（無邊界）範圍。 [[Bug #21185]]
+    * `Range#overlap?`은 이제 무한한(경계가 없는) 범위를 올바르게 처리합니다. [[Bug #21185]]
 
-    * 已修正 `Range#max` 對於無開頭整數範圍的行為。 [[Bug #21174]] [[Bug #21175]]。
-
+    * 시작이 없는 정수 범위에서 `Range#max` 동작이 수정되었습니다. [[Bug #21174]] [[Bug #21175]]
 
 * Ruby
 
-    * 定義了一個新的頂層模組 Ruby，其中包含與 Ruby 相關的常數。此模組在 Ruby 3.4 中已被預留，現在則是正式定義。 [[Feature #20884]]
+    * Ruby 관련 상수를 포함하는 새로운 최상위 모듈 `Ruby`가 정의되었습니다. 이 모듈은 Ruby 3.4에서 예약되었으며 이제 공식적으로 정의되었습니다. [[Feature #20884]]
 
 * Ruby::Box
 
-    * 這是一項用來提供定義區隔的(實驗性質)新功能。關於「Ruby Box」的詳細資訊，請參閱[doc/language/box.md](doc/language/box.md)。
-      [[Feature #21311]] [[Misc #21385]]
+    * 정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다. "Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](doc/language/box.md)를 참조하세요. [[Feature #21311]] [[Misc #21385]]
 
 * Set
 
-    * `Set` 現在是核心類別，而非自動載入的標準函式庫類別。
-      [[Feature #21216]]
+    * `Set`은 이제 코어 클래스이며, 더 이상 자동 로드되는 표준 라이브러리 클래스가 아닙니다. [[Feature #21216]]
 
-    * `Set#inspect` 現在回傳適合用於 `eval` 的字串，並使用 `Set[]` 語法（例如：使用 `Set[1, 2, 3]` 而非 `#<Set: {1, 2, 3}>`）。這讓它與 Array 和 Hash 等其他核心集合類別保持一致。 [[Feature #21389]]
+    * `Set#inspect`은 이제 `Set[]` 구문을 사용하여 `eval`에 적합한 문자열을 반환합니다 (예: `#<Set: {1, 2, 3}>` 대신 `Set[1, 2, 3]`). 이는 Array, Hash와 같은 다른 코어 컬렉션 클래스와 일관성을 유지합니다. [[Feature #21389]]
 
-    * 向 `Set#to_set` 與 `Enumerable#to_set` 傳遞參數的行為現在已被棄用。 [[Feature #21390]]
+    * `Set#to_set`과 `Enumerable#to_set`에 인자를 전달하는 것은 폐기 예정 상태가 되었습니다. [[Feature #21390]]
 
 * Socket
 
-    * `Socket.tcp` 與 `TCPSocket.new` 現在接受 `open_timeout` 關鍵字參數，可用於指定建立初始連線時的逾時時間。 [[Feature #21347]]
-
-    * 當使用者在 `TCPSocket.new` 中指定逾時時間時，在之前依據情況可能會引發 `Errno::ETIMEDOUT` 或 `IO::TimeoutError`。
-      該行為已改為一致，現在始終會拋出 `IO::TimeoutError` 錯誤。
-      （請注意，在 `Socket.tcp` 中，仍然存在類似情況下拋出 `Errno::ETIMEDOUT` 異常的可能，在這兩種情況下，`Errno::ETIMEDOUT` 異常都可能在作業系統層級發生逾時時拋出。 ）
+    * `Socket.tcp`와 `TCPSocket.new`는 초기 연결에 대한 타임아웃을 지정하기 위해 `open_timeout` 키워드 인자를 허용합니다. [[Feature #21347]]
+    * `TCPSocket.new`에서 사용자 지정 타임아웃이 발생한 경우, 상황에 따라 `Errno::ETIMEDOUT` 또는 `IO::TimeoutError`가 발생할 수 있었지만, 이제는 일관되게 `IO::TimeoutError`를 발생시킵니다(단, `Socket.tcp`에서는 유사한 상황에서 `Errno::ETIMEDOUT`이 될 수 있으며, OS 레벨의 타임아웃에서는 어느 경우든 `Errno::ETIMEDOUT`이 발생할 수 있습니다).
 
 * String
 
-    * 更新 Unicode 至版本 17.0.0 和 Emoji 版本 17.0。[[Feature #19908]][[Feature #20724]][[Feature #21275]]
-        (也套用到 Regexp)
+    * 유니코드 17.0.0 및 이모지 버전 17.0으로 업데이트합니다. [[Feature #19908]][[Feature #20724]][[Feature #21275]] (Regexp에도 적용됩니다)
 
-    * 已擴展 `String#strip`、`strip!`、`lstrip`、`lstrip!`、`rstrip` 和 `rstrip!`
-      接受 `*selectors` 參數。 [[Feature #21552]]
+    * `String#strip`, `strip!`, `lstrip`, `lstrip!`, `rstrip`, `rstrip!`이 `*selectors` 인자를 허용하도록 확장되었습니다. [[Feature #21552]]
 
 * Thread
 
-    * 導入了 `Thread#raise(cause:)` 參數支援，與 `Kernel#raise` 的用法類似。 [[Feature #21360]]
+    * `Kernel#raise`와 유사한 `Thread#raise(cause:)` 인자 지원이 도입되었습니다. [[Feature #21360]]
 
+## Stdlib 변경
 
-## 標準函式庫更新
+주목할 만한 기능 변경인 표준 라이브러리 변경만을 나열합니다.
 
-我們只列出特別的標準函式庫更新。
+다른 변경 사항은 아래 섹션에 나열되어 있습니다. Ruby 3.4.0 이후 번들된 버전의 릴리스 히스토리가 GitHub 릴리스에 있는 경우 함께 나열했습니다.
 
-若該項目在 GitHub 上有提供發布紀錄，我們也列出了從前一個隨附版本（即 Ruby 3.4.0）以來的發布歷史。
-
-以下預設 gem 變更為隨附 gem：
+다음 번들 gem이 기본 gem에서 승격되었습니다.
 
 * ostruct 0.6.3
   * 0.6.1 to [v0.6.2][ostruct-v0.6.2], [v0.6.3][ostruct-v0.6.3]
@@ -322,11 +288,11 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 * fiddle 1.1.8
   * 1.1.6 to [v1.1.7][fiddle-v1.1.7], [v1.1.8][fiddle-v1.1.8]
 
-新增了以下預設 gem。
+다음 기본 gem이 추가되었습니다.
 
 * win32-registry 0.1.2
 
-更新了以下預設 gem。
+다음 기본 gem이 업데이트되었습니다.
 
 * RubyGems 4.0.3
 * bundler 4.0.3
@@ -385,7 +351,7 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 * zlib 3.2.2
   * 3.2.1 to [v3.2.2][zlib-v3.2.2]
 
-更新了以下隨附 gem。
+다음 번들 gem이 업데이트되었습니다.
 
 * minitest 6.0.0
 * power_assert 3.0.1
@@ -424,9 +390,10 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
   * 3.3.2 to [v3.3.3][csv-v3.3.3], [v3.3.4][csv-v3.3.4], [v3.3.5][csv-v3.3.5]
 * repl_type_completor 0.1.12
 
-### RubyGems and Bundler
 
-Ruby 4.0 隨附 RubyGems 和 Bundler 4。詳情請參閱以下連結。
+### RubyGems와 Bundler
+
+RubyGems와 Bundler는 Version 4가 동봉되어 있습니다. 자세한 내용은 다음 링크를 참조하세요.
 
 * [Upgrading to RubyGems/Bundler 4 - RubyGems Blog](https://blog.rubygems.org/2025/12/03/upgrade-to-rubygems-bundler-4.html)
 * [4.0.0 Released - RubyGems Blog](https://blog.rubygems.org/2025/12/03/4.0.0-released.html)
@@ -434,15 +401,15 @@ Ruby 4.0 隨附 RubyGems 和 Bundler 4。詳情請參閱以下連結。
 * [4.0.2 Released - RubyGems Blog](https://blog.rubygems.org/2025/12/17/4.0.2-released.html)
 * [4.0.3 Released - RubyGems Blog](https://blog.rubygems.org/2025/12/23/4.0.3-released.html)
 
-## 支援的平台
+## 지원 플랫폼
 
 * Windows
 
-    * 停止支援低於 14.0 (_MSC_VER 1900) 的 MSVC 版本。這意味著現在需要使用 Visual Studio 2015 或更新版本。
+    * 14.0보다 오래된 MSVC 버전(_MSC_VER 1900) 지원이 중단되었습니다. 이는 Visual Studio 2015 이상이 필요함을 의미합니다.
 
-## 相容性問題
+## 호환성 문제
 
-* 由於新增了 `Ractor::Port`，下列方法已從 Ractor 中移除：
+* `Ractor::Port` 추가로 인해 다음 메서드가 Ractor에서 제거되었습니다.
 
     * `Ractor.yield`
     * `Ractor#take`
@@ -451,22 +418,17 @@ Ruby 4.0 隨附 RubyGems 和 Bundler 4。詳情請參閱以下連結。
 
     [[Feature #21262]]
 
-* `ObjectSpace._id2ref` 已被棄用。 [[Feature #15408]]
+* `ObjectSpace._id2ref`가 폐기 예정 상태가 되었습니다. [[Feature #15408]]
 
-* `Process::Status#&` 和 `Process::Status#>>` 已被移除。
-  它們在 Ruby 3.3. 被棄用。 [[Bug #19868]]
+* `Process::Status#&`와 `Process::Status#>>`가 제거되었습니다. Ruby 3.3에서 폐기 예정 상태가 되었습니다. [[Bug #19868]]
 
-* `rb_path_check` 已被移除。
-  此函數曾用在已於 Ruby 2.7 移除的 `$SAFE` 路徑檢查，且此函數先前就已被棄用。
-  [[Feature #20971]]
+* `rb_path_check`가 제거되었습니다. 이 함수는 Ruby 2.7에서 제거된 `$SAFE` 경로 검사에 사용되었었으며, 이미 폐기 예정이었습니다. [[Feature #20971]]
 
-* 現在對於「參數數量錯誤」的 `ArgumentError` 的 backtrace 會包含接收者的類別名稱或模組名稱（例如，在 `Foo#bar` 中，而不是在 `bar` 中）。
-  [[Bug #21698]]
+* "wrong number of arguments"의 `ArgumentError` 백트레이스에 수신자의 클래스/모듈명이 포함됩니다(예: `bar`가 아닌 `Foo#bar`). [[Bug #21698]]
 
-* Backtraces 不再顯示「內部」幀。這些方法現在看起來像是在 Ruby 原始檔中，與其他 C 語言實作的方法保持一致。
-  [[Bug #20968]]
+* 백트레이스에 `internal` 프레임이 표시되지 않습니다. C 구현 메서드도 다른 C 구현과 마찬가지로 Ruby 소스 파일 상에 있는 것처럼 표시됩니다. [[Bug #20968]]
 
-  之前：
+  변경 전:
   ```
   ruby -e '[1].fetch_values(42)'
   <internal:array>:211:in 'Array#fetch': index 42 outside of array bounds: -1...1 (IndexError)
@@ -476,53 +438,45 @@ Ruby 4.0 隨附 RubyGems 和 Bundler 4。詳情請參閱以下連結。
           from -e:1:in '<main>'
   ```
 
-  之後：
+  변경 후:
   ```
   $ ruby -e '[1].fetch_values(42)'
   -e:1:in 'Array#fetch_values': index 42 outside of array bounds: -1...1 (IndexError)
           from -e:1:in '<main>'
   ```
 
-## 標準函式庫相容問題
+## 표준 라이브러리 호환성 문제
 
-* CGI 函式庫已從預設 gem 中移除。現在僅針對以下方法提供 `cgi/escape`：
+* CGI 라이브러리가 기본 gem에서 제거되었습니다. 이제 다음 메서드를 위한 `cgi/escape`만 제공합니다.
 
-    * `CGI.escape` 和 `CGI.unescape`
-    * `CGI.escapeHTML` 和 `CGI.unescapeHTML`
-    * `CGI.escapeURIComponent` 和 `CGI.unescapeURIComponent`
-    * `CGI.escapeElement` 和 `CGI.unescapeElement`
+    * `CGI.escape`와 `CGI.unescape`
+    * `CGI.escapeHTML`과 `CGI.unescapeHTML`
+    * `CGI.escapeURIComponent`와 `CGI.unescapeURIComponent`
+    * `CGI.escapeElement`와 `CGI.unescapeElement`
 
     [[Feature #21258]]
 
-* 隨著 `Set` 從標準函式庫移至核心類別，`set/sorted_set.rb` 已被移除，且 `SortedSet` 不再是自動載入的常數。
-  若要使用 `SortedSet`，請安裝 `sorted_set` gem 並執行 `require 'sorted_set'`。
-  [[Feature #21287]]
+* `Set`이 표준 라이브러리에서 코어 클래스로 이동함에 따라, `set/sorted_set.rb`가 제거되었고, `SortedSet`은 더 이상 자동 로드되는 상수가 아닙니다. `SortedSet`을 사용하려면 `sorted_set` gem을 설치하고 `require 'sorted_set'`을 통해 이용해주세요. [[Feature #21287]]
+
 
 
 * Net::HTTP
 
-    * 對於帶有請求主體的請求（例如，`POST`、`PUT`），已移除如果未明確設定標頭，預設自動將 `Content-Type` 標頭設為 `application/x-www-form-urlencoded` 的行為。
-      如果您的應用程式依賴此自動預設值，則您的要求現在將不帶 Content-Type 標頭發送，這可能會破壞與某些伺服器的相容性。
-      [[GH-net-http #205]]
+    * 본문(body)을 가진 요청(예: POST, PUT)에서 Content-Type 헤더가 명시적으로 설정되지 않은 경우 기본적으로 application/x-www-form-urlencoded를 자동 설정하는 동작이 제거되었습니다. 애플리케이션이 이 자동 설정에 의존하고 있었다면, 이제 Content-Type 헤더 없이 요청이 전송되며 특정 서버와의 호환성이 손실될 수 있습니다. [[GH-net-http #205]]
 
-## C API 更新
+## C API 변경
 
 * IO
 
-    * `rb_thread_fd_close` 已被棄用，現在沒有作用。如果您需要從 C 擴充功能將檔案描述符提供給 Ruby 程式碼，請使用 `RUBY_IO_MODE_EXTERNAL` 建立一個 `IO` 實體，並使用 `rb_io_close(io)` 來關閉它（這同時會中斷並等待該 `IO` 實體上所有進行中的操作）。
-      直接關閉檔案描述符不會中斷進行中的操作，且可能導致未定義行為。
-      換句話說，如果兩個 `IO` 物件共享同一個檔案描述符，關閉其中一個並不會影響另一個。
-      [[Feature #18455]]
+    * `rb_thread_fd_close`는 폐기 예정 상태가 되었으며 이제 아무 작업도 하지 않습니다. C 확장에서 Ruby 코드로 파일 디스크립터를 노출해야 하는 경우, `RUBY_IO_MODE_EXTERNAL`을 사용하여 `IO` 인스턴스를 만들고 `rb_io_close(io)`를 사용하여 닫으세요(이렇게 하면 `IO` 인스턴스의 모든 대기 중인 작업도 인터럽트하고 대기합니다). 파일 디스크립터를 직접 닫으면 대기 중인 작업을 인터럽트하지 않으며, 정의되지 않은 동작이 발생할 수 있습니다. 다시 말해, 두 개의 `IO` 객체가 같은 파일 디스크립터를 공유하는 경우, 하나를 닫아도 다른 하나에는 영향을 미치지 않습니다. [[Feature #18455]]
 
 * GVL
 
-    * `rb_thread_call_with_gvl` 現在不論是否持有 GVL 均可運作。這讓 gems 可以不必再檢查 `ruby_thread_has_gvl_p`。
-      在使用 GVL 時仍請保持謹慎。 [[Feature #20750]]
+    * `rb_thread_call_with_gvl`은 이제 GVL 유무에 관계없이 작동합니다. 이를 통해 gem은 `ruby_thread_has_gvl_p` 확인을 피할 수 있습니다. 그래도 GVL에 대해서는 여전히 주의해주세요. [[Feature #20750]]
 
 * Set
 
-    * 已新增 `Set` 的 C API。支援以下方法：
-      [[Feature #21459]]
+    * `Set`에 대한 C API가 추가되었습니다. 다음 메서드가 지원됩니다. [[Feature #21459]]
 
         * `rb_set_foreach`
         * `rb_set_new`
@@ -533,65 +487,62 @@ Ruby 4.0 隨附 RubyGems 和 Bundler 4。詳情請參閱以下連結。
         * `rb_set_delete`
         * `rb_set_size`
 
-## 實作改進
+## 구현 개선
 
-* `Class#new`（例如 `Object.new`）在所有情況下都更快，尤其是在傳遞關鍵字參數時。此功能也已整合到 YJIT 和 ZJIT 中。 [[Feature #21254]]
-* 不同大小集區的 GC heaps 現在獨立增長，當只有部分集區包含長期存活的物件時，可以減少記憶體使用量。
-* 在包含大量物件的分頁上 GC 掃描速度更快。
-* 「Generic ivar」物件（String、Array、`TypedData` 等）現在使用新的內部「fields」對象，以加快實例變數的存取速度。
-* GC 避免在首次使用之前維護內部的 `id2ref` 表，從而加快了 `object_id` 的分配和 GC 掃描的速度。
-* `object_id` 和 `hash` 在類別與模組物件上更快。
-* 較大的大數整數可以使用可變寬度分配來保持嵌入狀態。
-* `Random`、`Enumerator::Product`、`Enumerator::Chain`、`Addrinfo`,
-  `StringScanner`、和一些內部物件現在也受到寫入屏障保護，這降低了 GC 的開銷。
+* `Class#new`(예: `Object.new`)가 전반적으로 고속화되었으며, 특히 키워드 인수를 전달할 때 효과적입니다. YJIT와 ZJIT에도 적용됩니다. [[Feature #21254]]
+* 크기 풀이 다른 GC 힙을 독립적으로 성장시켜, 일부 풀에만 장수명 객체가 있는 경우 메모리 사용량을 줄입니다.
+* 큰 객체 페이지에서의 GC 스윕이 고속화되었습니다.
+* "Generic ivar" 객체(String, Array, `TypedData` 등)는 새로운 내부 "fields" 객체를 사용하여 인스턴스 변수 액세스를 고속화합니다.
+* GC는 내부 `id2ref` 테이블을 첫 사용 시까지 보유하지 않도록 하여 `object_id` 할당과 GC 스윕을 고속화합니다.
+* Class / Module 객체에서의 `object_id`와 `hash`가 고속화되었습니다.
+* 더 큰 Bignum 정수도 가변 폭 할당을 통해 임베디드 상태로 유지할 수 있게 되었습니다.
+* `Random`, `Enumerator::Product`, `Enumerator::Chain`, `Addrinfo`, `StringScanner` 및 일부 내부 객체가 쓰기 배리어로 보호되어 GC 오버헤드를 줄입니다.
 
 ### Ractor
 
-投入了大量心力來提升 Ractor 的穩定性、效能與易用性。這些改進使得 Ractor 的實作更接近脫離實驗性質的狀態。
+Ractor를 더 안정적이고, 성능이 좋고, 사용하기 쉽게 만들기 위해 많은 작업이 진행되었습니다. 이러한 개선으로 Ractor 구현이 실험적 상태를 벗어나는 데 더 가까워졌습니다.
 
-* 效能提升
-    * 凍結字串與符號表在內部使用無鎖雜湊集合。 [[Feature #21268]]
-    * 方法快取查詢在多數情況下避免了鎖定。
-    * 類別（以及 eneric ivar）的實體變數存取速度更快，並避免了鎖定。
-    * 使用 per-ractor counter 在分配物件時避免 CPU 快取衝突。
-    * 使用 thread-local counter 在 in xmalloc/xfree 時避免 CPU 快取衝突。
-    * `object_id` 在多數情況下避免了鎖定。
-* 修復錯誤與可靠性
-    * 修正了同時使用 Ractor 與 Thread 時可能發生的死鎖。
-    * 修正了在 Ractor 中使用 require 與 autoload 的問題。
-    * 修正了跨 Ractor 的編碼與轉碼問題。
-    * 修正了垃圾回收操作與方法失效時的競爭條件。
-    * 修正了啟動 Ractor 後，行程進行複製時的問題。
-    * 現在在 Ractors 下垃圾收集器的分配計數是準確的。
-    * 修正了垃圾回收後 TracePoints 無法正常工作的問題。 [[Bug #19112]]
+* 성능 개선
+    * 얼린 문자열과 심볼 테이블은 내부적으로 잠금 없는 해시 셋 사용 [[Feature #21268]]
+    * 메서드 캐시 조회는 대부분의 경우 잠금을 회피
+    * 클래스(및 geniv) 인스턴스 변수 접근이 더 빠르고 잠금을 회피
+    * Ractor별 카운터를 사용하여 객체 할당 중 CPU 캐시 경합을 회피
+    * 스레드 로컬 카운터를 사용하여 xmalloc/xfree에서 CPU 캐시 경합을 회피
+    * `object_id`는 대부분의 경우 잠금을 회피
+* 버그 수정 및 안정성
+    * Ractor와 Thread를 결합할 때 발생할 수 있는 데드락 수정
+    * Ractor에서 require 및 autoload 관련 문제 수정
+    * Ractor 간 인코딩/트랜스코딩 문제 수정
+    * GC 작업 및 메서드 무효화의 경쟁 조건 수정
+    * Ractor 시작 후 프로세스 fork 관련 문제 수정
+    * Ractor 환경에서 GC의 할당 카운트가 정확해짐
+    * GC 후 TracePoint가 동작하지 않는 문제 수정 [[Bug #19112]]
 
 ## JIT
 
 * ZJIT
-    * 導入 [基於實驗性方法的 JIT 編譯器](https://docs.ruby-lang.org/en/master/jit/zjit_md.html)。
-       如果可用，在執行時使用 `--zjit` 選項或呼叫 `RubyVM::ZJIT.enable` 啟用 ZJIT，。
-      若要啟用 `--zjit` 支援，請使用 Rust 1.85.0 或更新版本來編譯 Ruby。
-    * 在 Ruby 4.0.0，ZJIT 的速度已超越直譯器，但尚未達到 YJIT 的水準。我們鼓勵大家嘗試 ZJIT，但目前建議不要將其部署於正式環境。
-    * 我們的目標是在 Ruby 4.1 中讓 ZJIT 的速度超越 YJIT，並達到可供正式環境使用的水準。
+    * [실험적 메서드 기반 JIT 컴파일러](https://docs.ruby-lang.org/en/master/jit/zjit_md.html)가 도입되었습니다. `--zjit` 지원을 활성화하려면 Rust 1.85.0 이상으로 Ruby를 빌드하세요.
+    * Ruby 4.0.0 기준, ZJIT는 인터프리터보다 빠르지만 아직 YJIT만큼 빠르지는 않습니다. ZJIT 실험을 권장하지만, 아직 프로덕션 배포는 권장하지 않습니다.
+    * Ruby 4.1에서 ZJIT를 YJIT보다 빠르게 만들고 프로덕션에 사용할 수 있게 만드는 것이 목표입니다.
 * YJIT
     * `RubyVM::YJIT.runtime_stats`
-        * `ratio_in_yjit` 不再於預設建置中運作。
-          請使用 `--enable-yjit=stats` 在 `configure` 中啟用 `--yjit-stats`。
-        * 預設統計新增 `invalidate_everything`，當所有程式碼被 TracePoint 無效化時遞增。
-    * `RubyVM::YJIT.enable` 新增 `mem_size:` 和 `call_threshold:` 選項。
+        * `ratio_in_yjit`는 기본 빌드에서 더 이상 작동하지 않습니다. `--yjit-stats`에서 활성화하려면 `configure`에서 `--enable-yjit=stats`를 사용하세요.
+        * 기본 통계에 `invalidate_everything`이 추가되었습니다. TracePoint에 의해 모든 코드가 무효화될 때 증가합니다.
+    * `RubyVM::YJIT.enable`에 `mem_size:`와 `call_threshold:` 옵션이 추가되었습니다.
 * RJIT
-    * 移除 `--rjit`。我們將把第三方 JIT API 的實作移至 [ruby/rjit](https://github.com/ruby/rjit) 儲存庫。
+    * `--rjit`가 제거되었습니다. 서드파티 JIT API의 구현을 [ruby/rjit](https://github.com/ruby/rjit) 저장소로 이동할 예정입니다.
 
 
-參見 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-和 [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
-來了解更多。
+자세한 내용은 [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+또는 [커밋 로그](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})를
+참조하세요.
 
-自 Ruby 3.4.0 以來，計 [{{ release.stats.files_changed }} 檔案變更，{{ release.stats.insertions }} 行新增（+），{{ release.stats.deletions }} 行刪減（-）](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)。
+이러한 변경사항에 따라, Ruby 3.4.0 이후로 [파일 {{ release.stats.files_changed }}개 변경, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
-耶誕快樂、佳節愉快，享受與 Ruby 4.0 一起寫程式的時光！
+메리 크리스마스, 새해 복 많이 받으시고, Happy Hacking with Ruby 4.0!
 
-## 下載
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -614,9 +565,9 @@ Ruby 4.0 隨附 RubyGems 和 Bundler 4。詳情請參閱以下連結。
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Ruby 是什麼
+## Ruby는
 
-Ruby 最初由 Matz（Yukihiro Matsumoto）於 1993 年開發的開源軟體。可以在許多平台上執行。使用者來自世界各地，特別活躍於網路開發領域。
+Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고, 현재는 오픈 소스로 개발되고 있습니다. 여러 플랫폼에서 동작하며, 전 세계적으로 특히 웹 개발에 사용됩니다.
 
 [Feature #15408]: https://bugs.ruby-lang.org/issues/15408
 [Feature #17473]: https://bugs.ruby-lang.org/issues/17473
