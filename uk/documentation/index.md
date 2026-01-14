@@ -199,7 +199,7 @@ lang: uk
 [5]: https://poignant.guide
 [7]: https://www.techotopia.com/index.php/Ruby_Essentials
 [8]: https://pine.fm/LearnToProgram/
-[9]: https://ruby-doc.com/docs/ProgrammingRuby/
+[9]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [12]: https://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: https://www.rubydoc.info/
