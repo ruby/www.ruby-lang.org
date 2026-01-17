@@ -76,9 +76,6 @@ ed arrivano fino alla programmazione OOP e lo sviluppo web.
 : La prima fermata per documentazione di riferimento su gemme
   e progetti Ruby su GitHub.
 
-[Ruby & Rails Searchable API Docs][17]
-: Documentazione ricercabile per Rails e Ruby.
-
 [APIdock][18]
 : Documentazione con note degli utenti per Ruby, Rails e RSpec.
 
@@ -127,14 +124,13 @@ iniziare.
 [5]: https://poignant.guide
 [7]: http://www.techotopia.com/index.php/Ruby_Essentials
 [8]: http://pine.fm/LearnToProgram/
-[9]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[9]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: http://pragmaticprogrammer.com/titles/ruby/index.html
 [12]: http://en.wikibooks.org/wiki/Ruby_programming_language
 [13]: http://www.ruby-doc.org/core
 [14]: https://ruby.github.io/rdoc/
 [15]: http://www.ruby-doc.org/stdlib
 [16]: http://www.rubydoc.info/
-[17]: http://rubydocs.org/
 [18]: http://apidock.com/
 [19]: http://www.aptana.com/
 [20]: http://www.gnu.org/software/emacs/

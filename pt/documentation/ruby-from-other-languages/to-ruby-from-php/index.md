@@ -38,7 +38,7 @@ Diferente do PHP, em Ruby …
   etc. para converter entre strings, inteiros e demais tipos, em vez de
   confiar na linguagem para o fazer.
 * Strings, números, arrays, hashes, etc. são objectos. Em vez de
-  invocarmos abs(-1) é -1.abs
+  invocarmos `abs(-1)` é `-1.abs`
 * Os parêntesis são opcionais nas invocações dos métodos, excepto para
   clarificar que parâmetros são passados para que método.
 * Em vez de convenções de nomes, tal como o uso de underscore (`_`), a
