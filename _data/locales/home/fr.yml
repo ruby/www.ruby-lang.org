@@ -1,9 +1,9 @@
 hero:
-  since: "Since"
+  since: "Depuis"
   year: "1995"
   title: "Ruby"
-  latest_version_label: "Latest Version:"
-  download_button: "Download"
+  latest_version_label: "Dernière Version :"
+  download_button: "Télécharger"
   or: "ou"
   learn_more: "En savoir plus"
 
@@ -19,7 +19,7 @@ why_ruby:
   description: Pourquoi les programmeurs du monde entier aiment-ils Ruby ? Qu'est-ce qui le rend <strong>amusant</strong> ?
   features:
     - id: ecosystem
-      title: Ecosystem
+      title: Écosystème
       read: Des gems riches supportent tous les types de développement.<br />Des outils matures prêts à l'emploi.
       copy: |
         Ruby possède une vaste collection de bibliothèques appelées gems, supportant tout du développement web au traitement des données.
@@ -29,7 +29,7 @@ why_ruby:
         author:
           id: matz
           name: Yukihiro "Matz" Matsumoto
-          title: Creator of Ruby
+          title: Créateur de Ruby
         content: |
           Quand j'ai lancé Ruby dans le monde, je n'aurais jamais imaginé qu'un écosystème aussi riche en émergerait.
           Plus de 200 000 gems, Ruby on Rails, RSpec, Bundler—c'est la communauté qui a créé et nourri tout cela.
@@ -46,13 +46,13 @@ why_ruby:
         author:
           id: dhh
           name: David Heinemeier Hansson
-          title: Creator of Ruby on Rails
+          title: Créateur de Ruby on Rails
         content: |
           Ruby est tout simplement le plus beau langage de programmation que j'aie jamais vu.<br />
           Je porte une attention considérable aux nouveaux langages de programmation qui émergent,
           aux nouveaux environnements, aux nouveaux frameworks, et je n'ai encore rien vu qui égale ou surpasse Ruby dans la pureté de sa conception.
     - id: productivity
-      title: Productivity
+      title: Productivité
       read: Faire plus avec moins de code.<br />La syntaxe intuitive accélère le développement.
       copy: |
         La syntaxe expressive de Ruby vous permet d'écrire une logique complexe de manière concise.
@@ -62,7 +62,7 @@ why_ruby:
         author:
           id: pragdave
           name: Dave Thomas
-          title: Author of "The Pragmatic Programmer"
+          title: Autheur de "The Pragmatic Programmer"
         content: |
           Ruby transforme rapidement les idées en code.
           Sa simplicité me garde concentré ; son expressivité me permet d'écrire comme je pense.<br />
@@ -70,7 +70,7 @@ why_ruby:
           Avec d'excellents outils et bibliothèques, les idées deviennent rapidement du code élégant et fonctionnel.
 
     - id: community
-      title: Community
+      title: Communauté
       read: Des développeurs du monde entier se soutiennent mutuellement.<br />Une communauté chaleureuse et active.
       copy: |
         La communauté Ruby embrasse la culture de "Matz is nice and so we are nice (MINASWAN),"
@@ -80,7 +80,7 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Executive Director of Rails Foundation
+          title: Directrice général de Rails Foundation
         content: |
           La communauté Ruby regorge de talents et de créativité – des développeurs attirés par la syntaxe élégante de Ruby qui programment pour le plaisir.
           C'est une communauté vibrante et accueillante, prête à partager cet amour de la programmation avec tout le monde.
