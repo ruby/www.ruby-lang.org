@@ -16,7 +16,7 @@ lang: ru
 
 [docs.ruby-lang.org/en][docs-rlo]: Список документации для всех версий Ruby, выпущенных после 2.1.
 
-[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Документация для Ruby 3.4.
+[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Документация для Ruby 4.0.
 
 [docs.ruby-lang.org/en/master][docs-rlo-master]: Документация для основной (master) ветки Ruby.
 
@@ -212,7 +212,7 @@ lang: ru
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
 [docs-rlo]: https://docs.ruby-lang.org/en
-[docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
+[docs-rlo-4.0]: https://docs.ruby-lang.org/en/4.0
 [docs-rlo-master]: https://docs.ruby-lang.org/en/master
 [docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
