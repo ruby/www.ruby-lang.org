@@ -19,6 +19,7 @@ exclude:
   - test
   - vendor
   - tsconfig.json
+  - CLAUDE.md
 
 url: https://www.ruby-lang.org
 
