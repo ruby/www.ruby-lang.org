@@ -20,7 +20,7 @@ Ruby를 배울 수 있는 매뉴얼과 튜토리얼, 코딩할 때 도움이 되
 
 [docs.ruby-lang.org/en][docs-rlo]: Ruby 2.1 이후의 모든 버전에 대한 문서 목록입니다.
 
-[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Ruby 3.4 버전에 대한 문서입니다.
+[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Ruby 4.0 버전에 대한 문서입니다.
 
 [docs.ruby-lang.org/en/master][docs-rlo-master]: Ruby의 master 브랜치의 문서입니다.
 
@@ -232,7 +232,7 @@ Ruby를 위한 가장 인기 있는 언어 서버 중 하나이며,
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
 [docs-rlo]: https://docs.ruby-lang.org/en
-[docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
+[docs-rlo-4.0]: https://docs.ruby-lang.org/en/4.0
 [docs-rlo-master]: https://docs.ruby-lang.org/en/master
 [docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/

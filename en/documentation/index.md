@@ -16,7 +16,7 @@ the [installation guide](installation/) for help on installing Ruby.
 
 [docs.ruby-lang.org/en][docs-rlo]: List of documentation for all Ruby versions released after 2.1.
 
-[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Documentation for Ruby 3.4.
+[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Documentation for Ruby 4.0.
 
 [docs.ruby-lang.org/en/master][docs-rlo-master]: Documentation for Ruby's master branch.
 
@@ -225,7 +225,7 @@ These links were more prominent but haven't been updated in ages.
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
 [docs-rlo]: https://docs.ruby-lang.org/en
-[docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
+[docs-rlo-4.0]: https://docs.ruby-lang.org/en/4.0
 [docs-rlo-master]: https://docs.ruby-lang.org/en/master
 [docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
