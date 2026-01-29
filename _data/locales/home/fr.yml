@@ -62,7 +62,7 @@ why_ruby:
         author:
           id: pragdave
           name: Dave Thomas
-          title: Autheur de "The Pragmatic Programmer"
+          title: Auteur de "The Pragmatic Programmer"
         content: |
           Ruby transforme rapidement les idées en code.
           Sa simplicité me garde concentré ; son expressivité me permet d'écrire comme je pense.<br />
@@ -80,7 +80,7 @@ why_ruby:
         author:
           id: amanda
           name: Amanda Perino
-          title: Directrice général de Rails Foundation
+          title: Directrice générale de Rails Foundation
         content: |
           La communauté Ruby regorge de talents et de créativité – des développeurs attirés par la syntaxe élégante de Ruby qui programment pour le plaisir.
           C'est une communauté vibrante et accueillante, prête à partager cet amour de la programmation avec tout le monde.
