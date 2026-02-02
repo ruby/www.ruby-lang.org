@@ -119,7 +119,7 @@ navigation:
   - text: Acara & Konferensi
     submenu:
     - text: RubyKaigi
-      url: https://rubykaigi.org/2025/
+      url: https://rubykaigi.org/
       external: true
     - text: Ruby Events
       url: https://www.rubyevents.org/
