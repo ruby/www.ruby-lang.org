@@ -81,14 +81,14 @@ More known issues:
   published at 16 Aug, 2010.
 * [Buffer over-run in ARGF.inplace\_mode=][13]
   published at 2 Jul, 2010.
-* [WEBrick has an Escape Sequence Injection vulnerability][14]
+* [WEBrick has an Escape Sequence Injection vulnerability (CVE-2009-4492)][14]
   published at 10 Jan, 2010.
 * [Heap overflow in String (CVE-2009-4124)][15]
   published at 7 Dec, 2009.
 * [DoS vulnerability in
-  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/)
+  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/ (CVE-2009-1904))
   published at 9 Jun, 2009.
-* [DoS vulnerability in
+* [DoS vulnerability (CVE-2008-3790) in
   REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/)
   published at 23 Aug, 2008.
 * [Multiple vulnerabilities in
