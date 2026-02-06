@@ -235,7 +235,7 @@ Ruby 3.0 で experimental feature として導入されましたが、来年く�
 
 * Ruby::Box
 
-    * 定義の分離を提供する新しい（実験的）機能です。詳細は [doc/language/box.md](doc/language/box.md) を参照してください。[[Feature #21311]] [[Misc #21385]]
+    * 定義の分離を提供する新しい（実験的）機能です。詳細は [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html) を参照してください。[[Feature #21311]] [[Misc #21385]]
 
 * Set
 
