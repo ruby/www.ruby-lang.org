@@ -12,7 +12,7 @@ Chúng tôi vui mừng thông báo phát hành Ruby 2.2.2.
 
 Bản phát hành này bao gồm bản sửa lỗi bảo mật cho lỗ hổng xác minh hostname của extension OpenSSL.
 
-* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/vi/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Ngoài ra còn có một số bản sửa lỗi khác.
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)

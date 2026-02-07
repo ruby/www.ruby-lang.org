@@ -11,7 +11,7 @@ Ruby 2.4.3 đã được phát hành.
 
 Phiên bản này bao gồm một số bản sửa lỗi và một bản sửa lỗi bảo mật.
 
-* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/vi/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 
 Ngoài ra còn có một số bản sửa lỗi khác.
 Xem [nhật ký thay đổi](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) để biết thêm chi tiết.

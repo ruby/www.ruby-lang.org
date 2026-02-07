@@ -74,7 +74,7 @@ Các thay đổi đáng chú ý bao gồm:
   thành gem mặc định.
 * Cập nhật [Onigmo](https://github.com/k-takata/Onigmo/) lên 6.1.3.
   * Nó thêm [toán tử vắng mặt](https://github.com/k-takata/Onigmo/issues/87).
-  * Lưu ý rằng [Ruby 2.4.1](https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/) cũng bao gồm thay đổi này.
+  * Lưu ý rằng [Ruby 2.4.1](https://www.ruby-lang.org/vi/news/2017/03/22/ruby-2-4-1-released/) cũng bao gồm thay đổi này.
 * Cập nhật Psych lên 3.0.2.
 * Cập nhật RubyGems lên 2.7.3.
 * Cập nhật RDoc lên 6.0.1.

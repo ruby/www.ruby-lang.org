@@ -12,11 +12,11 @@ Ruby 2.3.5 đã được phát hành.
 Bản phát hành này bao gồm khoảng 70 bản sửa lỗi kể từ phiên bản trước, và cũng bao gồm một số bản sửa lỗi bảo mật.
 Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2017-0898: Lỗ hổng tràn bộ đệm dưới trong Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: Lỗ hổng chèn chuỗi thoát trong xác thực Basic của WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
-* [CVE-2017-14033: Lỗ hổng tràn bộ đệm dưới trong giải mã OpenSSL ASN1](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
-* [CVE-2017-14064: Lỗ hổng lộ heap khi tạo JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
-* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* [CVE-2017-0898: Lỗ hổng tràn bộ đệm dưới trong Kernel.sprintf](/vi/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+* [CVE-2017-10784: Lỗ hổng chèn chuỗi thoát trong xác thực Basic của WEBrick](/vi/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-14033: Lỗ hổng tràn bộ đệm dưới trong giải mã OpenSSL ASN1](/vi/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+* [CVE-2017-14064: Lỗ hổng lộ heap khi tạo JSON](/vi/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Cập nhật libyaml đi kèm lên phiên bản 0.1.7
 
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) để biết chi tiết.

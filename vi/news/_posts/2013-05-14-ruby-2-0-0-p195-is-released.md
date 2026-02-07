@@ -12,7 +12,7 @@ Ruby 2.0.0-p195 đã được phát hành. Đây là bản phát hành patchleve
 Bản phát hành này bao gồm bản sửa lỗi bảo mật cho Ruby DL / Fiddle extension.
 
 * [Bỏ qua taint của đối tượng trong DL và Fiddle trong Ruby
-  (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
+  (CVE-2013-2065)](/vi/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 Ngoài ra còn có nhiều bản sửa lỗi, một số tối ưu hóa, và sửa tài liệu.
 

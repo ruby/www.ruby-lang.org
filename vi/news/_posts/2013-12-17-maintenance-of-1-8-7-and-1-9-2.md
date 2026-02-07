@@ -71,5 +71,5 @@ Cảm ơn sự hỗ trợ liên tục của bạn và hãy cùng nhau làm Ruby 
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    https://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    https://bugs.ruby-lang.org/projects/ruby-192/repository
-[security-en]:   https://www.ruby-lang.org/en/security/
-[sunset-187-en]: https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
+[security-en]:   https://www.ruby-lang.org/vi/security/
+[sunset-187-en]: https://www.ruby-lang.org/vi/news/2013/06/30/we-retire-1-8-7/

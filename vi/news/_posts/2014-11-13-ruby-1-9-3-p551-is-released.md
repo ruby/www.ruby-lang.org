@@ -11,12 +11,12 @@ Chúng tôi vui mừng thông báo phát hành Ruby 1.9.3-p551.
 
 Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
 Nó tương tự với
-[lỗ hổng đã được sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [bản phát hành trước](https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/),
+[lỗ hổng đã được sửa](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [bản phát hành trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-1-9-3-p550-is-released/),
 nhưng xử lý một trường hợp khác của mở rộng entity.
 Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 
 ## Lưu ý

@@ -13,7 +13,7 @@ Vui lòng sử dụng p429 này thay thế.
 
 Bản phát hành này bao gồm một bản sửa lỗi bảo mật về DL / Fiddle đi kèm.
 
-* [Bỏ qua taint của đối tượng trong DL và Fiddle trong Ruby (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
+* [Bỏ qua taint của đối tượng trong DL và Fiddle trong Ruby (CVE-2013-2065)](/vi/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
 Một số bản sửa lỗi nhỏ cũng được bao gồm.
 

@@ -170,4 +170,4 @@ Akira đã tiết lộ các vấn đề này cho Đội An ninh Ruby.
 [1]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1447
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz
-[4]: {{ site.url }}/en/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/
+[4]: {{ site.url }}/vi/news/2008/08/11/ruby-1-8-7-p72-and-1-8-6-p287-released/

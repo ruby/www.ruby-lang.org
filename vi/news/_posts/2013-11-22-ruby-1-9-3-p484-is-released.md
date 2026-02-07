@@ -11,7 +11,7 @@ Ruby 1.9.3-p484 đã được phát hành.
 
 Bản phát hành này bao gồm bản sửa lỗi bảo mật liên quan đến phân tích số dấu phẩy động:
 
- * [Tràn Heap trong phân tích số dấu phẩy động (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+ * [Tràn Heap trong phân tích số dấu phẩy động (CVE-2013-4164)](/vi/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 Một số bản sửa lỗi cũng được bao gồm.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)

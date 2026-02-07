@@ -16,7 +16,7 @@ Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}.
 
 Ruby 3.1 tích hợp YJIT, một trình biên dịch JIT trong tiến trình mới được phát triển bởi Shopify.
 
-Kể từ khi [Ruby 2.6 giới thiệu MJIT vào năm 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), hiệu năng đã được cải thiện đáng kể, và cuối cùng [chúng tôi đã đạt được Ruby3x3 vào năm ngoái](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). Nhưng mặc dù Optcarrot đã cho thấy tốc độ cải thiện ấn tượng, JIT chưa mang lại lợi ích cho các ứng dụng kinh doanh thực tế.
+Kể từ khi [Ruby 2.6 giới thiệu MJIT vào năm 2018](https://www.ruby-lang.org/vi/news/2018/12/25/ruby-2-6-0-released/), hiệu năng đã được cải thiện đáng kể, và cuối cùng [chúng tôi đã đạt được Ruby3x3 vào năm ngoái](https://www.ruby-lang.org/vi/news/2020/12/25/ruby-3-0-0-released/). Nhưng mặc dù Optcarrot đã cho thấy tốc độ cải thiện ấn tượng, JIT chưa mang lại lợi ích cho các ứng dụng kinh doanh thực tế.
 
 Gần đây Shopify đã đóng góp nhiều cải tiến Ruby để tăng tốc ứng dụng Rails của họ. YJIT là một đóng góp quan trọng, nhằm cải thiện hiệu năng của các ứng dụng Rails.
 

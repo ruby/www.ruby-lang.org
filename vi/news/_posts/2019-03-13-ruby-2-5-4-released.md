@@ -10,7 +10,7 @@ lang: vi
 Ruby 2.5.4 đã được phát hành.
 
 Bản phát hành này bao gồm các bản sửa lỗi và cập nhật bảo mật cho RubyGems đi kèm.
-Xem chi tiết tại [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+Xem chi tiết tại [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
 và [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
 
 ## Tải về

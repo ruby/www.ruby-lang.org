@@ -11,7 +11,7 @@ Ruby 2.2.9 đã được phát hành.
 Phiên bản này bao gồm một số bản sửa lỗi bảo mật.
 Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/vi/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [Lỗ hổng giải tuần tự hóa đối tượng không an toàn trong RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
 Ruby 2.2 hiện đang trong giai đoạn bảo trì bảo mật, cho đến cuối tháng 3, 2018.

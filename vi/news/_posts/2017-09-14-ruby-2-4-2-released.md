@@ -10,11 +10,11 @@ lang: vi
 Chúng tôi vui mừng thông báo phát hành Ruby 2.4.2.
 Bản phát hành này bao gồm một số bản sửa lỗi bảo mật.
 
-* [CVE-2017-0898: Lỗ hổng tràn bộ đệm dưới trong Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: Lỗ hổng chèn chuỗi thoát trong xác thực Basic của WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
-* [CVE-2017-14033: Lỗ hổng tràn bộ đệm dưới trong giải mã OpenSSL ASN1](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
-* [CVE-2017-14064: Lỗ hổng lộ heap khi tạo JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
-* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* [CVE-2017-0898: Lỗ hổng tràn bộ đệm dưới trong Kernel.sprintf](/vi/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+* [CVE-2017-10784: Lỗ hổng chèn chuỗi thoát trong xác thực Basic của WEBrick](/vi/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-14033: Lỗ hổng tràn bộ đệm dưới trong giải mã OpenSSL ASN1](/vi/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+* [CVE-2017-14064: Lỗ hổng lộ heap khi tạo JSON](/vi/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Cập nhật libyaml đi kèm lên phiên bản 0.1.7.
 
 Ngoài ra còn có nhiều bản sửa lỗi khác.

@@ -12,8 +12,8 @@ Ruby 2.3.8 đã được phát hành.
 Bản phát hành này bao gồm một số bản sửa bảo mật.
 Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
-* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
+* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/vi/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
+* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/vi/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
 Bản phát hành này cũng bao gồm một bản sửa lỗi không liên quan đến bảo mật để hỗ trợ Visual Studio 2014
 với Windows 10 October 2018 Update vì lý do bảo trì.

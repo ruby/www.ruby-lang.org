@@ -18,7 +18,7 @@ Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
 Bản phát hành này chứa phiên bản mới của webrick với bản sửa bảo mật được mô tả trong bài viết.
 
-* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick](/en/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
+* [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick](/vi/news/2020/09/29/http-request-smuggling-cve-2020-25613/)
 
 Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_7_1...v2_7_2) để biết các thay đổi khác.
 

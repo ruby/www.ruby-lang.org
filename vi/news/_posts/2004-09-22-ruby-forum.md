@@ -5,7 +5,7 @@ author: "Shugo Maeda"
 lang: vi
 ---
 
-Liên kết đến [Diễn đàn Ruby][1] đã được thêm vào [Cộng đồng](/en/community/).
+Liên kết đến [Diễn đàn Ruby][1] đã được thêm vào [Cộng đồng](/vi/community/).
 Alexey Verkhovsky cho biết, \`Diễn đàn Ruby là một bảng thảo luận mới được tạo
 để thảo luận về Ruby. Khác với danh sách thư ruby-talk, nó cho phép đăng bài
 ẩn danh và có giao diện tìm kiếm dễ hiểu hơn.

@@ -12,7 +12,7 @@ Ruby 2.1.6 đã được phát hành.
 Bản phát hành này bao gồm bản sửa lỗi bảo mật cho extension OpenSSL.
 Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/vi/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Ngoài ra, nhiều bản sửa lỗi khác cũng được bao gồm.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)

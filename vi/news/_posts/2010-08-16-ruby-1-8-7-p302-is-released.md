@@ -49,7 +49,7 @@ SHA256(ruby-1.8.7-p302.zip):
 
 
 [1]: https://blade.ruby-lang.org/ruby-talk/367769
-[2]: {{ site.url }}/en/news/2010/08/16/xss-in-webrick-cve-2010-0541/
+[2]: {{ site.url }}/vi/news/2010/08/16/xss-in-webrick-cve-2010-0541/
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.zip
