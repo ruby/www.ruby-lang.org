@@ -25,8 +25,8 @@ Unlike Java, in Ruby,...
 
 * You don’t need to compile your code. You just run it directly.
 * There are several different popular third-party GUI toolkits. Ruby
-  users can try [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
-  [Qt][4], or [Ruby Tk](https://github.com/ruby/tk) for example.
+  users can try [WxRuby][1], [FXRuby][2], [Ruby-GNOME][3] or
+  [Ruby Tk](https://github.com/ruby/tk) for example.
 * You use the `end` keyword after defining things like classes, instead
   of having to put braces around blocks of code.
 * You have `require` instead of `import`.
@@ -54,7 +54,6 @@ Unlike Java, in Ruby,...
 
 
 
-[1]: https://github.com/eumario/wxruby
+[1]: https://github.com/mcorino/wxRuby3
 [2]: https://github.com/larskanis/fxruby
-[3]: https://ruby-gnome2.osdn.jp/
-[4]: https://github.com/ryanmelt/qtbindings/
+[3]: https://ruby-gnome.github.io/
