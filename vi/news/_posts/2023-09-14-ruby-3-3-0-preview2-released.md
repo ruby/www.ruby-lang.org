@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.3.0-preview2 Released"
+title: "Ruby 3.3.0-preview2 đã được phát hành"
 author: "naruse"
 translator:
 date: 2023-09-14 00:00:00 +0000
@@ -9,112 +9,112 @@ lang: vi
 
 {% assign release = site.data.releases | where: "version", "3.3.0-preview2" | first %}
 
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.3 adds a new pure-Ruby JIT compiler named RJIT, uses Lrama as a parser generator, and many performance improvements especially YJIT.
+Chúng tôi vui mừng thông báo phiên bản Ruby {{ release.version }} đã được phát hành. Ruby 3.3 bổ sung một trình biên dịch JIT thuần Ruby mới có tên RJIT, sử dụng Lrama làm trình tạo parser, và nhiều cải thiện hiệu suất đặc biệt là YJIT.
 
 ## RJIT
 
-* Introduced a pure-Ruby JIT compiler RJIT and replaced MJIT.
-  * RJIT supports only x86\_64 architecture on Unix platforms.
-  * Unlike MJIT, it doesn't require a C compiler at runtime.
-* RJIT exists only for experimental purposes.
-  * You should keep using YJIT in production.
-* If you are interested in developing JIT for Ruby, please check out [k0kubun's presentation on Day 3 of RubyKaigi](https://rubykaigi.org/2023/presentations/k0kubun.html#day3).
+* Giới thiệu trình biên dịch JIT thuần Ruby RJIT và thay thế MJIT.
+  * RJIT chỉ hỗ trợ kiến trúc x86\_64 trên các nền tảng Unix.
+  * Không giống như MJIT, nó không yêu cầu trình biên dịch C tại thời điểm chạy.
+* RJIT chỉ tồn tại cho mục đích thử nghiệm.
+  * Bạn nên tiếp tục sử dụng YJIT trong môi trường sản xuất.
+* Nếu bạn quan tâm đến việc phát triển JIT cho Ruby, vui lòng xem [bài thuyết trình của k0kubun vào Ngày 3 của RubyKaigi](https://rubykaigi.org/2023/presentations/k0kubun.html#day3).
 
-## Use Lrama instead of Bison
+## Sử dụng Lrama thay thế Bison
 
-* Replace Bison with [Lrama LALR parser generator](https://github.com/yui-knk/lrama) [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
-  * If you have interest, please see [The future vision of Ruby Parser](https://rubykaigi.org/2023/presentations/spikeolaf.html)
+* Thay thế Bison bằng [trình tạo parser LALR Lrama](https://github.com/yui-knk/lrama) [Feature #19637](https://bugs.ruby-lang.org/issues/19637)
+  * Nếu bạn quan tâm, vui lòng xem [Tầm nhìn tương lai của Ruby Parser](https://rubykaigi.org/2023/presentations/spikeolaf.html)
 
 ## YJIT
 
-* Major performance improvements over 3.2
-  * Support for splat and rest arguments has been improved.
-  * Registers are allocated for stack operations of the virtual machine.
-  * More calls with optional arguments are compiled.
-  * Exception handlers are also compiled.
-  * Instance variables no longer exit to the interpreter
-    with megamorphic Object Shapes.
-  * Unsupported call types no longer exit to the interpreter.
+* Cải thiện hiệu suất lớn so với 3.2
+  * Hỗ trợ cho splat và rest arguments đã được cải thiện.
+  * Các thanh ghi được phân bổ cho các thao tác ngăn xếp của máy ảo.
+  * Nhiều lời gọi với tham số tùy chọn được biên dịch hơn.
+  * Các trình xử lý ngoại lệ cũng được biên dịch.
+  * Các biến instance không còn thoát ra trình thông dịch
+    với Object Shapes đa hình.
+  * Các loại lời gọi không được hỗ trợ không còn thoát ra trình thông dịch.
   * `Integer#!=`, `String#!=`, `Kernel#block_given?`, `Kernel#is_a?`,
-    `Kernel#instance_of?`, `Module#===` are specially optimized.
-  * Now more than 3x faster than the interpreter on optcarrot!
-* Metadata for compiled code uses a lot less memory.
-* Generate more compact code on ARM64
-* Option to start YJIT in paused mode and then later enable it manually
-  * `--yjit-pause` and `RubyVM::YJIT.resume`
-  * This can be used to enable YJIT only once your application is done booting
-* `ratio_in_yjit` stat produced by `--yjit-stats` is now available in release builds,
-  a special stats or dev build is no longer required.
-* Exit tracing option now supports sampling
+    `Kernel#instance_of?`, `Module#===` được tối ưu hóa đặc biệt.
+  * Hiện nhanh hơn 3 lần so với trình thông dịch trên optcarrot!
+* Metadata cho mã đã biên dịch sử dụng ít bộ nhớ hơn nhiều.
+* Sinh mã nhỏ gọn hơn trên ARM64
+* Tùy chọn khởi động YJIT ở chế độ tạm dừng và sau đó bật thủ công
+  * `--yjit-pause` và `RubyVM::YJIT.resume`
+  * Điều này có thể được sử dụng để chỉ bật YJIT sau khi ứng dụng của bạn đã khởi động xong
+* Thống kê `ratio_in_yjit` được tạo bởi `--yjit-stats` hiện có sẵn trong các bản phát hành chính thức,
+  không còn cần bản build stats hoặc dev đặc biệt.
+* Tùy chọn theo dõi exit hiện hỗ trợ lấy mẫu
   * `--trace-exits-sample-rate=N`
-* More thorough testing and multiple bug fixes
+* Kiểm thử kỹ lưỡng hơn và nhiều bản sửa lỗi
 
 
 
-## Other Notable New Features
+## Các tính năng mới đáng chú ý khác
 
-### Language
+### Ngôn ngữ
 
 
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-* `defined?(@ivar)` is optimized with Object Shapes.
+* `defined?(@ivar)` được tối ưu hóa với Object Shapes.
 
-## Other notable changes since 3.2
+## Các thay đổi đáng chú ý khác kể từ 3.2
 
 ### IRB
 
-IRB has received several enhancements, including but not limited to:
+IRB đã nhận được nhiều cải tiến, bao gồm nhưng không giới hạn:
 
-- Advanced `irb:rdbg` integration that provides an equivalent debugging experience to `pry-byebug` ([doc](https://github.com/ruby/irb#debugging-with-irb)).
-- Pager support for commands like `ls` and `show_cmds`.
-- More accurate and helpful information provided by the `ls` and `show_source` commands.
+- Tích hợp `irb:rdbg` nâng cao cung cấp trải nghiệm gỡ lỗi tương đương với `pry-byebug` ([tài liệu](https://github.com/ruby/irb#debugging-with-irb)).
+- Hỗ trợ phân trang cho các lệnh như `ls` và `show_cmds`.
+- Thông tin chính xác và hữu ích hơn được cung cấp bởi các lệnh `ls` và `show_source`.
 
-In addition, IRB has also undergone extensive refactoring and received dozens of bug fixes to facilitate easier future enhancements.
+Ngoài ra, IRB cũng đã trải qua quá trình tái cấu trúc rộng rãi và nhận được hàng chục bản sửa lỗi để tạo điều kiện cho các cải tiến trong tương lai.
 
-## Compatibility issues
+## Vấn đề tương thích
 
-Note: Excluding feature bug fixes.
+Lưu ý: Không bao gồm các bản sửa lỗi tính năng.
 
-### Removed constants
+### Các hằng số đã bị loại bỏ
 
-The following deprecated constants are removed.
-
-
-
-### Removed methods
-
-The following deprecated methods are removed.
+Các hằng số không còn được dùng sau đây đã bị loại bỏ.
 
 
 
-## Stdlib compatibility issues
+### Các phương thức đã bị loại bỏ
 
-### `ext/readline` is retired
-
-* We have `reline` that is pure Ruby implementation compatible with `ext/readline` API. We rely on `reline` in the future. If you need to use `ext/readline`, you can install `ext/readline` via rubygems.org with `gem install readline-ext`.
-* We no longer need to install libraries like `libreadline` or `libedit`.
-
-## C API updates
-
-### Updated C APIs
-
-The following APIs are updated.
+Các phương thức không còn được dùng sau đây đã bị loại bỏ.
 
 
 
-### Removed C APIs
+## Vấn đề tương thích thư viện chuẩn
 
-The following deprecated APIs are removed.
+### `ext/readline` đã ngừng hoạt động
+
+* Chúng tôi có `reline` là bản triển khai thuần Ruby tương thích với API `ext/readline`. Chúng tôi sẽ dựa vào `reline` trong tương lai. Nếu bạn cần sử dụng `ext/readline`, bạn có thể cài đặt `ext/readline` thông qua rubygems.org với `gem install readline-ext`.
+* Chúng tôi không còn cần cài đặt các thư viện như `libreadline` hay `libedit`.
+
+## Cập nhật C API
+
+### Các C API đã được cập nhật
+
+Các API sau đây đã được cập nhật.
 
 
 
-## Standard library updates
+### Các C API đã bị loại bỏ
 
-RubyGems and Bundler warn if users require gem that is scheduled to become the bundled gems in the future version of Ruby.
+Các API không còn được dùng sau đây đã bị loại bỏ.
 
-The following default gems are updated.
+
+
+## Cập nhật thư viện chuẩn
+
+RubyGems và Bundler cảnh báo nếu người dùng require gem được lên kế hoạch trở thành bundled gem trong phiên bản Ruby tương lai.
+
+Các default gem sau đây đã được cập nhật.
 
 * RubyGems 3.5.0.dev
 * bigdecimal 3.1.4
@@ -136,7 +136,7 @@ The following default gems are updated.
 * uri 0.12.2
 * yarp 0.9.0
 
-The following bundled gems are updated.
+Các bundled gem sau đây đã được cập nhật.
 
 * minitest 5.19.0
 * test-unit 3.6.1
@@ -147,22 +147,22 @@ The following bundled gems are updated.
 * typeprof 0.21.8
 * debug 1.8.0
 
-The following default gem is now bundled.
+Default gem sau đây hiện là bundled.
 
 * racc 1.7.1
 
-See GitHub releases like [Logger](https://github.com/ruby/logger/releases) or
-changelog for details of the default gems or bundled gems.
+Xem các bản phát hành trên GitHub như [Logger](https://github.com/ruby/logger/releases) hoặc
+changelog để biết chi tiết về các default gem hoặc bundled gem.
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)
-since Ruby 3.2.0!
+Với những thay đổi đó, [{{ release.stats.files_changed }} tệp đã thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa đi(-)](https://github.com/ruby/ruby/compare/v3_2_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.2.0!
 
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -185,8 +185,8 @@ since Ruby 3.2.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.

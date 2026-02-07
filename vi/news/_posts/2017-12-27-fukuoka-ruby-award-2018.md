@@ -1,75 +1,75 @@
 ---
 layout: news_post
-title: "2018 Fukuoka Ruby Award Competition - Entries to be judged by Matz"
+title: "Cuộc thi Fukuoka Ruby Award 2018 - Các bài dự thi được đánh giá bởi Matz"
 author: "Fukuoka Ruby"
 translator:
 date: 2017-12-27 00:00:00 +0000
 lang: vi
 ---
 
-Dear Ruby Enthusiasts,
+Gửi những người yêu thích Ruby,
 
-The Government of Fukuoka, Japan, together with "Matz" Matsumoto would like
-to invite you to enter the following Ruby competition. If you have developed
-an interesting Ruby program, please be encouraged to apply.
+Chính quyền tỉnh Fukuoka, Nhật Bản cùng với "Matz" Matsumoto muốn mời
+bạn tham gia cuộc thi Ruby sau đây. Nếu bạn đã phát triển một chương trình
+Ruby thú vị, xin hãy mạnh dạn đăng ký.
 
-2018 Fukuoka Ruby Award Competition - Grand Prize - 1 Million Yen!
+Cuộc thi Fukuoka Ruby Award 2018 - Giải thưởng lớn - 1 Triệu Yên!
 
-Entry Deadline: January 31, 2018
+Hạn nộp: Ngày 31 tháng 1 năm 2018
 
 ![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
-Matz and a group of panelists will select the winners of the
-Fukuoka Competition. The grand prize for the Fukuoka Competition
-is 1 million yen. Past grand prize winners include Rhomobile (USA)
-and APEC Climate Center (Korea).
+Matz và một nhóm giám khảo sẽ lựa chọn những người chiến thắng của cuộc
+thi Fukuoka. Giải thưởng lớn của cuộc thi Fukuoka là 1 triệu yên. Những
+người đoạt giải thưởng lớn trước đây bao gồm Rhomobile (Mỹ) và APEC
+Climate Center (Hàn Quốc).
 
 [http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
-Programs entered in the competition do not have to be written entirely
-in Ruby but should take advantage of the unique characteristics of Ruby.
+Các chương trình tham gia cuộc thi không nhất thiết phải được viết hoàn toàn
+bằng Ruby nhưng nên tận dụng các đặc tính độc đáo của Ruby.
 
-Projects must have been developed or completed within the past 12 months
-to be eligible. Please visit the following Fukuoka websites for additional
-details or to enter:
+Các dự án phải được phát triển hoặc hoàn thành trong vòng 12 tháng qua
+mới đủ điều kiện tham gia. Vui lòng truy cập các trang web Fukuoka sau
+để biết thêm chi tiết hoặc đăng ký:
 
 [http://www.digitalfukuoka.jp/events/152](http://www.digitalfukuoka.jp/events/152)
-or
+hoặc
 [http://myfukuoka.com/events/2018-fukuoka-ruby-award-guidelines-for-applicants/](http://myfukuoka.com/events/2018-fukuoka-ruby-award-guidelines-for-applicants/)
 
 [http://www.digitalfukuoka.jp/uploads/event_detail/file/393/RubyAward_ApplicationForm_2018.doc](http://www.digitalfukuoka.jp/uploads/event_detail/file/393/RubyAward_ApplicationForm_2018.doc)
 
-Please email the application form to award@f-ruby.com.
+Vui lòng gửi mẫu đơn đăng ký qua email tới award@f-ruby.com.
 
-This year, there are the following special prizes:
+Năm nay, có các giải thưởng đặc biệt sau:
 
-The winner of the AWS Prize will receive:
+Người đoạt giải AWS Prize sẽ nhận được:
 
-* Amazon Fire Tablet (subject to change)
-* AWS architect technical consultation
+* Amazon Fire Tablet (có thể thay đổi)
+* Tư vấn kỹ thuật kiến trúc AWS
 
-The winner of the GMO Pepabo Prize will receive:
+Người đoạt giải GMO Pepabo Prize sẽ nhận được:
 
-* Lolipop! shared hosting service: 10-year free subscription of the Standard
-  Plan, or JPY 100,000 coupon for the metered plan of the Managed Cloud.
-* Muumuu Domain DNS registration service: 10-year free subscription of one
-  domain (for a domain that costs JPY 10,000 or less per year).
+* Dịch vụ hosting chia sẻ Lolipop!: miễn phí 10 năm gói Standard,
+  hoặc phiếu giảm giá JPY 100,000 cho gói tính phí theo lượng sử dụng của Managed Cloud.
+* Dịch vụ đăng ký tên miền Muumuu Domain DNS: miễn phí 10 năm cho một
+  tên miền (cho tên miền có giá JPY 10,000 hoặc ít hơn mỗi năm).
 
-The winner of the IIJ GIO Prize will receive:
+Người đoạt giải IIJ GIO Prize sẽ nhận được:
 
-* Further details will be announced later.
+* Chi tiết sẽ được công bố sau.
 
-The winner of the Money Forward Prize will receive:
+Người đoạt giải Money Forward Prize sẽ nhận được:
 
-* dinner with Money Forward's Ruby committers.
-* a 10 years free ticket for the premium services of our personal
-  financial management service "Money Forward".
+* Bữa tối cùng các Ruby committer của Money Forward.
+* Vé miễn phí 10 năm cho các dịch vụ cao cấp của dịch vụ quản lý tài chính
+  cá nhân "Money Forward".
 
-The winner of the Salesforce Prize will receive:
+Người đoạt giải Salesforce Prize sẽ nhận được:
 
-* salesforce.com novelty goods
+* Quà lưu niệm từ salesforce.com
 
-"Matz will be testing and reviewing your source code thoroughly,
-so it's very meaningful to apply! The competition is free to enter."
+"Matz sẽ kiểm tra và đánh giá mã nguồn của bạn kỹ lưỡng, vì vậy việc
+đăng ký tham gia rất có ý nghĩa! Cuộc thi hoàn toàn miễn phí."
 
-Thanks!
+Cảm ơn!
