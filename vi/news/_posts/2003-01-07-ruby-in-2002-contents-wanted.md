@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby In 2002: Contents Wanted"
+title: "Ruby trong năm 2002: Cần nội dung đóng góp"
 author: "tamura"
 lang: vi
 ---
 
-Here on the Ruby Garden Wiki comes [a page][1] to compile Ruby’s year
-2002 and plans on 2003. The deadline is January 9. RubyIn2002
-[http://www.rubygarden.org/ruby?RubyIn2002][1] This page supports a
-following plan: “The Year in Scripting
-Languages(Lua/Perl/Python/Ruby/Tcl)”. The aim of that is to encourage
-these scripting language communities to collaborate with each other; its
-first step is to know neighbors, which will lead us to be able to share
-our efforts on scriptings. The chair person is Mitchell N. Charity. see
-also: [\[ruby-talk:60604\]][2], [\[ruby-talk:60731\]][3] Final result
-can be seen at [http://www.vendian.org/language\_year/][4].
+Trên Ruby Garden Wiki có [một trang][1] để tổng hợp năm 2002 của Ruby
+và các kế hoạch cho năm 2003. Hạn chót là ngày 9 tháng 1. RubyIn2002
+[http://www.rubygarden.org/ruby?RubyIn2002][1] Trang này hỗ trợ kế hoạch
+sau: "The Year in Scripting
+Languages(Lua/Perl/Python/Ruby/Tcl)". Mục đích là khuyến khích
+các cộng đồng ngôn ngữ kịch bản này hợp tác với nhau; bước
+đầu tiên là tìm hiểu về nhau, điều này sẽ giúp chúng ta chia sẻ
+các nỗ lực về scripting. Chủ tọa là Mitchell N. Charity. Xem
+thêm: [\[ruby-talk:60604\]][2], [\[ruby-talk:60731\]][3] Kết quả cuối cùng
+có thể xem tại [http://www.vendian.org/language\_year/][4].
 
 
 

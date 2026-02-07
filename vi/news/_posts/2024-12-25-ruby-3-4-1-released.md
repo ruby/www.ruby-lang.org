@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 3.4.1 Released"
+title: "Phát hành Ruby 3.4.1"
 author: "naruse"
 translator:
 date: 2024-12-25 00:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.4.1 has been released.
+Ruby 3.4.1 đã được phát hành.
 
-This fixes the version description.
+Bản phát hành này sửa mô tả phiên bản.
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_1) for further details.
+Xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_1) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.4.1" | first %}
 

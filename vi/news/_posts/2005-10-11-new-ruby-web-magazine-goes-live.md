@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "New Ruby Web Magazine Goes Live"
+title: "Tạp chí web Ruby mới ra mắt"
 author: "james"
 lang: vi
 ---
 
-The newest on-line resource for serious Ruby information has gone live.
-[Ruby Code &amp; Style][1], an on-line magazine from [Artima][2], has
-just published issue #1. Check out the names on the advisory board. It’s
-a Who’s Who of everybody who’s anybody in the Ruby world. The premiere
-issue has three outstanding articles: First up, Jack Herrington, author
-of Code Generation in Action (Manning, 2002) and Podcasting Hacks
-(O’Reilly, 2005), has written [Modular Architectures with Ruby][3] Next,
-Austin Ziegler gives us [Creating Printable Documents with Ruby][4] And
-there’s a reprint of Ara Howard’s article, [Linux Clustering with Ruby
-Queue: Small is Beautiful][5], which first appeared in Linux Journal but
-deserves repeat attention A big thanks to the advisory board, and
-especial to Bill Venners for starting this whole thing.
+Nguồn tài nguyên trực tuyến mới nhất dành cho thông tin chuyên sâu về
+Ruby đã ra mắt. [Ruby Code &amp; Style][1], một tạp chí trực tuyến từ
+[Artima][2], vừa xuất bản số đầu tiên. Hãy xem danh sách ban cố vấn.
+Đó là một danh sách những nhân vật hàng đầu trong thế giới Ruby. Số ra
+mắt có ba bài viết xuất sắc: Đầu tiên, Jack Herrington, tác giả của
+Code Generation in Action (Manning, 2002) và Podcasting Hacks (O'Reilly,
+2005), đã viết [Modular Architectures with Ruby][3]. Tiếp theo, Austin
+Ziegler mang đến cho chúng ta [Creating Printable Documents with Ruby][4]
+Và có một bài đăng lại bài viết của Ara Howard, [Linux Clustering with
+Ruby Queue: Small is Beautiful][5], ban đầu xuất hiện trên Linux Journal
+nhưng xứng đáng được chú ý lần nữa. Xin cảm ơn ban cố vấn, và đặc biệt
+cảm ơn Bill Venners vì đã khởi xướng tất cả.
 
 
 

@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "RubyConf Taiwan 2015 Registration Online"
+title: "RubyConf Taiwan 2015 đã mở đăng ký trực tuyến"
 author: "Mu-Fan Teng (@ryudoawaru)"
 translator:
 date: 2015-08-04 15:30:22 +0000
 lang: vi
 ---
 
-RubyConf Taiwan 2015 will be held in Taipei, Taiwan on 11-12 September, 2015.
+RubyConf Taiwan 2015 sẽ được tổ chức tại Đài Bắc, Đài Loan vào ngày 11-12 tháng 9 năm 2015.
 
-For details about speakers and schedule please visit the [conference site](http://rubyconf.tw).
+Để biết chi tiết về diễn giả và lịch trình, vui lòng truy cập [trang hội nghị](http://rubyconf.tw).
 
-Tickets are open till September 12nd, 2015. [Reserve Your Ticket!](http://rubytaiwan.kktix.cc/events/rubyconftw2015?locale=en)
+Vé mở bán đến ngày 12 tháng 9 năm 2015. [Đặt vé ngay!](http://rubytaiwan.kktix.cc/events/rubyconftw2015?locale=en)
 
-We look forward to seeing you in Taiwan!
+Chúng tôi mong được gặp bạn tại Đài Loan!

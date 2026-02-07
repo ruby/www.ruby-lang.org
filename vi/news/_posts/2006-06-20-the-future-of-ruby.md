@@ -1,20 +1,21 @@
 ---
 layout: news_post
-title: "The Future of Ruby"
+title: "Tương lai của Ruby"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-There has been much discussion recently on the future directions Ruby
-will be exploring, with some official plans coming from Matz himself. If
-you are interested to know what’s coming, check out the following links:
+Gần đây đã có nhiều thảo luận về các hướng phát triển tương lai mà Ruby
+sẽ khám phá, với một số kế hoạch chính thức đến từ chính Matz. Nếu bạn
+muốn biết những gì sắp tới, hãy xem các liên kết sau:
 
-* [Changes in Ruby 1.9][1]
-* [1.8.5 Delivery Schedule][2]
-* [Matz’s Weird and Wild Ideas][3]
+* [Các thay đổi trong Ruby 1.9][1]
+* [Lịch phát hành 1.8.5][2]
+* [Những ý tưởng kỳ lạ và táo bạo của Matz][3]
 
-Please remember that Ruby will continue to grow and change. The above
-information is only what we think we know at this point in that process.
+Xin hãy nhớ rằng Ruby sẽ tiếp tục phát triển và thay đổi. Thông tin
+trên chỉ là những gì chúng tôi nghĩ rằng mình biết tại thời điểm này
+trong quá trình đó.
 
 
 

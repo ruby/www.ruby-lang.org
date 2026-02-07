@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "MountainWest RubyConf 2009 Proposal Deadline Approaching"
+title: "Hạn chót nộp đề xuất MountainWest RubyConf 2009 sắp đến"
 author: "james"
 lang: vi
 ---
 
-[MountainWest RubyConf 2009][1] will be held March 13-14, 2009, in Salt
-Lake City, Utah, USA.
+[MountainWest RubyConf 2009][1] sẽ được tổ chức vào ngày 13-14 tháng 3
+năm 2009, tại Salt Lake City, Utah, Hoa Kỳ.
 
-The submission deadline for presentation proposals is midnight (MST) on
-December 31st, 2008.
+Hạn chót nộp đề xuất thuyết trình là nửa đêm (MST) ngày 31 tháng 12
+năm 2008.
 
-Please send your proposal to proposals@mtnwestrubyconf.org.
+Vui lòng gửi đề xuất của bạn đến proposals@mtnwestrubyconf.org.
 
-Please see [mtnwestrubyconf.org/][1] for more details.
+Vui lòng xem [mtnwestrubyconf.org/][1] để biết thêm chi tiết.
 
 
 

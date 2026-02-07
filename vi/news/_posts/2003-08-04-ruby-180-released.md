@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "ruby-1.8.0 released!"
+title: "ruby-1.8.0 đã được phát hành!"
 author: "sughimsi"
 lang: vi
 ---
 
-Long time no minor version-up…
+Đã lâu không có bản nâng cấp phiên bản phụ…
 
-Here is an initial official release of a stable version **ruby 1.8**.
+Đây là bản phát hành chính thức đầu tiên của phiên bản ổn định **ruby 1.8**.
 
-The _download site_ will lead you to the source code
-ruby-1.8.0.tar.gz. Its MD5SUM is:
+_Trang tải xuống_ sẽ dẫn bạn đến mã nguồn
+ruby-1.8.0.tar.gz. MD5SUM của nó là:
 
 <!--
 The [download site][1] will lead you to the source code
@@ -19,12 +19,12 @@ ruby-1.8.0.tar.gz. Its MD5SUM is:
 
 582a65e52598a4a1e9fce523e16e67d6
 
-Binaries are going to be there.
+Các bản nhị phân sẽ sớm có ở đó.
 
-Some features are changed from previous stable version ruby 1.6.x; See
+Một số tính năng đã thay đổi so với phiên bản ổn định trước ruby 1.6.x; Xem
 [https://cache.ruby-lang.org/pub/ruby/1.8/changes.1.8.0][2].
 
-Thank you matz, and all committers, for all your trouble!
+Cảm ơn matz, và tất cả các committer, vì mọi nỗ lực!
 
 
 

@@ -1,16 +1,17 @@
 ---
 layout: news_post
-title: "Planned maintenance of redmine.ruby-lang.org"
+title: "Bảo trì theo kế hoạch cho redmine.ruby-lang.org"
 author: "Yugui"
 lang: vi
 ---
 
-[Ruby\'s issue tracker][1] will be down from 2011-02-23 10:00+09:00 to
-24:00 for planned maintenance.
+[Hệ thống theo dõi lỗi của Ruby][1] sẽ ngừng hoạt động từ 2011-02-23
+10:00+09:00 đến 24:00 để bảo trì theo kế hoạch.
 
-If you have any issue to report, I am afraid but please post a mail to
-[ruby-core](mailto:ruby-core@ruby-lang.org) mailing list or wait for
-my finishing maintenance.
+Nếu bạn có bất kỳ vấn đề nào cần báo cáo, rất tiếc nhưng vui lòng gửi
+thư đến danh sách gửi thư
+[ruby-core](mailto:ruby-core@ruby-lang.org) hoặc đợi cho đến khi tôi
+hoàn thành việc bảo trì.
 
 
 

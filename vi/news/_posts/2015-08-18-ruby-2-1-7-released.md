@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.1.7 Released"
+title: "Phát hành Ruby 2.1.7"
 author: "usa"
 translator:
 date: 2015-08-18 16:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.7 has been released.
+Ruby 2.1.7 đã được phát hành.
 
-This release includes the security fix for a RubyGems domain name verification vulnerability.
-Please view the topic below for more details.
+Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng xác minh tên miền RubyGems.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
-And, many bug fixes are also included.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
-for details.
+Ngoài ra, nhiều bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.7.tar.bz2)
 
@@ -49,8 +49,8 @@ for details.
       SHA256: caa60d82ef958232ecbd0ac7cb95ba9f13b15c268ef4ebeef7083d21b8c9d0e9
       SHA512: 8e8dfc78f2ea7348d20b616f28cd91c0b1d7803aa17fd92a9d24abf846a49353930437ad868e2eb6e91be27f253ee66393200ffc902b8a8339a75b4d8a4b16bc
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release, especially, nagachika.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này, đặc biệt là nagachika.
 
-The maintenance of Ruby 2.1, include this release, is based on the "Agreement for the Ruby stable version" of [the Ruby Association](http://www.ruby.or.jp/).
+Việc bảo trì Ruby 2.1, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của [Ruby Association](http://www.ruby.or.jp/).

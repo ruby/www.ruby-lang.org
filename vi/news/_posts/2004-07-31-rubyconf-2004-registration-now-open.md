@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "RubyConf 2004 registration now open"
+title: "Đăng ký RubyConf 2004 đã mở"
 author: "David Black"
 lang: vi
 ---
 
-Registration for [RubyConf 2004][1] is now open. You can register
-[here][2]. The conference will be held in Chantilly, Virginia, USA,
-October 1-3. Speakers will be announced soon; check the [conference
-website][1] for updates. RubyConf 2004 is a production of [Ruby Central,
+Đăng ký cho [RubyConf 2004][1] đã mở. Bạn có thể đăng ký
+[tại đây][2]. Hội nghị sẽ được tổ chức tại Chantilly, Virginia, Hoa Kỳ,
+ngày 1-3 tháng 10. Danh sách diễn giả sẽ sớm được công bố; hãy kiểm tra [trang web
+hội nghị][1] để biết cập nhật. RubyConf 2004 là sản phẩm của [Ruby Central,
 Inc.][3]
 
 

@@ -1,15 +1,16 @@
 ---
 layout: news_post
-title: "RubyConf 2005 Registration: Time is running out"
+title: "Đăng ký RubyConf 2005: Thời gian sắp hết"
 author: "james"
 lang: vi
 ---
 
-David Black [announced][1] on ruby-talk that there are now 136
-registrants, from 12 countries, for RubyConf 2005. If you still have not
-registered, do it now. Full registration (i.e., full meal plans) ends in
-two weeks. Non-full may continue past that, but not forever. Go to the
-[RubyConf][2] site for complete registration details.
+David Black đã [thông báo][1] trên ruby-talk rằng hiện đã có 136 người
+đăng ký, từ 12 quốc gia, cho RubyConf 2005. Nếu bạn vẫn chưa đăng ký,
+hãy làm ngay bây giờ. Đăng ký đầy đủ (bao gồm bữa ăn) sẽ kết thúc
+trong hai tuần nữa. Đăng ký không bao gồm bữa ăn có thể tiếp tục sau
+đó, nhưng không phải mãi mãi. Truy cập trang [RubyConf][2] để biết chi
+tiết đăng ký đầy đủ.
 
 
 

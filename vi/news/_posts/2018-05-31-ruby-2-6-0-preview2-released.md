@@ -1,102 +1,102 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0-preview2 Released"
+title: "Phát hành Ruby 2.6.0-preview2"
 author: "naruse"
 translator:
 date: 2018-05-31 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.6.0-preview2.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.6.0-preview2.
 
-Ruby 2.6.0-preview2 is the second preview toward Ruby 2.6.0.
-This preview2 is released earlier than usual because it includes an important new feature, JIT.
+Ruby 2.6.0-preview2 là bản preview thứ hai hướng tới Ruby 2.6.0.
+Bản preview2 này được phát hành sớm hơn thường lệ vì nó bao gồm một tính năng mới quan trọng, JIT.
 
 ## JIT
 
-Ruby 2.6 introduces an initial implementation of JIT (Just-in-time) compiler.
+Ruby 2.6 giới thiệu bản triển khai ban đầu của trình biên dịch JIT (Just-in-time).
 
-JIT compiler aims to improve performance of any Ruby program execution.
-Unlike ordinary JIT compilers for other languages, Ruby's JIT compiler does JIT compilation in a unique way, which prints C code to a disk and spawns common C compiler process to generate native code.
-See also: [MJIT organization by Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
+Trình biên dịch JIT nhằm cải thiện hiệu suất thực thi của bất kỳ chương trình Ruby nào.
+Không giống các trình biên dịch JIT thông thường cho các ngôn ngữ khác, trình biên dịch JIT của Ruby thực hiện biên dịch JIT theo cách độc đáo, in mã C ra đĩa và tạo tiến trình trình biên dịch C thông thường để sinh mã native.
+Xem thêm: [Tổ chức MJIT bởi Vladimir Makarov](https://github.com/vnmakarov/ruby/tree/rtl_mjit_branch#mjit-organization).
 
-How to use: Just specify `--jit` in command line or `$RUBYOPT` environment variable.
-Specifying `--jit-verbose=1` allows to print basic information of ongoing JIT compilation. See `ruby --help` for other options.
+Cách sử dụng: Chỉ cần chỉ định `--jit` trong dòng lệnh hoặc biến môi trường `$RUBYOPT`.
+Chỉ định `--jit-verbose=1` cho phép in thông tin cơ bản về quá trình biên dịch JIT đang diễn ra. Xem `ruby --help` để biết các tùy chọn khác.
 
-The main purpose of this JIT release is to provide a chance to check if it works for your platform and to find out security risks before the 2.6 release.
-Currently JIT compiler is supported only when Ruby is built by gcc or clang and the compiler is available on runtime. Otherwise you can't use it for now.
+Mục đích chính của bản phát hành JIT này là cung cấp cơ hội để kiểm tra xem nó có hoạt động trên nền tảng của bạn không và tìm ra các rủi ro bảo mật trước bản phát hành 2.6.
+Hiện tại trình biên dịch JIT chỉ được hỗ trợ khi Ruby được biên dịch bằng gcc hoặc clang và trình biên dịch có sẵn tại thời điểm chạy. Nếu không, bạn chưa thể sử dụng nó.
 
-As of 2.6.0-preview2, we're just preparing infrastructure for JIT and very few optimizations are implemented.
-You can measure some of potential improvements in micro benchmarks with this release, but it is NOT ready for benchmarking final performance of Ruby's JIT compiler, especially for larger programs like Rails applications.
+Tính đến 2.6.0-preview2, chúng tôi chỉ mới chuẩn bị cơ sở hạ tầng cho JIT và rất ít tối ưu hóa được triển khai.
+Bạn có thể đo lường một số cải thiện tiềm năng trong các benchmark vi mô với bản phát hành này, nhưng nó CHƯA sẵn sàng để đánh giá hiệu suất cuối cùng của trình biên dịch JIT của Ruby, đặc biệt cho các chương trình lớn hơn như ứng dụng Rails.
 
-We're going to implement method iniling in JIT compiler, which is expected to increase Ruby's performance in order of magnitude.
-Also, we're planning to increase the supported platforms, and the next plan is to support Visual Studio.
+Chúng tôi sẽ triển khai method inlining trong trình biên dịch JIT, dự kiến sẽ tăng hiệu suất Ruby lên đáng kể.
+Ngoài ra, chúng tôi đang lên kế hoạch tăng số nền tảng được hỗ trợ, và kế hoạch tiếp theo là hỗ trợ Visual Studio.
 
-Stay tuned for the new age of Ruby's performance.
+Hãy đón chờ kỷ nguyên mới về hiệu suất của Ruby.
 
-## RubyVM::AST [Experimental]
+## RubyVM::AST [Thử nghiệm]
 
-Ruby 2.6 introduces `RubyVM::AST` module.
+Ruby 2.6 giới thiệu module `RubyVM::AST`.
 
-This module has `parse` method which parses a given ruby code of string and returns AST (Abstract Syntax Tree) nodes, and `parse_file` method which parses a given ruby code file and returns AST nodes.
+Module này có phương thức `parse` phân tích mã ruby cho trước dưới dạng chuỗi và trả về các nút AST (Abstract Syntax Tree), và phương thức `parse_file` phân tích tệp mã ruby cho trước và trả về các nút AST.
 
-`RubyVM::AST::Node` class is also introduced you can get location information and children nodes from `Node` objects. This feature is experimental. Compatibility of the structure of AST nodes are not guaranteed.
+Lớp `RubyVM::AST::Node` cũng được giới thiệu, bạn có thể lấy thông tin vị trí và các nút con từ các đối tượng `Node`. Tính năng này là thử nghiệm. Tính tương thích của cấu trúc các nút AST không được đảm bảo.
 
-## New Features
+## Tính năng mới
 
-* Add a new alias `then` to `Kernel#yield_self`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
+* Thêm bí danh mới `then` cho `Kernel#yield_self`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
-* `else` without `rescue` now causes a syntax error.  [EXPERIMENTAL]
+* `else` không có `rescue` giờ sẽ gây ra lỗi cú pháp. [THỬ NGHIỆM]
 
-* constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
+* Tên hằng số có thể bắt đầu bằng chữ cái viết hoa không phải ASCII. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* endless range [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
+* Dãy vô tận [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-  An endless range, `(1..)`, is introduced. It works as it has no end. This shows typical use cases:
+  Dãy vô tận `(1..)` được giới thiệu. Nó hoạt động như thể không có điểm kết thúc. Dưới đây là các trường hợp sử dụng tiêu biểu:
 
-      ary[1..]                          # identical to ary[1..-1] without magical -1
-      (1..).each {|index| ... }         # infinite loop from index 1
+      ary[1..]                          # tương đương ary[1..-1] không cần số -1 đặc biệt
+      (1..).each {|index| ... }         # vòng lặp vô hạn từ chỉ số 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Add `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
+* Thêm `Binding#source_location`. [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  This method returns the source location of binding, a 2-element array of `__FILE__` and `__LINE__`.  Traditionally, the same information could be retrieved by `eval("[__FILE__, __LINE__]", binding)`, but we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352).  So, users should use this newly-introduced method instead of `Kernel#eval`.
+  Phương thức này trả về vị trí nguồn của binding, một mảng 2 phần tử gồm `__FILE__` và `__LINE__`. Theo truyền thống, cùng thông tin có thể được lấy bằng `eval("[__FILE__, __LINE__]", binding)`, nhưng chúng tôi đang lên kế hoạch thay đổi hành vi này để `Kernel#eval` bỏ qua vị trí nguồn của binding [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352). Vì vậy, người dùng nên sử dụng phương thức mới được giới thiệu này thay vì `Kernel#eval`.
 
-* Add `:exception` option to let `Kernel.#system` raise error instead of returning `false`.  [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
+* Thêm tùy chọn `:exception` để `Kernel.#system` ném lỗi thay vì trả về `false`. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-* Speedup `Proc#call` because we don't need to care about `$SAFE` any more.
+* Tăng tốc `Proc#call` vì không còn cần quan tâm đến `$SAFE` nữa.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
-  With `lc_fizzbuzz` benchmark which uses `Proc#call` so many times we can measure
-  x1.4 improvements [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212).
+  Với benchmark `lc_fizzbuzz` sử dụng `Proc#call` rất nhiều lần, chúng tôi có thể đo được
+  cải thiện x1.4 [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212).
 
-* Speedup `block.call` where `block` is passed block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
+* Tăng tốc `block.call` khi `block` là tham số block được truyền vào. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
-  Ruby 2.5 improves block passing performance. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
-  Additionally, Ruby 2.6 improves the performance of passed block calling.
-  With micro-benchmark we can observe x2.6 improvement.
+  Ruby 2.5 cải thiện hiệu suất truyền block. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
+  Thêm vào đó, Ruby 2.6 cải thiện hiệu suất gọi block được truyền.
+  Với benchmark vi mô, chúng tôi có thể quan sát cải thiện x2.6.
 
-## Other notable changes since 2.5
+## Các thay đổi đáng chú ý khác kể từ 2.5
 
-* `$SAFE` is a process global state and we can set `0` again.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `$SAFE` là trạng thái toàn cục của tiến trình và chúng ta có thể đặt lại thành `0`. [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments are changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
+* Truyền `safe_level` cho `ERB.new` đã bị deprecated. Các tham số `trim_mode` và `eoutvar` được chuyển thành tham số từ khóa. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Merge RubyGems 3.0.0.beta1
+* Tích hợp RubyGems 3.0.0.beta1
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview2/NEWS)
-or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)
-for details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_6_0_preview2/NEWS)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)
+để biết thêm chi tiết.
 
-With those changes,
-[4699 files changed, 45744 insertions(+), 30885 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)
-since Ruby 2.5.0!
+Với các thay đổi đó,
+[4699 tệp thay đổi, 45744 thêm(+), 30885 xóa(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0_preview2)
+kể từ Ruby 2.5.0!
 
-Enjoy programming with Ruby 2.6.0-preview2!
+Hãy tận hưởng lập trình với Ruby 2.6.0-preview2!
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0-preview2.tar.gz>
 

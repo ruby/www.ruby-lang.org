@@ -1,51 +1,41 @@
 ---
 layout: news_post
-title: "2013 Fukuoka Ruby Award Competition—Entries to be judged by Matz"
+title: "Cuộc thi Giải thưởng Fukuoka Ruby 2013—Các bài dự thi được Matz chấm"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-Dear Ruby Enthusiasts,
+Gửi những người đam mê Ruby thân mến,
 
-The Government of Fukuoka, Japan, together with \"Matz\" Matsumoto,
-would like to invite you to enter the 2013 Fukuoka Ruby Competition. If
-you have developed Ruby programs within the past 12 months, this is the
-competition you\'ve been waiting for. This year, in addition to the
-Grand Prize, we will also have special awards sponsored by Engine Yard
-and Salesforce.com. Details are below.
+Chính quyền Fukuoka, Nhật Bản, cùng với "Matz" Matsumoto, xin mời bạn tham gia Cuộc thi Fukuoka Ruby 2013. Nếu bạn đã phát triển các chương trình Ruby trong 12 tháng qua, đây là cuộc thi mà bạn đang chờ đợi. Năm nay, ngoài Giải Đặc biệt, chúng tôi cũng sẽ có các giải thưởng đặc biệt được tài trợ bởi Engine Yard và Salesforce.com. Chi tiết bên dưới.
 
-2013 Fukuoka Ruby Award Competition
+Cuộc thi Giải thưởng Fukuoka Ruby 2013
 
-Entry Deadline: November 30, 2012 at 5 PM Japan Time (GMT+9)
+Hạn nộp bài: Ngày 30 tháng 11 năm 2012 lúc 5 giờ chiều giờ Nhật Bản (GMT+9)
 
-Grand Prize: 1 Million Yen!
+Giải Đặc biệt: 1 Triệu Yên!
 
-Engine Yard Award:<br>
-Engine Yard Cloud (first 5,000 hours free), invitation to Ruby Kaigi
-(includes afterparty and 50,000JPY toward transportation costs for 2
-people), and an Apple iPad Mini 32GB WiFi Black &amp; Slate (engraved
-with a special message).
+Giải Engine Yard:<br>
+Engine Yard Cloud (5.000 giờ đầu miễn phí), lời mời tham dự Ruby Kaigi (bao gồm tiệc sau sự kiện và 50.000 JPY hỗ trợ chi phí đi lại cho 2 người), và một Apple iPad Mini 32GB WiFi Black &amp; Slate (được khắc thông điệp đặc biệt).
 
-Salesforce.com Award:<br>
-500,000 JPY, introduction on the [http://www.salesforce.com/jp/][1]
-website, Dreamforce tickets for 3 people.
+Giải Salesforce.com:<br>
+500.000 JPY, giới thiệu trên trang web [http://www.salesforce.com/jp/][1], vé Dreamforce cho 3 người.
 
-Please visit [this website][2] for additional details or to enter.
+Vui lòng truy cập [trang web này][2] để biết thêm chi tiết hoặc đăng ký tham gia.
 
-Past winners from US include Rhomobile, Banjo, and VMware.
+Những người chiến thắng trước đó từ Mỹ bao gồm Rhomobile, Banjo và VMware.
 
-Past winners:<br>
+Những người chiến thắng trước đó:<br>
 [2012][3]<br>
 [2011][4]<br>
 [2010][5]<br>
 [2009][6]
 
-Engine Yard CEO and VMware CTO of Cloud Applications also joined us at
-[the last award ceremony][7].
+CEO của Engine Yard và CTO Cloud Applications của VMware cũng đã tham gia tại [buổi lễ trao giải lần trước][7].
 
-We look forward to receiving your entry!
+Chúng tôi mong nhận được bài dự thi của bạn!
 
-Best regards,
+Trân trọng,
 
 
 

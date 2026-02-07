@@ -5,23 +5,23 @@ author: "James Edward Gray II"
 lang: vi
 ---
 
-Continuing in Google’s great tradition of encouraging student open
-source development, [Ruby Central][1], [Engine Yard][2], and the [Rails
-core team][3] are teaming up to present the first annual [Ruby Summer of
-Code][4].
+Tiếp nối truyền thống tuyệt vời của Google trong việc khuyến khích phát
+triển mã nguồn mở cho sinh viên, [Ruby Central][1], [Engine Yard][2],
+và [đội ngũ Rails core][3] đang hợp tác để tổ chức [Ruby Summer of
+Code][4] hàng năm lần đầu tiên.
 
-Head over to [rubysoc.org][4] to get started and follow [@rubysoc][5]
-for news.
+Truy cập [rubysoc.org][4] để bắt đầu và theo dõi [@rubysoc][5] để cập
+nhật tin tức.
 
-The summer will follow Google’s example closely:
+Mùa hè sẽ tuân theo mô hình của Google:
 
-* students are paid a $5000 stipend to work full-time during their
-  summer break
-* a group of Ruby gurus volunteer their time as mentors
-* mentors vote on student proposals based on usefulness, benefit to the
-  Ruby community, and history of motivated open source contribution
+* sinh viên được trả $5000 để làm việc toàn thời gian trong kỳ nghỉ hè
+* một nhóm chuyên gia Ruby tình nguyện làm cố vấn
+* các cố vấn bỏ phiếu cho đề xuất của sinh viên dựa trên tính hữu ích,
+  lợi ích cho cộng đồng Ruby, và lịch sử đóng góp mã nguồn mở tích cực
 
-The more we raise, the more students we can fund. [Donate now!][4]
+Chúng tôi gây quỹ được càng nhiều, chúng tôi có thể tài trợ cho càng
+nhiều sinh viên. [Quyên góp ngay!][4]
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.4.0 preview2 Released"
+title: "Phát hành Ruby 3.4.0 preview2"
 author: "naruse"
 translator:
 date: 2024-10-07 00:00:00 +0000
@@ -8,53 +8,53 @@ lang: vi
 ---
 
 {% assign release = site.data.releases | where: "version", "3.4.0-preview2" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}.
+Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}.
 
 ## Prism
 
-Switch the default parser from parse.y to Prism. [[Feature #20564]]
+Chuyển trình phân tích mặc định từ parse.y sang Prism. [[Feature #20564]]
 
-## Language changes
+## Thay đổi ngôn ngữ
 
-* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
-  when they are mutated.
-  These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
-  To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
-  command line argument. [[Feature #20205]]
+* Các chuỗi ký tự trong các tập tin không có comment `frozen_string_literal` giờ đây phát ra cảnh báo deprecation
+  khi chúng bị thay đổi.
+  Các cảnh báo này có thể được bật với `-W:deprecated` hoặc bằng cách đặt `Warning[:deprecated] = true`.
+  Để tắt thay đổi này, bạn có thể chạy Ruby với tham số dòng lệnh `--disable-frozen-string-literal`.
+  [[Feature #20205]]
 
-* `it` is added to reference a block parameter. [[Feature #18980]]
+* `it` được thêm để tham chiếu đến tham số block. [[Feature #18980]]
 
-* Keyword splatting `nil` when calling methods is now supported.
-  `**nil` is treated similarly to `**{}`, passing no keywords,
-  and not calling any conversion methods.  [[Bug #20064]]
+* Giờ đây hỗ trợ keyword splatting `nil` khi gọi phương thức.
+  `**nil` được xử lý tương tự như `**{}`, không truyền keyword nào,
+  và không gọi bất kỳ phương thức chuyển đổi nào.  [[Bug #20064]]
 
-* Block passing is no longer allowed in index.  [[Bug #19918]]
+* Không còn cho phép truyền block trong index.  [[Bug #19918]]
 
-* Keyword arguments are no longer allowed in index.  [[Bug #20218]]
+* Không còn cho phép keyword arguments trong index.  [[Bug #20218]]
 
-## Core classes updates
+## Cập nhật các lớp lõi
 
-Note: We're only listing outstanding class updates.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật lớp nổi bật.
 
 * Exception
 
-  * `Exception#set_backtrace` now accepts an array of `Thread::Backtrace::Location`.
-    `Kernel#raise`, `Thread#raise` and `Fiber#raise` also accept this new format. [[Feature #13557]]
+  * `Exception#set_backtrace` giờ đây chấp nhận mảng `Thread::Backtrace::Location`.
+    `Kernel#raise`, `Thread#raise` và `Fiber#raise` cũng chấp nhận định dạng mới này. [[Feature #13557]]
 
 * Range
 
-  * `Range#size` now raises `TypeError` if the range is not iterable. [[Misc #18984]]
+  * `Range#size` giờ đây ném `TypeError` nếu range không thể lặp. [[Misc #18984]]
 
 
 
-## Compatibility issues
+## Vấn đề tương thích
 
-Note: Excluding feature bug fixes.
+Lưu ý: Không bao gồm các bản sửa lỗi tính năng.
 
-* Error messages and backtrace displays have been changed.
-  * Use a single quote instead of a backtick as a opening quote. [[Feature #16495]]
-  * Display a class name before a method name (only when the class has a permanent name). [[Feature #19117]]
-  * `Kernel#caller`, `Thread::Backtrace::Location`'s methods, etc. are also changed accordingly.
+* Thông báo lỗi và hiển thị backtrace đã được thay đổi.
+  * Sử dụng dấu nháy đơn thay vì dấu backtick làm dấu mở ngoặc. [[Feature #16495]]
+  * Hiển thị tên lớp trước tên phương thức (chỉ khi lớp có tên cố định). [[Feature #19117]]
+  * `Kernel#caller`, các phương thức của `Thread::Backtrace::Location`, v.v. cũng được thay đổi tương ứng.
 
   ```
   Old:
@@ -66,42 +66,42 @@ Note: Excluding feature bug fixes.
           from test.rb:2:in '<main>'
   ```
 
-* `Hash#inspect` rendering has changed. [[Bug #20433]]
-  * Symbol keys are displayed using the modern symbol key syntax: `"{user: 1}"`
-  * Other keys now have spaces around `=>`: `'{"user" => 1}'`, while previously they didn't: `'{"user"=>1}'`
+* Hiển thị `Hash#inspect` đã được thay đổi. [[Bug #20433]]
+  * Các khóa Symbol được hiển thị bằng cú pháp khóa symbol hiện đại: `"{user: 1}"`
+  * Các khóa khác giờ đây có khoảng trắng xung quanh `=>`: `'{"user" => 1}'`, trong khi trước đó không có: `'{"user"=>1}'`
 
-## C API updates
+## Cập nhật C API
 
-* `rb_newobj` and `rb_newobj_of` (and corresponding macros `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) have been removed. [[Feature #20265]]
-* Removed deprecated function `rb_gc_force_recycle`. [[Feature #18290]]
+* `rb_newobj` và `rb_newobj_of` (và các macro tương ứng `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) đã được loại bỏ. [[Feature #20265]]
+* Loại bỏ hàm deprecated `rb_gc_force_recycle`. [[Feature #18290]]
 
-## Implementation improvements
+## Cải thiện triển khai
 
-* `Array#each` is rewritten in Ruby for better performance [[Feature #20182]].
+* `Array#each` được viết lại bằng Ruby để có hiệu suất tốt hơn [[Feature #20182]].
 
-## Miscellaneous changes
+## Thay đổi khác
 
-* Passing a block to a method which doesn't use the passed block will show
-  a warning on verbose mode (`-w`).
+* Truyền block cho một phương thức không sử dụng block đã truyền sẽ hiển thị
+  cảnh báo ở chế độ verbose (`-w`).
   [[Feature #15554]]
 
-* Redefining some core methods that are specially optimized by the interpeter
-  and JIT like `String.freeze` or `Integer#+` now emits a performance class
-  warning (`-W:performance` or `Warning[:performance] = true`).
+* Định nghĩa lại một số phương thức lõi được tối ưu hóa đặc biệt bởi trình thông dịch
+  và JIT như `String.freeze` hoặc `Integer#+` giờ đây sẽ phát ra cảnh báo hiệu suất
+  (`-W:performance` hoặc `Warning[:performance] = true`).
   [[Feature #20429]]
 
-See GitHub releases like [Logger](https://github.com/ruby/logger/releases) or
-changelog for details of the default gems or bundled gems.
+Xem các bản phát hành trên GitHub như [Logger](https://github.com/ruby/logger/releases) hoặc
+changelog để biết chi tiết về các gem mặc định hoặc gem đi kèm.
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.3.0!
+Với những thay đổi đó, [{{ release.stats.files_changed }} tập tin thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa đi(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.3.0!
 
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -124,11 +124,11 @@ since Ruby 3.3.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.
 
 [Feature #13557]: https://bugs.ruby-lang.org/issues/13557
 [Feature #15554]: https://bugs.ruby-lang.org/issues/15554

@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.1.8 Released"
+title: "Phát hành Ruby 2.1.8"
 author: "usa"
 translator:
 date: 2015-12-16 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.8 has been released.
+Ruby 2.1.8 đã được phát hành.
 
-This release includes a security fix for the Fiddle and DL extensions.
-Please view the topic below for more details.
+Bản phát hành này bao gồm bản vá bảo mật cho phần mở rộng Fiddle và DL.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
 * [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
-And, many bug fixes are also included.
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog)
-for details.
+Ngoài ra, nhiều bản sửa lỗi cũng được bao gồm.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.8.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.8.tar.bz2)
 
@@ -48,8 +48,8 @@ for details.
       SHA256: 6e0491e029a6f4c40bc091033c5bc91f65438f3f9153f93f1b86889521e79cee
       SHA512: 2f9409460c8729fff96522baf5c4a74e1a648db1749a471ee3b6523d8c01e1faaf5f17afdffcaf355654f23e8c2ac392830109dd68dfc4e5a694d95155c593b6
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.1, including this release, is based on the "Agreement for the Ruby stable version" of the [Ruby Association](http://www.ruby.or.jp/).
+Việc bảo trì Ruby 2.1, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của [Ruby Association](http://www.ruby.or.jp/).

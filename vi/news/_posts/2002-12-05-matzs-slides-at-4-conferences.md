@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Matz's Slides at 4 conferences"
+title: "Slide của Matz tại 4 hội nghị"
 author: "NaHi"
 lang: vi
 ---
 
-Matz’s Slides at Ruby Conference 2002, OOPSLA2002, LL2 and
-O+F Kansai (Japanese) are available.
+Các slide của Matz tại Ruby Conference 2002, OOPSLA2002, LL2 và
+O+F Kansai (tiếng Nhật) đã có sẵn.
 
 [Ruby Conference 2002][1]
-: Slides: [http://www.rubyist.net/~matz/slides/rc2002/](http://www.rubyist.net/~matz/slides/rc2002/)
+: Slide: [http://www.rubyist.net/~matz/slides/rc2002/](http://www.rubyist.net/~matz/slides/rc2002/)
 
 [OOPSLA 2002][2]
-: Slides: [http://www.rubyist.net/~matz/slides/oopsla2002/](http://www.rubyist.net/~matz/slides/oopsla2002/)
+: Slide: [http://www.rubyist.net/~matz/slides/oopsla2002/](http://www.rubyist.net/~matz/slides/oopsla2002/)
 
 [LL2][3]
-: Slides: [http://www.rubyist.net/~matz/slides/ll2/](http://www.rubyist.net/~matz/slides/ll2/)
+: Slide: [http://www.rubyist.net/~matz/slides/ll2/](http://www.rubyist.net/~matz/slides/ll2/)
 
 [KANSAI OPENSOURCE+FREEWARE 2002][4]
-: Slides: [http://www.rubyist.net/~matz/slides/of-kansai2002/](http://www.rubyist.net/~matz/slides/of-kansai2002/)
+: Slide: [http://www.rubyist.net/~matz/slides/of-kansai2002/](http://www.rubyist.net/~matz/slides/of-kansai2002/)
 
-Last item is in Japanese.
-Compare it with LL2 slides in English to learn Japanese. :)
+Mục cuối cùng bằng tiếng Nhật.
+Hãy so sánh nó với slide LL2 bằng tiếng Anh để học tiếng Nhật. :)
 
 
 [1]: http://www.rubyconf.org/index.php

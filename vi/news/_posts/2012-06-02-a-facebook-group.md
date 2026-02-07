@@ -1,20 +1,11 @@
 ---
 layout: news_post
-title: "A Facebook Group"
+title: "Nhóm Facebook"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-There is a new way to communicate with your fellow Ruby developers.
-Introducing the new Facebook group for the [Ruby Programming
-Language][1]. This group will allow for developers to communicate with
-fellow Ruby programmers and provide a means for collaborative solutions
-to problems members may face. It will also serve as source for news
-about the Ruby project, and events–such as local workshops–related to
-it. I present this group with great excitement and encourage all Ruby
-developers to join and invite others. We can create a powerful
-community, and the people you meet and work with here could possibly be
-recruited for projects you will likely be working on in the future.
+Có một cách mới để giao tiếp với các lập trình viên Ruby đồng nghiệp. Giới thiệu nhóm Facebook mới dành cho [Ngôn ngữ Lập trình Ruby][1]. Nhóm này sẽ cho phép các lập trình viên giao tiếp với các lập trình viên Ruby khác và cung cấp phương tiện để cùng nhau giải quyết các vấn đề mà các thành viên có thể gặp phải. Nhóm cũng sẽ là nguồn tin tức về dự án Ruby, và các sự kiện — như các buổi hội thảo địa phương — liên quan đến nó. Tôi giới thiệu nhóm này với sự hào hứng lớn và khuyến khích tất cả các lập trình viên Ruby tham gia và mời người khác. Chúng ta có thể tạo ra một cộng đồng mạnh mẽ, và những người bạn gặp và làm việc cùng ở đây có thể được tuyển dụng cho các dự án mà bạn có thể sẽ làm việc trong tương lai.
 
 
 

@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Upgrade to Debian GNU/Linux 3.1"
+title: "Nâng cấp lên Debian GNU/Linux 3.1"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-We’ll upgrade this host to Debian GNU/Linux 3.1 (sarge) on Wed Jun 29
-05:00:00 UTC 2005. Services will be stopped for a while. Successfully
-DONE. Thank you.
+Chúng tôi sẽ nâng cấp máy chủ này lên Debian GNU/Linux 3.1 (sarge) vào
+Thứ Tư ngày 29 tháng 6 năm 2005 lúc 05:00:00 UTC. Các dịch vụ sẽ bị
+tạm dừng trong một khoảng thời gian. Đã HOÀN TẤT thành công. Xin cảm ơn.

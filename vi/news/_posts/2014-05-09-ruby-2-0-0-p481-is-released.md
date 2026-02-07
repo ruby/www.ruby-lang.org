@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p481 is released"
+title: "Ruby 2.0.0-p481 đã được phát hành"
 author: "usa"
 translator:
 date: 2014-05-09 03:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.0.0-p481.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p481.
 
-This release includes many bugfixes, such as:
+Bản phát hành này bao gồm nhiều bản sửa lỗi, như:
 
-* support for build with Readline-6.3,
-* a fix for old OpenSSL (regression in p451),
-* an updated bundled version of libyaml
-  (see [Heap Overflow in YAML URI Escape Parsing (CVE-2014-2525)](https://www.ruby-lang.org/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
+* hỗ trợ build với Readline-6.3,
+* sửa lỗi cho OpenSSL cũ (lỗi hồi quy trong p451),
+* phiên bản libyaml đi kèm đã được cập nhật
+  (xem [Tràn bộ nhớ Heap trong phân tích YAML URI Escape (CVE-2014-2525)](https://www.ruby-lang.org/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) for details.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p481.tar.bz2)
 
@@ -39,7 +39,7 @@ and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) 
       MD5:    1cdf06d1a58f3103e9ed7e072d680b19
       SHA256: 7457cdfac36cefcb0721b0520371939926fa755759631c90dd91e64e986eb23d
 
-## Release Comment
+## Ghi chú phát hành
 
-I'm grateful to everybody who supports Ruby.
-Thank you.
+Tôi biết ơn tất cả những ai hỗ trợ Ruby.
+Cảm ơn.

@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Happy Birthday, Ruby"
+title: "Chúc mừng sinh nhật, Ruby"
 author: "NaHi"
 lang: vi
 ---
 
-(dblack posted an article ‘Happy Birthday, Ruby, and an announcement….’
-\[ruby-talk:65632\]. Following is excerpted from the article.)
+(dblack đã đăng bài viết 'Happy Birthday, Ruby, and an announcement….'
+\[ruby-talk:65632\]. Dưới đây là trích từ bài viết.)
 
-> Today, February 24, 2003, is Ruby’s 10th birthday. Happy Birthday,
-> Ruby! And congratz to Matz!
+> Hôm nay, ngày 24 tháng 2 năm 2003, là sinh nhật lần thứ 10 của Ruby. Chúc mừng sinh nhật,
+> Ruby! Và xin chúc mừng Matz!
 
-dblack also announces the new non-profit organization [Ruby Central,
-Inc][1] and RubyConf 2003!. See [\[ruby-talk:65632\]][2].
+dblack cũng thông báo về tổ chức phi lợi nhuận mới [Ruby Central,
+Inc][1] và RubyConf 2003!. Xem [\[ruby-talk:65632\]][2].
 
 
 

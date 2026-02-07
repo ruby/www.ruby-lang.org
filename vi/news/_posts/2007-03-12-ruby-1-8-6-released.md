@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Ruby 1.8.6 released!"
+title: "Ruby 1.8.6 đã được phát hành!"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Ruby 1.8.6 has been released (see the [announcement on Ruby-Talk][1]).
-The source is available in three formats:
+Ruby 1.8.6 đã được phát hành (xem [thông báo trên Ruby-Talk][1]).
+Mã nguồn có sẵn ở ba định dạng:
 
 * [ruby-1.8.6.tar.bz2][2] (3.8 MB)
 
@@ -23,14 +23,15 @@ The source is available in three formats:
       md5: 5f4b82cec8f437634e05a3ce9bb3ca67
       sha256: c4b011d66b3f7e3bddbdf61a7404120d5ac80c6b742ad08e7e75b6d14ee56e76
 
-For a brief list of user visible changes and a full list of all changes
-since 1.8.5, see the bundled files [NEWS][5] and [ChangeLog][6].
+Để xem danh sách ngắn gọn các thay đổi hiển thị cho người dùng và danh
+sách đầy đủ tất cả thay đổi kể từ 1.8.5, hãy xem các tệp đi kèm
+[NEWS][5] và [ChangeLog][6].
 
-After this announcement, we will start the development for 1.8.7 as well
-as maintaining the “ruby\_1\_8\_6” branch on which only critical bugs
-and security vulnerabilities found in the 1.8.6 release are fixed, and
-patch releases will follow on appropriate and timely occasions. Please
-check them out after upgrading Ruby to 1.8.6.
+Sau thông báo này, chúng tôi sẽ bắt đầu phát triển 1.8.7 cũng như duy
+trì nhánh "ruby\_1\_8\_6" trên đó chỉ các lỗi nghiêm trọng và lỗ hổng
+bảo mật được tìm thấy trong bản phát hành 1.8.6 mới được sửa, và các
+bản vá sẽ được phát hành vào thời điểm thích hợp. Vui lòng kiểm tra
+sau khi nâng cấp Ruby lên 1.8.6.
 
 
 

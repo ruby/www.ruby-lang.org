@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3 preview1 has been released"
+title: "Ruby 1.9.3 preview1 đã được phát hành"
 author: "Moru"
 lang: vi
 ---
 
-Ruby 1.9.3 preview1 has been released. This is a first preview of next
-version and there\'re still minor known issues. But it will be fixed in
-next release, Ruby 1.9.3-p0.
+Ruby 1.9.3 preview1 đã được phát hành. Đây là bản xem trước đầu tiên
+của phiên bản tiếp theo và vẫn còn một số vấn đề nhỏ đã biết. Nhưng
+chúng sẽ được sửa trong bản phát hành tiếp theo, Ruby 1.9.3-p0.
 
-See [ChangeLogs][1] and [NEWS][2] for the descriptions.
+Xem [ChangeLogs][1] và [NEWS][2] để biết mô tả.
 
-Ruby Inside has published [a review of this release][3].
+Ruby Inside đã đăng [bài đánh giá về bản phát hành này][3].
 
-## Downloads
+## Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2&gt;][4]
   SIZE: 9507455 bytes
@@ -30,26 +30,26 @@ Ruby Inside has published [a review of this release][3].
   MD5: 960e08b2dc866c9987f17d0480de63a1
   SHA256: 249483f88156b4ae65cd45742c6f6316660f793b78739657596c63b86f76aaeb
 
-## Differences from previous version
+## Khác biệt so với phiên bản trước
 
-Previous Ruby versions was licensed under \"GPLv2\" and \"Ruby\" license
-but \"2-clause BSDL\"(AKA Simplified BSD License) and \"Ruby\" license
-been replacement of them.
+Các phiên bản Ruby trước đó được cấp phép theo "GPLv2" và giấy phép
+"Ruby" nhưng "2-clause BSDL" (hay còn gọi là Simplified BSD License) và
+giấy phép "Ruby" đã thay thế chúng.
 
 ### Encoding
 
-SJIS changed to alias for Windows-31J, instead of Shift\_JIS.
+SJIS đã thay đổi thành bí danh cho Windows-31J, thay vì Shift\_JIS.
 
-### Standard Libraries
+### Thư viện chuẩn
 
-* io/console: Add capabilities to IO instances.
+* io/console: Thêm khả năng cho các instance IO.
 * openssl
-* test/unit: supports parallel test
+* test/unit: hỗ trợ test song song
 
-### Other changes
+### Các thay đổi khác
 
-* pathname and date are re-implemented on current preview.
-* A purpose of VM locking is changed.
+* pathname và date được triển khai lại trong bản xem trước hiện tại.
+* Mục đích của VM locking đã thay đổi.
 
 
 

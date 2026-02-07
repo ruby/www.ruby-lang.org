@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Ruby Pocket Reference"
+title: "Sổ tay tham khảo Ruby"
 author: "Matz"
 lang: vi
 ---
 
-O’Reilly finally decided to publish translation of Ruby Pocket
-Reference. It will be [full-sized book titled “Ruby in a Nutshell”][1].
+O'Reilly cuối cùng đã quyết định xuất bản bản dịch của Ruby Pocket
+Reference. Nó sẽ là [cuốn sách đầy đủ có tên "Ruby in a Nutshell"][1].
 
 
 

@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p385 is released"
+title: "Phát hành Ruby 1.9.3-p385"
 author: "usa"
 date: 2013-02-06 13:35:58 +0000
 lang: vi
 ---
 
-Now Ruby 1.9.3-p385 is released.
+Ruby 1.9.3-p385 đã được phát hành.
 
-This release includes a security fix about bundled RDoc. See [this
-page][1] for details.
+Bản phát hành này bao gồm một bản sửa lỗi bảo mật về RDoc đi kèm. Xem
+[trang này][1] để biết chi tiết.
 
-And some small bugfixes are also included.
+Một số bản sửa lỗi nhỏ cũng được bao gồm.
 
-See [tickets][2] and [ChangeLog][3] for details.
+Xem [tickets][2] và [ChangeLog][3] để biết chi tiết.
 
-## Download
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p385.tar.bz2&gt;][4]
 
@@ -37,10 +37,10 @@ You can download this release from:
       MD5:    044564fe519a2c8e278472c4272b3ff2
       SHA256: 0cb389fcc1ac9fccf32f3db27497908b7365aa910b6dd1559389416e828addc5
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many committers, testers and users who gave bug reports greatly helped
-me to make this release. Thanks for their contributions.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp đỡ rất
+nhiều trong việc tạo ra bản phát hành này. Cảm ơn những đóng góp của họ.
 
 Happy Hacking!
 

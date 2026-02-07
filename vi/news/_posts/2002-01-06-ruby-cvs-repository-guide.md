@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "Ruby CVS Repository Guide"
+title: "Hướng dẫn kho CVS của Ruby"
 author: "Unknown Author"
 lang: vi
 ---
 
-The source code of Ruby is stored in CVS repositories. You can walk them
-around by CVSweb:
+Mã nguồn của Ruby được lưu trữ trong các kho CVS. Bạn có thể duyệt chúng
+thông qua CVSweb:
 
 * https://www.ruby-lang.org/cgi-bin/cvsweb.cgi/
 
-Anonymous CVS is also available:
+CVS ẩn danh cũng có sẵn:
 
     $ cvs -d :pserver:anonymous@cvs.ruby-lang.org:/src login
     (Logging in to anonymous@cvs.ruby-lang.org)
@@ -27,13 +27,13 @@ Anonymous CVS is also available:
     CVS password:
     $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/www co www
 
-No password is required. Please just press Enter.
+Không cần mật khẩu. Chỉ cần nhấn Enter.
 
-In addition, CVSup is also available:
+Ngoài ra, CVSup cũng có sẵn:
 
 * http://cvs.ruby-lang.org/cvsup/
 
-You’ll find “supfiles” here. With them, you can get a part of or a whole
-repository by means of CVSup.
+Bạn sẽ tìm thấy các "supfile" ở đây. Với chúng, bạn có thể lấy một phần hoặc
+toàn bộ kho lưu trữ bằng CVSup.
 
-That’s all, folks! Happy hacking!
+Vậy thôi nhé! Chúc bạn lập trình vui vẻ!

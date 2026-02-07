@@ -1,38 +1,38 @@
 ---
 layout: news_post
-title: "Ruby 1.9.1-p376 is released"
+title: "Ruby 1.9.1-p376 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.1-p376 just has been released. This is a patch level release of
-Ruby 1.9.1 and includes the fix of CVE-2009-4124.
+Ruby 1.9.1-p376 vừa được phát hành. Đây là bản phát hành patch level
+của Ruby 1.9.1 và bao gồm bản sửa cho CVE-2009-4124.
 
 #### CVE-2009-4124
 
-The previous release, Ruby 1.9.1-p243 has a [security vulnerability that
-allows heap overflow][1]. This vulnerability was found by Emmanouel
+Bản phát hành trước, Ruby 1.9.1-p243 có một [lỗ hổng bảo mật cho phép
+tràn bộ nhớ heap][1]. Lỗ hổng này được phát hiện bởi Emmanouel
 Kellinis, KPMG London.
 
-I recommend all Ruby 1.9.1 users to upgrade to p376. But the
-vulnerability does not affect Ruby 1.8 series.
+Tôi khuyến nghị tất cả người dùng Ruby 1.9.1 nâng cấp lên p376. Tuy
+nhiên lỗ hổng không ảnh hưởng đến dòng Ruby 1.8.
 
-#### Other fixes
+#### Các bản sửa lỗi khác
 
-In addition, 1.9.1-p376 includes &gt; 100 bug fixes.
+Ngoài ra, 1.9.1-p376 bao gồm &gt; 100 bản sửa lỗi.
 
-* Irb extension commands had been broken. It was fixed.
-* Ripper had not been able to parse some Ruby codes. It was fixed.
-* Fixed build failures on AIX.
-* Some bug fixes of Matrix.
-* Can load gems which is installed in an user\'s home directory.
-* Some method became returning a string with a correct encoding.
+* Các lệnh mở rộng Irb đã bị hỏng. Đã được sửa.
+* Ripper không thể phân tích một số mã Ruby. Đã được sửa.
+* Sửa lỗi build trên AIX.
+* Một số bản sửa lỗi của Matrix.
+* Có thể tải gems được cài đặt trong thư mục home của người dùng.
+* Một số phương thức đã trả về chuỗi với encoding chính xác.
 
-See the ChangeLog for more detail.
+Xem ChangeLog để biết thêm chi tiết.
 
 * [&lt;URL:https://svn.ruby-lang.org/repos/ruby/branches/ruby\_1\_9\_1/ChangeLog&gt;][2]
 
-#### Location
+#### Địa chỉ tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2&gt;][3]
   SIZE

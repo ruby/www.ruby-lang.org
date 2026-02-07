@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-rc2 is released"
+title: "Phát hành Ruby 2.0.0-rc2"
 author: "Yusuke Endoh"
 date: 2013-02-08 14:34:17 +0000
 lang: vi
 ---
 
-Ruby 2.0.0-rc2 is released. This will be the last release candidate of
-Ruby 2.0.0.
+Ruby 2.0.0-rc2 đã được phát hành. Đây sẽ là bản release candidate cuối
+cùng của Ruby 2.0.0.
 
-Please give it a try, and report any issue if you notice.
+Vui lòng dùng thử, và báo cáo bất kỳ vấn đề nào nếu bạn phát hiện.
 
-## Locations
+## Địa chỉ tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2&gt;][1]
 
@@ -31,27 +31,27 @@ Please give it a try, and report any issue if you notice.
       MD5:    1a2d33f1c50e32ca1532f8dea4790d53
       SHA256: c28e9baf3aa00b41b8823c16df436ae143e8a63e43e7a53302f23119e13d0ebf
 
-## New features in 2.0.0
+## Tính năng mới trong 2.0.0
 
 * Keyword arguments
 * Enumerable#lazy
 * Module#prepend
-* \#to\_h: Convention for conversion to Hash
-* %i: a literal for symbol array
-* Updated regexp engine: Onigmo (a fork of Oniguruma)
-* Enumerator#size and Range#size were introduced
-* DTrace support
+* \#to\_h: Quy ước cho việc chuyển đổi sang Hash
+* %i: literal cho mảng symbol
+* Cập nhật regexp engine: Onigmo (một fork của Oniguruma)
+* Giới thiệu Enumerator#size và Range#size
+* Hỗ trợ DTrace
 * TracePoint
-* Optimized require performance (especially, on Windows)
-* NativeClient support
-* Documentation improvement
-* Enhanced asynchronous interrupt handling
-* Launch-time stack size tuning parameters
-* Refinements \[experimental\]
+* Tối ưu hóa hiệu suất require (đặc biệt, trên Windows)
+* Hỗ trợ NativeClient
+* Cải thiện tài liệu
+* Cải thiện xử lý ngắt bất đồng bộ
+* Các tham số điều chỉnh kích thước stack khi khởi động
+* Refinements \[thử nghiệm\]
 
-... and more improvements. See NEWS for details.
+... và nhiều cải tiến khác. Xem NEWS để biết chi tiết.
 
-Here are some introductory articles by third parties:
+Dưới đây là một số bài giới thiệu từ bên thứ ba:
 
 * [&lt;URL:https://speakerdeck.com/a\_matsuda/ruby-2-dot-0-on-rails&gt;][4]
 * [&lt;URL:http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/&gt;][5]
@@ -59,48 +59,48 @@ Here are some introductory articles by third parties:
 * [&lt;URL:http://timelessrepo.com/refinements-in-ruby&gt;][7]
   (Refinements)
 * [&lt;URL:http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html&gt;][8]
-  (in Japanese)
+  (tiếng Nhật)
 * [&lt;URL:https://speakerdeck.com/nagachika/rubyist-enumeratorlazy&gt;][9]
-  (Enumerator::Lazy, in Japanese)
+  (Enumerator::Lazy, tiếng Nhật)
 
-(If you volunteer to provide additional articles, we may cite or refer
-to them in the next release announcement.)
+(Nếu bạn tình nguyện cung cấp thêm bài viết, chúng tôi có thể trích dẫn hoặc
+tham chiếu chúng trong thông báo phát hành tiếp theo.)
 
-## Notes
+## Ghi chú
 
-### Incompatibility
+### Không tương thích
 
-There are three notable incompatibilities we know of:
+Có ba điểm không tương thích đáng chú ý mà chúng tôi biết:
 
-* The default encoding for ruby scripts is now UTF-8 [\[#6679\]][10].
-  Some people report that it affects existing programs, such as some
-  benchmark programs becoming very slow [\[ruby-dev:46547\]][11]. The
-  spec may change for the official release.
-* iconv was removed, which had already been deprecated when M17N was
-  introduced in ruby 1.9. Use String#encode, etc. instead.
-* There is ABI breakage [\[ruby-core:48984\]][12]. We think that normal
-  users can/should just reinstall extension libraries. You should be
-  aware: \"DO NOT COPY .so OR .bundle FILES FROM 1.9\".
+* Encoding mặc định cho các script ruby giờ là UTF-8 [\[#6679\]][10].
+  Một số người báo cáo rằng điều này ảnh hưởng đến các chương trình hiện có,
+  chẳng hạn như một số chương trình benchmark trở nên rất chậm
+  [\[ruby-dev:46547\]][11]. Spec có thể thay đổi cho bản phát hành chính thức.
+* iconv đã bị loại bỏ, trước đó đã bị deprecated khi M17N được giới thiệu
+  trong ruby 1.9. Sử dụng String#encode, v.v. thay thế.
+* Có sự thay đổi ABI [\[ruby-core:48984\]][12]. Chúng tôi nghĩ rằng người
+  dùng bình thường có thể/nên cài đặt lại các thư viện mở rộng. Bạn nên lưu
+  ý: \"KHÔNG SAO CHÉP CÁC FILE .so HOẶC .bundle TỪ 1.9\".
 
-There are some comparatively small incompatibilities.
-[\[ruby-core:49119\]][13] Please report any other incompatibility you
-notice.
+Có một số điểm không tương thích nhỏ hơn.
+[\[ruby-core:49119\]][13] Vui lòng báo cáo bất kỳ điểm không tương thích nào
+khác mà bạn phát hiện.
 
-FYI: We are creating upgrade notes, but some parts are already outdated.
+Tham khảo: Chúng tôi đang tạo ghi chú nâng cấp, nhưng một số phần đã lỗi thời.
 
 * [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200UpgradeNotesDraft&gt;][14]
 
-### Status of Refinements
+### Trạng thái của Refinements
 
-2\.0.0 will include refinements as an \"experimental feature\" because we
-could not agree on its detailed spec. Note that the behavior may change
-in future versions of Ruby.
+2\.0.0 sẽ bao gồm refinements như một \"tính năng thử nghiệm\" vì chúng tôi
+không thể thống nhất về spec chi tiết của nó. Lưu ý rằng hành vi có thể thay
+đổi trong các phiên bản Ruby tương lai.
 
-### Special thanks
+### Lời cảm ơn đặc biệt
 
-I appreciate all who try preview and rc1 release! I\'m grateful for all
-the contributors\' hard work to fix many bugs. I\'m really thankful to
-all the people who helped me do this release.
+Tôi đánh giá cao tất cả những người đã thử các bản preview và rc1! Tôi biết
+ơn sự chăm chỉ của tất cả những người đóng góp trong việc sửa nhiều lỗi. Tôi
+thực sự cảm ơn tất cả những người đã giúp tôi thực hiện bản phát hành này.
 
 
 

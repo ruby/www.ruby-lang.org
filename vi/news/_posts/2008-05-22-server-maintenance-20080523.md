@@ -1,9 +1,10 @@
 ---
 layout: news_post
-title: "Server maintenance"
+title: "Bảo trì máy chủ"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Services on ruby-lang.org except SVN will be down for server maintenance
-on Fri May 23 02:00:00 UTC 2008. Sorry for inconvenience.
+Các dịch vụ trên ruby-lang.org ngoại trừ SVN sẽ ngừng hoạt động để bảo
+trì máy chủ vào Thứ Sáu ngày 23 tháng 5 năm 2008 lúc 02:00:00 UTC. Xin
+lỗi vì sự bất tiện.

@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Anonymous CVS Service Stopped"
+title: "Dịch vụ CVS ẩn danh đã dừng"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-We stopped the anonymous CVS service because of [Security Update of
-CVS][1]. The service will be restarted after Debian package update.
+Chúng tôi đã dừng dịch vụ CVS ẩn danh do [Bản cập nhật bảo mật của
+CVS][1]. Dịch vụ sẽ được khởi động lại sau khi cập nhật gói Debian.
 
 
 

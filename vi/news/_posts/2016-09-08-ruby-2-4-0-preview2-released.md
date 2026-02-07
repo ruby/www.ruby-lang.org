@@ -1,90 +1,90 @@
 ---
 layout: news_post
-title: "Ruby 2.4.0-preview2 Released"
+title: "Phát hành Ruby 2.4.0-preview2"
 author: "naruse"
 translator:
 date: 2016-09-08 09:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.4.0-preview2.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.4.0-preview2.
 
-Ruby 2.4.0-preview2 is the second preview of Ruby 2.4.0.
-This preview2 is released to get feedback from the community.
-Feel free to
-[send feedback](https://github.com/ruby/ruby/wiki/How-To-Report)
-since you can still influence the features.
+Ruby 2.4.0-preview2 là bản xem trước thứ hai của Ruby 2.4.0.
+Bản preview2 này được phát hành để nhận phản hồi từ cộng đồng.
+Hãy thoải mái
+[gửi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)
+vì bạn vẫn có thể ảnh hưởng đến các tính năng.
 
-## [Unify Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005)
+## [Hợp nhất Fixnum và Bignum thành Integer](https://bugs.ruby-lang.org/issues/12005)
 
-Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
-doesn't specify details of the Integer class,
-Ruby had two visible Integer classes: Fixnum and Bignum.
-Ruby 2.4 unifies them into Integer.
-All C extensions which touch the Fixnum or Bignum class need to be fixed.
+Mặc dù [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+không chỉ định chi tiết về lớp Integer,
+Ruby có hai lớp Integer hiển thị: Fixnum và Bignum.
+Ruby 2.4 hợp nhất chúng thành Integer.
+Tất cả các phần mở rộng C liên quan đến lớp Fixnum hoặc Bignum cần được sửa.
 
-See also [the ticket](https://bugs.ruby-lang.org/issues/12005) and [akr's slides](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
+Xem thêm [ticket](https://bugs.ruby-lang.org/issues/12005) và [slide của akr](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
-## [String supports Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
+## [String hỗ trợ ánh xạ chữ hoa/thường Unicode](https://bugs.ruby-lang.org/issues/10085)
 
-`String/Symbol#upcase/downcase/swapcase/capitalize(!)` now handle
-Unicode case mappings instead of only ASCII case mappings.
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` giờ đây xử lý
+ánh xạ chữ hoa/thường Unicode thay vì chỉ ánh xạ ASCII.
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-Ruby 2.4 also contains the following performance improvements including
-language changes:
+Ruby 2.4 cũng bao gồm các cải thiện hiệu suất sau bao gồm
+các thay đổi ngôn ngữ:
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` and `[x, y].min` are optimized to not create a temporary array
-under certain conditions.
+`[x, y].max` và `[x, y].min` được tối ưu hóa để không tạo mảng tạm thời
+trong một số điều kiện nhất định.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Added `Regexp#match?`, which executes a regexp match without creating
-a back reference object and changing `$~` to reduce object allocation.
+Thêm `Regexp#match?`, thực thi khớp biểu thức chính quy mà không tạo
+đối tượng tham chiếu ngược và thay đổi `$~` để giảm cấp phát đối tượng.
 
-### Other performance improvements
+### Các cải thiện hiệu suất khác
 
-* [speed up instance variable access](https://bugs.ruby-lang.org/issues/12274)
+* [tăng tốc truy cập biến instance](https://bugs.ruby-lang.org/issues/12274)
 
-## Debugging
+## Gỡ lỗi
 
-### [Thread#report_on_exception and Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
+### [Thread#report_on_exception và Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
-Ruby ignores exceptions in threads unless another thread explicitly joins them.
-With `report_on_exception = true`,
-you can notice if a thread has died due to an unhandled exception.
+Ruby bỏ qua các ngoại lệ trong thread trừ khi một thread khác tường minh join chúng.
+Với `report_on_exception = true`,
+bạn có thể nhận biết nếu một thread đã chết do một ngoại lệ không được xử lý.
 
-Send us feedback what should be the default for `report_on_exception`
-and about report-on-GC, which shows a report when a thread is
-garbage collected without join.
+Gửi cho chúng tôi phản hồi về giá trị mặc định nên là gì cho `report_on_exception`
+và về report-on-GC, hiển thị báo cáo khi một thread bị
+thu gom rác mà không join.
 
-### [Thread deadlock detection now shows threads with their backtrace and dependency](https://bugs.ruby-lang.org/issues/8214)
+### [Phát hiện deadlock Thread giờ đây hiển thị các thread với backtrace và dependency](https://bugs.ruby-lang.org/issues/8214)
 
-Ruby has deadlock detection around waiting threads, but its report doesn't
-include enough information for debugging.
-Ruby 2.4's deadlock detection shows threads with their backtrace and
-dependent threads.
+Ruby có khả năng phát hiện deadlock xung quanh các thread đang chờ, nhưng báo cáo không
+bao gồm đủ thông tin để gỡ lỗi.
+Phát hiện deadlock của Ruby 2.4 hiển thị các thread với backtrace và
+các thread phụ thuộc.
 
-Try and enjoy programming with Ruby 2.4.0-preview2, and
-[send us feedback](https://github.com/ruby/ruby/wiki/How-To-Report)!
+Hãy thử và tận hưởng lập trình với Ruby 2.4.0-preview2, và
+[gửi cho chúng tôi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
-## Other notable changes since 2.3
+## Các thay đổi đáng chú ý khác kể từ 2.3
 
-* Support OpenSSL 1.1.0
-* ext/tk is now removed from stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
+* Hỗ trợ OpenSSL 1.1.0
+* ext/tk đã bị loại bỏ khỏi stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
-and [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)
-for details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview2/NEWS)
+và [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview2/ChangeLog)
+để biết chi tiết.
 
-With those changes,
-[2353 files changed, 289057 insertions(+), 73847 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview2)
-since Ruby 2.3.0!
+Với những thay đổi đó,
+[2353 tập tin thay đổi, 289057 dòng thêm(+), 73847 dòng xóa(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview2)
+kể từ Ruby 2.3.0!
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-preview2.tar.bz2>
 
@@ -114,8 +114,8 @@ since Ruby 2.3.0!
   * SHA256: 4d0e466148283ad52208b1e1b70b018aefb7fa95b490fc862d5ea4ca284ecdd2
   * SHA512: 0ef2098d995238580245a4bcee843641199c1194189be13614611e2ffec329278072319a799d409eaf13b1cff45f05a0eae02d9ea8ccc69058fa49e03eca0130
 
-## Release Comment
+## Ghi chú phát hành
 
-See also the release schedule and other information:
+Xem thêm lịch phát hành và thông tin khác:
 
 [ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

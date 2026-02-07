@@ -1,15 +1,16 @@
 ---
 layout: news_post
-title: "Support for Ruby 1.9.3 has ended"
+title: "Kết thúc hỗ trợ cho Ruby 1.9.3"
 author: "Olivier Lacan"
 translator:
 date: 2015-02-23 00:00:00 +0000
 lang: vi
 ---
 
-As of today, all support for Ruby 1.9.3 has ended. Bug and security fixes
-from more recent Ruby versions will no longer be backported to 1.9.3.
+Kể từ hôm nay, toàn bộ hỗ trợ cho Ruby 1.9.3 đã kết thúc. Các bản sửa lỗi
+và bản vá bảo mật từ các phiên bản Ruby mới hơn sẽ không còn được backport
+sang 1.9.3.
 
-This end of life was [announced over a year ago](https://www.ruby-lang.org/en/news/2014/01/10/ruby-1-9-3-will-end-on-2015/).
+Việc kết thúc vòng đời này đã được [thông báo hơn một năm trước](https://www.ruby-lang.org/en/news/2014/01/10/ruby-1-9-3-will-end-on-2015/).
 
-We highly recommend that you upgrade to Ruby 2.0.0 or above as soon as possible. Please contact us if you'd like to continue maintaining the 1.9.3 branch for some reason you can't upgrade.
+Chúng tôi khuyến nghị bạn nâng cấp lên Ruby 2.0.0 hoặc cao hơn càng sớm càng tốt. Vui lòng liên hệ với chúng tôi nếu bạn muốn tiếp tục duy trì nhánh 1.9.3 vì lý do nào đó mà bạn không thể nâng cấp.

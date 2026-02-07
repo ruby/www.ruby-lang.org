@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby Installer For Windows at sourceforge"
+title: "Ruby Installer cho Windows trên sourceforge"
 author: "NaHi"
 lang: vi
 ---
 
-Now you can get Ruby Installer For Windows from
+Bây giờ bạn có thể tải Ruby Installer cho Windows từ
 [http://rubyinstaller.sourceforge.net/][1].
 
-Excerpted from the site.
+Trích từ trang web.
 
     This is a "one-click", self-contained installer that
     comprises the Ruby language itself, dozens of popular
@@ -17,9 +17,9 @@ Excerpted from the site.
     contains the full text of the book, "Programming Ruby:
     The Pragmatic Programmer's Guide".
 
-It’s a must item for Ruby users on Win32 box. Check also
-[usa’s binaries][2] and [eban’s win32 binaries][3] to get
-Win32 binaries with dozens of popular extensions.
+Đây là một thứ không thể thiếu cho người dùng Ruby trên hệ thống Win32. Hãy xem thêm
+[bản nhị phân của usa][2] và [bản nhị phân win32 của eban][3] để tải
+các bản nhị phân Win32 với hàng chục tiện ích mở rộng phổ biến.
 
 
 

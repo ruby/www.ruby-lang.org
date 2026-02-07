@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 2.1.5 Released"
+title: "Phát hành Ruby 2.1.5"
 author: "nagachika"
 translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.5 has been released.
+Ruby 2.1.5 đã được phát hành.
 
-This release includes a security fix for a DoS vulnerability of REXML.
-It is similar to the
-[fixed vulnerability](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
-in the [previous release](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/),
-but new and different from it.
+Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
+Nó tương tự với
+[lỗ hổng đã được sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [bản phát hành trước](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/),
+nhưng là lỗ hổng mới và khác biệt.
 
-* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
-And, some bug fixes are also included.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
-for details.
+Ngoài ra, một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2)
 
@@ -52,7 +52,7 @@ for details.
       SHA256: 69c517a6d3ea65264455a9316719ffdec49cf6a613a24fd89b3f6da7146a8aa7
       SHA512: a55cf5970203904e7bc8cef2b6fbf7b8d5067a160289a1a49d13c4dfef8c95002bcdf697f5d04d420ef663efad5ee80d5a9e4e7445c4db9a02f9cbc9e4b8444e
 
-## Release Comment
+## Ghi chú phát hành
 
-Sorry for the inconvenience of frequent releases.
-Thanks to everyone who gave the cooperation to release.
+Xin lỗi vì sự bất tiện khi phát hành thường xuyên.
+Cảm ơn mọi người đã hợp tác cho bản phát hành.

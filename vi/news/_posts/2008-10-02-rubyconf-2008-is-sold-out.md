@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "RubyConf 2008 is Sold-out"
+title: "RubyConf 2008 đã bán hết vé"
 author: "james"
 lang: vi
 ---
 
-[RubyConf 2008][1] is sold out
+[RubyConf 2008][1] đã bán hết vé.
 
-However, there is a [waiting list][2] you can join in case of
-cancellations.
+Tuy nhiên, có một [danh sách chờ][2] bạn có thể tham gia trong trường
+hợp có người hủy.
 
 
 

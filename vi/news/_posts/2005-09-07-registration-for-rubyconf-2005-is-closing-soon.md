@@ -1,17 +1,16 @@
 ---
 layout: news_post
-title: "Registration for RubyConf 2005 is CLOSING soon."
+title: "Đăng ký RubyConf 2005 sắp ĐÓNG."
 author: "james"
 lang: vi
 ---
 
-Registration for RubyConf 2005 is CLOSING soon. The schedule is as
-follows:
+Đăng ký RubyConf 2005 sắp ĐÓNG. Lịch trình như sau:
 
-* Friday, September 16: last day for full registration (meals included)
-* Friday, September 23: last day for events-only registration (no meals)
+* Thứ Sáu, 16 tháng 9: ngày cuối cùng đăng ký đầy đủ (bao gồm bữa ăn)
+* Thứ Sáu, 23 tháng 9: ngày cuối cùng đăng ký chỉ tham dự sự kiện (không bao gồm bữa ăn)
 
-So, all you stragglers, get over to the [RubyConf site][1]
+Vậy nên, tất cả những ai còn chần chừ, hãy truy cập [trang RubyConf][1]
 
 
 

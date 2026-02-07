@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 2.7.8 Released"
+title: "Phát hành Ruby 2.7.8"
 author: "usa"
 translator:
 date: 2023-03-30 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.7.8 has been released.
+Ruby 2.7.8 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28756: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28755: Lỗ hổng ReDoS trong URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
+* [CVE-2023-28756: Lỗ hổng ReDoS trong Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
-This release also includes some build problem fixes.
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_8) for further details.
+Bản phát hành này cũng bao gồm một số bản sửa lỗi biên dịch.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_8) để biết thêm chi tiết.
 
-After this release, Ruby 2.7 reaches EOL. In other words, this is expected to be the last release of Ruby 2.7 series.
-We will not release Ruby 2.7.9 even if a security vulnerability is found (but could release if a severe regression is found).
-We recommend all Ruby 2.7 users to start migration to Ruby 3.2, 3.1, or 3.0 immediately.
+Sau bản phát hành này, Ruby 2.7 đạt đến EOL (kết thúc vòng đời). Nói cách khác, đây dự kiến là bản phát hành cuối cùng của dòng Ruby 2.7.
+Chúng tôi sẽ không phát hành Ruby 2.7.9 ngay cả khi phát hiện lỗ hổng bảo mật (nhưng có thể phát hành nếu phát hiện lỗi hồi quy nghiêm trọng).
+Chúng tôi khuyến nghị tất cả người dùng Ruby 2.7 bắt đầu chuyển sang Ruby 3.2, 3.1 hoặc 3.0 ngay lập tức.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.7.8" | first %}
 
@@ -54,7 +54,7 @@ We recommend all Ruby 2.7 users to start migration to Ruby 3.2, 3.1, or 3.0 imme
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

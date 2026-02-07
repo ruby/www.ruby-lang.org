@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Euruko 2007: The European Ruby Conference"
+title: "Euruko 2007: Hội nghị Ruby Châu Âu"
 author: "james"
 lang: vi
 ---
 
-Planning is underway for [Euruko 2007][1]
+Công tác chuẩn bị cho [Euruko 2007][1] đang được tiến hành.
 
-Euruko 2007 will be located in Vienna, Austria, on Saturday &amp; Sunday
-10th and 11th November, 2007.
+Euruko 2007 sẽ diễn ra tại Vienna, Áo, vào Thứ Bảy và Chủ Nhật ngày
+10 và 11 tháng 11 năm 2007.
 
-There is an informal [registration page][2] and a general information
-[site][1] .
+Có một [trang đăng ký][2] không chính thức và một [trang thông tin][1]
+chung.
 
 
 

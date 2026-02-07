@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.1.6 Released"
+title: "Phát hành Ruby 2.1.6"
 author: "usa"
 translator:
 date: 2015-04-13 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.6 has been released.
+Ruby 2.1.6 đã được phát hành.
 
-This release includes a security fix for OpenSSL extension.
-Please view the topic below for more details.
+Bản phát hành này bao gồm bản sửa lỗi bảo mật cho extension OpenSSL.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-And, many bug fixes are also included.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
-for details.
+Ngoài ra, nhiều bản sửa lỗi khác cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.6.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.6.tar.bz2)
 
@@ -49,8 +49,8 @@ for details.
       SHA256: ecbc4b97cc78e96e01375b961936133279db806044fd4d23771136dae4c1056d
       SHA512: d1450bd013dbaabf10d7097e9dcd8c3f027110c08693ee7c94c002ea96b7e6e171c951b8b1ca3971b7f89e05b15df00ec56a006f9393889ae7f8045e9b328fad
 
-## Release Comment
+## Nhận xét về bản phát hành
 
-Thanks to everyone who helped with this release, especially, nagachika.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này, đặc biệt là nagachika.
 
-The maintenance of Ruby 2.1, include this release, is based on the "Agreement for the Ruby stable version" of [the Ruby Association](http://www.ruby.or.jp/).
+Việc bảo trì Ruby 2.1, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của [Hiệp hội Ruby](http://www.ruby.or.jp/).

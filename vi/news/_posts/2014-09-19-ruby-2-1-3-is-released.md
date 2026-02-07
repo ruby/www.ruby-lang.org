@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.1.3 Released"
+title: "Phát hành Ruby 2.1.3"
 author: "nagachika"
 translator:
 date: 2014-09-19 12:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.1.3.
-This is a patchlevel release of the stable 2.1 series.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.1.3.
+Đây là bản phát hành patchlevel của dòng ổn định 2.1.
 
-This release contains a change of full GC timing to reduce memory consumption
-(see [Bug #9607](https://bugs.ruby-lang.org/issues/9607)), and many bugfixes.
+Bản phát hành này bao gồm thay đổi thời điểm full GC để giảm tiêu thụ bộ nhớ
+(xem [Bug #9607](https://bugs.ruby-lang.org/issues/9607)), và nhiều bản sửa lỗi.
 
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
-for details.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.3.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.3.tar.bz2)
 
@@ -48,7 +48,7 @@ for details.
       SHA512: d6b06edcab5f6b70810f838ba942ec5072f7018c0b21709884126d997bbd06028ef74f4b2f7bf439255e165599ee6a94e097bcfc52b72d5cfbf16b2e4476316f
 
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn sự đóng góp của họ.

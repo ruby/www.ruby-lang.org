@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 3.0.4 Released"
+title: "Phát hành Ruby 3.0.4"
 author: "nagachika and mame"
 translator:
 date: 2022-04-12 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.0.4 has been released.
+Ruby 3.0.4 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2022-28738: Double free in Regexp compilation]({%link en/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
-* [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
+* [CVE-2022-28738: Giải phóng bộ nhớ kép trong biên dịch Regexp]({%link en/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %})
+* [CVE-2022-28739: Tràn bộ đệm trong chuyển đổi String sang Float]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4) for further details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.0.4" | first %}
 
@@ -42,7 +42,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_3...v3_0_4) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

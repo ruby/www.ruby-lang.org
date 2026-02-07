@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.4.9 Released"
+title: "Ruby 2.4.9 Đã Phát Hành"
 author: "usa"
 translator:
 date: 2019-10-02 09:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.4.9 has been released.
+Ruby 2.4.9 đã được phát hành.
 
-This release is a re-package of 2.4.8 because the previous Ruby 2.4.8
-release tarball does not install.
-(See [[Bug #16197]](https://bugs.ruby-lang.org/issues/16197) in detail.)
-There are no essential change except their version numbers between 2.4.8 and 2.4.9.
+Bản phát hành này là một đóng gói lại của 2.4.8 vì tarball phát hành Ruby 2.4.8
+trước đó không cài đặt được.
+(Xem [[Bug #16197]](https://bugs.ruby-lang.org/issues/16197) để biết chi tiết.)
+Không có thay đổi thiết yếu nào ngoài số phiên bản giữa 2.4.8 và 2.4.9.
 
-Ruby 2.4 is now under the state of the security maintenance phase, until
-the end of March of 2020.  After that date, maintenance of Ruby 2.4
-will be ended. We recommend you start planning the migration to newer
-versions of Ruby, such as 2.6 or 2.5.
+Ruby 2.4 hiện đang trong giai đoạn bảo trì bảo mật, cho đến
+cuối tháng 3 năm 2020. Sau ngày đó, việc bảo trì Ruby 2.4
+sẽ kết thúc. Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch di chuyển sang các
+phiên bản Ruby mới hơn, như 2.6 hoặc 2.5.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.4.9" | first %}
 
@@ -51,6 +51,6 @@ versions of Ruby, such as 2.6 or 2.5.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này.

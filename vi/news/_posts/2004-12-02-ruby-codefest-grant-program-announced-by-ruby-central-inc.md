@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby Codefest Grant Program announced by Ruby Central, Inc."
+title: "Chương trình tài trợ Ruby Codefest được Ruby Central, Inc. công bố"
 author: "David Black"
 lang: vi
 ---
 
-[Ruby Central, Inc.][1] has announced its first Ruby Codefest Grant
-Program. This program is designed to provide support for local and
-regional groups working on development of Ruby libraries. (See [full
-text of the announcement][2].) You can [apply for a grant][3] on behalf
-of your group.
+[Ruby Central, Inc.][1] đã công bố Chương trình tài trợ Ruby Codefest đầu tiên.
+Chương trình này được thiết kế để hỗ trợ các nhóm địa phương và
+khu vực làm việc trên phát triển thư viện Ruby. (Xem [toàn văn
+thông báo][2].) Bạn có thể [đăng ký tài trợ][3] thay mặt
+cho nhóm của mình.
 
 
 

@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 3.1.4 Released"
+title: "Phát hành Ruby 3.1.4"
 author: "nagachika"
 translator:
 date: 2023-03-30 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.1.4 has been released.
+Ruby 3.1.4 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28756: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28755: Lỗ hổng ReDoS trong URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
+* [CVE-2023-28756: Lỗ hổng ReDoS trong Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_4) for further details.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_4) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.1.4" | first %}
 
@@ -42,7 +42,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_4) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

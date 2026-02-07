@@ -1,21 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 2.3.1 Released"
+title: "Phát hành Ruby 2.3.1"
 author: "nagachika"
 translator:
 date: 2016-04-26 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.1 has been released.
+Ruby 2.3.1 đã được phát hành.
 
-This is the first TEENY version release of the stable 2.3 series.
+Đây là phiên bản TEENY đầu tiên của dòng 2.3 ổn định.
 
-There are many bugfixes.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
-for details.
+Có nhiều bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.bz2)
 
@@ -45,7 +45,7 @@ for details.
       SHA256: 4c8ae431b33f78d64cabb31911e0890e9a3ac380b4f22b11738f9baeeda51763
       SHA512: a26d3ab5983c6f3ea454e3e75554137305525479e4c15c0ae424689e870e2c5a9f0fe194975cf362cc5528ce601e31a0a15b87c7af200fd0d1da17459435b953
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

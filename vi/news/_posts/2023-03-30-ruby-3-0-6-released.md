@@ -1,31 +1,31 @@
 ---
 layout: news_post
-title: "Ruby 3.0.6 Released"
+title: "Phát hành Ruby 3.0.6"
 author: "usa"
 translator:
 date: 2023-03-30 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.0.6 has been released.
+Ruby 3.0.6 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2023-28755: ReDoS vulnerability in URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
-* [CVE-2023-28756: ReDoS vulnerability in Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
+* [CVE-2023-28755: Lỗ hổng ReDoS trong URI]({%link en/news/_posts/2023-03-28-redos-in-uri-cve-2023-28755.md %})
+* [CVE-2023-28756: Lỗ hổng ReDoS trong Time]({%link en/news/_posts/2023-03-30-redos-in-time-cve-2023-28756.md %})
 
-This release also includes some bug fixes.
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_6) for further details.
+Bản phát hành này cũng bao gồm một số bản sửa lỗi.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_6) để biết thêm chi tiết.
 
-After this release, we end the normal maintenance phase of Ruby 3.0, and Ruby 3.0 enters the security maintenance phase.
-This means that we will no longer backport any bug fixes to Ruby 3.0 except security fixes.
+Sau bản phát hành này, chúng tôi kết thúc giai đoạn bảo trì bình thường của Ruby 3.0, và Ruby 3.0 bước vào giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là chúng tôi sẽ không còn backport bất kỳ bản sửa lỗi nào cho Ruby 3.0 ngoại trừ các bản sửa lỗi bảo mật.
 
-The term of the security maintenance phase is scheduled for a year.
-Ruby 3.0 reaches EOL and its official support ends by the end of the security maintenance phase.
-Therefore, we recommend that you start to plan upgrade to Ruby 3.1 or 3.2.
+Giai đoạn bảo trì bảo mật được lên lịch trong một năm.
+Ruby 3.0 đạt đến EOL và hỗ trợ chính thức của nó kết thúc khi giai đoạn bảo trì bảo mật kết thúc.
+Do đó, chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 3.1 hoặc 3.2.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.0.6" | first %}
 
@@ -50,9 +50,9 @@ Therefore, we recommend that you start to plan upgrade to Ruby 3.1 or 3.2.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.
 
-The maintenance of Ruby 3.0, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+Việc bảo trì Ruby 3.0, bao gồm cả bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Hiệp hội Ruby.

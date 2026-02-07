@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 2.5.9 Released"
+title: "Phát hành Ruby 2.5.9"
 author: "usa"
 translator:
 date: 2021-04-05 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.9 has been released.
+Ruby 2.5.9 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
 * [CVE-2020-25613: Potential HTTP Request Smuggling Vulnerability in WEBrick]({%link en/news/_posts/2020-09-29-http-request-smuggling-cve-2020-25613.md %})
 * [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_8...v2_5_9) để biết chi tiết.
 
-After this release, Ruby 2.5 reaches EOL. In other words, this is the last release of Ruby 2.5 series.
-We will not release Ruby 2.5.10 even if a security vulnerability is found.
-We recommend all Ruby 2.5 users to upgrade to Ruby 3.0, 2.7 or 2.6 immediately.
+Sau bản phát hành này, Ruby 2.5 đạt đến EOL (kết thúc vòng đời). Nói cách khác, đây là bản phát hành cuối cùng của dòng Ruby 2.5.
+Chúng tôi sẽ không phát hành Ruby 2.5.10 ngay cả khi phát hiện lỗ hổng bảo mật.
+Chúng tôi khuyến nghị tất cả người dùng Ruby 2.5 nâng cấp lên Ruby 3.0, 2.7 hoặc 2.6 ngay lập tức.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.5.9" | first %}
 
@@ -53,6 +53,6 @@ We recommend all Ruby 2.5 users to upgrade to Ruby 3.0, 2.7 or 2.6 immediately.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này, đặc biệt là những người đã báo cáo lỗ hổng bảo mật.

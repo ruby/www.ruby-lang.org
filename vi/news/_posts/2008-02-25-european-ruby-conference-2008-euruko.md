@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "European Ruby Conference 2008 (EURUKO)"
+title: "Hội nghị Ruby Châu Âu 2008 (EURUKO)"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-EURUKO is an annual conference about the Ruby programming language with
-an informal atmosphere and lots of opportunities to listen, to talk, to
-hack and to have fun. This year it takes place in [Prague, Czech
-Republic, on March 29th to 30th.][1]
+EURUKO là hội nghị thường niên về ngôn ngữ lập trình Ruby với bầu không
+khí thân mật và nhiều cơ hội để lắng nghe, thảo luận, lập trình và vui
+chơi. Năm nay nó diễn ra tại [Prague, Cộng hòa Séc, vào ngày 29 đến 30
+tháng 3.][1]
 
 
 

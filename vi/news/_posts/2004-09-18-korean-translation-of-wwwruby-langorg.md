@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "Korean translation of www.ruby-lang.org"
+title: "Bản dịch tiếng Hàn của www.ruby-lang.org"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-[Korean translation of www.ruby-lang.org][1] is available. Thanks to
+[Bản dịch tiếng Hàn của www.ruby-lang.org][1] đã có sẵn. Cảm ơn
 Bryan Kang.
 
 

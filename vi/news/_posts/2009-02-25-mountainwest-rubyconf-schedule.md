@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "MountainWest RubyConf Schedule"
+title: "Lịch trình MountainWest RubyConf"
 author: "james"
 lang: vi
 ---
 
-The schedule for the upcoming [MountainWest RubyConf][1] is
-[available.][2]
+Lịch trình cho [MountainWest RubyConf][1] sắp tới đã
+[có sẵn.][2]
 
-You can also keep track of the conference via twitter. Just follow
+Bạn cũng có thể theo dõi hội nghị qua twitter. Chỉ cần theo dõi
 [@mwrc][3]
 
-MountainWest RubyConf is being held in Salt Lake City, UT, USA, March 13
-and 14 2009.
+MountainWest RubyConf được tổ chức tại Salt Lake City, UT, Hoa Kỳ, ngày
+13 và 14 tháng 3 năm 2009.
 
 
 

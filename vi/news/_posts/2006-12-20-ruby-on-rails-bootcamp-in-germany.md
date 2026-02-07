@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby on Rails Bootcamp in Germany"
+title: "Ruby on Rails Bootcamp tại Đức"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-Big Nerd Ranch Europe is offering their Ruby on Rails Bootcamp classes
-in Kloster Eberbach, Germany (near Frankfurt) the week of March
-26th-30th. For more information you can find the press release at
+Big Nerd Ranch Europe đang tổ chức các lớp Ruby on Rails Bootcamp tại
+Kloster Eberbach, Đức (gần Frankfurt) trong tuần từ ngày 26 đến 30
+tháng 3. Để biết thêm thông tin, bạn có thể tìm thông cáo báo chí tại
 [http://www.bignerdranch.com/news/2006-12-20.shtml][1].
 
 

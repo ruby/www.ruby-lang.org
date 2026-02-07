@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p362 is released"
+title: "Ruby 1.9.3-p362 đã được phát hành"
 author: "usa"
 lang: vi
 ---
 
-According to this time, as usual, Ruby 1.9.3-p362 is released.
+Theo lịch trình, như thường lệ, Ruby 1.9.3-p362 đã được phát hành.
 
-This release includes other many bug fixes.
+Bản phát hành này bao gồm nhiều bản sửa lỗi khác.
 
-* Resolved build problems on Solaris.
-* Windows 8 support (hopefully).
-* other many bug fixes.
+* Đã giải quyết vấn đề biên dịch trên Solaris.
+* Hỗ trợ Windows 8 (hy vọng vậy).
+* nhiều bản sửa lỗi khác.
 
-See [tickets][1] and [ChangeLog][2] for details.
+Xem [tickets][1] và [ChangeLog][2] để biết chi tiết.
 
-In addition, any security fixes are not included in this release.
+Ngoài ra, bản phát hành này không bao gồm bản vá bảo mật nào.
 
-## Downloads
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.bz2&gt;][3]
   * SIZE: 10021565 bytes
@@ -36,12 +36,11 @@ You can download this release from:
   * MD5: 764d5e2d8149a7f424fc02089f8a7359
   * SHA256: 713ed8149f819ef3ae6b9ac0e27d0c9ee26d3d78e44d42d02ce426d6cb18068d
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers and users who gave bug reports greatly helped me to make
-this release. Thank you everyone.
+Nhiều committer và người dùng đã gửi báo cáo lỗi đã giúp đỡ rất nhiều để tôi thực hiện bản phát hành này. Cảm ơn tất cả mọi người.
 
-Have good holidays, and happy hacking!
+Chúc ngày lễ vui vẻ, và hãy lập trình vui vẻ!
 
 
 

@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby Article in Linux Journal"
+title: "Bài viết về Ruby trên Linux Journal"
 author: "Unknown Author"
 lang: vi
 ---
 
-The March issue of [Linux Journal][1] has an article by James Britt on
-manipulating OpenOffice.org documents using Ruby. Please note that the
-article has at least one error: James, who, honestly, really does know
-better, incorrectly attributed REXML. The creator/owner of REXML is Sean
+Số tháng Ba của [Linux Journal][1] có bài viết của James Britt về
+thao tác tài liệu OpenOffice.org bằng Ruby. Xin lưu ý rằng
+bài viết có ít nhất một lỗi: James, người thực sự biết rõ hơn,
+đã ghi nhận sai về REXML. Người tạo/sở hữu REXML là Sean
 Russell.
 
 

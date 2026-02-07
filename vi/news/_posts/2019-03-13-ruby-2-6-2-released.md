@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 2.6.2 Released"
+title: "Ruby 2.6.2 Đã Phát Hành"
 author: "naruse"
 translator:
 date: 2019-03-13 11:30:00 +0000
 lang: vi
 ---
 
-Ruby 2.6.2 has been released.
+Ruby 2.6.2 đã được phát hành.
 
-This release includes bug fixes and a security update of the bundled RubyGems.
+Bản phát hành này bao gồm các bản sửa lỗi và cập nhật bảo mật cho RubyGems đi kèm.
 
-See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
-and the [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
+Xem chi tiết tại [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+và [nhật ký commit](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.2.tar.gz>
 
@@ -44,8 +44,8 @@ and the [commit logs](https://github.com/ruby/ruby/compare/v2_6_1...v2_6_2).
       SHA256: 91fcde77eea8e6206d775a48ac58450afe4883af1a42e5b358320beb33a445fa
       SHA512: 13f7d7b483a037378eac4bf4bebddc21d69f4e19e6bbb397dd53e7518037ae9a3aa5b41fc20bf1fe410803c6efc3a6a65a65af47648d3a93713f75cfe885326a
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us make this release.
-Thanks for their contributions.
+Nhiều committer, lập trình viên và người dùng đã cung cấp báo cáo lỗi giúp
+chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Multiple vulnerabilities in Ruby"
+title: "Nhiều lỗ hổng trong Ruby"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Multiple vulnerabilities have been discovered in Ruby. It\'s recommended
-that you upgrade to the latest versions.
+Nhiều lỗ hổng đã được phát hiện trong Ruby. Khuyến nghị bạn nâng cấp
+lên các phiên bản mới nhất.
 
-## Details
+## Chi tiết
 
-The following vulnerabilities have been discovered.
+Các lỗ hổng sau đã được phát hiện.
 
-### Several vulnerabilities in safe level
+### Một số lỗ hổng trong mức an toàn
 
-Several vulnerabilities in safe level have been discovered.
+Một số lỗ hổng trong mức an toàn đã được phát hiện.
 
-* untrace\_var is permitted at safe level 4.
+* untrace\_var được phép ở mức an toàn 4.
 
       trace_var(:$VAR) {|val| puts "$VAR = #{val}" }
 
@@ -28,7 +28,7 @@ Several vulnerabilities in safe level have been discovered.
        }
       end.join
 
-* $PROGRAM\_NAME may be modified at safe level 4.
+* $PROGRAM\_NAME có thể bị sửa đổi ở mức an toàn 4.
 
       Thread.new do
        $SAFE = 4
@@ -37,7 +37,7 @@ Several vulnerabilities in safe level have been discovered.
 
       $PROGRAM_NAME #=> "Hello, World!"
 
-* Insecure methods may be called at safe level 1-3.
+* Các phương thức không an toàn có thể được gọi ở mức an toàn 1-3.
 
       class Hello
        def world
@@ -59,7 +59,7 @@ Several vulnerabilities in safe level have been discovered.
        puts s if s.size < 20 # print string which size is less than 20
       end
 
-* Syslog operations are permitted at safe level 4.
+* Các thao tác Syslog được phép ở mức an toàn 4.
 
       require "syslog"
 
@@ -75,20 +75,20 @@ Several vulnerabilities in safe level have been discovered.
        }
       end.join
 
-These vulnerabilities were reported by Keita Yamaguchi.
+Các lỗ hổng này được báo cáo bởi Keita Yamaguchi.
 
-### DoS vulnerability in WEBrick
+### Lỗ hổng DoS trong WEBrick
 
-WEBrick::HTTP::DefaultFileHandler is faulty of exponential time taking
-requests due to a backtracking regular expression in
+WEBrick::HTTP::DefaultFileHandler có lỗi gây ra thời gian xử lý theo
+cấp số nhân do biểu thức chính quy quay lui trong
 WEBrick::HTTPUtils.split\_header\_value.
 
-Exploitable server:
+Máy chủ có thể bị khai thác:
 
     require 'webrick'
     WEBrick::HTTPServer.new(:Port => 2000, :DocumentRoot => "/etc").start
 
-Attack:
+Tấn công:
 
     require 'net/http'
     res = Net::HTTP.start("localhost", 2000) { |http|
@@ -98,15 +98,15 @@ Attack:
     }
     p res
 
-The request likely won\'t finish in this universe.
+Yêu cầu này có thể sẽ không bao giờ hoàn thành.
 
-This vulnerability was reported by Christian Neukirchen.
+Lỗ hổng này được báo cáo bởi Christian Neukirchen.
 
-### Lack of taintness check in dl
+### Thiếu kiểm tra nhiễm trong dl
 {: #label-3}
 
-dl doesn\'t check taintness, so it could allow attackers to call
-dangerous functions.
+dl không kiểm tra tính nhiễm (taintness), vì vậy nó có thể cho phép kẻ
+tấn công gọi các hàm nguy hiểm.
 
     require 'dl'
     $SAFE = 1
@@ -115,55 +115,55 @@ dangerous functions.
     uname = 'uname -rs'.taint
     sys[uname]
 
-This vulnerability was reported by sheepman.
+Lỗ hổng này được báo cáo bởi sheepman.
 
-### DNS spoofing vulnerability in resolv.rb
+### Lỗ hổng giả mạo DNS trong resolv.rb
 
-resolv.rb allow remote attackers to spoof DNS answers. This risk can be
-reduced by randomness of DNS transaction IDs and source ports, so
-resolv.rb is fixed to randomize them.
+resolv.rb cho phép kẻ tấn công từ xa giả mạo các câu trả lời DNS. Rủi
+ro này có thể được giảm thiểu bằng cách ngẫu nhiên hóa ID giao dịch DNS
+và cổng nguồn, vì vậy resolv.rb đã được sửa để ngẫu nhiên hóa chúng.
 
-* see also: [CVE-2008-1447][1]
+* xem thêm: [CVE-2008-1447][1]
 
-This vulnerability was reported by Tanaka Akira.
+Lỗ hổng này được báo cáo bởi Tanaka Akira.
 
-## Vulnerable versions
+## Các phiên bản bị ảnh hưởng
 
 1.8 series
-: * 1\.8.5 and all prior versions
-  * 1\.8.6-p286 and all prior versions
-  * 1\.8.7-p71 and all prior versions
+: * 1\.8.5 và tất cả các phiên bản trước đó
+  * 1\.8.6-p286 và tất cả các phiên bản trước đó
+  * 1\.8.7-p71 và tất cả các phiên bản trước đó
 
 1.9 series
-: * r18423 and all prior revisions
+: * r18423 và tất cả các bản sửa đổi trước đó
 
-## Solution
+## Giải pháp
 
 1.8 series
-: Please upgrade to 1.8.6-p287, or 1.8.7-p72.
+: Vui lòng nâng cấp lên 1.8.6-p287, hoặc 1.8.7-p72.
 
   * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p287.tar.gz&gt;][2]
   * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p72.tar.gz&gt;][3]
 
 1.9 series
 
-: Please check out the latest version using Subversion.
+: Vui lòng checkout phiên bản mới nhất bằng Subversion.
 
       $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 
-Please note that a package that corrects this weakness may already be
-available through your package management software.
+Xin lưu ý rằng gói sửa lỗi này có thể đã có sẵn qua phần mềm quản lý
+gói của bạn.
 
-## Credit
+## Ghi nhận
 
-Credit to Keita Yamaguchi, Christian Neukirchen, sheepman, and Tanaka
-Akira for disclosing these problems to Ruby Security Team.
+Ghi nhận Keita Yamaguchi, Christian Neukirchen, sheepman, và Tanaka
+Akira đã tiết lộ các vấn đề này cho Đội An ninh Ruby.
 
-## Changes
+## Thay đổi
 
-* 2008-08-08 12:21 +09:00 fixed the revision number of ruby 1.9.
-* 2008-08-11 11:23 +09:00 fixed the patchlevel of ruby 1.8. see [the
-  release announcement of Ruby 1.8.7-p72 and 1.8.6-p287][4]
+* 2008-08-08 12:21 +09:00 đã sửa số bản sửa đổi của ruby 1.9.
+* 2008-08-11 11:23 +09:00 đã sửa patchlevel của ruby 1.8. xem [thông
+  báo phát hành Ruby 1.8.7-p72 và 1.8.6-p287][4]
 
 
 

@@ -1,37 +1,37 @@
 ---
 layout: news_post
-title: "Ruby 1.9.1-p429 is released"
+title: "Ruby 1.9.1-p429 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.1-p429 has just been released. This is a patchlevel release for
-Ruby 1.9.1. This fixes many bugs and includes the fix for a security
-vulnerability that allows an attacker to execute an arbitrary code.
+Ruby 1.9.1-p429 vừa được phát hành. Đây là bản phát hành patchlevel cho
+Ruby 1.9.1. Bản này sửa nhiều lỗi và bao gồm bản sửa cho một lỗ hổng
+bảo mật cho phép kẻ tấn công thực thi mã tùy ý.
 
-## Vulnerability
+## Lỗ hổng
 
-### Description
+### Mô tả
 
-A security vulnerability that causes buffer overflow when you assign a
-danger value to `ARGF.inplace_mode` on Windows. It possibly allows an
-attacker to execute an arbitrary code.
+Một lỗ hổng bảo mật gây tràn bộ đệm khi bạn gán một giá trị nguy hiểm
+cho `ARGF.inplace_mode` trên Windows. Nó có thể cho phép kẻ tấn công
+thực thi mã tùy ý.
 
-The affected versions are:
+Các phiên bản bị ảnh hưởng:
 
-* Ruby 1.9.1 patchlevel 378 and all prior versions;
-* Ruby 1.9.2 preview 3 and all prior versions;
-* Development versions of Ruby 1.9 (1.9.3dev).
+* Ruby 1.9.1 patchlevel 378 và tất cả các phiên bản trước đó;
+* Ruby 1.9.2 preview 3 và tất cả các phiên bản trước đó;
+* Các phiên bản phát triển của Ruby 1.9 (1.9.3dev).
 
-I recommend you to upgrade your ruby 1.9 to 1.9.1-p429 or 1.9.2-rc1.
+Tôi khuyến nghị bạn nâng cấp ruby 1.9 lên 1.9.1-p429 hoặc 1.9.2-rc1.
 
-The vulnerability does not directly affect to Ruby 1.8 series.
+Lỗ hổng không ảnh hưởng trực tiếp đến dòng Ruby 1.8.
 
-### Credit
+### Ghi nhận
 
-The vulnerability was found and reported by Masaya TARUI.
+Lỗ hổng được phát hiện và báo cáo bởi Masaya TARUI.
 
-## Download
+## Tải về
 
 * [ruby-1.9.1-p429.tar.bz2][1]
   * SIZE: 7300923 bytes

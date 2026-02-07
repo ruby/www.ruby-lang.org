@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "ConFoo 2016 is looking for Ruby speakers"
+title: "ConFoo 2016 đang tìm kiếm diễn giả Ruby"
 author: "afilina"
 translator:
 date: 2015-08-31 16:00:00 +0000
 lang: vi
 ---
 
-ConFoo is once more seeking passionate speakers for the upcoming conference.
+ConFoo một lần nữa tìm kiếm các diễn giả đam mê cho hội nghị sắp tới.
 
-![ConFoo - Conference for Web Developers](https://confoo.ca/images/content/confoo-master.jpg){: style="border:0; float:right; margin-left:20px;" width="350" height="157"}The event is happening in Montreal, Canada, between February 24th and 26th, 2016. It is an exciting conference for web developers with speakers from all over the world. It unites many web programming languages under one roof, as well as other topics related to web development. The [call for papers][1] closes on September 20th.
+![ConFoo - Conference for Web Developers](https://confoo.ca/images/content/confoo-master.jpg){: style="border:0; float:right; margin-left:20px;" width="350" height="157"}Sự kiện diễn ra tại Montreal, Canada, từ ngày 24 đến 26 tháng 2 năm 2016. Đây là một hội nghị thú vị dành cho các nhà phát triển web với diễn giả từ khắp nơi trên thế giới. Nó tập hợp nhiều ngôn ngữ lập trình web dưới một mái nhà, cùng với các chủ đề khác liên quan đến phát triển web. [Kêu gọi bài thuyết trình][1] kết thúc vào ngày 20 tháng 9.
 
-For the last few years, ConFoo renewed 50% of its speakers. If you're new to this conference, you should definitely submit.
+Trong vài năm qua, ConFoo đã thay mới 50% diễn giả. Nếu bạn mới với hội nghị này, bạn chắc chắn nên gửi bài.
 
-If you would just like to attend, there is a [discount][2] until October 13th.
+Nếu bạn chỉ muốn tham dự, có [giảm giá][2] đến ngày 13 tháng 10.
 
 [1]: https://confoo.ca/en/call-for-papers
 [2]: https://confoo.ca/en/register

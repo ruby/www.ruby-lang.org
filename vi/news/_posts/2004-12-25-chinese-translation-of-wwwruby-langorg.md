@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "Chinese translation of www.ruby-lang.org"
+title: "Bản dịch tiếng Trung của www.ruby-lang.org"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-[Chinese translation of www.ruby-lang.org][1] is available now. Thanks,
+[Bản dịch tiếng Trung của www.ruby-lang.org][1] đã có sẵn. Cảm ơn,
 KOBAYASHI Toshihito.
 
 

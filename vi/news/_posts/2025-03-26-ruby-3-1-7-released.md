@@ -1,21 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 3.1.7 Released"
+title: "Phát hành Ruby 3.1.7"
 author: hsbt
 translator:
 date: 2025-03-26 04:44:27 +0000
 lang: vi
 ---
 
-Ruby 3.1.7 has been released. This release includes [CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/) and update bundled REXML and RSS gems.
+Ruby 3.1.7 đã được phát hành. Bản phát hành này bao gồm [các bản sửa CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/) và cập nhật các gem REXML và RSS đi kèm.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_7) for further details.
+Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_1_7) để biết thêm chi tiết.
 
-This version is a final release of Ruby 3.1 series. We will not provide any further updates including security fixes for Ruby 3.1 series.
+Phiên bản này là bản phát hành cuối cùng của dòng Ruby 3.1. Chúng tôi sẽ không cung cấp thêm bất kỳ bản cập nhật nào bao gồm cả bản sửa bảo mật cho dòng Ruby 3.1.
 
-We recommend you to upgrade to Ruby 3.3 or 3.4 series.
+Chúng tôi khuyến nghị bạn nâng cấp lên dòng Ruby 3.3 hoặc 3.4.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.1.7" | first %}
 
@@ -40,7 +40,7 @@ We recommend you to upgrade to Ruby 3.3 or 3.4 series.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.7.3 Released"
+title: "Phát hành Ruby 2.7.3"
 author: "nagachika"
 translator:
 date: 2021-04-05 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.7.3 has been released.
+Ruby 2.7.3 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản vá bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết thêm chi tiết.
 
-* [CVE-2021-28965: XML round-trip vulnerability in REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
-* [CVE-2021-28966: Path traversal in Tempfile on Windows]({% link en/news/_posts/2021-04-05-tempfile-path-traversal-on-windows-cve-2021-28966.md %})
+* [CVE-2021-28965: Lỗ hổng round-trip XML trong REXML]({% link en/news/_posts/2021-04-05-xml-round-trip-vulnerability-in-rexml-cve-2021-28965.md %})
+* [CVE-2021-28966: Path traversal trong Tempfile trên Windows]({% link en/news/_posts/2021-04-05-tempfile-path-traversal-on-windows-cve-2021-28966.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_2...v2_7_3) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_7_2...v2_7_3) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.7.3" | first %}
 
@@ -49,7 +49,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_2...v2_7_3) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

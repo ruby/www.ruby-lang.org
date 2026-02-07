@@ -1,70 +1,70 @@
 ---
 layout: news_post
-title: "Security Maintenance Extension of Ruby 1.8.7 and 1.9.2"
+title: "Gia hạn bảo trì bảo mật cho Ruby 1.8.7 và 1.9.2"
 author: "zzak"
 translator:
 date: 2013-12-17 20:49:03 +0000
 lang: vi
 ---
 
-Effective immediately, 1.8.7 and 1.9.2 will be supported for security patches
-until June 2014.
+Có hiệu lực ngay lập tức, 1.8.7 và 1.9.2 sẽ được hỗ trợ các bản vá bảo mật
+cho đến tháng 6 năm 2014.
 
 * Terence Lee ([@hone02](https://twitter.com/hone02))
-  and Zachary Scott ([@_zzak](https://twitter.com/_zzak))
-  will assume maintainership.
-* After the 6 month maintenance period, we can add more committers to extend
-  another 6 months.
+  và Zachary Scott ([@_zzak](https://twitter.com/_zzak))
+  sẽ đảm nhận vai trò bảo trì.
+* Sau giai đoạn bảo trì 6 tháng, chúng tôi có thể thêm các committer khác để
+  gia hạn thêm 6 tháng nữa.
 
-This maintenance extension is made possible by [Heroku][heroku],
-see their blog post [A Patch in Time: Securing Ruby][securing-ruby]
-for more information.
+Việc gia hạn bảo trì này được thực hiện nhờ [Heroku][heroku],
+xem bài viết trên blog của họ [A Patch in Time: Securing Ruby][securing-ruby]
+để biết thêm thông tin.
 
-### Reporting issues
+### Báo cáo vấn đề
 
-During this extended maintenance period we will _only_ apply security patches
-to the source code repository for [1.8.7][source-187] and [1.9.2][source-192].
+Trong giai đoạn bảo trì mở rộng này, chúng tôi sẽ _chỉ_ áp dụng các bản vá
+bảo mật vào kho mã nguồn cho [1.8.7][source-187] và [1.9.2][source-192].
 
-We take security very seriously, if you find a vulnerability please report it
-to security@ruby-lang.org immediately. This mailing list is private and
-reported problems will be published after a fix is released.
+Chúng tôi rất coi trọng vấn đề bảo mật, nếu bạn phát hiện lỗ hổng, vui lòng
+báo cáo ngay tới security@ruby-lang.org. Danh sách gửi thư này là riêng tư và
+các vấn đề được báo cáo sẽ được công bố sau khi bản vá được phát hành.
 
-Please see [ruby-lang.org/en/security][security-en] for more information.
+Vui lòng xem [ruby-lang.org/en/security][security-en] để biết thêm thông tin.
 
-### On Release Management
+### Về việc quản lý phát hành
 
-As I mentioned above, we will only be applying security patches and
-incrementing the patch level.
+Như đã đề cập ở trên, chúng tôi sẽ chỉ áp dụng các bản vá bảo mật và
+tăng số patch level.
 
-We will not be releasing a patched version of 1.8.7 or 1.9.2 to ruby-lang.org.
-However, you are free to repackage binaries from source.
+Chúng tôi sẽ không phát hành phiên bản vá của 1.8.7 hoặc 1.9.2 lên ruby-lang.org.
+Tuy nhiên, bạn có thể tự do đóng gói lại binary từ mã nguồn.
 
-Reason being, we don't want any new tickets, as an official release will result
-in continued responsibility of ruby-core to follow up on maintenance. Our team
-resources are already low, and we want to encourage upgrades, not support
-outdated versions.
+Lý do là chúng tôi không muốn có thêm ticket mới, vì một bản phát hành chính thức
+sẽ dẫn đến trách nhiệm tiếp tục bảo trì của ruby-core. Nguồn lực đội ngũ của
+chúng tôi đã hạn chế, và chúng tôi muốn khuyến khích nâng cấp thay vì hỗ trợ
+các phiên bản lỗi thời.
 
-### Why resurrect 1.8.7?
+### Tại sao khôi phục 1.8.7?
 
-You may remember an announcement approximately 6 months ago that
-[sunset 1.8.7][sunset-187-en].
+Bạn có thể nhớ một thông báo khoảng 6 tháng trước về việc
+[kết thúc vòng đời 1.8.7][sunset-187-en].
 
-While ruby-core will no longer resume maintenance of 1.8.7 or 1.9.2, Terence
-and Zachary will support these versions for security maintenance as part of a
-corporate sponsorship.
+Mặc dù ruby-core sẽ không tiếp tục bảo trì 1.8.7 hoặc 1.9.2, Terence
+và Zachary sẽ hỗ trợ các phiên bản này về mặt bảo mật như một phần của
+chương trình tài trợ doanh nghiệp.
 
-In the past we have supported vendors who wish to maintain legacy versions. In
-2009 the maintenance of Ruby 1.8.6 was transferred to Engine Yard when they
-released 1.8.6-p369.
+Trước đây, chúng tôi đã hỗ trợ các nhà cung cấp muốn bảo trì các phiên bản
+cũ. Năm 2009, việc bảo trì Ruby 1.8.6 đã được chuyển giao cho Engine Yard
+khi họ phát hành 1.8.6-p369.
 
-### Words of encouragement
+### Lời khuyến khích
 
-We would like to take this chance to strongly encourage you to upgrade to a
-supported version of Ruby as soon as possible. Many ruby-core members have put
-countless hours into improving the performance and features of Ruby in 2.0+ and
-we wish you would take advantage of it.
+Chúng tôi muốn nhân cơ hội này khuyến khích bạn nâng cấp lên phiên bản Ruby
+được hỗ trợ càng sớm càng tốt. Nhiều thành viên ruby-core đã dành vô số giờ
+để cải thiện hiệu suất và tính năng của Ruby trong phiên bản 2.0+ và chúng tôi
+mong bạn tận dụng điều đó.
 
-Thank you for your continued support and lets keep making Ruby better!
+Cảm ơn sự hỗ trợ liên tục của bạn và hãy cùng nhau làm Ruby tốt hơn!
 
 
 [heroku]:        http://heroku.com/

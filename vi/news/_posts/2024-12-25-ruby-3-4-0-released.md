@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.4.0 Released"
+title: "Phát hành Ruby 3.4.0"
 author: "naruse"
 translator:
 date: 2024-12-25 00:00:00 +0000
@@ -8,13 +8,13 @@ lang: vi
 ---
 
 {% assign release = site.data.releases | where: "version", "3.4.0" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.4 adds `it` block parameter reference,
-changes Prism as default parser, adds Happy Eyeballs Version 2 support to socket library, improves YJIT,
-adds Modular GC, and so on.
+Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}. Ruby 3.4 thêm tham chiếu tham số block `it`,
+đổi Prism thành trình phân tích mặc định, thêm hỗ trợ Happy Eyeballs Version 2 cho thư viện socket, cải thiện YJIT,
+thêm GC Mô-đun, và nhiều hơn nữa.
 
-## `it` is introduced
+## Giới thiệu `it`
 
-`it` is added to reference a block parameter with no variable name. [[Feature #18980]]
+`it` được thêm để tham chiếu đến tham số block không có tên biến. [[Feature #18980]]
 
 ```ruby
 ary = ["foo", "bar", "baz"]
@@ -22,170 +22,170 @@ ary = ["foo", "bar", "baz"]
 p ary.map { it.upcase } #=> ["FOO", "BAR", "BAZ"]
 ```
 
-`it` very much behaves the same as `_1`. When the intention is to only use `_1` in a block, the potential for other numbered parameters such as `_2` to also appear imposes an extra cognitive load onto readers. So `it` was introduced as a handy alias. Use `it` in simple cases where `it` speaks for itself, such as in one-line blocks.
+`it` hoạt động rất giống với `_1`. Khi mục đích chỉ là sử dụng `_1` trong một block, khả năng xuất hiện các tham số đánh số khác như `_2` tạo thêm gánh nặng nhận thức cho người đọc. Vì vậy `it` được giới thiệu như một bí danh tiện lợi. Sử dụng `it` trong các trường hợp đơn giản khi `it` tự giải thích được, chẳng hạn trong các block một dòng.
 
-## Prism is now the default parser
+## Prism giờ đây là trình phân tích mặc định
 
-Switch the default parser from parse.y to Prism. [[Feature #20564]]
+Chuyển trình phân tích mặc định từ parse.y sang Prism. [[Feature #20564]]
 
-This is an internal improvement and there should be little change visible to the user. If you notice any compatibility issues, please report them to us.
+Đây là một cải thiện nội bộ và người dùng sẽ thấy ít thay đổi. Nếu bạn phát hiện bất kỳ vấn đề tương thích nào, vui lòng báo cáo cho chúng tôi.
 
-To use the conventional parser, use the command-line argument `--parser=parse.y`.
+Để sử dụng trình phân tích truyền thống, sử dụng tham số dòng lệnh `--parser=parse.y`.
 
-## The socket library now features Happy Eyeballs Version 2 (RFC 8305)
+## Thư viện socket giờ đây hỗ trợ Happy Eyeballs Version 2 (RFC 8305)
 
-The socket library now features [Happy Eyeballs Version 2 (RFC 8305)](https://datatracker.ietf.org/doc/html/rfc8305), the latest standardized version of a widely adopted approach for better connectivity in many programming languages, in `TCPSocket.new` (`TCPSocket.open`) and `Socket.tcp`.
-This improvement enables Ruby to provide efficient and reliable network connections, adapted to modern internet environments.
+Thư viện socket giờ đây hỗ trợ [Happy Eyeballs Version 2 (RFC 8305)](https://datatracker.ietf.org/doc/html/rfc8305), phiên bản chuẩn hóa mới nhất của phương pháp được áp dụng rộng rãi để cải thiện kết nối trong nhiều ngôn ngữ lập trình, trong `TCPSocket.new` (`TCPSocket.open`) và `Socket.tcp`.
+Cải thiện này cho phép Ruby cung cấp các kết nối mạng hiệu quả và đáng tin cậy, thích ứng với môi trường internet hiện đại.
 
-Until Ruby 3.3, these methods performed name resolution and connection attempts serially. With this algorithm, they now operate as follows:
+Cho đến Ruby 3.3, các phương thức này thực hiện phân giải tên và nỗ lực kết nối tuần tự. Với thuật toán này, chúng giờ đây hoạt động như sau:
 
-1. Performs IPv6 and IPv4 name resolution concurrently
-2. Attempt connections to the resolved IP addresses, prioritizing IPv6, with parallel attempts staggered at 250ms intervals
-3. Return the first successful connection while canceling any others
+1. Thực hiện phân giải tên IPv6 và IPv4 đồng thời
+2. Nỗ lực kết nối đến các địa chỉ IP đã phân giải, ưu tiên IPv6, với các nỗ lực song song cách nhau 250ms
+3. Trả về kết nối thành công đầu tiên trong khi hủy các kết nối khác
 
-This ensures minimized connection delays, even if a specific protocol or IP address is delayed or unavailable.
-This feature is enabled by default, so additional configuration is not required to use it. To disable it globally, set the environment variable `RUBY_TCP_NO_FAST_FALLBACK=1` or call `Socket.tcp_fast_fallback=false`. Or to disable it on a per-method basis, use the keyword argument `fast_fallback: false`.
+Điều này đảm bảo giảm thiểu độ trễ kết nối, ngay cả khi một giao thức hoặc địa chỉ IP cụ thể bị chậm hoặc không khả dụng.
+Tính năng này được bật mặc định, vì vậy không cần cấu hình thêm để sử dụng. Để tắt toàn cục, đặt biến môi trường `RUBY_TCP_NO_FAST_FALLBACK=1` hoặc gọi `Socket.tcp_fast_fallback=false`. Hoặc để tắt trên từng phương thức, sử dụng tham số keyword `fast_fallback: false`.
 
 ## YJIT
 
 ### TL;DR
 
-* Better performance across most benchmarks on both x86-64 and arm64 platforms.
-* Reduced memory usage through compressed metadata and a unified memory limit.
-* Various bug fixes: YJIT is now more robust and thoroughly tested.
+* Hiệu suất tốt hơn trên hầu hết các benchmark trên cả nền tảng x86-64 và arm64.
+* Giảm sử dụng bộ nhớ thông qua metadata nén và giới hạn bộ nhớ thống nhất.
+* Nhiều bản sửa lỗi: YJIT giờ đây ổn định hơn và được kiểm tra kỹ hơn.
 
-### New features
+### Tính năng mới
 
-* Command-line options
-    * `--yjit-mem-size` introduces a unified memory limit (default 128MiB) to track total YJIT memory usage,
-      providing a more intuitive alternative to the old `--yjit-exec-mem-size` option.
-    * `--yjit-log` enables a compilation log to track what gets compiled.
+* Tùy chọn dòng lệnh
+    * `--yjit-mem-size` giới thiệu giới hạn bộ nhớ thống nhất (mặc định 128MiB) để theo dõi tổng sử dụng bộ nhớ YJIT,
+      cung cấp một phương án trực quan hơn so với tùy chọn cũ `--yjit-exec-mem-size`.
+    * `--yjit-log` bật nhật ký biên dịch để theo dõi những gì được biên dịch.
 * Ruby API
-    * `RubyVM::YJIT.log` provides access to the tail of the compilation log at run-time.
-* YJIT stats
-    * `RubyVM::YJIT.runtime_stats` now always provides additional statistics on
-       invalidation, inlining, and metadata encoding.
+    * `RubyVM::YJIT.log` cung cấp quyền truy cập vào phần cuối nhật ký biên dịch tại thời điểm chạy.
+* Thống kê YJIT
+    * `RubyVM::YJIT.runtime_stats` giờ đây luôn cung cấp thêm thống kê về
+       invalidation, inlining, và mã hóa metadata.
 
-### New optimizations
+### Tối ưu hóa mới
 
-* Compressed context reduces memory needed to store YJIT metadata
-* Allocate registers for local variables and Ruby method arguments
-* When YJIT is enabled, use more Core primitives written in Ruby:
-    * `Array#each`, `Array#select`, `Array#map` rewritten in Ruby for better performance [[Feature #20182]].
-* Ability to inline small/trivial methods such as:
-    * Empty methods
-    * Methods returning a constant
-    * Methods returning `self`
-    * Methods directly returning an argument
-* Specialized codegen for many more runtime methods
-* Optimize `String#getbyte`, `String#setbyte` and other string methods
-* Optimize bitwise operations to speed up low-level bit/byte manipulation
-* Support shareable constants in multi-ractor mode
-* Various other incremental optimizations
+* Context nén giảm bộ nhớ cần thiết để lưu trữ metadata YJIT
+* Cấp phát thanh ghi cho biến cục bộ và tham số phương thức Ruby
+* Khi YJIT được bật, sử dụng nhiều nguyên thủy Core hơn được viết bằng Ruby:
+    * `Array#each`, `Array#select`, `Array#map` được viết lại bằng Ruby để có hiệu suất tốt hơn [[Feature #20182]].
+* Khả năng inline các phương thức nhỏ/đơn giản như:
+    * Phương thức rỗng
+    * Phương thức trả về hằng số
+    * Phương thức trả về `self`
+    * Phương thức trực tiếp trả về một tham số
+* Codegen chuyên biệt cho nhiều phương thức runtime hơn
+* Tối ưu hóa `String#getbyte`, `String#setbyte` và các phương thức chuỗi khác
+* Tối ưu hóa các phép toán bitwise để tăng tốc thao tác bit/byte cấp thấp
+* Hỗ trợ hằng số chia sẻ trong chế độ multi-ractor
+* Nhiều tối ưu hóa gia tăng khác
 
-## Modular GC
+## GC Mô-đun
 
-* Alternative garbage collector (GC) implementations can be loaded dynamically
-  through the modular garbage collector feature. To enable this feature,
-  configure Ruby with `--with-modular-gc` at build time. GC libraries can be
-  loaded at runtime using the environment variable `RUBY_GC_LIBRARY`.
+* Các triển khai bộ thu gom rác (GC) thay thế có thể được tải động
+  thông qua tính năng bộ thu gom rác mô-đun. Để bật tính năng này,
+  cấu hình Ruby với `--with-modular-gc` khi build. Các thư viện GC có thể được
+  tải tại thời điểm chạy bằng biến môi trường `RUBY_GC_LIBRARY`.
   [[Feature #20351]]
 
-* Ruby's built-in garbage collector has been split into a separate file at
-  `gc/default/default.c` and interacts with Ruby using an API defined in
-  `gc/gc_impl.h`. The built-in garbage collector can now also be built as a
-  library using `make modular-gc MODULAR_GC=default` and enabled using the
-  environment variable `RUBY_GC_LIBRARY=default`. [[Feature #20470]]
+* Bộ thu gom rác tích hợp của Ruby đã được tách ra thành một tập tin riêng tại
+  `gc/default/default.c` và tương tác với Ruby thông qua API được định nghĩa trong
+  `gc/gc_impl.h`. Bộ thu gom rác tích hợp giờ đây cũng có thể được build dưới dạng
+  thư viện bằng `make modular-gc MODULAR_GC=default` và được bật bằng
+  biến môi trường `RUBY_GC_LIBRARY=default`. [[Feature #20470]]
 
-* An experimental GC library is provided based on [MMTk](https://www.mmtk.io/).
-  This GC library can be built using `make modular-gc MODULAR_GC=mmtk` and
-  enabled using the environment variable `RUBY_GC_LIBRARY=mmtk`. This requires
-  the Rust toolchain on the build machine. [[Feature #20860]]
+* Một thư viện GC thử nghiệm được cung cấp dựa trên [MMTk](https://www.mmtk.io/).
+  Thư viện GC này có thể được build bằng `make modular-gc MODULAR_GC=mmtk` và
+  được bật bằng biến môi trường `RUBY_GC_LIBRARY=mmtk`. Điều này yêu cầu
+  bộ công cụ Rust trên máy build. [[Feature #20860]]
 
-## Language changes
+## Thay đổi ngôn ngữ
 
-* String literals in files without a `frozen_string_literal` comment now emit a deprecation warning
-  when they are mutated.
-  These warnings can be enabled with `-W:deprecated` or by setting `Warning[:deprecated] = true`.
-  To disable this change, you can run Ruby with the `--disable-frozen-string-literal`
-  command line argument. [[Feature #20205]]
+* Các chuỗi ký tự trong các tập tin không có comment `frozen_string_literal` giờ đây phát ra cảnh báo deprecation
+  khi chúng bị thay đổi.
+  Các cảnh báo này có thể được bật với `-W:deprecated` hoặc bằng cách đặt `Warning[:deprecated] = true`.
+  Để tắt thay đổi này, bạn có thể chạy Ruby với tham số dòng lệnh `--disable-frozen-string-literal`.
+  [[Feature #20205]]
 
-* Keyword splatting `nil` when calling methods is now supported.
-  `**nil` is treated similarly to `**{}`, passing no keywords,
-  and not calling any conversion methods.  [[Bug #20064]]
+* Giờ đây hỗ trợ keyword splatting `nil` khi gọi phương thức.
+  `**nil` được xử lý tương tự như `**{}`, không truyền keyword nào,
+  và không gọi bất kỳ phương thức chuyển đổi nào.  [[Bug #20064]]
 
-* Block passing is no longer allowed in index.  [[Bug #19918]]
+* Không còn cho phép truyền block trong index.  [[Bug #19918]]
 
-* Keyword arguments are no longer allowed in index.  [[Bug #20218]]
+* Không còn cho phép keyword arguments trong index.  [[Bug #20218]]
 
-* The toplevel name `::Ruby` is reserved now, and the definition will be warned when `Warning[:deprecated]`.  [[Feature #20884]]
+* Tên cấp cao nhất `::Ruby` giờ đây được dành riêng, và định nghĩa sẽ bị cảnh báo khi `Warning[:deprecated]`.  [[Feature #20884]]
 
-## Core classes updates
+## Cập nhật các lớp lõi
 
-Note: We're only listing notable updates of Core class.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật lớp lõi đáng chú ý.
 
 * Exception
 
-  * `Exception#set_backtrace` now accepts an array of `Thread::Backtrace::Location`.
-    `Kernel#raise`, `Thread#raise` and `Fiber#raise` also accept this new format. [[Feature #13557]]
+  * `Exception#set_backtrace` giờ đây chấp nhận mảng `Thread::Backtrace::Location`.
+    `Kernel#raise`, `Thread#raise` và `Fiber#raise` cũng chấp nhận định dạng mới này. [[Feature #13557]]
 
 * GC
 
-    * `GC.config` added to allow setting configuration variables on the Garbage
-      Collector. [[Feature #20443]]
+    * `GC.config` được thêm để cho phép đặt các biến cấu hình trên
+      Bộ thu gom rác. [[Feature #20443]]
 
-    * GC configuration parameter `rgengc_allow_full_mark` introduced.  When `false`
-      GC will only mark young objects. Default is `true`.  [[Feature #20443]]
+    * Tham số cấu hình GC `rgengc_allow_full_mark` được giới thiệu. Khi `false`
+      GC sẽ chỉ đánh dấu các đối tượng trẻ. Mặc định là `true`.  [[Feature #20443]]
 
 * Ractor
 
-    * `require` in Ractor is allowed. The requiring process will be run on
-      the main Ractor.
-      `Ractor._require(feature)` is added to run requiring process on the
-      main Ractor.
+    * `require` trong Ractor được cho phép. Quá trình require sẽ được chạy trên
+      Ractor chính.
+      `Ractor._require(feature)` được thêm để chạy quá trình require trên
+      Ractor chính.
       [[Feature #20627]]
 
-    * `Ractor.main?` is added. [[Feature #20627]]
+    * `Ractor.main?` được thêm. [[Feature #20627]]
 
-    * `Ractor.[]` and `Ractor.[]=` are added to access the ractor local storage
-      of the current Ractor. [[Feature #20715]]
+    * `Ractor.[]` và `Ractor.[]=` được thêm để truy cập bộ nhớ cục bộ ractor
+      của Ractor hiện tại. [[Feature #20715]]
 
-    * `Ractor.store_if_absent(key){ init }` is added to initialize ractor local
-      variables in thread-safty. [[Feature #20875]]
+    * `Ractor.store_if_absent(key){ init }` được thêm để khởi tạo biến cục bộ
+      ractor một cách an toàn luồng. [[Feature #20875]]
 
 * Range
 
-  * `Range#size` now raises `TypeError` if the range is not iterable. [[Misc #18984]]
+  * `Range#size` giờ đây ném `TypeError` nếu range không thể lặp. [[Misc #18984]]
 
 
-## Standard Library updates
+## Cập nhật thư viện chuẩn
 
-Note: We're only listing notable updates of Standard libraries.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật thư viện chuẩn đáng chú ý.
 
 * RubyGems
-    * Add `--attestation` option to gem push. It enabled to store signature to [sigstore.dev]
+    * Thêm tùy chọn `--attestation` cho gem push. Cho phép lưu chữ ký vào [sigstore.dev]
 
 * Bundler
-    * Add a `lockfile_checksums` configuration to include checksums in fresh lockfiles
-    * Add bundle lock `--add-checksums` to add checksums to an existing lockfile
+    * Thêm cấu hình `lockfile_checksums` để bao gồm checksum trong lockfile mới
+    * Thêm bundle lock `--add-checksums` để thêm checksum vào lockfile hiện có
 
 * JSON
 
-    * Performance improvements of `JSON.parse` about 1.5 times faster than json-2.7.x.
+    * Cải thiện hiệu suất `JSON.parse` nhanh hơn khoảng 1.5 lần so với json-2.7.x.
 
 * Tempfile
 
-    * The keyword argument `anonymous: true` is implemented for Tempfile.create.
-      `Tempfile.create(anonymous: true)` removes the created temporary file immediately.
-      So applications don't need to remove the file.
+    * Tham số keyword `anonymous: true` được triển khai cho Tempfile.create.
+      `Tempfile.create(anonymous: true)` xóa tập tin tạm đã tạo ngay lập tức.
+      Vì vậy ứng dụng không cần phải xóa tập tin.
       [[Feature #20497]]
 
 * win32/sspi.rb
 
-    * This library is now extracted from the Ruby repository to [ruby/net-http-sspi].
+    * Thư viện này giờ đây được tách ra từ kho Ruby vào [ruby/net-http-sspi].
       [[Feature #20775]]
 
-The following bundled gems are promoted from default gems.
+Các gem đi kèm sau đây được nâng cấp từ gem mặc định.
 
 - mutex_m 0.3.0
 - getoptlong 0.2.1
@@ -201,14 +201,14 @@ The following bundled gems are promoted from default gems.
 - csv 3.3.2
 - repl_type_completor 0.1.9
 
-## Compatibility issues
+## Vấn đề tương thích
 
-Note: Excluding feature bug fixes.
+Lưu ý: Không bao gồm các bản sửa lỗi tính năng.
 
-* Error messages and backtrace displays have been changed.
-  * Use a single quote instead of a backtick as a opening quote. [[Feature #16495]]
-  * Display a class name before a method name (only when the class has a permanent name). [[Feature #19117]]
-  * `Kernel#caller`, `Thread::Backtrace::Location`'s methods, etc. are also changed accordingly.
+* Thông báo lỗi và hiển thị backtrace đã được thay đổi.
+  * Sử dụng dấu nháy đơn thay vì dấu backtick làm dấu mở ngoặc. [[Feature #16495]]
+  * Hiển thị tên lớp trước tên phương thức (chỉ khi lớp có tên cố định). [[Feature #19117]]
+  * `Kernel#caller`, các phương thức của `Thread::Backtrace::Location`, v.v. cũng được thay đổi tương ứng.
 
   ```
   Old:
@@ -220,36 +220,36 @@ Note: Excluding feature bug fixes.
           from test.rb:2:in '<main>'
   ```
 
-* Hash#inspect rendering have been changed. [[Bug #20433]]
+* Hiển thị Hash#inspect đã được thay đổi. [[Bug #20433]]
 
-    * Symbol keys are displayed using the modern symbol key syntax: `"{user: 1}"`
-    * Other keys now have spaces around `=>`: `'{"user" => 1}'`, while previously they didn't: `'{"user"=>1}'`
+    * Các khóa Symbol được hiển thị bằng cú pháp khóa symbol hiện đại: `"{user: 1}"`
+    * Các khóa khác giờ đây có khoảng trắng xung quanh `=>`: `'{"user" => 1}'`, trong khi trước đó không có: `'{"user"=>1}'`
 
-* Kernel#Float() now accepts a decimal string with decimal part omitted. [[Feature #20705]]
+* Kernel#Float() giờ đây chấp nhận chuỗi thập phân với phần thập phân bị bỏ qua. [[Feature #20705]]
 
   ```rb
-  Float("1.")    #=> 1.0 (previously, an ArgumentError was raised)
-  Float("1.E-1") #=> 0.1 (previously, an ArgumentError was raised)
+  Float("1.")    #=> 1.0 (trước đây, ArgumentError được ném)
+  Float("1.E-1") #=> 0.1 (trước đây, ArgumentError được ném)
   ```
 
-* String#to_f now accepts a decimal string with decimal part omitted. Note that the result changes when an exponent is specified. [[Feature #20705]]
+* String#to_f giờ đây chấp nhận chuỗi thập phân với phần thập phân bị bỏ qua. Lưu ý rằng kết quả thay đổi khi chỉ định số mũ. [[Feature #20705]]
 
   ```rb
   "1.".to_f    #=> 1.0
-  "1.E-1".to_f #=> 0.1 (previously, 1.0 was returned)
+  "1.E-1".to_f #=> 0.1 (trước đây, 1.0 được trả về)
   ```
 
-* Refinement#refined_class has been removed. [[Feature #19714]]
+* Refinement#refined_class đã được loại bỏ. [[Feature #19714]]
 
-## Standard library compatibility issues
+## Vấn đề tương thích thư viện chuẩn
 
 * DidYouMean
 
-    * `DidYouMean::SPELL_CHECKERS[]=` and `DidYouMean::SPELL_CHECKERS.merge!` are removed.
+    * `DidYouMean::SPELL_CHECKERS[]=` và `DidYouMean::SPELL_CHECKERS.merge!` được loại bỏ.
 
 * Net::HTTP
 
-    * Removed the following deprecated constants:
+    * Loại bỏ các hằng số deprecated sau:
         * `Net::HTTP::ProxyMod`
         * `Net::NetPrivate::HTTPRequest`
         * `Net::HTTPInformationCode`
@@ -262,43 +262,43 @@ Note: Excluding feature bug fixes.
         * `Net::HTTPResponseReceiver`
         * `Net::HTTPResponceReceiver`
 
-      These constants were deprecated from 2012.
+      Các hằng số này đã bị deprecated từ năm 2012.
 
 * Timeout
 
-    * Reject negative values for Timeout.timeout. [[Bug #20795]]
+    * Từ chối giá trị âm cho Timeout.timeout. [[Bug #20795]]
 
 * URI
 
-    * Switched default parser to RFC 3986 compliant from RFC 2396 compliant.
+    * Chuyển trình phân tích mặc định sang tuân thủ RFC 3986 thay vì tuân thủ RFC 2396.
       [[Bug #19266]]
 
-## C API updates
+## Cập nhật C API
 
-* `rb_newobj` and `rb_newobj_of` (and corresponding macros `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) have been removed. [[Feature #20265]]
-* Removed deprecated function `rb_gc_force_recycle`. [[Feature #18290]]
+* `rb_newobj` và `rb_newobj_of` (và các macro tương ứng `RB_NEWOBJ`, `RB_NEWOBJ_OF`, `NEWOBJ`, `NEWOBJ_OF`) đã được loại bỏ. [[Feature #20265]]
+* Loại bỏ hàm deprecated `rb_gc_force_recycle`. [[Feature #18290]]
 
-## Miscellaneous changes
+## Thay đổi khác
 
-* Passing a block to a method which doesn't use the passed block will show
-  a warning on verbose mode (`-w`).
+* Truyền block cho một phương thức không sử dụng block đã truyền sẽ hiển thị
+  cảnh báo ở chế độ verbose (`-w`).
   [[Feature #15554]]
 
-* Redefining some core methods that are specially optimized by the interpreter
-  and JIT like `String.freeze` or `Integer#+` now emits a performance class
-  warning (`-W:performance` or `Warning[:performance] = true`).
+* Định nghĩa lại một số phương thức lõi được tối ưu hóa đặc biệt bởi trình thông dịch
+  và JIT như `String.freeze` hoặc `Integer#+` giờ đây sẽ phát ra cảnh báo hiệu suất
+  (`-W:performance` hoặc `Warning[:performance] = true`).
   [[Feature #20429]]
 
-See [NEWS](https://docs.ruby-lang.org/en/3.4/NEWS_md.html)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://docs.ruby-lang.org/en/3.4/NEWS_md.html)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.3.0!
+Với những thay đổi đó, [{{ release.stats.files_changed }} tập tin thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa đi(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.3.0!
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.4!
+Giáng sinh vui vẻ, Chúc mừng ngày lễ, và hãy tận hưởng lập trình với Ruby 3.4!
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -321,11 +321,11 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.4!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.
 
 [Feature #13557]: https://bugs.ruby-lang.org/issues/13557
 [Feature #15554]: https://bugs.ruby-lang.org/issues/15554

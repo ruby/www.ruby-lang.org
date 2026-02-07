@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Ruby 3.1.1 Released"
+title: "Phát hành Ruby 3.1.1"
 author: "naruse"
 translator:
 date: 2022-02-18 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.1.1 has been released.
+Ruby 3.1.1 đã được phát hành.
 
-This is the first TEENY version release of the stable 3.1 series.
+Đây là phiên bản TEENY đầu tiên của dòng ổn định 3.1.
 
 * [error_highlight does not work for -e option](https://bugs.ruby-lang.org/issues/18434)
 * [Fix YJIT passing method arguments in the wrong order when keyword argument and default arguments are mixed. Breaks Rails collection caching](https://bugs.ruby-lang.org/issues/18453)
@@ -32,9 +32,9 @@ This is the first TEENY version release of the stable 3.1 series.
 * [Merge RubyGems-3.3.7 and Bundler-2.3.7](https://github.com/ruby/ruby/pull/5543)
 * [Hang when repeating Hash#shift against a empty Hash](https://bugs.ruby-lang.org/issues/18578)
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v3_1_0...v3_1_1) for further details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v3_1_0...v3_1_1) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.1.1" | first %}
 
@@ -59,7 +59,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_1_0...v3_1_1) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Datadog provides OSS community support for ruby-lang.org"
+title: "Datadog cung cấp hỗ trợ cộng đồng OSS cho ruby-lang.org"
 author: "hsbt"
 translator:
 date: 2024-05-30 00:00:00 +0000
 lang: vi
 ---
 
-We are excited to announce that Ruby's official website, ruby-lang.org, has adopted Datadog for monitoring by [Datadog OSS community support](https://opensource.datadoghq.com/projects/oss-program/).
+Chúng tôi vui mừng thông báo rằng trang web chính thức của Ruby, ruby-lang.org, đã áp dụng Datadog để giám sát thông qua [chương trình hỗ trợ cộng đồng OSS của Datadog](https://opensource.datadoghq.com/projects/oss-program/).
 
-This allows us to effectively monitor the performance and availability of the site in real time for Ruby users. This key benefits of using Datadog include the following.
+Điều này cho phép chúng tôi giám sát hiệu quả hiệu suất và tính khả dụng của trang web theo thời gian thực cho người dùng Ruby. Các lợi ích chính khi sử dụng Datadog bao gồm:
 
-## CDN Visibility
+## Khả năng quan sát CDN
 
-cache.ruby-lang.org provided by Fastly is most important infrastructure of Ruby ecosystem. Datadog enables monitoring of Content Delivery Network (CDN) performance. It tracks cache coverage, error rate, enhancing user experiences.
+cache.ruby-lang.org được cung cấp bởi Fastly là hạ tầng quan trọng nhất của hệ sinh thái Ruby. Datadog cho phép giám sát hiệu suất Mạng Phân phối Nội dung (CDN). Nó theo dõi tỷ lệ cache, tỷ lệ lỗi, nâng cao trải nghiệm người dùng.
 
-## Unified Data Visualization
+## Trực quan hóa dữ liệu thống nhất
 
-We have various web services for ruby-lang.org. Datadog allows to visualize log analytics data alongside metrics and application performance monitoring (APM) data in the same dashboards.
+Chúng tôi có nhiều dịch vụ web cho ruby-lang.org. Datadog cho phép trực quan hóa dữ liệu phân tích log cùng với các số liệu và dữ liệu giám sát hiệu suất ứng dụng (APM) trong cùng các bảng điều khiển.
 
-## JIT Trace Visibility
+## Khả năng quan sát JIT Trace
 
-By utilizing Datadog’s tracing capabilities, we can capture traces as requests flow through web servers and databases. This helps identify bottlenecks and problematic requests.
+Bằng cách sử dụng khả năng tracing của Datadog, chúng tôi có thể nắm bắt các trace khi yêu cầu đi qua máy chủ web và cơ sở dữ liệu. Điều này giúp xác định các điểm nghẽn và các yêu cầu có vấn đề.
 
-We published the [public dashboard](https://p.ap1.datadoghq.com/sb/1271b83e-af90-11ee-9072-da7ad0900009-01633a8fa8c0b0c0051f1889afdf55dc) of our key metrics. We will update the dashboard as we continue to improve our monitoring especially YJIT performance.
+Chúng tôi đã công bố [bảng điều khiển công khai](https://p.ap1.datadoghq.com/sb/1271b83e-af90-11ee-9072-da7ad0900009-01633a8fa8c0b0c0051f1889afdf55dc) về các số liệu quan trọng của chúng tôi. Chúng tôi sẽ cập nhật bảng điều khiển khi tiếp tục cải thiện giám sát, đặc biệt là hiệu suất YJIT.
 
-We hope that this adoption of Datadog will contribute to improved site performance for the Ruby community. Please continue to use ruby-lang.org and enjoy an enhanced user experience.
+Chúng tôi hy vọng rằng việc áp dụng Datadog sẽ góp phần cải thiện hiệu suất trang web cho cộng đồng Ruby. Hãy tiếp tục sử dụng ruby-lang.org và tận hưởng trải nghiệm người dùng được nâng cao.

@@ -1,44 +1,44 @@
 ---
 layout: news_post
-title: "Ruby 4.0.0 preview2 Released"
+title: "Phát hành Ruby 4.0.0 preview2"
 author: "naruse"
-translator:
+translator: "Ngọc Lê"
 date: 2025-11-17 00:00:00 +0000
 lang: vi
 ---
 
 {% assign release = site.data.releases | where: "version", "4.0.0-preview2" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 4.0 updates its Unicode version to 17,0.0, and so on.
+Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}. Ruby 4.0 cập nhật phiên bản Unicode lên 17.0.0, và nhiều cải tiến khác.
 
-## Language changes
+## Thay đổi ngôn ngữ
 
-* `*nil` no longer calls `nil.to_a`, similar to how `**nil` does
-  not call `nil.to_hash`.  [[Feature #21047]]
+* `*nil` không còn gọi `nil.to_a`, tương tự như cách `**nil` không
+  gọi `nil.to_hash`.  [[Feature #21047]]
 
-## Core classes updates
+## Cập nhật các lớp lõi
 
-Note: We're only listing notable updates of Core class.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật đáng chú ý của các lớp lõi.
 
 * Binding
 
-    * `Binding#local_variables` does no longer include numbered parameters.
-      Also, `Binding#local_variable_get` and `Binding#local_variable_set` reject to handle numbered parameters.
+    * `Binding#local_variables` không còn bao gồm các tham số được đánh số.
+      Ngoài ra, `Binding#local_variable_get` và `Binding#local_variable_set` từ chối xử lý các tham số được đánh số.
       [[Bug #21049]]
 
 * IO
 
-    * `IO.select` accepts +Float::INFINITY+ as a timeout argument.
+    * `IO.select` chấp nhận +Float::INFINITY+ làm đối số timeout.
       [[Feature #20610]]
 
 * String
 
-    * Update Unicode to Version 17.0.0 and Emoji Version 17.0. [[Feature #19908]][[Feature #20724]][[Feature #21275]]
-        (also applies to Regexp)
+    * Cập nhật Unicode lên Phiên bản 17.0.0 và Emoji Phiên bản 17.0. [[Feature #19908]][[Feature #20724]][[Feature #21275]]
+        (cũng áp dụng cho Regexp)
 
 
-## Standard Library updates
+## Cập nhật thư viện chuẩn
 
-Note: We're only listing notable updates of Standard librarires.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật đáng chú ý của thư viện chuẩn.
 
 * ostruct 0.6.1
 * pstore 0.2.0
@@ -51,48 +51,48 @@ Note: We're only listing notable updates of Standard librarires.
 * readline 0.0.4
 * fiddle 1.1.6
 
-## Compatibility issues
+## Vấn đề tương thích
 
-Note: Excluding feature bug fixes.
-
-
-
-## Standard library compatibility issues
+Lưu ý: Không bao gồm các bản sửa lỗi tính năng.
 
 
-## C API updates
+
+## Vấn đề tương thích thư viện chuẩn
+
+
+## Cập nhật C API
 
 
 ## JIT
 
 * YJIT
-    * YJIT stats
-        * `ratio_in_yjit` no longer works in the default build.
-          Use `--enable-yjit=stats` on `configure` to enable it on `--yjit-stats`.
-        * Add `invalidate_everything` to default stats, which is
-          incremented when every code is invalidated by TracePoint.
-    * Add `mem_size:` and `call_threshold:` options to `RubyVM::YJIT.enable`.
+    * Thống kê YJIT
+        * `ratio_in_yjit` không còn hoạt động trong bản build mặc định.
+          Sử dụng `--enable-yjit=stats` khi `configure` để kích hoạt nó với `--yjit-stats`.
+        * Thêm `invalidate_everything` vào thống kê mặc định, được
+          tăng lên khi mọi mã bị vô hiệu hóa bởi TracePoint.
+    * Thêm các tùy chọn `mem_size:` và `call_threshold:` cho `RubyVM::YJIT.enable`.
 * ZJIT
-    * Add an experimental method-based JIT compiler.
-      Use `--enable-zjit` on `configure` to enable the `--zjit` support.
-    * As of Ruby 4.0.0-preview2, ZJIT is not yet ready for speeding up most benchmarks.
-      Please refrain from evaluating ZJIT just yet. Stay tuned for the Ruby 4.0 release.
+    * Thêm trình biên dịch JIT dựa trên phương thức thử nghiệm.
+      Sử dụng `--enable-zjit` khi `configure` để kích hoạt hỗ trợ `--zjit`.
+    * Tính đến Ruby 4.0.0-preview2, ZJIT chưa sẵn sàng để tăng tốc hầu hết các benchmark.
+      Vui lòng chưa đánh giá ZJIT vội. Hãy chờ bản phát hành Ruby 4.0.
 * RJIT
-    * `--rjit` is removed. We will move the implementation of the third-party JIT API
-      to the [ruby/rjit](https://github.com/ruby/rjit) repository.
+    * `--rjit` đã bị loại bỏ. Chúng tôi sẽ chuyển triển khai API JIT bên thứ ba
+      sang kho lưu trữ [ruby/rjit](https://github.com/ruby/rjit).
 
-## Miscellaneous changes
+## Thay đổi khác
 
 
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)
-since Ruby 3.4.0!
+Với những thay đổi này, [{{ release.stats.files_changed }} tệp thay đổi, {{ release.stats.insertions }} thêm(+), {{ release.stats.deletions }} xóa(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.4.0!
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -115,11 +115,11 @@ since Ruby 3.4.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.
 
 [Feature #21047]: https://bugs.ruby-lang.org/issues/21047
 [Bug #21049]: https://bugs.ruby-lang.org/issues/21049

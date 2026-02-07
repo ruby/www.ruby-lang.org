@@ -1,12 +1,11 @@
 ---
 layout: news_post
-title: "Ruby Logo Contest"
+title: "Cuộc thi thiết kế Logo Ruby"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-The Ruby Association open [the Ruby Logo Contest][1]. Please submit your
-logo!
+Ruby Association tổ chức [cuộc thi Logo Ruby][1]. Hãy gửi logo của bạn!
 
 
 

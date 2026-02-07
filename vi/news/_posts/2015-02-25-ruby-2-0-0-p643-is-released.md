@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p643 Released"
+title: "Phát hành Ruby 2.0.0-p643"
 author: "usa"
 translator:
 date: 2015-02-25 12:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.0.0-p643.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p643.
 
-This is the last ordinal release of Ruby 2.0.0.
-Ruby 2.0.0 goes into the state of the security maintenance phase,
-and will never be released unless any critical regressions
-or security issues are found.
-This phase is planned to be maintained for 1 year.
-Then, maintenance of Ruby 2.0.0 will be ended at Feb. 24th, 2016.
-We recommend to start planning to migrate to newer versions of Ruby, such as 2.1 or 2.2.
+Đây là bản phát hành thông thường cuối cùng của Ruby 2.0.0.
+Ruby 2.0.0 chuyển sang giai đoạn bảo trì bảo mật,
+và sẽ không bao giờ được phát hành trừ khi phát hiện các lỗi hồi quy nghiêm trọng
+hoặc các vấn đề bảo mật.
+Giai đoạn này dự kiến được duy trì trong 1 năm.
+Sau đó, việc bảo trì Ruby 2.0.0 sẽ kết thúc vào ngày 24 tháng 2 năm 2016.
+Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch chuyển sang các phiên bản Ruby mới hơn, như 2.1 hoặc 2.2.
 
-This release includes many bugfixes.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
-for details.
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p643.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p643.tar.bz2)
 
@@ -52,6 +52,6 @@ for details.
       SHA256: 0f0ac0b075c924cfdd0e95e66560d99d9de36256af6fe51d375efe9dd0a0b996
       SHA512: 2c5780972bd27f5160c1f7524b3bc221dc8fba857863e53216fc3511df0415003ed1d4bc8c49533a34eedab0de72a261e5d4f2cecc251c64be843194ce3efbb6
 
-## Release Comment
+## Nhận xét về bản phát hành
 
-Thanks to everyone who helped with this and previous releases.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này và các bản phát hành trước đó.

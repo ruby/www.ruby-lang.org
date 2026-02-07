@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 2.2.7 Released"
+title: "Phát hành Ruby 2.2.7"
 author: "usa"
 translator:
 date: 2017-03-28 11:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.2.7 has been released.
+Ruby 2.2.7 đã được phát hành.
 
-This release includes about 70 bug fixes after the previous release.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
-for details.
+Bản phát hành này bao gồm khoảng 70 bản sửa lỗi kể từ phiên bản trước.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
+để biết thêm chi tiết.
 
-After this release, we will end the normal maintenance phase of Ruby 2.2,
-and start the security maintenance phase of it.
-This means that after the release of 2.2.7 we will never backport any bug fixes
-to 2.2 except security fixes.
-The term of the security maintenance phase is scheduled for 1 year.
-By the end of this term, official support of Ruby 2.2 will be over.
-Therefore, we recommend that you start planning to upgrade to Ruby 2.4 or 2.3.
+Sau bản phát hành này, chúng tôi sẽ kết thúc giai đoạn bảo trì thông thường của Ruby 2.2,
+và bắt đầu giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là sau khi phát hành 2.2.7, chúng tôi sẽ không bao giờ backport bất kỳ
+bản sửa lỗi nào cho 2.2 ngoại trừ các bản sửa lỗi bảo mật.
+Giai đoạn bảo trì bảo mật được lên kế hoạch kéo dài 1 năm.
+Khi kết thúc giai đoạn này, việc hỗ trợ chính thức cho Ruby 2.2 sẽ chấm dứt.
+Do đó, chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.4 hoặc 2.3.
 
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.7.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.7.tar.bz2)
 
@@ -52,10 +52,10 @@ Therefore, we recommend that you start planning to upgrade to Ruby 2.4 or 2.3.
       SHA256: db3852d3f23b5eab2b9862ff01c16486eb5700cd7cb5a78234254fd8a330e183
       SHA512: 3bb978c510ecb9f962c4613124fffd64e1348d1fa2779218727c1c7c8ff3cbcf88ff0232acb815f3363af67e9f5ce546ca84990ee95269f9512270830daa588a
 
-## Release Comment
+## Lời nhắn phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.2, including this release,
-is based on the "Agreement for the Ruby stable version" of the
+Việc bảo trì Ruby 2.2, bao gồm cả bản phát hành này,
+dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của
 [Ruby Association](http://www.ruby.or.jp/).

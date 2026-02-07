@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7-p374 is released"
+title: "Phát hành Ruby 1.8.7-p374"
 author: "hsbt"
 translator:
 date: 2013-06-27 11:00:01 +0000
 lang: vi
 ---
 
-Now Ruby 1.8.7-p374 is released.
+Ruby 1.8.7-p374 đã được phát hành.
 
-This release includes follow security fixes:
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật sau:
 
- * [Hostname check bypassing vulnerability in SSL client
+ * [Lỗ hổng bỏ qua kiểm tra hostname trong SSL client
    (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
- * [Entity expansion DoS vulnerability in REXML (XML bomb,
+ * [Lỗ hổng DoS mở rộng thực thể trong REXML (XML bomb,
    CVE-2013-1821)](/en/news/2013/02/22/rexml-dos-2013-02-22/)
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p374.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p374.tar.bz2)
 
@@ -36,7 +36,7 @@ This release includes follow security fixes:
       MD5:    07b1b9032b616faeafb5ac1063494925
       SHA256: ed1fcc402d77814b277e2ef552c5f1e4ce3b6d1affacf5d6ba845ec0d4df67d0
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many people (committers, contributors and reporters) helped me to make this release.
-Thank you!
+Nhiều người (committer, người đóng góp và người báo cáo) đã giúp tôi tạo ra
+bản phát hành này. Cảm ơn!

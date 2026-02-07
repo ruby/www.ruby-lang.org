@@ -1,40 +1,41 @@
 ---
 layout: news_post
-title: "Ruby 1.9.2 RC1 is released"
+title: "Ruby 1.9.2 RC1 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.2 RC has just been released. This is a release candidate of
+Ruby 1.9.2 RC vừa được phát hành. Đây là bản ứng viên phát hành của
 Ruby 1.9.2.
 
-## About Ruby 1.9.2
+## Về Ruby 1.9.2
 
-Ruby 1.9.2 will be mostly compatible with 1.9.1, except for the
-following changes:
+Ruby 1.9.2 sẽ tương thích chủ yếu với 1.9.1, ngoại trừ các thay đổi
+sau:
 
-* many new methods
-* new socket API (IPv6 support)
-* new encodings
-* a `Random` class that supports various random number generators
-* `Time` has been reimplemented. There is no longer the year 2038 issue.
-* some regexp enhancements
-* `$:` no longer includes the current directory
-* `dl` is reimplemented on top of `libffi`
-* new `psych` library that wraps `libyaml`. You can use the library
-  instead of `syck`
+* nhiều phương thức mới
+* socket API mới (hỗ trợ IPv6)
+* các encoding mới
+* lớp `Random` hỗ trợ nhiều bộ sinh số ngẫu nhiên khác nhau
+* `Time` đã được triển khai lại. Không còn vấn đề năm 2038.
+* một số cải tiến regexp
+* `$:` không còn bao gồm thư mục hiện tại
+* `dl` được triển khai lại trên nền `libffi`
+* thư viện `psych` mới bao bọc `libyaml`. Bạn có thể sử dụng thư viện
+  này thay cho `syck`
 
-See the [NEWS][1] and [ChangeLog][2] files for more details.
+Xem [NEWS][1] và [ChangeLog][2] để biết thêm chi tiết.
 
-About 130 bugs have been fixed since the 1.9.2 preview 3 release. All
-major known bugs in the 1.9.2 were fixed, except for [#3462][3].
+Khoảng 130 lỗi đã được sửa kể từ bản phát hành 1.9.2 preview 3. Tất cả
+các lỗi lớn đã biết trong 1.9.2 đã được sửa, ngoại trừ [#3462][3].
 
-Due to our schedule, Ruby 1.9.2 will be released in early August. The
-schedule of Ruby 1.9.2 has slipped in order to ensure that 1.9.2 passes
-the RubySpec. It now passes more than 99% of RubySpecs. Try out the new
-Ruby and let us know via [our issue tracker][4] if you have any issues.
+Theo lịch trình, Ruby 1.9.2 sẽ được phát hành vào đầu tháng 8. Lịch
+trình của Ruby 1.9.2 đã bị lùi lại để đảm bảo rằng 1.9.2 vượt qua
+RubySpec. Hiện tại nó đã vượt qua hơn 99% RubySpecs. Hãy thử Ruby mới
+và cho chúng tôi biết qua [hệ thống theo dõi lỗi][4] nếu bạn gặp bất
+kỳ vấn đề nào.
 
-## Download
+## Tải về
 
 * [ruby-1.9.2-rc1.tar.bz2][5]
   * SIZE: 8479087 bytes

@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Redesign our Site Identity"
+title: "Thiết kế lại nhận diện trang web"
 author: "Hiroshi SHIBATA"
-translator:
+translator: "Ngọc Lê"
 date: 2025-12-22 05:46:09 +0000
 lang: vi
 ---
 
-We are excited to announce a comprehensive redesign of our site. The design for this update was created by [Taeko Akatsuka](https://x.com/ken_c_lo).
+Chúng tôi vui mừng thông báo về việc thiết kế lại toàn diện trang web của chúng tôi. Thiết kế cho bản cập nhật này được tạo bởi [Taeko Akatsuka](https://x.com/ken_c_lo).
 
-As part of this update, we have redesigned the site's identity as "A language where people gather, a site where people are visible."
+Là một phần của bản cập nhật này, chúng tôi đã thiết kế lại nhận diện của trang web với chủ đề "Một ngôn ngữ nơi mọi người tụ họp, một trang web nơi con người hiện diện."
 
-Ruby has been a language centered on "programmer happiness" for 30 years. The new key visual expresses the presence of people surrounding Ruby.
+Ruby đã là một ngôn ngữ tập trung vào "niềm hạnh phúc của lập trình viên" suốt 30 năm. Hình ảnh chủ đạo mới thể hiện sự hiện diện của con người xung quanh Ruby.
 
-The composition features diverse hand-drawn illustrated characters radiating outward from the central Ruby logo, representing developers around the world connecting through Ruby, creating value in their respective fields, and enjoying Ruby alongside familiar motifs.
+Bố cục nổi bật với các nhân vật minh họa vẽ tay đa dạng tỏa ra từ logo Ruby trung tâm, đại diện cho các nhà phát triển trên khắp thế giới kết nối thông qua Ruby, tạo ra giá trị trong các lĩnh vực tương ứng, và tận hưởng Ruby cùng với các hình ảnh quen thuộc.
 
-While conveying Ruby's modern strengths of ecosystem, productivity, and community, the warm visual style embodies the unchanged joy, approachability, and tactile quality that have been core to Ruby since its inception. We aimed for an expression unique to Ruby that cannot be found on other programming language sites.
+Trong khi truyền tải các thế mạnh hiện đại của Ruby về hệ sinh thái, năng suất, và cộng đồng, phong cách hình ảnh ấm áp thể hiện niềm vui, sự gần gũi, và chất lượng xúc giác không thay đổi đã là cốt lõi của Ruby kể từ khi ra đời. Chúng tôi hướng đến một cách thể hiện độc đáo cho Ruby mà không thể tìm thấy trên các trang web ngôn ngữ lập trình khác.
 
-Matz highlights simplicity of expression as one of Ruby's strengths, in addition to ecosystem, productivity, and community. In the new design, following the key visual, Ruby code is displayed to emphasize its essence as a programming language.
+Matz nhấn mạnh sự đơn giản trong cách thể hiện là một trong những thế mạnh của Ruby, bên cạnh hệ sinh thái, năng suất, và cộng đồng. Trong thiết kế mới, theo sau hình ảnh chủ đạo, mã Ruby được hiển thị để nhấn mạnh bản chất của nó như một ngôn ngữ lập trình.
 
-We also incorporated interviews with community members and photographs, creating a site where you can sense the presence of the many people behind the programming language.
+Chúng tôi cũng đã kết hợp các cuộc phỏng vấn với thành viên cộng đồng và hình ảnh, tạo ra một trang web nơi bạn có thể cảm nhận sự hiện diện của nhiều người đứng sau ngôn ngữ lập trình.
 
-The site-wide update with the new design is still ongoing. There are still many areas for improvement, such as broken links and inconsistencies. We look forward to your feedback.
+Bản cập nhật toàn trang web với thiết kế mới vẫn đang được tiến hành. Vẫn còn nhiều lĩnh vực cần cải thiện, như các liên kết hỏng và sự không nhất quán. Chúng tôi mong nhận được phản hồi từ các bạn.

@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Security advisories: CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221"
+title: "Khuyến cáo bảo mật: CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221"
 author: "hsbt"
 translator:
 date: 2025-02-26 07:00:00 +0000
@@ -8,63 +8,63 @@ tags: security
 lang: vi
 ---
 
-We published security advisories for CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221. Please read the details below.
+Chúng tôi đã công bố các khuyến cáo bảo mật cho CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221. Vui lòng đọc chi tiết bên dưới.
 
-## CVE-2025-27219: Denial of Service in `CGI::Cookie.parse`.
+## CVE-2025-27219: Từ chối dịch vụ trong `CGI::Cookie.parse`.
 
-There is a possibility for DoS by in the cgi gem.  This vulnerability has been assigned the CVE identifier [CVE-2025-27219](https://www.cve.org/CVERecord?id=CVE-2025-27219). We recommend upgrading the cgi gem.
+Có khả năng xảy ra DoS trong gem cgi. Lỗ hổng này đã được gán mã định danh CVE [CVE-2025-27219](https://www.cve.org/CVERecord?id=CVE-2025-27219). Chúng tôi khuyến nghị nâng cấp gem cgi.
 
-### Details
+### Chi tiết
 
-`CGI::Cookie.parse` took super-linear time to parse a cookie string in some cases. Feeding a maliciously crafted cookie string into the method could lead to a Denial of Service.
+`CGI::Cookie.parse` mất thời gian siêu tuyến tính để phân tích chuỗi cookie trong một số trường hợp. Đưa chuỗi cookie được tạo thủ công độc hại vào phương thức có thể dẫn đến Từ chối Dịch vụ.
 
-Please update CGI gem to version 0.3.5.1, 0.3.7, 0.4.2 or later.
+Vui lòng cập nhật gem CGI lên phiên bản 0.3.5.1, 0.3.7, 0.4.2 hoặc mới hơn.
 
-### Affected versions
+### Phiên bản bị ảnh hưởng
 
-* cgi gem versions <= 0.3.5, 0.3.6, 0.4.0 and 0.4.1.
+* Gem cgi phiên bản <= 0.3.5, 0.3.6, 0.4.0 và 0.4.1.
 
-### Credits
+### Ghi nhận
 
-Thanks to [lio346](https://hackerone.com/lio346) for discovering this issue. Also thanks to [mame](https://github.com/mame) for fixing this vulnerability.
+Cảm ơn [lio346](https://hackerone.com/lio346) đã phát hiện vấn đề này. Cũng cảm ơn [mame](https://github.com/mame) đã sửa lỗ hổng này.
 
-## CVE-2025-27220: ReDoS in `CGI::Util#escapeElement`.
+## CVE-2025-27220: ReDoS trong `CGI::Util#escapeElement`.
 
-There is a possibility for Regular expression Denial of Service(ReDoS) by in the cgi gem.  This vulnerability has been assigned the CVE identifier [CVE-2025-27220](https://www.cve.org/CVERecord?id=CVE-2025-27220). We recommend upgrading the cgi gem.
+Có khả năng xảy ra Từ chối Dịch vụ bằng Biểu thức Chính quy (ReDoS) trong gem cgi. Lỗ hổng này đã được gán mã định danh CVE [CVE-2025-27220](https://www.cve.org/CVERecord?id=CVE-2025-27220). Chúng tôi khuyến nghị nâng cấp gem cgi.
 
-### Details
+### Chi tiết
 
-The regular expression used in `CGI::Util#escapeElement` is vulnerable to ReDoS. The crafted input could lead to a high CPU consumption.
+Biểu thức chính quy được sử dụng trong `CGI::Util#escapeElement` dễ bị tấn công ReDoS. Đầu vào được tạo thủ công có thể dẫn đến tiêu thụ CPU cao.
 
-This vulnerability only affects Ruby 3.1 and 3.2. If you are using these versions, please update CGI gem to version 0.3.5.1, 0.3.7, 0.4.2 or later.
+Lỗ hổng này chỉ ảnh hưởng đến Ruby 3.1 và 3.2. Nếu bạn đang sử dụng các phiên bản này, vui lòng cập nhật gem CGI lên phiên bản 0.3.5.1, 0.3.7, 0.4.2 hoặc mới hơn.
 
-### Affected versions
+### Phiên bản bị ảnh hưởng
 
-* cgi gem versions <= 0.3.5, 0.3.6, 0.4.0 and 0.4.1.
+* Gem cgi phiên bản <= 0.3.5, 0.3.6, 0.4.0 và 0.4.1.
 
-### Credits
+### Ghi nhận
 
-Thanks to [svalkanov](https://hackerone.com/svalkanov) for discovering this issue. Also thanks to [nobu](https://github.com/nobu) for fixing this vulnerability.
+Cảm ơn [svalkanov](https://hackerone.com/svalkanov) đã phát hiện vấn đề này. Cũng cảm ơn [nobu](https://github.com/nobu) đã sửa lỗ hổng này.
 
 
-## CVE-2025-27221: userinfo leakage in `URI#join`, `URI#merge` and `URI#+`.
+## CVE-2025-27221: Rò rỉ userinfo trong `URI#join`, `URI#merge` và `URI#+`.
 
-There is a possibility for userinfo leakage by in the uri gem.  This vulnerability has been assigned the CVE identifier [CVE-2025-27221](https://www.cve.org/CVERecord?id=CVE-2025-27221). We recommend upgrading the uri gem.
+Có khả năng rò rỉ userinfo trong gem uri. Lỗ hổng này đã được gán mã định danh CVE [CVE-2025-27221](https://www.cve.org/CVERecord?id=CVE-2025-27221). Chúng tôi khuyến nghị nâng cấp gem uri.
 
-### Details
+### Chi tiết
 
-The methods `URI#join`, `URI#merge`, and `URI#+` retained userinfo, such as `user:password`, even after the host is replaced. When generating a URL to a malicious host from a URL containing secret userinfo using these methods, and having someone access that URL, an unintended userinfo leak could occur.
+Các phương thức `URI#join`, `URI#merge`, và `URI#+` giữ lại userinfo, chẳng hạn như `user:password`, ngay cả sau khi host bị thay thế. Khi tạo URL đến host độc hại từ URL chứa userinfo bí mật bằng các phương thức này, và có người truy cập URL đó, có thể xảy ra rò rỉ userinfo ngoài ý muốn.
 
-Please update URI gem to version 0.11.3, 0.12.4, 0.13.2, 1.0.3 or later.
+Vui lòng cập nhật gem URI lên phiên bản 0.11.3, 0.12.4, 0.13.2, 1.0.3 hoặc mới hơn.
 
-### Affected versions
+### Phiên bản bị ảnh hưởng
 
-* uri gem versions < 0.11.3, 0.12.0 to 0.12.3, 0.13.0, 0.13.1 and 1.0.0 to 1.0.2.
+* Gem uri phiên bản < 0.11.3, 0.12.0 đến 0.12.3, 0.13.0, 0.13.1 và 1.0.0 đến 1.0.2.
 
-### Credits
+### Ghi nhận
 
-Thanks to [Tsubasa Irisawa (lambdasawa)](https://hackerone.com/lambdasawa) for discovering this issue. Also thanks to [nobu](https://github.com/nobu) for additional fixes of this vulnerability.
+Cảm ơn [Tsubasa Irisawa (lambdasawa)](https://hackerone.com/lambdasawa) đã phát hiện vấn đề này. Cũng cảm ơn [nobu](https://github.com/nobu) đã sửa thêm lỗ hổng này.
 
-## History
+## Lịch sử
 
-* Originally published at 2025-02-26 7:00:00 (UTC)
+* Công bố lần đầu vào 2025-02-26 7:00:00 (UTC)

@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p374 is released"
+title: "Phát hành Ruby 1.9.3-p374"
 author: "usa"
 lang: vi
 ---
 
-Now Ruby 1.9.3-p374 is released.
+Ruby 1.9.3-p374 đã được phát hành.
 
-This release includes many bug fixes. Especially,
+Bản phát hành này bao gồm nhiều bản sửa lỗi. Cụ thể,
 
-* Fixed randomly SEGV problem (often reported with Rails)
-* Windows 8 support (maybe, hopefully)
-* other many bug fixes.
+* Sửa lỗi SEGV ngẫu nhiên (thường được báo cáo với Rails)
+* Hỗ trợ Windows 8 (có thể, hy vọng vậy)
+* Nhiều bản sửa lỗi khác.
 
-See [tickets][1] and [ChangeLog][2] for details.
+Xem [tickets][1] và [ChangeLog][2] để biết chi tiết.
 
-Any new security fixes are not included in this release, but I recommend
-users of previous release (p362) to update.
+Bản phát hành này không bao gồm bản sửa lỗi bảo mật mới nào, nhưng
+khuyến nghị người dùng phiên bản trước (p362) nên cập nhật.
 
-## Downloads
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p374.tar.bz2&gt;][3]
   * SIZE: 10017658 bytes
@@ -37,10 +37,10 @@ You can download this release from:
   * MD5: c0001d5d36ad2e3e6a84810abe585b79
   * SHA256: 058af4cf409c93cce1de74a6b3355ddcf740f3efae1ab02d63471fcdbed19088
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many committers, testers and users who gave bug reports greatly helped
-me to make this release. Thank you everyone.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp đỡ
+rất nhiều trong việc tạo ra bản phát hành này. Cảm ơn tất cả mọi người.
 
 Happy Hacking!
 

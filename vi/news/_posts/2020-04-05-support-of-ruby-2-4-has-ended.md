@@ -1,46 +1,45 @@
 ---
 layout: news_post
-title: "Support of Ruby 2.4 has ended"
+title: "Kết thúc hỗ trợ Ruby 2.4"
 author: "usa"
 translator:
 date: 2020-04-05 12:00:00 +0000
 lang: vi
 ---
 
-We announce that all support of the Ruby 2.4 series has ended.
+Chúng tôi thông báo rằng toàn bộ hỗ trợ cho dòng Ruby 2.4 đã kết thúc.
 
-From the end of March of the last year, the support of the Ruby 2.4 series
-was in the security maintenance phase.
-Now, after one year has passed, this phase has ended.
-Therefore, at March 31, 2020, all support of the Ruby 2.4 series has ended.
-Bug and security fixes from more recent Ruby versions will no longer be
-backported to 2.4, and no further patch release of 2.4 will be released.
-We released Ruby 2.4.10 at March 31, 2020, but it was to give users a little
-time to move to newer versions.
-We highly recommend that you upgrade to newer versions of Ruby as soon as
-possible.
+Từ cuối tháng 3 năm ngoái, việc hỗ trợ dòng Ruby 2.4
+đã ở trong giai đoạn bảo trì bảo mật.
+Giờ đây, sau một năm, giai đoạn này đã kết thúc.
+Do đó, vào ngày 31 tháng 3 năm 2020, toàn bộ hỗ trợ cho dòng Ruby 2.4 đã kết thúc.
+Các bản sửa lỗi và bản vá bảo mật từ các phiên bản Ruby mới hơn sẽ không còn
+được backport sang 2.4, và sẽ không có bản phát hành bản vá nào nữa cho 2.4.
+Chúng tôi đã phát hành Ruby 2.4.10 vào ngày 31 tháng 3 năm 2020, nhưng đó là để
+cho người dùng có thêm thời gian để chuyển sang các phiên bản mới hơn.
+Chúng tôi khuyến nghị bạn nâng cấp lên các phiên bản mới hơn của Ruby càng sớm
+càng tốt.
 
 
-## About currently supported Ruby versions
+## Về các phiên bản Ruby hiện đang được hỗ trợ
 
-### Ruby 2.7 series
+### Dòng Ruby 2.7
 
-Currently in normal maintenance phase.
-We will backport bug fixes and release with the fixes whenever necessary.
-And, if a critical security issue is found, we will release an urgent fix
-for it.
+Hiện đang trong giai đoạn bảo trì bình thường.
+Chúng tôi sẽ backport các bản sửa lỗi và phát hành bản vá khi cần thiết.
+Và nếu phát hiện vấn đề bảo mật nghiêm trọng, chúng tôi sẽ phát hành bản sửa
+khẩn cấp.
 
-### Ruby 2.6 series
+### Dòng Ruby 2.6
 
-Currently in normal maintenance phase.
-We will backport bug fixes and release with the fixes whenever necessary.
-And, if a critical security issue is found, we will release an urgent fix
-for it.
+Hiện đang trong giai đoạn bảo trì bình thường.
+Chúng tôi sẽ backport các bản sửa lỗi và phát hành bản vá khi cần thiết.
+Và nếu phát hiện vấn đề bảo mật nghiêm trọng, chúng tôi sẽ phát hành bản sửa
+khẩn cấp.
 
-### Ruby 2.5 series
+### Dòng Ruby 2.5
 
-Currently in security maintenance phase.
-We will never backport any bug fixes to 2.5 except security fixes.
-If a critical security issue is found, we will release an urgent fix for it.
-We are planning to end the support of the Ruby 2.5 series at the end of
-March 2021.
+Hiện đang trong giai đoạn bảo trì bảo mật.
+Chúng tôi sẽ không backport bất kỳ bản sửa lỗi nào sang 2.5 ngoại trừ các bản sửa bảo mật.
+Nếu phát hiện vấn đề bảo mật nghiêm trọng, chúng tôi sẽ phát hành bản sửa khẩn cấp.
+Chúng tôi dự kiến kết thúc hỗ trợ dòng Ruby 2.5 vào cuối tháng 3 năm 2021.

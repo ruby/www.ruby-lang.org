@@ -1,21 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 2.2.1 Released"
+title: "Phát hành Ruby 2.2.1"
 author: "hsbt"
 translator:
 date: 2015-03-03 03:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.2.1.
-This is the first TEENY version release of the stable 2.2 series.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.2.1.
+Đây là bản phát hành TEENY đầu tiên của nhánh ổn định 2.2.
 
-This release includes the fix for ffi build failure and memory leak issue on Symbol GC (See [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
+Bản phát hành này bao gồm bản sửa lỗi biên dịch ffi và vấn đề rò rỉ bộ nhớ trên Symbol GC (Xem [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
-for details.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.1.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.1.tar.bz2)
 
@@ -45,8 +45,8 @@ for details.
       SHA256: 73af1b1a9d5ceebfc129f270652fe81d9f760082c9fb3206a81bb7162b2a4087
       SHA512: 7150f0b6c6d27e6053ac88309903adf42fce537b8228740b97929712689c5623757aeb8a76dab1126cb70970c860fedb55a28c4660d818845921c0c74f8563f8
 
-## Release Comment
+## Nhận xét về bản phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi
+giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

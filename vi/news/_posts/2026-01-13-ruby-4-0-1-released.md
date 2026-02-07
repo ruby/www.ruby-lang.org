@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 4.0.1 Released"
+title: "Phát hành Ruby 4.0.1"
 author: k0kubun
-translator:
+translator: "Ngọc Lê"
 date: 2026-01-13 02:28:48 +0000
 lang: vi
 ---
 
-Ruby 4.0.1 has been released.
+Ruby 4.0.1 đã được phát hành.
 
-This release includes a bugfix for spurious wakeup from `Kernel#sleep` when subprocess exits in another thread,
-along with other bugfixes. Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.1) for further details.
+Bản phát hành này bao gồm bản sửa lỗi cho hiện tượng đánh thức giả từ `Kernel#sleep` khi tiến trình con kết thúc trong một thread khác,
+cùng với các bản sửa lỗi khác. Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v4.0.1) để biết thêm chi tiết.
 
-## Release Schedule
+## Lịch trình phát hành
 
-We intend to release the latest stable Ruby version (currently Ruby 4.0) every two months following the most recent release.
-Ruby 4.0.2 will be released in March, 4.0.3 in May, 4.0.4 in July, 4.0.5 in September, and 4.0.6 in November.
+Chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 4.0) hai tháng một lần sau bản phát hành gần nhất.
+Ruby 4.0.2 sẽ được phát hành vào tháng 3, 4.0.3 vào tháng 5, 4.0.4 vào tháng 7, 4.0.5 vào tháng 9, và 4.0.6 vào tháng 11.
 
-If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
+Nếu có thay đổi ảnh hưởng đáng kể đến người dùng, bản phát hành có thể được thực hiện sớm hơn dự kiến, và lịch trình tiếp theo có thể thay đổi tương ứng.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "4.0.1" | first %}
 
@@ -44,7 +44,7 @@ If a change arises that significantly affects users, a release may occur earlier
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

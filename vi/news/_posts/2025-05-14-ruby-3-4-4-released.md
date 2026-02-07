@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 3.4.4 Released"
+title: "Phát hành Ruby 3.4.4"
 author: k0kubun
 translator:
 date: 2025-05-14 18:20:00 +0000
 lang: vi
 ---
 
-Ruby 3.4.4 has been released.
+Ruby 3.4.4 đã được phát hành.
 
-This release includes a fix for a YJIT bug related to local variables and addresses a build issue on Windows when using GCC 15.
-It was released ahead of schedule to make these fixes available as soon as possible.
-A few other bug fixes are also included.
+Bản phát hành này bao gồm bản sửa lỗi YJIT liên quan đến biến cục bộ và giải quyết vấn đề build trên Windows khi sử dụng GCC 15.
+Bản phát hành được đưa ra trước lịch trình để cung cấp các bản sửa lỗi này sớm nhất có thể.
+Một số bản sửa lỗi khác cũng được bao gồm.
 
-Please see the [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_4) for further details.
+Vui lòng xem [ghi chú phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_4) để biết thêm chi tiết.
 
-## Release Schedule
+## Lịch trình phát hành
 
-We intend to release the latest stable Ruby version (currently Ruby 3.4) every two months following the most recent release.
-Following this release (3.4.4), Ruby 3.4.5 is scheduled for July, 3.4.6 for September, 3.4.7 for November, and 3.4.8 for January.
+Chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 3.4) mỗi hai tháng sau bản phát hành gần nhất.
+Theo bản phát hành này (3.4.4), Ruby 3.4.5 dự kiến vào tháng 7, 3.4.6 vào tháng 9, 3.4.7 vào tháng 11, và 3.4.8 vào tháng 1.
 
-If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
+Nếu có thay đổi ảnh hưởng đáng kể đến người dùng, bản phát hành có thể được đưa ra sớm hơn kế hoạch, và lịch trình tiếp theo có thể thay đổi tương ứng.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.4.4" | first %}
 
@@ -47,7 +47,7 @@ If a change arises that significantly affects users, a release may occur earlier
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

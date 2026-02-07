@@ -1,55 +1,45 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p194 is released"
+title: "Ruby 1.9.3-p194 đã được phát hành"
 author: "NARUSE, Yui"
 lang: vi
 ---
 
-Ruby 1.9.3-p194 is released.
+Ruby 1.9.3-p194 đã được phát hành.
 
-This release include Security Fix for RubyGems: SSL server verification
-failure for remote repository. And many bugs are fixed in this release.
+Bản phát hành này bao gồm Bản vá Bảo mật cho RubyGems: Lỗi xác minh máy chủ SSL cho kho lưu trữ từ xa. Và nhiều lỗi đã được sửa trong bản phát hành này.
 
-## Security Fix for RubyGems: SSL server verification failure for remote repository
+## Bản vá Bảo mật cho RubyGems: Lỗi xác minh máy chủ SSL cho kho lưu trữ từ xa
 
-This release includes two security fixes in RubyGems.
+Bản phát hành này bao gồm hai bản vá bảo mật trong RubyGems.
 
-* Turn on verification of server SSL certs
-* Disallow redirects from https to http
+* Bật xác minh chứng chỉ SSL của máy chủ
+* Không cho phép chuyển hướng từ https sang http
 
-Users who uses https source in .gemrc or /etc/gemrc are encouraged to
-upgrade to 1.9.3-p194.
+Người dùng sử dụng nguồn https trong .gemrc hoặc /etc/gemrc được khuyến khích nâng cấp lên 1.9.3-p194.
 
-Following is excerpted from RubyGems 1.8.23 release note \[1\].
+Sau đây là trích dẫn từ ghi chú phát hành RubyGems 1.8.23 \[1\].
 
-\"This release increases the security used when RubyGems is talking to
-an https server. If you use a custom RubyGems server over SSL, this
-release will cause RubyGems to no longer connect unless your SSL cert is
-globally valid.
+"Bản phát hành này tăng cường bảo mật khi RubyGems giao tiếp với máy chủ https. Nếu bạn sử dụng máy chủ RubyGems tùy chỉnh qua SSL, bản phát hành này sẽ khiến RubyGems không còn kết nối trừ khi chứng chỉ SSL của bạn có hiệu lực toàn cầu.
 
-You can configure SSL certificate usage in RubyGems through the
-:ssl\_ca\_cert and :ssl\_verify\_mode options in ~/.gemrc and
-/etc/gemrc. The recommended way is to set :ssl\_ca\_cert to the CA
-certificate for your server or a certificate bundle containing your CA
-certification.
+Bạn có thể cấu hình sử dụng chứng chỉ SSL trong RubyGems thông qua các tùy chọn :ssl\_ca\_cert và :ssl\_verify\_mode trong ~/.gemrc và /etc/gemrc. Cách khuyến nghị là đặt :ssl\_ca\_cert thành chứng chỉ CA cho máy chủ của bạn hoặc gói chứng chỉ chứa chứng nhận CA của bạn.
 
-You may also set :ssl\_verify\_mode to 0 to completely disable SSL
-certificate checks, but this is not recommended.\"
+Bạn cũng có thể đặt :ssl\_verify\_mode thành 0 để tắt hoàn toàn kiểm tra chứng chỉ SSL, nhưng điều này không được khuyến nghị."
 
-Credit to John Firebaugh for reporting this issue.
+Cảm ơn John Firebaugh đã báo cáo vấn đề này.
 
 \[1\]
 [&lt;URL:https://github.com/rubygems/rubygems/blob/1.8/History.txt&gt;][1]
 
-## Fixes
+## Sửa lỗi
 
-* Security Fix for RubyGems: SSL server verification failure for remote
-  repository
-* other bug fixes
+* Bản vá Bảo mật cho RubyGems: Lỗi xác minh máy chủ SSL cho kho lưu trữ
+  từ xa
+* các bản sửa lỗi khác
 
-See [tickets][2] and [ChangeLog][3] for details.
+Xem [tickets][2] và [ChangeLog][3] để biết chi tiết.
 
-## Downloads
+## Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p194.tar.bz2&gt;][4]
   * SIZE: 9841223 bytes

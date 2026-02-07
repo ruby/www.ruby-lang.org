@@ -1,61 +1,61 @@
 ---
 layout: news_post
-title: "2016 Fukuoka Ruby Award Competition - Entries to be judged by Matz"
+title: "Cuộc thi Fukuoka Ruby Award 2016 - Các bài dự thi sẽ được Matz đánh giá"
 author: "Fukuoka Ruby"
 translator:
 date: 2015-10-13 08:00:00 +0000
 lang: vi
 ---
 
-Dear Ruby Enthusiasts,
+Gửi các bạn yêu thích Ruby,
 
-The Government of Fukuoka, Japan together with "Matz" Matsumoto would like to
-invite you to enter the following Ruby competition. If you have developed an
-interesting Ruby program, please be encouraged to apply.
+Chính quyền Fukuoka, Nhật Bản cùng với "Matz" Matsumoto muốn mời bạn
+tham gia cuộc thi Ruby sau đây. Nếu bạn đã phát triển một chương trình
+Ruby thú vị, xin hãy mạnh dạn đăng ký.
 
-2016 Fukuoka Ruby Award Competition
- - Grand Prize - 1 Million Yen!
+Cuộc thi Fukuoka Ruby Award 2016
+ - Giải Đặc biệt - 1 Triệu Yên!
 
-Entry Deadline: November 27, 2015
+Hạn nộp bài: 27 tháng 11 năm 2015
 
-Matz and a group of panelists will select the winners of the Fukuoka Competition.
-The grand prize for the Fukuoka Competition is 1 million yen.
-Past grand prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
+Matz và một nhóm giám khảo sẽ lựa chọn người thắng cuộc thi Fukuoka.
+Giải đặc biệt của cuộc thi Fukuoka là 1 triệu yên.
+Những người thắng giải đặc biệt trước đây bao gồm Rhomobile (Mỹ) và APEC Climate Center (Hàn Quốc).
 
 [http://myfukuoka.com/category/news/ruby-news/](http://myfukuoka.com/category/news/ruby-news/)
 
-Programs entered in the competition do not have to be written entirely in Ruby
-but should take advantage of the unique characteristics of Ruby.
+Các chương trình tham gia cuộc thi không nhất thiết phải được viết hoàn toàn bằng Ruby
+nhưng nên tận dụng các đặc tính độc đáo của Ruby.
 
-Projects must have been developed or completed within the past 12 months to be
-eligible. Please visit the following Fukuoka website for additional details or
-to enter:
+Dự án phải được phát triển hoặc hoàn thành trong vòng 12 tháng qua để
+đủ điều kiện. Vui lòng truy cập trang web Fukuoka sau để biết thêm chi tiết hoặc
+để đăng ký:
 
 [http://www.digitalfukuoka.jp/events/84](http://www.digitalfukuoka.jp/events/84)
-or
+hoặc
 [http://myfukuoka.com/events/2016-fukuoka-ruby-award-guidelines-for-applicants/](http://myfukuoka.com/events/2016-fukuoka-ruby-award-guidelines-for-applicants/)
 
 [http://www.digitalfukuoka.jp/uploads/event_detail/file/210/RubyAward_ApplicationForm_2016.doc](http://www.digitalfukuoka.jp/uploads/event_detail/file/210/RubyAward_ApplicationForm_2016.doc)
 
-Please email the application form to award@f-ruby.com.
+Vui lòng gửi mẫu đăng ký qua email đến award@f-ruby.com.
 
-This year, we have the following special prizes:
+Năm nay, chúng tôi có các giải thưởng đặc biệt sau:
 
-The winner of the AWS Prize will receive:
+Người thắng Giải AWS sẽ nhận được:
 
-* Kindle Fire HDX (subject to change)
-* AWS architect technical consultation
+* Kindle Fire HDX (có thể thay đổi)
+* Tư vấn kỹ thuật kiến trúc AWS
 
-The winner of the GMO Pepabo Prize will receive:
+Người thắng Giải GMO Pepabo sẽ nhận được:
 
-* 50,000 yen gift certificate toward domain services from MuuMuu Domain
-* Gift basket filled with local foods and snacks (30,000 yen value)
+* Phiếu quà tặng 50.000 yên cho dịch vụ tên miền từ MuuMuu Domain
+* Giỏ quà chứa đầy thực phẩm và đồ ăn nhẹ địa phương (trị giá 30.000 yên)
 
-The winner of the IIJ GIO Prize will receive:
+Người thắng Giải IIJ GIO sẽ nhận được:
 
-* IIJ GIO free coupon worth 500,000 yen (up to 6 months)
+* Phiếu miễn phí IIJ GIO trị giá 500.000 yên (tối đa 6 tháng)
 
-"Matz will be testing and reviewing your source code thoroughly, so it's very
-meaningful to apply! The competition is free to enter."
+"Matz sẽ kiểm tra và đánh giá mã nguồn của bạn một cách kỹ lưỡng, vì vậy việc
+đăng ký rất có ý nghĩa! Cuộc thi miễn phí tham gia."
 
-Cheers!
+Chúc vui vẻ!

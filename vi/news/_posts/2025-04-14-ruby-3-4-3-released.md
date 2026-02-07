@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 3.4.3 Released"
+title: "Phát hành Ruby 3.4.3"
 author: k0kubun
 translator:
 date: 2025-04-14 08:06:57 +0000
 lang: vi
 ---
 
-Ruby 3.4.3 has been released.
+Ruby 3.4.3 đã được phát hành.
 
-This is a routine update that includes bug fixes. Please refer to the
-[release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_3) for further details.
+Đây là bản cập nhật định kỳ bao gồm các bản sửa lỗi. Vui lòng tham khảo
+[ghi chú phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_3) để biết thêm chi tiết.
 
-## Release Schedule
+## Lịch trình phát hành
 
-We intend to release the latest stable Ruby version (currently Ruby 3.4) every 2 months.
-Ruby 3.4.4 will be released in June, 3.4.5 in August, 3.4.6 in October, and 3.4.7 in December.
+Chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 3.4) mỗi 2 tháng.
+Ruby 3.4.4 sẽ được phát hành vào tháng 6, 3.4.5 vào tháng 8, 3.4.6 vào tháng 10, và 3.4.7 vào tháng 12.
 
-If there's any change that affects a considerable amount of people, those versions may be released earlier than expected.
+Nếu có bất kỳ thay đổi nào ảnh hưởng đến số lượng lớn người dùng, các phiên bản đó có thể được phát hành sớm hơn dự kiến.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.4.3" | first %}
 
@@ -44,7 +44,7 @@ If there's any change that affects a considerable amount of people, those versio
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

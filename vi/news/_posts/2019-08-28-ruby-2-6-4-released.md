@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.6.4 Released"
+title: "Ruby 2.6.4 Đã Phát Hành"
 author: "nagachika"
 translator:
 date: 2019-08-28 09:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.6.4 has been released.
+Ruby 2.6.4 đã được phát hành.
 
-This release includes a security fix of rdoc.
-Please check the topics below for details.
+Bản phát hành này bao gồm một bản sửa bảo mật của rdoc.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [Multiple jQuery vulnerabilities in RDoc](/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
+* [Nhiều lỗ hổng jQuery trong RDoc](/vi/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4) for changes in detail.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4) để biết chi tiết các thay đổi.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.4.tar.bz2>
 
@@ -47,7 +47,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4) for 
       SHA512: 5696f2921b8488bde42536dd23d933c8a5ab9ce33632760d217d79567324c4a20f8007d4815f33e56c0a764d1ca372b40c41a5937f9938bb1d63ea078d10d657
 
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, lập trình viên và người dùng đã cung cấp báo cáo lỗi giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

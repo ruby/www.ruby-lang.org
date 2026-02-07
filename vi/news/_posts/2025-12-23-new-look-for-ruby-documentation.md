@@ -1,34 +1,34 @@
 ---
 layout: news_post
-title: "A New Look for Ruby's Documentation"
+title: "Diện mạo mới cho tài liệu Ruby"
 author: "Stan Lo"
-translator:
+translator: "Ngọc Lê"
 date: 2025-12-23 00:00:00 +0000
 lang: vi
 ---
 
-Following the [ruby-lang.org redesign](https://www.ruby-lang.org/en/news/2025/12/22/redesign-site-identity/), we have more news to celebrate Ruby's 30th anniversary: [docs.ruby-lang.org][ruby-doc] has a completely new look with Aliki—[RDoc](https://github.com/ruby/rdoc)'s new default theme.
+Tiếp theo [việc thiết kế lại ruby-lang.org](https://www.ruby-lang.org/en/news/2025/12/22/redesign-site-identity/), chúng tôi có thêm tin vui để kỷ niệm 30 năm Ruby: [docs.ruby-lang.org][ruby-doc] có diện mạo hoàn toàn mới với Aliki—giao diện mặc định mới của [RDoc](https://github.com/ruby/rdoc).
 
-## A Fresh Look for Ruby Documentation
+## Diện mạo mới cho tài liệu Ruby
 
-Ruby has always been a joy to write, and now reading Ruby documentation can match that experience. Aliki brings a modern, clean design to [docs.ruby-lang.org][ruby-doc] and any gem that generates documentation with RDoc v7.0+.
+Ruby luôn là niềm vui khi viết, và giờ việc đọc tài liệu Ruby cũng có thể xứng với trải nghiệm đó. Aliki mang đến thiết kế hiện đại, gọn gàng cho [docs.ruby-lang.org][ruby-doc] và bất kỳ gem nào tạo tài liệu với RDoc v7.0+.
 
-## Key Features
+## Tính năng chính
 
-- **Improved search**: Case-aware ranking, fuzzy matching, and support for searching constants
-- **Dark mode**: Respects your OS preference with a manual toggle
-- **Three-column layout**: Left sidebar for navigation, center for content, right sidebar for table of contents
-- **Code block improvements**: Copy buttons on code blocks and C syntax highlighting
-- **Customizable footer**: Gem maintainers can add links to their repository, issue tracker, and other resources
+- **Tìm kiếm cải tiến**: Xếp hạng phân biệt chữ hoa chữ thường, khớp mờ, và hỗ trợ tìm kiếm hằng số
+- **Chế độ tối**: Tôn trọng tùy chọn hệ điều hành của bạn với nút chuyển đổi thủ công
+- **Bố cục ba cột**: Thanh bên trái để điều hướng, giữa cho nội dung, thanh bên phải cho mục lục
+- **Cải tiến khối mã**: Nút sao chép trên các khối mã và tô sáng cú pháp C
+- **Chân trang tùy chỉnh**: Tác giả gem có thể thêm liên kết đến kho lưu trữ, trình theo dõi lỗi, và các tài nguyên khác
 
-## For Gem Authors
+## Dành cho tác giả gem
 
-If you generate documentation with RDoc 7.0+, your users will see Aliki automatically. You can customize footer links or switch back to the Darkfish theme in your `.rdoc_options` file.
+Nếu bạn tạo tài liệu với RDoc 7.0+, người dùng của bạn sẽ thấy Aliki tự động. Bạn có thể tùy chỉnh liên kết chân trang hoặc chuyển về giao diện Darkfish trong tệp `.rdoc_options` của bạn.
 
-## Try It Out
+## Thử ngay
 
-See the new look in action at [docs.ruby-lang.org][ruby-doc].
+Xem diện mạo mới tại [docs.ruby-lang.org][ruby-doc].
 
-If you find issues or have suggestions, please [open an issue](https://github.com/ruby/rdoc/issues) on GitHub.
+Nếu bạn tìm thấy vấn đề hoặc có đề xuất, vui lòng [mở một issue](https://github.com/ruby/rdoc/issues) trên GitHub.
 
 [ruby-doc]: https://docs.ruby-lang.org/en/master/

@@ -1,29 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 2.5.1 Released"
+title: "Phát hành Ruby 2.5.1"
 author: "naruse"
 translator:
 date: 2018-03-28 17:20:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.1 has been released.
+Ruby 2.5.1 đã được phát hành.
 
-This release includes some bug fixes and some security fixes.
+Bản phát hành này bao gồm một số bản sửa lỗi và bản sửa lỗi bảo mật.
 
-* [CVE-2017-17742: HTTP response splitting in WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
-* [CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
-* [CVE-2018-8777: DoS by large request in WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
-* [CVE-2018-8778: Buffer under-read in String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
-* [CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
-* [CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
-* [Multiple vulnerabilities in RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
+* [CVE-2017-17742: Lỗ hổng tách phản hồi HTTP trong WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
+* [CVE-2018-6914: Tạo tệp và thư mục ngoài ý muốn với duyệt thư mục trong tempfile và tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+* [CVE-2018-8777: Tấn công DoS bằng yêu cầu lớn trong WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+* [CVE-2018-8778: Lỗ hổng đọc dưới bộ đệm trong String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
+* [CVE-2018-8779: Tạo socket ngoài ý muốn bằng byte NUL độc hại trong UNIXServer và UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+* [CVE-2018-8780: Duyệt thư mục ngoài ý muốn bằng byte NUL độc hại trong Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
 
-There are also some bug fixes.
-See [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_5_1) for more details.
+Ngoài ra còn có một số bản sửa lỗi khác.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_0...v2_5_1) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz>
 
@@ -53,8 +53,8 @@ See [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_5_1) for more
       SHA256: 886ac5eed41e3b5fc699be837b0087a6a5a3d10f464087560d2d21b3e71b754d
       SHA512: 31bacf58469953282cd5d8b51862dcf4b84dedb927c1871bc3fca32fc157fe49187631575a70838705fe246f4555647577a7ecc26894445a7d64de5503dc11b4
 
-## Release Comment
+## Nhận xét phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi giúp
+chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

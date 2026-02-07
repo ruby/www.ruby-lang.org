@@ -1,32 +1,32 @@
 ---
 layout: news_post
-title: "Toward ruby-lang.org renewal; trial website offered"
+title: "Hướng tới đổi mới ruby-lang.org; trang web thử nghiệm đã có"
 author: "Unknown Author"
 lang: vi
 ---
 
-We webmasters’ team of ruby-lang.org have reformed our official site
-design, so that we can provide natural contents navigation and
-just-in-time information about Ruby.
+Nhóm quản trị web của ruby-lang.org đã cải tiến thiết kế trang web chính thức,
+để chúng tôi có thể cung cấp điều hướng nội dung tự nhiên và
+thông tin kịp thời về Ruby.
 
-Now we can offer a trial for a future official site. Here we are:
+Bây giờ chúng tôi có thể cung cấp bản thử nghiệm cho trang web chính thức tương lai. Đây là:
 
 > [http://dev.ruby-lang.org/en/][1]
 
-And here is Japanese site:
+Và đây là trang tiếng Nhật:
 
 > [http://dev.ruby-lang.org/ja/][2]
 
-Have a go and look at it.
+Hãy truy cập và xem thử.
 
-Our scheme is a double release with ruby 1.6.8; the switchover of the
-site will be in the end of this year, if no critical problems are found.
-If you find them, feel free to tell us via this list, or mail directly
-to the address below.
+Kế hoạch của chúng tôi là phát hành đồng thời với ruby 1.6.8; việc chuyển đổi trang web
+sẽ diễn ra vào cuối năm nay, nếu không có vấn đề nghiêm trọng nào được phát hiện.
+Nếu bạn tìm thấy vấn đề, hãy cho chúng tôi biết qua danh sách thư này, hoặc gửi email trực tiếp
+đến địa chỉ bên dưới.
 
-Cheers,
+Trân trọng,
 
-—ruby-lang.org webmaster team<br>
+—nhóm quản trị web ruby-lang.org<br>
 [webmaster@ruby-lang.org](mailto:webmaster@ruby-lang.org)
 {: style="text-align: right"}
 

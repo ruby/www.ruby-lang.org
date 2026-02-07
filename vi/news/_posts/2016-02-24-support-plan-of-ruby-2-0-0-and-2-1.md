@@ -1,42 +1,42 @@
 ---
 layout: news_post
-title: "Support plans for Ruby 2.0.0 and Ruby 2.1"
+title: "Kế hoạch hỗ trợ cho Ruby 2.0.0 và Ruby 2.1"
 author: "usa"
 translator:
 date: 2016-02-24 09:00:00 +0000
 lang: vi
 ---
 
-We announce the future support plans for Ruby 2.0.0 and Ruby 2.1.
+Chúng tôi thông báo kế hoạch hỗ trợ tương lai cho Ruby 2.0.0 và Ruby 2.1.
 
-## About Ruby 2.0.0
+## Về Ruby 2.0.0
 
-As it has been announced before, all support for Ruby 2.0.0 has ended today.
-Bug and security fixes from more recent Ruby versions will no longer be
-backported to 2.0.0, and no further patch release of 2.0.0 will be released.
+Như đã thông báo trước đó, tất cả hỗ trợ cho Ruby 2.0.0 đã kết thúc vào hôm nay.
+Các bản sửa lỗi và bảo mật từ các phiên bản Ruby mới hơn sẽ không còn được
+backport sang 2.0.0, và không có bản vá nào của 2.0.0 sẽ được phát hành nữa.
 
-We highly recommend that you upgrade to Ruby 2.3 or 2.2 as soon as possible.
+Chúng tôi đặc biệt khuyến nghị bạn nâng cấp lên Ruby 2.3 hoặc 2.2 càng sớm càng tốt.
 
-Please contact us via the ruby-core ML if you'd like to continue maintaining
-the 2.0.0 branch as for some justifiable reason you can't upgrade.
+Vui lòng liên hệ với chúng tôi qua danh sách thư ruby-core nếu bạn muốn tiếp tục bảo trì
+nhánh 2.0.0 vì lý do chính đáng nào đó mà bạn không thể nâng cấp.
 
-## About Ruby 2.1
+## Về Ruby 2.1
 
-We are planning to release Ruby 2.1.9 by the end of March.
-After the release, we will end the normal maintenance phase of 2.1,
-and start the security maintenance phase of it.
-This means that after the release of 2.1.9 we will never backport
-any bug fixes to 2.1 except security fixes.
+Chúng tôi dự định phát hành Ruby 2.1.9 vào cuối tháng 3.
+Sau bản phát hành đó, chúng tôi sẽ kết thúc giai đoạn bảo trì bình thường của 2.1,
+và bắt đầu giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là sau khi phát hành 2.1.9, chúng tôi sẽ không bao giờ backport
+bất kỳ bản sửa lỗi nào sang 2.1 ngoại trừ các bản sửa bảo mật.
 
-We recommend that you start planning to upgrade to Ruby 2.3 or 2.2.
+Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.3 hoặc 2.2.
 
-By the way, we are also planning to release Ruby 2.1.10 just after
-releasing 2.1.9. This is not a bug fix release nor a security fix release.
-We have never experienced a two-digit version number of Ruby.
-Therefore, we consider it important to test such a release
-without any critical security fixes.
+Nhân tiện, chúng tôi cũng dự định phát hành Ruby 2.1.10 ngay sau khi
+phát hành 2.1.9. Đây không phải là bản sửa lỗi hay bản sửa bảo mật.
+Chúng tôi chưa bao giờ có số phiên bản hai chữ số của Ruby.
+Do đó, chúng tôi cho rằng việc kiểm thử một bản phát hành như vậy là quan trọng
+mà không có bất kỳ bản sửa bảo mật nghiêm trọng nào.
 
-Ruby 2.1.10 will not include any changes from 2.1.9,
-except for its version number.
-You do not have to use it on production, but you should test it before
-the release of 2.1.11 which will probably include security fixes.
+Ruby 2.1.10 sẽ không bao gồm bất kỳ thay đổi nào từ 2.1.9,
+ngoại trừ số phiên bản.
+Bạn không cần sử dụng nó trong môi trường production, nhưng bạn nên kiểm thử trước
+khi phát hành 2.1.11 mà có thể sẽ bao gồm các bản sửa bảo mật.

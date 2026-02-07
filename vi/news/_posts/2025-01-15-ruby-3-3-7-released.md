@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Ruby 3.3.7 Released"
+title: "Phát hành Ruby 3.3.7"
 author: k0kubun
 translator:
 date: 2025-01-15 07:51:59 +0000
 lang: vi
 ---
 
-Ruby 3.3.7 has been released.
+Ruby 3.3.7 đã được phát hành.
 
-This is a routine update that includes minor bug fixes.
-Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_7) for further details.
+Đây là bản cập nhật định kỳ bao gồm các bản sửa lỗi nhỏ.
+Vui lòng tham khảo [ghi chú phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_7) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.7" | first %}
 
@@ -37,7 +37,7 @@ Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/relea
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

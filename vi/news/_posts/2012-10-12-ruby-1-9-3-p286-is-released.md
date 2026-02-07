@@ -1,23 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p286 is released"
+title: "Ruby 1.9.3-p286 đã được phát hành"
 author: "usa"
 lang: vi
 ---
 
-Ruby 1.9.3-p286 is released.
+Ruby 1.9.3-p286 đã được phát hành.
 
-This release includes some security fixes, and many other bug fixes.
+Bản phát hành này bao gồm một số bản vá bảo mật và nhiều bản sửa lỗi khác.
 
-* [$SAFE escaping vulnerability about Exception#to\_s / NameError#to\_s
+* [Lỗ hổng vượt qua $SAFE qua Exception#to\_s / NameError#to\_s
   (CVE-2012-4464, CVE-2012-4466)][1]
-* [Unintentional file creation caused by inserting an illegal NUL
-  character][2]
-* many other bug fixes.
+* [Tạo tệp ngoài ý muốn do chèn ký tự NUL bất hợp pháp][2]
+* nhiều bản sửa lỗi khác.
 
-See [tickets][3] and [ChangeLog][4] for details.
+Xem [tickets][3] và [ChangeLog][4] để biết chi tiết.
 
-## Download
+## Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2&gt;][5]
   * SIZE: 9961862 bytes

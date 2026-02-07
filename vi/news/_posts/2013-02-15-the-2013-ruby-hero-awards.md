@@ -1,24 +1,23 @@
 ---
 layout: news_post
-title: "The 2013 Ruby Hero Awards"
+title: "Giải thưởng Ruby Hero 2013"
 author: "James Edward Gray II"
 date: 2013-02-15 21:34:51 +0000
 lang: vi
 ---
 
-The [Ruby Hero Awards][1] are now accepting nominations and we need your
-help to find people in our community who thanklessly help others and
-perhaps don’t get the recognition they deserve. This could be someone
-who contributes to ruby open source software you’ve found useful in the
-past year, could be an educator, or maybe someone who’s helped organize
-Ruby events.
+[Giải thưởng Ruby Hero][1] hiện đang nhận đề cử và chúng tôi cần sự giúp đỡ
+của bạn để tìm những người trong cộng đồng âm thầm giúp đỡ người khác và có
+thể chưa được ghi nhận xứng đáng. Đó có thể là người đóng góp cho phần mềm
+mã nguồn mở Ruby mà bạn thấy hữu ích trong năm qua, có thể là một nhà giáo
+dục, hoặc có thể là người đã giúp tổ chức các sự kiện Ruby.
 
-If you have a minute please take a moment to nominate someone by heading
-over to [RubyHeroes.com][1], typing in the GitHub username of the person
-you wish to nominate, and giving us a reason why they deserve to win.
-About a month from now all the previous year’s Ruby Heroes will help
-decide who will win this year’s 6 awards which will be presented to the
-heroes live on stage at Railsconf at the end of April.
+Nếu bạn có một phút, vui lòng dành chút thời gian để đề cử ai đó bằng cách
+truy cập [RubyHeroes.com][1], nhập tên người dùng GitHub của người bạn muốn
+đề cử, và cho chúng tôi biết lý do tại sao họ xứng đáng chiến thắng. Khoảng
+một tháng nữa, tất cả các Ruby Hero của năm trước sẽ giúp quyết định ai sẽ
+giành được 6 giải thưởng năm nay, sẽ được trao trực tiếp trên sân khấu tại
+Railsconf vào cuối tháng 4.
 
 
 

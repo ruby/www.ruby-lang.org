@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "Ruby 1.8.3 released"
+title: "Ruby 1.8.3 đã được phát hành"
 author: "David Black"
 lang: vi
 ---
 
-Ruby 1.8.3 has been released. The source is [here][1], and the md5sum is
+Ruby 1.8.3 đã được phát hành. Mã nguồn có tại [đây][1], và md5sum là
 63d6c2bddd6af86664e338b31f3189a6.
 
 

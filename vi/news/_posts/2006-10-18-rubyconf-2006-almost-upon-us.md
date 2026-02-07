@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "RubyConf 2006 Almost Upon Us!"
+title: "RubyConf 2006 sắp diễn ra!"
 author: "John Long"
 lang: vi
 ---
 
-With people traveling from all over the world, [by train][1], by car,
-and by air, enthusiasm is building for [RubyConf 2006][2]! The
-conference is scheduled to begin Friday morning, but if you arrive early
-you may be able to join in on a few preliminary activities.
+Với mọi người đi từ khắp nơi trên thế giới, [bằng tàu hỏa][1], bằng
+ô tô, và bằng máy bay, sự hào hứng đang dâng cao cho [RubyConf 2006][2]!
+Hội nghị dự kiến bắt đầu vào sáng Thứ Sáu, nhưng nếu bạn đến sớm,
+bạn có thể tham gia một số hoạt động sơ bộ.
 
-There are over [16 talks scheduled][3] with topics ranging from
-*Leveraging Mac OS X from Ruby* to *YARV on Rails*. There’s even a talk
-on *Natural Language Processing in Ruby* and one on the development of
-Iron Mongrel (the hot new Web server written in Ruby). Check out the
-[talk descriptions][4] for the gory details.
+Có hơn [16 bài thuyết trình][3] được lên lịch với các chủ đề từ
+*Tận dụng Mac OS X từ Ruby* đến *YARV on Rails*. Thậm chí còn có bài
+nói về *Xử lý Ngôn ngữ Tự nhiên trong Ruby* và một bài về phát triển
+Iron Mongrel (máy chủ web mới nóng hổi được viết bằng Ruby). Xem
+[mô tả bài thuyết trình][4] để biết chi tiết.
 
-Also, if you are planning to attend the conference, be sure to put a bio
-up on the [RubyConf 2006 Facebook][5]. If you are blogging or posting
-photos about the conference, tag your content with “rubyconf” (one word)
-and “rubyconf2006” (also one word). This will make it easy for people to
-find your stuff on [Technorati][6] and [Flickr][7].
+Ngoài ra, nếu bạn dự định tham dự hội nghị, hãy đăng tiểu sử trên
+[Facebook RubyConf 2006][5]. Nếu bạn viết blog hoặc đăng ảnh về hội
+nghị, hãy gắn thẻ nội dung của bạn với "rubyconf" (một từ) và
+"rubyconf2006" (cũng một từ). Điều này sẽ giúp mọi người dễ dàng tìm
+thấy nội dung của bạn trên [Technorati][6] và [Flickr][7].
 
 
 

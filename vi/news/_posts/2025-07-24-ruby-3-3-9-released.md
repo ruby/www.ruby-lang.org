@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Ruby 3.3.9 Released"
+title: "Phát hành Ruby 3.3.9"
 author: nagachika
-translator:
+translator: "Ngọc Lê"
 date: 2025-07-24 11:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.3.9 has been released.
+Ruby 3.3.9 đã được phát hành.
 
-This release includes the following security fix of default gems:
+Bản phát hành này bao gồm bản sửa lỗi bảo mật sau của các gem mặc định:
 
-* [CVE-2025-24294: Possible Denial of Service in resolv gem](https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
+* [CVE-2025-24294: Khả năng tấn công từ chối dịch vụ trong gem resolv](https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
 
-and the following fixes for build issues:
+và các bản sửa lỗi sau cho các vấn đề biên dịch:
 
 * GCC 15.1
 * Visual Studio 2022 Version 17.14
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_9) for further details.
+Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_9) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.9" | first %}
 
@@ -45,7 +45,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

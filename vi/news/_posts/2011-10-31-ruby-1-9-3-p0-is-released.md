@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3 p0 is released"
+title: "Ruby 1.9.3 p0 đã được phát hành"
 author: "Shota Fukumori"
 lang: vi
 ---
 
-Ruby 1.9.3 p0 is released. This is the latest stable version of 1.9
-series.
+Ruby 1.9.3 p0 đã được phát hành. Đây là phiên bản ổn định mới nhất của
+dòng 1.9.
 
-See [ChangeLogs][1] and [NEWS][2] for the descriptions.
+Xem [ChangeLogs][1] và [NEWS][2] để biết mô tả.
 
-## Locations
+## Địa chỉ tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.bz2&gt;][3]
   SIZE: 9554576 bytes

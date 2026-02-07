@@ -5,16 +5,16 @@ author: "James Edward Gray II"
 lang: vi
 ---
 
-Registration is now open for the [Red Dirt RubyConf][1]. Our \"early
-bird\" special ends in ten days, so [sign-up now][2] for the best
-prices.
+Đăng ký hiện đã mở cho [Red Dirt RubyConf][1]. Ưu đãi \"đặt sớm\" của
+chúng tôi kết thúc trong mười ngày nữa, vì vậy hãy [đăng ký ngay][2]
+để có giá tốt nhất.
 
-We have an excellent program of speakers and a ton of surprises in store
-for attendees. We\'re starting this conference with a bang, so don\'t
-miss it!
+Chúng tôi có một chương trình diễn giả xuất sắc và rất nhiều bất ngờ
+dành cho người tham dự. Chúng tôi bắt đầu hội nghị này một cách ấn
+tượng, vì vậy đừng bỏ lỡ!
 
-I\'m really proud of [the program][3] we have put together, so check
-this out if you haven\'t seen it yet:
+Tôi thực sự tự hào về [chương trình][3] mà chúng tôi đã xây dựng, vậy
+hãy xem nếu bạn chưa thấy:
 
 ## Keynotes
 
@@ -82,7 +82,7 @@ Jade Meskill, Integrum Technologies
 **The Rise of DevOps**<br>
 Corey Donohoe, Teamsters
 
-## Trainings
+## Đào tạo
 
 **The Ruby Your Mother Warned You About**<br>
 James Edward Gray II and Glenn Vanderburg,
@@ -97,14 +97,14 @@ Sean Cribbs, Basho
 **Living Among the Clouds**<br>
 Jim Mulholland and Jason Derrett, Squeejee
 
-## Other Highlights
+## Điểm nổi bật khác
 
-* A hackfest is planned
-* There will be a live recording of the Ruby5 podcast
-* We will have good food (seriously!)
+* Một hackfest đã được lên kế hoạch
+* Sẽ có buổi ghi hình trực tiếp podcast Ruby5
+* Chúng tôi sẽ có đồ ăn ngon (thật đấy!)
 
-I hope you all find that as exciting as I do and I hope to see you
-there!
+Tôi hy vọng tất cả các bạn thấy điều này thú vị như tôi và tôi hy vọng
+gặp các bạn ở đó!
 
 James Edward Gray II
 

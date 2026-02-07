@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP"
+title: "CVE-2021-32066: Lỗ hổng StartTLS stripping trong Net::IMAP"
 author: "shugo"
 translator:
 date: 2021-07-07 09:00:00 +0000
@@ -8,30 +8,30 @@ tags: security
 lang: vi
 ---
 
-A StartTLS stripping vulnerability was discovered in Net::IMAP.
-This vulnerability has been assigned the CVE identifier [CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066).
-We strongly recommend upgrading Ruby.
+Một lỗ hổng StartTLS stripping đã được phát hiện trong Net::IMAP.
+Lỗ hổng này đã được gán mã định danh CVE [CVE-2021-32066](https://www.cve.org/CVERecord?id=CVE-2021-32066).
+Chúng tôi khuyến nghị bạn nâng cấp Ruby ngay.
 
-net-imap is a default gem in Ruby 3.0.1 but it has a packaging issue, so please upgrade Ruby itself.
+net-imap là một default gem trong Ruby 3.0.1 nhưng nó có vấn đề về đóng gói, vì vậy vui lòng nâng cấp chính Ruby.
 
-## Details
+## Chi tiết
 
-Net::IMAP does not raise an exception when StartTLS
-fails with an unknown response, which might allow man-in-the-middle
-attackers to bypass the TLS protections by leveraging a network
-position between the client and the registry to block the StartTLS
-command, aka a "StartTLS stripping attack."
+Net::IMAP không phát sinh ngoại lệ khi StartTLS
+thất bại với phản hồi không xác định, điều này có thể cho phép kẻ tấn công
+man-in-the-middle vượt qua bảo vệ TLS bằng cách tận dụng vị trí mạng
+giữa máy khách và registry để chặn lệnh StartTLS,
+hay còn gọi là "tấn công StartTLS stripping."
 
-## Affected Versions
+## Các phiên bản bị ảnh hưởng
 
-* Ruby 2.6 series: 2.6.7 and earlier
-* Ruby 2.7 series: 2.7.3 and earlier
-* Ruby 3.0 series: 3.0.1 and earlier
+* Ruby dòng 2.6: 2.6.7 và trước đó
+* Ruby dòng 2.7: 2.7.3 và trước đó
+* Ruby dòng 3.0: 3.0.1 và trước đó
 
-## Credits
+## Ghi công
 
-Thanks to [Alexandr Savca](https://hackerone.com/chinarulezzz) for reporting the issue.
+Cảm ơn [Alexandr Savca](https://hackerone.com/chinarulezzz) đã báo cáo vấn đề này.
 
-## History
+## Lịch sử
 
 * Originally published at 2021-07-07 09:00:00 UTC

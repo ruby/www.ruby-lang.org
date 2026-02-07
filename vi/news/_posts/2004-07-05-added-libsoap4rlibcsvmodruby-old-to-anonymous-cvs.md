@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "added lib/soap4r,lib/csv,mod_ruby-old to Anonymous CVS"
+title: "Đã thêm lib/soap4r,lib/csv,mod_ruby-old vào CVS ẩn danh"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-lib/soap4r, lib/csv, mod\_ruby-old were added to the Anonymous CVS
-repository. Then, eruby was renamed to eruby-old. mod\_ruby/eruby are
-developed on the Subversion repository now.
+lib/soap4r, lib/csv, mod\_ruby-old đã được thêm vào kho CVS
+ẩn danh. Sau đó, eruby đã được đổi tên thành eruby-old. mod\_ruby/eruby hiện
+đang được phát triển trên kho Subversion.

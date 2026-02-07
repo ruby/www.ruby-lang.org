@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "Ruby Weekly News"
+title: "Tin tức hàng tuần về Ruby"
 author: "chad"
 lang: vi
 ---
 
-Tim Sutherland [announced][1] the latest publication of the [Ruby Weekly
-News][2]. The Ruby Weekly News is a weekly summary of the [ruby-talk][3]
-mailing list. Tim recently resurrected it after an extended hiatus. The
-Ruby Weekly News is a great way to stay in touch with what’s happening
-in the world of ruby-talk as its volume continues to grow. Many thanks
-to Tim for this valuable resource!
+Tim Sutherland đã [thông báo][1] về ấn phẩm mới nhất của [Ruby Weekly
+News][2]. Ruby Weekly News là bản tóm tắt hàng tuần về danh sách gửi thư
+[ruby-talk][3]. Tim gần đây đã khôi phục lại nó sau một thời gian dài
+gián đoạn. Ruby Weekly News là cách tuyệt vời để cập nhật những gì đang
+diễn ra trong thế giới ruby-talk khi lượng thư tiếp tục tăng lên. Xin
+cảm ơn Tim vì nguồn tài nguyên quý giá này!
 
 
 

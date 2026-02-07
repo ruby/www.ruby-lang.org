@@ -1,59 +1,59 @@
 ---
 layout: news_post
-title: "Ruby 3.0.0 Released"
+title: "Phát hành Ruby 3.0.0"
 author: "naruse"
 translator:
 date: 2020-12-25 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 3.0.0. From 2015 we developed hard toward Ruby 3, whose goal is performance, concurrency, and Typing. Especially about performance, Matz stated "Ruby3 will be 3 times faster than Ruby2" a.k.a. [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
+Chúng tôi vui mừng thông báo phát hành Ruby 3.0.0. Từ năm 2015, chúng tôi đã nỗ lực phát triển Ruby 3, với mục tiêu về hiệu năng, đồng thời và kiểu dữ liệu. Đặc biệt về hiệu năng, Matz đã tuyên bố "Ruby3 sẽ nhanh gấp 3 lần Ruby2" hay còn gọi là [Ruby 3x3](https://blog.heroku.com/ruby-3-by-3).
 
 {% assign release = site.data.releases | where: "version", "3.0.0" | first %}
 
 <img src='https://cache.ruby-lang.org/pub/media/ruby3x3.png' alt='Optcarrot 3000 frames' width='100%' />
 
-With [Optcarrot benchmark](https://github.com/mame/optcarrot), which measures single thread performance based on NES's game emulation workload, it achieved 3x faster performance than Ruby 2.0! <details>These were measured at the environment noted in [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) was used as Ruby 3.0. It may not be 3x faster depending on your environment or benchmark.</details>
+Với [benchmark Optcarrot](https://github.com/mame/optcarrot), đo hiệu năng đơn luồng dựa trên khối lượng công việc mô phỏng trò chơi NES, Ruby đã đạt hiệu năng nhanh gấp 3 lần so với Ruby 2.0! <details>Các phép đo được thực hiện trong môi trường được ghi chú tại [benchmark-driver.github.io/hardware.html](https://benchmark-driver.github.io/hardware.html). [Commit 8c510e4095](https://github.com/ruby/ruby/commit/8c510e4095) được sử dụng làm Ruby 3.0. Tốc độ có thể không nhanh gấp 3 lần tùy thuộc vào môi trường hoặc benchmark của bạn.</details>
 
-Ruby 3.0.0 covers those goals by
-* Performance
+Ruby 3.0.0 đạt được các mục tiêu đó thông qua
+* Hiệu năng
   * MJIT
-* Concurrency
+* Đồng thời
   * Ractor
   * Fiber Scheduler
-* Typing (Static Analysis)
+* Kiểu dữ liệu (Phân tích tĩnh)
   * RBS
   * TypeProf
 
-With the above performance improvement, Ruby 3.0 introduces several new features described below.
+Với cải thiện hiệu năng ở trên, Ruby 3.0 giới thiệu một số tính năng mới được mô tả dưới đây.
 
-## Performance
+## Hiệu năng
 
-> When I first declared "Ruby3x3" in the conference keynote, many including members of the core team felt "Matz is a boaster". In fact, I felt so too. But we did. I am honored to see the core team actually accomplished to make Ruby3.0 three times faster than Ruby2.0 (in some benchmarks). -- Matz
+> Khi tôi lần đầu tuyên bố "Ruby3x3" trong bài phát biểu chính tại hội nghị, nhiều người kể cả thành viên đội ngũ core đã cảm thấy "Matz nói khoác". Thực tế, tôi cũng cảm thấy vậy. Nhưng chúng tôi đã làm được. Tôi vinh dự khi thấy đội ngũ core thực sự đã hoàn thành việc làm cho Ruby3.0 nhanh gấp ba lần Ruby2.0 (trong một số benchmark). -- Matz
 
 ### MJIT
 
-Many improvements were implemented in MJIT. See NEWS for details.
+Nhiều cải tiến đã được thực hiện trong MJIT. Xem NEWS để biết chi tiết.
 
-As of Ruby 3.0, JIT is supposed to give performance improvements in limited workloads, such as games ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), or whatever application that spends the majority of time in calling a few methods many times.
+Tính đến Ruby 3.0, JIT được cho là cải thiện hiệu năng trong các khối lượng công việc giới hạn, chẳng hạn như trò chơi ([Optcarrot](https://benchmark-driver.github.io/benchmarks/optcarrot/commits.html#chart-1)), AI ([Rubykon](https://benchmark-driver.github.io/benchmarks/rubykon/commits.html)), hoặc bất kỳ ứng dụng nào dành phần lớn thời gian để gọi một vài phương thức nhiều lần.
 
-Although Ruby 3.0 [significantly decreased the size of JIT-ed code](https://twitter.com/k0kubun/status/1256142302608650244), it is still not ready for optimizing workloads like Rails, which often spend time on so many methods and therefore suffer from i-cache misses exacerbated by JIT. Stay tuned for Ruby 3.1 for further improvements on this issue.
+Mặc dù Ruby 3.0 [đã giảm đáng kể kích thước mã JIT-ed](https://twitter.com/k0kubun/status/1256142302608650244), nó vẫn chưa sẵn sàng để tối ưu hóa các khối lượng công việc như Rails, vốn thường dành thời gian cho rất nhiều phương thức và do đó bị ảnh hưởng bởi i-cache miss bị trầm trọng hóa bởi JIT. Hãy đón chờ Ruby 3.1 để có thêm cải tiến về vấn đề này.
 
-## Concurrency / Parallel
+## Đồng thời / Song song
 
-> It's multi-core age today. Concurrency is very important. With Ractor, along with Async Fiber, Ruby will be a real concurrent language. --- Matz
+> Đây là thời đại đa nhân. Đồng thời là rất quan trọng. Với Ractor, cùng với Async Fiber, Ruby sẽ trở thành ngôn ngữ đồng thời thực sự. --- Matz
 
-### Ractor (experimental)
+### Ractor (thử nghiệm)
 
-Ractor is an Actor-model like concurrent abstraction designed to provide a parallel execution feature without thread-safety concerns.
+Ractor là một abstraction đồng thời theo mô hình Actor, được thiết kế để cung cấp tính năng thực thi song song mà không lo ngại về an toàn luồng.
 
-You can make multiple ractors and you can run them in parallel. Ractor enables you to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors is supported by exchanging messages.
+Bạn có thể tạo nhiều ractor và chạy chúng song song. Ractor cho phép bạn tạo các chương trình song song an toàn luồng vì các ractor không thể chia sẻ các đối tượng thông thường. Giao tiếp giữa các ractor được hỗ trợ thông qua trao đổi tin nhắn.
 
-To limit the sharing of objects, Ractor introduces several restrictions to Ruby's syntax (without multiple Ractors, there is no restriction).
+Để giới hạn việc chia sẻ đối tượng, Ractor đưa ra một số hạn chế đối với cú pháp Ruby (không có nhiều Ractor thì không có hạn chế).
 
-The specification and implementation are not matured and may be changed in the future, so this feature is marked as experimental and shows the "experimental feature" warning when the first `Ractor.new` occurs.
+Đặc tả và triển khai chưa hoàn thiện và có thể thay đổi trong tương lai, vì vậy tính năng này được đánh dấu là thử nghiệm và hiển thị cảnh báo "tính năng thử nghiệm" khi `Ractor.new` đầu tiên được gọi.
 
-The following small program measures the execution time of the famous benchmark tak function ([Tak (function) - Wikipedia](https://en.wikipedia.org/wiki/Tak_(function))), by executing it 4 times sequentially or 4 times in parallel with ractors.
+Chương trình nhỏ sau đo thời gian thực thi của hàm benchmark nổi tiếng tak ([Tak (function) - Wikipedia](https://en.wikipedia.org/wiki/Tak_(function))), bằng cách thực thi nó 4 lần tuần tự hoặc 4 lần song song với ractor.
 
 ``` ruby
 def tarai(x, y, z) =
@@ -81,15 +81,15 @@ seq  64.560736   0.001101  64.561837 ( 64.562194)
 par  66.422010   0.015999  66.438009 ( 16.685797)
 ```
 
-The result was measured on Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 cores, 8 hardware threads). It shows that the parallel version is 3.87 times faster than the sequential version.
+Kết quả được đo trên Ubuntu 20.04, Intel(R) Core(TM) i7-6700 (4 lõi, 8 luồng phần cứng). Cho thấy phiên bản song song nhanh gấp 3.87 lần so với phiên bản tuần tự.
 
-See [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) for more details.
+Xem [doc/ractor.md](https://docs.ruby-lang.org/en/3.0/ractor_md.html) để biết thêm chi tiết.
 
 ### Fiber Scheduler
 
-`Fiber#scheduler` is introduced for intercepting blocking operations. This allows for light-weight concurrency without changing existing code. Watch ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) for an overview of how it works.
+`Fiber#scheduler` được giới thiệu để chặn các thao tác blocking. Điều này cho phép đồng thời nhẹ mà không cần thay đổi mã hiện tại. Xem ["Don't Wait For Me, Scalable Concurrency for Ruby 3"](https://www.youtube.com/watch?v=Y29SSOS4UOc) để có cái nhìn tổng quan về cách hoạt động.
 
-Currently supported classes/methods:
+Các lớp/phương thức hiện đang được hỗ trợ:
 
 - `Mutex#lock`, `Mutex#unlock`, `Mutex#sleep`
 - `ConditionVariable#wait`
@@ -97,10 +97,10 @@ Currently supported classes/methods:
 - `Thread#join`
 - `Kernel#sleep`
 - `Process.wait`
-- `IO#wait`, `IO#read`, `IO#write`, and related methods (e.g. `#wait_readable`, `#gets`, `#puts`, and so on).
-- `IO#select` is *not supported*.
+- `IO#wait`, `IO#read`, `IO#write`, và các phương thức liên quan (ví dụ: `#wait_readable`, `#gets`, `#puts`, v.v.).
+- `IO#select` *không được hỗ trợ*.
 
-This example program will perform several HTTP requests concurrently:
+Chương trình ví dụ này sẽ thực hiện nhiều request HTTP đồng thời:
 
 ``` ruby
 require 'async'
@@ -116,24 +116,24 @@ Async do
 end
 ```
 
-It uses [async](https://github.com/socketry/async) which provides the event loop. This event loop uses the `Fiber#scheduler` hooks to make `Net::HTTP` non-blocking. Other gems can use this interface to provide non-blocking execution for Ruby, and those gems can be compatible with other implementations of Ruby (e.g. JRuby, TruffleRuby) which can support the same non-blocking hooks.
+Nó sử dụng [async](https://github.com/socketry/async) cung cấp vòng lặp sự kiện. Vòng lặp sự kiện này sử dụng các hook `Fiber#scheduler` để làm `Net::HTTP` non-blocking. Các gem khác có thể sử dụng giao diện này để cung cấp thực thi non-blocking cho Ruby, và các gem đó có thể tương thích với các triển khai khác của Ruby (ví dụ: JRuby, TruffleRuby) hỗ trợ cùng các hook non-blocking.
 
-## Static Analysis
+## Phân tích tĩnh
 
-> 2010s were an age of statically typed programming languages. Ruby seeks the future with static type checking, without type declaration, using abstract interpretation. RBS & TypeProf are the first step to the future. More steps to come. --- Matz
+> Thập niên 2010 là thời đại của các ngôn ngữ lập trình kiểu tĩnh. Ruby tìm kiếm tương lai với kiểm tra kiểu tĩnh, mà không cần khai báo kiểu, sử dụng diễn giải trừu tượng. RBS & TypeProf là bước đầu tiên hướng tới tương lai. Sẽ còn nhiều bước tiếp theo. --- Matz
 
 ### RBS
 
-RBS is a language to describe the types of Ruby programs.
+RBS là một ngôn ngữ để mô tả kiểu dữ liệu của chương trình Ruby.
 
-Type checkers including TypeProf and other tools supporting RBS will understand Ruby programs much better with RBS definitions.
+Các công cụ kiểm tra kiểu bao gồm TypeProf và các công cụ khác hỗ trợ RBS sẽ hiểu chương trình Ruby tốt hơn nhiều với các định nghĩa RBS.
 
-You can write down the definition of classes and modules: methods defined in the class, instance variables and their types, and inheritance/mix-in relations.
+Bạn có thể viết định nghĩa cho các lớp và module: các phương thức được định nghĩa trong lớp, biến instance và kiểu dữ liệu của chúng, cũng như các quan hệ kế thừa/mix-in.
 
-The goal of RBS is to support commonly seen patterns in Ruby programs and it allows writing advanced types including union types, method overloading, and generics. It also supports duck typing with _interface types_.
+Mục tiêu của RBS là hỗ trợ các mẫu thường thấy trong chương trình Ruby và cho phép viết các kiểu nâng cao bao gồm kiểu union, nạp chồng phương thức và generic. RBS cũng hỗ trợ duck typing với _kiểu interface_.
 
-Ruby 3.0 ships with the `rbs` gem, which allows parsing and processing type definitions written in RBS.
-The following is a small example of RBS with class, module, and constant definitions.
+Ruby 3.0 đi kèm với gem `rbs`, cho phép phân tích và xử lý các định nghĩa kiểu được viết bằng RBS.
+Dưới đây là một ví dụ nhỏ về RBS với các định nghĩa lớp, module và hằng số.
 
 ``` rbs
 module ChatApp
@@ -149,19 +149,19 @@ module ChatApp
 end
 ```
 
-See [README of rbs gem](https://github.com/ruby/rbs) for more detail.
+Xem [README của gem rbs](https://github.com/ruby/rbs) để biết thêm chi tiết.
 
 ### TypeProf
 
-TypeProf is a type analysis tool bundled in the Ruby package.
+TypeProf là một công cụ phân tích kiểu được đi kèm trong gói Ruby.
 
-Currently, TypeProf serves as a kind of type inference.
+Hiện tại, TypeProf hoạt động như một loại suy luận kiểu.
 
-It reads plain (non-type-annotated) Ruby code, analyzes what methods are defined and how they are used, and generates a prototype of type signature in RBS format.
+Nó đọc mã Ruby thuần (không có chú thích kiểu), phân tích các phương thức được định nghĩa và cách chúng được sử dụng, và tạo ra một bản mẫu chữ ký kiểu ở định dạng RBS.
 
-Here is a simple demo of TypeProf.
+Đây là một demo đơn giản về TypeProf.
 
-An example input:
+Đầu vào mẫu:
 
 ``` ruby
 # test.rb
@@ -174,7 +174,7 @@ end
 User.new(name: "John", age: 20)
 ```
 
-An example output:
+Đầu ra mẫu:
 
 ```
 $ typeprof test.rb
@@ -186,19 +186,19 @@ class User
 end
 ```
 
-You can run TypeProf by saving the input as "test.rb" and invoking the command "typeprof test.rb".
+Bạn có thể chạy TypeProf bằng cách lưu đầu vào thành "test.rb" và gọi lệnh "typeprof test.rb".
 
-You can also [try TypeProf online](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=).  (It runs TypeProf on the server side, so sorry if it is out!)
+Bạn cũng có thể [thử TypeProf trực tuyến](https://mame.github.io/typeprof-playground/#rb=%23+test.rb%0Aclass+User%0A++def+initialize%28name%3A%2C+age%3A%29%0A++++%40name%2C+%40age+%3D+name%2C+age%0A++end%0A++%0A++attr_reader+%3Aname%2C+%3Aage%0Aend%0A%0AUser.new%28name%3A+%22John%22%2C+age%3A+20%29&rbs=). (Nó chạy TypeProf ở phía máy chủ, xin lỗi nếu không hoạt động!)
 
-See the [TypeProf documentation](https://github.com/ruby/typeprof/blob/master/doc/doc.md) and [demos](https://github.com/ruby/typeprof/blob/master/doc/demo.md) for details.
+Xem [tài liệu TypeProf](https://github.com/ruby/typeprof/blob/master/doc/doc.md) và [demo](https://github.com/ruby/typeprof/blob/master/doc/demo.md) để biết chi tiết.
 
-TypeProf is experimental and not so mature yet; only a subset of the Ruby language is supported, and the detection of type errors is limited. But it is still growing rapidly to improve the coverage of language features, the analysis performance, and usability. Any feedback is very welcome.
+TypeProf đang trong giai đoạn thử nghiệm và chưa hoàn thiện; chỉ một tập con của ngôn ngữ Ruby được hỗ trợ, và khả năng phát hiện lỗi kiểu còn hạn chế. Nhưng nó đang phát triển nhanh chóng để cải thiện phạm vi hỗ trợ các tính năng ngôn ngữ, hiệu suất phân tích và tính dễ sử dụng. Mọi phản hồi đều được hoan nghênh.
 
-## Other Notable New Features
+## Các tính năng mới đáng chú ý khác
 
-* One-line pattern matching is redesigned.  (experimental)
+* Khớp mẫu một dòng được thiết kế lại. (thử nghiệm)
 
-    * `=>` is added. It can be used like a rightward assignment.
+    * `=>` đã được thêm vào. Nó có thể được sử dụng như phép gán hướng phải.
 
       ```ruby
       0 => a
@@ -208,7 +208,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
       p b #=> 0
       ```
 
-    * `in` is changed to return `true` or `false`.
+    * `in` được thay đổi để trả về `true` hoặc `false`.
 
       ```ruby
       # version 3.0
@@ -218,7 +218,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
       0 in 1 #=> raise NoMatchingPatternError
       ```
 
-* Find pattern is added. (experimental)
+* Mẫu tìm kiếm (find pattern) đã được thêm vào. (thử nghiệm)
 
   ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
@@ -230,26 +230,26 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   end
   ```
 
-* Endless method definition is added.
+* Định nghĩa phương thức không kết thúc đã được thêm vào.
 
   ``` ruby
   def square(x) = x * x
   ```
 
-* `Hash#except` is now built-in.
+* `Hash#except` giờ đã có sẵn.
 
   ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
   ```
 
-* Memory view is added as an experimental feature
+* Memory view đã được thêm như một tính năng thử nghiệm
 
-    * This is a new C-API set to exchange a raw memory area, such as a numeric array or a bitmap image, between extension libraries.  The extension libraries can share also the metadata of the memory area that consists of the shape, the element format, and so on.  Using these kinds of metadata, the extension libraries can share even a multidimensional array appropriately.  This feature is designed by referring to Python's buffer protocol.
+    * Đây là một bộ C-API mới để trao đổi vùng bộ nhớ thô, chẳng hạn như mảng số hoặc ảnh bitmap, giữa các thư viện mở rộng. Các thư viện mở rộng cũng có thể chia sẻ metadata của vùng bộ nhớ bao gồm hình dạng, định dạng phần tử, v.v. Sử dụng những loại metadata này, các thư viện mở rộng có thể chia sẻ ngay cả mảng đa chiều một cách phù hợp. Tính năng này được thiết kế tham khảo từ buffer protocol của Python.
 
-## Performance improvements
+## Cải thiện hiệu năng
 
-* Pasting long code to IRB is 53 times faster than in the version bundled with Ruby 2.7.0. For example, the time required to paste [this sample code](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) goes from 11.7 seconds to 0.22 seconds.
+* Dán mã dài vào IRB nhanh hơn 53 lần so với phiên bản đi kèm Ruby 2.7.0. Ví dụ, thời gian cần thiết để dán [mã mẫu này](https://gist.github.com/aycabta/30ab96334275bced5796f118c9220b0b) giảm từ 11.7 giây xuống 0.22 giây.
 
 
 <video autoplay="autoplay" controls="controls" muted="muted" width="764" height="510" poster="https://cache.ruby-lang.org/pub/media/ruby-3.0-irb-highspeed.png">
@@ -257,7 +257,7 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
 </video>
 
 
-* The `measure` command has been added to IRB. It allows simple execution time measurement.
+* Lệnh `measure` đã được thêm vào IRB. Nó cho phép đo thời gian thực thi đơn giản.
 
   ```
   irb(main):001:0> 3
@@ -274,11 +274,11 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   => 3
   ```
 
-## Other notable changes since 2.7
+## Các thay đổi đáng chú ý khác kể từ 2.7
 
-* Keyword arguments are separated from other arguments.
-  * In principle, code that prints a warning on Ruby 2.7 won't work.  See [this document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) for details.
-  * By the way, arguments forwarding now supports leading arguments.
+* Tham số từ khóa được tách riêng khỏi các tham số khác.
+  * Về nguyên tắc, mã hiển thị cảnh báo trên Ruby 2.7 sẽ không hoạt động. Xem [tài liệu này](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) để biết chi tiết.
+  * Ngoài ra, chuyển tiếp tham số giờ đã hỗ trợ tham số đứng đầu.
 
     ``` ruby
     def method_missing(meth, ...)
@@ -286,11 +286,11 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
     end
     ```
 
-* Pattern matching (`case`/`in`) is no longer experimental.
-  * See the [pattern matching documentation](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) for details.
-* The `$SAFE` feature was completely removed; now it is a normal global variable.
-* The order of backtraces had been reversed with Ruby 2.5; this change has been reverted.  Now backtraces behave like in Ruby 2.4: an error message and the line number where the exception occurs are printed first, and its callers are printed later.
-* Some standard libraries are updated.
+* Khớp mẫu (`case`/`in`) không còn là thử nghiệm.
+  * Xem [tài liệu khớp mẫu](https://docs.ruby-lang.org/en/3.0/syntax/pattern_matching_rdoc.html) để biết chi tiết.
+* Tính năng `$SAFE` đã bị loại bỏ hoàn toàn; giờ nó là một biến toàn cục bình thường.
+* Thứ tự backtrace đã bị đảo ngược ở Ruby 2.5; thay đổi này đã được hoàn tác. Giờ backtrace hoạt động như Ruby 2.4: thông báo lỗi và số dòng nơi ngoại lệ xảy ra được in trước, và các hàm gọi được in sau.
+* Một số thư viện chuẩn đã được cập nhật.
   * RubyGems 3.2.3
   * Bundler 2.2.3
   * IRB 1.3.0
@@ -304,17 +304,17 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   * Fiddle 1.0.6
   * StringIO 3.0.0
   * StringScanner 3.0.0
-  * etc.
-* The following libraries are no longer bundled gems or standard libraries.
-  Install the corresponding gems to use these features.
+  * v.v.
+* Các thư viện sau không còn là bundled gem hoặc thư viện chuẩn.
+  Cài đặt các gem tương ứng để sử dụng các tính năng này.
   * sdbm
   * webrick
   * net-telnet
   * xmlrpc
-* The following default gems are now bundled gems.
+* Các default gem sau giờ là bundled gem.
   * rexml
   * rss
-* The following stdlib files are now default gems and are published on rubygems.org.
+* Các tệp stdlib sau giờ là default gem và được xuất bản trên rubygems.org.
   * English
   * abbrev
   * base64
@@ -350,18 +350,18 @@ TypeProf is experimental and not so mature yet; only a subset of the Ruby langua
   * syslog
   * win32ole
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
-since Ruby 2.7.0!
+Với những thay đổi đó, [{{ release.stats.files_changed }} tệp đã thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa bỏ(-)](https://github.com/ruby/ruby/compare/v2_7_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 2.7.0!
 
-> Ruby3.0 is a milestone. The language is evolved, keeping compatibility. But it's not the end. Ruby will keep progressing, and become even greater. Stay tuned! --- Matz
+> Ruby3.0 là một cột mốc. Ngôn ngữ đã tiến hóa, giữ được tính tương thích. Nhưng đây không phải là kết thúc. Ruby sẽ tiếp tục phát triển, và trở nên tuyệt vời hơn nữa. Hãy đón chờ! --- Matz
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
+Chúc Giáng sinh vui vẻ, Kỳ nghỉ hạnh phúc, và hãy tận hưởng lập trình với Ruby 3.0!
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -384,8 +384,8 @@ Merry Christmas, Happy Holidays, and enjoy programming with Ruby 3.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.

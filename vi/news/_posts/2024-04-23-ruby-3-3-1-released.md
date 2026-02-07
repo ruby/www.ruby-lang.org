@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 3.3.1 Released"
+title: "Phát hành Ruby 3.3.1"
 author: "naruse"
 translator:
 date: 2024-04-23 10:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.3.1 has been released.
+Ruby 3.3.1 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
 * [CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search]({%link en/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
 * [CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc]({%link en/news/_posts/2024-03-21-rce-rdoc-cve-2024-27281.md %})
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_1) for further details.
+Xem [bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_1) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.1" | first %}
 
@@ -42,7 +42,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_1) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã báo cáo lỗi và giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn sự đóng góp của họ.

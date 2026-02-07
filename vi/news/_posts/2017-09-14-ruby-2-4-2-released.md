@@ -1,36 +1,36 @@
 ---
 layout: news_post
-title: "Ruby 2.4.2 Released"
+title: "Phát hành Ruby 2.4.2"
 author: "nagachika"
 translator:
 date: 2017-09-14 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.4.2.
-This release contains some security fixes.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.4.2.
+Bản phát hành này bao gồm một số bản sửa lỗi bảo mật.
 
-* [CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
-* [CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
-* [CVE-2017-14064: Heap exposure in generating JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
-* [Multiple vulnerabilities in RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
-* Update bundled libyaml to version 0.1.7.
+* [CVE-2017-0898: Lỗ hổng tràn bộ đệm dưới trong Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+* [CVE-2017-10784: Lỗ hổng chèn chuỗi thoát trong xác thực Basic của WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-14033: Lỗ hổng tràn bộ đệm dưới trong giải mã OpenSSL ASN1](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+* [CVE-2017-14064: Lỗ hổng lộ heap khi tạo JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* Cập nhật libyaml đi kèm lên phiên bản 0.1.7.
 
-There are also many bug-fixes.
-See [commit logs](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) for more details.
+Ngoài ra còn có nhiều bản sửa lỗi khác.
+Xem [nhật ký thay đổi](https://github.com/ruby/ruby/compare/v2_4_1...v2_4_2) để biết thêm chi tiết.
 
-## Known Problem
+## Vấn đề đã biết
 
-_(This section was added at September 15, 2017.)_
+_(Phần này được thêm vào ngày 15 tháng 9, 2017.)_
 
-An incompatibility has been found for Ruby 2.4.2.
-Ruby 2.4.2 can not link with libgmp nor jemalloc.
-We will fix this problem with the next release, but if you are facing the problem now and need to overcome it immediately, get a patch from this link:
+Một sự không tương thích đã được phát hiện trong Ruby 2.4.2.
+Ruby 2.4.2 không thể liên kết với libgmp hoặc jemalloc.
+Chúng tôi sẽ sửa vấn đề này trong bản phát hành tiếp theo, nhưng nếu bạn đang gặp vấn đề này ngay bây giờ và cần khắc phục ngay lập tức, hãy lấy bản vá từ liên kết sau:
 
-* [Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc](https://bugs.ruby-lang.org/issues/13899)
+* [Ruby 2.4.2 và 2.3.5 không thể liên kết với libgmp hoặc jemalloc](https://bugs.ruby-lang.org/issues/13899)
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.bz2>
 
@@ -60,8 +60,8 @@ We will fix this problem with the next release, but if you are facing the proble
       SHA256: 37d7cb27d8abd4b143556260506306659930548652343076f7f8470f07818824
       SHA512: 234765091528be1310ac315868f84ae6c505aa696672929df2f00828c1bbdc7cbcb2fc690eab4e73efde6be9104584ba7b6944853861f6d05e775b124ce8dfd5
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều người đóng góp, nhà phát triển và người dùng đã cung cấp báo cáo lỗi
+đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

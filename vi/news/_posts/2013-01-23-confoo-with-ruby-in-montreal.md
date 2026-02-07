@@ -1,28 +1,27 @@
 ---
 layout: news_post
-title: "ConFoo with Ruby in Montreal"
+title: "ConFoo với Ruby tại Montreal"
 author: "James Edward Gray II"
 date: 2013-01-23 19:52:42 +0000
 lang: vi
 ---
 
-If you have never heard of ConFoo, it is one of the most important
-developer-oriented conferences. The team brings 100 speakers from around
-the globe to share their hands-on experience with various web
-technologies. The best news is: it’s driven by the community and is non
-profit!
+Nếu bạn chưa từng nghe về ConFoo, đây là một trong những hội nghị quan trọng
+nhất dành cho lập trình viên. Đội ngũ tổ chức mời 100 diễn giả từ khắp nơi
+trên thế giới để chia sẻ kinh nghiệm thực tế với các công nghệ web khác nhau.
+Tin tốt nhất là: hội nghị được thúc đẩy bởi cộng đồng và phi lợi nhuận!
 
-1h presentations cover: Ruby, PHP, JavaScript, Python, .NET, Java,
-e-Commerce, Security, Mobile, UX and other topics. [The schedule][1] is
-quite impressive.
+Các bài thuyết trình 1 giờ bao gồm: Ruby, PHP, JavaScript, Python, .NET, Java,
+e-Commerce, Security, Mobile, UX và các chủ đề khác. [Lịch trình][1] khá ấn
+tượng.
 
-They also have hands-on training and a hackaton in the two days before
-the main event.
+Họ cũng có các buổi đào tạo thực hành và hackathon trong hai ngày trước sự
+kiện chính.
 
 <iframe width="420" height="236" src="//www.youtube.com/embed/86VcHcaurRQ" allowfullscreen></iframe>
 
-The event is at the Hilton Bonaventure Montreal, from February 27th to
-March 1st. [Tickets are sold online][2].
+Sự kiện diễn ra tại Hilton Bonaventure Montreal, từ ngày 27 tháng 2 đến ngày
+1 tháng 3. [Vé được bán trực tuyến][2].
 
 
 

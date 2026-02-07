@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby 3.3.8 Released"
+title: "Phát hành Ruby 3.3.8"
 author: nagachika
 translator:
 date: 2025-04-09 11:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.3.8 has been released.
+Ruby 3.3.8 đã được phát hành.
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_8) for further details.
+Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_8) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.8" | first %}
 
@@ -36,7 +36,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

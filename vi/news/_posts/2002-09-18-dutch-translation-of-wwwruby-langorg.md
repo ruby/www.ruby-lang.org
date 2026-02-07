@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "Dutch translation of www.ruby-lang.org"
+title: "Bản dịch tiếng Hà Lan của www.ruby-lang.org"
 author: "Unknown Author"
 lang: vi
 ---
 
-[Dutch translation of www.ruby-lang.org][1] is available. Thanks to John
+[Bản dịch tiếng Hà Lan của www.ruby-lang.org][1] đã có sẵn. Cảm ơn John
 Jacobs.
 
 

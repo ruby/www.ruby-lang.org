@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "Ruby Forum"
+title: "Diễn đàn Ruby"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-A link to [Ruby Forum][1] was added to [Community](/en/community/)
-Alexey Verkhovsky saids, \`Ruby Forum is a newly created bulletin board
-for discussing Ruby. Unlike ruby-talk mailing list, it allows anonymous
-posting and implements more understandable interface for searching.
-Intended target audience of this forum is newcomers to Ruby that are not
-committed enough to subscribe to a 100+ posts/day mailing list.’
+Liên kết đến [Diễn đàn Ruby][1] đã được thêm vào [Cộng đồng](/en/community/).
+Alexey Verkhovsky cho biết, \`Diễn đàn Ruby là một bảng thảo luận mới được tạo
+để thảo luận về Ruby. Khác với danh sách thư ruby-talk, nó cho phép đăng bài
+ẩn danh và có giao diện tìm kiếm dễ hiểu hơn.
+Đối tượng mục tiêu của diễn đàn là người mới dùng Ruby chưa sẵn sàng
+đăng ký vào danh sách thư hơn 100 bài/ngày.'
 
 
 

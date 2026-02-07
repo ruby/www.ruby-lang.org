@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Multiple vulnerabilities in RubyGems"
+title: "Nhiều lỗ hổng bảo mật trong RubyGems"
 author: "hsbt"
 translator:
 date: 2019-03-05 00:00:00 +0000
@@ -8,53 +8,53 @@ tags: security
 lang: vi
 ---
 
-There are multiple vulnerabilities in RubyGems bundled with Ruby.
-It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
+Có nhiều lỗ hổng bảo mật trong RubyGems đi kèm với Ruby.
+Chúng đã được [báo cáo trên blog chính thức của RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
 
-## Details
+## Chi tiết
 
-The following vulnerabilities have been reported.
+Các lỗ hổng sau đã được báo cáo.
 
-* CVE-2019-8320: Delete directory using symlink when decompressing tar
-* CVE-2019-8321: Escape sequence injection vulnerability in `verbose`
-* CVE-2019-8322: Escape sequence injection vulnerability in `gem owner`
-* CVE-2019-8323: Escape sequence injection vulnerability in API response handling
-* CVE-2019-8324: Installing a malicious gem may lead to arbitrary code execution
-* CVE-2019-8325: Escape sequence injection vulnerability in errors
+* CVE-2019-8320: Xóa thư mục sử dụng symlink khi giải nén tar
+* CVE-2019-8321: Lỗ hổng chèn chuỗi thoát trong `verbose`
+* CVE-2019-8322: Lỗ hổng chèn chuỗi thoát trong `gem owner`
+* CVE-2019-8323: Lỗ hổng chèn chuỗi thoát trong xử lý phản hồi API
+* CVE-2019-8324: Cài đặt gem độc hại có thể dẫn đến thực thi mã tùy ý
+* CVE-2019-8325: Lỗ hổng chèn chuỗi thoát trong thông báo lỗi
 
-It is strongly recommended for Ruby users to upgrade your Ruby installation or take one of the following workarounds as soon as possible.
+Người dùng Ruby được khuyến cáo nâng cấp bản cài đặt Ruby của bạn hoặc áp dụng một trong các biện pháp khắc phục sau đây càng sớm càng tốt.
 
-## Affected Versions
+## Phiên bản bị ảnh hưởng
 
-* Ruby 2.3 series: all
-* Ruby 2.4 series: 2.4.5 and earlier
-* Ruby 2.5 series: 2.5.3 and earlier
-* Ruby 2.6 series: 2.6.1 and earlier
-* prior to trunk revision 67168
+* Dòng Ruby 2.3: tất cả
+* Dòng Ruby 2.4: 2.4.5 và trước đó
+* Dòng Ruby 2.5: 2.5.3 và trước đó
+* Dòng Ruby 2.6: 2.6.1 và trước đó
+* trước trunk revision 67168
 
-## Workarounds
+## Biện pháp khắc phục
 
-In principle, you should upgrade your Ruby installation to the latest version.
-RubyGems 3.0.3 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version if you can’t upgrade Ruby itself.
+Về nguyên tắc, bạn nên nâng cấp bản cài đặt Ruby lên phiên bản mới nhất.
+RubyGems 3.0.3 trở lên bao gồm bản sửa cho các lỗ hổng, vì vậy hãy nâng cấp RubyGems lên phiên bản mới nhất nếu bạn không thể nâng cấp Ruby.
 
 ```
 gem update --system
 ```
 
-If you can't upgrade RubyGems, you can apply the following patches as a workaround.
+Nếu bạn không thể nâng cấp RubyGems, bạn có thể áp dụng các bản vá sau như biện pháp khắc phục tạm thời.
 
-* [for Ruby 2.4.5](https://bugs.ruby-lang.org/attachments/7669)
-* [for Ruby 2.5.3](https://bugs.ruby-lang.org/attachments/7670)
-* [for Ruby 2.6.1](https://bugs.ruby-lang.org/attachments/7671)
+* [cho Ruby 2.4.5](https://bugs.ruby-lang.org/attachments/7669)
+* [cho Ruby 2.5.3](https://bugs.ruby-lang.org/attachments/7670)
+* [cho Ruby 2.6.1](https://bugs.ruby-lang.org/attachments/7671)
 
-Regarding Ruby trunk, update to the latest revision.
+Đối với Ruby trunk, hãy cập nhật lên revision mới nhất.
 
-## Credits
+## Ghi nhận
 
-This report is based on [the official blog of RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
+Báo cáo này dựa trên [blog chính thức của RubyGems](http://blog.rubygems.org/2019/03/05/security-advisories-2019-03.html).
 
-## History
+## Lịch sử
 
-* Originally published at 2019-03-05 00:00:00 UTC
-* Link to updated patches at 2019-03-06 05:26:27 UTC
-* Mention about upgrading Ruby itself at 2019-04-01 06:00:00 UTC
+* Được công bố lần đầu vào 2019-03-05 00:00:00 UTC
+* Liên kết đến các bản vá cập nhật vào 2019-03-06 05:26:27 UTC
+* Đề cập về việc nâng cấp Ruby vào 2019-04-01 06:00:00 UTC

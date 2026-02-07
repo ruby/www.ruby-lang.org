@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Multiple vulnerabilities in RubyGems"
+title: "Nhiều lỗ hổng bảo mật trong RubyGems"
 author: "usa"
 translator:
 date: 2017-08-29 12:00:00 +0000
@@ -8,52 +8,52 @@ tags: security
 lang: vi
 ---
 
-There are multiple vulnerabilities in RubyGems bundled by Ruby.
-It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2017/08/27/2.6.13-released.html).
+Có nhiều lỗ hổng bảo mật trong RubyGems được đi kèm với Ruby.
+Chúng đã được [báo cáo trên blog chính thức của RubyGems](http://blog.rubygems.org/2017/08/27/2.6.13-released.html).
 
-## Details
+## Chi tiết
 
-The following vulnerabilities have been reported.
+Các lỗ hổng bảo mật sau đã được báo cáo.
 
-* a DNS request hijacking vulnerability. (CVE-2017-0902)
-* an ANSI escape sequence vulnerability. (CVE-2017-0899)
-* a DoS vulnerability in the query command. (CVE-2017-0900)
-* a vulnerability in the gem installer that allowed a malicious gem to overwrite arbitrary files. (CVE-2017-0901)
+* Lỗ hổng chiếm đoạt yêu cầu DNS. (CVE-2017-0902)
+* Lỗ hổng chuỗi thoát ANSI. (CVE-2017-0899)
+* Lỗ hổng DoS trong lệnh query. (CVE-2017-0900)
+* Lỗ hổng trong trình cài đặt gem cho phép gem độc hại ghi đè lên các tệp tùy ý. (CVE-2017-0901)
 
-It is strongly recommended for Ruby users to upgrade or take one of the following workarounds as soon as possible.
+Người dùng Ruby được khuyến nghị mạnh mẽ nâng cấp hoặc thực hiện một trong các biện pháp khắc phục sau đây càng sớm càng tốt.
 
-## Affected Versions
+## Các phiên bản bị ảnh hưởng
 
-* Ruby 2.2 series: 2.2.7 and earlier
-* Ruby 2.3 series: 2.3.4 and earlier
-* Ruby 2.4 series: 2.4.1 and earlier
-* prior to trunk revision 59672
+* Ruby nhánh 2.2: 2.2.7 và trước đó
+* Ruby nhánh 2.3: 2.3.4 và trước đó
+* Ruby nhánh 2.4: 2.4.1 và trước đó
+* trước trunk revision 59672
 
-## Workarounds
+## Biện pháp khắc phục
 
-If you can't upgrade Ruby itself, upgrade RubyGems to the latest version.
-RubyGems 2.6.13 or later includes the fix for the vulnerabilities.
+Nếu bạn không thể nâng cấp Ruby, hãy nâng cấp RubyGems lên phiên bản mới nhất.
+RubyGems 2.6.13 hoặc mới hơn bao gồm bản sửa lỗi cho các lỗ hổng này.
 
 ```
 gem update --system
 ```
 
-If you can't upgrade RubyGems, you can apply the following patches as a workaround.
+Nếu bạn không thể nâng cấp RubyGems, bạn có thể áp dụng các bản vá sau đây như một biện pháp khắc phục.
 
-* [for Ruby 2.2.7](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
-* [for Ruby 2.3.4](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
-* for Ruby 2.4.1: need 2 patches.  Apply sequentially as follows:
-  1. [RubyGems 2.6.11 to 2.6.12](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
-  2. [RubyGems 2.6.12 to 2.6.13](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
+* [cho Ruby 2.2.7](https://bugs.ruby-lang.org/attachments/download/6690/rubygems-2613-ruby22.patch)
+* [cho Ruby 2.3.4](https://bugs.ruby-lang.org/attachments/download/6691/rubygems-2613-ruby23.patch)
+* cho Ruby 2.4.1: cần 2 bản vá. Áp dụng lần lượt như sau:
+  1. [RubyGems 2.6.11 lên 2.6.12](https://bugs.ruby-lang.org/attachments/download/6692/rubygems-2612-ruby24.patch)
+  2. [RubyGems 2.6.12 lên 2.6.13](https://bugs.ruby-lang.org/attachments/download/6693/rubygems-2613-ruby24.patch)
 
-About the trunk, update to the latest revision.
+Đối với trunk, hãy cập nhật lên revision mới nhất.
 
-## Credits
+## Ghi công
 
-This report is based on [the official blog of RubyGems](http://blog.rubygems.org/2017/08/27/2.6.13-released.html).
+Báo cáo này dựa trên [blog chính thức của RubyGems](http://blog.rubygems.org/2017/08/27/2.6.13-released.html).
 
-## History
+## Lịch sử
 
-* Originally published at 2017-08-29 12:00:00 UTC
-* Added CVE numbers at 2017-08-31 2:00:00 UTC
-* Mention about upgrading Rubies at 2017-09-15 12:00:00 UTC
+* Được công bố lần đầu vào 2017-08-29 12:00:00 UTC
+* Thêm số CVE vào 2017-08-31 2:00:00 UTC
+* Đề cập về việc nâng cấp Ruby vào 2017-09-15 12:00:00 UTC

@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "RubyConf 2005 Preregistration now open"
+title: "Đăng ký sớm RubyConf 2005 đã mở"
 author: "Unknown Author"
 lang: vi
 ---
 
-Preregistration for the upcoming Fifth Annual International Ruby
-Conference (RubyConf 2005) is now open. RubyConf 2005 will be held in
-San Diego, CA, October 14-16. You can preregister [here][1]. The full
-announcement is [here][2].
+Đăng ký sớm cho Hội nghị Ruby Quốc tế Thường niên lần thứ Năm sắp tới
+(RubyConf 2005) hiện đã mở. RubyConf 2005 sẽ được tổ chức tại San
+Diego, CA, từ ngày 14 đến 16 tháng 10. Bạn có thể đăng ký sớm
+[tại đây][1]. Thông báo đầy đủ ở [đây][2].
 
 
 

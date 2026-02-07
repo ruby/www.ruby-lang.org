@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Changed default settings of ext/openssl"
+title: "Thay đổi cài đặt mặc định của ext/openssl"
 author: "usa"
 translator:
 date: 2014-10-27 12:00:00 +0000
@@ -8,16 +8,16 @@ tags: security
 lang: vi
 ---
 
-We changed the default setting of ext/openssl in Ruby 2.1.4, Ruby 2.0.0-p594 and Ruby 1.9.3-p550.
-With this change, insecure SSL/TLS options are now disabled by default.
-However, by this change, there is a possibility of some problems in the SSL connection.
+Chúng tôi đã thay đổi cài đặt mặc định của ext/openssl trong Ruby 2.1.4, Ruby 2.0.0-p594 và Ruby 1.9.3-p550.
+Với thay đổi này, các tùy chọn SSL/TLS không an toàn giờ đã bị tắt theo mặc định.
+Tuy nhiên, với thay đổi này, có khả năng xảy ra một số vấn đề trong kết nối SSL.
 
-## Details
+## Chi tiết
 
-OpenSSL still implements protocols and ciphers that are considered insecure today by historical circumstances.
-Like POODLE vulnerability ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), if you continue to use OpenSSL with such insecure features, you may not be able to keep the safety of network communication.
-So, based on the discussion in [Bug #9424](https://bugs.ruby-lang.org/issues/9424), we have decided to disable such insecure SSL/TLS options by default.
-If you need to cancel this change (shown below), apply the reverse patch to revoke it.
+OpenSSL vẫn triển khai các giao thức và cipher được coi là không an toàn ngày nay vì các lý do lịch sử.
+Giống như lỗ hổng POODLE ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), nếu bạn tiếp tục sử dụng OpenSSL với các tính năng không an toàn như vậy, bạn có thể không đảm bảo được an toàn của truyền thông mạng.
+Vì vậy, dựa trên cuộc thảo luận trong [Bug #9424](https://bugs.ruby-lang.org/issues/9424), chúng tôi đã quyết định tắt các tùy chọn SSL/TLS không an toàn theo mặc định.
+Nếu bạn cần hủy thay đổi này (hiển thị bên dưới), hãy áp dụng bản vá ngược để hoàn nguyên.
 
 2.1.4
 : [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
@@ -28,19 +28,19 @@ If you need to cancel this change (shown below), apply the reverse patch to revo
 1.9.3-p550
 : [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
 
-However, if you cancel this change, there is a risk that you can not guarantee the safety of network communication.
-You should understand the implications of this change before removing it.
+Tuy nhiên, nếu bạn hủy thay đổi này, có rủi ro không đảm bảo được an toàn truyền thông mạng.
+Bạn nên hiểu các hệ quả của thay đổi này trước khi loại bỏ nó.
 
-### Bundled libraries of Ruby
+### Thư viện đi kèm của Ruby
 
-This change is reflected in net/http, net/imap and net/pop.
-Since DRb and WEBrick receive the setting separately, this change does not effect them.
+Thay đổi này được phản ánh trong net/http, net/imap và net/pop.
+Vì DRb và WEBrick nhận cài đặt riêng, thay đổi này không ảnh hưởng đến chúng.
 
-### Scripts that use ext/openssl directly
+### Script sử dụng ext/openssl trực tiếp
 
-This change is reflected when an `OpenSSL::SSL::SSLContext` object is instantiated and the instance method `set_params` is called.
+Thay đổi này được phản ánh khi đối tượng `OpenSSL::SSL::SSLContext` được khởi tạo và phương thức instance `set_params` được gọi.
 
-In particular, code such as:
+Cụ thể, mã như sau:
 
 {% highlight ruby %}
 ctx = OpenSSL::SSL::SSLContext.new
@@ -48,14 +48,14 @@ ctx.set_params  # if you want to change some options, such as cert store, verify
 ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 {% endhighlight %}
 
-When using ext/openssl as a client side, we assume that there may be no problem with this change.
-However, if you are using ext/openssl as a server side and reflect this change, some old clients (Internet Explorer 6 on Windows XP, browsers in old cellular phones, etc.) may not be able to connect to the server.
+Khi sử dụng ext/openssl ở phía client, chúng tôi cho rằng có thể không có vấn đề gì với thay đổi này.
+Tuy nhiên, nếu bạn sử dụng ext/openssl ở phía server và phản ánh thay đổi này, một số client cũ (Internet Explorer 6 trên Windows XP, trình duyệt trong điện thoại di động cũ, v.v.) có thể không kết nối được với server.
 
-It is your decision whether to enable this change or not, consider the trade-offs.
+Việc bật thay đổi này hay không là quyết định của bạn, hãy cân nhắc các đánh đổi.
 
-## Workaround
+## Giải pháp tạm thời
 
-If you cannot update Ruby but you have to cope to insecure SSL/TLS options, apply the following monkey-patch:
+Nếu bạn không thể cập nhật Ruby nhưng phải đối phó với các tùy chọn SSL/TLS không an toàn, hãy áp dụng monkey-patch sau:
 
 {% highlight ruby %}
 module OpenSSL
@@ -114,13 +114,13 @@ module OpenSSL
 end
 {% endhighlight %}
 
-## Affected versions of this change
+## Các phiên bản bị ảnh hưởng bởi thay đổi này
 
-* Ruby 1.9.3 patchlevel 550 and later
-* Ruby 2.0.0 patchlevel 594 and later
-* Ruby 2.1.4 and later
-* revision 48097 and later of trunk
+* Ruby 1.9.3 patchlevel 550 trở lên
+* Ruby 2.0.0 patchlevel 594 trở lên
+* Ruby 2.1.4 trở lên
+* revision 48097 trở lên của trunk
 
-## History
+## Lịch sử
 
-* Originally published at 2014-10-27 12:00:00 (UTC)
+* Công bố lần đầu vào 2014-10-27 12:00:00 (UTC)

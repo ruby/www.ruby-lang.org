@@ -1,125 +1,125 @@
 ---
 layout: news_post
-title: "Ruby 2.6.0 Released"
+title: "Phát hành Ruby 2.6.0"
 author: "naruse"
 translator:
 date: 2018-12-25 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.6.0.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.6.0.
 
-It introduces a number of new features and performance improvements, most notably:
+Nó giới thiệu nhiều tính năng mới và cải thiện hiệu suất, đáng chú ý nhất là:
 
- * A new JIT compiler.
- * The `RubyVM::AbstractSyntaxTree` module.
+ * Trình biên dịch JIT mới.
+ * Module `RubyVM::AbstractSyntaxTree`.
 
-## JIT [Experimental]
+## JIT [Thử nghiệm]
 
-Ruby 2.6 introduces an initial implementation of a JIT (Just-In-Time) compiler.
+Ruby 2.6 giới thiệu bản triển khai ban đầu của trình biên dịch JIT (Just-In-Time).
 
-The JIT compiler aims to improve the performance of Ruby programs. Unlike traditional JIT compilers which operate in-process, Ruby's JIT compiler writes out C code to disk and spawns a common C compiler to generate native code. For more details about it, see the [MJIT organization by Vladimir Makarov](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#MJIT-organization).
+Trình biên dịch JIT nhằm cải thiện hiệu suất của các chương trình Ruby. Không giống các trình biên dịch JIT truyền thống hoạt động trong tiến trình, trình biên dịch JIT của Ruby viết mã C ra đĩa và tạo tiến trình trình biên dịch C thông thường để sinh mã native. Để biết thêm chi tiết, xem [tổ chức MJIT bởi Vladimir Makarov](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#MJIT-organization).
 
-In order to enable the JIT compiler, specify `--jit` on the command line or in the `$RUBYOPT` environment variable. Specifying `--jit-verbose=1` will cause the JIT compiler to print additional information. Read the output of `ruby --help` or the [documentation](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage) for other options.
+Để bật trình biên dịch JIT, chỉ định `--jit` trên dòng lệnh hoặc trong biến môi trường `$RUBYOPT`. Chỉ định `--jit-verbose=1` sẽ khiến trình biên dịch JIT in thông tin bổ sung. Đọc đầu ra của `ruby --help` hoặc [tài liệu](https://bugs.ruby-lang.org/projects/ruby/wiki/MJIT#Basic-usage) để biết các tùy chọn khác.
 
-The JIT compiler is supported when Ruby is built by GCC, Clang, or Microsoft VC++, which needs to be available at runtime.
+Trình biên dịch JIT được hỗ trợ khi Ruby được biên dịch bằng GCC, Clang, hoặc Microsoft VC++, cần có sẵn tại thời điểm chạy.
 
-As of Ruby 2.6.0, we have achieved [1.7x faster performance](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208) compared to Ruby 2.5 on a CPU-intensive, non-trivial benchmark called [Optcarrot](https://github.com/mame/optcarrot). However, it is still experimental and many other memory-intensive workloads like Rails applications might not benefit from it at the moment. For more details, see [Ruby 2.6 JIT - Progress and Future](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf).
+Tính đến Ruby 2.6.0, chúng tôi đã đạt được [hiệu suất nhanh hơn 1.7 lần](https://gist.github.com/k0kubun/d7f54d96f8e501bbbc78b927640f4208) so với Ruby 2.5 trên benchmark nặng CPU không trivial có tên [Optcarrot](https://github.com/mame/optcarrot). Tuy nhiên, nó vẫn là thử nghiệm và nhiều khối lượng công việc nặng bộ nhớ khác như ứng dụng Rails có thể chưa được hưởng lợi tại thời điểm này. Để biết thêm chi tiết, xem [Ruby 2.6 JIT - Tiến độ và Tương lai](https://medium.com/@k0kubun/ruby-2-6-jit-progress-and-future-84e0a830ecbf).
 
-Stay tuned for the new age of Ruby's performance.
+Hãy đón chờ kỷ nguyên mới về hiệu suất của Ruby.
 
-## `RubyVM::AbstractSyntaxTree` [Experimental]
+## `RubyVM::AbstractSyntaxTree` [Thử nghiệm]
 
-Ruby 2.6 introduces the `RubyVM::AbstractSyntaxTree` module. **Future compatibility of this module is not guaranteed**.
+Ruby 2.6 giới thiệu module `RubyVM::AbstractSyntaxTree`. **Tính tương thích trong tương lai của module này không được đảm bảo**.
 
-This module has a `parse` method, which parses the given string as Ruby code and returns the AST (Abstract Syntax Tree) nodes of the code. The `parse_file` method opens and parses the given file as Ruby code and returns AST nodes.
+Module này có phương thức `parse`, phân tích chuỗi cho trước dưới dạng mã Ruby và trả về các nút AST (Abstract Syntax Tree) của mã đó. Phương thức `parse_file` mở và phân tích tệp cho trước dưới dạng mã Ruby và trả về các nút AST.
 
-The `RubyVM::AbstractSyntaxTree::Node` class is also introduced. You can get source location and children nodes from `Node` objects. This feature is experimental.
+Lớp `RubyVM::AbstractSyntaxTree::Node` cũng được giới thiệu. Bạn có thể lấy vị trí nguồn và các nút con từ các đối tượng `Node`. Tính năng này là thử nghiệm.
 
-## Other Notable New Features
+## Các tính năng mới đáng chú ý khác
 
-* Add an alias of `Kernel#yield_self` named `#then`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
+* Thêm bí danh `#then` cho `Kernel#yield_self`. [[Feature #14594]](https://bugs.ruby-lang.org/issues/14594)
 
-* Constant names may start with a non-ASCII capital letter. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
+* Tên hằng số có thể bắt đầu bằng chữ cái viết hoa không phải ASCII. [[Feature #13770]](https://bugs.ruby-lang.org/issues/13770)
 
-* Introduce endless ranges. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
+* Giới thiệu dãy vô tận. [[Feature #12912]](https://bugs.ruby-lang.org/issues/12912)
 
-  An endless range, `(1..)`, works as if it has no end. Here are some typical use cases:
+  Dãy vô tận `(1..)` hoạt động như thể không có điểm kết thúc. Dưới đây là một số trường hợp sử dụng tiêu biểu:
 
-      ary[1..]                          # identical to ary[1..-1] without magical -1
-      (1..).each {|index| ... }         # enumerates values starting from index 1
+      ary[1..]                          # tương đương ary[1..-1] không cần số -1 đặc biệt
+      (1..).each {|index| ... }         # liệt kê các giá trị bắt đầu từ chỉ số 1
       ary.zip(1..) {|elem, index| ... } # ary.each.with_index(1) { ... }
 
-* Add `Enumerable#chain` and `Enumerator#+`. [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)
+* Thêm `Enumerable#chain` và `Enumerator#+`. [[Feature #15144]](https://bugs.ruby-lang.org/issues/15144)
 
-* Add function composition operators `<<` and `>>` to `Proc` and `Method`. [[Feature #6284]](https://bugs.ruby-lang.org/issues/6284)
+* Thêm toán tử kết hợp hàm `<<` và `>>` cho `Proc` và `Method`. [[Feature #6284]](https://bugs.ruby-lang.org/issues/6284)
 
       f = proc{|x| x + 2}
       g = proc{|x| x * 3}
-      (f << g).call(3) # -> 11; identical to f(g(3))
-      (f >> g).call(3) # -> 15; identical to g(f(3))
+      (f << g).call(3) # -> 11; tương đương f(g(3))
+      (f >> g).call(3) # -> 15; tương đương g(f(3))
 
-* Add `Binding#source_location`.  [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
+* Thêm `Binding#source_location`. [[Feature #14230]](https://bugs.ruby-lang.org/issues/14230)
 
-  This method returns the source location of the binding, a 2-element array of `__FILE__` and `__LINE__`.  Technically speaking, this is identical to `eval("[__FILE__, __LINE__]", binding)`. However, we are planning to change this behavior so that `Kernel#eval` ignores binding's source location [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352). As such, it is recommended to use `Binding#source_location` instead of `Kernel#eval`.
+  Phương thức này trả về vị trí nguồn của binding, một mảng 2 phần tử gồm `__FILE__` và `__LINE__`. Về mặt kỹ thuật, điều này tương đương với `eval("[__FILE__, __LINE__]", binding)`. Tuy nhiên, chúng tôi đang lên kế hoạch thay đổi hành vi này để `Kernel#eval` bỏ qua vị trí nguồn của binding [[Bug #4352]](https://bugs.ruby-lang.org/issues/4352). Vì vậy, khuyến nghị sử dụng `Binding#source_location` thay vì `Kernel#eval`.
 
-* Add an `exception:` option to `Kernel#system` which causes it to raise an exception on failure instead of returning `false`. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
+* Thêm tùy chọn `exception:` cho `Kernel#system` khiến nó ném ngoại lệ khi thất bại thay vì trả về `false`. [[Feature #14386]](https://bugs.ruby-lang.org/issues/14386)
 
-* Add a oneshot mode to `Coverage`. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
+* Thêm chế độ oneshot cho `Coverage`. [[Feature#15022]](https://bugs.ruby-lang.org/issues/15022)
 
-  * This mode checks "whether each line was executed at least once or not", instead of "how many times each line was executed".  A hook for each line is fired only once, and once it is fired the hook flag will be removed, i.e., it runs with zero overhead.
-  * Add `oneshot_lines:` keyword argument to `Coverage.start`.
-  * Add `stop:` and `clear:` keyword arguments to `Coverage.result`. If `clear` is true, it clears the counters to zero.  If `stop` is true, it disables coverage measurement.
-  * `Coverage.line_stub` is a simple helper function that creates the "stub" of line coverage from a given source code.
+  * Chế độ này kiểm tra "liệu mỗi dòng đã được thực thi ít nhất một lần hay chưa", thay vì "mỗi dòng đã được thực thi bao nhiêu lần". Hook cho mỗi dòng chỉ được kích hoạt một lần, và sau khi kích hoạt, cờ hook sẽ bị xóa, tức là chạy với chi phí bằng không.
+  * Thêm tham số từ khóa `oneshot_lines:` cho `Coverage.start`.
+  * Thêm tham số từ khóa `stop:` và `clear:` cho `Coverage.result`. Nếu `clear` là true, nó xóa bộ đếm về không. Nếu `stop` là true, nó tắt đo coverage.
+  * `Coverage.line_stub` là một hàm helper đơn giản tạo "stub" của line coverage từ mã nguồn cho trước.
 
-* Add `FileUtils#cp_lr`.  It works just like `cp_r` but links instead of copies.  [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
+* Thêm `FileUtils#cp_lr`. Nó hoạt động giống `cp_r` nhưng tạo liên kết thay vì sao chép. [[Feature #4189]](https://bugs.ruby-lang.org/issues/4189)
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-* Speed up `Proc#call` by removing the temporary allocation for `$SAFE`.
+* Tăng tốc `Proc#call` bằng cách loại bỏ phân bổ tạm thời cho `$SAFE`.
   [[Feature #14318]](https://bugs.ruby-lang.org/issues/14318)
 
-  We have observed a 1.4x performance improvement in the `lc_fizzbuzz` benchmark that calls `Proc#call` numerous times. [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)
+  Chúng tôi đã quan sát được cải thiện hiệu suất 1.4 lần trong benchmark `lc_fizzbuzz` gọi `Proc#call` nhiều lần. [[Bug #10212]](https://bugs.ruby-lang.org/issues/10212)
 
-* Speed up `block.call` when `block` is passed in as a block parameter. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
+* Tăng tốc `block.call` khi `block` được truyền vào dưới dạng tham số block. [[Feature #14330]](https://bugs.ruby-lang.org/issues/14330)
 
-  Combined with improvements around block handling introduced in Ruby 2.5, block evaluation now performs 2.6x faster in a micro-benchmark in Ruby 2.6. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
+  Kết hợp với các cải tiến xử lý block được giới thiệu trong Ruby 2.5, đánh giá block giờ nhanh hơn 2.6 lần trong benchmark vi mô trong Ruby 2.6. [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
 
-* Transient Heap (`theap`) is introduced. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
+* Transient Heap (`theap`) được giới thiệu. [[Bug #14858]](https://bugs.ruby-lang.org/issues/14858) [[Feature #14989]](https://bugs.ruby-lang.org/issues/14989)
 
-  `theap` is a managed heap for short-living memory objects which are pointed to by specific classes (`Array`, `Hash`, `Object`, and `Struct`). Making small and short-living Hash objects is 2x faster. With rdoc benchmark, we observed 6-7% performance improvement.
+  `theap` là heap được quản lý cho các đối tượng bộ nhớ ngắn hạn được trỏ bởi các lớp cụ thể (`Array`, `Hash`, `Object`, và `Struct`). Tạo đối tượng Hash nhỏ và ngắn hạn nhanh hơn 2 lần. Với benchmark rdoc, chúng tôi quan sát được cải thiện hiệu suất 6-7%.
 
-* Native implementations (`arm32`, `arm64`, `ppc64le`, `win32`, `win64`, `x86`, `amd64`) of coroutines to improve context switching performance of Fiber significantly. [[Feature #14739]](https://bugs.ruby-lang.org/issues/14739)
+* Triển khai native (`arm32`, `arm64`, `ppc64le`, `win32`, `win64`, `x86`, `amd64`) của coroutine để cải thiện đáng kể hiệu suất chuyển ngữ cảnh của Fiber. [[Feature #14739]](https://bugs.ruby-lang.org/issues/14739)
 
-  `Fiber.yield` and `Fiber#resume` is about 5x faster on 64-bit Linux. Fiber intensive programs can expect up to 5% improvement overall.
+  `Fiber.yield` và `Fiber#resume` nhanh hơn khoảng 5 lần trên Linux 64-bit. Các chương trình sử dụng nhiều Fiber có thể kỳ vọng cải thiện tổng thể lên đến 5%.
 
-## Other notable changes since 2.5
+## Các thay đổi đáng chú ý khác kể từ 2.5
 
-* `$SAFE` is now a process global state and it can be set back to `0`.  [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
+* `$SAFE` giờ là trạng thái toàn cục của tiến trình và có thể đặt lại thành `0`. [[Feature #14250]](https://bugs.ruby-lang.org/issues/14250)
 
-* Passing `safe_level` to `ERB.new` is deprecated. `trim_mode` and `eoutvar` arguments have been changed to keyword arguments. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
+* Truyền `safe_level` cho `ERB.new` đã bị deprecated. Các tham số `trim_mode` và `eoutvar` được chuyển thành tham số từ khóa. [[Feature #14256]](https://bugs.ruby-lang.org/issues/14256)
 
-* Unicode support is updated to version 11. We have plans to add support for Unicode version 12 and 12.1 in a future TEENY release of Ruby 2.6. This will include support for the [new Japanese era](http://blog.unicode.org/2018/09/new-japanese-era.html).
+* Hỗ trợ Unicode được cập nhật lên phiên bản 11. Chúng tôi dự kiến thêm hỗ trợ cho Unicode phiên bản 12 và 12.1 trong bản phát hành TEENY tương lai của Ruby 2.6. Điều này sẽ bao gồm hỗ trợ cho [niên hiệu mới của Nhật Bản](http://blog.unicode.org/2018/09/new-japanese-era.html).
 
-* Merge RubyGems 3.0.1. The `--ri` and `--rdoc` options have been removed. Please use the `--document` and `--no-document` options instead.
+* Tích hợp RubyGems 3.0.1. Các tùy chọn `--ri` và `--rdoc` đã bị xóa. Vui lòng sử dụng các tùy chọn `--document` và `--no-document` thay thế.
 
-* [Bundler](https://github.com/bundler/bundler) is now installed as a default gem.
+* [Bundler](https://github.com/bundler/bundler) giờ được cài đặt như gem mặc định.
 
-* In exception handling blocks, `else` without `rescue` now causes a syntax error. [EXPERIMENTAL][[Feature #14606]](https://bugs.ruby-lang.org/issues/14606)
+* Trong các khối xử lý ngoại lệ, `else` không có `rescue` giờ sẽ gây ra lỗi cú pháp. [THỬ NGHIỆM][[Feature #14606]](https://bugs.ruby-lang.org/issues/14606)
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_6_0/NEWS) or the [commit logs](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_6_0/NEWS) hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) để biết thêm chi tiết.
 
-With those changes, [6437 files changed, 231471 insertions(+), 98498 deletions(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) since Ruby 2.5.0!
+Với các thay đổi đó, [6437 tệp thay đổi, 231471 thêm(+), 98498 xóa(-)](https://github.com/ruby/ruby/compare/v2_5_0...v2_6_0) kể từ Ruby 2.5.0!
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.6!
+Giáng Sinh vui vẻ, Chúc mừng ngày lễ, và hãy tận hưởng lập trình với Ruby 2.6!
 
-## Known Problem
+## Vấn đề đã biết
 
-_(This section was added at January 28, 2019.)_
+_(Phần này được thêm vào ngày 28 tháng 1, 2019.)_
 
-* [Net::Protocol::BufferedIO#write raises NoMethodError when sending large multi-byte string](https://github.com/ruby/ruby/pull/2058)
+* [Net::Protocol::BufferedIO#write ném NoMethodError khi gửi chuỗi multi-byte lớn](https://github.com/ruby/ruby/pull/2058)
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.0.tar.gz>
 

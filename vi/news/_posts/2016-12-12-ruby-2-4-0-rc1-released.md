@@ -1,104 +1,104 @@
 ---
 layout: news_post
-title: "Ruby 2.4.0-rc1 Released"
+title: "Phát hành Ruby 2.4.0-rc1"
 author: "naruse"
 translator:
 date: 2016-12-12 09:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.4.0-rc1.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.4.0-rc1.
 
-Ruby 2.4.0-rc1 is the first release candidate of Ruby 2.4.0.
-This rc1 is released to get feedback from the community.
-Feel free to
-[send feedback](https://github.com/ruby/ruby/wiki/How-To-Report)
-since you can still fix the features.
+Ruby 2.4.0-rc1 là bản release candidate đầu tiên của Ruby 2.4.0.
+Bản rc1 này được phát hành để nhận phản hồi từ cộng đồng.
+Hãy thoải mái
+[gửi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)
+vì bạn vẫn có thể sửa các tính năng.
 
-## [Introduce hash table improvement (by Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
+## [Giới thiệu cải tiến bảng băm (bởi Vladimir Makarov)](https://bugs.ruby-lang.org/issues/12142)
 
-Improve the internal structure of hash table (st_table) by introducing open addressing
-and an inclusion order array.
-This improvement has been discussed with many people, especially with Yura Sokolov.
+Cải tiến cấu trúc nội bộ của bảng băm (st_table) bằng cách giới thiệu địa chỉ mở
+và một mảng thứ tự bao gồm.
+Cải tiến này đã được thảo luận với nhiều người, đặc biệt là Yura Sokolov.
 
-## Binding#irb: Start a REPL session similar to `binding.pry`
+## Binding#irb: Bắt đầu phiên REPL tương tự `binding.pry`
 
-While you are debugging, you may often use `p` to see the value of variables.
-With [pry](https://github.com/pry/pry) you can use `binding.pry` in your application
-to launch a REPL and run any Ruby code.
+Trong khi gỡ lỗi, bạn có thể thường sử dụng `p` để xem giá trị của biến.
+Với [pry](https://github.com/pry/pry) bạn có thể sử dụng `binding.pry` trong ứng dụng
+để khởi chạy REPL và chạy bất kỳ mã Ruby nào.
 [r56624](https://github.com/ruby/ruby/commit/493e48897421d176a8faf0f0820323d79ecdf94a)
-introduces `binding.irb` which behaves like that with irb.
+giới thiệu `binding.irb` hoạt động tương tự với irb.
 
-## [Unify Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005)
+## [Hợp nhất Fixnum và Bignum thành Integer](https://bugs.ruby-lang.org/issues/12005)
 
-Though [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
-doesn't specify details of the Integer class,
-Ruby had two visible Integer classes: Fixnum and Bignum.
-Ruby 2.4 unifies them into Integer.
-All C extensions which touch the Fixnum or Bignum class need to be fixed.
+Mặc dù [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+không chỉ định chi tiết về lớp Integer,
+Ruby có hai lớp Integer hiển thị: Fixnum và Bignum.
+Ruby 2.4 hợp nhất chúng thành Integer.
+Tất cả các phần mở rộng C liên quan đến lớp Fixnum hoặc Bignum cần được sửa.
 
-See also [the ticket](https://bugs.ruby-lang.org/issues/12005) and [akr's slides](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
+Xem thêm [ticket](https://bugs.ruby-lang.org/issues/12005) và [slide của akr](http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf).
 
-## [String supports Unicode case mappings](https://bugs.ruby-lang.org/issues/10085)
+## [String hỗ trợ ánh xạ chữ hoa/thường Unicode](https://bugs.ruby-lang.org/issues/10085)
 
-`String/Symbol#upcase/downcase/swapcase/capitalize(!)` now handle
-Unicode case mappings instead of only ASCII case mappings.
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` giờ đây xử lý
+ánh xạ chữ hoa/thường Unicode thay vì chỉ ánh xạ ASCII.
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-Ruby 2.4 also contains the following performance improvements including
-language changes:
+Ruby 2.4 cũng bao gồm các cải thiện hiệu suất sau bao gồm
+các thay đổi ngôn ngữ:
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` and `[x, y].min` are optimized to not create a temporary array
-under certain conditions.
+`[x, y].max` và `[x, y].min` được tối ưu hóa để không tạo mảng tạm thời
+trong một số điều kiện nhất định.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Added `Regexp#match?`, which executes a regexp match without creating
-a back reference object and changing `$~` to reduce object allocation.
+Thêm `Regexp#match?`, thực thi khớp biểu thức chính quy mà không tạo
+đối tượng tham chiếu ngược và thay đổi `$~` để giảm cấp phát đối tượng.
 
-### Other performance improvements
+### Các cải thiện hiệu suất khác
 
-* [speed up instance variable access](https://bugs.ruby-lang.org/issues/12274)
+* [tăng tốc truy cập biến instance](https://bugs.ruby-lang.org/issues/12274)
 
-## Debugging
+## Gỡ lỗi
 
-### [Thread#report_on_exception and Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
+### [Thread#report_on_exception và Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
-Ruby ignores exceptions in threads unless another thread explicitly joins them.
-With `report_on_exception = true`,
-you can notice if a thread has died due to an unhandled exception.
+Ruby bỏ qua các ngoại lệ trong thread trừ khi một thread khác tường minh join chúng.
+Với `report_on_exception = true`,
+bạn có thể nhận biết nếu một thread đã chết do một ngoại lệ không được xử lý.
 
-Send us feedback what should be the default for `report_on_exception`
-and about report-on-GC, which shows a report when a thread is
-garbage collected without join.
+Gửi cho chúng tôi phản hồi về giá trị mặc định nên là gì cho `report_on_exception`
+và về report-on-GC, hiển thị báo cáo khi một thread bị
+thu gom rác mà không join.
 
-### [Thread deadlock detection now shows threads with their backtrace and dependency](https://bugs.ruby-lang.org/issues/8214)
+### [Phát hiện deadlock Thread giờ đây hiển thị các thread với backtrace và dependency](https://bugs.ruby-lang.org/issues/8214)
 
-Ruby has deadlock detection around waiting threads, but its report doesn't
-include enough information for debugging.
-Ruby 2.4's deadlock detection shows threads with their backtrace and
-dependent threads.
+Ruby có khả năng phát hiện deadlock xung quanh các thread đang chờ, nhưng báo cáo không
+bao gồm đủ thông tin để gỡ lỗi.
+Phát hiện deadlock của Ruby 2.4 hiển thị các thread với backtrace và
+các thread phụ thuộc.
 
-Try and enjoy programming with Ruby 2.4.0-rc1, and
-[send us feedback](https://github.com/ruby/ruby/wiki/How-To-Report)!
+Hãy thử và tận hưởng lập trình với Ruby 2.4.0-rc1, và
+[gửi cho chúng tôi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
-## Other notable changes since 2.3
+## Các thay đổi đáng chú ý khác kể từ 2.3
 
-* Support OpenSSL 1.1.0 (drop support for 0.9.7 or prior)
-* ext/tk is now removed from stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
-* XMLRPC is now removed from stdlib [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
+* Hỗ trợ OpenSSL 1.1.0 (ngừng hỗ trợ 0.9.7 trở về trước)
+* ext/tk đã bị loại bỏ khỏi stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
+* XMLRPC đã bị loại bỏ khỏi stdlib [Feature #12160](https://bugs.ruby-lang.org/issues/12160)
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)
-or commit logs for details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_rc1/NEWS)
+hoặc nhật ký commit để biết chi tiết.
 
-With those changes,
-[2519 files changed, 288606 insertions(+), 83896 deletions(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_rc1)
-since Ruby 2.3.0!
+Với những thay đổi đó,
+[2519 tập tin thay đổi, 288606 dòng thêm(+), 83896 dòng xóa(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_rc1)
+kể từ Ruby 2.3.0!
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.0-rc1.tar.bz2>
 
@@ -128,8 +128,8 @@ since Ruby 2.3.0!
       SHA256: 14e6910e36618cddffeb22bad5f1052f907dc31ec93d4aa945bca0905d8a52c4
       SHA512: 5dd89320d429e5bd5faf3709be7e5b70f7355304d6324d7ac13a69187e5f1446ad5988c8186bc33f4fea8934288294f9d16fea173f39b2b39967746c4b03d1d4
 
-## Release Comment
+## Ghi chú phát hành
 
-See also the release schedule and other information:
+Xem thêm lịch phát hành và thông tin khác:
 
 [ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

@@ -1,105 +1,105 @@
 ---
 layout: news_post
-title: "Ruby 2.5.0 Released"
+title: "Phát hành Ruby 2.5.0"
 author: "naruse"
 translator:
 date: 2017-12-25 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.5.0.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.5.0.
 
-Ruby 2.5.0 is the first stable release of the Ruby 2.5 series.
-It introduces many new features and performance improvements.
-The notable changes are as follows:
+Ruby 2.5.0 là phiên bản ổn định đầu tiên của dòng Ruby 2.5.
+Phiên bản này giới thiệu nhiều tính năng mới và cải thiện hiệu suất.
+Các thay đổi đáng chú ý bao gồm:
 
-## New Features
+## Tính năng mới
 
-* `rescue`/`else`/`ensure` are now allowed to be used directly with
-  `do`/`end` blocks.
+* `rescue`/`else`/`ensure` hiện được phép sử dụng trực tiếp với
+  khối `do`/`end`.
   [[Feature #12906]](https://bugs.ruby-lang.org/issues/12906)
-* Add `yield_self` to yield given block in its context.
-  Unlike `tap`, it returns the result of the block.
+* Thêm `yield_self` để yield block đã cho trong ngữ cảnh của nó.
+  Khác với `tap`, nó trả về kết quả của block.
   [[Feature #6721]](https://bugs.ruby-lang.org/issues/6721)
-* Support branch coverage and method coverage measurement.
-  The branch coverage indicates which branches are executed and which are not.
-  The method coverage indicates which methods are invoked and which are not.
-  By running a test suite with these new features, you will know which
-  branches and methods are executed, and evaluate total coverage of the test
-  suite more strictly.
+* Hỗ trợ đo lường độ phủ nhánh và độ phủ phương thức.
+  Độ phủ nhánh cho biết nhánh nào được thực thi và nhánh nào không.
+  Độ phủ phương thức cho biết phương thức nào được gọi và phương thức nào không.
+  Bằng cách chạy bộ test với các tính năng mới này, bạn sẽ biết được
+  nhánh và phương thức nào được thực thi, và đánh giá tổng độ phủ của bộ test
+  một cách chặt chẽ hơn.
   [[Feature #13901]](https://bugs.ruby-lang.org/issues/13901)
 * Hash#slice [[Feature #8499]](https://bugs.ruby-lang.org/issues/8499)
-  and Hash#transform_keys [[Feature #13583]](https://bugs.ruby-lang.org/issues/13583)
-* Struct.new can create classes that accept keyword arguments.
+  và Hash#transform_keys [[Feature #13583]](https://bugs.ruby-lang.org/issues/13583)
+* Struct.new có thể tạo các lớp chấp nhận đối số từ khóa.
   [[Feature #11925]](https://bugs.ruby-lang.org/issues/11925)
-* Enumerable#any?, all?, none?, and one? accept a pattern argument.
+* Enumerable#any?, all?, none?, và one? chấp nhận đối số pattern.
   [[Feature #11286]](https://bugs.ruby-lang.org/issues/11286)
-* Top-level constant look-up is no longer available.
+* Tìm kiếm hằng số cấp cao nhất không còn khả dụng.
   [[Feature #11547]](https://bugs.ruby-lang.org/issues/11547)
-* One of our most loved libraries, pp.rb, is now automatically loaded.
-  You no longer have to write `require "pp"`.
+* Một trong những thư viện được yêu thích nhất, pp.rb, hiện được tải tự động.
+  Bạn không cần phải viết `require "pp"` nữa.
   [[Feature #14123]](https://bugs.ruby-lang.org/issues/14123)
-* Print backtrace and error message in reverse order (oldest call first,
-  most recent call last). When a long backtrace appears on your terminal (TTY),
-  you can easily find the cause line at the bottom of the backtrace.
-  Note that the order is reversed only when the backtrace is printed out
-  to the terminal directly.
-  [[Feature #8661]](https://bugs.ruby-lang.org/issues/8661) [experimental]
+* In backtrace và thông báo lỗi theo thứ tự ngược (lời gọi cũ nhất trước,
+  lời gọi gần nhất sau). Khi một backtrace dài xuất hiện trên terminal (TTY) của bạn,
+  bạn có thể dễ dàng tìm dòng gây lỗi ở cuối backtrace.
+  Lưu ý rằng thứ tự chỉ được đảo ngược khi backtrace được in trực tiếp
+  ra terminal.
+  [[Feature #8661]](https://bugs.ruby-lang.org/issues/8661) [thử nghiệm]
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-* About 5-10% performance improvement by removing all `trace` instructions
-  from overall bytecode (instruction sequences).
-  The `trace` instruction was added to support the `TracePoint`.
-  However, in most cases, `TracePoint` is not used and `trace` instructions
-  are pure overhead. Instead, now we use a dynamic instrumentation technique.
-  See [[Feature #14104]](https://bugs.ruby-lang.org/issues/14104) for more details.
-* Block passing by a block parameter (e.g. `def foo(&b); bar(&b); end`)
-  is about 3 times faster than Ruby 2.4 by "Lazy Proc allocation" technique.
+* Cải thiện hiệu suất khoảng 5-10% bằng cách loại bỏ tất cả lệnh `trace`
+  khỏi toàn bộ bytecode (chuỗi lệnh).
+  Lệnh `trace` được thêm để hỗ trợ `TracePoint`.
+  Tuy nhiên, trong hầu hết các trường hợp, `TracePoint` không được sử dụng và lệnh `trace`
+  là chi phí thuần túy. Thay vào đó, bây giờ chúng tôi sử dụng kỹ thuật instrumentation động.
+  Xem [[Feature #14104]](https://bugs.ruby-lang.org/issues/14104) để biết thêm chi tiết.
+* Truyền block bằng tham số block (ví dụ `def foo(&b); bar(&b); end`)
+  nhanh hơn khoảng 3 lần so với Ruby 2.4 nhờ kỹ thuật "Lazy Proc allocation".
   [[Feature #14045]](https://bugs.ruby-lang.org/issues/14045)
-* Mutex is rewritten to be smaller and faster.
+* Mutex được viết lại nhỏ hơn và nhanh hơn.
   [[Feature #13517]](https://bugs.ruby-lang.org/issues/13517)
-* ERB now generates code from a template twice as fast as Ruby 2.4.
-* Improve performance of some built-in methods including `Array#concat`,
-  `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+`, and more.
-* IO.copy_stream uses copy_file_range(2) to copy offload.
+* ERB hiện tạo mã từ template nhanh gấp đôi so với Ruby 2.4.
+* Cải thiện hiệu suất của một số phương thức tích hợp bao gồm `Array#concat`,
+  `Enumerable#sort_by`, `String#concat`, `String#index`, `Time#+`, và nhiều hơn nữa.
+* IO.copy_stream sử dụng copy_file_range(2) để giảm tải sao chép.
   [[Feature #13867]](https://bugs.ruby-lang.org/issues/13867)
 
-## Other notable changes since 2.4
+## Các thay đổi đáng chú ý khác kể từ 2.4
 
-* SecureRandom now prefers OS-provided sources over OpenSSL.
+* SecureRandom hiện ưu tiên nguồn do hệ điều hành cung cấp thay vì OpenSSL.
   [[Bug #9569]](https://bugs.ruby-lang.org/issues/9569)
-* Promote cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr,
-  scanf, sdbm, stringio, strscan, webrick, zlib from standard libraries
-  to default gems.
-* Update to [Onigmo](https://github.com/k-takata/Onigmo/) 6.1.3.
-  * It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
-  * Note that [Ruby 2.4.1](https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/) also includes this change.
-* Update to Psych 3.0.2.
-* Update to RubyGems 2.7.3.
-* Update to RDoc 6.0.1.
-  * [Switch the lexer from IRB based one to Ripper](https://github.com/ruby/rdoc/pull/512).
-    This dramatically improves the performance of document generation.
-  * Fix a significant amount of bugs that existed over ten years.
-  * Add support for new Ruby syntax from the latest versions.
-* Update supported Unicode version to 10.0.0.
-* `Thread.report_on_exception` is now set to true by default.
-  This change helps debugging of multi-threaded programs.
+* Nâng cấp cmath, csv, date, dbm, etc, fcntl, fiddle, fileutils, gdbm, ipaddr,
+  scanf, sdbm, stringio, strscan, webrick, zlib từ thư viện chuẩn
+  thành gem mặc định.
+* Cập nhật [Onigmo](https://github.com/k-takata/Onigmo/) lên 6.1.3.
+  * Nó thêm [toán tử vắng mặt](https://github.com/k-takata/Onigmo/issues/87).
+  * Lưu ý rằng [Ruby 2.4.1](https://www.ruby-lang.org/en/news/2017/03/22/ruby-2-4-1-released/) cũng bao gồm thay đổi này.
+* Cập nhật Psych lên 3.0.2.
+* Cập nhật RubyGems lên 2.7.3.
+* Cập nhật RDoc lên 6.0.1.
+  * [Chuyển lexer từ dựa trên IRB sang Ripper](https://github.com/ruby/rdoc/pull/512).
+    Điều này cải thiện đáng kể hiệu suất tạo tài liệu.
+  * Sửa một lượng lớn lỗi tồn tại hơn mười năm.
+  * Thêm hỗ trợ cú pháp Ruby mới từ các phiên bản gần đây.
+* Cập nhật phiên bản Unicode được hỗ trợ lên 10.0.0.
+* `Thread.report_on_exception` hiện được đặt thành true theo mặc định.
+  Thay đổi này giúp gỡ lỗi các chương trình đa luồng.
   [[Feature #14143]](https://bugs.ruby-lang.org/issues/14143)
-* IO#write now receives multiple arguments.
+* IO#write hiện nhận nhiều đối số.
   [[Feature #9323]](https://bugs.ruby-lang.org/issues/9323)
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)
-or the [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
-for details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_5_0/NEWS)
+hoặc [nhật ký thay đổi](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
+để biết chi tiết.
 
-With those changes,
-[6158 files changed, 348484 insertions(+), 82747 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
-since Ruby 2.4.0!
+Với những thay đổi đó,
+[6158 tập tin thay đổi, 348484 dòng thêm(+), 82747 dòng xóa(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0)
+kể từ Ruby 2.4.0!
 
-Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.5!
+Chúc Giáng sinh vui vẻ, Chúc mừng ngày lễ, và hãy tận hưởng lập trình với Ruby 2.5!
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0.tar.gz>
 

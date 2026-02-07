@@ -1,20 +1,15 @@
 ---
 layout: news_post
-title: "Matz Earns the FSF's 2011 Free Software Award"
+title: "Matz nhận Giải thưởng Phần mềm Tự do 2011 của FSF"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-The Award for the Advancement of Free Software is given annually to an
-individual who has made a great contribution to the progress and
-development of free software, through activities that accord with the
-spirit of free software.
+Giải thưởng vì sự Tiến bộ của Phần mềm Tự do được trao hàng năm cho một cá nhân đã có đóng góp lớn cho sự tiến bộ và phát triển của phần mềm tự do, thông qua các hoạt động phù hợp với tinh thần của phần mềm tự do.
 
-This year, it was given to Yukihiro Matsumoto (aka Matz), the creator of
-the Ruby programming language. Matz has worked on GNU, Ruby, and other
-free software for over 20 years…
+Năm nay, giải thưởng được trao cho Yukihiro Matsumoto (hay còn gọi là Matz), người tạo ra ngôn ngữ lập trình Ruby. Matz đã làm việc với GNU, Ruby và các phần mềm tự do khác trong hơn 20 năm...
 
-[Read the full article.][1]
+[Đọc bài viết đầy đủ.][1]
 
 
 

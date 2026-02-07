@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 2.2.5 Released"
+title: "Phát hành Ruby 2.2.5"
 author: "usa"
 translator:
 date: 2016-04-26 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.2.5 has been released.
+Ruby 2.2.5 đã được phát hành.
 
-This release includes many bug fixes.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
-for details.
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.5.tar.bz2)
 
@@ -43,14 +43,14 @@ for details.
       SHA256: d5094d7cc50266772a8352c68b7fcd865889fd174c09e2f11bb003696cd04bb3
       SHA512: b3789063252e361aa4598ecd9170fc360f0d5685497975ce09442fe5815c438b67b95fc67e56b99ab4044a49715ed1a8b1fb089f757c7c0d1a777536e06de8cf
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-With this release, the maintainer of Ruby 2.2 changed from nagachika-san to usa.
-About two thirds of the changes included in this release were made by nagachika-san.
-Thanks for his great contributions.
+Với bản phát hành này, người bảo trì Ruby 2.2 đã thay đổi từ nagachika-san sang usa.
+Khoảng hai phần ba các thay đổi trong bản phát hành này được thực hiện bởi nagachika-san.
+Cảm ơn những đóng góp tuyệt vời của anh ấy.
 
-The maintenance of Ruby 2.2, including this release,
-is based on the "Agreement for the Ruby stable version" of the
+Việc bảo trì Ruby 2.2, bao gồm bản phát hành này,
+dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của
 [Ruby Association](http://www.ruby.or.jp/).

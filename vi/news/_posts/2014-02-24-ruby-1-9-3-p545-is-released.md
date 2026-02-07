@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p545 is released"
+title: "Ruby 1.9.3-p545 đã được phát hành"
 author: "usa"
 translator:
 date: 2014-02-24 05:00:00 +0000
 lang: vi
 ---
 
-Happy birthday, Ruby!
-Today, Feb. 24th, is the 21st anniversary of Ruby.
-In commemoration of it, Ruby 1.9.3-p545 is released.
+Chúc mừng sinh nhật, Ruby!
+Hôm nay, ngày 24 tháng 2, là kỷ niệm 21 năm của Ruby.
+Để kỷ niệm, Ruby 1.9.3-p545 đã được phát hành.
 
-This is the last ordinal release of Ruby 1.9.3.
-It means that Ruby 1.9.3 goes into the state of the security maintenance
-phase, and will never be released unless any critical regressions
-or security issues are found.
-This phase is planned to be maintained for 1 year.
-Then, maintenance of Ruby 1.9.3 will be ended at Feb. 24th, 2015.
+Đây là bản phát hành thường kỳ cuối cùng của Ruby 1.9.3.
+Điều này có nghĩa là Ruby 1.9.3 sẽ chuyển sang giai đoạn bảo trì bảo mật,
+và sẽ không bao giờ được phát hành nữa trừ khi phát hiện lỗi hồi quy
+nghiêm trọng hoặc vấn đề bảo mật.
+Giai đoạn này được dự kiến duy trì trong 1 năm.
+Sau đó, việc bảo trì Ruby 1.9.3 sẽ kết thúc vào ngày 24 tháng 2 năm 2015.
 
-This release includes many bugfixes.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) for details.
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.bz2)
 
@@ -42,10 +42,10 @@ and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) 
       MD5:    d056aefa64237737fedb127257b502d2
       SHA256: 2d0d17840da0dfbea8ace8a77050a7710d2ef3c9e05dd88f2731464532aea31e
 
-## Release Comment
+## Ghi chú phát hành
 
-I'm grateful to everybody who supports Ruby.
-Thank you.
+Tôi biết ơn tất cả những ai hỗ trợ Ruby.
+Cảm ơn.
 
-This release is dedicated to the memory of our best comrade, Jim Weirich.
-Thank you, Jim.  Rest in peace.
+Bản phát hành này được dành tặng để tưởng nhớ người đồng nghiệp tốt nhất của chúng tôi, Jim Weirich.
+Cảm ơn, Jim. Yên nghỉ nhé.

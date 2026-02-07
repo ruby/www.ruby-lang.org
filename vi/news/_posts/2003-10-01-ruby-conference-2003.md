@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby Conference 2003"
+title: "Hội nghị Ruby 2003"
 author: "sughimsi"
 lang: vi
 ---
 
-[Ruby Conference 2003][1] will soon be held in November 14-16, 2003, on
-Austin, Texas U.S.A.
+[Hội nghị Ruby 2003][1] sẽ sớm được tổ chức vào ngày 14-16 tháng 11 năm 2003, tại
+Austin, Texas Hoa Kỳ.
 
-[The registration is open][2]. Sign in! Full registration will be open
-until Sunday, October 26.
+[Đăng ký đã mở][2]. Hãy đăng ký! Đăng ký đầy đủ sẽ mở
+đến Chủ nhật, ngày 26 tháng 10.
 
-See also [\[ruby-talk:83169\]][3], and [\[ruby-talk:84427\]][4].
+Xem thêm [\[ruby-talk:83169\]][3], và [\[ruby-talk:84427\]][4].
 
 
 

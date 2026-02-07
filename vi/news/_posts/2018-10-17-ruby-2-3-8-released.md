@@ -1,29 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 2.3.8 Released"
+title: "Phát hành Ruby 2.3.8"
 author: "usa"
 translator:
 date: 2018-10-17 17:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.8 has been released.
+Ruby 2.3.8 đã được phát hành.
 
-This release includes several security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm một số bản sửa bảo mật.
+Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
-* [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
+* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
+* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-This release also includes a non-security fix to support Visual Studio 2014
-with Windows 10 October 2018 Update for maintenance reasons.
+Bản phát hành này cũng bao gồm một bản sửa lỗi không liên quan đến bảo mật để hỗ trợ Visual Studio 2014
+với Windows 10 October 2018 Update vì lý do bảo trì.
 
-Ruby 2.3 is now under the state of the security maintenance phase, until
-the end of March of 2019.  After that date, maintenance of Ruby 2.3
-will be ended. We recommend you start planning the migration to newer
-versions of Ruby, such as 2.5 or 2.4.
+Ruby 2.3 hiện đang trong giai đoạn bảo trì bảo mật, cho đến
+cuối tháng 3 năm 2019. Sau ngày đó, việc bảo trì Ruby 2.3
+sẽ kết thúc. Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch di chuyển sang các phiên bản
+Ruby mới hơn, chẳng hạn như 2.5 hoặc 2.4.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.bz2)
 
@@ -53,6 +53,6 @@ versions of Ruby, such as 2.5 or 2.4.
       SHA256: ec9792d0473a22954ad25cd0c531fc672679c1a5eaeefa08caf9e1288852796f
       SHA512: 732d69cd55f1c273a02005306720fd8fc9d77398177db9509452be31820976b54b30319d9e6bc36fb6bcd7af656f807ef6c26d8955012c8b20424912a2f51bf8
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này.

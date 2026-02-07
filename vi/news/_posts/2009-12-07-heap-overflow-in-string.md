@@ -1,37 +1,37 @@
 ---
 layout: news_post
-title: "Heap overflow in String (CVE-2009-4124)"
+title: "Tràn bộ nhớ heap trong String (CVE-2009-4124)"
 author: "Yugui"
 lang: vi
 ---
 
-There is a heap overflow vulnerability in `String#ljust`,
-`String#center` and `String#rjust`. This has allowed an attacker to run
-arbitrary code in some rare cases.
+Có một lỗ hổng tràn bộ nhớ heap trong `String#ljust`, `String#center`
+và `String#rjust`. Điều này đã cho phép kẻ tấn công thực thi mã tùy ý
+trong một số trường hợp hiếm.
 
 * [CVE-2009-4124][1]
 
-## Vulnerable versions
+## Các phiên bản bị ảnh hưởng
 
-* All releases of Ruby 1.9.1.
+* Tất cả các bản phát hành của Ruby 1.9.1.
 
-This vulnerability does not affect Ruby 1.8 series.
+Lỗ hổng này không ảnh hưởng đến dòng Ruby 1.8.
 
-## Solution
+## Giải pháp
 
-Please upgrade to Ruby 1.9.1-p376.
+Vui lòng nâng cấp lên Ruby 1.9.1-p376.
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2&gt;][2]
 
-## Credit
+## Ghi nhận
 
-Credit to Emmanouel Kellinis, KPMG London for disclosing the problem to
-Ruby Security team.
+Ghi nhận Emmanouel Kellinis, KPMG London vì đã tiết lộ vấn đề cho đội
+bảo mật Ruby.
 
-## Changes
+## Thay đổi
 
-* 2009-12-07 14:52 +0900 add link to CVE (but not opened yet when
-  writing this page)
+* 2009-12-07 14:52 +0900 thêm liên kết đến CVE (nhưng chưa mở khi
+  viết trang này)
 
 
 

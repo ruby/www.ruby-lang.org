@@ -1,30 +1,30 @@
 ---
 layout: news_post
-title: "Ruby 2.7.6 Released"
+title: "Phát hành Ruby 2.7.6"
 author: "usa and mame"
 translator:
 date: 2022-04-12 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.7.6 has been released.
+Ruby 2.7.6 đã được phát hành.
 
-This release includes a security fix.
-Please check the topics below for details.
+Bản phát hành này bao gồm bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2022-28739: Buffer overrun in String-to-Float conversion]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
+* [CVE-2022-28739: Tràn bộ đệm trong chuyển đổi String sang Float]({%link en/news/_posts/2022-04-12-buffer-overrun-in-string-to-float-cve-2022-28739.md %})
 
-This release also includes some bug fixes.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_5...v2_7_6) for further details.
+Bản phát hành này cũng bao gồm một số bản sửa lỗi.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_7_5...v2_7_6) để biết thêm chi tiết.
 
-After this release, we end the normal maintenance phase of Ruby 2.7, and Ruby 2.7 enters the security maintenance phase.
-This means that we will no longer backport any bug fixes to Ruby 2.7 except security fixes.
+Sau bản phát hành này, chúng tôi kết thúc giai đoạn bảo trì bình thường của Ruby 2.7, và Ruby 2.7 bước vào giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là chúng tôi sẽ không còn backport bất kỳ bản sửa lỗi nào cho Ruby 2.7 ngoại trừ các bản sửa lỗi bảo mật.
 
-The term of the security maintenance phase is scheduled for a year.
-Ruby 2.7 reaches EOL and its official support ends by the end of the security maintenance phase.
-Therefore, we recommend that you start to plan upgrade to Ruby 3.0 or 3.1.
+Giai đoạn bảo trì bảo mật được lên lịch trong một năm.
+Ruby 2.7 đạt đến EOL và hỗ trợ chính thức của nó kết thúc khi giai đoạn bảo trì bảo mật kết thúc.
+Do đó, chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 3.0 hoặc 3.1.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.7.6" | first %}
 
@@ -56,9 +56,9 @@ Therefore, we recommend that you start to plan upgrade to Ruby 3.0 or 3.1.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.
 
-The maintenance of Ruby 2.7, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+Việc bảo trì Ruby 2.7, bao gồm cả bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Hiệp hội Ruby.

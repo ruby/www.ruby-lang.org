@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 1.9.1-preview 1 released"
+title: "Ruby 1.9.1-preview 1 đã được phát hành"
 author: "james"
 lang: vi
 ---
 
-Yugui (Yuki Sonoda) announced the release of Ruby 1.9.1-preview 1:
+Yugui (Yuki Sonoda) đã thông báo phát hành Ruby 1.9.1-preview 1:
 
-> This is a preview release of Ruby 1.9.1, which will be the first
-> stable version of the Ruby 1.9 series. Try it out now and get an early
-> taste of a modern, faster, multilingualized, and much improved Ruby
-> with clearer syntax.
-> If you encounter any bugs or problems, please let us know via the
-> official issue tracking system:
+> Đây là bản phát hành xem trước của Ruby 1.9.1, sẽ là phiên bản ổn
+> định đầu tiên của dòng Ruby 1.9. Hãy dùng thử ngay và trải nghiệm
+> sớm một Ruby hiện đại, nhanh hơn, đa ngôn ngữ, và được cải tiến nhiều
+> với cú pháp rõ ràng hơn.
+> Nếu bạn gặp bất kỳ lỗi hoặc vấn đề nào, vui lòng cho chúng tôi biết
+> qua hệ thống theo dõi lỗi chính thức:
 >
 > [https://bugs.ruby-lang.org][1]
 
-You can download the release from;
+Bạn có thể tải bản phát hành từ:
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-preview1.tar.bz2][2]
   SIZE: 6169022 bytes

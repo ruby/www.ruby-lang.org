@@ -1,21 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 2.6.1 Released"
+title: "Phát hành Ruby 2.6.1"
 author: "naruse"
 translator:
 date: 2019-01-30 00:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.6.1 has been released.
+Ruby 2.6.1 đã được phát hành.
 
-## Changes
+## Thay đổi
 
-* [Net::Protocol::BufferedIO#write raises NoMethodError when sending large multi-byte string](https://bugs.ruby-lang.org/issues/15468) has been fixed.
+* [Net::Protocol::BufferedIO#write ném NoMethodError khi gửi chuỗi multi-byte lớn](https://bugs.ruby-lang.org/issues/15468) đã được sửa.
 
-This release includes additional bug fixes. See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1) for more details.
+Bản phát hành này bao gồm các bản sửa lỗi bổ sung. Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_6_0...v2_6_1) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.tar.gz>
 
@@ -45,8 +45,8 @@ This release includes additional bug fixes. See the [commit logs](https://github
       SHA256: 47b629808e9fd44ce1f760cdf3ed14875fc9b19d4f334e82e2cf25cb2898f2f2
       SHA512: fb36289a955f0596c683cdadf1e4a9a9fd35222b1e1c6160c2e7cd82e5befd40a7aa4361e55f7a8f83c06ee899ec493821c7db34a60c4ac3bca0e874d33ef1a9
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp
+chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

@@ -1,29 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 2.6.8 Released"
+title: "Phát hành Ruby 2.6.8"
 author: "usa"
 translator:
 date: 2021-07-07 09:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.6.8 has been released.
+Ruby 2.6.8 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
 * [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
 * [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
 * [CVE-2021-31799: A command injection vulnerability in RDoc]({%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
-We ordinally do not fix Ruby 2.6 except security fixes, but this release also includes some regressed bugs and build problem fixes.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_7...v2_6_8) for details.
+Thông thường chúng tôi không sửa Ruby 2.6 ngoại trừ các bản sửa bảo mật, nhưng bản phát hành này cũng bao gồm một số bản sửa lỗi hồi quy và sửa lỗi build.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_6_7...v2_6_8) để biết chi tiết.
 
-Ruby 2.6 is now under the state of the security maintenance phase, until the end of March of 2022.
-After that date, maintenance of Ruby 2.6 will be ended.
-We recommend you start planning the migration to newer versions of Ruby, such as 3.0 or 2.7.
+Ruby 2.6 hiện đang trong giai đoạn bảo trì bảo mật, cho đến cuối tháng 3 năm 2022.
+Sau ngày đó, việc bảo trì Ruby 2.6 sẽ kết thúc.
+Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch chuyển đổi sang các phiên bản Ruby mới hơn, chẳng hạn như 3.0 hoặc 2.7.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.6.8" | first %}
 
@@ -55,7 +55,7 @@ We recommend you start planning the migration to newer versions of Ruby, such as
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

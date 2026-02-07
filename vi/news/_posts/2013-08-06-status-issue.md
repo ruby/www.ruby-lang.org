@@ -1,44 +1,44 @@
 ---
 layout: news_post
-title:  "Service issue of ruby-lang.org"
+title:  "Sự cố dịch vụ của ruby-lang.org"
 author: "hsbt"
 translator: "antipop"
 date:   2013-08-06 04:00:00 +0000
-lang:   en
+lang:   vi
 ---
 
-Some services provided by ruby-lang.org are stopped,
-because the servers of ruby-lang.org are currently down.
+Một số dịch vụ do ruby-lang.org cung cấp đã bị dừng, vì các máy chủ của
+ruby-lang.org hiện đang ngừng hoạt động.
 
-Impact is as follows:
+Ảnh hưởng như sau:
 
- * All mailing lists provided by ruby-lang.org are down.
- * Ruby's tar packages distributed by ftp.ruby-lang.org are unreachable.
- * If you lookup old DNS cache, you cannot reach www.ruby-lang.org.
+ * Tất cả mailing list do ruby-lang.org cung cấp đều ngừng hoạt động.
+ * Các gói tar của Ruby phân phối qua ftp.ruby-lang.org không thể truy cập.
+ * Nếu bạn tra cứu DNS cache cũ, bạn không thể truy cập www.ruby-lang.org.
 
-We are repairing these services now.
+Chúng tôi đang sửa chữa các dịch vụ này.
 
-## Update (2013-08-06 9:33 UTC)
+## Cập nhật (2013-08-06 9:33 UTC)
 
-The reason of today's problems is a hardware failure.
-We repaired the following issues:
+Nguyên nhân của các vấn đề hôm nay là lỗi phần cứng.
+Chúng tôi đã sửa chữa các vấn đề sau:
 
- * All mailing lists are back, but we still have some problem. We are repairing it.
- * ftp.ruby-lang.org is available again via http and ftp.
+ * Tất cả mailing list đã hoạt động trở lại, nhưng chúng tôi vẫn còn một số vấn đề. Chúng tôi đang sửa chữa.
+ * ftp.ruby-lang.org đã có thể truy cập lại qua http và ftp.
 
-If you discover other problems, please report them to
+Nếu bạn phát hiện vấn đề khác, vui lòng báo cáo tại
 https://github.com/ruby/www.ruby-lang.org/issues.
 
-## Update (2013-08-06 13:18 UTC)
+## Cập nhật (2013-08-06 13:18 UTC)
 
-We stopped ftp.ruby-lang.org via http and ftp, because some old packages of Ruby are broken. MD5 doesn't match as expected.
+Chúng tôi đã dừng ftp.ruby-lang.org qua http và ftp, vì một số gói Ruby cũ bị hỏng. MD5 không khớp như mong đợi.
 
-We are investigating now. Detail information can be found in the following issue.
+Chúng tôi đang điều tra. Thông tin chi tiết có thể được tìm thấy trong issue sau.
 https://github.com/ruby/www.ruby-lang.org/issues/259
 
-## Update (2013-08-07 05:08 UTC)
+## Cập nhật (2013-08-07 05:08 UTC)
 
-We confirmed that the following packages were broken. We restored these packages via http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/.
+Chúng tôi đã xác nhận rằng các gói sau bị hỏng. Chúng tôi đã khôi phục các gói này từ http://mirrorservice.org/sites/ftp.ruby-lang.org/pub/ruby/.
 
 <pre>
 ruby-1.9.3-p426.tar.bz2
@@ -55,15 +55,15 @@ ruby-2.0.0-p195.tar.gz
 ruby-2.0.0-p195.zip
 </pre>
 
-We checked that the MD5 checksums of these files are the same as in our release announcements. ftp.ruby-lang.org via http and ftp is available now.
+Chúng tôi đã kiểm tra rằng checksum MD5 của các file này giống với trong các thông báo phát hành. ftp.ruby-lang.org qua http và ftp đã hoạt động trở lại.
 
-## Update (2013-08-09 10:30 UTC)
+## Cập nhật (2013-08-09 10:30 UTC)
 
-Some of our services have been backed now, which had been suspended since Aug. 6 2013 by the server accident we reported before:
+Một số dịch vụ của chúng tôi đã hoạt động trở lại, sau khi bị tạm ngừng từ ngày 6 tháng 8 năm 2013 do sự cố máy chủ chúng tôi đã báo cáo trước đó:
 
-  * Mailing lists: We changed the software that provides the service from FML to Mailman.
-    * For details, please check out http://lists.ruby-lang.org.
-  * Package distribution: You can now download the packages we're providing from ftp.ruby-lang.org via both http and ftp.
-  * Snapshot packages: We restarted daily snapshot building and packaging.
+  * Mailing list: Chúng tôi đã thay đổi phần mềm cung cấp dịch vụ từ FML sang Mailman.
+    * Chi tiết, vui lòng kiểm tra tại http://lists.ruby-lang.org.
+  * Phân phối gói: Bạn có thể tải các gói chúng tôi cung cấp từ ftp.ruby-lang.org qua cả http và ftp.
+  * Gói snapshot: Chúng tôi đã khởi động lại việc build và đóng gói snapshot hàng ngày.
 
-If you find any problems on our services, please notify us at https://github.com/ruby/www.ruby-lang.org/issues.
+Nếu bạn phát hiện bất kỳ vấn đề nào với dịch vụ của chúng tôi, vui lòng thông báo tại https://github.com/ruby/www.ruby-lang.org/issues.

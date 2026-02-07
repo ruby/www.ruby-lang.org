@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 3.2.1 Released"
+title: "Phát hành Ruby 3.2.1"
 author: "naruse"
 translator:
 date: 2023-02-08 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.2.1 has been released.
+Ruby 3.2.1 đã được phát hành.
 
-This is the first TEENY version release of the stable 3.2 series.
+Đây là phiên bản TEENY đầu tiên của dòng ổn định 3.2.
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_1) for further details.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_1) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.2.1" | first %}
 
@@ -38,7 +38,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_1) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

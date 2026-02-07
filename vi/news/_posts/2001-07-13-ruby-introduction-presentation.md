@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Ruby introduction presentation"
+title: "Bài thuyết trình giới thiệu Ruby"
 author: "Matz"
 lang: vi
 ---
 
-[Ruby introduction presentation at New York City CTO club][1] by Jim
-Menard on July 10, 2001.
+[Bài thuyết trình giới thiệu Ruby tại câu lạc bộ CTO New York City][1] bởi Jim
+Menard vào ngày 10 tháng 7 năm 2001.
 
 
 

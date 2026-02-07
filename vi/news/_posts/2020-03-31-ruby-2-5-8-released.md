@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.5.8 Released"
+title: "Phát hành Ruby 2.5.8"
 author: "usa"
 translator:
 date: 2020-03-31 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.8 has been released.
+Ruby 2.5.8 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
 * [CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)]({% link en/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
 * [CVE-2020-10933: Heap exposure vulnerability in the socket library]({% link en/news/_posts/2020-03-31-heap-exposure-in-socket-cve-2020-10933.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_7...v2_5_8) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_7...v2_5_8) để biết chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.5.8" | first %}
 
@@ -49,6 +49,6 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_7...v2_5_8) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này, đặc biệt là những người đã báo cáo lỗ hổng bảo mật.

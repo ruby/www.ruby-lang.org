@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.7.4 Released"
+title: "Phát hành Ruby 2.7.4"
 author: "usa"
 translator:
 date: 2021-07-07 09:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.7.4 has been released.
+Ruby 2.7.4 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản vá bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết thêm chi tiết.
 
-* [CVE-2021-31810: Trusting FTP PASV responses vulnerability in Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
-* [CVE-2021-32066: A StartTLS stripping vulnerability in Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
-* [CVE-2021-31799: A command injection vulnerability in RDoc]({%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
+* [CVE-2021-31810: Lỗ hổng tin tưởng phản hồi FTP PASV trong Net::FTP]({%link en/news/_posts/2021-07-07-trusting-pasv-responses-in-net-ftp.md %})
+* [CVE-2021-32066: Lỗ hổng tước bỏ StartTLS trong Net::IMAP]({%link en/news/_posts/2021-07-07-starttls-stripping-in-net-imap.md %})
+* [CVE-2021-31799: Lỗ hổng chèn lệnh trong RDoc]({%link en/news/_posts/2021-05-02-os-command-injection-in-rdoc.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.7.4" | first %}
 
@@ -50,9 +50,9 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_7_3...v2_7_4) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.
 
-The maintenance of Ruby 2.7, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+Việc bảo trì Ruby 2.7, bao gồm bản phát hành này, dựa trên "Thỏa thuận về phiên bản ổn định của Ruby" của Hiệp hội Ruby.

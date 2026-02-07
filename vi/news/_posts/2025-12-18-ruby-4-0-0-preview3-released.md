@@ -1,30 +1,30 @@
 ---
 layout: news_post
-title: "Ruby 4.0.0 preview3 Released"
+title: "Phát hành Ruby 4.0.0 preview3"
 author: "naruse"
-translator:
+translator: "Ngọc Lê"
 date: 2025-12-18 00:00:00 +0000
 lang: vi
 ---
 
 {% assign release = site.data.releases | where: "version", "4.0.0-preview3" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}.
-Ruby 4.0 introduces Ruby::Box and "ZJIT", and adds many improvements.
+Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}.
+Ruby 4.0 giới thiệu Ruby::Box và "ZJIT", cùng nhiều cải tiến khác.
 
 ## Ruby::Box
 
-A new (experimental) feature to provide separation about definitions.
-For the detail of "Ruby Box", see [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+Một tính năng mới (thử nghiệm) cung cấp sự phân tách về các định nghĩa.
+Để biết chi tiết về "Ruby Box", xem [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
 [[Feature #21311]] [[Misc #21385]]
 
-## Language changes
+## Thay đổi ngôn ngữ
 
-* `*nil` no longer calls `nil.to_a`, similar to how `**nil` does
-  not call `nil.to_hash`.  [[Feature #21047]]
+* `*nil` không còn gọi `nil.to_a`, tương tự như cách `**nil` không
+  gọi `nil.to_hash`.  [[Feature #21047]]
 
-* Logical binary operators (`||`, `&&`, `and` and `or`) at the
-  beginning of a line continue the previous line, like fluent dot.
-  The following two code are equal:
+* Các toán tử nhị phân logic (`||`, `&&`, `and` và `or`) ở đầu
+  dòng tiếp tục dòng trước đó, giống như dấu chấm fluent.
+  Hai đoạn mã sau là tương đương:
 
     ```ruby
     if condition1
@@ -41,14 +41,14 @@ For the detail of "Ruby Box", see [doc/language/box.md](https://github.com/ruby/
 
     [[Feature #20925]]
 
-## Core classes updates
+## Cập nhật các lớp lõi
 
-Note: We're only listing outstanding class updates.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật lớp đáng chú ý.
 
 * Kernel
 
-    * `Kernel#inspect` now checks for the existence of a `#instance_variables_to_inspect` method,
-      allowing control over which instance variables are displayed in the `#inspect` string:
+    * `Kernel#inspect` giờ kiểm tra sự tồn tại của phương thức `#instance_variables_to_inspect`,
+      cho phép kiểm soát các biến instance nào được hiển thị trong chuỗi `#inspect`:
 
         ```ruby
         class DatabaseConfig
@@ -67,52 +67,52 @@ Note: We're only listing outstanding class updates.
 
         [[Feature #21219]]
 
-    * A deprecated behavior, process creation by `Kernel#open` with a
-      leading `|`, was removed.  [[Feature #19630]]
+    * Hành vi đã bị deprecated, tạo tiến trình bằng `Kernel#open` với
+      ký tự `|` ở đầu, đã bị loại bỏ.  [[Feature #19630]]
 
 * Binding
 
-    * `Binding#local_variables` does no longer include numbered parameters.
-      Also, `Binding#local_variable_get` and `Binding#local_variable_set` reject
-      to handle numbered parameters.  [[Bug #21049]]
+    * `Binding#local_variables` không còn bao gồm các tham số được đánh số.
+      Ngoài ra, `Binding#local_variable_get` và `Binding#local_variable_set` từ chối
+      xử lý các tham số được đánh số.  [[Bug #21049]]
 
 * File
 
-    * `File::Stat#birthtime` is now available on Linux via the statx
-      system call when supported by the kernel and filesystem.
+    * `File::Stat#birthtime` giờ khả dụng trên Linux thông qua lệnh hệ thống statx
+      khi được hỗ trợ bởi kernel và hệ thống tệp.
       [[Feature #21205]]
 
 * IO
 
-    * `IO.select` accepts `Float::INFINITY` as a timeout argument.
+    * `IO.select` chấp nhận `Float::INFINITY` làm đối số timeout.
       [[Feature #20610]]
 
-    * A deprecated behavior, process creation by `IO` class methods
-      with a leading `|`, was removed.  [[Feature #19630]]
+    * Hành vi đã bị deprecated, tạo tiến trình bằng các phương thức lớp `IO`
+      với ký tự `|` ở đầu, đã bị loại bỏ.  [[Feature #19630]]
 
 * Math
 
-    * `Math.log1p` and `Math.expm1` are added. [[Feature #21527]]
+    * `Math.log1p` và `Math.expm1` được thêm vào. [[Feature #21527]]
 
 * Method
 
-    * `Method#source_location`, `Proc#source_location`, and
-      `UnboundMethod#source_location` now return extended location
-      information with 5 elements: `[path, start_line, start_column,
-      end_line, end_column]`. The previous 2-element format `[path,
-      line]` can still be obtained by calling `.take(2)` on the result.
+    * `Method#source_location`, `Proc#source_location`, và
+      `UnboundMethod#source_location` giờ trả về thông tin vị trí mở rộng
+      với 5 phần tử: `[path, start_line, start_column,
+      end_line, end_column]`. Định dạng 2 phần tử trước đó `[path,
+      line]` vẫn có thể lấy được bằng cách gọi `.take(2)` trên kết quả.
       [[Feature #6012]]
 
 * Proc
 
-    * `Proc#parameters` now shows anonymous optional parameters as `[:opt]`
-      instead of `[:opt, nil]`, making the output consistent with when the
-      anonymous parameter is required. [[Bug #20974]]
+    * `Proc#parameters` giờ hiển thị các tham số tùy chọn ẩn danh là `[:opt]`
+      thay vì `[:opt, nil]`, làm cho đầu ra nhất quán với khi tham số
+      ẩn danh là bắt buộc. [[Bug #20974]]
 
 * Ractor
 
-    * `Ractor::Port` class was added for a new synchronization mechanism
-      to communicate between Ractors. [[Feature #21262]]
+    * Lớp `Ractor::Port` được thêm vào như cơ chế đồng bộ mới
+      để giao tiếp giữa các Ractor. [[Feature #21262]]
 
         ```ruby
         port1 = Ractor::Port.new
@@ -127,108 +127,108 @@ Note: We're only listing outstanding class updates.
         2.times{ p port2.receive } #=> 11, 12
         ```
 
-        `Ractor::Port` provides the following methods:
+        `Ractor::Port` cung cấp các phương thức sau:
 
         * `Ractor::Port#receive`
-        * `Ractor::Port#send` (or `Ractor::Port#<<`)
+        * `Ractor::Port#send` (hoặc `Ractor::Port#<<`)
         * `Ractor::Port#close`
         * `Ractor::Port#closed?`
 
-        As result, `Ractor.yield` and `Ractor#take` were removed.
+        Kết quả là, `Ractor.yield` và `Ractor#take` đã bị loại bỏ.
 
-    * `Ractor#join` and `Ractor#value` were added to wait for the
-      termination of a Ractor. These are similar to `Thread#join`
-      and `Thread#value`.
+    * `Ractor#join` và `Ractor#value` được thêm vào để chờ
+      kết thúc của một Ractor. Chúng tương tự như `Thread#join`
+      và `Thread#value`.
 
-    * `Ractor#monitor` and `Ractor#unmonitor` were added as low-level
-      interfaces used internally to implement `Ractor#join`.
+    * `Ractor#monitor` và `Ractor#unmonitor` được thêm vào như các giao diện
+      cấp thấp được sử dụng nội bộ để triển khai `Ractor#join`.
 
-    * `Ractor.select` now only accepts Ractors and Ports. If Ractors are given,
-      it returns when a Ractor terminates.
+    * `Ractor.select` giờ chỉ chấp nhận Ractor và Port. Nếu Ractor được truyền vào,
+      nó trả về khi một Ractor kết thúc.
 
-    * `Ractor#default_port` was added. Each `Ractor` has a default port,
-      which is used by `Ractor.send`, `Ractor.receive`.
+    * `Ractor#default_port` được thêm vào. Mỗi `Ractor` có một port mặc định,
+      được sử dụng bởi `Ractor.send`, `Ractor.receive`.
 
-    * `Ractor#close_incoming` and `Ractor#close_outgoing` were removed.
+    * `Ractor#close_incoming` và `Ractor#close_outgoing` đã bị loại bỏ.
 
-    * `Ractor.shareable_proc` and `Ractor.shareable_lambda` is introduced
-      to make shareable Proc or lambda.
+    * `Ractor.shareable_proc` và `Ractor.shareable_lambda` được giới thiệu
+      để tạo Proc hoặc lambda có thể chia sẻ.
       [[Feature #21550]], [[Feature #21557]]
 
 * Range
 
-    * `Range#to_set` and `Enumerator#to_set` now perform size checks to prevent
-      issues with endless ranges. [[Bug #21654]]
+    * `Range#to_set` và `Enumerator#to_set` giờ thực hiện kiểm tra kích thước để ngăn
+      các vấn đề với range vô tận. [[Bug #21654]]
 
-    * `Range#overlap?` now correctly handles infinite (unbounded) ranges.
+    * `Range#overlap?` giờ xử lý đúng các range vô hạn (không có giới hạn).
       [[Bug #21185]]
 
-    * `Range#max` behavior on beginless integer ranges has been fixed.
+    * Hành vi `Range#max` trên các range số nguyên không có điểm bắt đầu đã được sửa.
       [[Bug #21174]] [[Bug #21175]]
 
 * Ruby
 
-    * A new toplevel module `Ruby` has been defined, which contains
-      Ruby-related constants. This module was reserved in Ruby 3.4
-      and is now officially defined. [[Feature #20884]]
+    * Module cấp cao nhất `Ruby` mới đã được định nghĩa, chứa
+      các hằng số liên quan đến Ruby. Module này được dành riêng trong Ruby 3.4
+      và giờ được định nghĩa chính thức. [[Feature #20884]]
 
 * Ruby::Box
 
-    * A new (experimental) feature to provide separation about definitions.
-      For the detail of "Ruby Box", see [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+    * Một tính năng mới (thử nghiệm) cung cấp sự phân tách về các định nghĩa.
+      Để biết chi tiết về "Ruby Box", xem [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
       [[Feature #21311]] [[Misc #21385]]
 
 * Set
 
-    * `Set` is now a core class, instead of an autoloaded stdlib class.
+    * `Set` giờ là một lớp lõi, thay vì một lớp stdlib được tải tự động.
       [[Feature #21216]]
 
-    * `Set#inspect` now returns a string suitable for `eval`, using the
-      `Set[]` syntax (e.g., `Set[1, 2, 3]` instead of
-      `#<Set: {1, 2, 3}>`). This makes it consistent with other core
-      collection classes like Array and Hash. [[Feature #21389]]
+    * `Set#inspect` giờ trả về chuỗi phù hợp cho `eval`, sử dụng
+      cú pháp `Set[]` (ví dụ, `Set[1, 2, 3]` thay vì
+      `#<Set: {1, 2, 3}>`). Điều này làm cho nó nhất quán với các lớp
+      collection lõi khác như Array và Hash. [[Feature #21389]]
 
-    * Passing arguments to `Set#to_set` and `Enumerable#to_set` is now deprecated.
+    * Truyền đối số cho `Set#to_set` và `Enumerable#to_set` giờ đã bị deprecated.
       [[Feature #21390]]
 
 * Socket
 
-    * `Socket.tcp` & `TCPSocket.new` accepts an `open_timeout` keyword argument to specify
-      the timeout for the initial connection. [[Feature #21347]]
+    * `Socket.tcp` & `TCPSocket.new` chấp nhận đối số từ khóa `open_timeout` để chỉ định
+      timeout cho kết nối ban đầu. [[Feature #21347]]
 
 * String
 
-    * Update Unicode to Version 17.0.0 and Emoji Version 17.0.
-      [[Feature #19908]][[Feature #20724]][[Feature #21275]] (also applies to Regexp)
+    * Cập nhật Unicode lên Phiên bản 17.0.0 và Emoji Phiên bản 17.0.
+      [[Feature #19908]][[Feature #20724]][[Feature #21275]] (cũng áp dụng cho Regexp)
 
-    * `String#strip`, `strip!`, `lstrip`, `lstrip!`, `rstrip`, and `rstrip!`
-       are extended to accept `*selectors` arguments. [[Feature #21552]]
+    * `String#strip`, `strip!`, `lstrip`, `lstrip!`, `rstrip`, và `rstrip!`
+       được mở rộng để chấp nhận đối số `*selectors`. [[Feature #21552]]
 
 * Thread
 
-    * Introduce support for `Thread#raise(cause:)` argument similar to
+    * Giới thiệu hỗ trợ cho đối số `Thread#raise(cause:)` tương tự
       `Kernel#raise`. [[Feature #21360]]
 
 * Fiber
 
-    * Introduce support for `Fiber#raise(cause:)` argument similar to
+    * Giới thiệu hỗ trợ cho đối số `Fiber#raise(cause:)` tương tự
       `Kernel#raise`. [[Feature #21360]]
 
 * Fiber::Scheduler
 
-    * Introduce `Fiber::Scheduler#fiber_interrupt` to interrupt a fiber with a
-      given exception. The initial use case is to interrupt a fiber that is
-      waiting on a blocking IO operation when the IO operation is closed.
+    * Giới thiệu `Fiber::Scheduler#fiber_interrupt` để ngắt một fiber với
+      ngoại lệ cho trước. Trường hợp sử dụng ban đầu là ngắt một fiber đang
+      chờ trên thao tác IO blocking khi thao tác IO bị đóng.
       [[Feature #21166]]
 
 * Pathname
 
-    * Pathname has been promoted from a default gem to a core class of Ruby.
+    * Pathname đã được thăng cấp từ gem mặc định thành lớp lõi của Ruby.
       [[Feature #17473]]
 
-## Stdlib updates
+## Cập nhật thư viện chuẩn
 
-The following bundled gems are promoted from default gems.
+Các bundled gem sau được thăng cấp từ default gem.
 
 * ostruct 0.6.3
 * pstore 0.2.0
@@ -241,17 +241,17 @@ The following bundled gems are promoted from default gems.
 * readline 0.0.4
 * fiddle 1.1.8
 
-We only list stdlib changes that are notable feature changes.
+Chúng tôi chỉ liệt kê các thay đổi stdlib là các thay đổi tính năng đáng chú ý.
 
-Other changes are listed in the following sections. We also listed release
-history from the previous bundled version that is Ruby 3.3.0 if it has GitHub
+Các thay đổi khác được liệt kê trong các phần sau. Chúng tôi cũng liệt kê lịch sử
+phát hành từ phiên bản bundled trước đó là Ruby 3.3.0 nếu có GitHub
 releases.
 
-The following default gem is added.
+Default gem sau được thêm vào.
 
 * win32-registry 0.1.2
 
-The following default gems are updated.
+Các default gem sau được cập nhật.
 
 * RubyGems 4.0.2
 * bundler 4.0.2
@@ -283,7 +283,7 @@ The following default gems are updated.
 * weakref 0.1.4
 * zlib 3.2.2
 
-The following bundled gems are updated.
+Các bundled gem sau được cập nhật.
 
 * minitest 5.27.0
 * power_assert 3.0.1
@@ -305,16 +305,16 @@ The following bundled gems are updated.
 * csv 3.3.5
 * repl_type_completor 0.1.12
 
-## Supported platforms
+## Nền tảng được hỗ trợ
 
 * Windows
 
-    * Dropped support for MSVC versions older than 14.0 (_MSC_VER 1900).
-      This means Visual Studio 2015 or later is now required.
+    * Ngừng hỗ trợ các phiên bản MSVC cũ hơn 14.0 (_MSC_VER 1900).
+      Điều này có nghĩa là giờ cần Visual Studio 2015 hoặc mới hơn.
 
-## Compatibility issues
+## Vấn đề tương thích
 
-* The following methods were removed from Ractor due to the addition of `Ractor::Port`:
+* Các phương thức sau đã bị loại bỏ khỏi Ractor do việc thêm `Ractor::Port`:
 
     * `Ractor.yield`
     * `Ractor#take`
@@ -323,55 +323,55 @@ The following bundled gems are updated.
 
     [[Feature #21262]]
 
-* `ObjectSpace._id2ref` is deprecated. [[Feature #15408]]
+* `ObjectSpace._id2ref` đã bị deprecated. [[Feature #15408]]
 
-* `Process::Status#&` and `Process::Status#>>` have been removed.
-  They were deprecated in Ruby 3.3. [[Bug #19868]]
+* `Process::Status#&` và `Process::Status#>>` đã bị loại bỏ.
+  Chúng đã bị deprecated trong Ruby 3.3. [[Bug #19868]]
 
-* `rb_path_check` has been removed. This function was used for
-  `$SAFE` path checking which was removed in Ruby 2.7,
-  and was already deprecated,.
+* `rb_path_check` đã bị loại bỏ. Hàm này được sử dụng cho
+  kiểm tra đường dẫn `$SAFE` đã bị loại bỏ trong Ruby 2.7,
+  và đã bị deprecated,.
   [[Feature #20971]]
 
-## Stdlib compatibility issues
+## Vấn đề tương thích thư viện chuẩn
 
-* CGI library is removed from the default gems. Now we only provide `cgi/escape` for
-  the following methods:
+* Thư viện CGI đã bị loại bỏ khỏi default gem. Giờ chúng tôi chỉ cung cấp `cgi/escape` cho
+  các phương thức sau:
 
-    * `CGI.escape` and `CGI.unescape`
-    * `CGI.escapeHTML` and `CGI.unescapeHTML`
-    * `CGI.escapeURIComponent` and `CGI.unescapeURIComponent`
-    * `CGI.escapeElement` and `CGI.unescapeElement`
+    * `CGI.escape` và `CGI.unescape`
+    * `CGI.escapeHTML` và `CGI.unescapeHTML`
+    * `CGI.escapeURIComponent` và `CGI.unescapeURIComponent`
+    * `CGI.escapeElement` và `CGI.unescapeElement`
 
     [[Feature #21258]]
 
-* With the move of `Set` from stdlib to core class, `set/sorted_set.rb` has
-  been removed, and `SortedSet` is no longer an autoloaded constant. Please
-  install the `sorted_set` gem and `require 'sorted_set'` to use `SortedSet`.
+* Với việc chuyển `Set` từ stdlib thành lớp lõi, `set/sorted_set.rb` đã
+  bị loại bỏ, và `SortedSet` không còn là hằng số được tải tự động. Vui lòng
+  cài đặt gem `sorted_set` và `require 'sorted_set'` để sử dụng `SortedSet`.
   [[Feature #21287]]
 
-## C API updates
+## Cập nhật C API
 
 * IO
 
-    * `rb_thread_fd_close` is deprecated and now a no-op. If you need to expose
-      file descriptors from C extensions to Ruby code, create an `IO` instance
-      using `RUBY_IO_MODE_EXTERNAL` and use `rb_io_close(io)` to close it (this
-      also interrupts and waits for all pending operations on the `IO`
-      instance). Directly closing file descriptors does not interrupt pending
-      operations, and may lead to undefined behaviour. In other words, if two
-      `IO` objects share the same file descriptor, closing one does not affect
-      the other. [[Feature #18455]]
+    * `rb_thread_fd_close` đã bị deprecated và giờ là no-op. Nếu bạn cần expose
+      file descriptor từ C extension cho mã Ruby, tạo một instance `IO`
+      sử dụng `RUBY_IO_MODE_EXTERNAL` và dùng `rb_io_close(io)` để đóng nó (điều này
+      cũng ngắt và chờ tất cả các thao tác đang chờ trên instance `IO`).
+      Đóng trực tiếp file descriptor không ngắt các thao tác đang chờ,
+      và có thể dẫn đến hành vi không xác định. Nói cách khác, nếu hai
+      đối tượng `IO` chia sẻ cùng file descriptor, đóng một đối tượng không ảnh hưởng
+      đến đối tượng kia. [[Feature #18455]]
 
 * GVL
 
-    * `rb_thread_call_with_gvl` now works with or without the GVL.
-      This allows gems to avoid checking `ruby_thread_has_gvl_p`.
-      Please still be diligent about the GVL. [[Feature #20750]]
+    * `rb_thread_call_with_gvl` giờ hoạt động có hoặc không có GVL.
+      Điều này cho phép các gem tránh kiểm tra `ruby_thread_has_gvl_p`.
+      Vui lòng vẫn cẩn thận với GVL. [[Feature #20750]]
 
 * Set
 
-    * A C API for `Set` has been added. The following methods are supported:
+    * C API cho `Set` đã được thêm vào. Các phương thức sau được hỗ trợ:
       [[Feature #21459]]
 
         * `rb_set_foreach`
@@ -383,54 +383,54 @@ The following bundled gems are updated.
         * `rb_set_delete`
         * `rb_set_size`
 
-## Implementation improvements
+## Cải thiện triển khai
 
 ### Ractor
 
-A lot of work has gone into making Ractors more stable, performant, and usable. These improvements bring Ractors implementation closer to leaving experimental status.
+Rất nhiều công việc đã được thực hiện để làm cho Ractor ổn định hơn, hiệu suất cao hơn và dễ sử dụng hơn. Những cải tiến này đưa triển khai Ractor gần hơn đến việc thoát khỏi trạng thái thử nghiệm.
 
-* Performance improvements
-    * Frozen strings and the symbol table internally use a lock-free hash set
-    * Method cache lookups avoid locking in most cases
-    * Class (and geniv) instance variable access is faster and avoids locking
-    * Cache contention is avoided during object allocation
-    * `object_id` avoids locking in most cases
-* Bug fixes and stability
-    * Fixed possible deadlocks when combining Ractors and Threads
-    * Fixed issues with require and autoload in a Ractor
-    * Fixed encoding/transcoding issues across Ractors
-    * Fixed race conditions in GC operations and method invalidation
-    * Fixed issues with processes forking after starting a Ractor
+* Cải thiện hiệu suất
+    * Chuỗi đã đóng băng và bảng symbol nội bộ sử dụng hash set không cần khóa
+    * Tra cứu bộ nhớ đệm phương thức tránh khóa trong hầu hết các trường hợp
+    * Truy cập biến instance của lớp (và geniv) nhanh hơn và tránh khóa
+    * Tránh tranh chấp bộ nhớ đệm trong quá trình phân bổ đối tượng
+    * `object_id` tránh khóa trong hầu hết các trường hợp
+* Sửa lỗi và ổn định
+    * Sửa các deadlock có thể xảy ra khi kết hợp Ractor và Thread
+    * Sửa các vấn đề với require và autoload trong Ractor
+    * Sửa các vấn đề encoding/transcoding giữa các Ractor
+    * Sửa các race condition trong thao tác GC và vô hiệu hóa phương thức
+    * Sửa các vấn đề với tiến trình fork sau khi khởi động Ractor
 
 ## JIT
 
 * ZJIT
-    * Introduce an [experimental method-based JIT compiler](https://docs.ruby-lang.org/en/master/jit/zjit_md.html).
-      To enable `--zjit` support, build Ruby with Rust 1.85.0 or later.
-    * As of Ruby 4.0.0, ZJIT is faster than the interpreter, but not yet as fast as YJIT.
-      We encourage experimentation with ZJIT, but advise against deploying it in production for now.
-    * Our goal is to make ZJIT faster than YJIT and production-ready in Ruby 4.1.
+    * Giới thiệu [trình biên dịch JIT dựa trên phương thức thử nghiệm](https://docs.ruby-lang.org/en/master/jit/zjit_md.html).
+      Để kích hoạt hỗ trợ `--zjit`, biên dịch Ruby với Rust 1.85.0 hoặc mới hơn.
+    * Tính đến Ruby 4.0.0, ZJIT nhanh hơn trình thông dịch, nhưng chưa nhanh bằng YJIT.
+      Chúng tôi khuyến khích thử nghiệm với ZJIT, nhưng khuyên không nên triển khai trong môi trường production bây giờ.
+    * Mục tiêu của chúng tôi là làm cho ZJIT nhanh hơn YJIT và sẵn sàng cho production trong Ruby 4.1.
 * YJIT
     * `RubyVM::YJIT.runtime_stats`
-        * `ratio_in_yjit` no longer works in the default build.
-          Use `--enable-yjit=stats` on `configure` to enable it on `--yjit-stats`.
-        * Add `invalidate_everything` to default stats, which is
-          incremented when every code is invalidated by TracePoint.
-    * Add `mem_size:` and `call_threshold:` options to `RubyVM::YJIT.enable`.
+        * `ratio_in_yjit` không còn hoạt động trong bản build mặc định.
+          Sử dụng `--enable-yjit=stats` khi `configure` để kích hoạt nó với `--yjit-stats`.
+        * Thêm `invalidate_everything` vào thống kê mặc định, được
+          tăng lên khi mọi mã bị vô hiệu hóa bởi TracePoint.
+    * Thêm các tùy chọn `mem_size:` và `call_threshold:` cho `RubyVM::YJIT.enable`.
 * RJIT
-    * `--rjit` is removed. We will move the implementation of the third-party JIT API
-      to the [ruby/rjit](https://github.com/ruby/rjit) repository.
+    * `--rjit` đã bị loại bỏ. Chúng tôi sẽ chuyển triển khai API JIT bên thứ ba
+      sang kho lưu trữ [ruby/rjit](https://github.com/ruby/rjit).
 
-## Miscellaneous changes
+## Thay đổi khác
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)
-since Ruby 3.4.0!
+Với những thay đổi này, [{{ release.stats.files_changed }} tệp thay đổi, {{ release.stats.insertions }} thêm(+), {{ release.stats.deletions }} xóa(-)](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.4.0!
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -453,11 +453,11 @@ since Ruby 3.4.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.
 
 [Feature #6012]: https://bugs.ruby-lang.org/issues/6012
 [Feature #15408]: https://bugs.ruby-lang.org/issues/15408

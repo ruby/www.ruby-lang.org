@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.5.6 Released"
+title: "Ruby 2.5.6 Đã Phát Hành"
 author: "usa"
 translator:
 date: 2019-08-28 09:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.6 has been released.
+Ruby 2.5.6 đã được phát hành.
 
-This release includes about 40 bug fixes after the previous release, and also includes a security fix.
-Please check the topics below for details.
+Bản phát hành này bao gồm khoảng 40 bản sửa lỗi sau bản phát hành trước, và cũng bao gồm một bản sửa bảo mật.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [Multiple jQuery vulnerabilities in RDoc](/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
+* [Nhiều lỗ hổng jQuery trong RDoc](/vi/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-See the [commit log](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6) để biết chi tiết.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.6.tar.bz2>
 
@@ -46,8 +46,8 @@ See the [commit log](https://github.com/ruby/ruby/compare/v2_5_5...v2_5_6) for d
       SHA256: c86b0a9bfe47df5639cf134eabd3ebc2711794226ccb02e22094e46aa3e887f4
       SHA512: 8aa96c4e6692ed8c9f8fe4ceb2a91829bb5fa98ef53a4bc85f3a3d0cd66d60bb80985359bd9f7020de7d1cc39c7223559aa20dfdcc01d890624b71b935c6f8da
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.5, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+Việc bảo trì Ruby 2.5, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Ruby Association.

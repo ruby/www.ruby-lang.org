@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 3.0.3 Released"
+title: "Phát hành Ruby 3.0.3"
 author: "nagachika"
 translator:
 date: 2021-11-24 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.0.3 has been released.
+Ruby 3.0.3 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
 * [CVE-2021-41817: Regular Expression Denial of Service Vulnerability of Date Parsing Methods]({%link en/news/_posts/2021-11-15-date-parsing-method-regexp-dos-cve-2021-41817.md %})
 * [CVE-2021-41816: Buffer Overrun in CGI.escape_html]({%link en/news/_posts/2021-11-24-buffer-overrun-in-cgi-escape_html-cve-2021-41816.md %})
 * [CVE-2021-41819: Cookie Prefix Spoofing in CGI::Cookie.parse]({%link en/news/_posts/2021-11-24-cookie-prefix-spoofing-in-cgi-cookie-parse-cve-2021-41819.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_2...v3_0_3) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v3_0_2...v3_0_3) để biết chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.0.3" | first %}
 
@@ -43,7 +43,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v3_0_2...v3_0_3) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

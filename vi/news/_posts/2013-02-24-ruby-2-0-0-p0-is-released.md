@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p0 is released"
+title: "Phát hành Ruby 2.0.0-p0"
 author: "Yusuke Endoh"
 date: 2013-02-24 09:06:22 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.0.0-p0.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p0.
 
-Ruby 2.0.0 is the first stable release of the Ruby 2.0 series, with many
-new features and improvements in response to the increasingly diverse
-and expanding demands for Ruby.
+Ruby 2.0.0 là bản phát hành ổn định đầu tiên của dòng Ruby 2.0, với nhiều
+tính năng mới và cải tiến để đáp ứng nhu cầu ngày càng đa dạng và mở rộng
+cho Ruby.
 
-Enjoy programming with Ruby 2.0.0!
+Hãy tận hưởng lập trình với Ruby 2.0.0!
 
-## Download
+## Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.bz2&gt;][1]
 
@@ -34,145 +34,141 @@ Enjoy programming with Ruby 2.0.0!
       MD5:    db5af5d6034646ad194cbdf6e50f49ee
       SHA256: 0d0af6a9c8788537efd8d7d2358ce9468e6e2b7703dacba9ebd064d8b7da5f99
 
-## What is Ruby 2.0.0
+## Ruby 2.0.0 là gì
 
-### New Features
+### Tính năng mới
 
-Some of the highlights:
+Một số điểm nổi bật:
 
-* Language core features
-  * Keyword arguments, which give flexibility to API design
-  * Module#prepend, which is a new way to extend a class
-  * A literal %i, which creates an array of symbols easily
-  * \_\_dir\_\_, which returns the dirname of the file currently being
-    executed
-  * The UTF-8 default encoding, which make many magic comments omissible
+* Tính năng cốt lõi của ngôn ngữ
+  * Keyword arguments, mang lại sự linh hoạt cho thiết kế API
+  * Module#prepend, một cách mới để mở rộng class
+  * Literal %i, tạo mảng symbol một cách dễ dàng
+  * \_\_dir\_\_, trả về tên thư mục của file đang được thực thi
+  * Encoding mặc định UTF-8, giúp bỏ qua nhiều magic comment
 
-* Built-in libraries
-  * Enumerable#lazy and Enumerator::Lazy, for (possibly infinite) lazy
-    stream
-  * Enumerator#size and Range#size, for lazy size evaluation
-  * \#to\_h, which is a new convention for conversion to Hash
-  * Onigmo, which is a new regexp engine (a fork of Oniguruma)
-  * Asynchronous exception handling API
+* Thư viện tích hợp
+  * Enumerable#lazy và Enumerator::Lazy, cho luồng lazy (có thể vô hạn)
+  * Enumerator#size và Range#size, cho việc đánh giá kích thước lazy
+  * \#to\_h, quy ước mới cho việc chuyển đổi sang Hash
+  * Onigmo, regexp engine mới (một fork của Oniguruma)
+  * API xử lý ngoại lệ bất đồng bộ
 
-* Debug support
-  * DTrace support, which enables run-time diagnosis in production
-  * TracePoint, which is an improved tracing API
+* Hỗ trợ debug
+  * Hỗ trợ DTrace, cho phép chẩn đoán runtime trong môi trường production
+  * TracePoint, API tracing được cải thiện
 
-* Performance improvements
-  * GC optimization by bitmap marking
-  * Kernel#require optimization which makes Rails startup very fast
-  * VM optimization such as method dispatch
-  * Float operation optimization
+* Cải thiện hiệu suất
+  * Tối ưu GC bằng bitmap marking
+  * Tối ưu Kernel#require giúp Rails khởi động rất nhanh
+  * Tối ưu VM như method dispatch
+  * Tối ưu phép toán Float
 
-In addition, albeit as an experimental feature, 2.0.0 includes
-Refinements, which adds a new concept to Ruby\'s modularity.
+Ngoài ra, dù là tính năng thử nghiệm, 2.0.0 bao gồm Refinements, thêm một
+khái niệm mới vào tính module hóa của Ruby.
 
-See also NEWS for more features, improvements and details.
+Xem thêm NEWS để biết nhiều tính năng, cải tiến và chi tiết hơn.
 
-### Compatibility
+### Tính tương thích
 
-We have also taken care with the 2.0.0 design to make it compatible with
-1.9. It will be easier to migrate from 1.9 to 2.0 than it was from 1.8
-to 1.9. (The notable incompatibilities are described later.)
+Chúng tôi cũng đã chú ý đến thiết kế 2.0.0 để nó tương thích với 1.9. Việc
+di chuyển từ 1.9 sang 2.0 sẽ dễ dàng hơn so với từ 1.8 sang 1.9. (Các điểm
+không tương thích đáng chú ý được mô tả sau.)
 
-In fact, thanks to the dedicated work of third parties, some popular
-applications such as Rails and tDiary have been reported to work on the
-release candidate version of 2.0.0.
+Thực tế, nhờ sự nỗ lực của các bên thứ ba, một số ứng dụng phổ biến như Rails
+và tDiary đã được báo cáo hoạt động trên phiên bản release candidate của
+2.0.0.
 
-### Documentation
+### Tài liệu
 
-We have also made documentation improvements which many rubyists have
-requested. We have added a huge amount of rdoc for modules and methods.
-2.0.0 will be around 75% documented while 1.9.3 was about 60%. Also, we
-have added a description of Ruby\'s syntax. You can see:
+Chúng tôi cũng đã cải thiện tài liệu, điều mà nhiều rubyist đã yêu cầu.
+Chúng tôi đã thêm một lượng lớn rdoc cho các module và phương thức. 2.0.0 sẽ
+được tài liệu hóa khoảng 75% trong khi 1.9.3 chỉ khoảng 60%. Ngoài ra, chúng
+tôi đã thêm mô tả về cú pháp Ruby. Bạn có thể xem:
 
 {% highlight sh %}
 ri ruby:syntax
 {% endhighlight %}
 
-### Stability
+### Tính ổn định
 
-Note that unlike 1.9.0, 2.0.0 IS a stable release, even though its TEENY
-is 0. All library authors are strongly recommended to support 2.0.0. As
-mentioned above, it will be comparatively easy to migrate from 1.9 to
-2.0.
+Lưu ý rằng không giống 1.9.0, 2.0.0 LÀ một bản phát hành ổn định, mặc dù
+số TEENY là 0. Tất cả tác giả thư viện được khuyến nghị mạnh mẽ hỗ trợ
+2.0.0. Như đã nói ở trên, việc di chuyển từ 1.9 sang 2.0 sẽ tương đối dễ
+dàng.
 
-Ruby 2.0.0 is ready for practical use, and will absolutely improve your
-Ruby life.
+Ruby 2.0.0 đã sẵn sàng cho sử dụng thực tế, và chắc chắn sẽ cải thiện cuộc
+sống Ruby của bạn.
 
-## Notes
+## Ghi chú
 
-### Introductory articles
+### Bài giới thiệu
 
-Here are some introductory articles of 2.0.0 features by third parties:
+Dưới đây là một số bài giới thiệu về tính năng 2.0.0 từ bên thứ ba:
 
 * [&lt;URL:http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example&gt;][4]
-  (comprehensive, recommended)
+  (toàn diện, khuyến nghị)
 * [&lt;URL:https://speakerdeck.com/shyouhei/whats-new-in-ruby-2-dot-0&gt;][5]
-  (comprehensive, recommended)
+  (toàn diện, khuyến nghị)
 * [&lt;URL:http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html&gt;][6]
-  (brief, in Japanese)
+  (ngắn gọn, tiếng Nhật)
 * [&lt;URL:https://speakerdeck.com/nagachika/rubyist-enumeratorlazy&gt;][7]
-  (only Enumerator::Lazy, in Japanese)
+  (chỉ Enumerator::Lazy, tiếng Nhật)
 
-The following articles are also helpful, but outdated with regards to
-refinement:
+Các bài viết sau cũng hữu ích, nhưng đã lỗi thời liên quan đến refinement:
 
 * [&lt;URL:http://rubysource.com/a-look-at-ruby-2-0/&gt;][8]
 * [&lt;URL:https://speakerdeck.com/a\_matsuda/ruby-2-dot-0-on-rails&gt;][9]
 * [&lt;URL:http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/&gt;][10]
 * [&lt;URL:http://www.infoq.com/news/2012/11/ruby-20-preview1&gt;][11]
 
-Also, the recent issue of \"Rubyist Magazine\" includes some articles
-that were written by the feature authors themselves for introducing some
-new 2.0.0 features.
+Ngoài ra, số mới nhất của \"Rubyist Magazine\" bao gồm một số bài viết được
+viết bởi chính các tác giả tính năng để giới thiệu một số tính năng mới của
+2.0.0.
 
 * [&lt;URL:http://jp.rubyist.net/magazine/?0041-200Special&gt;][12]
 
-Though they will be written in Japanese, English translations are
-planned for the future.
+Mặc dù chúng được viết bằng tiếng Nhật, bản dịch tiếng Anh được lên kế
+hoạch trong tương lai.
 
-### Incompatibility
+### Không tương thích
 
-There are five notable incompatibilities we know of:
+Có năm điểm không tương thích đáng chú ý mà chúng tôi biết:
 
-* The default encoding for ruby scripts is now UTF-8 \[#6679\]. Some
-  people report that it affects existing programs, such as some
-  benchmark programs becoming very slow \[ruby-dev:46547\].
-* Iconv was removed, which had already been deprecated when M17N was
-  introduced in ruby 1.9. Use String#encode, etc. instead.
-* There is ABI breakage \[ruby-core:48984\]. We think that normal users
-  can/should just reinstall extension libraries. You should be aware: DO
-  NOT COPY .so OR .bundle FILES FROM 1.9.
-* \#lines, #chars, #codepoints, #bytes now returns an Array instead of an
-  Enumerator \[#6670\]. This change allows you to avoid the common idiom
-  \"lines.to\_a\". Use #each\_line, etc. to get an Enumerator.
-* Object#inspect does always return a string like
-  #&lt;ClassName:0x...&gt; instead of delegating to #to\_s. \[#2152\]
+* Encoding mặc định cho các script ruby giờ là UTF-8 \[#6679\]. Một số người
+  báo cáo rằng điều này ảnh hưởng đến các chương trình hiện có, chẳng hạn
+  như một số chương trình benchmark trở nên rất chậm \[ruby-dev:46547\].
+* Iconv đã bị loại bỏ, trước đó đã bị deprecated khi M17N được giới thiệu
+  trong ruby 1.9. Sử dụng String#encode, v.v. thay thế.
+* Có sự thay đổi ABI \[ruby-core:48984\]. Chúng tôi nghĩ rằng người dùng
+  bình thường có thể/nên cài đặt lại các thư viện mở rộng. Bạn nên lưu ý:
+  KHÔNG SAO CHÉP CÁC FILE .so HOẶC .bundle TỪ 1.9.
+* \#lines, #chars, #codepoints, #bytes giờ trả về Array thay vì Enumerator
+  \[#6670\]. Thay đổi này cho phép bạn tránh cách dùng phổ biến
+  \"lines.to\_a\". Sử dụng #each\_line, v.v. để lấy Enumerator.
+* Object#inspect luôn trả về chuỗi dạng
+  #&lt;ClassName:0x...&gt; thay vì ủy thác cho #to\_s. \[#2152\]
 
-There are some comparatively small incompatibilities.
+Có một số điểm không tương thích nhỏ hơn.
 \[ruby-core:49119\]
 
-### Status of Refinements
+### Trạng thái của Refinements
 
-We have added a feature called Refinements, which adds a new concept to
-Ruby\'s modularity. However, please be aware that Refinements is still
-an experimental feature: we may change its specification in the future.
-Despite that, we would like you to play with it and give us your
-thoughts. Your feedback will help to forge this interesting feature.
+Chúng tôi đã thêm tính năng gọi là Refinements, thêm một khái niệm mới vào
+tính module hóa của Ruby. Tuy nhiên, xin lưu ý rằng Refinements vẫn là tính
+năng thử nghiệm: chúng tôi có thể thay đổi đặc tả trong tương lai. Mặc dù
+vậy, chúng tôi muốn bạn thử nghiệm và cho chúng tôi ý kiến. Phản hồi của
+bạn sẽ giúp hoàn thiện tính năng thú vị này.
 
-## Acknowledgment
+## Lời cảm ơn
 
-A great many people contributed to 2.0.0. Even an incomplete
-acknowledgment for only a few parts of contributions became too big to
-insert here. Sorry but let me just add a link to the special thanks
-page.
+Rất nhiều người đã đóng góp cho 2.0.0. Ngay cả một lời cảm ơn không đầy đủ
+chỉ cho một vài phần đóng góp cũng đã quá lớn để chèn vào đây. Xin lỗi
+nhưng hãy cho phép tôi thêm liên kết đến trang cảm ơn đặc biệt.
 
 * [&lt;URL:https://bugs.ruby-lang.org/projects/ruby/wiki/200SpecialThanks&gt;][13]
 
-Thank you all!
+Cảm ơn tất cả mọi người!
 
 
 

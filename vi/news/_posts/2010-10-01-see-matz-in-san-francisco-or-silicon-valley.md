@@ -1,22 +1,21 @@
 ---
 layout: news_post
-title: "See Matz in San Francisco or Silicon Valley"
+title: "Gặp gỡ Matz tại San Francisco hoặc Silicon Valley"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-Matz is visiting San Francisco and Silicon Valley on October 7th and
-11th. He will be talking about new opportunities for Ruby such as
-embedded applications, cloud computing, and super computing. Keynote
-Speech is “Ruby 2.0 What we want to accomplish in the near future.” Not
-only Matz but some cool startups from Fukuoka, Japan will give a demo on
-some of their latest developments using Ruby. For more info, please go
-to [http://investfk.com/][1].
+Matz sẽ đến thăm San Francisco và Silicon Valley vào ngày 7 và 11 tháng
+10. Ông sẽ nói về các cơ hội mới cho Ruby như ứng dụng nhúng, điện toán
+đám mây, và siêu máy tính. Bài phát biểu chính là "Ruby 2.0 Những gì
+chúng tôi muốn đạt được trong tương lai gần." Không chỉ Matz mà một số
+startup thú vị từ Fukuoka, Nhật Bản cũng sẽ trình bày demo về một số
+phát triển mới nhất của họ sử dụng Ruby. Để biết thêm thông tin, vui
+lòng truy cập [http://investfk.com/][1].
 
-By the way, the reason why Matz is coming with startups from Fukuoka is
-Fukuoka is the only prefecture that has governmental Ruby committee in
-Japan. Fukuoka is one of the most enthusiastic city in Japan in terms of
-Ruby.
+Nhân tiện, lý do Matz đến cùng các startup từ Fukuoka là vì Fukuoka là
+tỉnh duy nhất có ủy ban Ruby của chính phủ tại Nhật Bản. Fukuoka là một
+trong những thành phố nhiệt tình nhất ở Nhật Bản về Ruby.
 
 
 

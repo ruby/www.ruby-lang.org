@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "Ruby 1.9.2-p136 is released"
+title: "Ruby 1.9.2-p136 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.2-p136 has been released. This is the second release of Ruby 1.9.2. It fixes many bugs found in
-1.9.2-p0. See [ChangeLog][1] for more detail.
+Ruby 1.9.2-p136 đã được phát hành. Đây là bản phát hành thứ hai của Ruby 1.9.2. Bản này sửa nhiều lỗi được tìm thấy trong
+1.9.2-p0. Xem [ChangeLog][1] để biết thêm chi tiết.
 
-### Download
+### Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2&gt;][2]
   SIZE

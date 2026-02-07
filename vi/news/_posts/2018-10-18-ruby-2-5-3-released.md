@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.5.3 Released"
+title: "Phát hành Ruby 2.5.3"
 author: "nagachika"
 translator:
 date: 2018-10-18 12:30:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.3 has been released.
+Ruby 2.5.3 đã được phát hành.
 
-There were some missing files in the release packages of 2.5.2 which are
-necessary for building.
-See details in [[Bug #15232]](https://bugs.ruby-lang.org/issues/15232).
+Có một số tệp bị thiếu trong các gói phát hành của 2.5.2 cần thiết
+cho việc biên dịch.
+Xem chi tiết tại [[Bug #15232]](https://bugs.ruby-lang.org/issues/15232).
 
-This release is just for fixing the packaging issue.
-It does not contain any additional bug fixes from 2.5.2.
+Bản phát hành này chỉ để sửa vấn đề đóng gói.
+Nó không chứa bất kỳ bản sửa lỗi bổ sung nào so với 2.5.2.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.bz2>
 
@@ -46,10 +46,10 @@ It does not contain any additional bug fixes from 2.5.2.
       SHA256: 622ffa051470e967f3e51cc6347783e93d9b09a4557d4f5a78efb87b959f87a3
       SHA512: 7807641e65516670dc10426364a3d45ecfb65555827e551b4a595bad373e1292797414abf0f67bed5d66815090afe6a6a3e3e29f8b7dbc4da462c43a3e8791b6
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp
+chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.
 
-Especially thank you wanabe for reporting the issue about the 2.5.2 packages.
+Đặc biệt cảm ơn wanabe đã báo cáo vấn đề về các gói 2.5.2.

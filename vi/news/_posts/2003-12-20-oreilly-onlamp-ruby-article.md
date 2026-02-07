@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "O'Reilly ONLamp Ruby article"
+title: "Bài viết về Ruby trên O'Reilly ONLamp"
 author: "Unknown Author"
 lang: vi
 ---
 
-Mike Stok has written an excellent [ recap][1] of the 3rd International
-Ruby Conference, featured on the front page of O’Reilly’s [ ONLamp][2]
-site, entitled “Ruby’s Present and Future”.
+Mike Stok đã viết một bài [tóm tắt][1] xuất sắc về Hội nghị Ruby Quốc tế lần thứ 3,
+được đăng trên trang chủ của [ONLamp][2] của O'Reilly,
+với tiêu đề "Ruby's Present and Future".
 
-For additional post-conference information, see Jim Weirich’s [ site][3]
-or Ryan Davis’s [ Archive][4] of the RubyConf presentations.
+Để biết thêm thông tin sau hội nghị, xem [trang web][3] của Jim Weirich
+hoặc [kho lưu trữ][4] các bài thuyết trình RubyConf của Ryan Davis.
 
 
 

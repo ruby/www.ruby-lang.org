@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.4.5 Released"
+title: "Phát hành Ruby 2.4.5"
 author: "usa"
 translator:
 date: 2018-10-17 17:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.4.5 has been released.
+Ruby 2.4.5 đã được phát hành.
 
-This release includes about 40 bug fixes after the previous release,
-and also includes several security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm khoảng 40 bản sửa lỗi kể từ bản phát hành trước,
+và cũng bao gồm một số bản sửa bảo mật.
+Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
-* [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
+* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
+* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5)
-for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_4_4...v2_4_5)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.5.tar.bz2)
 
@@ -49,9 +49,9 @@ for details.
       SHA256: 33694b03ac178cf96aa728b74de7b0bc5d848fcfabc64a7c74ea093198142601
       SHA512: 9baec2b33604d5b2180b83bef9b39349d3f73b2eb5a7d44410572d893f76e6a0e1c39c572e6084a4e2466ca148ff2f377b5458144fe9b859a80cdf7b41fd5d72
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.4, including this release, is based on the
-“Agreement for the Ruby stable version” of the Ruby Association.
+Việc bảo trì Ruby 2.4, bao gồm bản phát hành này, dựa trên
+"Thỏa thuận cho phiên bản Ruby ổn định" của Ruby Association.

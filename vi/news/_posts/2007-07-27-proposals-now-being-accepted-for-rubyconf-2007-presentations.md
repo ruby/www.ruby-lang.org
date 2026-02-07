@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Proposals now being accepted for RubyConf 2007 presentations"
+title: "Đang nhận đề xuất cho các bài thuyết trình tại RubyConf 2007"
 author: "james"
 lang: vi
 ---
 
-David A. Black announced on ruby-talk that presentation proposals for
-[RubyConf 2007][1] are now being accepted.
+David A. Black đã thông báo trên ruby-talk rằng các đề xuất thuyết trình
+cho [RubyConf 2007][1] đang được chấp nhận.
 
-The form is at [http://proposals.rubycentral.org][2] . You need to sign
-up for a password, even if you had one last year. (It just involves
-connecting to a confirmation link.)
+Biểu mẫu tại [http://proposals.rubycentral.org][2]. Bạn cần đăng ký
+mật khẩu mới, ngay cả khi bạn đã có từ năm ngoái. (Chỉ cần kết nối đến
+một liên kết xác nhận.)
 
-The deadline for proposals is August 20, 5:00 PM EDT.
+Hạn chót nộp đề xuất là ngày 20 tháng 8, 5:00 PM EDT.
 
 
 

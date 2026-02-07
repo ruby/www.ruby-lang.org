@@ -5,17 +5,17 @@ author: "james"
 lang: vi
 ---
 
-MountainWest RubyConf 2010 will be held March 11 and 12, 2010, in Salt
-Lake City, UT, USA.
+MountainWest RubyConf 2010 sẽ được tổ chức vào ngày 11 và 12 tháng 3
+năm 2010, tại Salt Lake City, UT, Hoa Kỳ.
 
 [http://mtnwestrubyconf.org][1]
 
-Talk proposals are being accepted right this very minute!
+Các đề xuất bài nói chuyện đang được nhận ngay lúc này!
 
-Submit yours [here.][2]
+Gửi đề xuất của bạn [tại đây.][2]
 
-But don’t delay! The submission deadline is midnight (MST) on December
-31st, 2009.
+Nhưng đừng chần chừ! Hạn chót gửi bài là nửa đêm (MST) ngày 31 tháng
+12 năm 2009.
 
 
 

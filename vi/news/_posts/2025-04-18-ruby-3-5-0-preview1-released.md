@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.5.0 preview1 Released"
+title: "Phát hành Ruby 3.5.0 preview1"
 author: "naruse"
 translator:
 date: 2025-04-18 00:00:00 +0000
@@ -8,37 +8,37 @@ lang: vi
 ---
 
 {% assign release = site.data.releases | where: "version", "3.5.0-preview1" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}. Ruby 3.5 updates its Unicode version to 15.1.0, and so on.
+Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}. Ruby 3.5 cập nhật phiên bản Unicode lên 15.1.0, và nhiều hơn nữa.
 
-## Language changes
+## Thay đổi ngôn ngữ
 
-* `*nil` no longer calls `nil.to_a`, similar to how `**nil` does
-  not call `nil.to_hash`.  [[Feature #21047]]
+* `*nil` không còn gọi `nil.to_a`, tương tự như cách `**nil` không
+  gọi `nil.to_hash`.  [[Feature #21047]]
 
-## Core classes updates
+## Cập nhật các lớp lõi
 
-Note: We're only listing notable updates of Core class.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật lớp lõi đáng chú ý.
 
 * Binding
 
-    * `Binding#local_variables` does no longer include numbered parameters.
-      Also, `Binding#local_variable_get` and `Binding#local_variable_set` reject to handle numbered parameters.
+    * `Binding#local_variables` không còn bao gồm các tham số đánh số.
+      Ngoài ra, `Binding#local_variable_get` và `Binding#local_variable_set` từ chối xử lý các tham số đánh số.
       [[Bug #21049]]
 
 * IO
 
-    * `IO.select` accepts +Float::INFINITY+ as a timeout argument.
+    * `IO.select` chấp nhận +Float::INFINITY+ làm tham số timeout.
       [[Feature #20610]]
 
 * String
 
-    * Update Unicode to Version 15.1.0 and Emoji Version 15.1. [[Feature #19908]]
-        (also applies to Regexp)
+    * Cập nhật Unicode lên Phiên bản 15.1.0 và Emoji Phiên bản 15.1. [[Feature #19908]]
+        (cũng áp dụng cho Regexp)
 
 
-## Standard Library updates
+## Cập nhật thư viện chuẩn
 
-Note: We're only listing notable updates of Standard librarires.
+Lưu ý: Chúng tôi chỉ liệt kê các cập nhật thư viện chuẩn đáng chú ý.
 
 * ostruct 0.6.1
 * pstore 0.2.0
@@ -51,31 +51,31 @@ Note: We're only listing notable updates of Standard librarires.
 * readline 0.0.4
 * fiddle 1.1.6
 
-## Compatibility issues
+## Vấn đề tương thích
 
-Note: Excluding feature bug fixes.
-
-
-
-## Standard library compatibility issues
-
-
-## C API updates
+Lưu ý: Không bao gồm các bản sửa lỗi tính năng.
 
 
 
-## Miscellaneous changes
+## Vấn đề tương thích thư viện chuẩn
+
+
+## Cập nhật C API
 
 
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
-for more details.
+## Thay đổi khác
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
-since Ruby 3.4.0!
 
-## Download
+
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
+để biết thêm chi tiết.
+
+Với những thay đổi đó, [{{ release.stats.files_changed }} tập tin thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa đi(-)](https://github.com/ruby/ruby/compare/v3_3_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.4.0!
+
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -98,11 +98,11 @@ since Ruby 3.4.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.
 
 [Feature #21047]: https://bugs.ruby-lang.org/issues/21047
 [Bug #21049]: https://bugs.ruby-lang.org/issues/21049

@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby on Rails Bootcamp in Georgia"
+title: "Ruby on Rails Bootcamp tại Georgia"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-Big Nerd Ranch, Inc. is offering their Ruby on Rails Bootcamp classes in
-a retreat setting outside Atlanta, GA the week of February 12th-16th.
-For more information you can find the press release at
+Big Nerd Ranch, Inc. đang tổ chức các lớp Ruby on Rails Bootcamp trong
+một khu nghỉ dưỡng ngoại ô Atlanta, GA trong tuần từ ngày 12 đến 16
+tháng 2. Để biết thêm thông tin, bạn có thể tìm thông cáo báo chí tại
 [http://bignerdranch.com/news/2006-10-11.shtml][1].
 
 

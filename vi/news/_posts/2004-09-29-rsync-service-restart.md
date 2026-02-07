@@ -1,9 +1,9 @@
 ---
 layout: news_post
-title: "RSYNC service restart"
+title: "Khởi động lại dịch vụ RSYNC"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-RSYNC service is restarted.
+Dịch vụ RSYNC đã được khởi động lại.
 [rsync://ftp.ruby-lang.org/](rsync://ftp.ruby-lang.org/)

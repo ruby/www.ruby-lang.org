@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 3.1.3 Released"
+title: "Phát hành Ruby 3.1.3"
 author: "nagachika"
 translator:
 date: 2022-11-24 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.1.3 has been released.
+Ruby 3.1.3 đã được phát hành.
 
-This release includes a security fix.
-Please check the topics below for details.
+Bản phát hành này bao gồm bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
+* [CVE-2021-33621: Tách phản hồi HTTP trong CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
-This release also includes a fix for build failure with Xcode 14 and macOS 13 (Ventura).
-See [the related ticket](https://bugs.ruby-lang.org/issues/18912) for more details.
+Bản phát hành này cũng bao gồm bản sửa lỗi biên dịch với Xcode 14 và macOS 13 (Ventura).
+Xem [ticket liên quan](https://bugs.ruby-lang.org/issues/18912) để biết thêm chi tiết.
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_3) for further details.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_3) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.1.3" | first %}
 
@@ -44,7 +44,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_1_3) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

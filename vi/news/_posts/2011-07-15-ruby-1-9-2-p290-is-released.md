@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Ruby 1.9.2-p290 is released"
+title: "Ruby 1.9.2-p290 đã được phát hành"
 author: "Shota Fukumori"
 lang: vi
 ---
 
-Ruby 1.9.2-p290 is released.
+Ruby 1.9.2-p290 đã được phát hành.
 
-This release doesn\'t include any security fixes, but many bugs are
-fixed in this release.
+Bản phát hành này không bao gồm bản sửa bảo mật nào, nhưng nhiều lỗi
+đã được sửa trong bản phát hành này.
 
-See [ChangeLog][1] for details.
+Xem [ChangeLog][1] để biết chi tiết.
 
-### Downloads
+### Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2&gt;][2]
   SIZE

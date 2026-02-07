@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.5.7 Released"
+title: "Ruby 2.5.7 Đã Phát Hành"
 author: "usa"
 translator:
 date: 2019-10-01 11:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.7 has been released.
+Ruby 2.5.7 đã được phát hành.
 
-This release includes security fixes as listed below.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa bảo mật được liệt kê bên dưới.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2019-16255: A code injection vulnerability of Shell#[] and Shell#test]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
-* [CVE-2019-16254: HTTP response splitting in WEBrick (Additional fix)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
-* [CVE-2019-15845: A NUL injection vulnerability of File.fnmatch and File.fnmatch?]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
-* [CVE-2019-16201: Regular Expression Denial of Service vulnerability of WEBrick's Digest access authentication]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
+* [CVE-2019-16255: Lỗ hổng chèn mã trong Shell#[] và Shell#test]({% link en/news/_posts/2019-10-01-code-injection-shell-test-cve-2019-16255.md %})
+* [CVE-2019-16254: Tách phản hồi HTTP trong WEBrick (Bản sửa bổ sung)]({% link en/news/_posts/2019-10-01-http-response-splitting-in-webrick-cve-2019-16254.md %})
+* [CVE-2019-15845: Lỗ hổng chèn NUL trong File.fnmatch và File.fnmatch?]({% link en/news/_posts/2019-10-01-nul-injection-file-fnmatch-cve-2019-15845.md %})
+* [CVE-2019-16201: Lỗ hổng từ chối dịch vụ biểu thức chính quy trong xác thực Digest của WEBrick]({% link en/news/_posts/2019-10-01-webrick-regexp-digestauth-dos-cve-2019-16201.md %})
 
-See the [commit log](https://github.com/ruby/ruby/compare/v2_5_6...v2_5_7) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_6...v2_5_7) để biết chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.5.7" | first %}
 
@@ -51,8 +51,8 @@ See the [commit log](https://github.com/ruby/ruby/compare/v2_5_6...v2_5_7) for d
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.5, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+Việc bảo trì Ruby 2.5, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Ruby Association.

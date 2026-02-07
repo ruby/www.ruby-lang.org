@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 1.9.2 preview 1 released"
+title: "Ruby 1.9.2 preview 1 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.2 preview 1 has been released.
+Ruby 1.9.2 preview 1 đã được phát hành.
 
-This is a preview for the 1.9.2 series. It is just a snapshot. It still
-have some known bugs, is sometimes unstable. Let us know your view on
-it.
+Đây là bản xem trước cho dòng 1.9.2. Nó chỉ là một bản chụp nhanh. Nó
+vẫn có một số lỗi đã biết, đôi khi không ổn định. Hãy cho chúng tôi
+biết ý kiến của bạn.
 
-* Socket API was more objectified.
-* Time was reimplemented and enhanced. Now Time has no max/min value, no
-  year 2038 problem.
-* New Random class for random number sequence.
-* Good news for merb users: Method#parameters
+* Socket API được hướng đối tượng hơn.
+* Time được triển khai lại và cải tiến. Bây giờ Time không còn giới hạn
+  giá trị max/min, không còn vấn đề năm 2038.
+* Lớp Random mới cho chuỗi số ngẫu nhiên.
+* Tin tốt cho người dùng merb: Method#parameters
 
-see the [NEWS][1] and the [ChangeLog][2] for more detail.
+Xem [NEWS][1] và [ChangeLog][2] để biết thêm chi tiết.
 
-#### Location
+#### Địa chỉ tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2&gt;][3]
   SIZE

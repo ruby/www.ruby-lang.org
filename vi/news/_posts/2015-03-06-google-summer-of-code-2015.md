@@ -7,17 +7,16 @@ date: 2015-03-06 10:48:37 +0000
 lang: vi
 ---
 
-Ruby will be participating in the [Google Summer of Code 2015][gsoc] as a top-level organization. We will be acting as an
-umbrella for Ruby-related projects including [Ruby][ruby-ideas], [JRuby][jruby-ideas], [Celluloid][celluloid] and
-[others][ideas]. Student applications can be submitted starting March 16 and the deadline is March 27
-(here's the [timeline][timeline]).
+Ruby sẽ tham gia [Google Summer of Code 2015][gsoc] với tư cách là một tổ chức cấp cao nhất. Chúng tôi sẽ đóng vai trò là tổ chức bảo trợ cho các dự án liên quan đến Ruby bao gồm [Ruby][ruby-ideas], [JRuby][jruby-ideas], [Celluloid][celluloid] và
+[các dự án khác][ideas]. Đơn ứng tuyển của sinh viên có thể được gửi bắt đầu từ ngày 16 tháng 3 và hạn chót là ngày 27 tháng 3
+(xem [lịch trình][timeline]).
 
-If you are interested in participating as a student or as a mentor please join our
-[mailing list][ml]. You can find a list of ideas for projects in the [RubyGSoC wiki][ideas].
+Nếu bạn quan tâm tham gia với tư cách là sinh viên hoặc người hướng dẫn, vui lòng tham gia
+[danh sách thư][ml] của chúng tôi. Bạn có thể tìm danh sách ý tưởng cho các dự án tại [wiki RubyGSoC][ideas].
 
-[Ruby on Rails][ror] and [SciRuby][sciruby] will also be joining us as top-level
-organizations in this year's program. If you have an idea that would fit better in these projects, please read their
-[respective][ror-announcement] [announcements][sciruby-ideas].
+[Ruby on Rails][ror] và [SciRuby][sciruby] cũng sẽ tham gia cùng chúng tôi với tư cách
+tổ chức cấp cao nhất trong chương trình năm nay. Nếu bạn có ý tưởng phù hợp hơn với các dự án này, vui lòng đọc
+[các][ror-announcement] [thông báo][sciruby-ideas] tương ứng của họ.
 
 
 [gsoc]: http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/about_page

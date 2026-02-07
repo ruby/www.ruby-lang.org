@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "RAA XML Interfaces are updated"
+title: "Các giao diện XML của RAA đã được cập nhật"
 author: "NaHi"
 lang: vi
 ---
 
-Following RAA/2.1, RAA XML Interfaces are updated.
+Theo sau RAA/2.1, các giao diện XML của RAA đã được cập nhật.
 
-* SOAP &amp; XML-RPC interface You can get “short\_description” from
-  Project object.
-* plain XML URLs are changed.
+* Giao diện SOAP &amp; XML-RPC: Bạn có thể lấy "short\_description" từ
+  đối tượng Project.
+* Các URL XML thuần đã được thay đổi.
   * [http://raa.ruby-lang.org/raa-xml.xml][1]
   * [http://raa.ruby-lang.org/raa-xml10.xml][2]
 
-  Latter only includes 10 recently updated items.
-* RSS/0.91 URLs are changed.
+  URL thứ hai chỉ bao gồm 10 mục được cập nhật gần đây.
+* Các URL RSS/0.91 đã được thay đổi.
   * [http://raa.ruby-lang.org/raa-rdf.xml][3]
   * [http://raa.ruby-lang.org/raa-rdf10.xml][4]
 
-  Is there anyone who can help us to serve RSS/1.0 file?
-* YAML (not a XML!)
+  Có ai có thể giúp chúng tôi cung cấp tệp RSS/1.0 không?
+* YAML (không phải XML!)
   * [http://raa.ruby-lang.org/raa-yaml.yml][5]
   * [http://raa.ruby-lang.org/raa-yaml10.yml][6]
 

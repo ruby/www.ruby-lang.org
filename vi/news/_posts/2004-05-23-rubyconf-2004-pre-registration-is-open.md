@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "RubyConf 2004 pre-registration is open"
+title: "Đăng ký sớm RubyConf 2004 đã mở"
 author: "Unknown Author"
 lang: vi
 ---
 
-Pre-registration is open for the Fourth Annual International Ruby
-Conference, to be held in Reston, VA, USA, October 1-3 2004. You can
-pre-register, and get more information about the conference, at [the
-RubyConf site][1] Even if you’re new to Ruby, have a look—the conference
-is designed to be as affordable as possible, and is a good place to
-learn more about Ruby and meet other Ruby programmers and enthusiasts.
+Đăng ký sớm đã mở cho Hội nghị Ruby Quốc tế lần thứ tư,
+sẽ được tổ chức tại Reston, VA, Hoa Kỳ, ngày 1-3 tháng 10 năm 2004. Bạn có thể
+đăng ký sớm, và biết thêm thông tin về hội nghị, tại [trang web
+RubyConf][1]. Ngay cả khi bạn mới làm quen với Ruby, hãy xem thử — hội nghị
+được thiết kế để có mức giá phải chăng nhất có thể, và là nơi tốt để
+tìm hiểu thêm về Ruby và gặp gỡ các lập trình viên và người yêu thích Ruby khác.
 
 
 

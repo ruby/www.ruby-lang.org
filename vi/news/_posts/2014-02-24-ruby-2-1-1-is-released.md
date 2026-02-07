@@ -1,30 +1,30 @@
 ---
 layout: news_post
-title: "Ruby 2.1.1 is released"
+title: "Ruby 2.1.1 đã được phát hành"
 author: "naruse"
 translator:
 date: 2014-02-24 05:00:00 +0000
 lang: vi
 ---
 
-Today, Feb. 24th, is the 21st anniversary of Ruby,
-so we happily announce a new patch release of Ruby 2.1, Ruby 2.1.1.
+Hôm nay, ngày 24 tháng 2, là kỷ niệm 21 năm của Ruby,
+vì vậy chúng tôi vui mừng thông báo bản vá mới của Ruby 2.1, Ruby 2.1.1.
 
-Ruby 2.1 has many improvements including speedup without
-severe incompatibilities. You can use this on Rails and other applications,
-and get a more comfortable experience.
+Ruby 2.1 có nhiều cải tiến bao gồm tăng tốc mà không gây ra các vấn đề
+tương thích nghiêm trọng. Bạn có thể sử dụng nó trên Rails và các ứng dụng
+khác, và có được trải nghiệm thoải mái hơn.
 
-This release includes many bugfixes.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) for details.
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) để biết chi tiết.
 
-Following the previously announced [changed versioning policy of Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
-this version is simply called "2.1.1".
+Theo [chính sách đánh số phiên bản đã thay đổi của Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/) đã công bố trước đó,
+phiên bản này đơn giản được gọi là "2.1.1".
 
-**Update:** We've noticed a regression in `Hash#reject`. For more details, see:
-[Regression of Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
+**Cập nhật:** Chúng tôi nhận thấy một lỗi hồi quy trong `Hash#reject`. Để biết thêm chi tiết, xem:
+[Lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.bz2>
   * SIZE:   11990697 bytes

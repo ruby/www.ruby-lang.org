@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "Regression of Hash#reject in Ruby 2.1.1"
+title: "Lỗi hồi quy của Hash#reject trong Ruby 2.1.1"
 author: "sorah"
 translator:
 date: 2014-03-10 14:00:00 +0000
 lang: vi
 ---
 
-In Ruby 2.1.0 or earlier, the `reject` method in any class that inherits
-`Hash` returns an object of its own class.
-But in Ruby 2.1.1, this behavior has changed accidentally to return always
-a plain Hash object, not of the inherited class.
+Trong Ruby 2.1.0 trở về trước, phương thức `reject` trong bất kỳ lớp nào
+kế thừa `Hash` trả về một đối tượng thuộc lớp của chính nó.
+Nhưng trong Ruby 2.1.1, hành vi này đã vô tình thay đổi, luôn trả về
+một đối tượng Hash thuần, không phải lớp kế thừa.
 
 {% highlight ruby %}
 class SubHash < Hash
@@ -22,24 +22,23 @@ p SubHash.new.reject { }.class
 #=> 2.1.0: SubHash, 2.1.1: Hash
 {% endhighlight %}
 
-(To be exact, extra states such as instance variables, etc. aren't
-copied either.)
+(Chính xác hơn, các trạng thái bổ sung như biến instance, v.v. cũng
+không được sao chép.)
 
-Ruby 2.1.1 shouldn't include such behavior changes, because with the release
-of Ruby 2.1.0 we've [changed our versioning policy](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
-so Ruby 2.1.1 is a patch level release and it shouldn't break backwards
-compatibility.
+Ruby 2.1.1 không nên bao gồm các thay đổi hành vi như vậy, bởi vì với việc
+phát hành Ruby 2.1.0 chúng tôi đã [thay đổi chính sách đánh số phiên bản](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
+vì vậy Ruby 2.1.1 là bản phát hành cấp patch và không nên phá vỡ tương thích ngược.
 
-This regression could potentially affect many libraries, one such case is
-Rails' `HashWithIndifferentAccess` and `OrderedHash`. They are broken:
+Lỗi hồi quy này có thể ảnh hưởng đến nhiều thư viện, một trường hợp như vậy là
+`HashWithIndifferentAccess` và `OrderedHash` của Rails. Chúng bị hỏng:
 [Rails' issue #14188](https://github.com/rails/rails/issues/14188).
 
-This behavior will be reverted to the 2.1.0 behavior in Ruby 2.1.2,
-but is expected to be the default behavior for Ruby 2.2.0:
+Hành vi này sẽ được hoàn nguyên về hành vi của 2.1.0 trong Ruby 2.1.2,
+nhưng dự kiến sẽ là hành vi mặc định cho Ruby 2.2.0:
 [Feature #9223](https://bugs.ruby-lang.org/issues/9223).
-So we recommend to fix your code in order to expect this behavior change.
+Vì vậy chúng tôi khuyến nghị bạn sửa mã nguồn để chuẩn bị cho thay đổi hành vi này.
 
-This accident is caused by one missing backport commit. For more details, see
+Sự cố này được gây ra bởi một commit backport bị thiếu. Để biết thêm chi tiết, xem
 [http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211](http://blog.sorah.jp/2014/03/10/hash-reject-regression-in-ruby211).
 
-Sorry for any inconvenience, and thank you for your support.
+Xin lỗi vì sự bất tiện, và cảm ơn sự hỗ trợ của bạn.

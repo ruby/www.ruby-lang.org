@@ -1,36 +1,36 @@
 ---
 layout: news_post
-title: "Ruby 2.3.4 Released"
+title: "Phát hành Ruby 2.3.4"
 author: "nagachika"
 translator:
 date: 2017-03-30 00:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.4 has been released.
+Ruby 2.3.4 đã được phát hành.
 
-This release contains about 80 bug fixes after the previous release.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_3_3...v2_3_4)
-for details.
+Bản phát hành này bao gồm khoảng 80 bản sửa lỗi kể từ phiên bản trước.
+Xem [nhật ký thay đổi](https://github.com/ruby/ruby/compare/v2_3_3...v2_3_4)
+để biết thêm chi tiết.
 
-And this release contains a bug fix of Symbol#hash to be non-deterministic.
-This is a regression on the 2.3 series before 2.3.4.
-See [Bug #13376](https://bugs.ruby-lang.org/issues/13376) for more details.
-
-
-## Known Problem
-
-_(This section was added at April 11, 2017.)_
-
-An API incompatibility has been found for Ruby 2.3.4.
-It is the accidental removal of the API function `rb_thread_fd_close`.
-We will fix this problem with the next release, but if you are facing
-the problem now and need to overcome it immediately, use this patch:
-
-* [patch for rb_thread_fd_close problem](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+Bản phát hành này cũng bao gồm bản sửa lỗi cho Symbol#hash để không xác định trước (non-deterministic).
+Đây là lỗi hồi quy trên nhánh 2.3 trước phiên bản 2.3.4.
+Xem [Bug #13376](https://bugs.ruby-lang.org/issues/13376) để biết thêm chi tiết.
 
 
-## Download
+## Vấn đề đã biết
+
+_(Phần này được thêm vào ngày 11 tháng 4, 2017.)_
+
+Một sự không tương thích API đã được phát hiện trong Ruby 2.3.4.
+Đó là việc vô tình loại bỏ hàm API `rb_thread_fd_close`.
+Chúng tôi sẽ sửa vấn đề này trong bản phát hành tiếp theo, nhưng nếu bạn đang gặp
+vấn đề này ngay bây giờ và cần khắc phục ngay lập tức, hãy sử dụng bản vá sau:
+
+* [bản vá cho vấn đề rb_thread_fd_close](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+
+
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.bz2)
 
@@ -60,7 +60,7 @@ the problem now and need to overcome it immediately, use this patch:
       SHA256: e70b716982be704375129d4fc0ef305fd8d8151f64e0fcb12de791ab956a526d
       SHA512: 6fab3a737f494d33f91a40881d4ab16a938e98cf0f344fba90104d5cf9e6d02d7c17f64512c2f1ffd67f64ad5dd38477fab0d17614c1ff22627f18232186315a
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us to make this release.
-Thanks for their contributions.
+Nhiều người đóng góp, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

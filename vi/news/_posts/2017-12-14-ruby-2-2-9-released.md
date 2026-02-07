@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.2.9 Released"
+title: "Phát hành Ruby 2.2.9"
 author: "usa"
 translator:
 date: 2017-12-14 16:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.2.9 has been released.
-This release includes several security fixes.
-Please check the topics below for details.
+Ruby 2.2.9 đã được phát hành.
+Phiên bản này bao gồm một số bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2017-17405: Command injection vulnerability in Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
-* [Unsafe Object Deserialization Vulnerability in RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
+* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [Lỗ hổng giải tuần tự hóa đối tượng không an toàn trong RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-Ruby 2.2 is now under the state of the security maintenance phase, until the end of the March of 2018.
-After the date, maintenance of Ruby 2.2 will be ended.
-We recommend you start planning migration to newer versions of Ruby, such as 2.4 or 2.3.
+Ruby 2.2 hiện đang trong giai đoạn bảo trì bảo mật, cho đến cuối tháng 3, 2018.
+Sau ngày đó, việc bảo trì Ruby 2.2 sẽ kết thúc.
+Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch di chuyển sang các phiên bản Ruby mới hơn, như 2.4 hoặc 2.3.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.9.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.9.tar.bz2)
 
@@ -48,6 +48,6 @@ We recommend you start planning migration to newer versions of Ruby, such as 2.4
       SHA256: c3055ef4f985079d392dddebb1eab1e91851bfc19c0e8a11779872647d89b3b1
       SHA512: 41de195641bc8cca43a726c1d707720dc9d3b8a853002548a31d171508b78dc353328c9a526dfbbc76493307c0e9e5fce669cc9fc3efc9626f84f2af5aca1a55
 
-## Release Comment
+## Lời nhắn phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho phiên bản phát hành này.

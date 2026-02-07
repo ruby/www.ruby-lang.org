@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.2.4 Released"
+title: "Phát hành Ruby 2.2.4"
 author: "nagachika"
 translator:
 date: 2015-12-16 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.2.4 has been released.
+Ruby 2.2.4 đã được phát hành.
 
-This release includes a security fix for the Fiddle extension.
-Please view the topic below for more details.
+Bản phát hành này bao gồm bản vá bảo mật cho phần mở rộng Fiddle.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
 * [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
-There are also some bugfixes.
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) for details.
+Ngoài ra còn có một số bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.bz2)
 
@@ -47,7 +47,7 @@ See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) for 
       SHA256: 9b7f9e96ef84eef97f44bd5ab1fa70ece1668a52585a88ba6a3487579f12e6f4
       SHA512: 7a6678d3f9bc81eb7bb60de342820ed1bf44e834ee3e5ed6c713c8fa0a80c758c5a5260f17aa5ceae32e1f180187c9cb4e278e9fc6a7b8ad4386f9261426ad5b
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

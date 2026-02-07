@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 3.0.0 Preview 1 Released"
+title: "Phát hành Ruby 3.0.0 Preview 1"
 author: "naruse"
 translator:
 date: 2020-09-25 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 3.0.0-preview1.
+Chúng tôi vui mừng thông báo phát hành Ruby 3.0.0-preview1.
 
-It introduces a number of new features and performance improvements.
+Phiên bản này giới thiệu nhiều tính năng mới và cải thiện hiệu năng.
 
 ## RBS
 
-RBS is a language to describe the types of Ruby programs.
-Type checkers including type-profiler and other tools supporting RBS will understand Ruby programs much better with RBS definitions.
+RBS là một ngôn ngữ để mô tả kiểu dữ liệu của chương trình Ruby.
+Các công cụ kiểm tra kiểu bao gồm type-profiler và các công cụ khác hỗ trợ RBS sẽ hiểu chương trình Ruby tốt hơn nhiều với các định nghĩa RBS.
 
-You can write down the definition of classes and modules: methods defined in the class, instance variables and their types, and inheritance/mix-in relations.
-The goal of RBS is to support commonly seen patterns in Ruby programs and it allows writing advanced types including union types, method overloading, and generics. It also supports duck typing with _interface types_.
+Bạn có thể viết định nghĩa cho các lớp và module: các phương thức được định nghĩa trong lớp, biến instance và kiểu dữ liệu của chúng, cũng như các quan hệ kế thừa/mix-in.
+Mục tiêu của RBS là hỗ trợ các mẫu thường thấy trong chương trình Ruby và cho phép viết các kiểu nâng cao bao gồm kiểu union, nạp chồng phương thức và generic. RBS cũng hỗ trợ duck typing với _kiểu interface_.
 
-Ruby 3.0 ships with `rbs` gem, which allows parsing and processing type definitions written in RBS.
+Ruby 3.0 đi kèm với gem `rbs`, cho phép phân tích và xử lý các định nghĩa kiểu được viết bằng RBS.
 
-The following is a small example of RBS.
+Dưới đây là một ví dụ nhỏ về RBS.
 
 ``` rbs
 module ChatApp
@@ -40,19 +40,19 @@ module ChatApp
 end
 ```
 
-See [README of rbs gem](https://github.com/ruby/rbs) for more detail.
+Xem [README của gem rbs](https://github.com/ruby/rbs) để biết thêm chi tiết.
 
-## Ractor (experimental)
+## Ractor (thử nghiệm)
 
-Ractor is an Actor-model like concurrent abstraction designed to provide a parallel execution feature without thread-safety concerns.
+Ractor là một abstraction đồng thời theo mô hình Actor, được thiết kế để cung cấp tính năng thực thi song song mà không lo ngại về an toàn luồng.
 
-You can make multiple ractors and you can run them in parallel. Ractor enables to make thread-safe parallel programs because ractors can not share normal objects. Communication between ractors are supported by message passing.
+Bạn có thể tạo nhiều ractor và chạy chúng song song. Ractor cho phép tạo các chương trình song song an toàn luồng vì các ractor không thể chia sẻ các đối tượng thông thường. Giao tiếp giữa các ractor được hỗ trợ thông qua truyền tin nhắn.
 
-To limit sharing objects, Ractor introduces several restrictions to the Ruby's syntax (without multiple Ractors, there is no changes).
+Để giới hạn việc chia sẻ đối tượng, Ractor đưa ra một số hạn chế đối với cú pháp Ruby (không có nhiều Ractor thì không có thay đổi).
 
-The specification and implementation are not matured and changed in future, so this feature is marked as experimental and show the experimental feature warning if Ractor is created.
+Đặc tả và triển khai chưa hoàn thiện và có thể thay đổi trong tương lai, vì vậy tính năng này được đánh dấu là thử nghiệm và hiển thị cảnh báo tính năng thử nghiệm khi tạo Ractor.
 
-The following small program calculates `prime?` in parallel with two ractors and about x2 times faster with two or more cores than sequential program.
+Chương trình nhỏ sau tính `prime?` song song với hai ractor và nhanh hơn khoảng x2 lần với hai lõi trở lên so với chương trình tuần tự.
 
 ``` ruby
 require 'prime'
@@ -74,44 +74,44 @@ p r1.take #=> true
 p r2.take #=> true
 ```
 
-see [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) for more detail.
+Xem [doc/ractor.md](https://github.com/ruby/ruby/blob/master/doc/ractor.md) để biết thêm chi tiết.
 
-## Scheduler (Experimental)
+## Scheduler (Thử nghiệm)
 
-`Thread#scheduler` is introduced for intercepting blocking operations. This allows for light-weight concurrency without changing existing code.
+`Thread#scheduler` được giới thiệu để chặn các thao tác blocking. Điều này cho phép đồng thời nhẹ mà không cần thay đổi mã hiện tại.
 
-Currently supported classes/methods:
+Các lớp/phương thức hiện đang được hỗ trợ:
 
 - `Mutex#lock`, `Mutex#unlock`, `Mutex#sleep`
 - `ConditionVariable#wait`
 - `Queue#pop`, `SizedQueue#push`
 - `Thread#join`
 - `Kernel#sleep`
-- `IO#wait`, `IO#read`, `IO#write` and related methods (e.g. `#wait_readable`, `#gets`, `#puts` and so on).
-- `IO#select` is *not supported*.
+- `IO#wait`, `IO#read`, `IO#write` và các phương thức liên quan (ví dụ: `#wait_readable`, `#gets`, `#puts` v.v.).
+- `IO#select` *không được hỗ trợ*.
 
-The current entry point for concurrency is `Fiber.schedule{...}` however this is subject to change by the time Ruby 3 is released.
+Điểm vào hiện tại cho đồng thời là `Fiber.schedule{...}` nhưng điều này có thể thay đổi trước khi Ruby 3 được phát hành.
 
-Currently, there is a test scheduler available in [`Async::Scheduler`](https://github.com/socketry/async/pull/56). See [`doc/scheduler.md`](https://github.com/ruby/ruby/blob/master/doc/scheduler.md) for more details. [Feature #16786]
+Hiện tại, có một test scheduler tại [`Async::Scheduler`](https://github.com/socketry/async/pull/56). Xem [`doc/scheduler.md`](https://github.com/ruby/ruby/blob/master/doc/scheduler.md) để biết thêm chi tiết. [Feature #16786]
 
-**CAUTION**: This feature is strongly experimental. Both the name and feature will change in next preview release.
+**CHÚ Ý**: Tính năng này đang trong giai đoạn thử nghiệm. Cả tên và tính năng sẽ thay đổi trong bản preview tiếp theo.
 
-## Other Notable New Features
+## Các tính năng mới đáng chú ý khác
 
-* Rightward assignment statement is added.
+* Câu lệnh gán hướng phải đã được thêm vào.
 
   ``` ruby
   fib(10) => x
   p x #=> 55
   ```
 
-* Endless method definition is added.
+* Định nghĩa phương thức không kết thúc đã được thêm vào.
 
   ``` ruby
   def square(x) = x * x
   ```
 
-* Find pattern is added.
+* Mẫu tìm kiếm (find pattern) đã được thêm vào.
 
   ``` ruby
   case ["a", 1, "b", "c", 2, "d", "e", "f", 3]
@@ -123,26 +123,26 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
   end
   ```
 
-* `Hash#except` is now built-in.
+* `Hash#except` giờ đã có sẵn.
 
   ``` ruby
   h = { a: 1, b: 2, c: 3 }
   p h.except(:a) #=> {:b=>2, :c=>3}
   ```
 
-* Memory view is added as an experimental feature
+* Memory view đã được thêm như một tính năng thử nghiệm
 
-    * This is a new C-API set to exchange a raw memory area, such as a numeric array and a bitmap image, between extension libraries.  The extension libraries can share also the metadata of the memory area that consists of the shape, the element format, and so on.  Using these kinds of metadata, the extension libraries can share even a multidimensional array appropriately.  This feature is designed by referring to Python's buffer protocol.
+    * Đây là một bộ C-API mới để trao đổi vùng bộ nhớ thô, chẳng hạn như mảng số và ảnh bitmap, giữa các thư viện mở rộng. Các thư viện mở rộng cũng có thể chia sẻ metadata của vùng bộ nhớ bao gồm hình dạng, định dạng phần tử, v.v. Sử dụng những loại metadata này, các thư viện mở rộng có thể chia sẻ ngay cả mảng đa chiều một cách phù hợp. Tính năng này được thiết kế tham khảo từ buffer protocol của Python.
 
-## Performance improvements
+## Cải thiện hiệu năng
 
-* Many improvements were implemented in MJIT. See NEWS in detail.
+* Nhiều cải tiến đã được thực hiện trong MJIT. Xem NEWS để biết chi tiết.
 
-## Other notable changes since 2.7
+## Các thay đổi đáng chú ý khác kể từ 2.7
 
-* Keyword arguments are separated from other arguments.
-  * In principle, code that prints a warning on Ruby 2.7 won't work.  See the [document](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) in detail.
-  * By the way, arguments forwarding now supports leading arguments.
+* Tham số từ khóa được tách riêng khỏi các tham số khác.
+  * Về nguyên tắc, mã hiển thị cảnh báo trên Ruby 2.7 sẽ không hoạt động. Xem [tài liệu](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) để biết chi tiết.
+  * Ngoài ra, chuyển tiếp tham số (arguments forwarding) giờ đã hỗ trợ tham số đứng đầu.
 
     ``` ruby
     def method_missing(meth, ...)
@@ -150,26 +150,26 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
     end
     ```
 
-* The feature of `$SAFE` was completely removed; now it is a normal global variable.
+* Tính năng `$SAFE` đã bị loại bỏ hoàn toàn; giờ nó là một biến toàn cục bình thường.
 
-* The order of backtrace had been reversed at Ruby 2.5, but it was cancelled.  Now it behaves like Ruby 2.4; an error message and the line number where the exception occurs are printed first, and its callers are printed later.
+* Thứ tự backtrace đã bị đảo ngược ở Ruby 2.5, nhưng đã được hoàn tác. Giờ nó hoạt động như Ruby 2.4; thông báo lỗi và số dòng nơi ngoại lệ xảy ra được in trước, và các hàm gọi được in sau.
 
-* Some standard libraries are updated.
+* Một số thư viện chuẩn đã được cập nhật.
   * RubyGems 3.2.0.rc.1
   * Bundler 2.2.0.rc.1
   * IRB 1.2.6
   * Reline 0.1.5
 
-* The following libraries are no longer bundled gems.
-  Install corresponding gems to use these features.
+* Các thư viện sau không còn là bundled gem.
+  Cài đặt các gem tương ứng để sử dụng các tính năng này.
   * net-telnet
   * xmlrpc
 
-* Promote default gems to bundled gems.
+* Chuyển các default gem thành bundled gem.
   * rexml
   * rss
 
-* Promote stdlib to default gems. The following default gems were published on rubygems.org
+* Chuyển stdlib thành default gem. Các default gem sau đã được xuất bản trên rubygems.org
   * abbrev
   * base64
   * English
@@ -196,18 +196,18 @@ Currently, there is a test scheduler available in [`Async::Scheduler`](https://g
   * tsort
   * weakref
 
-See [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v3_0_0_preview1/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
+để biết thêm chi tiết.
 
 {% assign release = site.data.releases | where: "version", "3.0.0-preview1" | first %}
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
-since Ruby 2.7.0!
+Với những thay đổi đó, [{{ release.stats.files_changed }} tệp đã thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa bỏ(-)](https://github.com/ruby/ruby/compare/v2_7_0...v3_0_0_preview1)
+kể từ Ruby 2.7.0!
 
-Please try Ruby 3.0.0-preview1, and give us any feedback!
+Hãy thử Ruby 3.0.0-preview1, và gửi phản hồi cho chúng tôi!
 
-## Download
+## Tải về
 
 * <{{ release.url.bz2 }}>
 
@@ -237,12 +237,12 @@ Please try Ruby 3.0.0-preview1, and give us any feedback!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## 3.0.0-preview2 trailer
+## Trailer 3.0.0-preview2
 
-We plan to include ["type-profiler"](https://github.com/mame/ruby-type-profiler) that is a static type analysis feature.  Stay tuned!
+Chúng tôi dự kiến bao gồm ["type-profiler"](https://github.com/mame/ruby-type-profiler), một tính năng phân tích kiểu tĩnh. Hãy đón chờ!
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.

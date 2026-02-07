@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Pragmatic Bookshelf planning a series of Ruby books"
+title: "Pragmatic Bookshelf lên kế hoạch cho loạt sách Ruby"
 author: "David Black"
 lang: vi
 ---
 
-“Programming Ruby” author Dave Thomas of the Pragmatic Programmers
-announced plans for a series of Ruby books from the Pragmatic Bookshelf
-(the Pragmatic Programmers’ own imprint). “The intent is to create a
-series of books with a deeply practical focus. We won’t just document
-APIs. Instead, we want to show how to get *value* from those APIs—-how
-to solve real-world problems.”
+Tác giả "Programming Ruby" Dave Thomas của Pragmatic Programmers
+đã công bố kế hoạch cho loạt sách Ruby từ Pragmatic Bookshelf
+(nhãn xuất bản riêng của Pragmatic Programmers). "Mục đích là tạo ra
+loạt sách có trọng tâm thực tiễn sâu sắc. Chúng tôi sẽ không chỉ tài liệu hóa
+API. Thay vào đó, chúng tôi muốn cho thấy cách lấy *giá trị* từ các API đó—cách
+giải quyết các vấn đề thực tế."
 
-See [the full announcement][1] for more information, including follow-up
-guidelines for potential authors.
+Xem [toàn văn thông báo][1] để biết thêm thông tin, bao gồm hướng dẫn
+tiếp theo cho các tác giả tiềm năng.
 
 
 

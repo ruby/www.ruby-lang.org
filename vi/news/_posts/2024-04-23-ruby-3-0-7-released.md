@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 3.0.7 Released"
+title: "Phát hành Ruby 3.0.7"
 author: "hsbt"
 translator:
 date: 2024-04-23 10:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.0.7 has been released.
+Ruby 3.0.7 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
 * [CVE-2024-27282: Arbitrary memory address read vulnerability with Regex search]({%link en/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %})
 * [CVE-2024-27281: RCE vulnerability with .rdoc_options in RDoc]({%link en/news/_posts/2024-03-21-rce-rdoc-cve-2024-27281.md %})
 * [CVE-2024-27280: Buffer overread vulnerability in StringIO]({%link en/news/_posts/2024-03-21-buffer-overread-cve-2024-27280.md %})
 
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_7) for further details.
+Xem [bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_0_7) để biết thêm chi tiết.
 
-After this release, Ruby 3.0 reaches EOL. In other words, this is expected to be the last release of Ruby 3.0 series.
-We will not release Ruby 3.0.8 even if a security vulnerability is found (but could release if a severe regression is found).
-We recommend all Ruby 3.0 users to start migration to Ruby 3.3, 3.2, or 3.1 immediately.
+Sau bản phát hành này, Ruby 3.0 đã kết thúc vòng đời (EOL). Nói cách khác, đây dự kiến là bản phát hành cuối cùng của dòng Ruby 3.0.
+Chúng tôi sẽ không phát hành Ruby 3.0.8 ngay cả khi phát hiện lỗ hổng bảo mật (nhưng có thể phát hành nếu tìm thấy lỗi hồi quy nghiêm trọng).
+Chúng tôi khuyến nghị tất cả người dùng Ruby 3.0 bắt đầu chuyển sang Ruby 3.3, 3.2, hoặc 3.1 ngay lập tức.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.0.7" | first %}
 
@@ -47,7 +47,7 @@ We recommend all Ruby 3.0 users to start migration to Ruby 3.3, 3.2, or 3.1 imme
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã báo cáo lỗi và giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn sự đóng góp của họ.

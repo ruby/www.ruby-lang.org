@@ -1,68 +1,68 @@
 ---
 layout: news_post
-title: "Ruby 2.2.0-preview2 Released"
+title: "Phát hành Ruby 2.2.0-preview2"
 author: "naruse"
 translator:
 date: 2014-11-28 09:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.2.0-preview2.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.2.0-preview2.
 
-Ruby 2.2.0-preview2 is the second preview of Ruby 2.2.0.
-Many new features and improvements are included for the increasingly
-diverse and expanding demands for Ruby.
+Ruby 2.2.0-preview2 là bản preview thứ hai của Ruby 2.2.0.
+Nhiều tính năng mới và cải tiến được bao gồm cho các nhu cầu ngày càng
+đa dạng và mở rộng của Ruby.
 
-For example, Symbol GC makes Symbols garbage collectable.
-This reduces memory usage of Symbols; because GC couldn't collect Symbols before
-Ruby 2.2. Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2
-or later. (See [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) for details.)
+Ví dụ, Symbol GC giúp các Symbol có thể được thu gom rác.
+Điều này giảm sử dụng bộ nhớ cho Symbol; vì GC không thể thu gom Symbol trước
+Ruby 2.2. Vì Rails 5.0 sẽ yêu cầu Symbol GC, nó sẽ chỉ hỗ trợ Ruby 2.2
+trở lên. (Xem [bài đăng trên blog Rails](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để biết chi tiết.)
 
-Also, new Incremental GC decreases pause time of garbage collection, which is also helpful for running Rails applications.
+Ngoài ra, Incremental GC mới giảm thời gian tạm dừng của quá trình thu gom rác, điều này cũng hữu ích cho việc chạy các ứng dụng Rails.
 
-Another feature related to memory management is adding an option for configure.in to use jemalloc
+Một tính năng khác liên quan đến quản lý bộ nhớ là thêm tùy chọn cho configure.in để sử dụng jemalloc
 [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
-This is an experimental feature, and is disabled by default.
-We need to gather use cases and performance data.
-When we get convinced of the benefits, the feature will be enabled by default.
+Đây là tính năng thử nghiệm và mặc định bị tắt.
+Chúng tôi cần thu thập các trường hợp sử dụng và dữ liệu hiệu suất.
+Khi chúng tôi tin tưởng vào lợi ích, tính năng này sẽ được bật theo mặc định.
 
-One more topic is [using vfork(2) in system() and spawn() (Japanese)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
-It is expected that it brings a huge speed-up when a large process executes external commands many times.
-But vfork(2) is a risky system call.
-We want to know how much benefit it brings through gathering use cases and performance data.
+Một chủ đề nữa là [sử dụng vfork(2) trong system() và spawn() (tiếng Nhật)](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+Dự kiến điều này sẽ mang lại tăng tốc lớn khi một tiến trình lớn thực thi các lệnh bên ngoài nhiều lần.
+Nhưng vfork(2) là một lời gọi hệ thống rủi ro.
+Chúng tôi muốn biết nó mang lại bao nhiêu lợi ích qua việc thu thập các trường hợp sử dụng và dữ liệu hiệu suất.
 
-Try and enjoy programming with Ruby 2.2.0-preview2, and report us your knowledge!
+Hãy thử và tận hưởng lập trình với Ruby 2.2.0-preview2, và báo cáo cho chúng tôi những phát hiện của bạn!
 
-## Notable Changes since 2.1
+## Thay đổi đáng chú ý so với 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137) ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
-* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* [Symbol GC](https://bugs.ruby-lang.org/issues/9634) ([bài thuyết trình tại RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
-* core libraries:
-  * Support Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * New methods:
+* thư viện core:
+  * Hỗ trợ Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
+  * Phương thức mới:
     * Enumerable#slice_after [#9071](https://bugs.ruby-lang.org/issues/9071), Enumerable#slice_when [#9826](https://bugs.ruby-lang.org/issues/9826)
     * Float#next_float, Float#prev_float [#9834](https://bugs.ruby-lang.org/issues/9834)
     * File.birthtime, File#birthtime [#9647](https://bugs.ruby-lang.org/issues/9647)
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
-* bundled libraries:
-  * Update Psych 2.0.6
-  * Update Rake 10.4.0
-  * Update RDoc 4.2.0.alpha (21b241a)
-  * Update RubyGems 2.4.4+ (2f6e42e)
+* thư viện đi kèm:
+  * Cập nhật Psych 2.0.6
+  * Cập nhật Rake 10.4.0
+  * Cập nhật RDoc 4.2.0.alpha (21b241a)
+  * Cập nhật RubyGems 2.4.4+ (2f6e42e)
   * rubygems 2.4.4+ (2f6e42e)
-  * Update test-unit 3.0.7 (removed from repository but bundled
-in tarball)
-  * Update minitest 5.4.3 (removed from repository but bundled in tarball)
-  * Deprecate mathn
+  * Cập nhật test-unit 3.0.7 (xóa khỏi repository nhưng đi kèm
+trong tarball)
+  * Cập nhật minitest 5.4.3 (xóa khỏi repository nhưng đi kèm trong tarball)
+  * Deprecated mathn
 * C API
-  * Remove deprecated APIs
+  * Loại bỏ các API đã deprecated
 
-See [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) for details.
+Xem [NEWS trong kho Ruby (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview2/NEWS) để biết chi tiết.
 
-With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
+Với các thay đổi đó, 1239 file đã thay đổi, 98343 dòng thêm(+), 61858 dòng xóa(-).
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-preview2.tar.bz2>
   * SIZE:   12505279 bytes
@@ -85,10 +85,10 @@ With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
   * SHA256: 88d6c73ee1a4f5fe1f8ad37fe1f56c1ca50622f1338c20b9d46bbb5c2cd94040
   * SHA512: 0a021d31f54c47c5c3901ef6f2ab02a1bfb5cc698f971978c1e16b1aeda78fdadec0c1cdd48af1c8784b8f72ad00d35cf2433d78e20d4447fa0630e02b4e3917
 
-## Release Comment
+## Ghi chú phát hành
 
-* [2.2.0 Known issues](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Các vấn đề đã biết của 2.2.0](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
-See also the release schedule and other information:
+Xem thêm lịch trình phát hành và thông tin khác:
 
 [ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

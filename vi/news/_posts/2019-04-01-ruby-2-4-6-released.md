@@ -1,30 +1,30 @@
 ---
 layout: news_post
-title: "Ruby 2.4.6 Released"
+title: "Ruby 2.4.6 Đã Phát Hành"
 author: "usa"
 translator:
 date: 2019-04-01 06:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.4.6 has been released.
+Ruby 2.4.6 đã được phát hành.
 
-This release includes about 20 bug fixes after the previous release, and also includes several security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm khoảng 20 bản sửa lỗi sau bản phát hành trước, và cũng bao gồm một số bản sửa bảo mật.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
 
-See the [commit log](https://github.com/ruby/ruby/compare/v2_4_5...v2_4_6) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_4_5...v2_4_6) để biết chi tiết.
 
-After this release, we will end the normal maintenance phase of Ruby 2.4,
-and start the security maintenance phase of it.
-This means that after the release of 2.4.6 we will never backport any bug fixes
-to 2.4 except security fixes.
-The term of the security maintenance phase is scheduled for 1 year.
-By the end of this term, official support of Ruby 2.4 will be over.
-Therefore, we recommend that you start planning to upgrade to Ruby 2.6 or 2.5.
+Sau bản phát hành này, chúng tôi sẽ kết thúc giai đoạn bảo trì thông thường của Ruby 2.4,
+và bắt đầu giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là sau khi phát hành 2.4.6 chúng tôi sẽ không bao giờ backport bất kỳ bản sửa lỗi nào
+sang 2.4 ngoại trừ các bản sửa bảo mật.
+Thời hạn của giai đoạn bảo trì bảo mật được lên lịch là 1 năm.
+Khi hết thời hạn này, hỗ trợ chính thức cho Ruby 2.4 sẽ kết thúc.
+Do đó, chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.6 hoặc 2.5.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.6.tar.bz2>
 
@@ -54,9 +54,9 @@ Therefore, we recommend that you start planning to upgrade to Ruby 2.6 or 2.5.
       SHA256: c5de9f11d4b7608d57139b96f7bc94899bb2fc9dee2e192c8951f6647a9d60f7
       SHA512: cfa779cdb970dfd35dc2a97951310cb3cde1d380b040c283fda6609c591039817a2847ab7174f7a9ee7f7adbb610709b57914bb26e5c015a20d5fe880c569855
 
-## Release Comment
+## Ghi chú phát hành
 
-Sorry for making you wait for a long time.
-Thanks to everyone who helped with this release.
+Xin lỗi vì đã để bạn chờ đợi lâu.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.4, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+Việc bảo trì Ruby 2.4, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Ruby Association.

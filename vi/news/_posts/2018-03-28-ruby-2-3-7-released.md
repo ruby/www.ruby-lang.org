@@ -1,36 +1,36 @@
 ---
 layout: news_post
-title: "Ruby 2.3.7 Released"
+title: "Phát hành Ruby 2.3.7"
 author: "usa"
 translator:
 date: 2018-03-28 17:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.7 has been released.
+Ruby 2.3.7 đã được phát hành.
 
-This release includes about 70 bug fixes after the previous release, and also includes several security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm khoảng 70 bản sửa lỗi sau bản phát hành trước, và cũng bao gồm một số bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2017-17742: HTTP response splitting in WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
-* [CVE-2018-8777: DoS by large request in WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
-* [CVE-2018-6914: Unintentional file and directory creation with directory traversal in tempfile and tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
-* [CVE-2018-8778: Buffer under-read in String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
-* [CVE-2018-8779: Unintentional socket creation by poisoned NUL byte in UNIXServer and UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
-* [CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
-* [Multiple vulnerabilities in RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
+* [CVE-2017-17742: Lỗ hổng tách phản hồi HTTP trong WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
+* [CVE-2018-8777: Tấn công DoS bằng yêu cầu lớn trong WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+* [CVE-2018-6914: Tạo tệp và thư mục ngoài ý muốn với duyệt thư mục trong tempfile và tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+* [CVE-2018-8778: Lỗ hổng đọc dưới bộ đệm trong String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
+* [CVE-2018-8779: Tạo socket ngoài ý muốn bằng byte NUL độc hại trong UNIXServer và UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+* [CVE-2018-8780: Duyệt thư mục ngoài ý muốn bằng byte NUL độc hại trong Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog) for details.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog) để biết chi tiết.
 
-After this release, we will end the normal maintenance phase of Ruby 2.3,
-and start the security maintenance phase of it.
-This means that after the release of 2.3.7 we will never backport any bug fixes
-to 2.3 except security fixes.
-The term of the security maintenance phase is scheduled for 1 year.
-By the end of this term, official support of Ruby 2.3 will be over.
-Therefore, we recommend that you start planning to upgrade to Ruby 2.5 or 2.4.
+Sau bản phát hành này, chúng tôi sẽ kết thúc giai đoạn bảo trì thông thường của Ruby 2.3,
+và bắt đầu giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là sau khi phát hành 2.3.7, chúng tôi sẽ không bao giờ backport bất kỳ bản sửa lỗi nào
+cho 2.3 ngoại trừ các bản sửa lỗi bảo mật.
+Thời hạn giai đoạn bảo trì bảo mật được lên kế hoạch là 1 năm.
+Khi kết thúc thời hạn này, hỗ trợ chính thức cho Ruby 2.3 sẽ chấm dứt.
+Do đó, chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.5 hoặc 2.4.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.7.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.7.tar.bz2)
 
@@ -60,8 +60,8 @@ Therefore, we recommend that you start planning to upgrade to Ruby 2.5 or 2.4.
       SHA256: ffa42eeff928624a05dc7ad39426c855c6e9a757417f17b6fe9e54664ec91012
       SHA512: c85255a7f43c7df2fb11be4f9aa96e2ae70a94d3e963ccff4d8c1349ad6d455d9a436812efb24c91e451e68b8f81e5d335c6d5811b2a0e945a7070c305054434
 
-## Release Comment
+## Nhận xét phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã hỗ trợ cho bản phát hành này.
 
-The maintenance of Ruby 2.3, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+Việc bảo trì Ruby 2.3, bao gồm bản phát hành này, dựa trên "Thỏa thuận về phiên bản ổn định của Ruby" của Hiệp hội Ruby.

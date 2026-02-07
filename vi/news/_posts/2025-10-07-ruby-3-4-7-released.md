@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 3.4.7 Released"
+title: "Phát hành Ruby 3.4.7"
 author: k0kubun
-translator:
+translator: "Ngọc Lê"
 date: 2025-10-07 17:14:11 +0000
 lang: vi
 ---
 
-Ruby 3.4.7 has been released.
+Ruby 3.4.7 đã được phát hành.
 
-This release includes [an update to the uri gem addressing CVE-2025-61594](https://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/),
-along with other bug fixes. Please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_7) for further details.
+Bản phát hành này bao gồm [bản cập nhật gem uri xử lý CVE-2025-61594](https://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/),
+cùng với các bản sửa lỗi khác. Vui lòng tham khảo [ghi chú phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_7) để biết thêm chi tiết.
 
-We recommend updating your version of the uri gem. This release has been made for the convenience of those who wish to continue using it as a default gem.
+Chúng tôi khuyến nghị cập nhật phiên bản gem uri của bạn. Bản phát hành này được thực hiện để thuận tiện cho những ai muốn tiếp tục sử dụng nó như một gem mặc định.
 
-## Release Schedule
+## Lịch trình phát hành
 
-We intend to release the latest stable Ruby version (currently Ruby 3.4) every two months following the most recent release.
-Ruby 3.4.8 is scheduled for December and 3.4.9 for February.
+Chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 3.4) hai tháng một lần sau bản phát hành gần nhất.
+Ruby 3.4.8 dự kiến phát hành vào tháng 12 và 3.4.9 vào tháng 2.
 
-If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
+Nếu có thay đổi ảnh hưởng đáng kể đến người dùng, bản phát hành có thể được thực hiện sớm hơn dự kiến, và lịch trình tiếp theo có thể thay đổi tương ứng.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.4.7" | first %}
 
@@ -46,7 +46,7 @@ If a change arises that significantly affects users, a release may occur earlier
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

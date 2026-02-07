@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ruby 3.3.3 Released"
+title: "Phát hành Ruby 3.3.3"
 author: "k0kubun"
 translator:
 date: 2024-06-12 00:30:00 +0000
 lang: vi
 ---
 
-Ruby 3.3.3 has been released.
+Ruby 3.3.3 đã được phát hành.
 
-This release includes:
+Bản phát hành này bao gồm:
 
 * RubyGems 3.5.11
 * Bundler 2.5.11
 * REXML 3.2.8
 * strscan 3.0.9
-* `--dump=prism_parsetree` is replaced by `--parser=prism --dump=parsetree`
-* Invalid encoding symbols raise `SyntaxError` instead of `EncodingError`
-* Memory leak fix in Ripper parsing
-* Bugfixes for YJIT, `**{}`, `Ripper.tokenize`, `RubyVM::InstructionSequence#to_binary`, `--with-gmp`, and some build environments
+* `--dump=prism_parsetree` được thay thế bằng `--parser=prism --dump=parsetree`
+* Các symbol encoding không hợp lệ ném `SyntaxError` thay vì `EncodingError`
+* Sửa lỗi rò rỉ bộ nhớ trong Ripper parsing
+* Sửa lỗi cho YJIT, `**{}`, `Ripper.tokenize`, `RubyVM::InstructionSequence#to_binary`, `--with-gmp`, và một số môi trường build
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_3) for further details.
+Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_3) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.3" | first %}
 
@@ -47,7 +47,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

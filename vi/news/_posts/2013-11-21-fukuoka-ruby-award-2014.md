@@ -1,68 +1,69 @@
 ---
 layout: news_post
-title: "2014 Fukuoka Ruby Award Competition - Entries to be judged by Matz"
+title: "Cuộc thi Fukuoka Ruby Award 2014 - Bài dự thi được Matz chấm"
 author: "Fukuoka Ruby"
 translator:
 date: 2013-11-21 08:17:06 +0000
 lang: vi
 ---
 
-Dear Ruby Enthusiasts,
+Gửi những người yêu thích Ruby,
 
-The Government of Fukuoka, Japan together with "Matz" Matsumoto would
-like to invite you to enter the following Ruby competition. If you have
-developed an interesting Ruby program, please be encouraged to apply.
+Chính quyền Fukuoka, Nhật Bản cùng với "Matz" Matsumoto muốn mời bạn tham
+gia cuộc thi Ruby sau đây. Nếu bạn đã phát triển một chương trình Ruby thú
+vị, vui lòng mạnh dạn đăng ký.
 
-2014 Fukuoka Ruby Award Competition - Grand Prize - 1 Million Yen!
+Cuộc thi Fukuoka Ruby Award 2014 - Giải thưởng lớn - 1 Triệu Yên!
 
-Entry Deadline: November 29, 2013
+Hạn nộp bài: 29 tháng 11, 2013
 
-Matz and a group of panelists will select the winners of the Fukuoka Competition.
-The grand prize for the Fukuoka Competition is 1 million yen. Past grand
-prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
+Matz và nhóm giám khảo sẽ chọn ra những người chiến thắng của cuộc thi
+Fukuoka. Giải thưởng lớn của cuộc thi Fukuoka là 1 triệu yên. Những người
+đoạt giải lớn trước đây bao gồm Rhomobile (Mỹ) và APEC Climate Center
+(Hàn Quốc).
 
-See the winners from last year:
+Xem những người chiến thắng năm ngoái:
 
 [http://www.myfukuoka.com/category/ruby-award-winners][1]
 
-Programs entered in the competition do not have to be written entirely in Ruby
-but should take advantage of the unique characteristics of Ruby.
+Các chương trình tham gia cuộc thi không nhất thiết phải được viết hoàn toàn
+bằng Ruby nhưng nên tận dụng các đặc điểm độc đáo của Ruby.
 
-Projects must have been developed or completed within the past 12 months to be
-eligible. Please visit the following Fukuoka website for additional details or
-to enter:
+Các dự án phải được phát triển hoặc hoàn thành trong vòng 12 tháng qua để đủ
+điều kiện. Vui lòng truy cập trang web Fukuoka sau để biết thêm chi tiết hoặc
+để đăng ký:
 
 [http://www.digitalfukuoka.jp/events/22?locale=ja][2]
-or
+hoặc
 [http://www.myfukuoka.com/news/technology-news/2014-fukuoka-ruby-award-guidelines-for-applicants.html][3]
 
 [http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-Please email the application form to [award@f-ruby.com][5].
+Vui lòng gửi email đơn đăng ký đến [award@f-ruby.com][5].
 
-This year, we have the following special prizes:
-The winner of the Engine Yard Prize will receive:
+Năm nay, chúng tôi có các giải thưởng đặc biệt sau:
+Người chiến thắng giải Engine Yard sẽ nhận:
 
-* Credit for 5,000 hours of Engine Yard Cloud
-* A pair of tickets to RubyKaigi (incl. 50,000 yen per person for transport expenses)
-* Engine Yard novelty goods set
+* Credit cho 5.000 giờ Engine Yard Cloud
+* Một cặp vé đến RubyKaigi (bao gồm 50.000 yên/người cho chi phí đi lại)
+* Bộ quà tặng Engine Yard
 
-The winner of Heroku Prize will receive:
+Người chiến thắng giải Heroku sẽ nhận:
 
-* 100,000 yen
-* A pair of tickets to RubyKaigi (incl. 50,000 yen per person for transport expenses)
-* Heroku novelty goods set
+* 100.000 yên
+* Một cặp vé đến RubyKaigi (bao gồm 50.000 yên/người cho chi phí đi lại)
+* Bộ quà tặng Heroku
 
-The winner of the paperboy&co. Prize will receive:
+Người chiến thắng giải paperboy&co. sẽ nhận:
 
-* Free pair tickets to Shimane (Ruby City Matsue) for 3 days
-  (transportation expenses up to 50,000 yen per person)
-* Free gTLD (com, net, org, info, biz) for 10 years
+* Cặp vé miễn phí đến Shimane (Ruby City Matsue) trong 3 ngày
+  (chi phí đi lại tối đa 50.000 yên/người)
+* gTLD miễn phí (com, net, org, info, biz) trong 10 năm
 
-"Matz will be testing and reviewing your source code thoroughly, so it's very
-meaningful to apply! The competition is free to enter."
+"Matz sẽ kiểm tra và đánh giá mã nguồn của bạn một cách kỹ lưỡng, vì vậy
+việc đăng ký rất có ý nghĩa! Cuộc thi miễn phí tham gia."
 
-Cheers!
+Chúc vui vẻ!
 
 [1]: http://www.myfukuoka.com/category/ruby-award-winners
 [2]: http://www.digitalfukuoka.jp/events/22?locale=ja

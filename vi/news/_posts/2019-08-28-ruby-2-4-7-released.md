@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.4.7 Released"
+title: "Ruby 2.4.7 Đã Phát Hành"
 author: "usa"
 translator:
 date: 2019-08-28 09:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.4.7 has been released.
+Ruby 2.4.7 đã được phát hành.
 
-This release includes a security fix.
-Please check the topics below for details.
+Bản phát hành này bao gồm một bản sửa bảo mật.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [Multiple jQuery vulnerabilities in RDoc](/en/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
+* [Nhiều lỗ hổng jQuery trong RDoc](/vi/news/2019/08/28/multiple-jquery-vulnerabilities-in-rdoc/)
 
-Ruby 2.4 is now under the state of the security maintenance phase, until
-the end of March of 2020.  After that date, maintenance of Ruby 2.4
-will be ended. We recommend you start planning the migration to newer
-versions of Ruby, such as 2.6 or 2.5.
+Ruby 2.4 hiện đang trong giai đoạn bảo trì bảo mật, cho đến
+cuối tháng 3 năm 2020. Sau ngày đó, việc bảo trì Ruby 2.4
+sẽ kết thúc. Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch di chuyển sang các
+phiên bản Ruby mới hơn, như 2.6 hoặc 2.5.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.7.tar.bz2>
 
@@ -49,6 +49,6 @@ versions of Ruby, such as 2.6 or 2.5.
       SHA256: 1016797925e55c78d9c15633da8ddbd19daed2993a99d35377d2a16c3175cfe5
       SHA512: 1bddd5616edb1a671224bc1c22cc3ac6f70e96e41cb2937efb437e8920fe09ce2ef0f29c591499d3682ac547e1d3eb7474f89ff86a3834d25724329e4927ed76
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release, especially, to reporters of the vulnerability.
+Cảm ơn tất cả những ai đã giúp đỡ cho bản phát hành này, đặc biệt là những người đã báo cáo lỗ hổng bảo mật.

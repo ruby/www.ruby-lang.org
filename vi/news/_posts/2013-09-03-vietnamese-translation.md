@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Vietnamese translation of ruby-lang.org"
+title: "Bản dịch tiếng Việt của ruby-lang.org"
 author: "Marcus Stollsteimer"
 translator:
 date: 2013-09-03 12:00:00 +0000
 lang: vi
 ---
 
-We just released the [Vietnamese translation of ruby-lang.org][1].
+Chúng tôi vừa ra mắt [bản dịch tiếng Việt của ruby-lang.org][1].
 
-Many thanks to the team of translators:
+Xin gửi lời cảm ơn chân thành đến đội ngũ dịch thuật:
 
  * Trung Lê (joneslee85)
  * Hiếu Lê (modology)
  * Thanh Chinh Ban (thanhbc)
  * Phạm Tiến Đạt (tiendat0510)
 
-If you want to contribute to the Ruby community, too,
-you can do so by helping to keep this site up-to-date.
-Simply visit [ruby-lang.org on GitHub][2] and start
-submitting issues or pull requests today!
+Nếu bạn cũng muốn đóng góp cho cộng đồng Ruby,
+bạn có thể làm điều đó bằng cách giúp cập nhật trang web này.
+Chỉ cần truy cập [ruby-lang.org trên GitHub][2] và bắt đầu
+gửi issue hoặc pull request ngay hôm nay!
 
 
 

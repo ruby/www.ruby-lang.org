@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Anonymous CVS service restart"
+title: "Khởi động lại dịch vụ CVS ẩn danh"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Anonymous CVS service is restarted.
+Dịch vụ CVS ẩn danh đã được khởi động lại.
 
-To get the latest source code of ruby, type following commands:
+Để lấy mã nguồn mới nhất của ruby, gõ các lệnh sau:
 
     $ cvs -d :pserver:anonymous@cvs.ruby-lang.org:/src login
     (Logging in to anonymous@cvs.ruby-lang.org)
     CVS password: [Enter]
     $ cvs -z4 -d :pserver:anonymous@cvs.ruby-lang.org:/src co ruby
 
-No password is required.
+Không cần mật khẩu.
 
-CVSup is also available. You can get supfiles at
+CVSup cũng có sẵn. Bạn có thể lấy các supfile tại
 http://cvs.ruby-lang.org/cvsup/.
 
-The CVS repository is checked by ruby-lang.org administrators' group.
-Details will be reported. Please wait a while.
+Kho CVS đã được nhóm quản trị viên ruby-lang.org kiểm tra.
+Chi tiết sẽ được báo cáo. Vui lòng chờ thêm.
 
 Shugo Maeda &lt;shugo@ruby-lang.org&gt;<br />
-ruby-lang.org administrators' group
+nhóm quản trị viên ruby-lang.org

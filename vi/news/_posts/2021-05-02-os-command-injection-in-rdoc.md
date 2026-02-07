@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "CVE-2021-31799: A command injection vulnerability in RDoc"
+title: "CVE-2021-31799: Lỗ hổng chèn lệnh trong RDoc"
 author: "aycabta"
 translator:
 date: 2021-05-02 09:00:00 +0000
@@ -8,39 +8,39 @@ tags: security
 lang: vi
 ---
 
-There is a vulnerability about Command Injection in RDoc which is bundled in Ruby.
-It is recommended that all Ruby users update RDoc to the latest version that fixes this issue.
+Có một lỗ hổng về chèn lệnh trong RDoc được đi kèm với Ruby.
+Tất cả người dùng Ruby được khuyến nghị cập nhật RDoc lên phiên bản mới nhất để khắc phục vấn đề này.
 
-## Details
+## Chi tiết
 
-The following vulnerability has been reported.
+Lỗ hổng sau đã được báo cáo.
 
 * [CVE-2021-31799](https://www.cve.org/CVERecord?id=CVE-2021-31799)
 
-RDoc used to call `Kernel#open` to open a local file. If a Ruby project has a file whose name starts with `|` and ends with `tags`, the command following the pipe character is executed. A malicious Ruby project could exploit it to run an arbitrary command execution against a user who attempts to run `rdoc` command.
+RDoc đã từng gọi `Kernel#open` để mở một tệp cục bộ. Nếu một dự án Ruby có một tệp có tên bắt đầu bằng `|` và kết thúc bằng `tags`, lệnh theo sau ký tự pipe sẽ được thực thi. Một dự án Ruby độc hại có thể khai thác điều này để thực thi lệnh tùy ý đối với người dùng cố gắng chạy lệnh `rdoc`.
 
-Ruby users whose version of RDoc is affected by this issue should update to the latest version of RDoc.
+Người dùng Ruby có phiên bản RDoc bị ảnh hưởng bởi vấn đề này nên cập nhật lên phiên bản mới nhất của RDoc.
 
-## Affected Versions
+## Các phiên bản bị ảnh hưởng
 
-* All releases of RDoc from 3.11 to 6.3.0
-* Ruby 3.0.2 (bundles RDoc 6.3.1), Ruby 2.7.4 (bundles RDoc 6.2.1.1) and Ruby 2.6.8 (bundles RDoc 6.1.2.1) include fixes and not affected
+* Tất cả các bản phát hành RDoc từ 3.11 đến 6.3.0
+* Ruby 3.0.2 (đi kèm RDoc 6.3.1), Ruby 2.7.4 (đi kèm RDoc 6.2.1.1) và Ruby 2.6.8 (đi kèm RDoc 6.1.2.1) bao gồm các bản vá và không bị ảnh hưởng
 
-## How to Update
+## Cách cập nhật
 
-Run the following command to update RDoc to the latest version (6.3.1 or later) to fix the vulnerability.
+Chạy lệnh sau để cập nhật RDoc lên phiên bản mới nhất (6.3.1 hoặc mới hơn) để khắc phục lỗ hổng.
 
 ```
 gem install rdoc
 ```
 
-If you are using bundler, please add `gem "rdoc", ">= 6.3.1"` to your `Gemfile`.
+Nếu bạn đang sử dụng bundler, vui lòng thêm `gem "rdoc", ">= 6.3.1"` vào `Gemfile` của bạn.
 
-## Credits
+## Ghi công
 
-Thanks to [Alexandr Savca](https://hackerone.com/chinarulezzz) for reporting the issue.
+Cảm ơn [Alexandr Savca](https://hackerone.com/chinarulezzz) đã báo cáo vấn đề này.
 
-## History
+## Lịch sử
 
-* Originally published at 2021-05-02 09:00:00 UTC
-* Mention about Ruby 3.0.2, Ruby 2.7.4 and Ruby 2.6.8 at 2021-07-16 00:02:00 UTC
+* Công bố lần đầu vào 2021-05-02 09:00:00 UTC
+* Đề cập về Ruby 3.0.2, Ruby 2.7.4 và Ruby 2.6.8 vào 2021-07-16 00:02:00 UTC

@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.3.6 Released"
+title: "Phát hành Ruby 2.3.6"
 author: "usa"
 translator:
 date: 2017-12-14 16:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.6 has been released.
+Ruby 2.3.6 đã được phát hành.
 
-This release includes about 10 bug fixes after the previous release, and also includes several security fixes.
-Please check the topics below for details.
+Phiên bản này bao gồm khoảng 10 bản sửa lỗi kể từ phiên bản trước, và cũng bao gồm một số bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2017-17405: Command injection vulnerability in Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
-* [Unsafe Object Deserialization Vulnerability in RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
+* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [Lỗ hổng giải tuần tự hóa đối tượng không an toàn trong RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) for details.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.6.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.6.tar.bz2)
 
@@ -47,8 +47,8 @@ See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) 
       SHA256: 6fee49a2099d49a1b98bf0637fe974fd87af3ae64978392c802ba4d10ac70fb5
       SHA512: c6dc2ee01a4ef84850b0ca4d1e60841f07fbff263ebbbc44c8bd0f72ced3172c2e0b9c883496bfc4f5a42f4827a061f8f479d05bda5f693a274c451914e0b03e
 
-## Release Comment
+## Lời nhắn phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những ai đã giúp đỡ cho phiên bản phát hành này.
 
-The maintenance of Ruby 2.3, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+Việc bảo trì Ruby 2.3, bao gồm phiên bản này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Ruby Association.

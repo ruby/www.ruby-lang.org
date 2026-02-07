@@ -5,11 +5,11 @@ author: "James Edward Gray II"
 lang: vi
 ---
 
-Pearson Education is running a [Voices That Matter][1] Ruby conference
-this fall in Boston. The conference, from the same people who
-Addison-Wesley\'s Professional Ruby Series, will give you a chance to
-meet and learn from those very same authors. Don\'t miss a chance to
-interact with so many Ruby professionals.
+Pearson Education đang tổ chức hội nghị Ruby [Voices That Matter][1] vào
+mùa thu này tại Boston. Hội nghị, từ cùng những người đã tạo ra
+Addison-Wesley\'s Professional Ruby Series, sẽ cho bạn cơ hội gặp gỡ và
+học hỏi từ chính các tác giả đó. Đừng bỏ lỡ cơ hội tương tác với nhiều
+chuyên gia Ruby như vậy.
 
 
 

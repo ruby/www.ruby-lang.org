@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "MountainWest RubyConf 2009 dates and CFP"
+title: "Ngày tổ chức và kêu gọi bài thuyết trình MountainWest RubyConf 2009"
 author: "james"
 lang: vi
 ---
 
-[MountainWest RubyConf 2009][1] will be held March 13-14, 2009, in Salt
-Lake City, Utah, USA.
+[MountainWest RubyConf 2009][1] sẽ được tổ chức vào ngày 13-14 tháng 3
+năm 2009, tại Salt Lake City, Utah, Hoa Kỳ.
 
-Proposals to speak at this regional conference are now being accepted.
-Please send your proposal to proposals@mtnwestrubyconf.org.
+Các đề xuất thuyết trình tại hội nghị khu vực này đang được chấp nhận.
+Vui lòng gửi đề xuất của bạn đến proposals@mtnwestrubyconf.org.
 
-The submission deadline is midnight (MST) on December 31st, 2008.
+Hạn chót nộp bài là nửa đêm (MST) ngày 31 tháng 12 năm 2008.
 
-There are sponsorship opportunities available as well. Please contact
-sponsorship@mtnwestruby.org if you are interested.
+Cũng có các cơ hội tài trợ. Vui lòng liên hệ
+sponsorship@mtnwestruby.org nếu bạn quan tâm.
 
-Please see [mtnwestrubyconf.org/][1] for more details as they become
-available.
+Vui lòng xem [mtnwestrubyconf.org/][1] để biết thêm chi tiết khi có
+thông tin mới.
 
 
 

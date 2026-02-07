@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p429 is released"
+title: "Phát hành Ruby 1.9.3-p429"
 author: "usa"
 translator:
 date: 2013-05-14 17:00:00 +0000
 lang: vi
 ---
 
-Now Ruby 1.9.3-p429 is released.
-We once released p426 some hours before, but it had build problems on some platforms.
-Use this p429 instead, please.
+Ruby 1.9.3-p429 đã được phát hành.
+Chúng tôi đã từng phát hành p426 vài giờ trước đó, nhưng nó có vấn đề build trên một số nền tảng.
+Vui lòng sử dụng p429 này thay thế.
 
-This release includes a security fix about bundled DL / Fiddle.
+Bản phát hành này bao gồm một bản sửa lỗi bảo mật về DL / Fiddle đi kèm.
 
-* [Object taint bypassing in DL and Fiddle in Ruby (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
+* [Bỏ qua taint của đối tượng trong DL và Fiddle trong Ruby (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-And some small bugfixes are also included.
+Một số bản sửa lỗi nhỏ cũng được bao gồm.
 
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) for details.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p429.tar.bz2)
 
@@ -41,7 +41,7 @@ You can download this release from:
       MD5:    1986f3934e61b999873d21a79d69d88d
       SHA256: 8bd0ecc2dd8eec471aa44f88abdcd82f4b398e9110ca06f76eff066b653b8b90
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many committers, testers and users who gave bug reports helped me to
-make this release. Thanks for their contributions.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp tôi tạo
+ra bản phát hành này. Cảm ơn những đóng góp của họ.

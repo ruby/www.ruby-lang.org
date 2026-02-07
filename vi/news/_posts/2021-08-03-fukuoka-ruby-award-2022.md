@@ -1,32 +1,32 @@
 ---
 layout: news_post
-title: "2022 Fukuoka Ruby Award Competition - Entries to be judged by Matz"
+title: "Cuộc thi Giải thưởng Fukuoka Ruby 2022 - Các bài dự thi sẽ được Matz đánh giá"
 author: "Fukuoka Ruby"
 translator:
 date: 2021-08-03 00:00:00 +0000
 lang: vi
 ---
 
-Dear Ruby Enthusiasts,
+Gửi những người yêu thích Ruby,
 
-The Government of Fukuoka, Japan together with "Matz" Matsumoto would like to invite you to enter the following Ruby competition. If you have developed an interesting Ruby program, please be encouraged to apply.
+Chính quyền tỉnh Fukuoka, Nhật Bản cùng với "Matz" Matsumoto xin mời bạn tham gia cuộc thi Ruby sau đây. Nếu bạn đã phát triển một chương trình Ruby thú vị, xin hãy mạnh dạn đăng ký.
 
-2022 Fukuoka Ruby Award Competition - Grand Prize - 1 Million Yen!
+Cuộc thi Giải thưởng Fukuoka Ruby 2022 - Giải Đặc biệt - 1 Triệu Yên!
 
-Entry Deadline: December 3, 2021
+Hạn nộp: Ngày 3 tháng 12 năm 2021
 
 ![Fukuoka Ruby Award](https://www.digitalfukuoka.jp/javascripts/kcfinder/upload/images/fukuokarubyaward2017.png)
 
-Matz and a group of panelists will select the winners of the Fukuoka Competition. The grand prize for the Fukuoka Competition is 1 million yen. Past grand prize winners include Rhomobile (USA) and APEC Climate Center (Korea).
+Matz và một nhóm giám khảo sẽ chọn ra người chiến thắng cuộc thi Fukuoka. Giải Đặc biệt của cuộc thi Fukuoka là 1 triệu yên. Những người đoạt Giải Đặc biệt trước đây bao gồm Rhomobile (Mỹ) và APEC Climate Center (Hàn Quốc).
 
-Programs entered in the competition do not have to be written entirely in Ruby but should take advantage of the unique characteristics of Ruby.
+Các chương trình tham gia cuộc thi không nhất thiết phải được viết hoàn toàn bằng Ruby nhưng nên tận dụng được những đặc điểm độc đáo của Ruby.
 
-The program must have been developed or updated in the past year or so. Please visit the following Fukuoka website to enter.
+Chương trình phải được phát triển hoặc cập nhật trong khoảng một năm qua. Vui lòng truy cập trang web Fukuoka sau đây để đăng ký.
 
 [http://www.digitalfukuoka.jp/events/242](http://www.digitalfukuoka.jp/events/242)
 
-Please email the application form to award@f-ruby.com
+Vui lòng gửi đơn đăng ký qua email đến award@f-ruby.com
 
-"Matz will be testing and reviewing your source code thoroughly, so it's very meaningful to apply! The competition is free to enter."
+"Matz sẽ kiểm tra và đánh giá mã nguồn của bạn một cách kỹ lưỡng, vì vậy việc nộp bài rất có ý nghĩa! Cuộc thi hoàn toàn miễn phí tham gia."
 
-Thanks！
+Cảm ơn！

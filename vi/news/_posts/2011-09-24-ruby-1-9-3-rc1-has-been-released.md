@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3 rc1 has been released"
+title: "Ruby 1.9.3 rc1 đã được phát hành"
 author: "Shota Fukumori"
 lang: vi
 ---
 
-Ruby 1.9.3 rc1 has been released. This is a second preview of next
-version and there\'re still minor known issues. But it will be fixed in
-next release, ruby 1.9.3-p0.
+Ruby 1.9.3 rc1 đã được phát hành. Đây là bản xem trước thứ hai của
+phiên bản tiếp theo và vẫn còn một số vấn đề nhỏ đã biết. Nhưng chúng
+sẽ được sửa trong bản phát hành tiếp theo, ruby 1.9.3-p0.
 
-See [ChangeLogs][1] and [NEWS][2] for the descriptions.
+Xem [ChangeLogs][1] và [NEWS][2] để biết mô tả.
 
-## Locations
+## Địa chỉ tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2&gt;][3]
   SIZE: 9552727 bytes

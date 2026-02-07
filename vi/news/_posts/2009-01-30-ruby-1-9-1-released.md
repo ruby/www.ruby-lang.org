@@ -1,32 +1,32 @@
 ---
 layout: news_post
-title: "Ruby 1.9.1 released"
+title: "Ruby 1.9.1 đã được phát hành"
 author: "james"
 lang: vi
 ---
 
-Ruby 1.9.1 is released. This is the first stable release of the Ruby 1.9
-series.
+Ruby 1.9.1 đã được phát hành. Đây là bản phát hành ổn định đầu tiên của
+dòng Ruby 1.9.
 
-Ruby 1.9 is a new series of Ruby. It is modern, faster, with clearer
-syntax, multilingualized, a much improved version of Ruby.
+Ruby 1.9 là một dòng mới của Ruby. Nó hiện đại, nhanh hơn, với cú pháp
+rõ ràng hơn, hỗ trợ đa ngôn ngữ, một phiên bản cải tiến đáng kể của Ruby.
 
-Ruby 1.8 series has been used since 2003 and many great products were
-born on it.
+Dòng Ruby 1.8 đã được sử dụng từ năm 2003 và nhiều sản phẩm tuyệt vời
+đã ra đời trên nền tảng đó.
 
-Today, the Ruby 1.9 series starts its history as the 1.8 series did.
+Hôm nay, dòng Ruby 1.9 bắt đầu lịch sử của nó như dòng 1.8 đã từng.
 
-Please note that Ruby 1.8 still remains. 1.8.8 will be released this
-year.
+Xin lưu ý rằng Ruby 1.8 vẫn còn được duy trì. 1.8.8 sẽ được phát hành
+trong năm nay.
 
-You can read about major changes since 1.8.7 [here][1]
+Bạn có thể đọc về các thay đổi chính kể từ 1.8.7 [tại đây][1]
 
-7 [bugs have been fixed][2] since 1.9.1 RC2.
+7 [lỗi đã được sửa][2] kể từ 1.9.1 RC2.
 
-If you encounter any bugs or any problems, please report them using the
-official issue [tracking system][3].
+Nếu bạn gặp bất kỳ lỗi hoặc vấn đề nào, vui lòng báo cáo thông qua
+[hệ thống theo dõi][3] chính thức.
 
-Download from
+Tải về từ
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2][4]
   SIZE: 7190271 bytes

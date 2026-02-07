@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title:  "We started distributing source packages via Fastly"
+title:  "Chúng tôi đã bắt đầu phân phối các gói mã nguồn qua Fastly"
 author: "hsbt"
 translator: "Marcus Stollsteimer"
 date:   2013-09-07 11:30:00 +0000
-lang:   en
+lang:   vi
 ---
 
-ruby-lang.org started to provide https://cache.ruby-lang.org for
-distributing official Ruby source packages.
-We can now fastly distribute packages all over the world
-using a content delivery network (CDN).
+ruby-lang.org đã bắt đầu cung cấp https://cache.ruby-lang.org để phân phối
+các gói mã nguồn Ruby chính thức.
+Giờ đây chúng tôi có thể phân phối nhanh các gói trên toàn thế giới bằng
+mạng phân phối nội dung (CDN).
 
-This CDN is provided by the open source plan of [Fastly][1].
-Many thanks to Fastly for their support.
+CDN này được cung cấp bởi chương trình mã nguồn mở của [Fastly][1].
+Xin gửi lời cảm ơn đến Fastly vì sự hỗ trợ của họ.
 
 [1]: http://www.fastly.com

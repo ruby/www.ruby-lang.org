@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p327 is released"
+title: "Ruby 1.9.3-p327 đã được phát hành"
 author: "usa"
 lang: vi
 ---
 
-Ruby 1.9.3-p327 is released.
+Ruby 1.9.3-p327 đã được phát hành.
 
-This release includes some security fixes, and many other bug fixes.
+Bản phát hành này bao gồm một số bản vá bảo mật và nhiều bản sửa lỗi khác.
 
-* [Hash-flooding DoS vulnerability for ruby 1.9][1]
-* many other bug fixes.
+* [Lỗ hổng Hash-flooding DoS cho ruby 1.9][1]
+* nhiều bản sửa lỗi khác.
 
-See [tickets][2] and [ChangeLog][3] for details.
+Xem [tickets][2] và [ChangeLog][3] để biết chi tiết.
 
-## Download
+## Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.bz2&gt;][4]
   * SIZE: 9975835 bytes

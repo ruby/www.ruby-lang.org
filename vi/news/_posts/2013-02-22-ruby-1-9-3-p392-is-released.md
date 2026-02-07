@@ -1,28 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p392 is released"
+title: "Phát hành Ruby 1.9.3-p392"
 author: "usa"
 date: 2013-02-22 13:09:05 +0000
 lang: vi
 ---
 
-Now Ruby 1.9.3-p392 is released. I apologize for updating too
-frequently.
+Ruby 1.9.3-p392 đã được phát hành. Tôi xin lỗi vì cập nhật quá thường xuyên.
 
-This release includes security fixes about bundled JSON and REXML.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật về JSON và REXML đi kèm.
 
-* [Denial of Service and Unsafe Object Creation Vulnerability in JSON
+* [Lỗ hổng từ chối dịch vụ và tạo đối tượng không an toàn trong JSON
   (CVE-2013-0269)][1]
-* [Entity expansion DoS vulnerability in REXML (XML bomb,
+* [Lỗ hổng DoS mở rộng thực thể trong REXML (XML bomb,
   CVE-2013-1821)][2]
 
-And some small bugfixes are also included.
+Một số bản sửa lỗi nhỏ cũng được bao gồm.
 
-See [tickets][3] and [ChangeLog][4] for details.
+Xem [tickets][3] và [ChangeLog][4] để biết chi tiết.
 
-## Download
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2&gt;][5]
 
@@ -42,10 +41,10 @@ You can download this release from:
       MD5:    212fb3bc41257b41d1f8bfe0725916b7
       SHA256: f200ce4a63ce57bea64028a507350717c2a16bdbba6d9538bc69e9e7c2177c8b
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many committers, testers and users who gave bug reports helped me to
-make this release. Thanks for their contributions.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp tôi tạo ra
+bản phát hành này. Cảm ơn những đóng góp của họ.
 
 
 

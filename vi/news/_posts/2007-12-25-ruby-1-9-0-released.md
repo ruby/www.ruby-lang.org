@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "Ruby 1.9.0 Released"
+title: "Ruby 1.9.0 đã được phát hành"
 author: "james"
 lang: vi
 ---
 
-Matz announced the release of Ruby 1.9.0, a development release.
+Matz đã thông báo phát hành Ruby 1.9.0, một bản phát hành phát triển.
 
-You can fetch it from:
+Bạn có thể tải về từ:
 
 [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-0.tar.bz2][1]
 

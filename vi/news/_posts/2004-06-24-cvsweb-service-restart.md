@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "CVSweb service restart"
+title: "Khởi động lại dịch vụ CVSweb"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-CVSweb service is restarted.
+Dịch vụ CVSweb đã được khởi động lại.
 [https://www.ruby-lang.org/cgi-bin/cvsweb.cgi/][1]
 
 

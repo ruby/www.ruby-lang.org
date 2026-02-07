@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7-p302 is released"
+title: "Ruby 1.8.7-p302 đã được phát hành"
 author: "maki"
 lang: vi
 ---
 
-Ruby 1.8.7-p302 has been released([\[ruby-talk:367769\]][1]). This is a
-security fix for CVE-2010-0541. See [the vulnerability report][2] for
-more details.
+Ruby 1.8.7-p302 đã được phát hành([\[ruby-talk:367769\]][1]). Đây là bản
+sửa bảo mật cho CVE-2010-0541. Xem [báo cáo lỗ hổng][2] để biết thêm
+chi tiết.
 
-I recommend all Ruby 1.8.7 users to upgrade the 1.8.7 to p302.
+Tôi khuyến nghị tất cả người dùng Ruby 1.8.7 nâng cấp 1.8.7 lên p302.
 
-## Downloads
+## Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p302.tar.bz2&gt;][3]
 

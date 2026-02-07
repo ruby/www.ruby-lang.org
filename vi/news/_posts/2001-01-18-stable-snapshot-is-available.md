@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Stable snapshot is available"
+title: "Bản snapshot ổn định đã có sẵn"
 author: "Matz"
 lang: vi
 ---
 
-[Stable snapshot][1] is available. This is tar’ed and gzip’ed file of
-the latest stable CVS. It should be better than the last release.
+[Bản snapshot ổn định][1] đã có sẵn. Đây là tệp được nén bằng tar và gzip của
+phiên bản CVS ổn định mới nhất. Nó sẽ tốt hơn bản phát hành trước.
 
 
 

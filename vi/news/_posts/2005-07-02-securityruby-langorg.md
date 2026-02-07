@@ -5,7 +5,7 @@ author: "Shugo Maeda"
 lang: vi
 ---
 
-Created [security@ruby-lang.org](mailto:security@ruby-lang.org) . If you
-have found vulnerabilities in Ruby, please report to this address.
-security@ruby-lang.org is a private ML, and anyone can post to it
-without subscription.
+Đã tạo [security@ruby-lang.org](mailto:security@ruby-lang.org). Nếu bạn
+phát hiện lỗ hổng trong Ruby, vui lòng báo cáo đến địa chỉ này.
+security@ruby-lang.org là một danh sách gửi thư riêng tư, và bất kỳ ai
+cũng có thể gửi thư mà không cần đăng ký.

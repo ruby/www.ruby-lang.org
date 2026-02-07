@@ -1,29 +1,29 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p598 Released"
+title: "Phát hành Ruby 2.0.0-p598"
 author: "usa"
 translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.0.0-p598.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p598.
 
-This release includes a security fix for a DoS vulnerability of REXML.
-It is similar to the
-[fixed vulnerability](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
-in the [previous release](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/),
-but this handles another case for entity expansion.
-Please view the topic below for more details.
+Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
+Nó tương tự với
+[lỗ hổng đã được sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [bản phát hành trước](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/),
+nhưng xử lý một trường hợp khác của mở rộng entity.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
-And, some bug fixes are also included.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
-for details.
+Ngoài ra, một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2)
 
@@ -53,7 +53,7 @@ for details.
       SHA256: d5bdafd7b0fbd4254902ba10385c6e5812beac4ad221805aa4d92a37eff47f97
       SHA512: 6cdaf7f2d27a5f0ead9b94325b9c9fe90cf04c64dedaea8e1d45a8855a73ad61c5c72f1fda835eab73693c25c15a74c7e4e639ed5c18a9433dd79e398600b3ea
 
-## Release Comment
+## Ghi chú phát hành
 
-Sorry for the inconvenience of releasing frequently.
-Thanks to everyone who helped with the release.
+Xin lỗi vì sự bất tiện khi phát hành thường xuyên.
+Cảm ơn mọi người đã giúp đỡ cho bản phát hành.

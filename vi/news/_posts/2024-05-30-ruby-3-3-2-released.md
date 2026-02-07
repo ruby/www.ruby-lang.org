@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Ruby 3.3.2 Released"
+title: "Phát hành Ruby 3.3.2"
 author: "k0kubun"
 translator:
 date: 2024-05-30 03:50:00 +0000
 lang: vi
 ---
 
-Ruby 3.3.2 has been released.
+Ruby 3.3.2 đã được phát hành.
 
-This release includes many bug-fixes.
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_2) for further details.
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_2) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.2" | first %}
 
@@ -37,7 +37,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_3_2) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

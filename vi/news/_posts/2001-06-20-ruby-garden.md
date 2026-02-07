@@ -5,7 +5,7 @@ author: "Matz"
 lang: vi
 ---
 
-[Ruby Garden][1] – News Portal for Ruby.
+[Ruby Garden][1] – Cổng thông tin về Ruby.
 
 
 

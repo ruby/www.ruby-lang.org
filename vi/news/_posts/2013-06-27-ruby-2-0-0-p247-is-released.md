@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p247 is released"
+title: "Phát hành Ruby 2.0.0-p247"
 author: "nagachika"
 translator:
 date: 2013-06-27 11:00:03 +0000
 lang: vi
 ---
 
-Now Ruby 2.0.0-p247 is released.
+Ruby 2.0.0-p247 đã được phát hành.
 
-This release includes a security fix about bundled OpenSSL.
+Bản phát hành này bao gồm bản sửa lỗi bảo mật về OpenSSL đi kèm.
 
-* [Hostname check bypassing vulnerability in SSL client
+* [Lỗ hổng bỏ qua kiểm tra hostname trong SSL client
   (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-And some bugfixes are also included.
+Một số bản sửa lỗi cũng được bao gồm.
 
-## Download
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2)
 
@@ -38,12 +38,12 @@ You can download this release from:
       MD5:    7548f781d868456e84afcd0327c7f894
       SHA256: 40c938238075b1e7e8df5d7ebfd069a45b93066318d91da9024d81b20a1c5a8a
 
-## Changes
+## Thay đổi
 
-Major fixes are listed below.
+Các bản sửa lỗi chính được liệt kê bên dưới.
 
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) for details.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) để biết chi tiết.
 
 ### Keyword Arguments
 
@@ -61,7 +61,7 @@ and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) 
 
 ### RubyGems
 
-Bundled RubyGems version is updated to 2.0.3
+Phiên bản RubyGems đi kèm được cập nhật lên 2.0.3
 
 ### Encoding
 
@@ -76,7 +76,7 @@ Bundled RubyGems version is updated to 2.0.3
 * [#8467](https://bugs.ruby-lang.org/issues/8467) Rewinding and iterating through gzipped IO leads to segmentation fault
 * [#8415](https://bugs.ruby-lang.org/issues/8415) Net::IMAP#capability_response raises "Net::IMAP::ResponseParseError: unexpected token CRLF" for common CAPABILITY
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many committers, testers and users who gave bug reports helped me to
-make this release. Thanks for their contributions.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp tôi tạo
+ra bản phát hành này. Cảm ơn những đóng góp của họ.

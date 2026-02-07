@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Color scheme of www.ruby-lang.org"
+title: "Bảng màu của www.ruby-lang.org"
 author: "NaHi"
 lang: vi
 ---
 
-We webmasters decided to change the red only color scheme of this site
-following a recommendation in [\[ruby-talk:59202\]][1].
+Chúng tôi, nhóm quản trị web, đã quyết định thay đổi bảng màu chỉ toàn đỏ của trang web này
+theo khuyến nghị trong [\[ruby-talk:59202\]][1].
 
-You may see somewhat strange color scheme while our CSS development.
-Thank you for your kind corporation.
+Bạn có thể thấy bảng màu hơi lạ trong quá trình phát triển CSS của chúng tôi.
+Cảm ơn sự hợp tác của bạn.
 
-And we also thank people who are discussing about color scheme on
+Và chúng tôi cũng cảm ơn những người đang thảo luận về bảng màu trên
 ruby-talk.
 
 

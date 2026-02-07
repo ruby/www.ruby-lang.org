@@ -1,31 +1,31 @@
 ---
 layout: news_post
-title: "Tulsa Ruby Workshop"
+title: "Hội thảo Ruby Tulsa"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-I wanted to get the word out about the upcoming Tulsa Ruby Workshop.
-This will take place on April 26th, from 10 AM to 4 PM in Tulsa, OK.
+Tôi muốn thông báo về Hội thảo Ruby Tulsa sắp tới. Sự kiện sẽ diễn ra
+vào ngày 26 tháng 4, từ 10 giờ sáng đến 4 giờ chiều tại Tulsa, OK.
 
-The workshop has a great line up of intro Ruby and Rail content. I’m
-honored to have been asked to give two of the talks that day: an
-introduction to Ruby talk as well as a Ruby from Java talk. There will
-also be a beginning Rails talk from Tulsa.rb’s commander and chief, an
-Engine Yard employee on hand sharing deployment advice, as well as other
-language specific migration talks.
+Hội thảo có một danh sách nội dung giới thiệu Ruby và Rails tuyệt vời.
+Tôi rất vinh dự được mời thuyết trình hai bài trong ngày hôm đó: một
+bài giới thiệu về Ruby cũng như một bài Ruby dành cho lập trình viên
+Java. Cũng sẽ có bài thuyết trình Rails cho người mới bắt đầu từ người
+phụ trách Tulsa.rb, một nhân viên Engine Yard chia sẻ kinh nghiệm triển
+khai, cũng như các bài thuyết trình chuyển đổi từ ngôn ngữ khác.
 
-That’s pretty much a full day of Ruby learning and the best news is that
-attendance is free. They are even throwing in some food.
+Đó gần như là cả một ngày học Ruby và tin tốt nhất là tham dự miễn phí.
+Họ thậm chí còn cung cấp đồ ăn.
 
-If you’re going to be in the area, definitely come join us!
+Nếu bạn sẽ ở trong khu vực, nhất định hãy đến tham gia với chúng tôi!
 
-You can find directions, a schedule, and other details about the
-workshop at:
+Bạn có thể tìm chỉ đường, lịch trình và các chi tiết khác về hội thảo
+tại:
 
 [http://tulsarb.org/wiki/Tulsa\_Ruby\_Workshop][1]
 
-Hope to see you there.
+Hy vọng gặp bạn ở đó.
 
 
 

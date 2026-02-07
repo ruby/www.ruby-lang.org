@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Server maintenance"
+title: "Bảo trì máy chủ"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Services except mailinglists will be down for a server maintenance on
-Wed Aug 30 08:00:00 UTC 2006. The downtime will be a few hours. Sorry
-for inconvenience.
+Các dịch vụ ngoại trừ danh sách gửi thư sẽ ngừng hoạt động để bảo trì
+máy chủ vào Thứ Tư ngày 30 tháng 8 năm 2006 lúc 08:00:00 UTC. Thời gian
+ngừng hoạt động sẽ kéo dài vài giờ. Xin lỗi vì sự bất tiện.

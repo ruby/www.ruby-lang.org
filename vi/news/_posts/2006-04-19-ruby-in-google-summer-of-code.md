@@ -1,14 +1,13 @@
 ---
 layout: news_post
-title: "Ruby in Google Summer of Code"
+title: "Ruby tham gia Google Summer of Code"
 author: "David Black"
 lang: vi
 ---
 
-Student Rubyists will be able to participate in the [Google Summer of
-Code][1] this summer, with [Ruby Central, Inc.][2] Ruby Central, Inc. as
-mentoring organization. See the [Summer of Code page][3] at Ruby
-Central.
+Các sinh viên sử dụng Ruby sẽ có thể tham gia [Google Summer of
+Code][1] vào mùa hè này, với [Ruby Central, Inc.][2] làm tổ chức hướng
+dẫn. Xem [trang Summer of Code][3] tại Ruby Central.
 
 
 

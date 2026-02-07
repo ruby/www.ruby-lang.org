@@ -1,15 +1,13 @@
 ---
 layout: news_post
-title: "RuPy 2012 coming very soon"
+title: "RuPy 2012 sắp diễn ra"
 author: "hosiawak"
 lang: vi
 ---
 
-[RuPy 2012][1] – the 5th edition Ruby, Python and JavaScript conference
-for hackers across the two hemispheres. **16-18 November 2012** in
-[Brno][2], **8-9 December** in [São José][3].
+[RuPy 2012][1] – hội nghị lần thứ 5 về Ruby, Python và JavaScript dành cho các lập trình viên trên hai bán cầu. **16-18 tháng 11 năm 2012** tại [Brno][2], **8-9 tháng 12** tại [São José][3].
 
-Don’t miss it!
+Đừng bỏ lỡ!
 
 
 

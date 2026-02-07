@@ -1,8 +1,8 @@
 ---
 layout: news_post
-title: "Anonymous CVS Service Restart"
+title: "Khởi động lại dịch vụ CVS ẩn danh"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Anonymous CVS Service was restarted. Thank you.
+Dịch vụ CVS ẩn danh đã được khởi động lại. Xin cảm ơn.

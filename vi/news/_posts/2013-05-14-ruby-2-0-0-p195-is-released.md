@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p195 is released"
+title: "Phát hành Ruby 2.0.0-p195"
 author: "nagachika"
 translator:
 date: 2013-05-14 13:00:01 +0000
 lang: vi
 ---
 
-Ruby 2.0.0-p195 is released. This is the first patchlevel release of 2.0.0.
+Ruby 2.0.0-p195 đã được phát hành. Đây là bản phát hành patchlevel đầu tiên của 2.0.0.
 
-This release includes a security fix of Ruby DL / Fiddle extension.
+Bản phát hành này bao gồm bản sửa lỗi bảo mật cho Ruby DL / Fiddle extension.
 
-* [Object taint bypassing in DL and Fiddle in Ruby
+* [Bỏ qua taint của đối tượng trong DL và Fiddle trong Ruby
   (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-And there are many bug-fixes and some optimization, and documentation fixes.
+Ngoài ra còn có nhiều bản sửa lỗi, một số tối ưu hóa, và sửa tài liệu.
 
-## Downloads
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p195.tar.bz2)
 
@@ -36,14 +36,14 @@ And there are many bug-fixes and some optimization, and documentation fixes.
       MD5:    924fe4bea72b1b258655211998631791
       SHA256: 81a4dc6cc09e491d417a51e5983c4584eff849e2a186ec3affdbe5bc15cd7db5
 
-## Changes
+## Thay đổi
 
-Major fixes are below.
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
-or [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
-for details.
+Các bản sửa lỗi chính được liệt kê bên dưới.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+hoặc [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
+để biết chi tiết.
 
-Thank you all committers/contributors.
+Cảm ơn tất cả committer/người đóng góp.
 
 ### Core - prepend
 
@@ -79,7 +79,7 @@ Thank you all committers/contributors.
       #8023 Regexp lookbehind assertion fails with /m mode enabled
       #8001 Regexp \Z matches where it shouldn't
 
-### Core - other
+### Core - khác
 
       #8063 fix a potential memory violation and avoid abort on the environment _FORTIFY_SOURCE=2 (ex. Ubuntu).
       #8175 ARGF#skip doesn't work as documented.

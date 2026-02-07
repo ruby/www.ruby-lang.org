@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 3.3.6 Released"
+title: "Phát hành Ruby 3.3.6"
 author: k0kubun
 translator:
 date: 2024-11-05 04:25:00 +0000
 lang: vi
 ---
 
-Ruby 3.3.6 has been released.
+Ruby 3.3.6 đã được phát hành.
 
-This is a routine update that includes minor bug fixes.
-It also stops warning missing default gem dependencies that will be bundled gems in Ruby 3.5.
-For more details, please refer to [the release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_6).
+Đây là bản cập nhật định kỳ bao gồm các bản sửa lỗi nhỏ.
+Bản phát hành này cũng ngừng cảnh báo về các dependency gem mặc định bị thiếu sẽ trở thành gem đi kèm trong Ruby 3.5.
+Để biết thêm chi tiết, vui lòng tham khảo [ghi chú phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_3_6).
 
-## Release Schedule
+## Lịch trình phát hành
 
-As previously [announced](https://www.ruby-lang.org/en/news/2024/07/09/ruby-3-3-4-released/), we intend to release the latest stable Ruby version (currently Ruby 3.3) every 2 months following a `.1` release.
+Như đã [thông báo](https://www.ruby-lang.org/en/news/2024/07/09/ruby-3-3-4-released/) trước đó, chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 3.3) mỗi 2 tháng sau bản phát hành `.1`.
 
-We expect to release Ruby 3.3.7 on January 7th. If any significant changes arise that impact a large number of users, we may release a new version earlier than scheduled.
+Chúng tôi dự kiến phát hành Ruby 3.3.7 vào ngày 7 tháng 1. Nếu có bất kỳ thay đổi đáng kể nào ảnh hưởng đến số lượng lớn người dùng, chúng tôi có thể phát hành phiên bản mới sớm hơn lịch trình.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.3.6" | first %}
 
@@ -44,7 +44,7 @@ We expect to release Ruby 3.3.7 on January 7th. If any significant changes arise
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

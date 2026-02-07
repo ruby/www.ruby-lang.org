@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "RubyWorld Conference"
+title: "Hội nghị RubyWorld"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-[The RubyWorld Conference][1] will be held at the Shimane Prefectural
-Convention Center “Kunibiki Messe”, Shimane Prefecture, during September
-7th – 8th , 2009.
+[Hội nghị RubyWorld][1] sẽ được tổ chức tại Trung tâm Hội nghị tỉnh
+Shimane "Kunibiki Messe", tỉnh Shimane, trong ngày 7 – 8 tháng 9 năm
+2009.
 
-[The talks at the International Conference Hall][2] will be live
-broadcasted at [the official web site][1].
+[Các bài nói chuyện tại Hội trường Hội nghị Quốc tế][2] sẽ được phát
+trực tiếp tại [trang web chính thức][1].
 
-Stay tuned!
+Hãy theo dõi nhé!
 
 
 

@@ -1,65 +1,65 @@
 ---
 layout: news_post
-title: "Ruby 2.5.0-rc1 Released"
+title: "Phát hành Ruby 2.5.0-rc1"
 author: "naruse"
 translator:
 date: 2017-12-14 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.5.0-rc1.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.5.0-rc1.
 
-Ruby 2.5.0-rc1 is the first release candidate of Ruby 2.5.0.
-It introduces some new features and performance improvements, for example:
+Ruby 2.5.0-rc1 là bản phát hành ứng viên đầu tiên của Ruby 2.5.0.
+Phiên bản này giới thiệu một số tính năng mới và cải thiện hiệu suất, ví dụ:
 
-## New Features
+## Tính năng mới
 
-* Print backtrace and error message in reverse order if STDERR is unchanged and a tty.
-  [Feature #8661] [experimental]
+* In backtrace và thông báo lỗi theo thứ tự ngược nếu STDERR không thay đổi và là tty.
+  [Feature #8661] [thử nghiệm]
 
-* Top-level constant look-up is removed.  [Feature #11547]
+* Loại bỏ tìm kiếm hằng số cấp cao nhất.  [Feature #11547]
 
-* rescue/else/ensure are allowed inside do/end blocks.  [Feature #12906]
+* rescue/else/ensure được phép sử dụng bên trong khối do/end.  [Feature #12906]
 
-* Add yield\_self.  [Feature #6721]
+* Thêm yield\_self.  [Feature #6721]
 
-## Performance improvements
+## Cải thiện hiệu suất
 
-* Dynamic instrumentation for TracePoint hooks instead of using "trace"
-  instruction to avoid overhead. [Feature #14104]
+* Sử dụng kỹ thuật instrumentation động cho TracePoint hooks thay vì dùng lệnh
+  "trace" để tránh chi phí hiệu suất. [Feature #14104]
 
-* Performance of block passing using block parameters is improved by
-  lazy Proc allocation. [Feature #14045]
+* Hiệu suất truyền block bằng tham số block được cải thiện nhờ kỹ thuật
+  "Lazy Proc allocation". [Feature #14045]
 
-* Mutex is rewritten to be smaller and faster. [Feature #13517]
+* Mutex được viết lại nhỏ hơn và nhanh hơn. [Feature #13517]
 
-* SecureRandom now prefers OS-provided sources over OpenSSL. [Bug #9569]
+* SecureRandom hiện ưu tiên nguồn do hệ điều hành cung cấp thay vì OpenSSL. [Bug #9569]
 
-## Other notable changes since 2.4
+## Các thay đổi đáng chú ý khác kể từ 2.4
 
-* Update to Onigmo 6.1.3.
-  It adds the [absence operator](https://github.com/k-takata/Onigmo/issues/87).
-  Note that Ruby 2.4.1 also includes this change.
-* Add Bundler to standard libraries.
-* Update to RubyGems 2.7.0.
-* Update to RDoc 6.0.0.
-  * Change lexer from IRB based one to Ripper;
-    this much improves the speed of generating documentation.
+* Cập nhật Onigmo lên 6.1.3.
+  Nó thêm [toán tử vắng mặt](https://github.com/k-takata/Onigmo/issues/87).
+  Lưu ý rằng Ruby 2.4.1 cũng bao gồm thay đổi này.
+* Thêm Bundler vào thư viện chuẩn.
+* Cập nhật RubyGems lên 2.7.0.
+* Cập nhật RDoc lên 6.0.0.
+  * Thay đổi lexer từ dựa trên IRB sang Ripper;
+    điều này cải thiện đáng kể tốc độ tạo tài liệu.
     [https://github.com/ruby/rdoc/pull/512]
-  * Fix so many bugs from the last dozen years or so.
-  * Support new Ruby syntaxes from the last several years.
-* Update supported Unicode version to 10.0.0.
+  * Sửa rất nhiều lỗi từ khoảng mười mấy năm qua.
+  * Hỗ trợ cú pháp Ruby mới từ vài năm gần đây.
+* Cập nhật phiên bản Unicode được hỗ trợ lên 10.0.0.
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS)
-or commit logs for details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_rc1/NEWS)
+hoặc nhật ký thay đổi để biết chi tiết.
 
-With those changes,
-[6162 files changed, 339744 insertions(+), 28699 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_rc1)
-since Ruby 2.4.0!
+Với những thay đổi đó,
+[6162 tập tin thay đổi, 339744 dòng thêm(+), 28699 dòng xóa(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_rc1)
+kể từ Ruby 2.4.0!
 
-Enjoy Ruby 2.5.0-rc1!
+Hãy tận hưởng Ruby 2.5.0-rc1!
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0-rc1.tar.gz>
 

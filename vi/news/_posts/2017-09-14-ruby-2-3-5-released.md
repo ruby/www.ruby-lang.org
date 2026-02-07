@@ -1,37 +1,37 @@
 ---
 layout: news_post
-title: "Ruby 2.3.5 Released"
+title: "Phát hành Ruby 2.3.5"
 author: "usa"
 translator:
 date: 2017-09-14 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.5 has been released.
+Ruby 2.3.5 đã được phát hành.
 
-This release includes about 70 bug fixes after the previous release, and also includes several security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm khoảng 70 bản sửa lỗi kể từ phiên bản trước, và cũng bao gồm một số bản sửa lỗi bảo mật.
+Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 
-* [CVE-2017-0898: Buffer underrun vulnerability in Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
-* [CVE-2017-10784: Escape sequence injection vulnerability in the Basic authentication of WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
-* [CVE-2017-14033: Buffer underrun vulnerability in OpenSSL ASN1 decode](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
-* [CVE-2017-14064: Heap exposure vulnerability in generating JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
-* [Multiple vulnerabilities in RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
-* Updated bundled libyaml to version 0.1.7
+* [CVE-2017-0898: Lỗ hổng tràn bộ đệm dưới trong Kernel.sprintf](/en/news/2017/09/14/sprintf-buffer-underrun-cve-2017-0898/)
+* [CVE-2017-10784: Lỗ hổng chèn chuỗi thoát trong xác thực Basic của WEBrick](/en/news/2017/09/14/webrick-basic-auth-escape-sequence-injection-cve-2017-10784/)
+* [CVE-2017-14033: Lỗ hổng tràn bộ đệm dưới trong giải mã OpenSSL ASN1](/en/news/2017/09/14/openssl-asn1-buffer-underrun-cve-2017-14033/)
+* [CVE-2017-14064: Lỗ hổng lộ heap khi tạo JSON](/en/news/2017/09/14/json-heap-exposure-cve-2017-14064/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
+* Cập nhật libyaml đi kèm lên phiên bản 0.1.7
 
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) for details.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) để biết chi tiết.
 
-## Known Problem
+## Vấn đề đã biết
 
-_(This section was added at September 15, 2017.)_
+_(Phần này được thêm vào ngày 15 tháng 9, 2017.)_
 
-An incompatibility has been found for Ruby 2.3.5.
-Ruby 2.3.5 can not link with libgmp nor jemalloc.
-We will fix this problem with the next release, but if you are facing the problem now and need to overcome it immediately, get a patch from this link:
+Một sự không tương thích đã được phát hiện trong Ruby 2.3.5.
+Ruby 2.3.5 không thể liên kết với libgmp hoặc jemalloc.
+Chúng tôi sẽ sửa vấn đề này trong bản phát hành tiếp theo, nhưng nếu bạn đang gặp vấn đề này ngay bây giờ và cần khắc phục ngay lập tức, hãy lấy bản vá từ liên kết sau:
 
-* [Ruby 2.4.2 and 2.3.5 cannot link with libgmp nor jemalloc](https://bugs.ruby-lang.org/issues/13899)
+* [Ruby 2.4.2 và 2.3.5 không thể liên kết với libgmp hoặc jemalloc](https://bugs.ruby-lang.org/issues/13899)
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.5.tar.bz2)
 
@@ -61,8 +61,8 @@ We will fix this problem with the next release, but if you are facing the proble
       SHA256: c9971e1ccb6e2f1ab32b1fe05416fce0b19a1cd9ba8fa095c77c4bdf2058e514
       SHA512: 6f14d0cc48d6eaf6168316cb45e22af8d2118ba058fd888ce930f12a22cf7e849e2e185cc7c516fe980f30ee9a942accf9d9e2d4b8a2e79c97b87d4bab704495
 
-## Release Comment
+## Lời nhắn phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.3, including this release, is based on the “Agreement for the Ruby stable version” of the Ruby Association.
+Việc bảo trì Ruby 2.3, bao gồm cả bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Ruby Association.

@@ -1,21 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 3.2.8 Released"
+title: "Phát hành Ruby 3.2.8"
 author: hsbt
 translator:
 date: 2025-03-26 04:45:01 +0000
 lang: vi
 ---
 
-Ruby 3.2.8 has been released. This release includes [CVE-2025-27219, CVE-2025-27220 and CVE-2025-27221 fixes](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/).
+Ruby 3.2.8 đã được phát hành. Bản phát hành này bao gồm [các bản sửa CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/).
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_8) for further details.
+Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_8) để biết thêm chi tiết.
 
-This version is a last version of normal maintenance for Ruby 3.2 series. We will fix only security issues for Ruby 3.2 series until end of March 2026.
+Phiên bản này là phiên bản cuối cùng của giai đoạn bảo trì thông thường cho dòng Ruby 3.2. Chúng tôi sẽ chỉ sửa các vấn đề bảo mật cho dòng Ruby 3.2 cho đến cuối tháng 3 năm 2026.
 
-Please consider upgrading to Ruby 3.3 or 3.4 series.
+Vui lòng cân nhắc nâng cấp lên dòng Ruby 3.3 hoặc 3.4.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.2.8" | first %}
 
@@ -40,7 +40,7 @@ Please consider upgrading to Ruby 3.3 or 3.4 series.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

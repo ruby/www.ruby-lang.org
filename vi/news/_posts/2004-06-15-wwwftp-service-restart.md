@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "WWW/FTP service restart"
+title: "Khởi động lại dịch vụ WWW/FTP"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-We have finished the validation on WWW/FTP contents, so we
-restarted WWW/FTP services.
+Chúng tôi đã hoàn thành việc xác minh nội dung WWW/FTP, do đó chúng tôi
+đã khởi động lại các dịch vụ WWW/FTP.
 
-Details of the validation will be reported.
+Chi tiết của việc xác minh sẽ được báo cáo.
 
-For a while, the services are subject to pause for maintenance.
+Trong một thời gian, các dịch vụ có thể tạm dừng để bảo trì.
 
-ruby-lang.org administrators' group
+nhóm quản trị viên ruby-lang.org

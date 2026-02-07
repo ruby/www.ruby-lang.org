@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.5.2 Released"
+title: "Phát hành Ruby 2.5.2"
 author: "nagachika"
 translator:
 date: 2018-10-17 14:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.2 has been released.
+Ruby 2.5.2 đã được phát hành.
 
-This release includes some bug fixes and some security fixes.
+Bản phát hành này bao gồm một số bản sửa lỗi và một số bản sửa bảo mật.
 
-* [CVE-2018-16396: Tainted flags are not propagated in Array#pack and String#unpack with some directives](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
-* [CVE-2018-16395: OpenSSL::X509::Name equality check does not work correctly](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
+* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
+* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
-There are also some bug fixes.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_5_1...v2_5_2)
-for more details.
+Ngoài ra còn một số bản sửa lỗi khác.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_1...v2_5_2)
+để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.2.tar.bz2>
 
@@ -48,8 +48,8 @@ for more details.
       SHA256: f148947fee070f30826ef0bda77228b9c374b388050db81ad07f5cd8608e3624
       SHA512: 1b804337099ecfa045eecf1a4e3f35fa786bd6e835dc50267d6a3792a782b193ec9708564e3ac5169a95ef4afc2c131782af937dafd8122117e8cff577736c0f
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp
+chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

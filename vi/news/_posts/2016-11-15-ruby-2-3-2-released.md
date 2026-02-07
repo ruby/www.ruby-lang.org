@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 2.3.2 Released"
+title: "Phát hành Ruby 2.3.2"
 author: "nagachika"
 translator:
 date: 2016-11-15 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.2 has been released.
+Ruby 2.3.2 đã được phát hành.
 
-This is a TEENY version release of the stable 2.3 series.
+Đây là phiên bản TEENY của dòng 2.3 ổn định.
 
-This release contains an update to RubyGems 2.5.2
-and updates of the included SSL certificates.
+Bản phát hành này bao gồm bản cập nhật RubyGems 2.5.2
+và cập nhật các chứng chỉ SSL đi kèm.
 
-There are many bugfixes, too.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
-for details.
+Ngoài ra còn có nhiều bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.2.tar.bz2)
 
@@ -48,7 +48,7 @@ for details.
       SHA256: b8ad5b47fad22610476a4abc1c32b8e558265f9b20a5865a12836709028cbd76
       SHA512: 8a794c8eed53380b026b150b0ce176af2a6ba278d5f7a5067e27615940ae85b6af28ac7187adc5d7af04c82442271ed0d8530d9fe751810ecc6c75340f81bd03
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped us to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

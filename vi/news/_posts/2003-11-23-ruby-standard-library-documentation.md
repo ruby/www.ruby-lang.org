@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Ruby Standard Library Documentation"
+title: "Tài liệu thư viện chuẩn Ruby"
 author: "Unknown Author"
 lang: vi
 ---
 
-“Documentation for the Ruby 1.8 standard library”:
-http://www.ruby-doc.org/stdlib/ is available. This is the HTML from the
-RDoc comments resulting from Gavin Sinclair’s stdlib-doc project.
+"Tài liệu cho thư viện chuẩn Ruby 1.8":
+http://www.ruby-doc.org/stdlib/ đã có sẵn. Đây là HTML từ các chú thích
+RDoc nhờ dự án stdlib-doc của Gavin Sinclair.

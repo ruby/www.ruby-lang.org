@@ -1,29 +1,17 @@
 ---
 layout: news_post
-title: "ConFoo 2013—Call for Papers is Now Open!"
+title: "ConFoo 2013—Lời kêu gọi gửi bài đã mở!"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-![ConFoo Web Techno Conference. February 25 - March  1, 2013 | Montreal, Canada](http://confoo.ca/images/propaganda/2013/en/t-ruby.jpg){: style="border:0; float:right" width="180" height="250"}ConFoo is one of the most important developer-oriented conferences and
-includes Ruby content. ConFoo 2013 will be held on February 25 through
-March 1 in Montreal, Canada.
+![ConFoo Web Techno Conference. February 25 - March  1, 2013 | Montreal, Canada](http://confoo.ca/images/propaganda/2013/en/t-ruby.jpg){: style="border:0; float:right" width="180" height="250"}ConFoo là một trong những hội nghị quan trọng nhất dành cho lập trình viên và bao gồm nội dung về Ruby. ConFoo 2013 sẽ được tổ chức từ ngày 25 tháng 2 đến ngày 1 tháng 3 tại Montreal, Canada.
 
-The team just opened its call for papers. Candidates can submit
-proposals **until September 23**. Consult the [call for papers][1] page
-for details and to start submitting. That page also explains what
-expenses ConFoo can cover for speakers. You can even get [advice][2] on
-how to write proposals.
+Đội ngũ tổ chức vừa mở lời kêu gọi gửi bài. Ứng viên có thể gửi đề xuất **trước ngày 23 tháng 9**. Tham khảo trang [kêu gọi gửi bài][1] để biết chi tiết và bắt đầu gửi bài. Trang đó cũng giải thích những chi phí mà ConFoo có thể chi trả cho diễn giả. Bạn thậm chí có thể nhận [lời khuyên][2] về cách viết đề xuất.
 
-The call for papers is public, meaning that all proposals get published
-on the website for others to vote and comment on. This approach allows
-the organizers to pick subjects that have most interest in the
-community. The comments are only visible to speakers and organizers to
-avoid influencing the votes.
+Lời kêu gọi gửi bài là công khai, nghĩa là tất cả các đề xuất sẽ được đăng trên trang web để mọi người bình chọn và bình luận. Cách tiếp cận này cho phép ban tổ chức chọn các chủ đề được cộng đồng quan tâm nhất. Các bình luận chỉ hiển thị cho diễn giả và ban tổ chức để tránh ảnh hưởng đến phiếu bầu.
 
-To stay in touch via Twitter, follow [@confooca][3] and use the
-[#confoo][4] tag. You can also help promote the event with these cool
-[badges][5] for your site.
+Để cập nhật qua Twitter, hãy theo dõi [@confooca][3] và sử dụng thẻ [#confoo][4]. Bạn cũng có thể giúp quảng bá sự kiện với các [huy hiệu][5] đẹp mắt cho trang web của bạn.
 
 
 

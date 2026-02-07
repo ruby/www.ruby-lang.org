@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "First Europeen Ruby Conference"
+title: "Hội nghị Ruby châu Âu đầu tiên"
 author: "NaHi"
 lang: vi
 ---
 
-(MNeumann announced the first European Ruby Conference at
-[\[ruby-talk:65418\]][1]. Following is excerpted from the post.)
+(MNeumann đã thông báo về Hội nghị Ruby châu Âu đầu tiên tại
+[\[ruby-talk:65418\]][1]. Dưới đây là trích từ bài đăng.)
 
-> The first European Ruby Conference will be held from Saturday 21th to
-> Sunday 22th June at the University of Karslruhe in Germany.
+> Hội nghị Ruby châu Âu đầu tiên sẽ được tổ chức từ thứ Bảy ngày 21
+> đến Chủ nhật ngày 22 tháng 6 tại Đại học Karslruhe ở Đức.
 >
-> Everyone instested in Ruby is welcome!
+> Tất cả những ai quan tâm đến Ruby đều được chào đón!
 
-(For more detail about the entrance fee, calling for speakers,
-mailing-lists, and so on, see [\[ruby-talk:65418\]][1])
+(Để biết thêm chi tiết về phí tham dự, kêu gọi diễn giả,
+danh sách thư, v.v., xem [\[ruby-talk:65418\]][1])
 
 
 

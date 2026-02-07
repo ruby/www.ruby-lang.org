@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "modules added to the Anonymous CVS repository"
+title: "Các module đã được thêm vào kho CVS ẩn danh"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-These checked modules are added to the Anonymous CVS repository.
+Các module đã kiểm tra sau đây được thêm vào kho CVS ẩn danh.
 
 * app
-* lib(except soap4r,csv)
+* lib(trừ soap4r,csv)
 * eruby
 * oniguruma
 * rough

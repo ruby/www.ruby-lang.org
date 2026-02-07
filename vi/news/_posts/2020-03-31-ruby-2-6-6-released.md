@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.6.6 Released"
+title: "Phát hành Ruby 2.6.6"
 author: "nagachika"
 translator:
 date: 2020-03-31 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.6.6 has been released.
+Ruby 2.6.6 đã được phát hành.
 
-This release includes security fixes.
-Please check the topics below for details.
+Bản phát hành này bao gồm các bản sửa lỗi bảo mật.
+Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
 * [CVE-2020-10663: Unsafe Object Creation Vulnerability in JSON (Additional fix)]({% link en/news/_posts/2020-03-19-json-dos-cve-2020-10663.md %})
 * [CVE-2020-10933: Heap exposure vulnerability in the socket library]({% link en/news/_posts/2020-03-31-heap-exposure-in-socket-cve-2020-10933.md %})
 
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_5...v2_6_6) for details.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_6_5...v2_6_6) để biết chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.6.6" | first %}
 
@@ -49,7 +49,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_5...v2_6_6) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp các báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

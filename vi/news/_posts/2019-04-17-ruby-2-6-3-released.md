@@ -1,21 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 2.6.3 Released"
+title: "Ruby 2.6.3 Đã Phát Hành"
 author: "naruse"
 translator:
 date: 2019-04-17 00:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.6.3 has been released.
+Ruby 2.6.3 đã được phát hành.
 
-This release adds support for New Japanese Era "令和" (Reiwa).
-It updates the Unicode version to 12.1 beta ([#15195](https://bugs.ruby-lang.org/issues/15195)) and updates the date library ([#15742](https://bugs.ruby-lang.org/issues/15742)).
+Bản phát hành này thêm hỗ trợ cho Niên hiệu Nhật Bản mới "令和" (Reiwa).
+Nó cập nhật phiên bản Unicode lên 12.1 beta ([#15195](https://bugs.ruby-lang.org/issues/15195)) và cập nhật thư viện date ([#15742](https://bugs.ruby-lang.org/issues/15742)).
 
-This release also includes some bug fixes.
-See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_2...v2_6_3) for details.
+Bản phát hành này cũng bao gồm một số bản sửa lỗi.
+Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_6_2...v2_6_3) để biết chi tiết.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.3.tar.gz>
 
@@ -45,7 +45,7 @@ See the [commit logs](https://github.com/ruby/ruby/compare/v2_6_2...v2_6_3) for 
       SHA256: 11a83f85c03d3f0fc9b8a9b6cad1b2674f26c5aaa43ba858d4b0fcc2b54171e1
       SHA512: 959a613f5cf5b3185a1d7a7ba0e1921166b3930f30461b391b1c9fcfe396f56dc3c736123dfc7b4e72c32a97dc5a1eb1fd7f09bcc3793a3c5526f6644ba421c8
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, lập trình viên và người dùng đã cung cấp báo cáo lỗi giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

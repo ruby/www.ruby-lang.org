@@ -5,24 +5,24 @@ author: "James Edward Gray II"
 lang: vi
 ---
 
-[Scotland on Rails][1] is pleased to announce that Conference2009 will
-be held March 26-28 in Edinburgh, Scotland.
+[Scotland on Rails][1] vui mừng thông báo rằng Conference2009 sẽ được
+tổ chức từ ngày 26 đến 28 tháng 3 tại Edinburgh, Scotland.
 
-We are now accepting submissions. The closing date for submissions is
-December 1st 2008, so there’s still time! Please mail your plaintext
-proposals for 45 minute sessions to
+Chúng tôi đang nhận bài nộp. Hạn chót nộp bài là ngày 1 tháng 12 năm
+2008, vì vậy vẫn còn thời gian! Vui lòng gửi đề xuất dạng văn bản
+thuần cho các phiên 45 phút đến
 [submissions@scotlandonrails.com](mailto:submissions@scotlandonrails.com).
 
-Alternatively, if you are interested in sponsoring the conference,
-please mail
+Ngoài ra, nếu bạn muốn tài trợ hội nghị, vui lòng gửi email đến
 [sponsorship@scotlandonrails.com](mailto:sponsorship@scotlandonrails.com)
-for a prospectus.
+để nhận bản giới thiệu.
 
-Lastly, if you wish to be notified when we open for registration, you
-can sign up on the site.
+Cuối cùng, nếu bạn muốn được thông báo khi chúng tôi mở đăng ký, bạn
+có thể đăng ký trên trang web.
 
-Come and enjoy all that Edinburgh has to offer (whisky! castle! volcano!
-ruby! whisky!) in March. We hope to see you there.
+Hãy đến và tận hưởng tất cả những gì Edinburgh có thể mang lại (whisky!
+lâu đài! núi lửa! ruby! whisky!) vào tháng 3. Chúng tôi hy vọng gặp
+bạn ở đó.
 
 
 

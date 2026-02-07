@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Conference season is here"
+title: "Mùa hội nghị đã đến"
 author: "David Black"
 lang: vi
 ---
 
-This coming spring and summer are shaping up to be a real “conference
-alley” for Rubyists. (And RubyConf 2006 hasn’t even been announced yet!)
-Upcoming events of interest include:
+Mùa xuân và mùa hè sắp tới đang hình thành thành một "chuỗi hội nghị"
+thực sự cho các lập trình viên Ruby. (Và RubyConf 2006 thậm chí còn
+chưa được công bố!) Các sự kiện đáng chú ý sắp tới bao gồm:
 
-* [Canada on Rails][1], April 13-14
-* [Silicon Valley Ruby Conference][2], April 22-23, co-produced by
-  [SDForum][3] and [Ruby Central, Inc.][4]
-* the first official [International Rails Conference][5], June 22-25,
-  produced by [Ruby Central, Inc.][4]
-* the [Ruby track][6] at [OSCON][7], July 24-28 (call for papers closing
-  soon!)
+* [Canada on Rails][1], 13-14 tháng 4
+* [Silicon Valley Ruby Conference][2], 22-23 tháng 4, đồng tổ chức bởi
+  [SDForum][3] và [Ruby Central, Inc.][4]
+* [Hội nghị Rails Quốc tế][5] chính thức đầu tiên, 22-25 tháng 6, được
+  tổ chức bởi [Ruby Central, Inc.][4]
+* [Phân khu Ruby][6] tại [OSCON][7], 24-28 tháng 7 (hạn nộp bài sắp
+  hết!)
 
-Check specific events for information about submitting talk proposals
-and/or registering to attend.
+Kiểm tra từng sự kiện cụ thể để biết thông tin về việc nộp đề xuất
+thuyết trình và/hoặc đăng ký tham dự.
 
 
 

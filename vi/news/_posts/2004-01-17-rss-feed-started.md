@@ -1,9 +1,9 @@
 ---
 layout: news_post
-title: "RSS feed started"
+title: "Nguồn cấp RSS đã bắt đầu"
 author: "sho"
 lang: vi
 ---
 
-We just started RSS feed in this site. Check it.
+Chúng tôi vừa bắt đầu nguồn cấp RSS trên trang web này. Hãy kiểm tra.
 https://www.ruby-lang.org/en/index.rdf

@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 3.0.5 Released"
+title: "Phát hành Ruby 3.0.5"
 author: "usa"
 translator:
 date: 2022-11-24 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 3.0.5 has been released.
+Ruby 3.0.5 đã được phát hành.
 
-This release includes a security fix.
-Please check the topics below for details.
+Bản phát hành này bao gồm bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
+* [CVE-2021-33621: Tách phản hồi HTTP trong CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
-This release also includes some bug fixes.
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_5) for further details.
+Bản phát hành này cũng bao gồm một số bản sửa lỗi.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_5) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.0.5" | first %}
 
@@ -42,9 +42,9 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_0_5) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.
 
-The maintenance of Ruby 3.0, including this release, is based on the "Agreement for the Ruby stable version" of the Ruby Association.
+Việc bảo trì Ruby 3.0, bao gồm cả bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của Hiệp hội Ruby.

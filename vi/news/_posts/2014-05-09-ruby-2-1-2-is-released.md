@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.1.2 is released"
+title: "Ruby 2.1.2 đã được phát hành"
 author: "nagachika"
 translator:
 date: 2014-05-09 12:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.1.2.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.1.2.
 
-This release contains a fix for a
-[regression of Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
-support for build with Readline-6.3
-(see [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
-an updated bundled version of libyaml with psych, and some bug fixes.
+Bản phát hành này chứa bản sửa cho
+[lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
+hỗ trợ build với Readline-6.3
+(xem [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
+phiên bản libyaml đi kèm đã được cập nhật với psych, và một số bản sửa lỗi.
 
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
-for details.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.bz2)
 
@@ -39,7 +39,7 @@ for details.
       MD5:    7c303050d1e28e18398aed0fd59d334c
       SHA256: b62a0ded5cfce7d08e539bf5875d543e24208096a37f85bee3304c1284337fa2
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped me to make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp tôi thực hiện bản phát hành này.
+Cảm ơn sự đóng góp của họ.

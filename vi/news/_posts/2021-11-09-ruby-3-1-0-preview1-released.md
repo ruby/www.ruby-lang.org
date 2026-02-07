@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.1.0 Preview 1 Released"
+title: "Phát hành Ruby 3.1.0 Preview 1"
 author: "naruse"
 translator:
 date: 2021-11-09 00:00:00 +0000
@@ -9,36 +9,36 @@ lang: vi
 
 {% assign release = site.data.releases | where: "version", "3.1.0-preview1" | first %}
 
-We are pleased to announce the release of Ruby {{ release.version }}.
+Chúng tôi vui mừng thông báo phát hành Ruby {{ release.version }}.
 
-## YJIT: New experimental in-process JIT compiler
+## YJIT: Trình biên dịch JIT trong tiến trình thử nghiệm mới
 
 
-Ruby 3.1 merges YJIT, a new in-process JIT compiler developed by Shopify.
+Ruby 3.1 tích hợp YJIT, một trình biên dịch JIT trong tiến trình mới được phát triển bởi Shopify.
 
-Since [Ruby 2.6 introduced MJIT in 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), its performance greatly improved, and finally [we achieved Ruby3x3 last year](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). But even though Optcarrot has shown impressive speedups, the JIT hasn't benefited real world business applications.
+Kể từ khi [Ruby 2.6 giới thiệu MJIT vào năm 2018](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/), hiệu năng đã được cải thiện đáng kể, và cuối cùng [chúng tôi đã đạt được Ruby3x3 vào năm ngoái](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/). Nhưng mặc dù Optcarrot đã cho thấy tốc độ cải thiện ấn tượng, JIT chưa mang lại lợi ích cho các ứng dụng kinh doanh thực tế.
 
-Recently Shopify contributed many Ruby improvements to speed up their Rails application. YJIT is an important contribution, and aims to improve the performance of Rails applications.
+Gần đây Shopify đã đóng góp nhiều cải tiến Ruby để tăng tốc ứng dụng Rails của họ. YJIT là một đóng góp quan trọng, nhằm cải thiện hiệu năng của các ứng dụng Rails.
 
-Though MJIT is a method-based JIT compiler and uses an external C compiler, YJIT uses Basic Block Versioning and includes JIT compiler inside it. With Lazy Basic Block Versioning (LBBV) it first compiles the beginning of a method, and incrementally compiles the rest when the type of arguments and variables are dynamically determined. See [YJIT: a basic block versioning JIT compiler for CRuby](https://dl.acm.org/doi/10.1145/3486606.3486781) for a detailed introduction.
+Trong khi MJIT là trình biên dịch JIT dựa trên phương thức và sử dụng trình biên dịch C bên ngoài, YJIT sử dụng Basic Block Versioning và bao gồm trình biên dịch JIT bên trong. Với Lazy Basic Block Versioning (LBBV), nó đầu tiên biên dịch phần đầu của phương thức, và biên dịch dần phần còn lại khi kiểu của tham số và biến được xác định động. Xem [YJIT: a basic block versioning JIT compiler for CRuby](https://dl.acm.org/doi/10.1145/3486606.3486781) để có giới thiệu chi tiết.
 
-With this technology, YJIT achieves both fast warmup time and performance improvements on most real-world software, up to 22% on railsbench, 39% on liquid-render.
+Với công nghệ này, YJIT đạt được cả thời gian khởi động nhanh và cải thiện hiệu năng trên hầu hết phần mềm thực tế, lên đến 22% trên railsbench, 39% trên liquid-render.
 
 <!-- 試す人向けのお知らせ -->
 
-YJIT is still an experimental feature, and as such, it is disabled by default. If you want to use this, specify the `--yjit` command-line option to enable YJIT. It is also limited to macOS & Linux on x86-64 platforms for now.
+YJIT vẫn là tính năng thử nghiệm, và do đó, nó bị tắt mặc định. Nếu bạn muốn sử dụng, hãy chỉ định tùy chọn dòng lệnh `--yjit` để bật YJIT. Hiện tại nó cũng chỉ giới hạn cho các nền tảng macOS & Linux trên x86-64.
 
 * <https://bugs.ruby-lang.org/issues/18229>
 * <https://shopify.engineering/yjit-just-in-time-compiler-cruby>
 * <https://www.youtube.com/watch?v=PBVLf3yfMs8>
 
-## debug gem: A new debugger
+## debug gem: Trình gỡ lỗi mới
 
-A new debugger [debug.gem](https://github.com/ruby/debug) is bundled. debug.gem is fast debugger implementation and it provides many features like remote debugging, colorful REPL, IDE (VSCode) integration and more. It replaces `lib/debug.rb` standard library.
+Một trình gỡ lỗi mới [debug.gem](https://github.com/ruby/debug) được đi kèm. debug.gem là triển khai trình gỡ lỗi nhanh và cung cấp nhiều tính năng như gỡ lỗi từ xa, REPL đầy màu sắc, tích hợp IDE (VSCode) và hơn thế nữa. Nó thay thế thư viện chuẩn `lib/debug.rb`.
 
-## error_highlight: Fine-grained error location in backtrace
+## error_highlight: Vị trí lỗi chi tiết trong backtrace
 
-A built-in gem, error_highlight, has been introduced. It includes fine-grained error location in backtrace:
+Một gem tích hợp, error_highlight, đã được giới thiệu. Nó bao gồm vị trí lỗi chi tiết trong backtrace:
 
 ```
 $ ruby test.rb
@@ -49,21 +49,21 @@ test.rb:1:in `<main>': undefined method `time' for 1:Integer (NoMethodError)
 Did you mean?  times
 ```
 
-This gem is enabled by default. You can disable it by using a command-line option `--disable-error_highlight`. See [the repository](https://github.com/ruby/error_highlight) in detail.
+Gem này được bật mặc định. Bạn có thể tắt nó bằng tùy chọn dòng lệnh `--disable-error_highlight`. Xem [kho lưu trữ](https://github.com/ruby/error_highlight) để biết chi tiết.
 
-## Irb improvement
+## Cải tiến IRB
 
-To be described in next preview.
+Sẽ được mô tả trong bản preview tiếp theo.
 
-## Other Notable New Features
+## Các tính năng mới đáng chú ý khác
 
-### Language
+### Ngôn ngữ
 
-* Values in Hash literals and keyword arguments can be omitted. [Feature #14579]
-  * `{x:, y:}` is a syntax sugar of `{x: x, y: y}`.
-  * `foo(x:, y:)` is a syntax sugar of `foo(x: x, y: y)`.
+* Các giá trị trong Hash literal và tham số từ khóa có thể được bỏ qua. [Feature #14579]
+  * `{x:, y:}` là cú pháp rút gọn của `{x: x, y: y}`.
+  * `foo(x:, y:)` là cú pháp rút gọn của `foo(x: x, y: y)`.
 
-* Pin operator in pattern matching now takes an expression. [Feature #17411]
+* Toán tử pin trong khớp mẫu giờ nhận một biểu thức. [Feature #17411]
 
 ```ruby
 Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
@@ -73,43 +73,43 @@ Prime.each_cons(2).lazy.find_all{_1 in [n, ^(n + 2)]}.take(3).to_a
 
 ### RBS
 
-RBS is a language to describe the structure of Ruby programs. See [the repository](https://github.com/ruby/rbs) for detail.
+RBS là một ngôn ngữ để mô tả cấu trúc chương trình Ruby. Xem [kho lưu trữ](https://github.com/ruby/rbs) để biết chi tiết.
 
-Updates since Ruby 3.0.0:
+Cập nhật kể từ Ruby 3.0.0:
 
-* `rbs collection` has been introduced to manage gems' RBSs.  [doc](https://github.com/ruby/rbs/blob/master/docs/collection.md)
-* Many signatures for built-in and standard libraries have been added/updated.
-* It includes many bug fixes and performance improvements too.
+* `rbs collection` đã được giới thiệu để quản lý RBS của các gem. [doc](https://github.com/ruby/rbs/blob/master/docs/collection.md)
+* Nhiều chữ ký cho thư viện tích hợp và thư viện chuẩn đã được thêm/cập nhật.
+* Cũng bao gồm nhiều bản sửa lỗi và cải thiện hiệu năng.
 
-See [the CHANGELOG.md](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) for more information.
+Xem [CHANGELOG.md](https://github.com/ruby/rbs/blob/master/CHANGELOG.md) để biết thêm thông tin.
 
 ### TypeProf
 
-TypeProf is a static type analyzer for Ruby. It generates a prototype of RBS from non-type-annotated Ruby code. See [the document](https://github.com/ruby/typeprof/blob/master/doc/doc.md) for detail.
+TypeProf là một công cụ phân tích kiểu tĩnh cho Ruby. Nó tạo ra bản mẫu RBS từ mã Ruby không có chú thích kiểu. Xem [tài liệu](https://github.com/ruby/typeprof/blob/master/doc/doc.md) để biết chi tiết.
 
-Updates since Ruby 3.0.0:
+Cập nhật kể từ Ruby 3.0.0:
 
-* [Experimental IDE support](https://github.com/ruby/typeprof/blob/master/doc/ide.md) has been implemented.
-* Many bug fixes and performance improvements.
+* [Hỗ trợ IDE thử nghiệm](https://github.com/ruby/typeprof/blob/master/doc/ide.md) đã được triển khai.
+* Nhiều bản sửa lỗi và cải thiện hiệu năng.
 
-## Performance improvements
+## Cải thiện hiệu năng
 
 * MJIT
-  * For workloads like Rails, the default `--jit-max-cache` is changed from 100 to 10000.
-    The JIT compiler no longer skips compilation of methods longer than 1000 instructions.
-  * To support Zeitwerk of Rails, JIT-ed code is no longer cancelled
-    when a TracePoint for class events is enabled.
+  * Cho các khối lượng công việc như Rails, giá trị mặc định `--jit-max-cache` được thay đổi từ 100 thành 10000.
+    Trình biên dịch JIT không còn bỏ qua biên dịch các phương thức dài hơn 1000 instruction.
+  * Để hỗ trợ Zeitwerk của Rails, mã JIT-ed không còn bị hủy bỏ
+    khi TracePoint cho sự kiện class được bật.
 
-## Other notable changes since 3.0
+## Các thay đổi đáng chú ý khác kể từ 3.0
 
-* One-line pattern matching, e.g., `ary => [x, y, z]`, is no longer experimental.
-* Multiple assignment evaluation order has been changed slightly. [[Bug #4443]](https://bugs.ruby-lang.org/issues/4443)
-  * `foo[0], bar[0] = baz, qux` was evaluated in order `baz`, `qux`, `foo`, and then `bar` in Ruby 3.0. In Ruby 3.1, it is evaluated in order `foo`, `bar`, `baz`, and then `qux`.
-* Variable Width Allocation: Strings (experimental) [[Bug #18239]](https://bugs.ruby-lang.org/issues/18239)
+* Khớp mẫu một dòng, ví dụ `ary => [x, y, z]`, không còn là thử nghiệm.
+* Thứ tự đánh giá phép gán đa biến đã được thay đổi một chút. [[Bug #4443]](https://bugs.ruby-lang.org/issues/4443)
+  * `foo[0], bar[0] = baz, qux` được đánh giá theo thứ tự `baz`, `qux`, `foo`, rồi `bar` trong Ruby 3.0. Trong Ruby 3.1, được đánh giá theo thứ tự `foo`, `bar`, `baz`, rồi `qux`.
+* Variable Width Allocation: Strings (thử nghiệm) [[Bug #18239]](https://bugs.ruby-lang.org/issues/18239)
 
-### Standard libraries updates
+### Cập nhật thư viện chuẩn
 
-* Some standard libraries are updated.
+* Một số thư viện chuẩn đã được cập nhật.
   * RubyGems
   * Bundler
   * RDoc 6.4.0
@@ -165,14 +165,14 @@ Updates since Ruby 3.0.0:
   * Pathname 0.2.0
   * Digest 3.1.0.pre2
   * Un 0.2.0
-* The following bundled gems are updated.
+* Các bundled gem sau đã được cập nhật.
   * minitest 5.14.4
   * power_assert 2.0.1
   * rake 13.0.6
   * test-unit 3.5.0
   * rbs 1.6.2
   * typeprof 0.20.0
-* The following default gems are now bundled gems.
+* Các default gem sau giờ là bundled gem.
   * net-ftp
   * net-imap
   * net-pop
@@ -180,14 +180,14 @@ Updates since Ruby 3.0.0:
   * matrix
   * prime
 
-See [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
-or [commit logs](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }})
-for more details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/{{ release.tag }}/NEWS.md)
+hoặc [nhật ký commit](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }})
+để biết thêm chi tiết.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }}#file_bucket)
-since Ruby 3.0.0!
+Với những thay đổi đó, [{{ release.stats.files_changed }} tệp đã thay đổi, {{ release.stats.insertions }} thêm vào(+), {{ release.stats.deletions }} xóa bỏ(-)](https://github.com/ruby/ruby/compare/v3_0_0...{{ release.tag }}#file_bucket)
+kể từ Ruby 3.0.0!
 
-## Download
+## Tải về
 
 * <{{ release.url.gz }}>
 
@@ -210,8 +210,8 @@ since Ruby 3.0.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby là gì
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby được phát triển lần đầu bởi Matz (Yukihiro Matsumoto) vào năm 1993,
+và hiện được phát triển dưới dạng Mã nguồn Mở. Nó chạy trên nhiều nền tảng
+và được sử dụng trên toàn thế giới, đặc biệt cho phát triển web.

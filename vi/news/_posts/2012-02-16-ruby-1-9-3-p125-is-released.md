@@ -1,28 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p125 is released"
+title: "Ruby 1.9.3-p125 đã được phát hành"
 author: "NARUSE, Yui"
 lang: vi
 ---
 
-Ruby 1.9.3-p125 is released.
+Ruby 1.9.3-p125 đã được phát hành.
 
-This release include [a security fixes of the Ruby OpenSSL
-extension][1]. And many bugs are fixed in this release.
+Bản phát hành này bao gồm [bản vá bảo mật cho phần mở rộng Ruby OpenSSL][1]. Và nhiều lỗi đã được sửa trong bản phát hành này.
 
-== Fixes
+== Sửa lỗi
 
-* [Fix for Ruby OpenSSL module: Allow \"0/n splitting\" as a prevention
-  for the TLS BEAST attack][1]
-* Fixed: LLVM/clang support [\[Bug #5076\]][2]
-* Fixed: GCC 4.7 support [\[Bug #5851\]][3]
-* other bug fixes
+* [Bản vá cho module Ruby OpenSSL: Cho phép "0/n splitting" như biện pháp
+  phòng chống tấn công TLS BEAST][1]
+* Đã sửa: Hỗ trợ LLVM/clang [\[Bug #5076\]][2]
+* Đã sửa: Hỗ trợ GCC 4.7 [\[Bug #5851\]][3]
+* các bản sửa lỗi khác
 
-See [tickets][4] and [ChangeLog][5] for details.
+Xem [tickets][4] và [ChangeLog][5] để biết chi tiết.
 
-== Downloads
+== Tải về
 
-NOTE: Repackaged on 2012-02-17 02:04:00 UTC to fix [\[Bug #6040\]][6].
+LƯU Ý: Đã đóng gói lại vào 2012-02-17 02:04:00 UTC để sửa [\[Bug #6040\]][6].
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2][7]
 

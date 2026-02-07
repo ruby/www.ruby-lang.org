@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.4.3 Released"
+title: "Phát hành Ruby 2.4.3"
 author: "nagachika"
 translator:
 date: 2017-12-14 00:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.4.3 has been released.
+Ruby 2.4.3 đã được phát hành.
 
-This release includes some bug fixes and a security fix.
+Phiên bản này bao gồm một số bản sửa lỗi và một bản sửa lỗi bảo mật.
 
-* [CVE-2017-17405: Command injection vulnerability in Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
+* [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 
-There are also some bug fixes.
-See [commit logs](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) for more details.
+Ngoài ra còn có một số bản sửa lỗi khác.
+Xem [nhật ký thay đổi](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.3.tar.bz2>
 
@@ -46,8 +46,8 @@ See [commit logs](https://github.com/ruby/ruby/compare/v2_4_2...v2_4_3) for more
       SHA256: a4cd07af2cef121582b8bf7ec57fb9a916d99556c713538bc4469be68bfc1961
       SHA512: 5e51b4337ee12041925dd6b91df6d0c7fc5bf19846c1c8d5aa43823f5410d1291cd428bdb5245f08a399051d06c2cb59fde73a7d3da379cbbd24f9c2b60fcc8c
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us to make this release.
-Thanks for their contributions.
+Nhiều người đóng góp, nhà phát triển, và người dùng đã cung cấp các báo cáo lỗi
+giúp chúng tôi thực hiện phiên bản phát hành này.
+Cảm ơn những đóng góp của họ.

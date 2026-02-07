@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Arbitrary code execution vulnerabilities"
+title: "Lỗ hổng thực thi mã tùy ý"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-Multiple vulnerabilities in Ruby may lead to a denial of service (DoS)
-condition or allow execution of arbitrary code.
+Nhiều lỗ hổng trong Ruby có thể dẫn đến tình trạng từ chối dịch vụ
+(DoS) hoặc cho phép thực thi mã tùy ý.
 
-## Impact
+## Tác động
 
-With the following vulnerabilities, an attacker can lead to denial of
-service condition or execute arbitrary code.
+Với các lỗ hổng sau, kẻ tấn công có thể gây ra tình trạng từ chối dịch
+vụ hoặc thực thi mã tùy ý.
 
 * [CVE-2008-2662][1]
 * [CVE-2008-2663][2]
@@ -19,21 +19,21 @@ service condition or execute arbitrary code.
 * [CVE-2008-2726][4]
 * [CVE-2008-2664][5]
 
-## Vulnerable versions
+## Các phiên bản bị ảnh hưởng
 
 1.8 series
-: * 1\.8.4 and all prior versions
-  * 1\.8.5-p230 and all prior versions
-  * 1\.8.6-p229 and all prior versions
-  * 1\.8.7-p21 and all prior versions
+: * 1\.8.4 và tất cả các phiên bản trước đó
+  * 1\.8.5-p230 và tất cả các phiên bản trước đó
+  * 1\.8.6-p229 và tất cả các phiên bản trước đó
+  * 1\.8.7-p21 và tất cả các phiên bản trước đó
 
 1.9 series
-: * 1\.9.0-1 and all prior versions
+: * 1\.9.0-1 và tất cả các phiên bản trước đó
 
-## Solution
+## Giải pháp
 
 1.8 series
-: Please upgrade to 1.8.5-p231, or 1.8.6-p230, or 1.8.7-p22.
+: Vui lòng nâng cấp lên 1.8.5-p231, hoặc 1.8.6-p230, hoặc 1.8.7-p22.
 
   * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz&gt;][6]
     (md5sum: e900cf225d55414bffe878f00a85807c)
@@ -43,25 +43,25 @@ service condition or execute arbitrary code.
     (md5sum: fc3ede83a98f48d8cb6de2145f680ef2)
 
 1.9 series
-: Please upgrade to 1.9.0-2.
+: Vui lòng nâng cấp lên 1.9.0-2.
 
   * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.0-2.tar.gz&gt;][9]
     (md5sum: 2a848b81ed1d6393b88eec8aa6173b75)
 
-These versions also fix the vulnerability of WEBrick
+Các phiên bản này cũng sửa lỗ hổng của WEBrick
 ([CVE-2008-1891][10]).
 
-Please note that a package that corrects this weakness may already be
-available through your package management software.
+Xin lưu ý rằng gói sửa lỗi này có thể đã có sẵn qua phần mềm quản lý
+gói của bạn.
 
-## Credit
+## Ghi nhận
 
-Credit to Drew Yao of Apple Product Security for disclosing the problem
-to Ruby Security Team.
+Ghi nhận Drew Yao thuộc Apple Product Security đã tiết lộ vấn đề cho
+Đội An ninh Ruby.
 
-## Changes
+## Thay đổi
 
-* 2008-06-21 00:29 +09:00 removed wrong CVE IDs (CVE-2008-2727,
+* 2008-06-21 00:29 +09:00 đã xóa các CVE ID sai (CVE-2008-2727,
   CVE-2008-2728).
 
 

@@ -1,20 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 1.8.7 has been released"
+title: "Ruby 1.8.7 đã được phát hành"
 author: "james"
 lang: vi
 ---
 
-Akinori MUSHA announced today that Ruby 1.8.7 has been released.
+Akinori MUSHA đã thông báo hôm nay rằng Ruby 1.8.7 đã được phát hành.
 
-The new version of Ruby includes many bug fixes, lots of feature
-enhancements backported from 1.9 and some performance improvements since
-1.8.6 while maintaining stability and backward compatibility with the
-previous release to a high degree. See the bundled documentation for
-details about compatibility issues.
+Phiên bản mới của Ruby bao gồm nhiều sửa lỗi, nhiều cải tiến tính năng
+được chuyển ngược từ 1.9 và một số cải thiện hiệu suất so với 1.8.6
+trong khi vẫn duy trì sự ổn định và tương thích ngược với bản phát hành
+trước ở mức độ cao. Xem tài liệu đi kèm để biết chi tiết về các vấn đề
+tương thích.
 
-The source code package is available in three formats at the following
-locations:
+Gói mã nguồn có sẵn ở ba định dạng tại các địa chỉ sau:
 
 * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2][1]
 * [https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz][2]
@@ -39,9 +38,9 @@ Checksums:
   805987ad167d8f9cac90e4b9342686e96a7708664111be27a3c6d680ce21d6c1
 * SIZE (ruby-1.8.7.zip) = 5851408
 
-For a brief list of user visible changes and a full list of all changes,
-see the bundled files named NEWS and ChangeLog, which are also available
-at the following locations:
+Để xem danh sách ngắn gọn các thay đổi hiển thị cho người dùng và danh
+sách đầy đủ tất cả thay đổi, hãy xem các tệp đi kèm có tên NEWS và
+ChangeLog, cũng có sẵn tại các địa chỉ sau:
 
 * https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
 * https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog

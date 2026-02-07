@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p448 is released"
+title: "Phát hành Ruby 1.9.3-p448"
 author: "usa"
 translator:
 date: 2013-06-27 11:00:02 +0000
 lang: vi
 ---
 
-Now Ruby 1.9.3-p448 is released.
+Ruby 1.9.3-p448 đã được phát hành.
 
-This release includes a security fix about bundled OpenSSL:
+Bản phát hành này bao gồm bản sửa lỗi bảo mật về OpenSSL đi kèm:
 
- * [Hostname check bypassing vulnerability in SSL client
+ * [Lỗ hổng bỏ qua kiểm tra hostname trong SSL client
    (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-And some bugfixes are also included.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) for details.
+Một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.bz2)
 
@@ -38,7 +38,7 @@ and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) 
       MD5:    bb3b1108847abaab312c024f3c0bc6c3
       SHA256: d9f778d08a4c888d19379b09f0c661b1d2af3c062e25b94f647c29350f064cba
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many people (committers, contributors and reporters) helped me to make this release.
-Thank you!
+Nhiều người (committer, người đóng góp và người báo cáo) đã giúp tôi tạo ra
+bản phát hành này. Cảm ơn!

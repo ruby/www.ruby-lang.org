@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "MountainWest Speaker List Posted"
+title: "Danh sách diễn giả MountainWest đã được đăng"
 author: "james"
 lang: vi
 ---
 
-The list of speakers and topics for MountainWest RubyConf has [gone
-up.][1]
+Danh sách diễn giả và chủ đề cho MountainWest RubyConf đã được
+[công bố.][1]
 
-There’s also a nice [social site][2] for the conference as well.
+Cũng có một [trang mạng xã hội][2] cho hội nghị.
 
 
 

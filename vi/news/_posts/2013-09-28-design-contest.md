@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title:  "Design Contest for www.ruby-lang.org"
+title:  "Cuộc thi thiết kế cho www.ruby-lang.org"
 author: "hsbt"
 translator:
 date:   2013-09-28 23:30:00 +0000
-lang:   en
+lang:   vi
 ---
 
-The Ruby Association will be hosting a design contest for the new design of
+Ruby Association sẽ tổ chức một cuộc thi thiết kế cho giao diện mới của
 ruby-lang.org.
 
-ruby-lang.org has switched its platform from Radiant CMS to Jekyll in
-spring 2013. Everyone can now edit the content through GitHub. How about that?
-However, the current design is built for the typical size of a desktop or
-laptop but not for smartphones and tablets. We still need more work for the
-design!
+ruby-lang.org đã chuyển nền tảng từ Radiant CMS sang Jekyll vào mùa xuân
+2013. Giờ đây mọi người đều có thể chỉnh sửa nội dung thông qua GitHub. Thế
+nào? Tuy nhiên, thiết kế hiện tại được xây dựng cho kích thước thông thường
+của desktop hoặc laptop nhưng không phải cho smartphone và tablet. Chúng tôi
+vẫn cần thêm công việc cho thiết kế!
 
-Ruby's 20th anniversary this year seems like an appropriate occasion for
-a call to submit design ideas for ruby-lang.org.
-Please read the [instructions][1] and send your design entry.
+Năm nay là kỷ niệm 20 năm Ruby dường như là dịp thích hợp để kêu gọi gửi ý
+tưởng thiết kế cho ruby-lang.org.
+Vui lòng đọc [hướng dẫn][1] và gửi bản thiết kế của bạn.
 
 [1]: http://www.ruby.or.jp/en/news/20130924.html

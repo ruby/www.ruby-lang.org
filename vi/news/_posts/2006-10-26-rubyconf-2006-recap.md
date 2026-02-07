@@ -1,49 +1,51 @@
 ---
 layout: news_post
-title: "RubyConf 2006 Recap"
+title: "Tổng kết RubyConf 2006"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-Last weekend over 300 Rubyists gathered in Denver, CO to discuss many
-aspects of our favorite language. This was my first conference and I
-must say they are every bit as impressive as you have probably heard.
-The presentations are great, but it’s hard to top talking and hacking
-with with fellow Rubyists between the events. Everyone should experience
-that at least once.
+Cuối tuần trước, hơn 300 lập trình viên Ruby đã tụ họp tại Denver, CO
+để thảo luận về nhiều khía cạnh của ngôn ngữ yêu thích của chúng tôi.
+Đây là hội nghị đầu tiên của tôi và tôi phải nói rằng chúng ấn tượng
+đúng như bạn có thể đã nghe. Các bài thuyết trình rất tuyệt, nhưng khó
+có gì vượt qua việc trò chuyện và lập trình cùng các lập trình viên
+Ruby khác giữa các sự kiện. Mọi người nên trải nghiệm điều đó ít nhất
+một lần.
 
-If there was a theme to this year’s conference, I would have to say it’s
-Ruby implementations. Two presentations focused on alternate Ruby
-implementations and a third challenged us to get our planned m17n
-additions to Ruby just right. Apple dropped in to show their plans for
-Ruby integration in Mac OS X and the first Ruby Implementers Summit was
-held. Koichi brought us up to speed on YARV, which plans are currently
-underway to merge into the core at long last. As a teaser, he even
-showed it running Rails.
+Nếu có một chủ đề cho hội nghị năm nay, tôi phải nói đó là các bản triển
+khai Ruby. Hai bài thuyết trình tập trung vào các bản triển khai Ruby
+thay thế và bài thứ ba thách thức chúng tôi hoàn thiện các bổ sung m17n
+cho Ruby. Apple đã ghé qua để trình bày kế hoạch tích hợp Ruby vào
+Mac OS X và Hội nghị các Nhà triển khai Ruby đầu tiên đã được tổ chức.
+Koichi đã cập nhật cho chúng tôi về YARV, mà các kế hoạch hiện đang
+được tiến hành để cuối cùng hợp nhất vào lõi. Như một phần giới thiệu,
+anh ấy thậm chí còn cho xem nó chạy Rails.
 
-And, of course, Matz answered our questions at the roundtable and shared
-his vision of the future with his keynote address.
+Và, tất nhiên, Matz đã trả lời câu hỏi của chúng tôi tại bàn tròn và
+chia sẻ tầm nhìn về tương lai trong bài phát biểu chính.
 
-Matz opened his keynote by comparing the terms currently used to
-describe Ruby. After casually dismissing scripting language, programming
-language, lightweight language, and dynamic language for various
-reasons, Matz suggested we settle on the term “agile language.”
+Matz mở đầu bài phát biểu chính bằng cách so sánh các thuật ngữ hiện
+đang được sử dụng để mô tả Ruby. Sau khi lần lượt bác bỏ ngôn ngữ kịch
+bản, ngôn ngữ lập trình, ngôn ngữ nhẹ, và ngôn ngữ động vì nhiều lý do
+khác nhau, Matz đề xuất chúng ta chọn thuật ngữ "ngôn ngữ linh hoạt"
+(agile language).
 
-With Ruby defined, Matz proposed we take a step beyond the old Ruby 2.0
-plans, including the RCRchive and his own previous speeches. Matz
-suggested we play a game suggesting enhancements to Ruby and debating
-them as we go. Details on the forum we will use for this are still to
-come.
+Với Ruby đã được định nghĩa, Matz đề xuất chúng ta tiến xa hơn các kế
+hoạch Ruby 2.0 cũ, bao gồm RCRchive và các bài phát biểu trước đây của
+ông. Matz đề xuất chúng ta chơi một trò chơi đề xuất các cải tiến cho
+Ruby và tranh luận khi tiến hành. Chi tiết về diễn đàn mà chúng ta sẽ
+sử dụng cho việc này vẫn đang chờ được công bố.
 
-Finally, Matz announced that Ruby 1.9.1 will release on Christmas of
-2007. This release will represent our first steps into the future of
-Ruby. Ruby 1.8 will remain a stable bastion for those who need to avoid
-incompatible changes.
+Cuối cùng, Matz thông báo rằng Ruby 1.9.1 sẽ được phát hành vào Giáng
+sinh năm 2007. Bản phát hành này sẽ đại diện cho những bước đi đầu tiên
+của chúng ta vào tương lai của Ruby. Ruby 1.8 sẽ vẫn là thành trì ổn
+định cho những ai cần tránh các thay đổi không tương thích.
 
-For more details on the conference, I suggest the following links:
+Để biết thêm chi tiết về hội nghị, tôi đề xuất các liên kết sau:
 
-* [Nick Sieger’s Blog][1]
-* [Kevin Tew’s Blog][2]
+* [Blog của Nick Sieger][1]
+* [Blog của Kevin Tew][2]
 * [TechKnow Zenze][3]
 
 

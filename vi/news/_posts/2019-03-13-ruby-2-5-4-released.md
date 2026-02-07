@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Ruby 2.5.4 Released"
+title: "Phát hành Ruby 2.5.4"
 author: "nagachika"
 translator:
 date: 2019-03-13 11:30:00 +0000
 lang: vi
 ---
 
-Ruby 2.5.4 has been released.
+Ruby 2.5.4 đã được phát hành.
 
-This release includes bug fixes and a security update of the bundled RubyGems.
-See details in [Multiple vulnerabilities in RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
-and the [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
+Bản phát hành này bao gồm các bản sửa lỗi và cập nhật bảo mật cho RubyGems đi kèm.
+Xem chi tiết tại [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2019/03/05/multiple-vulnerabilities-in-rubygems/)
+và [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.4.tar.bz2>
 
@@ -43,8 +43,8 @@ and the [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
       SHA256: 823a6a2c9c7baa18554fd78d430837a01ab33cc16ad1759c9842bdd9523e9cea
       SHA512: a83f90514b09c217fbbd154cfc09c804553353a97cbff7df24185b613e1c7be69a965fe9ec925ac3f4bd6170f2c3d0d60be7ea4ab1037ce64300d7443b6e08e8
 
-## Release Comment
+## Ghi chú phát hành
 
-Many committers, developers, and users who provided bug reports helped
-us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp
+chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

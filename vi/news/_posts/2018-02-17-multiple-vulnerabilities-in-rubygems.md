@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Multiple vulnerabilities in RubyGems"
+title: "Nhiều lỗ hổng bảo mật trong RubyGems"
 author: "usa"
 translator:
 date: 2018-02-17 03:00:00 +0000
@@ -8,54 +8,54 @@ tags: security
 lang: vi
 ---
 
-There are multiple vulnerabilities in RubyGems bundled by Ruby.
-It is [reported at the official blog of RubyGems](http://blog.rubygems.org/2018/02/15/2.7.6-released.html).
+Có nhiều lỗ hổng bảo mật trong RubyGems được đi kèm với Ruby.
+Chúng được [báo cáo trên blog chính thức của RubyGems](http://blog.rubygems.org/2018/02/15/2.7.6-released.html).
 
-## Details
+## Chi tiết
 
-The following vulnerabilities have been reported.
+Các lỗ hổng sau đã được báo cáo.
 
-* Prevent path traversal when writing to a symlinked basedir outside of the root.
-* Fix possible Unsafe Object Deserialization Vulnerability in gem owner.
-* Strictly interpret octal fields in tar headers.
-* Raise a security error when there are duplicate files in a package.
-* Enforce URL validation on spec homepage attribute.
-* Mitigate XSS vulnerability in homepage attribute when displayed via gem server.
-* Prevent Path Traversal issue during gem installation.
+* Ngăn chặn path traversal khi ghi vào một basedir symlink nằm ngoài thư mục gốc.
+* Sửa lỗi có thể xảy ra lỗ hổng Unsafe Object Deserialization trong gem owner.
+* Diễn giải nghiêm ngặt các trường bát phân trong header tar.
+* Đưa ra lỗi bảo mật khi có các tệp trùng lặp trong một package.
+* Bắt buộc xác thực URL trên thuộc tính homepage của spec.
+* Giảm thiểu lỗ hổng XSS trong thuộc tính homepage khi hiển thị qua gem server.
+* Ngăn chặn vấn đề Path Traversal trong quá trình cài đặt gem.
 
-It is strongly recommended for Ruby users to upgrade your Ruby installation or take one of the following workarounds as soon as possible.
+Người dùng Ruby được khuyến nghị mạnh mẽ nên nâng cấp bản cài đặt Ruby hoặc áp dụng một trong các giải pháp tạm thời sau đây càng sớm càng tốt.
 
-## Affected Versions
+## Các phiên bản bị ảnh hưởng
 
-* Ruby 2.2 series: 2.2.9 and earlier
-* Ruby 2.3 series: 2.3.6 and earlier
-* Ruby 2.4 series: 2.4.3 and earlier
-* Ruby 2.5 series: 2.5.0 and earlier
-* prior to trunk revision 62422
+* Ruby dòng 2.2: 2.2.9 trở về trước
+* Ruby dòng 2.3: 2.3.6 trở về trước
+* Ruby dòng 2.4: 2.4.3 trở về trước
+* Ruby dòng 2.5: 2.5.0 trở về trước
+* trước trunk revision 62422
 
-## Workarounds
+## Giải pháp tạm thời
 
-In principle, you should upgrade your Ruby installation to the latest version.
-RubyGems 2.7.6 or later includes the fix for the vulnerabilities, so upgrade RubyGems to the latest version if you can't upgrade Ruby itself.
+Về nguyên tắc, bạn nên nâng cấp bản cài đặt Ruby lên phiên bản mới nhất.
+RubyGems 2.7.6 trở lên đã bao gồm bản sửa lỗi cho các lỗ hổng, vì vậy hãy nâng cấp RubyGems lên phiên bản mới nhất nếu bạn không thể nâng cấp Ruby.
 
 ```
 gem update --system
 ```
 
-If you can't upgrade RubyGems, you can apply the following patches as a workaround.
+Nếu bạn không thể nâng cấp RubyGems, bạn có thể áp dụng các bản vá sau đây như giải pháp tạm thời.
 
-* [for Ruby 2.2.9](https://bugs.ruby-lang.org/attachments/download/7030/rubygems-276-for-ruby22.patch)
-* [for Ruby 2.3.6](https://bugs.ruby-lang.org/attachments/download/7029/rubygems-276-for-ruby23.patch)
-* [for Ruby 2.4.3](https://bugs.ruby-lang.org/attachments/download/7028/rubygems-276-for-ruby24.patch)
-* [for Ruby 2.5.0](https://bugs.ruby-lang.org/attachments/download/7027/rubygems-276-for-ruby25.patch)
+* [cho Ruby 2.2.9](https://bugs.ruby-lang.org/attachments/download/7030/rubygems-276-for-ruby22.patch)
+* [cho Ruby 2.3.6](https://bugs.ruby-lang.org/attachments/download/7029/rubygems-276-for-ruby23.patch)
+* [cho Ruby 2.4.3](https://bugs.ruby-lang.org/attachments/download/7028/rubygems-276-for-ruby24.patch)
+* [cho Ruby 2.5.0](https://bugs.ruby-lang.org/attachments/download/7027/rubygems-276-for-ruby25.patch)
 
-About the trunk, update to the latest revision.
+Về trunk, hãy cập nhật lên revision mới nhất.
 
-## Credits
+## Ghi công
 
-This report is based on [the official blog of RubyGems](http://blog.rubygems.org/2018/02/15/2.7.6-released.html).
+Báo cáo này dựa trên [blog chính thức của RubyGems](http://blog.rubygems.org/2018/02/15/2.7.6-released.html).
 
-## History
+## Lịch sử
 
-* Originally published at 2018-02-17 03:00:00 UTC
-* Mention about upgrading Rubies at 2018-03-29 01:00:00 UTC
+* Công bố lần đầu vào 2018-02-17 03:00:00 UTC
+* Đề cập về việc nâng cấp Ruby vào 2018-03-29 01:00:00 UTC

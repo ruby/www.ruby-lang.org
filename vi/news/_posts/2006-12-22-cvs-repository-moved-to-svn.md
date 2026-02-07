@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "CVS Repository moved to SVN"
+title: "Kho CVS đã chuyển sang SVN"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-We have moved the source code repository to
-[https://svn.ruby-lang.org/repos/ruby/][1]. You can checkout it using the
-svn command, or you can also browse it by [ViewVC][2].
+Chúng tôi đã chuyển kho mã nguồn sang
+[https://svn.ruby-lang.org/repos/ruby/][1]. Bạn có thể checkout bằng
+lệnh svn, hoặc bạn cũng có thể duyệt qua [ViewVC][2].
 
-The new machine for svn.ruby-lang.org is provided by [Sun
-Microsystems][3]. We are using [Solaris 10][4] on the new machine, and
-it works pretty well.
+Máy chủ mới cho svn.ruby-lang.org được cung cấp bởi [Sun
+Microsystems][3]. Chúng tôi đang sử dụng [Solaris 10][4] trên máy chủ
+mới, và nó hoạt động khá tốt.
 
 
 

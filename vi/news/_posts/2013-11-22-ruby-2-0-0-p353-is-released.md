@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p353 is released"
+title: "Phát hành Ruby 2.0.0-p353"
 author: "nagachika"
 translator:
 date: 2013-11-22 03:00:00 +0000
 lang: vi
 ---
 
-Now Ruby 2.0.0-p353 is released.
+Ruby 2.0.0-p353 đã được phát hành.
 
-This release includes a security fix about floating point parsing.
+Bản phát hành này bao gồm bản sửa lỗi bảo mật về phân tích số dấu phẩy động.
 
-* [Heap Overflow in Floating Point Parsing
+* [Tràn Heap trong phân tích số dấu phẩy động
   (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
-And some bugfixes are also included.
-See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) for details.
+Một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
-You can download this release from:
+Bạn có thể tải bản phát hành này từ:
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2)
 
@@ -40,7 +40,7 @@ You can download this release from:
       MD5:    0f8aeb1f1b1cd606ab9790badabd0fb4
       SHA256: 878c9cec05751a4c7019ad255a9e737d0f47ec7188cee1c522545ac7e3bc73a3
 
-## Release Comment
+## Lời nhận xét về bản phát hành
 
-Many committers, testers and users who gave bug reports helped me to
-make this release. Thanks for their contributions.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp tôi tạo
+ra bản phát hành này. Cảm ơn những đóng góp của họ.

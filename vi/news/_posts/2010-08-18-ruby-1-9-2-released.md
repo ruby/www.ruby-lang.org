@@ -1,70 +1,75 @@
 ---
 layout: news_post
-title: "Ruby 1.9.2 is released"
+title: "Ruby 1.9.2 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.2 is released. This is the latest stable version of 1.9 series.
+Ruby 1.9.2 đã được phát hành. Đây là phiên bản ổn định mới nhất của
+dòng 1.9.
 
-### About Ruby 1.9.2
+### Về Ruby 1.9.2
 
-The new 1.9.2 is almost compatible with 1.9.1, except these changes:
+Ruby 1.9.2 mới gần như tương thích với 1.9.1, ngoại trừ các thay đổi
+sau:
 
-* Many new methods
-* New socket API (improved IPv6 support)
-* New encodings
-* New Random class which supports several random numbers generators
-* Time is reimplemented. The bug with year 2038 is fixed.
-* regex improvements
-* $: doesn\'t include the current directory.
-* dl is reimplemented on top of libffi.
-* new psych library wrapping libyaml which can replace syck.
+* Nhiều phương thức mới
+* Socket API mới (hỗ trợ IPv6 cải tiến)
+* Các encoding mới
+* Lớp Random mới hỗ trợ nhiều bộ sinh số ngẫu nhiên
+* Time được triển khai lại. Lỗi năm 2038 đã được sửa.
+* Cải tiến regex
+* $: không còn bao gồm thư mục hiện tại.
+* dl được triển khai lại trên nền libffi.
+* Thư viện psych mới bao bọc libyaml có thể thay thế syck.
 
-See [NEWS][1] and [ChangeLog][2] for more detailed information.
+Xem [NEWS][1] và [ChangeLog][2] để biết thêm thông tin chi tiết.
 
-Ruby 1.9.2 passes more than 99% of [RubySpec][3].
+Ruby 1.9.2 vượt qua hơn 99% [RubySpec][3].
 
-### Supported platforms
+### Các nền tảng được hỗ trợ
 
-Ruby 1.9 supports four levels.
+Ruby 1.9 hỗ trợ bốn cấp độ.
 
-Supported
-: We\'ve checked that Ruby 1.9.2 works well on most of them.
+Được hỗ trợ
+: Chúng tôi đã kiểm tra rằng Ruby 1.9.2 hoạt động tốt trên hầu hết
+  các nền tảng này.
 
   * Debian GNU/Linux 5.0 на IA32.
 
-Efforts made for
-: We\'ve checked that Ruby 1.9.2 works well on most of them.
+Nỗ lực hỗ trợ
+: Chúng tôi đã kiểm tra rằng Ruby 1.9.2 hoạt động tốt trên hầu hết
+  các nền tảng này.
 
   * mswin32, x64-mswin64, mingw32
-  * MacOS X 10.5 (Intel) and 10.6
-  * FreeBSD 6 and later (amd64, IA32)
+  * MacOS X 10.5 (Intel) và 10.6
+  * FreeBSD 6 và mới hơn (amd64, IA32)
   * Solaris 10
   * Symbian OS
 
-Efforts made for
-: We\'ve checked that Ruby 1.9.2 works well on most of them with small
-  modifications. Patches are accepted.
+Nỗ lực hỗ trợ
+: Chúng tôi đã kiểm tra rằng Ruby 1.9.2 hoạt động tốt trên hầu hết
+  các nền tảng này với các sửa đổi nhỏ. Các bản vá được chấp nhận.
 
-  * Other Linux distributions
-  * Other versions of MacOS X.
+  * Các bản phân phối Linux khác
+  * Các phiên bản MacOS X khác.
   * cygwin
   * AIX 5
-  * Other POSIX-compatible systems
+  * Các hệ thống tương thích POSIX khác
   * BeOS (Haiku)
 
 ### FAQ
 
-Standard library is installed in /usr/local/lib/ruby/1.9.1
-: This version is a \"library compatible version.\" Ruby 1.9.2 is almost
-  1.9.1 compatible, so the library is installed in the 1.9.1 directory.
+Thư viện chuẩn được cài đặt trong /usr/local/lib/ruby/1.9.1
+: Phiên bản này là "phiên bản tương thích thư viện." Ruby 1.9.2 gần
+  như tương thích với 1.9.1, nên thư viện được cài đặt trong thư mục
+  1.9.1.
 
-It causes a LoadError
-: `$:` doesn\'t include the current directory. Some script may need
-  modifications to work properly.
+Nó gây ra LoadError
+: `$:` không còn bao gồm thư mục hiện tại. Một số script có thể cần
+  sửa đổi để hoạt động đúng.
 
-### Downloads
+### Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p0.tar.bz2&gt;][4]
   SIZE

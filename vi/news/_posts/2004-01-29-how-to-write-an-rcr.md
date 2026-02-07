@@ -1,13 +1,13 @@
 ---
 layout: news_post
-title: "How to write an RCR"
+title: "Cách viết một RCR"
 author: "Unknown Author"
 lang: vi
 ---
 
-For those interested in submitting a [Ruby Change Request][1], Jim
-Weirich has written an article on [How to write an RCR][2]. Future RCR
-authors should consider it required reading.
+Dành cho những ai muốn gửi [Yêu cầu thay đổi Ruby][1], Jim
+Weirich đã viết một bài viết về [Cách viết một RCR][2]. Các tác giả RCR
+tương lai nên coi đây là tài liệu bắt buộc phải đọc.
 
 
 

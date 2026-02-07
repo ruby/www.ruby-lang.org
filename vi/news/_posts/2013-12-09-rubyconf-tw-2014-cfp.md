@@ -1,31 +1,32 @@
 ---
 layout: news_post
-title: "The RubyConf Taiwan 2014 Call For Proposals is Now Open"
+title: "RubyConf Taiwan 2014 mở nhận đề xuất thuyết trình"
 author: "Juanito Fatas"
 translator:
 date: 2013-12-09 13:40:00 +0000
 lang: vi
 ---
 
-The RubyConf Taiwan 2014 will take place on April 25-26, 2014 in Taipei, Taiwan.
+RubyConf Taiwan 2014 sẽ diễn ra vào ngày 25-26 tháng 4, 2014 tại Đài Bắc,
+Đài Loan.
 
-If you want to give a presentation at RubyConf Taiwan 2014, please submit your
-proposal. Any topics related to Ruby are welcomed.
+Nếu bạn muốn thuyết trình tại RubyConf Taiwan 2014, vui lòng gửi đề xuất
+của bạn. Mọi chủ đề liên quan đến Ruby đều được chào đón.
 
-There are two kinds of presentations:
+Có hai loại thuyết trình:
 
-* Talk (25 minutes),
-* Session (50 minutes).
+* Talk (25 phút),
+* Session (50 phút).
 
-**Proposals will be accepted until January 28, 2014.**
+**Đề xuất sẽ được nhận đến ngày 28 tháng 1, 2014.**
 
-[Please submit your proposal here.][submit-proposal]
+[Vui lòng gửi đề xuất tại đây.][submit-proposal]
 
-If you have any questions, feel free to email:
+Nếu bạn có bất kỳ câu hỏi nào, vui lòng gửi email:
 
 contact@rubyconf.tw
 
-[See RubyConf Taiwan 2014 on Lanyrd.][rubyconf-tw-2014-lanyrd]
+[Xem RubyConf Taiwan 2014 trên Lanyrd.][rubyconf-tw-2014-lanyrd]
 
 [rubyconf-tw-2014-lanyrd]: http://lanyrd.com/2014/rubyconftw/
 [submit-proposal]: https://kktix.com/events/rubyconftw2014-cfp?locale=en

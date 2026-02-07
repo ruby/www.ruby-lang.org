@@ -5,12 +5,12 @@ author: "James Edward Gray II"
 lang: vi
 ---
 
-Registration for [MountainWest RubyConf 2008][1] is now open. This year
-features an expanded [schedule and list of speakers][2].
+Đăng ký [MountainWest RubyConf 2008][1] đã mở. Năm nay có [lịch trình
+và danh sách diễn giả mở rộng][2].
 
-The conference will be in Salt Lake City, Utah, USA, on March 28 and 29,
-2008. [Registration costs just $100][3] and includes lunch both days,
-t-shirt, and more.
+Hội nghị sẽ diễn ra tại Salt Lake City, Utah, Hoa Kỳ, vào ngày 28 và
+29 tháng 3 năm 2008. [Phí đăng ký chỉ $100][3] và bao gồm bữa trưa
+cả hai ngày, áo phông, và nhiều hơn nữa.
 
 
 

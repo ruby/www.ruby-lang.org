@@ -1,54 +1,54 @@
 ---
 layout: news_post
-title: "Ruby 2.5.0-preview1 Released"
+title: "Phát hành Ruby 2.5.0-preview1"
 author: "naruse"
 translator:
 date: 2017-10-10 00:00:00 +0000
 lang: vi
 ---
 
-We are pleased to announce the release of Ruby 2.5.0-preview1.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.5.0-preview1.
 
-Ruby 2.5.0-preview1 is the first preview release toward Ruby 2.5.0.
-It introduces some new features and performance improvements, for example:
+Ruby 2.5.0-preview1 là bản phát hành xem trước đầu tiên hướng tới Ruby 2.5.0.
+Nó giới thiệu một số tính năng mới và cải thiện hiệu suất, ví dụ:
 
-## New Features
+## Tính năng mới
 
-* Print backtrace and error message in reverse order if STDERR is unchanged and a tty.
-  [Feature #8661] [experimental]
+* In backtrace và thông báo lỗi theo thứ tự ngược nếu STDERR không thay đổi và là một tty.
+  [Feature #8661] [thử nghiệm]
 
-* Top-level constant look-up is removed.  [Feature #11547]
+* Loại bỏ tra cứu hằng số cấp cao nhất.  [Feature #11547]
 
-* rescue/else/ensure are allowed inside do/end blocks.  [Feature #12906]
+* rescue/else/ensure được phép sử dụng bên trong các khối do/end.  [Feature #12906]
 
 * yield\_self [Feature #6721]
 
-## Other notable changes since 2.4
+## Các thay đổi đáng chú ý khác kể từ 2.4
 
-* Merge Onigmo to 6.1.1.
-  It adds [absence operator](https://github.com/k-takata/Onigmo/issues/87)
-  Note that Ruby 2.4.1 also includes this change.
-* Merge bundler to standard libraries.
-* Merge rubygems-2.6.13.
-* Merge rdoc-6.0.0.beta2.
-  Change lexer IRB based one to Ripper.
-  It much improves the speed of generating document.
+* Hợp nhất Onigmo lên 6.1.1.
+  Nó thêm [toán tử vắng mặt](https://github.com/k-takata/Onigmo/issues/87)
+  Lưu ý rằng Ruby 2.4.1 cũng bao gồm thay đổi này.
+* Hợp nhất bundler vào thư viện chuẩn.
+* Hợp nhất rubygems-2.6.13.
+* Hợp nhất rdoc-6.0.0.beta2.
+  Thay đổi lexer từ dựa trên IRB sang Ripper.
+  Điều này cải thiện đáng kể tốc độ tạo tài liệu.
   https://github.com/ruby/rdoc/pull/512
-  This also includes
-  * Fix so many bugs in the last dozen years or so
-  * Support new Ruby syntaxes in the last several years
-* Update supported Unicode version to 10.0.0.
+  Điều này cũng bao gồm
+  * Sửa rất nhiều lỗi trong hơn mười năm qua
+  * Hỗ trợ cú pháp Ruby mới trong những năm gần đây
+* Cập nhật phiên bản Unicode được hỗ trợ lên 10.0.0.
 
-See [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_preview1/NEWS)
-or commit logs for details.
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_5_0_preview1/NEWS)
+hoặc nhật ký thay đổi để biết chi tiết.
 
-With those changes,
-[6162 files changed, 339744 insertions(+), 28699 deletions(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
-since Ruby 2.4.0!
+Với những thay đổi đó,
+[6162 tệp đã thay đổi, 339744 dòng thêm(+), 28699 dòng xóa(-)](https://github.com/ruby/ruby/compare/v2_4_0...v2_5_0_preview1)
+kể từ Ruby 2.4.0!
 
-Enjoy Ruby 2.5.0-preview1!
+Hãy tận hưởng Ruby 2.5.0-preview1!
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0-preview1.tar.gz>
 

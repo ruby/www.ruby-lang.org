@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "Ruby 2.2.6 Released"
+title: "Phát hành Ruby 2.2.6"
 author: "usa"
 translator:
 date: 2016-11-15 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.2.6 has been released.
+Ruby 2.2.6 đã được phát hành.
 
-This release includes new SSL certificates for RubyGems.
-And, this also includes about 80 bug fixes after the previous release.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)
-for details.
+Bản phát hành này bao gồm các chứng chỉ SSL mới cho RubyGems.
+Ngoài ra, bản phát hành cũng bao gồm khoảng 80 bản sửa lỗi kể từ bản phát hành trước.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.bz2)
 
@@ -44,10 +44,10 @@ for details.
       SHA256: 71bafc98c0b6f7b70cd79473952060e9b9fc36c8d57ee21c6b775451a16e6f9a
       SHA512: dfce7a0e1c3e3d64490dfad101897e8aaacb6f1c0b193a97a38a4288532ec65464796de898685497ba35f199ed6d8eeaf9bb84d31cab0ea4cfd762466597a840
 
-## Release Comment
+## Ghi chú phát hành
 
-Thanks to everyone who helped with this release.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-The maintenance of Ruby 2.2, including this release,
-is based on the "Agreement for the Ruby stable version" of the
+Việc bảo trì Ruby 2.2, bao gồm bản phát hành này,
+dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của
 [Ruby Association](http://www.ruby.or.jp/).

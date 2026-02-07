@@ -1,23 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 1.8.6 maintenance moved to Engine Yard"
+title: "Việc bảo trì Ruby 1.8.6 đã được chuyển giao cho Engine Yard"
 author: "Urabe Shyouhei"
 lang: vi
 ---
 
-Recently we have a welcome, historic development that the Ruby 1.8.6\'s
-maintenance stewardship moved from me (Urabe Shyouhei) to Kirk Haines of
-Engine Yard.
+Gần đây chúng tôi có một sự phát triển đáng mừng và mang tính lịch sử,
+đó là quyền quản lý bảo trì Ruby 1.8.6 đã được chuyển từ tôi (Urabe
+Shyouhei) sang Kirk Haines của Engine Yard.
 
-Ruby 1.8.6 was released on 2007, and the Ruby core team has provided
-supports such as bug fixes and security alerts since then. As Ruby 1.8.6
-became widely used, users asked us to last those support longer than we
-thought earlier. That was basically OK for us except one thing: who is
-to do that. Engine Yard kindly came forward to do the job, and we have
-worked on moving needed privileges from us to them. This announce is to
-finish that process.
+Ruby 1.8.6 được phát hành vào năm 2007, và đội ngũ Ruby core đã cung
+cấp hỗ trợ như sửa lỗi và cảnh báo bảo mật kể từ đó. Khi Ruby 1.8.6
+được sử dụng rộng rãi, người dùng đã yêu cầu chúng tôi kéo dài hỗ trợ
+lâu hơn so với dự kiến ban đầu. Điều đó về cơ bản là ổn với chúng tôi
+ngoại trừ một điều: ai sẽ làm việc đó. Engine Yard đã tình nguyện đảm
+nhận công việc này, và chúng tôi đã làm việc để chuyển giao các quyền
+cần thiết từ chúng tôi sang họ. Thông báo này là để hoàn tất quá trình
+đó.
 
-This issue do not affect those current Ruby 1.8.6 users in the short
-run. Everything remains as they are. Users\' benefit is that bug fixes
-and improvements for Ruby 1.8.6 lasts longer than we announced before. I
-believe that is what everyone want.
+Vấn đề này không ảnh hưởng đến những người dùng Ruby 1.8.6 hiện tại
+trong ngắn hạn. Mọi thứ vẫn như cũ. Lợi ích của người dùng là việc sửa
+lỗi và cải tiến cho Ruby 1.8.6 sẽ kéo dài lâu hơn so với những gì
+chúng tôi đã thông báo trước đó. Tôi tin rằng đó là điều mọi người mong
+muốn.

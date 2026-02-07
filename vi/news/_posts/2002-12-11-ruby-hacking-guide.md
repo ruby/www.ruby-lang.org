@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "\"Ruby Hacking Guide\" is out though ..."
+title: "\"Ruby Hacking Guide\" đã ra mắt dù rằng ..."
 author: "NaHi"
 lang: vi
 ---
 
 [![RHG](http://direct.ips.co.jp/directsys/Images/Goods/1/1721B.gif){:
-.icon width="70" height="88"}][cover] A book named “Ruby source code Kanzen
-Kaisetsu – Ruby Hacking Guide” by Aoki-san is out though it’s written in
-Japanese…
+.icon width="70" height="88"}][cover] Cuốn sách có tên "Ruby source code Kanzen
+Kaisetsu – Ruby Hacking Guide" của Aoki-san đã ra mắt mặc dù nó được viết bằng
+tiếng Nhật…
 
-It’s a must-buy item for Ruby hacker, who can read Japanese. :(
+Đây là cuốn sách phải mua cho mọi hacker Ruby, những người biết đọc tiếng Nhật. :(
 
-* Publisher: Impress
-* Author: AOKI, Minero under the editorship of MATSUMOTO, Yukihiro
+* Nhà xuất bản: Impress
+* Tác giả: AOKI, Minero dưới sự biên tập của MATSUMOTO, Yukihiro
 * ISBN: 4-8443-1721-0
 
 [cover]: http://direct.ips.co.jp/book/Template/Goods/go_BookstempGR.cfm?GM_ID=1721&amp;SPM_ID=1&amp;CM_ID=004000G20&amp;PM_No=&amp;PM_Class=&amp;HN_NO=00420
 
-I tried to translate the table of contents.
-Bear in mind that it’s an unofficial translation.
+Tôi đã thử dịch mục lục.
+Lưu ý rằng đây là bản dịch không chính thức.
 
     Preface
     i      Target reader

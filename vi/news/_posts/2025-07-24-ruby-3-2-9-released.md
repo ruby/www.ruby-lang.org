@@ -1,27 +1,27 @@
 ---
 layout: news_post
-title: "Ruby 3.2.9 Released"
+title: "Phát hành Ruby 3.2.9"
 author: "hsbt"
 translator:
 date: 2025-07-24 08:51:53 +0000
 lang: vi
 ---
 
-Ruby 3.2.9 has been released.
+Ruby 3.2.9 đã được phát hành.
 
-This release includes the following security fixes:
+Bản phát hành này bao gồm các bản sửa bảo mật sau:
 
-* [CVE-2025-24294: Possible Denial of Service in resolv gem](https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
-* [CVE-2025-43857: DoS vulnerability in net-imap](https://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/)
+* [CVE-2025-24294: Khả năng Từ chối Dịch vụ trong gem resolv](https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
+* [CVE-2025-43857: Lỗ hổng DoS trong net-imap](https://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/)
 
-and the following fixes for build issues:
+và các bản sửa lỗi build sau:
 
 * GCC 15.1
 * Visual Studio 2022 Version 17.14
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_9) for further details.
+Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_9) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "3.2.9" | first %}
 
@@ -46,7 +46,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_2_
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

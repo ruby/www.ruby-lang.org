@@ -1,25 +1,26 @@
 ---
 layout: news_post
-title: "RubyConf India 2014 Call For Proposals and Tickets Now Open!"
+title: "RubyConf India 2014 mở nhận đề xuất thuyết trình và bán vé!"
 author: "Manu S Ajith"
 translator:
 date: 2013-12-14 18:53:33 +0000
 lang: vi
 ---
 
-RubyConf India 2014 will be held in Goa, India on 22-23 March, 2014.
+RubyConf India 2014 sẽ được tổ chức tại Goa, Ấn Độ vào ngày 22-23 tháng 3,
+2014.
 
-If you want to give a presentation at RubyConf India 2014, please submit
-your proposal. The Call For Proposals is open till Dec 31st, 2013.
+Nếu bạn muốn thuyết trình tại RubyConf India 2014, vui lòng gửi đề xuất
+của bạn. Thời hạn nhận đề xuất mở đến ngày 31 tháng 12, 2013.
 
-[Please submit your proposal here][proposals].
+[Vui lòng gửi đề xuất tại đây][proposals].
 
-To book your tickets, visit [here][tickets].
+Để đặt vé, truy cập [tại đây][tickets].
 
-You can get additional information by following us
-on twitter at @rubyconfindia.
+Bạn có thể nhận thêm thông tin bằng cách theo dõi chúng tôi trên twitter tại
+@rubyconfindia.
 
-We hope to see you there!
+Chúng tôi hy vọng gặp bạn ở đó!
 
 
 [proposals]: https://rubyconfindia2014.busyconf.com/proposals/new

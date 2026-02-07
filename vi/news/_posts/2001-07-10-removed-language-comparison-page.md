@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Removed language comparison page"
+title: "Đã gỡ bỏ trang so sánh ngôn ngữ"
 author: "NaHi"
 lang: vi
 ---
 
-Matz decided to remove the page.
+Matz đã quyết định gỡ bỏ trang này.
 
 
 
 
-    "I removed the link to the language comparison page,
-    because there're too many people to take it too serious.
-    It was supposed to be funny."
+    "Tôi đã gỡ bỏ liên kết đến trang so sánh ngôn ngữ,
+    vì có quá nhiều người xem nó quá nghiêm túc.
+    Nó vốn chỉ mang tính hài hước."

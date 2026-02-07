@@ -1,19 +1,19 @@
 ---
 layout: news_post
-title: "Call for Proposals for RubyConf 2009"
+title: "Kêu gọi đề xuất cho RubyConf 2009"
 author: "james"
 lang: vi
 ---
 
-The Call for Proposals for presenting at RubyConf 2009 is now open.
+Lời kêu gọi đề xuất để trình bày tại RubyConf 2009 hiện đã mở.
 
-The deadline for proposals is August 21, 2009.
+Hạn chót cho các đề xuất là ngày 21 tháng 8 năm 2009.
 
-You need to sign up for an account at [rubyconf.org][1], and then you
-can submit your proposal.
+Bạn cần đăng ký tài khoản tại [rubyconf.org][1], sau đó bạn có thể
+gửi đề xuất của mình.
 
-RubyConf 2009 will take place November 19-21 2009, at the Embassy Suites
-Hotel at the San Francisco Airport, California, USA.
+RubyConf 2009 sẽ diễn ra từ ngày 19-21 tháng 11 năm 2009, tại khách
+sạn Embassy Suites tại Sân bay San Francisco, California, Hoa Kỳ.
 
 
 

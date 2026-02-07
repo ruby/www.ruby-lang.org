@@ -1,32 +1,32 @@
 ---
 layout: news_post
-title: "ConFoo 2012: Call for Papers is Now Open!"
+title: "ConFoo 2012: Kêu gọi bài viết đã mở!"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-We are looking for the best speakers willing to share their skills and
-experience with developers and managers.
+Chúng tôi đang tìm kiếm những diễn giả giỏi nhất sẵn sàng chia sẻ kỹ
+năng và kinh nghiệm của mình với các nhà phát triển và quản lý.
 
-This year, ConFoo is dedicated to software development, project
-management and best practices.
+Năm nay, ConFoo dành riêng cho phát triển phần mềm, quản lý dự án và
+các phương pháp tốt nhất.
 
-The technical part covers different aspects of Web development such as:
-Ruby , PHP, Python, .Net, Java, security, content management systems,
-frameworks, databases, system administration, Web standards, mobile
-development, accessibility and software architecture.
+Phần kỹ thuật bao gồm các khía cạnh khác nhau của phát triển Web như:
+Ruby , PHP, Python, .Net, Java, bảo mật, hệ thống quản lý nội dung,
+framework, cơ sở dữ liệu, quản trị hệ thống, tiêu chuẩn Web, phát
+triển di động, khả năng truy cập và kiến trúc phần mềm.
 
-The management and best practices parts includes: project management,
-agile methodology, referencing (SEO), Web marketing analysis, social
-networking, and start-ups.
+Phần quản lý và phương pháp tốt nhất bao gồm: quản lý dự án, phương
+pháp agile, SEO, phân tích marketing Web, mạng xã hội, và startup.
 
-The conference will be held in Montreal from February 29th to March
-2<sup>nd</sup>, 2012 at the prestigious Hotel Hilton Bonaventure and
-will be preceded by a few days of training.
+Hội nghị sẽ được tổ chức tại Montreal từ ngày 29 tháng 2 đến ngày
+2<sup>nd</sup> tháng 3 năm 2012 tại khách sạn danh tiếng Hotel Hilton
+Bonaventure và sẽ có vài ngày đào tạo trước đó.
 
-Talk proposals must received by September 2<sup>nd</sup>, 2011.
+Đề xuất bài nói chuyện phải được nhận trước ngày 2<sup>nd</sup> tháng 9
+năm 2011.
 
-Visit [ConFoo.ca][1] in order to submit a proposal.
+Truy cập [ConFoo.ca][1] để gửi đề xuất.
 
 
 

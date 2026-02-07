@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Ruby logo available"
+title: "Logo Ruby đã có sẵn"
 author: "Shugo Maeda"
 lang: vi
 ---
 
-The official Ruby logo is [available to download][1] under Creative
-Commons Attribution-Share Alike license now. Available formats are
+Logo chính thức của Ruby giờ đã [có sẵn để tải về][1] theo giấy phép
+Creative Commons Attribution-Share Alike. Các định dạng có sẵn là
 Illustrator/SVG/PDF/PNG.
 
 

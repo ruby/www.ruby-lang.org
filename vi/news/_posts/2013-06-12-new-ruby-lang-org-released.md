@@ -1,27 +1,28 @@
 ---
 layout: news_post
-title: "A brand-new ruby-lang.org has been released"
+title: "Trang ruby-lang.org hoàn toàn mới đã được ra mắt"
 author: "Jean-Denis Vauguet"
 translator:
 date: 2013-06-12 12:00:00 +0000
 lang: vi
 ---
 
-On behalf of the Ruby community, we are pleased to announce to you that
-a brand-new ruby-lang.org is now live!
+Thay mặt cộng đồng Ruby, chúng tôi vui mừng thông báo rằng trang
+ruby-lang.org hoàn toàn mới đã chính thức hoạt động!
 
-Ruby's official website has stalled over the years, leading to a situation
-where only a subset of the available languages were actually maintained.
-Still, their content may not even be relevant in the current Ruby ecosystem.
-Something had to be done! A few rubyists thus gathered to build a whole new
-contribution platform, switching from a private CMS to an open process.
+Trang web chính thức của Ruby đã bị trì trệ qua nhiều năm, dẫn đến tình
+trạng chỉ một phần nhỏ các ngôn ngữ có sẵn thực sự được bảo trì. Hơn nữa,
+nội dung của chúng có thể không còn phù hợp trong hệ sinh thái Ruby hiện tại.
+Cần phải làm gì đó! Một số rubyist đã tập hợp lại để xây dựng một nền tảng
+đóng góp hoàn toàn mới, chuyển từ CMS riêng tư sang quy trình mở.
 
-Everyone is now able to edit the content and fix kinks in no time!
-We have set up a git-based process and Jekyll now powers the website:
-visit [https://github.com/ruby/www.ruby-lang.org/wiki][1] to learn more
-about the project and how to contribute.
+Giờ đây mọi người đều có thể chỉnh sửa nội dung và sửa lỗi trong thời gian
+ngắn! Chúng tôi đã thiết lập một quy trình dựa trên git và Jekyll giờ cung
+cấp sức mạnh cho trang web: truy cập
+[https://github.com/ruby/www.ruby-lang.org/wiki][1] để tìm hiểu thêm về dự
+án và cách đóng góp.
 
-We hope to be hearing from you and reviewing your Pull Requests,
+Chúng tôi hy vọng sẽ được nghe từ bạn và xem xét các Pull Request của bạn,
 
 Hal Brodigan (postmodern),<br />
 Jean-Denis Vauguet (chikamichi),<br />

@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "RubyConf 2008 Summary Video"
+title: "Video tổng kết RubyConf 2008"
 author: "James Edward Gray II"
 lang: vi
 ---
 
-While RubyConf fans are waiting on the videos trickle in [Confreaks][1],
-hold yourself over with the [31 minute summary video from Rails
-Envy][2]. It\'s a perfect way to get an overview of what you missed at
-the conference.
+Trong khi các fan RubyConf đang chờ video được tải lên dần trên
+[Confreaks][1], hãy xem [video tổng kết 31 phút từ Rails Envy][2] để
+tạm thời. Đó là cách hoàn hảo để có cái nhìn tổng quan về những gì bạn
+đã bỏ lỡ tại hội nghị.
 
 
 

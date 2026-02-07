@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 2.7.7 Released"
+title: "Phát hành Ruby 2.7.7"
 author: "usa"
 translator:
 date: 2022-11-24 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.7.7 has been released.
+Ruby 2.7.7 đã được phát hành.
 
-This release includes a security fix.
-Please check the topics below for details.
+Bản phát hành này bao gồm bản vá bảo mật.
+Vui lòng xem các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2021-33621: HTTP response splitting in CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
+* [CVE-2021-33621: Tách phản hồi HTTP trong CGI]({%link en/news/_posts/2022-11-22-http-response-splitting-in-cgi-cve-2021-33621.md %})
 
-This release also includes some build problem fixes. They are not considered to affect compatibility with previous versions.
-See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_7) for further details.
+Bản phát hành này cũng bao gồm một số bản sửa lỗi biên dịch. Chúng không được coi là ảnh hưởng đến tính tương thích với các phiên bản trước.
+Xem [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_7) để biết thêm chi tiết.
 
-## Download
+## Tải về
 
 {% assign release = site.data.releases | where: "version", "2.7.7" | first %}
 
@@ -49,7 +49,7 @@ See the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v2_7_7) for 
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## Lời nhắn phát hành
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

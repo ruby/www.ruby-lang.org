@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "Ruby 1.9.1-p430 is released"
+title: "Ruby 1.9.1-p430 đã được phát hành"
 author: "Yugui"
 lang: vi
 ---
 
-Ruby 1.9.1-p430 has been released. This is a security fix for
-CVE-2010-0541. See [the vulnerability report][1] for more details.
+Ruby 1.9.1-p430 đã được phát hành. Đây là bản sửa bảo mật cho
+CVE-2010-0541. Xem [báo cáo lỗ hổng][1] để biết thêm chi tiết.
 
-I recommend all Ruby 1.9.1 users to upgrade the 1.9.1 to p430.
+Tôi khuyến nghị tất cả người dùng Ruby 1.9.1 nâng cấp 1.9.1 lên p430.
 
-### Downloads
+### Tải về
 
 * [&lt;URL:https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p430.tar.bz2&gt;][2]
   SIZE
