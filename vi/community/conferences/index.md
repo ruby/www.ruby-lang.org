@@ -1,42 +1,43 @@
 ---
 layout: page
-title: "Ruby Conferences"
+title: "Các cuộc hội thảo về Ruby"
 lang: vi
 ---
 
-Ruby programmers around the world are getting involved in more and more
-conferences, where they get together to share reports on
-work-in-progress, discuss the future of Ruby, and welcome newcomers to
-the Ruby community.
+Các lập trình viên Ruby trên khắp thế giới đang tham gia ngày càng
+nhiều hội thảo, nơi họ cùng nhau chia sẻ báo cáo về công việc đang
+tiến hành, thảo luận về tương lai của Ruby, và chào đón những người
+mới đến cộng đồng Ruby.
 
-[RubyEvents.org][rc] is a simple list of Ruby-specific conferences,
-published collaboratively with the Ruby community. There you will find
-event dates, location, CFP (Call For Proposals) and Registration information.
+[RubyEvents.org][rc] là một danh sách đơn giản các hội thảo dành riêng
+cho Ruby, được xuất bản với sự cộng tác của cộng đồng Ruby. Tại đó bạn
+sẽ tìm thấy thông tin về ngày tổ chức, địa điểm, CFP (Kêu gọi đề xuất)
+và Đăng ký.
 
 
-### Major Ruby Conferences
+### Các hội thảo Ruby lớn
 
 [RubyConf][1]
-: Every year since 2001, [Ruby Central, Inc.][2] has produced RubyConf,
-  the International Ruby conference. RubyConf has provided a forum for presentations
-  about Ruby technologies by their creators
+: Hàng năm kể từ 2001, [Ruby Central, Inc.][2] đã tổ chức RubyConf,
+  hội thảo Ruby quốc tế. RubyConf đã cung cấp một diễn đàn cho các bài
+  thuyết trình về công nghệ Ruby bởi chính những người tạo ra chúng.
 
 [RubyKaigi][3]
-: The first Japanese Ruby conference, RubyKaigi 2006, took place in
-  Odaiba. RubyKaigi provides many new and exciting talks by Matz and
-  other Rubyists in every year.
+: Hội thảo Ruby đầu tiên tại Nhật Bản, RubyKaigi 2006, được tổ chức
+  tại Odaiba. RubyKaigi mang đến nhiều bài nói chuyện mới mẻ và thú vị
+  bởi Matz và các Rubyist khác mỗi năm.
 
-[EuRuKo <small>(European Ruby Conference)</small>][4]
-: The first annual European Ruby Conference (EuRuKo) was held in
-  Karlsruhe, Germany, in 2003. Organized by a team of German Rubyists
-  including Armin Roehrl and Michael Neumann, EuRuKo emerged as the
-  second annual Ruby event, starting two years after RubyConf.
+[EuRuKo <small>(Hội thảo Ruby Châu Âu)</small>][4]
+: Hội thảo Ruby Châu Âu thường niên đầu tiên (EuRuKo) được tổ chức tại
+  Karlsruhe, Đức, vào năm 2003. Được tổ chức bởi một nhóm Rubyist Đức
+  bao gồm Armin Roehrl và Michael Neumann, EuRuKo nổi lên như sự kiện
+  Ruby thường niên thứ hai, bắt đầu hai năm sau RubyConf.
 
-### Regional Ruby Conferences
+### Các hội thảo Ruby khu vực
 
-An updated list of Regional Ruby Conferences is available at [RubyEvents.org][rc].
+Danh sách cập nhật các Hội thảo Ruby khu vực có sẵn tại [RubyEvents.org][rc].
 
-You can also find the GitHub repository link there to add or update information yourself.
+Bạn cũng có thể tìm liên kết đến kho lưu trữ GitHub ở đó để tự thêm hoặc cập nhật thông tin.
 
 [rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/

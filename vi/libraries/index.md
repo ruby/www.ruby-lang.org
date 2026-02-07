@@ -1,69 +1,68 @@
 ---
 layout: page
-title: "Libraries"
+title: "Thư viện"
 lang: vi
 ---
 
-As with most programming languages, Ruby leverages a wide set of third-party
-libraries.
+Giống như hầu hết các ngôn ngữ lập trình, Ruby tận dụng một bộ thư viện
+bên thứ ba phong phú.
 {: .summary}
 
-Nearly all of these libraries are released in the form of a **gem**,
-a packaged library or application that can be installed with a tool
-called [**RubyGems**][1].
+Hầu như tất cả các thư viện này được phát hành dưới dạng **gem**,
+một thư viện hoặc ứng dụng được đóng gói có thể được cài đặt bằng công cụ
+có tên [**RubyGems**][1].
 
-RubyGems is a Ruby packaging system designed to facilitate the creation,
-sharing and installation of libraries (in some ways, it is a distribution
-packaging system similar to, say, `apt-get`, but targeted at Ruby software).
-Ruby comes with RubyGems by default since version 1.9, previous
-Ruby versions require RubyGems to be [installed by hand][2].
+RubyGems là hệ thống đóng gói Ruby được thiết kế để hỗ trợ việc tạo,
+chia sẻ và cài đặt thư viện (theo một cách nào đó, nó là hệ thống đóng gói
+phân phối tương tự như `apt-get`, nhưng nhắm đến phần mềm Ruby).
+Ruby đi kèm với RubyGems mặc định từ phiên bản 1.9, các phiên bản Ruby
+trước đó cần [cài đặt RubyGems thủ công][2].
 
-Some other libraries are released as archived (.zip or .tar.gz)
-directories of **source code**. Installation processes may vary,
-typically a `README` or `INSTALL` file is available with instructions.
+Một số thư viện khác được phát hành dưới dạng thư mục nén (.zip hoặc .tar.gz)
+chứa **mã nguồn**. Quy trình cài đặt có thể khác nhau,
+thường sẽ có tệp `README` hoặc `INSTALL` kèm hướng dẫn.
 
-Let’s take a look at finding libraries and installing them for your own
-use.
+Hãy cùng tìm hiểu cách tìm kiếm thư viện và cài đặt chúng để sử dụng.
 
-### Finding libraries
+### Tìm kiếm thư viện
 
-The main place where libraries are hosted is [**RubyGems.org**][1], a public
-repository of gems that can be searched and installed onto your machine.
-You may browse and search for gems using the RubyGems website,
-or use the `gem` command.
+Nơi chính để lưu trữ thư viện là [**RubyGems.org**][1], một kho gem công khai
+có thể tìm kiếm và cài đặt vào máy của bạn.
+Bạn có thể duyệt và tìm kiếm gem qua trang web RubyGems,
+hoặc sử dụng lệnh `gem`.
 
-Using `gem search -r`, you can search RubyGems' repository. For
-instance, `gem search -r rails` will return a list of Rails-related
-gems. With the `--local` (`-l`) option, you would perform a local search
-through your installed gems. To install a gem, use `gem install [gem]`.
-Browsing installed gems is done with `gem list`. For more
-information about the `gem` command, see below or head to
-[RubyGems’ docs][3].
+Sử dụng `gem search -r`, bạn có thể tìm kiếm trong kho RubyGems. Ví dụ,
+`gem search -r rails` sẽ trả về danh sách các gem liên quan đến Rails.
+Với tùy chọn `--local` (`-l`), bạn có thể tìm kiếm cục bộ trong các gem
+đã cài đặt. Để cài đặt một gem, sử dụng `gem install [gem]`.
+Xem danh sách gem đã cài đặt bằng `gem list`. Để biết thêm thông tin
+về lệnh `gem`, xem phần bên dưới hoặc truy cập
+[tài liệu RubyGems][3].
 
-There are other sources of libraries though.
-[**GitHub**][5] is the main Ruby-related content repository.
-Most often a gem source code will be hosted on GitHub while being
-published as a fully-fledged gem to RubyGems.org.
+Ngoài ra còn có các nguồn thư viện khác.
+[**GitHub**][5] là kho lưu trữ nội dung liên quan đến Ruby chính.
+Thông thường mã nguồn của gem sẽ được lưu trữ trên GitHub đồng thời
+được phát hành dưới dạng gem đầy đủ trên RubyGems.org.
 
-[**The Ruby Toolbox**][6] is a project that makes it easy to explore open
-source Ruby projects. It has categories for various common development tasks,
-collects a lot of information about the projects like release and commit
-activity or dependencies and rates projects based on their popularity on
-RubyGems.org and GitHub. This makes it easy to find a gem which solves
-a particular problem such as web frameworks, documentation tools and
-code quality libraries.
+[**The Ruby Toolbox**][6] là một dự án giúp dễ dàng khám phá các dự án
+Ruby mã nguồn mở. Nó có các danh mục cho nhiều tác vụ phát triển phổ biến,
+thu thập nhiều thông tin về các dự án như hoạt động phát hành, commit
+hay các phụ thuộc và đánh giá các dự án dựa trên mức độ phổ biến trên
+RubyGems.org và GitHub. Điều này giúp dễ dàng tìm được gem giải quyết
+một vấn đề cụ thể như framework web, công cụ tài liệu và
+thư viện kiểm tra chất lượng mã.
 
-### A few more words about RubyGems
+### Thêm vài điều về RubyGems
 
-Here is a quick review of the `gem` command for your daily use.
-[More detailed documentation][7] is available, covering all aspects
-of this packaging system.
+Dưới đây là tổng quan nhanh về lệnh `gem` cho việc sử dụng hàng ngày.
+[Tài liệu chi tiết hơn][7] có sẵn, bao gồm mọi khía cạnh
+của hệ thống đóng gói này.
 
-#### Searching among available gems
+#### Tìm kiếm trong các gem có sẵn
 
-The **search** command can be used to look for gems, based on a string.
-Gems which names start with the specified string will be listed in return.
-For instance, to search for the “html”-related gems:
+Lệnh **search** có thể được dùng để tìm gem, dựa trên một chuỗi ký tự.
+Các gem có tên bắt đầu bằng chuỗi được chỉ định sẽ được liệt kê.
+Ví dụ, để tìm các gem liên quan đến "html":
 
 {% highlight sh %}
 $ gem search -r html
@@ -73,57 +72,57 @@ $ gem search -r html
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-The `--remote` / `-r` flag indicates that we want to inspect the
-official RubyGems.org repository (default behaviour).
-With the `--local` / `-l` flag you would perform a local search
-among your installed gems.
+Cờ `--remote` / `-r` cho biết rằng chúng ta muốn tìm trong
+kho RubyGems.org chính thức (hành vi mặc định).
+Với cờ `--local` / `-l`, bạn có thể tìm kiếm cục bộ
+trong các gem đã cài đặt.
 
-#### Installing a gem
+#### Cài đặt một gem
 
-Once you know which gem you would like to **install**, for instance the
-popular Ruby on Rails framework:
+Khi bạn đã biết gem nào muốn **cài đặt**, ví dụ framework
+Ruby on Rails phổ biến:
 
 {% highlight sh %}
 $ gem install rails
 {% endhighlight %}
 
-You can even install just a specific version of the library, using the
-`--version` / `-v` flag:
+Bạn thậm chí có thể cài đặt một phiên bản cụ thể của thư viện, sử dụng
+cờ `--version` / `-v`:
 
 {% highlight sh %}
 $ gem install rails --version 5.0
 {% endhighlight %}
 
-#### Listing all gems
+#### Liệt kê tất cả gem
 
-For a **list** of all locally installed gems:
+Để xem **danh sách** tất cả gem đã cài đặt cục bộ:
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-To obtain a (very long) list of all gems available on RubyGems.org:
+Để xem danh sách (rất dài) tất cả gem có sẵn trên RubyGems.org:
 
 {% highlight sh %}
 $ gem list -r
 {% endhighlight %}
 
-#### Help!
+#### Trợ giúp!
 
-Documentation is available inside your terminal:
+Tài liệu hướng dẫn có sẵn ngay trong terminal của bạn:
 
 {% highlight sh %}
 $ gem help
 {% endhighlight %}
 
-For instance, `gem help commands` is very useful as it outputs a list of
-all `gem`’s commands.
+Ví dụ, `gem help commands` rất hữu ích vì nó hiển thị danh sách
+tất cả các lệnh của `gem`.
 
-#### Crafting your own gems
+#### Tạo gem của riêng bạn
 
-RubyGems.org has [several guides][3] about this topic. You may also want
-to investigate [Bundler][9], a generic tool which helps you manage an
-application’s dependencies and may be used along RubyGems.
+RubyGems.org có [một số hướng dẫn][3] về chủ đề này. Bạn cũng có thể
+muốn tìm hiểu [Bundler][9], một công cụ đa năng giúp bạn quản lý
+các phụ thuộc của ứng dụng và có thể sử dụng cùng với RubyGems.
 
 
 

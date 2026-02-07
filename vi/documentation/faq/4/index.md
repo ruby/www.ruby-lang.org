@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,31 +35,31 @@ header: |
 
 {% include faq-notice.md %}
 
-## Variables, constants, and arguments
+## Biến, hằng số và đối số
 
-### Does assignment generate a new copy of an object?
+### Phép gán có tạo ra một bản sao mới của đối tượng không?
 {: #assignment}
 
-All variables and constants reference (point at) some object. (With the
-exception of uninitialized local variables, which reference nothing.
-These raise a `NameError` exception if used). When you assign to a variable,
-or initialize a constant, you set the object that the variable or constant
-references.
+Tất cả các biến và hằng số đều tham chiếu (trỏ đến) một đối tượng nào đó.
+(Ngoại trừ các biến cục bộ chưa được khởi tạo, chúng không tham chiếu đến
+bất kỳ thứ gì. Chúng sẽ phát sinh ngoại lệ `NameError` nếu được sử dụng).
+Khi bạn gán giá trị cho một biến, hoặc khởi tạo một hằng số, bạn đang thiết
+lập đối tượng mà biến hoặc hằng số đó tham chiếu đến.
 
-Assignment on its own therefore never creates a new copy of an object.
+Do đó, bản thân phép gán không bao giờ tạo ra một bản sao mới của đối tượng.
 
-There's a slightly deeper explanation in certain special cases. Instances of
-`Fixnum`, `NilClass`, `TrueClass`, and `FalseClass` are contained directly in
-variables or constants---there is no reference involved. A variable holding
-the number `42` or the constant `true` actually holds the value, and not a
-reference to it. Assignment therefore physically produces a copy of objects
-of these types. We discuss this more in
-[Immediate and Reference Objects](../6/#immediate).
+Có một giải thích sâu hơn một chút trong một số trường hợp đặc biệt. Các
+thể hiện của `Fixnum`, `NilClass`, `TrueClass` và `FalseClass` được chứa trực
+tiếp trong các biến hoặc hằng số---không có tham chiếu nào liên quan. Một biến
+chứa số `42` hoặc hằng số `true` thực sự chứa giá trị đó, chứ không phải là
+một tham chiếu đến nó. Do đó, phép gán về mặt vật lý tạo ra một bản sao của
+các đối tượng thuộc các kiểu này. Chúng tôi thảo luận thêm về điều này trong
+[Đối tượng trực tiếp và đối tượng tham chiếu](../6/#immediate).
 
-### What is the scope of a local variable?
+### Phạm vi của biến cục bộ là gì?
 
-A new scope for a local variable is introduced in (1) the toplevel (main),
-(2) a class (or module) definition, or (3) a method definition.
+Một phạm vi mới cho biến cục bộ được tạo ra trong (1) cấp cao nhất (main),
+(2) định nghĩa lớp (hoặc module), hoặc (3) định nghĩa phương thức.
 
 ~~~
 var = 1         # (1)
@@ -75,7 +75,7 @@ puts "at top level: var = #{var}"
 Demo.new.method
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 in class: var = 2
@@ -83,14 +83,14 @@ at top level: var = 1
 in method: var = 3
 ~~~
 
-(Note that the class definition is executable code: the trace message it
-contains is written as the class is defined).
+(Lưu ý rằng định nghĩa lớp là mã thực thi: thông báo theo dõi mà nó chứa
+được viết ra khi lớp được định nghĩa).
 
-A block (`{ ... }` or `do ... end`) almost introduces a new scope ;-)
-Local variables created within a block are not accessible outside the block.
-However, if a local variable within the block has the same name as an existing
-local variable in the caller's scope, then no new local variable is created,
-and you can subsequently access that variable outside the block.
+Một khối (`{ ... }` hoặc `do ... end`) gần như tạo ra một phạm vi mới ;-)
+Các biến cục bộ được tạo bên trong một khối không thể truy cập được từ bên
+ngoài khối. Tuy nhiên, nếu một biến cục bộ bên trong khối có cùng tên với một
+biến cục bộ hiện có trong phạm vi của trình gọi, thì không có biến cục bộ mới
+nào được tạo ra, và bạn có thể truy cập biến đó từ bên ngoài khối sau đó.
 
 ~~~
 a = 0
@@ -102,8 +102,8 @@ a  # => 6
 # b is not defined here
 ~~~
 
-This becomes significant when you use threading---each thread receives its
-own copy of the variables local to the thread's block:
+Điều này trở nên quan trọng khi bạn sử dụng đa luồng---mỗi luồng nhận được
+bản sao riêng của các biến cục bộ trong khối của luồng đó:
 
 ~~~
 threads = []
@@ -123,8 +123,8 @@ end
 threads.each {|t| t.join }
 ~~~
 
-Might produce (in case the scheduler switches threads as hinted
-by `Thread.pass`; this depends on OS and processor):
+Có thể cho kết quả (trong trường hợp bộ lập lịch chuyển đổi luồng như gợi ý
+bởi `Thread.pass`; điều này phụ thuộc vào hệ điều hành và bộ xử lý):
 
 ~~~
 one: 0
@@ -135,20 +135,21 @@ one: 3
 two: 3
 ~~~
 
-`while`, `until`, and `for` are control structures, not blocks, so local
-variables within them will be accessible in the enclosing environment.
-`loop`, however, is a method and the associated block introduces a new scope.
+`while`, `until` và `for` là các cấu trúc điều khiển, không phải khối, nên
+các biến cục bộ bên trong chúng sẽ có thể truy cập được trong môi trường bao
+ngoài. Tuy nhiên, `loop` là một phương thức và khối đi kèm tạo ra một phạm
+vi mới.
 
-### When does a local variable become accessible?
+### Khi nào biến cục bộ trở nên có thể truy cập được?
 
-Actually, the question may be better asked as: “at what point does Ruby work
-out that something is a variable?” The problem arises because the simple
-expression `a` could be either a variable or a call to a method with no
-parameters. To decide which is the case, Ruby looks for assignment statements.
-If at some point in the source prior to the use of `a` it sees it being
-assigned to, it decides to parse `a` as a variable, otherwise it treats it
-as a method. As a somewhat pathological case of this, consider this code
-fragment, originally submitted by Clemens Hintze:
+Thực ra, câu hỏi có thể được đặt tốt hơn là: "tại thời điểm nào Ruby nhận ra
+rằng một thứ gì đó là biến?" Vấn đề phát sinh vì biểu thức đơn giản `a` có
+thể là biến hoặc lời gọi phương thức không có tham số. Để quyết định trường
+hợp nào, Ruby tìm các câu lệnh gán. Nếu tại một thời điểm nào đó trong mã
+nguồn trước khi sử dụng `a`, Ruby thấy nó được gán giá trị, Ruby quyết định
+phân tích `a` như một biến, nếu không thì xử lý nó như một phương thức.
+Một trường hợp khá bệnh hoạn của điều này, hãy xem đoạn mã sau, ban đầu được
+gửi bởi Clemens Hintze:
 
 ~~~
 def a
@@ -167,7 +168,7 @@ end
 end
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 a = 1
@@ -175,41 +176,41 @@ method `a' called
 a = 99
 ~~~
 
-During the parse, Ruby sees the use of `a` in the first `puts` statement
-and, as it hasn't yet seen any assignment to `a`, assumes that it is a method
-call. By the time it gets to the second `puts` statement, though, it has seen
-an assignment, and so treats `a` as a variable.
+Trong quá trình phân tích cú pháp, Ruby thấy việc sử dụng `a` trong câu lệnh
+`puts` đầu tiên và vì chưa thấy bất kỳ phép gán nào cho `a`, giả định rằng
+đó là một lời gọi phương thức. Khi đến câu lệnh `puts` thứ hai, Ruby đã thấy
+một phép gán, và do đó xử lý `a` như một biến.
 
-Note that the assignment does not have to be executed---Ruby just has to have
-seen it. This program does not raise an error:
+Lưu ý rằng phép gán không cần phải được thực thi---Ruby chỉ cần đã thấy nó.
+Chương trình này không phát sinh lỗi:
 
 ~~~
 a = 1 if false; a  # => nil
 ~~~
 
-This issue with variables is not normally a problem. If you do bump into it,
-try putting an assignment such as `a = nil` before the first access to the
-variable. This has the additional benefit of speeding up the access time to
-local variables that subsequently appear in loops.
+Vấn đề với biến này thường không phải là vấn đề lớn. Nếu bạn gặp phải nó,
+hãy thử đặt một phép gán như `a = nil` trước lần truy cập đầu tiên đến biến.
+Điều này còn có thêm lợi ích là tăng tốc thời gian truy cập biến cục bộ xuất
+hiện sau đó trong các vòng lặp.
 
-### What is the scope of a constant?
+### Phạm vi của hằng số là gì?
 
-A constant defined in a class or module definition can be accessed directly
-within that class's or module's definition.
+Một hằng số được định nghĩa trong định nghĩa lớp hoặc module có thể được truy
+cập trực tiếp bên trong định nghĩa của lớp hoặc module đó.
 
-You can directly access the constants in outer classes and modules from
-within nested classes and modules.
+Bạn có thể truy cập trực tiếp các hằng số trong các lớp và module bên ngoài
+từ bên trong các lớp và module lồng nhau.
 
-You can also directly access constants in superclasses and included modules.
+Bạn cũng có thể truy cập trực tiếp các hằng số trong các lớp cha và các
+module được include.
 
-Apart from these cases, you can access class and module constants using
-the `::` operator, `ModuleName::CONST1` or `ClassName::CONST2`.
+Ngoài các trường hợp này, bạn có thể truy cập các hằng số của lớp và module
+bằng toán tử `::`, `ModuleName::CONST1` hoặc `ClassName::CONST2`.
 
-### How are arguments passed?
+### Đối số được truyền như thế nào?
 
-The actual argument is assigned to the formal argument when the method is
-invoked.
-(See [assignment](#assignment) for more on the semantics of assignment.)
+Đối số thực tế được gán cho tham số hình thức khi phương thức được gọi.
+(Xem [phép gán](#assignment) để biết thêm về ngữ nghĩa của phép gán.)
 
 ~~~
 def add_one(number)
@@ -221,8 +222,8 @@ add_one(a)  # => 2
 a           # => 1
 ~~~
 
-As you are passing object references, it is possible that a method may modify
-the contents of a mutable object passed into it.
+Vì bạn đang truyền tham chiếu đối tượng, nên một phương thức có thể thay đổi
+nội dung của một đối tượng có thể thay đổi được truyền vào nó.
 
 ~~~
 def downer(string)
@@ -234,26 +235,29 @@ downer(a)    # => "hello"
 a            # => "hello"
 ~~~
 
-There is no equivalent of other language's pass-by-reference semantics.
+Không có cơ chế tương đương với ngữ nghĩa truyền theo tham chiếu của các ngôn
+ngữ khác.
 
-### Does assignment to a formal argument influence the actual argument?
+### Gán giá trị cho tham số hình thức có ảnh hưởng đến đối số thực tế không?
 
-A formal argument is a local variable. Within a method, assigning to a formal
-argument simply changes the argument to reference another object.
+Tham số hình thức là một biến cục bộ. Bên trong một phương thức, việc gán giá
+trị cho tham số hình thức chỉ đơn giản là thay đổi tham số đó để tham chiếu
+đến một đối tượng khác.
 
-### What happens when I invoke a method via a formal argument?
+### Điều gì xảy ra khi tôi gọi một phương thức thông qua tham số hình thức?
 
-All Ruby variables (including method arguments) act as references to objects.
-You can invoke methods in these objects to get or change the object's state
-and to make the object do something. You can do this with objects passed to
-methods. You need to be careful when doing this, as these kinds of side
-effects can make programs hard to follow.
+Tất cả các biến Ruby (bao gồm đối số phương thức) đều hoạt động như tham chiếu
+đến các đối tượng. Bạn có thể gọi các phương thức trên các đối tượng này để
+lấy hoặc thay đổi trạng thái của đối tượng và để đối tượng thực hiện một việc
+gì đó. Bạn có thể làm điều này với các đối tượng được truyền vào phương thức.
+Bạn cần cẩn thận khi làm điều này, vì các loại tác dụng phụ này có thể làm
+cho chương trình khó theo dõi.
 
-### What does `*` prepended to an argument mean?
+### Dấu `*` đặt trước đối số có ý nghĩa gì?
 
-When used as part of a formal parameter list, the asterisk allows arbitrary
-numbers of arguments to be passed to a method by collecting them into an
-array, and assigning that array to the starred parameter.
+Khi được sử dụng như một phần của danh sách tham số hình thức, dấu hoa thị cho
+phép truyền số lượng đối số tùy ý cho một phương thức bằng cách thu thập chúng
+vào một mảng và gán mảng đó cho tham số có dấu hoa thị.
 
 ~~~
 def foo(prefix, *all)
@@ -265,7 +269,7 @@ end
 foo("val = ", 1, 2, 3)
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 val = 1
@@ -273,23 +277,23 @@ val = 2
 val = 3
 ~~~
 
-When used in a method call, `*` expands an array, passing its individual
-elements as arguments.
+Khi được sử dụng trong lời gọi phương thức, `*` mở rộng một mảng, truyền các
+phần tử riêng lẻ của nó như các đối số.
 
 ~~~
 a = [1, 2, 3]
 foo(*a)
 ~~~
 
-You can prepend `*` to the last argument of
+Bạn có thể đặt `*` trước đối số cuối cùng của
 
-1. Left hand side of a multiple assignment.
-2. Right hand side of a multiple assignment.
-3. Definition of method formal arguments.
-4. Actual arguments in a method call.
-5. In `when` clause of `case` structure.
+1. Vế trái của phép gán đa trị.
+2. Vế phải của phép gán đa trị.
+3. Định nghĩa tham số hình thức của phương thức.
+4. Đối số thực tế trong lời gọi phương thức.
+5. Trong mệnh đề `when` của cấu trúc `case`.
 
-For example:
+Ví dụ:
 
 ~~~
 x, *y = [7, 8, 9]
@@ -301,15 +305,15 @@ x     = [7, 8, 9]
 x                  # => [7, 8, 9]
 ~~~
 
-### What does `&` prepended to an argument mean?
+### Dấu `&` đặt trước đối số có ý nghĩa gì?
 
-If the last formal argument of a method is preceded with an ampersand (`&`),
-a block following the method call will be converted into a `Proc` object
-and assigned to the formal parameter.
+Nếu tham số hình thức cuối cùng của một phương thức được đặt trước bởi dấu và
+(`&`), một khối theo sau lời gọi phương thức sẽ được chuyển đổi thành đối
+tượng `Proc` và gán cho tham số hình thức đó.
 
-If the last actual argument in a method invocation is a `Proc` object,
-you can precede its name with an ampersand to convert it into a block.
-The method may then use `yield` to call it.
+Nếu đối số thực tế cuối cùng trong lời gọi phương thức là một đối tượng
+`Proc`, bạn có thể đặt dấu và trước tên của nó để chuyển đổi nó thành một
+khối. Phương thức sau đó có thể sử dụng `yield` để gọi nó.
 
 ~~~
 def meth1(&b)
@@ -328,7 +332,7 @@ meth2 {|i| i + i }
 meth2 &square
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 18
@@ -336,7 +340,7 @@ Produces:
 64
 ~~~
 
-### How can I specify a default value for a formal argument?
+### Làm thế nào để chỉ định giá trị mặc định cho tham số hình thức?
 
 ~~~
 def greet(p1="hello", p2="world")
@@ -348,7 +352,7 @@ greet("hi")
 greet("morning", "mom")
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 hello world
@@ -356,26 +360,25 @@ hi world
 morning mom
 ~~~
 
-The default value (which can be an arbitrary expression) is evaluated when
-the method is invoked. It is evaluated using the scope of the method.
+Giá trị mặc định (có thể là một biểu thức tùy ý) được đánh giá khi phương
+thức được gọi. Nó được đánh giá sử dụng phạm vi của phương thức.
 
-### How do I pass arguments to a block?
+### Làm thế nào để truyền đối số cho một khối?
 
-The formal parameters of a block appear between vertical bars at the start
-of the block:
+Các tham số hình thức của một khối xuất hiện giữa các thanh dọc ở đầu khối:
 
 ~~~
 proc {|a, b| a <=> b }
 ~~~
 
-These parameters are actually local variables. If an existing local variable
-of the same name exists when the block executes, that variable will be
-modified by the call to the block. This may or may not be a good thing.
+Các tham số này thực chất là các biến cục bộ. Nếu một biến cục bộ có cùng tên
+đã tồn tại khi khối thực thi, biến đó sẽ bị thay đổi bởi lời gọi khối. Điều
+này có thể là điều tốt hoặc không.
 
-Typically, arguments are passed to a block using `yield` (or an iterator that
-calls `yield`), or by using the `Proc.call` method.
+Thông thường, các đối số được truyền cho một khối bằng `yield` (hoặc một
+iterator gọi `yield`), hoặc bằng phương thức `Proc.call`.
 
-### Why did my object change unexpectedly?
+### Tại sao đối tượng của tôi bị thay đổi bất ngờ?
 
 ~~~
 A = a = b = "abc"
@@ -384,45 +387,46 @@ a              # => "abcd"
 A              # => "abcd"
 ~~~
 
-Variables hold references to objects. The assignment `A = a = b = "abc"` puts
-a reference to the string `"abc"` into `A`, `a`, and `b`.
+Các biến chứa tham chiếu đến đối tượng. Phép gán `A = a = b = "abc"` đặt
+một tham chiếu đến chuỗi `"abc"` vào `A`, `a` và `b`.
 
-When you call `b.concat("d")`, you invoke the concat method on that object,
-changing it from `"abc"` to `"abcd"`. Because `a` and `A` also reference that
-same object, their apparent values change too.
+Khi bạn gọi `b.concat("d")`, bạn gọi phương thức concat trên đối tượng đó,
+thay đổi nó từ `"abc"` thành `"abcd"`. Vì `a` và `A` cũng tham chiếu đến
+cùng đối tượng đó, giá trị biểu kiến của chúng cũng thay đổi.
 
-This is less of a problem in practice than it might appear.
+Điều này ít gặp vấn đề trong thực tế hơn so với những gì có thể tưởng tượng.
 
-In addition, all objects may be frozen, protecting them from change.
+Ngoài ra, tất cả các đối tượng đều có thể được đóng băng, bảo vệ chúng khỏi
+bị thay đổi.
 
-### Does the value of a constant ever change?
+### Giá trị của hằng số có bao giờ thay đổi không?
 
-A constant is a variable whose name starts with an upper case letter.
-Constants may not be reassigned from within instance methods,
-but can otherwise be changed at will.
-When a constant is assigned a new value, a warning is issued.
+Hằng số là một biến có tên bắt đầu bằng chữ cái viết hoa.
+Hằng số không thể được gán lại từ bên trong các phương thức thể hiện,
+nhưng có thể được thay đổi trong các trường hợp khác.
+Khi một hằng số được gán giá trị mới, một cảnh báo sẽ được phát ra.
 
-### Why can't I load variables from a separate file?
+### Tại sao tôi không thể nạp biến từ một tệp riêng biệt?
 
-Say `file1.rb` contains:
+Giả sử `file1.rb` chứa:
 
 ~~~
 var1 = 99
 ~~~
 
-and some other file loads it in:
+và một tệp khác nạp nó vào:
 
 ~~~
 require_relative "file1"
 puts var1
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 prog.rb:2:in `<main>': undefined local variable or method `var1' for main:Object (NameError)
 ~~~
 
-You get an error because `load` and `require` arrange for local variables to
-be stored into a separate, anonymous namespace, effectively discarding them.
-This is designed to protect your code from being polluted.
+Bạn nhận được lỗi vì `load` và `require` sắp xếp cho các biến cục bộ được
+lưu trữ vào một không gian tên riêng biệt, ẩn danh, thực tế là loại bỏ chúng.
+Điều này được thiết kế để bảo vệ mã của bạn khỏi bị ô nhiễm.

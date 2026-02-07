@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,39 +35,39 @@ header: |
 
 {% include faq-notice.md %}
 
-## General questions
+## Câu hỏi chung
 
-### What is Ruby?
+### Ruby là gì?
 
-Ruby is a simple and powerful object-oriented programming language, created by
-Yukihiro Matsumoto (who goes by the handle "Matz" in this document and on the
-mailing lists).
+Ruby là một ngôn ngữ lập trình hướng đối tượng đơn giản và mạnh mẽ, được tạo ra bởi
+Yukihiro Matsumoto (người sử dụng biệt danh "Matz" trong tài liệu này và trên các
+danh sách gửi thư).
 
-Like Perl, Ruby is good at text processing. Like Smalltalk, everything in Ruby
-is an object, and Ruby has blocks, iterators, meta-classes and other good
-stuff.
+Giống như Perl, Ruby rất giỏi trong việc xử lý văn bản. Giống như Smalltalk, mọi thứ
+trong Ruby đều là đối tượng, và Ruby có block, iterator, meta-class cùng nhiều
+tính năng hay khác.
 
-You can use Ruby to write servers, experiment with prototypes, and for
-everyday programming tasks. As a fully-integrated object-oriented language,
-Ruby scales well.
+Bạn có thể sử dụng Ruby để viết server, thử nghiệm với prototype, và cho các
+công việc lập trình hàng ngày. Là một ngôn ngữ hướng đối tượng hoàn chỉnh,
+Ruby có khả năng mở rộng tốt.
 
-Ruby features:
+Các tính năng của Ruby:
 
-* Simple syntax,
-* Basic OO features (classes, methods, objects, and so on),
-* Special OO features (mixins, singleton methods, renaming, and so on),
-* Operator overloading,
-* Exception handling,
-* Iterators and closures,
-* Garbage collection,
-* Dynamic loading (depending on the architecture),
-* High transportability (runs on various Unices, Windows, DOS, macOS, OS/2,
-  Amiga, and so on).
+* Cú pháp đơn giản,
+* Các tính năng OO cơ bản (lớp, phương thức, đối tượng, v.v.),
+* Các tính năng OO đặc biệt (mixin, phương thức singleton, đổi tên, v.v.),
+* Nạp chồng toán tử,
+* Xử lý ngoại lệ,
+* Iterator và closure,
+* Bộ thu gom rác,
+* Nạp động (tùy thuộc vào kiến trúc),
+* Tính di động cao (chạy trên nhiều hệ Unix, Windows, DOS, macOS, OS/2,
+  Amiga, v.v.).
 
-### Show me some Ruby code!
+### Cho tôi xem một đoạn mã Ruby!
 
-Let's define a class called `Person`, with a name and an age. We'll test our
-code by creating a few people and examining them.
+Hãy định nghĩa một lớp gọi là `Person`, với tên và tuổi. Chúng ta sẽ kiểm tra
+mã bằng cách tạo vài người và xem thông tin của họ.
 
 ~~~
 class Person
@@ -90,8 +90,8 @@ p1  # => Elmo (4)
 p2  # => Zoe (7)
 ~~~
 
-Now let's populate an array of people by reading their names and ages from a
-file `ages` containing lines like:
+Bây giờ hãy tạo một mảng các người bằng cách đọc tên và tuổi của họ từ một
+tệp `ages` chứa các dòng như sau:
 
 ~~~
 Bert:    8
@@ -101,9 +101,9 @@ Ernie:   8
 Zoe:     7
 ~~~
 
-The code uses regular expressions to parse successive lines from the input
-file, creating a new `Person` object for each match and pushing it onto the
-end of the array `people`.
+Đoạn mã sử dụng biểu thức chính quy để phân tích các dòng liên tiếp từ tệp
+đầu vào, tạo một đối tượng `Person` mới cho mỗi kết quả khớp và đẩy nó vào
+cuối mảng `people`.
 
 ~~~
 people = Array.new
@@ -115,16 +115,16 @@ end
 people  # => [Bert (8), Cookie (11), Elmo (4), Ernie (8), Zoe (7)]
 ~~~
 
-Now, let's sort the result based on the person's age. There are many ways to
-do this. We can define a sort block, which tells Ruby how to do the comparison
-of two people:
+Bây giờ, hãy sắp xếp kết quả theo tuổi của từng người. Có nhiều cách để
+làm điều này. Chúng ta có thể định nghĩa một block sắp xếp, cho Ruby biết
+cách so sánh hai người:
 
 ~~~
 sorted = people.sort {|a, b| a.age <=> b.age }
 sorted  # => [Elmo (4), Zoe (7), Bert (8), Ernie (8), Cookie (11)]
 ~~~
 
-Another way would be to change the comparison method for class `Person`:
+Một cách khác là thay đổi phương thức so sánh cho lớp `Person`:
 
 ~~~
 class Person
@@ -135,164 +135,164 @@ end
 people.sort  # => [Elmo (4), Zoe (7), Bert (8), Ernie (8), Cookie (11)]
 ~~~
 
-### Why the name “Ruby”?
+### Tại sao có tên "Ruby"?
 
-Influenced by Perl, Matz wanted to use a jewel name for his new language, so
-he named Ruby after a colleague's birthstone.
+Chịu ảnh hưởng từ Perl, Matz muốn dùng tên một loại đá quý cho ngôn ngữ mới
+của mình, nên ông đặt tên Ruby theo đá quý tượng trưng cho tháng sinh nhật của
+một đồng nghiệp.
 
-Later, he realized that Ruby comes right after Perl in several situations.
-In birthstones, pearl is June, ruby is July. When measuring font sizes,
-pearl is 5pt, ruby is 5.5pt. He thought Ruby was a good name for a
-programming language newer (and hopefully better) than Perl.
+Sau đó, ông nhận ra rằng Ruby đứng ngay sau Perl trong nhiều trường hợp.
+Trong các đá quý theo tháng sinh, pearl (ngọc trai) là tháng Sáu, ruby (hồng ngọc)
+là tháng Bảy. Khi đo kích cỡ phông chữ, pearl là 5pt, ruby là 5.5pt. Ông nghĩ
+Ruby là một cái tên hay cho một ngôn ngữ lập trình mới hơn (và hy vọng là tốt hơn)
+so với Perl.
 
-(Based on an explanation from Matz in [\[ruby-talk:00394\]][ruby-talk:00394]
-on June 11, 1999.)
+(Dựa trên lời giải thích của Matz trong [\[ruby-talk:00394\]][ruby-talk:00394]
+vào ngày 11 tháng 6 năm 1999.)
 
 [ruby-talk:00394]: https://blade.ruby-lang.org/ruby-talk/394
 
-### What is the history of Ruby?
+### Lịch sử của Ruby là gì?
 
-The following is a summary of a posting made by Matz in
-[\[ruby-talk:00382\]][ruby-talk:00382] on June 4, 1999.
-(The birthday of Ruby has been corrected in
+Sau đây là tóm tắt một bài đăng của Matz trong
+[\[ruby-talk:00382\]][ruby-talk:00382] vào ngày 4 tháng 6 năm 1999.
+(Ngày sinh của Ruby đã được sửa lại trong
 [\[ruby-list:15977\]][ruby-list:15977].)
 
-> Well, Ruby was born on February 24, 1993. I was talking with my colleague
-> about the possibility of an object-oriented scripting language. I knew Perl
-> (Perl4, not Perl5), but I didn't like it really, because it had the smell of
-> a toy language (it still has). The object-oriented scripting language seemed
-> very promising.
+> Ruby ra đời vào ngày 24 tháng 2 năm 1993. Tôi đang nói chuyện với đồng nghiệp
+> về khả năng của một ngôn ngữ kịch bản hướng đối tượng. Tôi biết Perl
+> (Perl4, không phải Perl5), nhưng tôi không thực sự thích nó, vì nó có mùi vị
+> của một ngôn ngữ đồ chơi (và vẫn vậy). Ngôn ngữ kịch bản hướng đối tượng có vẻ
+> rất hứa hẹn.
 
-> I knew Python then. But I didn't like it, because I didn't think it was a
-> true object-oriented language---OO features appeared to be an add-on to the
-> language. As a language manic and OO fan for 15 years, I really wanted a
-> genuine object-oriented, easy-to-use scripting language. I looked for, but
-> couldn't find one.
+> Lúc đó tôi biết Python. Nhưng tôi không thích nó, vì tôi không nghĩ nó là một
+> ngôn ngữ hướng đối tượng thực sự---các tính năng OO có vẻ như được gắn thêm vào
+> ngôn ngữ. Là một người đam mê ngôn ngữ và fan OO suốt 15 năm, tôi thực sự muốn
+> một ngôn ngữ kịch bản hướng đối tượng thực thụ, dễ sử dụng. Tôi đã tìm kiếm,
+> nhưng không tìm thấy.
 
-> So, I decided to make it. It took several months to make the interpreter
-> run. I put into it the features I love to have in my language, such as
-> iterators, exception handling, garbage collection.
+> Vì vậy, tôi quyết định tự tạo ra nó. Phải mất vài tháng để trình thông dịch
+> chạy được. Tôi đưa vào đó các tính năng mà tôi thích có trong ngôn ngữ của mình,
+> như iterator, xử lý ngoại lệ, thu gom rác.
 
-> Then, I reorganized the features of Perl into a class library, and
-> implemented them. I posted Ruby 0.95 to the Japanese domestic newsgroups
-> in Dec. 1995.
+> Sau đó, tôi tổ chức lại các tính năng của Perl thành một thư viện lớp, và
+> triển khai chúng. Tôi đã đăng Ruby 0.95 lên các nhóm tin trong nước Nhật Bản
+> vào tháng 12 năm 1995.
 
-> Since then, highly active mailing lists have been established and
-> web pages formed.
+> Kể từ đó, các danh sách gửi thư rất sôi nổi đã được thiết lập và
+> các trang web được hình thành.
 
 [ruby-talk:00382]: https://blade.ruby-lang.org/ruby-talk/382
 [ruby-list:15977]: https://blade.ruby-lang.org/ruby-list/15977
 
-### Where is the Ruby Home Page?
+### Trang chủ Ruby ở đâu?
 
-The official Ruby Home Page is [www.ruby-lang.org](https://www.ruby-lang.org).
-Besides the English and Japanese versions, there exist translations
-into various other languages.
+Trang chủ chính thức của Ruby là [www.ruby-lang.org](https://www.ruby-lang.org).
+Ngoài phiên bản tiếng Anh và tiếng Nhật, còn có các bản dịch
+sang nhiều ngôn ngữ khác.
 
-Good starting points for finding Ruby information are the
-[Documentation](/en/documentation/) and [Community](/en/community/)
-pages.
+Các điểm khởi đầu tốt để tìm thông tin về Ruby là các trang
+[Tài liệu](/vi/documentation/) và [Cộng đồng](/vi/community/).
 
-### Is there a Ruby newsgroup?
+### Có nhóm tin Ruby không?
 
-comp.lang.ruby was established in May, 2000 (thanks to the efforts of
+comp.lang.ruby được thành lập vào tháng 5 năm 2000 (nhờ nỗ lực của
 [Conrad Schneiker](mailto:schneiker@jump.net)).
 
-### Is there a Ruby mailing list?
+### Có danh sách gửi thư Ruby không?
 
-There are several mailing lists talking about Ruby. See the
-[Mailing Lists](/en/community/mailing-lists/)
-page for more information.
+Có nhiều danh sách gửi thư thảo luận về Ruby. Xem trang
+[Danh sách gửi thư](/vi/community/mailing-lists/)
+để biết thêm thông tin.
 
-You can search the mailing list archives using
+Bạn có thể tìm kiếm kho lưu trữ danh sách gửi thư tại
 [https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/](https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/).
-(This is the URL for the ruby-talk list, munge as required for the others).
+(Đây là URL cho danh sách ruby-talk, hãy thay đổi tương ứng cho các danh sách khác).
 
-### How can I thread the mailing list in mutt?
+### Làm thế nào để phân luồng danh sách gửi thư trong mutt?
 
 {% include warnings/faq-out-of-date.html %}
 
-For some of the Ruby mailing lists, the mailing list software adds a prefix
-to the subject lines, for example `ruby-core:1234`. This can confuse the
-threading in some mail user agents.
+Đối với một số danh sách gửi thư Ruby, phần mềm danh sách gửi thư thêm tiền tố
+vào dòng chủ đề, ví dụ `ruby-core:1234`. Điều này có thể làm rối việc phân luồng
+trong một số ứng dụng đọc thư.
 
-In mutt, you can get threading to work using the following variable setting.
+Trong mutt, bạn có thể làm cho việc phân luồng hoạt động bằng cách thiết lập biến
+sau đây.
 
 ~~~
 # reply regexp, to support MLs like ruby-talk.
 set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]]*"
 ~~~
 
-### Which is correct, “Ruby” or “ruby”?
+### Cái nào đúng, "Ruby" hay "ruby"?
 
-Officially, the language is called “Ruby”. On most systems, it is invoked
-using the command `ruby`. It's OK to use “ruby” instead of “Ruby”.
+Về mặt chính thức, ngôn ngữ được gọi là "Ruby". Trên hầu hết các hệ thống, nó
+được gọi bằng lệnh `ruby`. Bạn có thể dùng "ruby" thay cho "Ruby".
 
-Please don't use “RUBY” as the language name.
+Xin đừng dùng "RUBY" làm tên ngôn ngữ.
 
-Originally, or historically, it was called “ruby”.
+Ban đầu, hay theo lịch sử, nó được gọi là "ruby".
 
-### Are there any Ruby books?
+### Có sách nào về Ruby không?
 
 {% include warnings/faq-out-of-date.html %}
 
 * Programming Ruby: The Pragmatic Programmer's Guide,
-  (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7,
-  Addison-Wesley, October 2000.
+  (the Pickaxe Book) của David Thomas và Andrew Hunt: ISBN 0-20171-089-7,
+  Addison-Wesley, tháng 10 năm 2000.
 
-* A Japanese language Ruby reference book by Matz et al. and published by
-  ASCII is available in Japan (ISBN 4-7561-3254-5). An English translation,
-  “The Ruby Programming Language”, is available from O'Reilly & Associates
+* Một cuốn sách tham khảo Ruby bằng tiếng Nhật của Matz và cộng sự, được xuất bản
+  bởi ASCII, có sẵn tại Nhật Bản (ISBN 4-7561-3254-5). Bản dịch tiếng Anh,
+  "The Ruby Programming Language", có sẵn từ O'Reilly & Associates
   (ISBN 978-0596516178).
 
-* A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
-  (ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
-  translation.
+* Một cuốn "Ruby Pocket Reference" bằng tiếng Nhật được xuất bản bởi O'Reilly Japan
+  (ISBN 4-87311-023-8). Hãy cho O'Reilly tại Mỹ biết nếu bạn muốn thấy bản dịch.
 
-* In addition, “Mastering Regular Expressions”, by Jeffrey Friedl,
-  (the Hip Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates,
-  is a reference work that covers the art and implementation of regular
-  expressions in various programming languages. Most of it is highly
-  relevant to Ruby regular expressions.
+* Ngoài ra, "Mastering Regular Expressions" của Jeffrey Friedl,
+  (the Hip Owl Book): ISBN 1-56592-257-3 từ O'Reilly & Associates,
+  là tài liệu tham khảo bao quát nghệ thuật và cách triển khai biểu thức
+  chính quy trong nhiều ngôn ngữ lập trình. Phần lớn nội dung rất liên quan
+  đến biểu thức chính quy trong Ruby.
 
-### Which editors provide support for Ruby?
+### Trình soạn thảo nào hỗ trợ Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
 * [Emacs](http://www.gnu.org/software/emacs/emacs.html)
-  or [XEmacs](http://www.xemacs.org/): `ruby-mode.el` is supplied in the Ruby
-  distribution. With some versions of XEmacs, you may need to add
-  `(load "font-lock")` to your `.emacs` file to allow `ruby-mode.el` to detect
-  the syntax highlighting package you are using.
-* [Vim](http://www.vim.org/): Vim 5.7 and later have Ruby syntax files as
-  standard in the runtime package. For prior versions, a syntax file for Ruby
-  is available at
+  hoặc [XEmacs](http://www.xemacs.org/): `ruby-mode.el` được cung cấp kèm trong bản
+  phân phối Ruby. Với một số phiên bản XEmacs, bạn có thể cần thêm
+  `(load "font-lock")` vào tệp `.emacs` để cho phép `ruby-mode.el` nhận diện
+  gói tô sáng cú pháp mà bạn đang sử dụng.
+* [Vim](http://www.vim.org/): Vim 5.7 trở lên có sẵn tệp cú pháp Ruby trong gói
+  runtime. Với các phiên bản trước đó, tệp cú pháp cho Ruby có tại
   [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim).
-* [Jedit](http://jedit.sourceforge.net/): A portable editor written in Java,
-  comes with support for Ruby.
-* [Nedit](http://www.nedit.org): Eric Santonacci has written Ruby support for
-  Nedit, available from
+* [Jedit](http://jedit.sourceforge.net/): Trình soạn thảo di động viết bằng Java,
+  có hỗ trợ Ruby.
+* [Nedit](http://www.nedit.org): Eric Santonacci đã viết hỗ trợ Ruby cho
+  Nedit, có tại
   [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz).
-* Barry Shultz has written a Ruby definition file for TextPad, available at
+* Barry Shultz đã viết tệp định nghĩa Ruby cho TextPad, có tại
   [https://www.textpad.com/add-ons/synn2t.html](https://www.textpad.com/add-ons/synn2t.html).
 
-### How can I annotate Ruby code with its results?
+### Làm thế nào để chú thích mã Ruby bằng kết quả của nó?
 
 {% include warnings/faq-out-of-date.html %}
 
-People commonly annotate Ruby code by showing the results of executing each
-statement as a comment attached to that statement. For example, in the
-following code, we show that the assignment generates the string "Billy Bob",
-and then the result of extracting some substrings.
+Mọi người thường chú thích mã Ruby bằng cách hiển thị kết quả thực thi của mỗi
+câu lệnh dưới dạng comment gắn với câu lệnh đó. Ví dụ, trong đoạn mã
+sau đây, chúng ta cho thấy phép gán tạo ra chuỗi "Billy Bob",
+và sau đó là kết quả trích xuất một số chuỗi con.
 
 ~~~
 str = "Billy" + " Bob"           # => "Billy Bob"
 str[0,1] + str[2,1] + str[-2,2]  # => "Blob"
 ~~~
 
-Emacs and vim users can integrate this with their editing environments, which
-is useful if you want to send people e-mail with annotated Ruby code. Having
-installed `xmp`, Emacs users can add the following to their `.emacs` file:
+Người dùng Emacs và vim có thể tích hợp điều này vào môi trường soạn thảo của họ,
+rất hữu ích nếu bạn muốn gửi email cho người khác kèm mã Ruby có chú thích. Sau khi
+cài đặt `xmp`, người dùng Emacs có thể thêm đoạn sau vào tệp `.emacs`:
 
 ~~~
 (defun ruby-xmp-region (reg-start reg-end)
@@ -305,36 +305,34 @@ installed `xmp`, Emacs users can add the following to their `.emacs` file:
 (global-set-key [(meta f10)] 'ruby-xmp-region)
 ~~~
 
-Vim users can use the mapping (thanks to hipster):
+Người dùng Vim có thể sử dụng mapping sau (cảm ơn hipster):
 
 ~~~
 map <M-F10> :!ruby -r xmp -n -e 'xmp($_, "\%l\t\t\# \%r\n")'<CR>
 ~~~
 
-In both cases, highlight a region of code and hit Meta-F10 to annotate it.
+Trong cả hai trường hợp, hãy chọn một vùng mã và nhấn Meta-F10 để chú thích nó.
 
-### I can't understand Ruby even after reading the manual!
+### Tôi không hiểu Ruby dù đã đọc tài liệu hướng dẫn!
 
 {% include warnings/faq-out-of-date.html %}
 
-The syntax of Ruby has been fairly stable since Ruby 1.0, but new features are
-added every now and then. So, the books and the online documentation can get
-behind.
+Cú pháp của Ruby khá ổn định kể từ Ruby 1.0, nhưng các tính năng mới được
+thêm vào thỉnh thoảng. Vì vậy, sách và tài liệu trực tuyến có thể bị lạc hậu.
 
-If you have a problem, feel free to ask in the mailing list
-(see the [Mailing Lists page](/en/community/mailing-lists/)).
-Generally you'll get timely answers from Matz himself, the
-author of the language, from other gurus, and from those who have solved
-problems similar to your own.
+Nếu bạn gặp vấn đề, hãy thoải mái hỏi trên danh sách gửi thư
+(xem [trang Danh sách gửi thư](/vi/community/mailing-lists/)).
+Thông thường bạn sẽ nhận được câu trả lời kịp thời từ chính Matz,
+tác giả của ngôn ngữ, từ các chuyên gia khác, và từ những người đã giải quyết
+các vấn đề tương tự như của bạn.
 
-Please include the output of `ruby -v` along with any problematic
-source code.
+Xin hãy kèm theo kết quả của `ruby -v` cùng với mã nguồn gặp vấn đề.
 
-If you have a problem using [`irb`](../10/#irb),
-be aware that it has some limitations.
-Try the script using `irb --single-irb`, or directly using the
-`ruby` command.
+Nếu bạn gặp vấn đề khi sử dụng [`irb`](../10/#irb),
+hãy lưu ý rằng nó có một số hạn chế.
+Hãy thử chạy script bằng `irb --single-irb`, hoặc trực tiếp bằng
+lệnh `ruby`.
 
-There might be similar questions in the mailing list, and it is good
-netiquette to read through recent mails (RFC1855:3.1.1, 3.1.2) before asking.
-But do ask on the list, and a correct answer will be forthcoming.
+Có thể đã có các câu hỏi tương tự trên danh sách gửi thư, và đọc qua các email
+gần đây là phép lịch sự trên mạng (RFC1855:3.1.1, 3.1.2) trước khi hỏi.
+Nhưng hãy cứ hỏi trên danh sách, và câu trả lời chính xác sẽ sớm đến.

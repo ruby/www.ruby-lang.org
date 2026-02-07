@@ -1,22 +1,23 @@
 ---
 layout: page
-title: "The Ruby Community Conduct Guideline"
+title: "Quy tắc ứng xử của Cộng đồng Ruby"
 lang: vi
 ---
 
-We have picked the following conduct guideline based on an early proposed draft
-of the PostgreSQL CoC, for Ruby developers community for safe, productive
-collaboration.
-Each Ruby related community (conference etc.) may pick their own Code of Conduct.
+Chúng tôi đã chọn hướng dẫn ứng xử sau đây dựa trên bản nháp đề xuất ban đầu
+của Quy tắc ứng xử PostgreSQL, dành cho cộng đồng nhà phát triển Ruby nhằm đảm
+bảo sự cộng tác an toàn và hiệu quả.
+Mỗi cộng đồng liên quan đến Ruby (hội nghị, v.v.) có thể chọn Quy tắc ứng xử
+riêng của mình.
 {: .summary}
 
-This document provides community guidelines for a safe, respectful, productive,
-and collaborative place for any person who is willing to contribute to the Ruby
-community. It applies to all "collaborative space", which is defined as
-community communications channels (such as mailing lists, submitted patches,
-commit comments, etc.).
+Tài liệu này cung cấp các hướng dẫn cộng đồng nhằm tạo một môi trường an toàn,
+tôn trọng, hiệu quả và hợp tác cho bất kỳ ai sẵn lòng đóng góp cho cộng đồng
+Ruby. Tài liệu này áp dụng cho tất cả "không gian cộng tác", được định nghĩa là
+các kênh giao tiếp cộng đồng (như danh sách gửi thư, bản vá được gửi, bình luận
+commit, v.v.).
 
- * Participants will be tolerant of opposing views.
- * Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.
- * When interpreting the words and actions of others, participants should always assume good intentions.
- * Behaviour which can be reasonably considered harassment will not be tolerated.
+ * Các thành viên tham gia sẽ khoan dung với các quan điểm đối lập.
+ * Các thành viên tham gia phải đảm bảo rằng ngôn ngữ và hành động của họ không chứa các cuộc tấn công cá nhân và những nhận xét cá nhân mang tính xúc phạm.
+ * Khi diễn giải lời nói và hành động của người khác, các thành viên tham gia nên luôn giả định thiện ý.
+ * Hành vi có thể được coi là quấy rối một cách hợp lý sẽ không được dung thứ.

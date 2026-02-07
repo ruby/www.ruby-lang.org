@@ -1,43 +1,46 @@
 ---
 layout: page
-title: "User Groups"
+title: "Các nhóm người dùng"
 lang: vi
 ---
 
-In the programming community, user groups form support networks for
-people interested in certain topics. They are a great place to increase
-your skills and network with other programmers. User groups are informal
-and their structure varies from group to group. Anyone can form their
-own group and set their own rules and schedule
+Trong cộng đồng lập trình, các nhóm người dùng tạo thành mạng lưới
+hỗ trợ cho những người quan tâm đến các chủ đề nhất định. Chúng là nơi
+tuyệt vời để nâng cao kỹ năng và kết nối với các lập trình viên khác.
+Các nhóm người dùng mang tính tự phát và cấu trúc của chúng khác nhau
+giữa các nhóm. Bất kỳ ai cũng có thể thành lập nhóm riêng và đặt quy
+tắc cùng lịch trình của mình.
 {: .summary}
 
-### Ruby User Groups
+### Nhóm người dùng Ruby
 
-If you want to get together with other Ruby programmers, a local user
-group may be just the thing. Ruby user groups are entirely devoted to
-Ruby. They typically feature monthly meetings, a mailing list, a website,
-and if you're lucky, frequent hacking sessions (meetings devoted
-to giving people a chance to write Ruby code).
+Nếu bạn muốn gặp gỡ các lập trình viên Ruby khác, một nhóm người dùng
+tại địa phương có thể là thứ bạn cần. Các nhóm người dùng Ruby hoàn
+toàn dành riêng cho Ruby. Họ thường có các buổi gặp mặt hàng tháng,
+hộp thư chung, trang web, và nếu bạn may mắn, các buổi lập trình
+thường xuyên (các buổi gặp dành cho mọi người cơ hội viết mã Ruby).
 
-Information about Ruby user groups can be found on various websites:
+Thông tin về các nhóm người dùng Ruby có thể được tìm thấy trên nhiều
+trang web:
 
-- [Ruby Meetup Groups on meetup.com][meetup]. A substantial number
-  of Ruby User Groups have chosen to make Meetup
-  their home. Meetup provides a number of tools for user groups,
-  including: private forums, a place for announcements, automated
-  meeting reminders, and a nice RSVP system.
-- [RubyEvents.org][rc-meetups] now has a list of Ruby Meetup events
-  from around the world.
-- There is a [Google Group][meetups-google-group] for Ruby Meetup Organizers
-- [OnRuby][onruby] - A number of user groups can also be found at OnRuby. OnRuby is an
-  open source platform written in Ruby that can be used to organize
-  meetups. It is [available on GitHub][onruby-github].
+- [Nhóm Ruby Meetup trên meetup.com][meetup]. Một số lượng đáng kể
+  các Nhóm người dùng Ruby đã chọn Meetup làm nơi sinh hoạt. Meetup
+  cung cấp một số công cụ cho các nhóm người dùng, bao gồm: diễn đàn
+  riêng, nơi đăng thông báo, nhắc nhở buổi họp tự động, và hệ thống
+  RSVP tiện lợi.
+- [RubyEvents.org][rc-meetups] hiện có danh sách các sự kiện Ruby
+  Meetup từ khắp nơi trên thế giới.
+- Có một [Nhóm Google][meetups-google-group] dành cho Người tổ chức
+  Ruby Meetup.
+- [OnRuby][onruby] - Một số nhóm người dùng cũng có thể được tìm thấy
+  tại OnRuby. OnRuby là một nền tảng mã nguồn mở được viết bằng Ruby
+  có thể được sử dụng để tổ chức meetup. Nó [có sẵn trên GitHub][onruby-github].
 
-### Organizing Your Own Group
+### Tổ chức nhóm của riêng bạn
 
-If you are interested in forming your own group, be sure to find out if
-there is already a Ruby user group in your area. Try the meetup organizers
-group if you're looking for advice on how to start your own group.
+Nếu bạn muốn thành lập nhóm riêng, hãy chắc chắn tìm hiểu xem đã có
+nhóm người dùng Ruby nào trong khu vực của bạn chưa. Hãy thử nhóm tổ
+chức meetup nếu bạn đang tìm lời khuyên về cách bắt đầu nhóm của mình.
 
 
 

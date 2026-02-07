@@ -1,75 +1,75 @@
 ---
 layout: page
-title: "About the Ruby Website"
+title: "Về trang web Ruby"
 lang: vi
 ---
 
-This website was generated with Ruby using [Jekyll][jekyll],<br>
-its source is hosted on [GitHub][github-repo].
+Trang web này được tạo bằng Ruby với [Jekyll][jekyll],<br>
+mã nguồn được lưu trữ trên [GitHub][github-repo].
 
-## Design
+## Thiết kế
 
-The current visual design is by [Taeko Akatsuka][akatsuka].
-The site was renewed in December 2025.
+Thiết kế giao diện hiện tại được thực hiện bởi [Taeko Akatsuka][akatsuka].
+Trang web được làm mới vào tháng 12 năm 2025.
 
 <img src="../../../images/about/screenshot.png" alt="Current ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />
 
-The "Happy Hacking" in the footer is handwritten by [Yukihiro Matsumoto (Matz)][matz].
+Dòng chữ "Happy Hacking" ở chân trang được viết tay bởi [Yukihiro Matsumoto (Matz)][matz].
 
 <img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking on Footer" width="400" style="border: 1px solid #d6d3d1;" />
 
-## Previous Design
+## Thiết kế trước đây
 
-Visual design before December 2025 by [Jason Zimdars][jzimdars].<br>
-Based on an earlier design by the Ruby Visual Identity Team.
+Thiết kế giao diện trước tháng 12 năm 2025 bởi [Jason Zimdars][jzimdars].<br>
+Dựa trên thiết kế trước đó của Ruby Visual Identity Team.
 
 <img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Previous ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />
 
 ## Logo
 
-[The Ruby logo][logo] is Copyright &copy; 2006, Yukihiro Matsumoto.
+[Logo Ruby][logo] là bản quyền &copy; 2006 của Yukihiro Matsumoto.
 
 
-## Reporting Problems ##
+## Báo cáo vấn đề ##
 
-To report a problem use the [issue tracker][github-issues]
-or contact our [webmaster][webmaster] (in English).
-
-
-## How to Contribute ##
-
-This website is proudly maintained by members of the Ruby community.
-
-If you wish to contribute, read the [contribution instructions][github-wiki]
-and just start opening issues or pull requests!
+Để báo cáo vấn đề, vui lòng sử dụng [trình theo dõi lỗi][github-issues]
+hoặc liên hệ [quản trị viên][webmaster] của chúng tôi (bằng tiếng Anh).
 
 
-## Acknowledgments ##
+## Cách đóng góp ##
 
-We thank all committers, authors, translators, and other contributors
-to this website.
+Trang web này được duy trì bởi các thành viên trong cộng đồng Ruby.
 
-Also many thanks to the organizations that support us:
+Nếu bạn muốn đóng góp, hãy đọc [hướng dẫn đóng góp][github-wiki]
+và bắt đầu tạo issue hoặc pull request!
+
+
+## Lời cảm ơn ##
+
+Chúng tôi cảm ơn tất cả các committer, tác giả, dịch giả và những người đóng góp
+khác cho trang web này.
+
+Đồng thời xin chân thành cảm ơn các tổ chức đã hỗ trợ chúng tôi:
 
 <table class="not-prose sponsor-table">
   <tr>
-    <td><a href="http://www.ruby.or.jp">Ruby Association</a> (hosting)</td>
+    <td><a href="http://www.ruby.or.jp">Ruby Association</a> (lưu trữ)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/ra.png" alt="Ruby Association" /></td>
   </tr>
   <tr>
-    <td><a href="http://ruby-no-kai.org/">Ruby no Kai</a> (build server)</td>
+    <td><a href="http://ruby-no-kai.org/">Ruby no Kai</a> (máy chủ build)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/ruby-no-kai.png" alt="Ruby no Kai" /></td>
   </tr>
   <tr>
-    <td><a href="https://aws.amazon.com/">AWS</a> (hosting)</td>
+    <td><a href="https://aws.amazon.com/">AWS</a> (lưu trữ)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/aws.png" alt="AWS" style="width: 150px;" /></td>
   </tr>
   <tr>
-    <td><a href="https://www.heroku.com/">Heroku</a> (hosting)</td>
+    <td><a href="https://www.heroku.com/">Heroku</a> (lưu trữ)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/heroku.png" alt="Heroku" style="width: 100px;" /></td>
   </tr>
   <tr>
-    <td><a href="https://www.ibm.com/">IBM</a> (hosting)</td>
+    <td><a href="https://www.ibm.com/">IBM</a> (lưu trữ)</td>
     <td class="sponsor-logo"></td>
   </tr>
   <tr>
@@ -77,20 +77,20 @@ Also many thanks to the organizations that support us:
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/fastly.png" alt="Fastly" style="width: 200px;" /></td>
   </tr>
   <tr>
-    <td><a href="http://hatenacorp.jp/">Hatena</a> (<a href="https://mackerel.io/">Mackerel</a>, server monitoring)</td>
+    <td><a href="http://hatenacorp.jp/">Hatena</a> (<a href="https://mackerel.io/">Mackerel</a>, giám sát máy chủ)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/mackerel.png" alt="Mackerel" /></td>
   </tr>
   <tr>
-    <td><a href="https://www.datadoghq.com/">Datadog</a> (server monitoring)</td>
+    <td><a href="https://www.datadoghq.com/">Datadog</a> (giám sát máy chủ)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 120px;" /></td>
   </tr>
   <tr>
-    <td><a href="https://1password.com/">1Password</a> (password manager)</td>
+    <td><a href="https://1password.com/">1Password</a> (quản lý mật khẩu)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/1password.png" alt="1Password" style="width: 250px;" /></td>
   </tr>
 </table>
 
-[logo]: /en/about/logo/
+[logo]: /vi/about/logo/
 [webmaster]: mailto:webmaster@ruby-lang.org
 [jekyll]: http://www.jekyllrb.com/
 [akatsuka]: https://x.com/ken_c_lo

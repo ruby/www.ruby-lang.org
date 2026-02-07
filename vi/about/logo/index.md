@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "The Ruby Logo"
+title: "Logo Ruby"
 lang: vi
 ---
 
-![The Ruby Logo][logo]
+![Logo Ruby][logo]
 
-The Ruby logo is Copyright &copy; 2006, Yukihiro Matsumoto.
+Logo Ruby là bản quyền &copy; 2006 của Yukihiro Matsumoto.
 
-It is licensed under the terms of the
-[Creative Commons Attribution-ShareAlike 2.5][cc-by-sa] License agreement.
+Logo được cấp phép theo các điều khoản của giấy phép
+[Creative Commons Attribution-ShareAlike 2.5][cc-by-sa].
 
 
-## Download
+## Tải về
 
-The [Ruby Logo Kit][logo-kit] contains the Ruby logo in several formats
+[Bộ Logo Ruby][logo-kit] chứa logo Ruby ở nhiều định dạng khác nhau
 (PNG, JPG, PDF, AI, SWF, XAR).
 
 

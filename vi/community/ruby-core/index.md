@@ -1,132 +1,133 @@
 ---
 layout: page
-title: "Ruby Core"
+title: "Lõi Ruby"
 lang: vi
 ---
 
-Now is a fantastic time to follow Ruby’s development. With the increased
-attention Ruby has received in the past few years, there’s a growing need
-for good talent to help enhance Ruby and document its parts.
-So, where do you start?
+Bây giờ là thời điểm tuyệt vời để theo dõi sự phát triển của Ruby.
+Với sự quan tâm ngày càng tăng mà Ruby nhận được trong những năm qua,
+nhu cầu về nhân tài giỏi để giúp nâng cao Ruby và viết tài liệu cho
+các phần của nó ngày càng lớn. Vậy, bạn bắt đầu từ đâu?
 {: .summary}
 
-The topics related to Ruby development covered here are:
+Các chủ đề liên quan đến phát triển Ruby được đề cập ở đây là:
 
-* [Using Git to Track Ruby Development](#following-ruby)
-* [Improving Ruby, Patch by Patch](#patching-ruby)
-* [Note about branches](#branches-ruby)
+* [Sử dụng Git để theo dõi phát triển Ruby](#following-ruby)
+* [Cải thiện Ruby, từng bản vá một](#patching-ruby)
+* [Lưu ý về các nhánh](#branches-ruby)
 
-### Using Git to Track Ruby Development
+### Sử dụng Git để theo dõi phát triển Ruby
 {: #following-ruby}
 
-The current primary repository of the latest Ruby source code is
+Kho lưu trữ chính hiện tại của mã nguồn Ruby mới nhất là
 [git.ruby-lang.org/ruby.git][gitrlo].
-There is also a [mirror on GitHub][7].  Usually, please use this mirror.
+Cũng có một [bản sao trên GitHub][7]. Thông thường, xin hãy sử dụng
+bản sao này.
 
-You can get the latest Ruby source code by using Git.
-From your command line:
+Bạn có thể lấy mã nguồn Ruby mới nhất bằng Git.
+Từ dòng lệnh của bạn:
 
 {% highlight sh %}
 $ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
-The `ruby` directory will now contain the latest source code
-for the development version of Ruby (ruby-trunk).
+Thư mục `ruby` bây giờ sẽ chứa mã nguồn mới nhất cho phiên bản đang
+phát triển của Ruby (ruby-trunk).
 
-See also [Non-committer’s HOWTO to join our development][noncommitterhowto].
+Xem thêm [Hướng dẫn cho người không có quyền commit để tham gia phát triển][noncommitterhowto].
 
-If you have commit access, and if you want to push something,
-you should use the primary repository.
+Nếu bạn có quyền commit, và muốn đẩy thay đổi lên, bạn nên sử dụng
+kho lưu trữ chính.
 
 {% highlight sh %}
 $ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
 
-### Improving Ruby, Patch by Patch
+### Cải thiện Ruby, từng bản vá một
 {: #patching-ruby}
 
-The core team maintains an [issue tracker][10] for submitting patches and
-bug reports to Matz and the gang. These reports also get submitted to
-the [Ruby-Core mailing list][mailing-lists] for discussion,
-so you can be sure your request won’t go unnoticed. You can
-also send your patches straight to the mailing list. Either way, you are
-encouraged to take part in the discussion that ensues.
+Nhóm phát triển lõi duy trì một [hệ thống theo dõi vấn đề][10] để gửi
+bản vá và báo cáo lỗi cho Matz và các thành viên. Các báo cáo này cũng
+được gửi đến [hộp thư chung Ruby-Core][mailing-lists] để thảo luận,
+vì vậy bạn có thể chắc chắn rằng yêu cầu của bạn sẽ không bị bỏ qua.
+Bạn cũng có thể gửi bản vá trực tiếp đến hộp thư chung. Dù bằng cách
+nào, bạn được khuyến khích tham gia vào cuộc thảo luận sau đó.
 
-Please look over the [Patch Writer’s Guide][writing-patches] for some tips,
-straight from Matz, on how to get your patches considered.
+Xin hãy xem [Hướng dẫn viết Patch][writing-patches] để biết một số mẹo
+trực tiếp từ Matz về cách làm cho bản vá của bạn được xem xét.
 
-To summarize, the steps for building a patch are:
+Tóm lại, các bước để tạo bản vá là:
 
-1.  Check out a copy of the Ruby source code from GitHub.
-    Usually patches for bugfixes or new features should be submitted
-    for the trunk of Ruby’s source.
+1.  Tải một bản sao mã nguồn Ruby từ GitHub.
+    Thông thường bản vá cho sửa lỗi hoặc tính năng mới nên được gửi
+    cho nhánh trunk của mã nguồn Ruby.
 
         $ git clone https://github.com/ruby/ruby.git
 
-    If you are fixing a bug that is specific to only one maintenance branch,
-    check out a copy of the respective branch.
+    Nếu bạn đang sửa một lỗi chỉ xảy ra ở một nhánh bảo trì cụ thể,
+    hãy chuyển sang nhánh tương ứng.
 
         $ git checkout ruby_X_X
 
-    X_X should be replaced with a version that you want to check out.
+    X_X nên được thay thế bằng phiên bản mà bạn muốn chuyển.
 
-2.  Add your improvements to the code.
+2.  Thêm các cải tiến của bạn vào mã nguồn.
 
-3.  Create a patch.
+3.  Tạo bản vá.
 
         $ git diff > ruby-changes.patch
 
-4.  Create a ticket in the [issue tracker][10] or email your patch to
-    the [Ruby-Core mailing list][mailing-lists] with a ChangeLog entry
-    describing the patch.
+4.  Tạo một ticket trong [hệ thống theo dõi vấn đề][10] hoặc gửi email
+    bản vá của bạn đến [hộp thư chung Ruby-Core][mailing-lists] cùng
+    với mục ChangeLog mô tả bản vá.
 
-5.  If there are no issues raised about the patch, committers will be
-    given the approval to apply it.
+5.  Nếu không có vấn đề gì được nêu ra về bản vá, các committer sẽ
+    được chấp thuận để áp dụng nó.
 
-**Please note:** patches should be submitted as a [unified diff][12].
-For more on how patches are merged, see [the diffutils reference][13].
+**Xin lưu ý:** các bản vá nên được gửi dưới dạng [unified diff][12].
+Để biết thêm về cách các bản vá được hợp nhất, xem [tham khảo diffutils][13].
 
-Discussion of Ruby’s development converges on the
-[Ruby-Core mailing list][mailing-lists]. So, if you are curious
-about whether your patch is worthwhile or you want to spark a discussion
-about Ruby’s future, don’t hesitate to come aboard. Be warned that
-off-topic discussions are not tolerated on this list, the noise level
-should be very low, topics should be pointed, well-conceived and
-well-written. Since we’re addressing Ruby’s creator, let’s have some
-reverence.
+Thảo luận về phát triển Ruby tập trung tại
+[hộp thư chung Ruby-Core][mailing-lists]. Vì vậy, nếu bạn tò mò
+liệu bản vá của mình có đáng hay không hoặc muốn khởi động một cuộc
+thảo luận về tương lai của Ruby, đừng ngần ngại tham gia. Lưu ý rằng
+các cuộc thảo luận lạc đề không được chấp nhận trong danh sách này,
+mức độ nhiễu nên rất thấp, các chủ đề nên nhắm đúng mục tiêu, được
+suy nghĩ kỹ lưỡng và viết tốt. Vì chúng ta đang giao tiếp với người
+tạo ra Ruby, hãy tôn trọng.
 
-Keep in mind that many of Ruby’s core developers live in Japan and, while many
-speak very good English, there is a significant timezone difference.
-They also have an entire body of Japanese development lists happening
-alongside the English counterparts. Be patient, if your claim isn’t
-resolved, be persistent—give it another shot a few days later.
+Hãy nhớ rằng nhiều nhà phát triển lõi của Ruby sống ở Nhật Bản và,
+mặc dù nhiều người nói tiếng Anh rất tốt, có sự chênh lệch múi giờ
+đáng kể. Họ cũng có một hệ thống hộp thư chung phát triển bằng tiếng
+Nhật song song với các danh sách tiếng Anh. Hãy kiên nhẫn, nếu yêu cầu
+của bạn chưa được giải quyết, hãy kiên trì—thử lại sau vài ngày.
 
 
-### Note about branches
+### Lưu ý về các nhánh
 {: #branches-ruby}
 
-The source code of Ruby had been managed under Subversion repository until 22nd April 2019.
-Thus, some branches may still be managed under Subversion.
-You can view the SVN repository.
+Mã nguồn của Ruby đã được quản lý trong kho lưu trữ Subversion cho đến ngày 22 tháng 4 năm 2019.
+Do đó, một số nhánh có thể vẫn được quản lý trên Subversion.
+Bạn có thể xem kho lưu trữ SVN.
 
 * [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
 
-However, you don't have to care about it (unless you are a branch maintainer).
-You can check out the branches in your Git working copy.
-For example, run the following command.
+Tuy nhiên, bạn không cần phải quan tâm đến điều này (trừ khi bạn là
+người bảo trì nhánh). Bạn có thể chuyển sang các nhánh trong bản sao
+Git của mình. Ví dụ, chạy lệnh sau.
 
 {% highlight sh %}
 $ git checkout ruby_X_X
 {% endhighlight %}
 
-X_X should be replaced with a version that you want to check out.
+X_X nên được thay thế bằng phiên bản mà bạn muốn chuyển.
 
-If you want to modify the branches, please open an issue in our [issue tracker][10].
-See also the following section.
+Nếu bạn muốn sửa đổi các nhánh, vui lòng mở một vấn đề trong [hệ thống theo dõi vấn đề][10] của chúng tôi.
+Xem thêm phần sau.
 
 [gitrlo]: https://git.ruby-lang.org/ruby.git
-[mailing-lists]: /en/community/mailing-lists/
-[writing-patches]: /en/community/ruby-core/writing-patches/
+[mailing-lists]: /vi/community/mailing-lists/
+[writing-patches]: /vi/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [7]: https://github.com/ruby/ruby

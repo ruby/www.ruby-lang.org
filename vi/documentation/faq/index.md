@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -33,30 +33,30 @@ header: |
 
 ---
 
-This document contains Frequently Asked Questions about Ruby with answers.
+Tài liệu này chứa các Câu hỏi thường gặp về Ruby cùng với câu trả lời.
 {: .summary}
 
-This FAQ is based on "[The Ruby Language FAQ][original-faq]" originally
-compiled by Shugo Maeda and translated into English by Kentaro Goto.
-Thanks to Zachary Scott and Marcus Stollsteimer for incorporating
-the FAQ into the site and for a major overhaul of the content.
+FAQ này dựa trên "[The Ruby Language FAQ][original-faq]" được biên soạn ban đầu
+bởi Shugo Maeda và dịch sang tiếng Anh bởi Kentaro Goto.
+Cảm ơn Zachary Scott và Marcus Stollsteimer đã tích hợp
+FAQ vào trang web và cải tiến toàn diện nội dung.
 
-The code examples in this document have been run using Ruby 2.3.
+Các ví dụ mã trong tài liệu này đã được chạy bằng Ruby 2.3.
 
 [original-faq]: http://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
 
 {% include faq-notice.md %}
 
-## Content
+## Mục lục
 
-* [General questions](1/)
-* [How does Ruby stack up against...?](2/)
-* [Installing Ruby](3/)
-* [Variables, constants, and arguments](4/)
-* [Iterators](5/)
-* [Syntax](6/)
-* [Methods](7/)
-* [Classes and modules](8/)
-* [Built-in libraries](9/)
-* [Extension library](10/)
-* [Other features](11/)
+* [Câu hỏi chung](1/)
+* [Ruby so với các ngôn ngữ khác như thế nào?](2/)
+* [Cài đặt Ruby](3/)
+* [Biến, hằng và tham số](4/)
+* [Iterator](5/)
+* [Cú pháp](6/)
+* [Phương thức](7/)
+* [Lớp và module](8/)
+* [Thư viện tích hợp sẵn](9/)
+* [Thư viện mở rộng](10/)
+* [Các tính năng khác](11/)

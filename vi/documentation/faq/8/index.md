@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,17 +35,19 @@ header: |
 
 {% include faq-notice.md %}
 
-## Classes and modules
+## Lớp và module
 
-### Can a class definition be repeated?
+### Có thể định nghĩa lại một lớp không?
 
-A class can be defined repeatedly. Each definition is added to the last
-definition. If a method is redefined, the former one is overridden and lost.
+Một lớp có thể được định nghĩa lại nhiều lần. Mỗi lần định nghĩa sẽ được
+bổ sung vào định nghĩa trước đó. Nếu một phương thức được định nghĩa lại,
+phương thức cũ sẽ bị ghi đè và mất đi.
 
-### Are there class variables?
+### Có biến lớp không?
 
-There are. A variable prefixed with two at signs (`@@`) is a class variable,
-accessible within both instance and class methods of the class.
+Có. Một biến có tiền tố là hai dấu at (`@@`) là biến lớp,
+có thể truy cập được trong cả phương thức instance và phương thức lớp
+của lớp đó.
 
 ~~~
 class Entity
@@ -72,12 +74,12 @@ entities[6].who_am_i  # => "I'm 7 of 9"
 Entity.total          # => 9
 ~~~
 
-However, you probably should use _class instance variables_ instead.
+Tuy nhiên, bạn có lẽ nên sử dụng _biến instance của lớp_ thay thế.
 
-### What is a class instance variable?
+### Biến instance của lớp là gì?
 
-Here the example of the previous section rewritten
-using a class instance variable:
+Đây là ví dụ của phần trước được viết lại
+sử dụng biến instance của lớp:
 
 ~~~
 class Entity
@@ -109,24 +111,24 @@ Entity.instances      # => 9
 Entity.total          # => 9
 ~~~
 
-Here, `@instances` is a _class_ instance variable. It does not belong
-to an instance of class `Entity`, but to the class object `Entity`,
-which is an instance of class `Class`.
+Ở đây, `@instances` là một biến instance _của lớp_. Nó không thuộc về
+một instance của lớp `Entity`, mà thuộc về đối tượng lớp `Entity`,
+vốn là một instance của lớp `Class`.
 
-Class instance variables are directly accessible only within class methods
-of the class.
+Biến instance của lớp chỉ có thể truy cập trực tiếp trong các phương thức
+lớp của lớp đó.
 
-### What is the difference between class variables and class instance variables?
+### Sự khác biệt giữa biến lớp và biến instance của lớp là gì?
 
-The main difference is the behavior concerning inheritance:
-class variables are shared between a class and all its subclasses,
-while class instance variables only belong to one specific class.
+Sự khác biệt chính là hành vi liên quan đến kế thừa:
+biến lớp được chia sẻ giữa một lớp và tất cả các lớp con của nó,
+trong khi biến instance của lớp chỉ thuộc về một lớp cụ thể.
 
-Class variables in some way can be seen as global variables within
-the context of an inheritance hierarchy, with all the problems
-that come with global variables.
-For instance, a class variable might (accidentally) be reassigned
-by any of its subclasses, affecting all other classes:
+Biến lớp theo một cách nào đó có thể được xem như biến toàn cục trong
+ngữ cảnh của một cây kế thừa, với tất cả các vấn đề
+đi kèm với biến toàn cục.
+Ví dụ, một biến lớp có thể (vô tình) bị gán lại
+bởi bất kỳ lớp con nào, ảnh hưởng đến tất cả các lớp khác:
 
 ~~~
 class Woof
@@ -148,8 +150,8 @@ LoudWoof.sound  # => "WOOF"
 Woof.sound      # => "WOOF" (!)
 ~~~
 
-Or, an ancestor class might later be reopened and changed,
-with possibly surprising effects:
+Hoặc, một lớp cha có thể sau đó được mở lại và thay đổi,
+với các hiệu ứng có thể gây bất ngờ:
 
 ~~~
 class Foo
@@ -170,22 +172,22 @@ end
 Foo.var  # => "object" (!)
 ~~~
 
-So, unless you exactly know what you are doing and explicitly need
-this kind of behavior, you better should use class instance variables.
+Vì vậy, trừ khi bạn biết chính xác mình đang làm gì và thực sự cần
+kiểu hành vi này, bạn nên sử dụng biến instance của lớp.
 
-### Does Ruby have class methods?
+### Ruby có phương thức lớp không?
 {: #class-method}
 
-A [singleton method](../7/#singleton-method) of a class object is called a
-class method.
-(Actually, the class method is defined in the metaclass, but that is pretty
-much transparent). Another way of looking at it is to say that a class method
-is a method whose receiver is a class.
+Một [phương thức singleton](../7/#singleton-method) của một đối tượng lớp
+được gọi là phương thức lớp.
+(Thực ra, phương thức lớp được định nghĩa trong metaclass, nhưng điều đó
+khá trong suốt). Một cách nhìn khác là nói rằng phương thức lớp
+là phương thức có receiver là một lớp.
 
-It all comes down to the fact that you can call class methods without having
-to have instances of that class (objects) as the receiver.
+Tất cả đều quy về việc bạn có thể gọi phương thức lớp mà không cần
+có instance của lớp đó (đối tượng) làm receiver.
 
-Let's create a singleton method of class `Foo`:
+Hãy tạo một phương thức singleton của lớp `Foo`:
 
 ~~~
 class Foo
@@ -199,18 +201,18 @@ end
 Foo.test  # => "this is foo"
 ~~~
 
-In this example, `Foo.test` is a class method.
+Trong ví dụ này, `Foo.test` là một phương thức lớp.
 
-Instance methods which are defined in class `Class` can be used
-as class methods for every(!) class.
+Các phương thức instance được định nghĩa trong lớp `Class` có thể được sử dụng
+làm phương thức lớp cho mọi(!) lớp.
 
-### What is a singleton class?
+### Singleton class là gì?
 
-A singleton class is an anonymous class that is created by subclassing the
-class associated with a particular object. Singleton classes are another
-way of extending the functionality associated with just one object.
+Singleton class là một lớp ẩn danh được tạo ra bằng cách kế thừa từ
+lớp gắn liền với một đối tượng cụ thể. Singleton class là một cách khác
+để mở rộng chức năng chỉ cho một đối tượng duy nhất.
 
-Take the lowly `Foo`:
+Lấy lớp `Foo` đơn giản:
 
 ~~~
 class Foo
@@ -223,8 +225,8 @@ foo = Foo.new
 foo.hello  # => "hello"
 ~~~
 
-Now let's say we need to add class-level functionality to just this one
-instance:
+Bây giờ giả sử chúng ta cần thêm chức năng cấp lớp chỉ cho một
+instance cụ thể này:
 
 ~~~
 class << foo
@@ -240,30 +242,30 @@ foo.hello         # => "hello, I'm Tom"
 Foo.new.hello     # => "hello"
 ~~~
 
-We've customized `foo` without changing the characteristics of `Foo`.
+Chúng ta đã tùy chỉnh `foo` mà không thay đổi các đặc tính của `Foo`.
 
-### What is a module function?
+### Hàm module là gì?
 
 {% include warnings/faq-out-of-date.html %}
 
-A module function is a private, singleton method defined in a module.
-In effect, it is similar to a [class method](#class-method),
-in that it can be called using the `Module.method` notation:
+Hàm module là một phương thức singleton riêng tư được định nghĩa trong một
+module. Về bản chất, nó tương tự như [phương thức lớp](#class-method),
+ở chỗ có thể được gọi bằng ký pháp `Module.method`:
 
 ~~~
 Math.sqrt(2)  # => 1.414213562
 ~~~
 
-However, because modules can be mixed in to classes, module functions can
-also be used without the prefix (that's how all those `Kernel` functions are
-made available to objects):
+Tuy nhiên, vì module có thể được trộn vào các lớp, hàm module cũng có thể
+được sử dụng mà không cần tiền tố (đó là cách mà tất cả các hàm `Kernel`
+được cung cấp cho các đối tượng):
 
 ~~~
 include Math
 sqrt(2)  # => 1.414213562
 ~~~
 
-Use `module_function` to make a method a module function.
+Sử dụng `module_function` để biến một phương thức thành hàm module.
 
 ~~~
 module Test
@@ -274,37 +276,37 @@ module Test
 end
 ~~~
 
-### What is the difference between a class and a module?
+### Sự khác biệt giữa lớp và module là gì?
 
-Modules are collections of methods and constants. They cannot generate
-instances. Classes may generate instances (objects), and have per-instance
-state (instance variables).
+Module là tập hợp các phương thức và hằng số. Chúng không thể tạo ra
+instance. Lớp có thể tạo ra instance (đối tượng), và có trạng thái
+riêng cho từng instance (biến instance).
 
-Modules may be mixed in to classes and other modules. The mixed in module's
-constants and methods blend into that class's own, augmenting the class's
-functionality. Classes, however, cannot be mixed in to anything.
+Module có thể được trộn vào các lớp và module khác. Các hằng số và phương
+thức của module được trộn vào sẽ hòa trộn vào lớp đó, bổ sung thêm chức
+năng cho lớp. Tuy nhiên, lớp không thể được trộn vào bất cứ thứ gì.
 
-A class may inherit from another class, but not from a module.
+Một lớp có thể kế thừa từ một lớp khác, nhưng không thể kế thừa từ module.
 
-A module may not inherit from anything.
+Một module không thể kế thừa từ bất cứ thứ gì.
 
-### Can you subclass modules?
+### Có thể tạo lớp con từ module không?
 
-No. However, a module may be included in a class or another module to mimic
-multiple inheritance (the mixin facility).
+Không. Tuy nhiên, một module có thể được include vào một lớp hoặc module khác
+để mô phỏng đa kế thừa (cơ chế mixin).
 
-This does not generate a subclass (which would require inheritance), but does
-generate an `is_a?` relationship between the class and the module.
+Điều này không tạo ra một lớp con (vì điều đó đòi hỏi kế thừa), nhưng
+tạo ra mối quan hệ `is_a?` giữa lớp và module.
 
-### Give me an example of a mixin
+### Cho tôi một ví dụ về mixin
 
-The module `Comparable` provides a variety of comparison operators
-(`<`, `<=`, `==`, `>=`, `>`, `between?`). It defines these in terms
-of calls to the general comparison method, `<=>`. However, it does
-not itself define `<=>`.
+Module `Comparable` cung cấp nhiều toán tử so sánh
+(`<`, `<=`, `==`, `>=`, `>`, `between?`). Nó định nghĩa các toán tử này
+dựa trên lời gọi đến phương thức so sánh tổng quát `<=>`. Tuy nhiên, bản thân
+nó không định nghĩa `<=>`.
 
-Say you want to create a class where comparisons are based on the number of
-legs an animal has:
+Giả sử bạn muốn tạo một lớp mà phép so sánh dựa trên số chân
+của một con vật:
 
 ~~~
 class Animal
@@ -336,16 +338,17 @@ p.between?(s, c)  # => true
 [p, s, c].sort    # => [snake, parrot, cat]
 ~~~
 
-All `Animal` must do is define its own semantics for the operator `<=>`,
-and mix in the `Comparable` module. `Comparable`'s methods now become
-indistinguishable from `Animal`'s and your class suddenly sprouts new
-functionality. And because the same `Comparable` module is used by many
-classes, your new class will share a consistent and well understood semantics.
+Tất cả những gì `Animal` cần làm là định nghĩa ngữ nghĩa riêng cho toán tử
+`<=>`, và trộn vào module `Comparable`. Các phương thức của `Comparable` giờ
+trở nên không thể phân biệt với các phương thức của `Animal` và lớp của bạn
+bỗng nhiên có thêm chức năng mới. Và vì cùng một module `Comparable` được
+sử dụng bởi nhiều lớp, lớp mới của bạn sẽ chia sẻ ngữ nghĩa nhất quán
+và được hiểu rõ.
 
-### Why are there two ways of defining class methods?
+### Tại sao có hai cách định nghĩa phương thức lớp?
 
-You can define a class method in the class definition, and you can define
-a class method at the top level.
+Bạn có thể định nghĩa phương thức lớp trong phần định nghĩa lớp, và bạn
+có thể định nghĩa phương thức lớp ở cấp cao nhất.
 
 ~~~
 class Demo
@@ -357,22 +360,23 @@ def Demo.another_class_method
 end
 ~~~
 
-There is only one significant difference between the two.
-In the class definition you can refer to the class's constants directly,
-as the constants are within scope. At the top level, you have to use the
-`Class::CONST` notation.
+Chỉ có một sự khác biệt đáng kể giữa hai cách.
+Trong phần định nghĩa lớp, bạn có thể tham chiếu trực tiếp đến các hằng số
+của lớp, vì các hằng số nằm trong phạm vi. Ở cấp cao nhất, bạn phải sử dụng
+ký pháp `Class::CONST`.
 
-### What is the difference between `include` and `extend`?
+### Sự khác biệt giữa `include` và `extend` là gì?
 
 {% include warnings/faq-out-of-date.html %}
 
-`include` mixes a module into a class or another module. Methods from that
-module are called function-style (without a receiver).
+`include` trộn một module vào một lớp hoặc module khác. Các phương thức từ
+module đó được gọi theo kiểu hàm (không có receiver).
 
-`extend` is used to include a module in an object (instance).
-Methods in the module become methods in the object.
+`extend` được sử dụng để include một module vào một đối tượng (instance).
+Các phương thức trong module trở thành phương thức của đối tượng.
 
-### What does `self` mean?
+### `self` có nghĩa là gì?
 
-`self` is the currently executing receiver, the object to which a method
-is applied. A function-style method call implies `self` as the receiver.
+`self` là receiver đang thực thi hiện tại, đối tượng mà phương thức
+được áp dụng lên. Lời gọi phương thức theo kiểu hàm ngầm hiểu `self`
+là receiver.

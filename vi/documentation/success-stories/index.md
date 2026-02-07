@@ -1,68 +1,69 @@
 ---
 layout: page
-title: "Success Stories"
+title: "Những câu chuyện về thành công"
 lang: vi
 ---
 
-Many people use Ruby in their daily jobs. Others just as a hobby. Here
-you’ll find a small sample of real world usage of Ruby.
+Nhiều người sử dụng Ruby trong công việc hàng ngày. Những người khác chỉ
+dùng như một sở thích. Tại đây bạn sẽ tìm thấy một số ví dụ tiêu biểu
+về việc ứng dụng Ruby trong thực tế.
 {: .summary}
 
-#### Simulations
+#### Mô phỏng
 
-* [NASA Langley Research Center][1] uses Ruby to conduct simulations.
+* [NASA Langley Research Center][1] sử dụng Ruby để thực hiện các mô phỏng.
 
-* A research group in [Motorola][2] uses Ruby to script a simulator,
-  both to generate scenarios and to post process the data.
+* Một nhóm nghiên cứu tại [Motorola][2] sử dụng Ruby để viết kịch bản cho
+  trình mô phỏng, bao gồm tạo kịch bản và xử lý dữ liệu sau mô phỏng.
 
-#### 3D Modeling
+#### Mô hình 3D
 
-* [Google SketchUp][3] is a 3D modeling application that uses Ruby for
-  its macro scripting API.
+* [Google SketchUp][3] là một ứng dụng mô hình 3D sử dụng Ruby cho
+  API kịch bản macro của mình.
 
-#### Business
+#### Kinh doanh
 
-* [Toronto Rehab][4] uses a RubyWebDialogs-based app to manage and track
-  on-call and on-site support for the IT help desk and IT operations
-  teams.
+* [Toronto Rehab][4] sử dụng ứng dụng dựa trên RubyWebDialogs để quản lý
+  và theo dõi hỗ trợ trực tuyến và tại chỗ cho bộ phận trợ giúp IT và
+  các đội vận hành IT.
 
-#### Robotics
+#### Robot
 
-* At MORPHA project, Ruby was used to implement the reactive
-  control part for the Siemens service robot.
+* Trong dự án MORPHA, Ruby được sử dụng để triển khai phần điều khiển
+  phản ứng cho robot dịch vụ của Siemens.
 
-#### Telephony
+#### Viễn thông
 
-* Ruby is being used within Lucent on a 3G wireless telephony
-  product.
+* Ruby được sử dụng trong Lucent cho một sản phẩm viễn thông không
+  dây 3G.
 
-#### System Administration
+#### Quản trị hệ thống
 
-* Ruby was used to write the central data collection portion of [Level 3
-  Communications][8] Unix Capacity and Planning system that gathers
-  performance statistics from over 1700 Unix (Solaris and Linux) servers
-  scattered around the globe.
+* Ruby được sử dụng để viết phần thu thập dữ liệu trung tâm của hệ thống
+  Unix Capacity and Planning của [Level 3 Communications][8], hệ thống thu
+  thập thống kê hiệu năng từ hơn 1700 máy chủ Unix (Solaris và Linux)
+  phân bố trên toàn cầu.
 
-#### Web Applications
+#### Ứng dụng Web
 
-* [Basecamp][9], a web-based project management application, is programmed entirely in Ruby.
+* [Basecamp][9], một ứng dụng quản lý dự án trên web, được lập trình hoàn toàn bằng Ruby.
 
-* [A List Apart][10], a magazine for people who make websites that has
-  been around since 1997, has recently been revamped and uses a custom
-  application built with Ruby on Rails.
+* [A List Apart][10], một tạp chí dành cho những người làm website đã tồn
+  tại từ năm 1997, gần đây đã được làm mới và sử dụng một ứng dụng tùy
+  chỉnh được xây dựng bằng Ruby on Rails.
 
-#### Security
+#### Bảo mật
 
-* The [Metasploit Framework][metasploit], a community open source project
-  managed by [Rapid7][rapid7], is a free penetration testing platform that
-  helps IT professionals assess the security of their networks and
-  applications. The Metasploit Project consists of over 700,000 lines of
-  code and has been downloaded over a million times in 2010.
-  The commercial editions developed by Rapid7 are also based on Ruby.
+* [Metasploit Framework][metasploit], một dự án mã nguồn mở cộng đồng được
+  quản lý bởi [Rapid7][rapid7], là một nền tảng kiểm thử xâm nhập miễn phí
+  giúp các chuyên gia IT đánh giá bảo mật mạng và ứng dụng của họ. Dự án
+  Metasploit bao gồm hơn 700.000 dòng mã và đã được tải về hơn một triệu
+  lần trong năm 2010. Các phiên bản thương mại do Rapid7 phát triển cũng
+  dựa trên Ruby.
 
-* The [Arachni Web Application Security Scanner][arachni] is a free, modular,
-  high-performance Ruby framework aimed towards helping penetration testers
-  and administrators evaluate the security of modern web applications.
+* [Arachni Web Application Security Scanner][arachni] là một framework Ruby
+  miễn phí, dạng module, hiệu năng cao nhằm giúp các chuyên gia kiểm thử
+  xâm nhập và quản trị viên đánh giá bảo mật của các ứng dụng web hiện đại.
 
 
 

@@ -1,50 +1,51 @@
 ---
 layout: page
-title: "To Ruby From PHP"
+title: "Đến với Ruby từ PHP"
 lang: vi
 ---
 
-PHP is in widespread use for web applications, but if you want to use
-Ruby on Rails or just want a language that’s more tailored for general
-use, Ruby is worth a look.
+PHP được sử dụng rộng rãi cho các ứng dụng web, nhưng nếu bạn muốn sử
+dụng Ruby on Rails hoặc chỉ muốn một ngôn ngữ phù hợp hơn cho mục đích
+tổng quát, Ruby đáng để xem xét.
 
-### Similarities
+### Điểm tương đồng
 
-As in PHP, in Ruby…
+Giống như PHP, trong Ruby…
 
-* Ruby is dynamically typed, like in PHP, so you don’t need to worry
-  about having to declare variables.
-* There are classes, and you can control access to them like in PHP 5
-  (`public`, `protected` and `private`).
-* Some variables start with $, like in PHP (but not all).
-* There’s `eval`, too.
-* You can use string interpolation. Instead of doing `"$foo is a $bar"`,
-  you can do `"#{foo} is a #{bar}"`—like in PHP, this doesn’t apply for
-  single-quoted strings.
-* There’s heredocs.
-* Ruby has exceptions, like PHP 5.
-* There’s a fairly large standard library.
-* Arrays and hashes work like expected, if you exchange `array()` for
-  `{` and `}`\: `array('a' => 'b')` becomes `{'a' => 'b'}`.
-* `true` and `false` behave like in PHP, but `null` is called `nil`.
+* Ruby có kiểu dữ liệu động, giống như PHP, vì vậy bạn không cần lo lắng
+  về việc phải khai báo biến.
+* Có các lớp, và bạn có thể kiểm soát quyền truy cập giống như PHP 5
+  (`public`, `protected` và `private`).
+* Một số biến bắt đầu bằng $, giống PHP (nhưng không phải tất cả).
+* Cũng có `eval`.
+* Bạn có thể sử dụng nội suy chuỗi. Thay vì viết `"$foo is a $bar"`,
+  bạn có thể viết `"#{foo} is a #{bar}"`—giống như PHP, điều này không áp
+  dụng cho chuỗi ngoặc đơn.
+* Có heredoc.
+* Ruby có ngoại lệ, giống PHP 5.
+* Có một thư viện chuẩn khá lớn.
+* Mảng và hash hoạt động như mong đợi, nếu bạn thay `array()` bằng
+  `{` và `}`\: `array('a' => 'b')` trở thành `{'a' => 'b'}`.
+* `true` và `false` hoạt động giống PHP, nhưng `null` được gọi là `nil`.
 
-### Differences
+### Khác biệt
 
-Unlike in PHP, in Ruby…
+Không giống PHP, trong Ruby…
 
-* There’s strong typing. You’ll need to call `to_s`, `to_i` etc. to
-  convert between strings, integers and so on, instead of relying on the
-  language to do it.
-* Strings, numbers, arrays, hashes, etc. are objects. Instead of calling
-  `abs(-1)` it’s `-1.abs`.
-* Parentheses are optional in method calls, except to clarify which
-  parameters go to which method calls.
-* The standard library and extensions are organized in modules and classes.
-* Reflection is an inherent capability of objects, you don’t need to use
-  `Reflection` classes like in PHP 5.
-* Variables are references.
-* There’s no `abstract` classes or `interface`s.
-* Hashes and arrays are not interchangeable.
-* Only `false` and `nil` are false: `0`, `array()` and `""` are all true
-  in conditionals.
-* Almost everything is a method call, even `raise` (`throw` in PHP).
+* Có định kiểu mạnh. Bạn cần gọi `to_s`, `to_i` v.v. để chuyển đổi
+  giữa chuỗi, số nguyên và các kiểu khác, thay vì dựa vào ngôn ngữ
+  tự làm điều đó.
+* Chuỗi, số, mảng, hash, v.v. đều là đối tượng. Thay vì gọi
+  `abs(-1)` thì viết `-1.abs`.
+* Dấu ngoặc đơn là tùy chọn trong lệnh gọi phương thức, trừ khi cần
+  làm rõ tham số nào thuộc lệnh gọi phương thức nào.
+* Thư viện chuẩn và các phần mở rộng được tổ chức trong module và lớp.
+* Phản chiếu (reflection) là khả năng vốn có của đối tượng, bạn không
+  cần sử dụng các lớp `Reflection` như trong PHP 5.
+* Biến là tham chiếu.
+* Không có lớp `abstract` hay `interface`.
+* Hash và mảng không thể hoán đổi cho nhau.
+* Chỉ `false` và `nil` là false: `0`, `array()` và `""` đều là true
+  trong điều kiện.
+* Hầu hết mọi thứ đều là lệnh gọi phương thức, kể cả `raise`
+  (`throw` trong PHP).

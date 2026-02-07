@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Mirror Sites"
+title: "Máy chủ nhân bản"
 lang: vi
 ---
 
@@ -8,31 +8,31 @@ lang: vi
 Not to be translated. Link to this page (/en/downloads/mirrors/) instead.
 {% endcomment %}
 
-The Ruby source is available from a worldwide set of mirror sites.
-Please try to use a mirror that is near you.
+Mã nguồn Ruby có sẵn từ một tập hợp các máy chủ nhân bản trên toàn thế giới.
+Vui lòng thử sử dụng máy chủ nhân bản gần bạn nhất.
 {: .summary}
 
-### Mirror sites via HTTP
+### Máy chủ nhân bản qua HTTP
 
 * [CDN][mirror-https-cdn] (fastly.com)
-* [Japan][mirror-http-jp-ring] (RingServer)
-* [Holland][mirror-http-nl] (XS4ALL) - only release packages
-* [France][mirror-http-fr] (cyberbits.eu)
-* [China 2][mirror-http-cn2] (Ruby China)
-* [South Korea][mirror-http-kr] (Korea FreeBSD Users Group)
+* [Nhật Bản][mirror-http-jp-ring] (RingServer)
+* [Hà Lan][mirror-http-nl] (XS4ALL) - chỉ các gói phát hành
+* [Pháp][mirror-http-fr] (cyberbits.eu)
+* [Trung Quốc 2][mirror-http-cn2] (Ruby China)
+* [Hàn Quốc][mirror-http-kr] (Korea FreeBSD Users Group)
 
-### Mirror sites via FTP
+### Máy chủ nhân bản qua FTP
 
-* [Japan][mirror-ftp-jp-ring] (RingServer)
-* [Japan 3][mirror-ftp-jp3] (IIJ)
-* [South Korea][mirror-ftp-kr] (Korea FreeBSD Users Group)
-* [Germany][mirror-ftp-de] (FU Berlin)
-* [Greece][mirror-ftp-gr] (ntua.gr)
+* [Nhật Bản][mirror-ftp-jp-ring] (RingServer)
+* [Nhật Bản 3][mirror-ftp-jp3] (IIJ)
+* [Hàn Quốc][mirror-ftp-kr] (Korea FreeBSD Users Group)
+* [Đức][mirror-ftp-de] (FU Berlin)
+* [Hy Lạp][mirror-ftp-gr] (ntua.gr)
 
-### Mirror sites via rsync
+### Máy chủ nhân bản qua rsync
 
-* [France][mirror-rsync-fr] (cyberbits.eu)
-* [South Korea][mirror-rsync-kr] (Korea FreeBSD Users Group)
+* [Pháp][mirror-rsync-fr] (cyberbits.eu)
+* [Hàn Quốc][mirror-rsync-kr] (Korea FreeBSD Users Group)
 
 [mirror-https-cdn]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-http-jp-ring]: http://www.ring.gr.jp/pub/lang/ruby/

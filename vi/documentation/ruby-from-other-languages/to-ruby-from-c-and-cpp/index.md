@@ -1,148 +1,147 @@
 ---
 layout: page
-title: "To Ruby From C and C++"
+title: "Đến với Ruby từ C và C++"
 lang: vi
 ---
 
-It’s difficult to write a bulleted list describing how your code will be
-different in Ruby from C or C++ because it’s quite a large difference.
-One reason is that the Ruby runtime does so much for you. Ruby seems
-about as far as you can get from C’s “no hidden mechanism” principle—the
-whole point of Ruby is to make the human’s job easier at the expense of
-making the runtime shoulder more of the work. Unless or until you
-profile your code for optimization, you don’t need to care one whit
-about “keeping your compiler happy” when using Ruby.
+Thật khó để viết một danh sách liệt kê mô tả mã của bạn sẽ khác nhau
+như thế nào trong Ruby so với C hoặc C++ vì sự khác biệt là khá lớn.
+Một lý do là Ruby runtime làm rất nhiều thứ cho bạn. Ruby dường như
+khác xa nhất có thể so với nguyên tắc "không có cơ chế ẩn" của C—toàn bộ
+mục đích của Ruby là làm cho công việc của con người dễ dàng hơn với cái giá
+là runtime phải gánh vác nhiều hơn. Trừ khi bạn cần tối ưu mã, bạn không
+cần phải bận tâm về việc "làm hài lòng trình biên dịch" khi sử dụng Ruby.
 
-That said, for one thing, you can expect your Ruby code to execute much
-more slowly than “equivalent” C or C++ code. At the same time, your head
-will spin at how rapidly you can get a Ruby program up and running, as
-well as at how few lines of code it will take to write it. Ruby is much
-much simpler than C++—it will spoil you rotten.
+Nói vậy, một điều bạn có thể mong đợi là mã Ruby sẽ chạy chậm hơn
+nhiều so với mã C hoặc C++ "tương đương". Đồng thời, bạn sẽ ngạc nhiên
+về tốc độ bạn có thể đưa một chương trình Ruby vào hoạt động, cũng như
+số lượng dòng mã ít ỏi cần thiết để viết nó. Ruby đơn giản hơn C++
+rất nhiều—nó sẽ làm bạn mê mẩn.
 
-Ruby is dynamically typed, rather than statically typed—the runtime does
-as much as possible at run-time. For example, you don’t need to know
-what modules your Ruby program will “link to” (that is, load and use) or
-what methods it will call ahead of time.
+Ruby sử dụng kiểu dữ liệu động thay vì kiểu tĩnh—runtime thực hiện
+nhiều nhất có thể tại thời điểm chạy. Ví dụ, bạn không cần biết trước
+chương trình Ruby của bạn sẽ "liên kết đến" (tức là nạp và sử dụng)
+những module nào hay những phương thức nào nó sẽ gọi.
 
-Happily, it turns out that Ruby and C have a healthy symbiotic
-relationship. Ruby supports so-called “extension modules”. These are
-modules that you can use from your Ruby programs (and which, from the
-outside, will look and act just like any other Ruby module), but which
-are written in C. In this way, you can compartmentalize the
-performance-critical parts of your Ruby software, and smelt those down
-to pure C.
+May mắn thay, Ruby và C có một mối quan hệ cộng sinh lành mạnh. Ruby
+hỗ trợ cái gọi là "module mở rộng". Đây là các module mà bạn có thể
+sử dụng từ chương trình Ruby (và từ bên ngoài, chúng trông và hoạt động
+giống như bất kỳ module Ruby nào khác), nhưng được viết bằng C. Bằng cách
+này, bạn có thể tách biệt các phần quan trọng về hiệu suất của phần mềm
+Ruby và chuyển chúng thành C thuần.
 
-And, of course, Ruby itself is written in C.
+Và tất nhiên, bản thân Ruby được viết bằng C.
 
-### Similarities with C
+### Điểm tương đồng với C
 
-As with C, in Ruby,...
+Giống như C, trong Ruby,...
 
-* You may program procedurally if you like (but it will still be
-  object-oriented behind the scenes).
-* Most of the operators are the same (including the compound assignment
-  and also bitwise operators). Though, Ruby doesn’t have `++` or `--`.
-* You’ve got `__FILE__` and `__LINE__`.
-* You can also have constants, though there’s no special `const`
-  keyword. Const-ness is enforced by a naming convention instead— names
-  starting with a capital letter are for constants.
-* Strings go in double-quotes.
-* Strings are mutable.
-* Just like man pages, you can read most docs in your terminal
-  window—though using the `ri` command.
-* You’ve got the same sort of command-line debugger available.
+* Bạn có thể lập trình theo kiểu thủ tục nếu muốn (nhưng bên dưới nó
+  vẫn là hướng đối tượng).
+* Hầu hết các toán tử là giống nhau (bao gồm toán tử gán kết hợp
+  và toán tử thao tác bit). Tuy nhiên, Ruby không có `++` hoặc `--`.
+* Bạn có `__FILE__` và `__LINE__`.
+* Bạn cũng có thể có hằng số, mặc dù không có từ khóa `const` đặc biệt.
+  Tính hằng được thực thi bằng quy ước đặt tên—tên bắt đầu bằng chữ hoa
+  là hằng số.
+* Chuỗi được đặt trong ngoặc kép.
+* Chuỗi có thể thay đổi được (mutable).
+* Giống như man page, bạn có thể đọc hầu hết tài liệu trong cửa sổ
+  terminal—sử dụng lệnh `ri`.
+* Bạn có cùng loại trình gỡ lỗi dòng lệnh khả dụng.
 
-### Similarities with C++
+### Điểm tương đồng với C++
 
-As with C++, in Ruby,...
+Giống như C++, trong Ruby,...
 
-* You’ve got mostly the same operators (even `::`). `<<` is often used
-  for appending elements to a list. One note though: with Ruby you never
-  use `->`—it’s always just `.`.
-* `public`, `private`, and `protected` do similar jobs.
-* Inheritance syntax is still only one character, but it’s `<` instead
-  of `:`.
-* You may put your code into “modules”, similar to how `namespace` in
-  C++ is used.
-* Exceptions work in a similar manner, though the keyword names have
-  been changed to protect the innocent.
+* Bạn có hầu hết các toán tử tương tự (kể cả `::`). `<<` thường được
+  sử dụng để thêm phần tử vào danh sách. Tuy nhiên lưu ý: với Ruby bạn
+  không bao giờ sử dụng `->`—luôn chỉ dùng `.`.
+* `public`, `private`, và `protected` làm các công việc tương tự.
+* Cú pháp kế thừa vẫn chỉ một ký tự, nhưng là `<` thay vì `:`.
+* Bạn có thể đặt mã vào các "module", tương tự cách `namespace` trong
+  C++ được sử dụng.
+* Ngoại lệ hoạt động tương tự, mặc dù tên các từ khóa đã được thay đổi
+  để bảo vệ người vô tội.
 
-### Differences from C
+### Khác biệt so với C
 
-Unlike C, in Ruby,...
+Không giống C, trong Ruby,...
 
-* You don’t need to compile your code. You just run it directly.
-* Objects are strongly typed (and variable names themselves have no type
-  at all).
-* There’s no macros or preprocessor. No casts. No pointers (nor pointer
-  arithmetic). No typedefs, sizeof, nor enums.
-* There are no header files. You just define your functions (usually
-  referred to as “methods”) and classes in the main source code files.
-* There’s no `#define`. Just use constants instead.
-* All variables live on the heap. Further, you don’t need to free them
-  yourself—the garbage collector takes care of that.
-* Arguments to methods (i.e. functions) are passed by value, where the
-  values are always object references.
-* It’s `require 'foo'` instead of `#include <foo>` or `#include "foo"`.
-* You cannot drop down to assembly.
-* There’s no semicolons ending lines.
-* You go without parentheses for `if` and `while` condition expressions.
-* Parentheses for method (i.e. function) calls are often optional.
-* You don’t usually use braces—just end multi-line constructs (like
-  `while` loops) with an `end` keyword.
-* The `do` keyword is for so-called “blocks”. There’s no “do statement”
-  like in C.
-* The term “block” means something different. It’s for a block of code
-  that you associate with a method call so the method body can call out
-  to the block while it executes.
-* There are no variable declarations. You just assign to new names
-  on-the-fly when you need them.
-* When tested for truth, only `false` and `nil` evaluate to a false
-  value. Everything else is true (including `0`, `0.0`, and `"0"`).
-* There is no `char`—they are just 1-letter strings.
-* Strings don’t end with a null byte.
-* Array literals go in brackets instead of braces.
-* Arrays just automatically get bigger when you stuff more elements into
-  them.
-* If you add two arrays, you get back a new and bigger array (of course,
-  allocated on the heap) instead of doing pointer arithmetic.
-* More often than not, everything is an expression (that is, things like
-  `while` statements actually evaluate to an rvalue).
+* Bạn không cần biên dịch mã. Bạn chỉ cần chạy trực tiếp.
+* Các đối tượng được định kiểu mạnh (và bản thân tên biến không có
+  kiểu dữ liệu nào cả).
+* Không có macro hay bộ tiền xử lý. Không có ép kiểu. Không có con trỏ
+  (cũng không có phép toán con trỏ). Không có typedef, sizeof, hay enum.
+* Không có tệp header. Bạn chỉ cần định nghĩa các hàm (thường
+  được gọi là "phương thức") và lớp trong các tệp mã nguồn chính.
+* Không có `#define`. Chỉ cần sử dụng hằng số thay thế.
+* Tất cả các biến nằm trên heap. Hơn nữa, bạn không cần tự giải phóng
+  chúng—bộ thu gom rác sẽ lo việc đó.
+* Tham số của phương thức (tức là hàm) được truyền theo giá trị, trong đó
+  giá trị luôn là tham chiếu đến đối tượng.
+* Sử dụng `require 'foo'` thay vì `#include <foo>` hoặc `#include "foo"`.
+* Bạn không thể viết mã assembly trực tiếp.
+* Không có dấu chấm phẩy kết thúc dòng.
+* Bạn không cần dấu ngoặc đơn cho biểu thức điều kiện `if` và `while`.
+* Dấu ngoặc đơn cho lệnh gọi phương thức (tức là hàm) thường là tùy chọn.
+* Bạn thường không sử dụng dấu ngoặc nhọn—chỉ cần kết thúc các cấu trúc
+  nhiều dòng (như vòng lặp `while`) bằng từ khóa `end`.
+* Từ khóa `do` dùng cho cái gọi là "block". Không có "câu lệnh do"
+  như trong C.
+* Thuật ngữ "block" có nghĩa khác. Nó dùng cho một khối mã mà bạn
+  liên kết với một lệnh gọi phương thức để thân phương thức có thể gọi
+  đến block đó trong quá trình thực thi.
+* Không có khai báo biến. Bạn chỉ cần gán cho tên mới
+  khi cần thiết.
+* Khi kiểm tra giá trị thật, chỉ `false` và `nil` được đánh giá là
+  giá trị false. Mọi thứ khác là true (bao gồm `0`, `0.0`, và `"0"`).
+* Không có `char`—chúng chỉ là chuỗi 1 ký tự.
+* Chuỗi không kết thúc bằng null byte.
+* Mảng được đặt trong ngoặc vuông thay vì ngoặc nhọn.
+* Mảng tự động lớn hơn khi bạn thêm phần tử vào chúng.
+* Nếu bạn cộng hai mảng, bạn nhận lại một mảng mới và lớn hơn
+  (tất nhiên, được cấp phát trên heap) thay vì thực hiện phép toán con trỏ.
+* Thường xuyên hơn là không, mọi thứ đều là biểu thức (nghĩa là những thứ
+  như câu lệnh `while` thực sự có giá trị trả về).
 
-### Differences from C++
+### Khác biệt so với C++
 
-Unlike C++, in Ruby,...
+Không giống C++, trong Ruby,...
 
-* There’s no explicit references. That is, in Ruby, every variable is
-  just an automatically dereferenced name for some object.
-* Objects are strongly but *dynamically* typed. The runtime discovers
-  *at runtime* if that method call actually works.
-* The “constructor” is called `initialize` instead of the class name.
-* All methods are always virtual.
-* “Class” (static) variable names always begin with `@@` (as in
+* Không có tham chiếu tường minh. Nghĩa là, trong Ruby, mọi biến chỉ
+  là một tên tự động giải tham chiếu cho một đối tượng nào đó.
+* Các đối tượng được định kiểu mạnh nhưng *động*. Runtime phát hiện
+  *tại thời điểm chạy* liệu lệnh gọi phương thức đó có thực sự hoạt động
+  hay không.
+* "Constructor" được gọi là `initialize` thay vì tên lớp.
+* Tất cả các phương thức luôn là virtual.
+* Tên biến "lớp" (static) luôn bắt đầu bằng `@@` (như trong
   `@@total_widgets`).
-* You don’t directly access member variables—all access to public member
-  variables (known in Ruby as attributes) is via methods.
-* It’s `self` instead of `this`.
-* Some methods end in a ’?’ or a ’!’. It’s actually part of the method
-  name.
-* There’s no multiple inheritance per se. Though Ruby has “mixins” (i.e.
-  you can “inherit” all instance methods of a module).
-* There are some enforced case-conventions (ex. class names start with a
-  capital letter, variables start with a lowercase letter).
-* Parentheses for method calls are usually optional.
-* You can re-open a class anytime and add more methods.
-* There’s no need of C++ templates (since you can assign any kind of
-  object to a given variable, and types get figured out at runtime
-  anyway). No casting either.
-* Iteration is done a bit differently. In Ruby, you don’t use a separate
-  iterator object (like `vector<T>::const_iterator iter`).
-  Instead you use an iterator method of the container object (like `each`)
-  that takes a block of code to which it passes successive elements.
-* There’s only two container types: `Array` and `Hash`.
-* There’s no type conversions. With Ruby though, you’ll probably find
-  that they aren’t necessary.
-* Multithreading is built-in, but as of Ruby 1.8 they are “green
-  threads” (implemented only within the interpreter) as opposed to
-  native threads.
-* A unit testing lib comes standard with Ruby.
+* Bạn không truy cập trực tiếp biến thành viên—mọi truy cập đến biến
+  thành viên public (được gọi là thuộc tính trong Ruby) đều thông qua
+  phương thức.
+* Sử dụng `self` thay vì `this`.
+* Một số phương thức kết thúc bằng '?' hoặc '!'. Nó thực sự là một phần
+  của tên phương thức.
+* Không có đa kế thừa theo nghĩa truyền thống. Tuy nhiên Ruby có "mixin"
+  (tức là bạn có thể "kế thừa" tất cả các phương thức instance của
+  một module).
+* Có một số quy ước viết hoa bắt buộc (ví dụ: tên lớp bắt đầu bằng chữ
+  hoa, biến bắt đầu bằng chữ thường).
+* Dấu ngoặc đơn cho lệnh gọi phương thức thường là tùy chọn.
+* Bạn có thể mở lại một lớp bất cứ lúc nào và thêm phương thức.
+* Không cần template C++ (vì bạn có thể gán bất kỳ loại đối tượng nào
+  cho một biến, và kiểu được xác định tại thời điểm chạy). Cũng không
+  cần ép kiểu.
+* Vòng lặp được thực hiện hơi khác. Trong Ruby, bạn không sử dụng đối
+  tượng iterator riêng biệt (như `vector<T>::const_iterator iter`).
+  Thay vào đó, bạn sử dụng phương thức iterator của đối tượng chứa
+  (như `each`) nhận một khối mã và truyền các phần tử liên tiếp vào đó.
+* Chỉ có hai loại container: `Array` và `Hash`.
+* Không có chuyển đổi kiểu. Tuy nhiên với Ruby, bạn có thể sẽ thấy rằng
+  chúng không cần thiết.
+* Đa luồng được tích hợp sẵn, nhưng kể từ Ruby 1.8 chúng là "green
+  thread" (chỉ được cài đặt bên trong trình thông dịch) thay vì
+  luồng gốc.
+* Thư viện kiểm thử đơn vị đi kèm tiêu chuẩn với Ruby.

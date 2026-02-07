@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,68 +35,68 @@ header: |
 
 {% include faq-notice.md %}
 
-## How does Ruby stack up against...?
+## Ruby so với các ngôn ngữ khác như thế nào?
 
-### How does Ruby compare with Python?
+### Ruby so với Python thế nào?
 
-Python and Ruby are both object oriented languages that provide a smooth
-transition from procedural to OO programming styles. Smalltalk, by contrast,
-is object only---you can't do anything until you understand objects,
-inheritance and the sizable Smalltalk class hierarchy. By providing procedural
-training wheels, Python and Ruby “fix” one of the features that may have
-kept Smalltalk out of the mainstream. The two languages differ by approaching
-this solution from opposite directions.
+Python và Ruby đều là ngôn ngữ hướng đối tượng cung cấp sự chuyển đổi mượt mà
+từ phong cách lập trình thủ tục sang OO. Smalltalk thì ngược lại,
+chỉ có đối tượng---bạn không thể làm gì cho đến khi hiểu đối tượng,
+kế thừa và hệ thống phân cấp lớp đồ sộ của Smalltalk. Bằng cách cung cấp
+bánh xe hỗ trợ kiểu thủ tục, Python và Ruby "sửa chữa" một trong những đặc điểm
+có thể đã giữ Smalltalk ngoài dòng chính. Hai ngôn ngữ khác nhau ở cách tiếp cận
+giải pháp này từ hai hướng ngược nhau.
 
-Python is a hybrid language. It has functions for procedural programming and
-objects for OO programming. Python bridges the two worlds by allowing
-functions and methods to interconvert using the explicit `self` parameter
-of every method def. When a function is inserted into an object, the first
-argument automagically becomes a reference to the receiver.
+Python là một ngôn ngữ lai. Nó có hàm cho lập trình thủ tục và
+đối tượng cho lập trình OO. Python kết nối hai thế giới bằng cách cho phép
+hàm và phương thức chuyển đổi qua lại nhờ tham số `self` tường minh
+trong mỗi định nghĩa phương thức. Khi một hàm được chèn vào đối tượng, tham số
+đầu tiên tự động trở thành tham chiếu đến đối tượng nhận.
 
-Ruby is a pure OO language that can masquerade as a procedural one. It has no
-functions, only method calls. In a Ruby method the receiver, also called
-`self`, is a hidden argument like `this` in C++. A `def` statement outside of
-a class definition, which defines a function in Python, actually defines a method
-in Ruby. These ersatz functions become private methods of class Object, the
-root of the Ruby class hierarchy. Procedural programming is neatly solved from
-the other direction---everything is an object. If the user doesn't grok
-objects yet, they can just pretend that `def` is a function definition and
-still get useful work done.
+Ruby là một ngôn ngữ OO thuần túy có thể ngụy trang thành ngôn ngữ thủ tục. Nó không
+có hàm, chỉ có lời gọi phương thức. Trong một phương thức Ruby, đối tượng nhận, còn gọi là
+`self`, là tham số ẩn giống như `this` trong C++. Câu lệnh `def` nằm ngoài
+định nghĩa lớp, vốn định nghĩa một hàm trong Python, thực chất định nghĩa một phương thức
+trong Ruby. Các hàm giả này trở thành phương thức private của lớp Object, gốc
+của hệ thống phân cấp lớp Ruby. Lập trình thủ tục được giải quyết gọn gàng từ
+hướng ngược lại---mọi thứ đều là đối tượng. Nếu người dùng chưa hiểu
+đối tượng, họ có thể giả vờ rằng `def` là định nghĩa hàm và
+vẫn làm việc hiệu quả được.
 
-Ruby's OO purity provides a number of features that Python lacks or is still
-working toward: a unified type/class hierarchy, metaclasses, the ability to
-subclass everything, and uniform method invocation (none of this `len()` is a
-function but `items()` is a method rubbish). Ruby, like Smalltalk, only
-supports single inheritance, but it does have a very powerful mixin concept:
-a class definition may include a module, which inserts that module's methods,
-constants, etc. into the class.
+Tính thuần túy OO của Ruby cung cấp nhiều tính năng mà Python thiếu hoặc vẫn đang
+phát triển: hệ thống phân cấp kiểu/lớp thống nhất, metaclass, khả năng
+kế thừa mọi thứ, và cách gọi phương thức đồng nhất (không có chuyện `len()` là
+hàm nhưng `items()` là phương thức). Ruby, giống như Smalltalk, chỉ
+hỗ trợ đơn kế thừa, nhưng nó có khái niệm mixin rất mạnh mẽ:
+một định nghĩa lớp có thể include một module, từ đó chèn các phương thức,
+hằng số, v.v. của module đó vào lớp.
 
-Ruby, again like Smalltalk, provides closures and code blocks and uses them
-to the same good effect. The Ruby collection classes and iterators are
-outstanding, much more powerful and elegant than the ad hoc solutions that
-Python is sprouting (lambdas and list comprehensions).
+Ruby, cũng giống như Smalltalk, cung cấp closure và block mã và sử dụng chúng
+một cách hiệu quả. Các lớp collection và iterator của Ruby rất
+xuất sắc, mạnh mẽ và tinh tế hơn nhiều so với các giải pháp tạm thời
+mà Python đang phát triển (lambda và list comprehension).
 
-Ruby's syntax and design philosophy are heavily influenced by Perl. It has a
-lot of syntactic variability. Statement modifiers (`if`, `unless`, `while`,
-`until`, etc.) may appear at the end of any statement. Some key words are
-optional (the `then` in an `if` statement for example). Parentheses may
-sometimes be elided in method calls. The receiver of a method may usually be
-elided.
-Many, many things are lifted directly from Perl.
-Built in regular expressions, `$_` and friends, here documents, the
-single-quoted / double-quoted string distinction, `$` and `@` prefixes to
-distinguish different kinds of names and so forth.
+Cú pháp và triết lý thiết kế của Ruby chịu ảnh hưởng nặng nề từ Perl. Nó có
+rất nhiều biến thể cú pháp. Các bổ ngữ câu lệnh (`if`, `unless`, `while`,
+`until`, v.v.) có thể xuất hiện ở cuối bất kỳ câu lệnh nào. Một số từ khóa
+là tùy chọn (ví dụ `then` trong câu lệnh `if`). Dấu ngoặc đơn đôi khi
+có thể bỏ qua trong lời gọi phương thức. Đối tượng nhận của phương thức thường có thể
+được lược bỏ.
+Rất nhiều thứ được lấy trực tiếp từ Perl.
+Biểu thức chính quy tích hợp sẵn, `$_` và các biến liên quan, here document,
+phân biệt chuỗi nháy đơn / nháy kép, tiền tố `$` và `@` để
+phân biệt các loại tên khác nhau, v.v.
 
-If you like Perl, you will like Ruby and be right at home with its syntax.
-If you like Smalltalk, you will like Ruby and be right at home with its
-semantics. If you like Python, you may or may not be put off by the huge
-difference in design philosophy between Python and Ruby/Perl.
+Nếu bạn thích Perl, bạn sẽ thích Ruby và cảm thấy quen thuộc với cú pháp của nó.
+Nếu bạn thích Smalltalk, bạn sẽ thích Ruby và cảm thấy quen thuộc với ngữ nghĩa
+của nó. Nếu bạn thích Python, bạn có thể hoặc không bị khó chịu bởi sự khác biệt
+lớn trong triết lý thiết kế giữa Python và Ruby/Perl.
 
-Ruby is much more complex than Python but its features, for the most part,
-hang together well. Ruby is well designed and full of neat ideas that might be
-mined for P3K. I'm not sure how many Python programmers will be attracted to
-it though---it hasn't won me over (yet). But it is worthy of serious study and
-could be a real threat to Perl.
+Ruby phức tạp hơn Python nhiều nhưng các tính năng của nó, phần lớn,
+phối hợp tốt với nhau. Ruby được thiết kế tốt và đầy những ý tưởng hay có thể
+được khai thác cho P3K. Tôi không chắc bao nhiêu lập trình viên Python sẽ bị thu hút
+bởi nó---nó chưa thuyết phục được tôi (chưa). Nhưng nó xứng đáng được nghiên cứu
+nghiêm túc và có thể là mối đe dọa thực sự đối với Perl.
 
-Posted by [John Dell'Aquila](mailto:jbd@alum.mit.edu) in comp.lang.python,
-11/17/2000. Reproduced with permission.
+Đăng bởi [John Dell'Aquila](mailto:jbd@alum.mit.edu) trên comp.lang.python,
+ngày 17/11/2000. Đăng lại với sự cho phép.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,21 +35,22 @@ header: |
 
 {% include faq-notice.md %}
 
-## Methods
+## Phương thức
 
-### How does Ruby choose which method to invoke?
+### Ruby chọn phương thức nào để gọi như thế nào?
 
-Ruby binds all messages to methods dynamically. It searches first for
-singleton methods in the receiver, then for methods defined in the receiver's
-own class, and finally for methods defined in the receiver's superclasses
-(including any modules which may have been mixed in). You can see the order
-of searching by displaying `ClassName.ancestors`, which shows the ancestor
-classes and modules of `ClassName`.
+Ruby liên kết tất cả các thông điệp với phương thức một cách động. Nó tìm kiếm
+trước tiên các phương thức singleton trong bộ nhận, sau đó các phương thức được
+định nghĩa trong lớp riêng của bộ nhận, và cuối cùng các phương thức được định
+nghĩa trong các lớp cha của bộ nhận (bao gồm bất kỳ module nào đã được trộn
+vào). Bạn có thể xem thứ tự tìm kiếm bằng cách hiển thị
+`ClassName.ancestors`, cho thấy các lớp tổ tiên và module của `ClassName`.
 
-If after searching the alternatives a matching method could not be found,
-Ruby tries to invoke a method called `method_missing`, repeating the same
-search procedure to find it. This allows you to handle messages to unknown
-methods, and is often used to provide dynamic interfaces to classes.
+Nếu sau khi tìm kiếm tất cả các phương án mà không tìm thấy phương thức phù
+hợp, Ruby sẽ cố gắng gọi một phương thức có tên `method_missing`, lặp lại
+cùng quy trình tìm kiếm để tìm nó. Điều này cho phép bạn xử lý các thông
+điệp đến các phương thức không xác định, và thường được sử dụng để cung cấp
+giao diện động cho các lớp.
 
 ~~~
 module Emphasizable
@@ -68,12 +69,12 @@ String.ancestors
 "Wow!".emphasize  # => "**Wow!**"
 ~~~
 
-When the method `emphasize` is searched for, it is not found in class
-`String`, so Ruby searches next in the module `Emphasizable`.
+Khi phương thức `emphasize` được tìm kiếm, nó không được tìm thấy trong lớp
+`String`, nên Ruby tìm tiếp trong module `Emphasizable`.
 
-In order to override a method that already exists in the receiver's class,
-e.g. `String#capitalize`, you need to insert the module into the
-ancestor chain in front of that class, by using `prepend`:
+Để ghi đè một phương thức đã tồn tại trong lớp của bộ nhận, ví dụ
+`String#capitalize`, bạn cần chèn module vào chuỗi tổ tiên phía trước lớp đó,
+bằng cách sử dụng `prepend`:
 
 ~~~
 module PrettyCapitalize
@@ -92,10 +93,10 @@ String.ancestors
 "hello".capitalize  # => "**Hello**"
 ~~~
 
-### Are `+`, `-`, `*`, ... operators?
+### `+`, `-`, `*`, ... có phải là toán tử không?
 
-`+`, `-`, and the like are not operators but method calls.
-They can, therefore, be overloaded by new definitions.
+`+`, `-` và những thứ tương tự không phải là toán tử mà là lời gọi phương
+thức. Do đó, chúng có thể được nạp chồng bằng các định nghĩa mới.
 
 ~~~
 class MyString < String
@@ -105,17 +106,17 @@ class MyString < String
 end
 ~~~
 
-However, the following are built-in control structures, not methods,
-which cannot be overridden:
+Tuy nhiên, các cấu trúc điều khiển có sẵn sau đây không phải là phương thức
+và không thể bị ghi đè:
 
 ~~~
 =, .., ..., not, ||, &&, and, or, ::
 ~~~
 
-To overload or to define the unary `+` and `-` operators,
-you need to use `+@` and `-@` as the method names.
+Để nạp chồng hoặc định nghĩa toán tử `+` và `-` đơn nguyên,
+bạn cần sử dụng `+@` và `-@` làm tên phương thức.
 
-`=` is used to define a method to set an attribute of the object:
+`=` được sử dụng để định nghĩa phương thức thiết lập thuộc tính của đối tượng:
 
 ~~~
 class Test
@@ -128,20 +129,21 @@ t = Test.new
 t.attribute = 1
 ~~~
 
-If operators such as `+` and `-` are defined, Ruby automatically handles
-the self assignment forms (`+=`, `-=`, and so on).
+Nếu các toán tử như `+` và `-` được định nghĩa, Ruby sẽ tự động xử lý các
+dạng tự gán (`+=`, `-=`, v.v.).
 
-### Where are `++` and `--` ?
+### `++` và `--` ở đâu?
 
-Ruby does not have the autoincrement and autodecrement operators.
-You can use `+= 1` and `-= 1` instead.
+Ruby không có toán tử tự tăng và tự giảm.
+Bạn có thể sử dụng `+= 1` và `-= 1` thay thế.
 
-### What is a singleton method?
+### Phương thức singleton là gì?
 {: #singleton-method}
 
-A singleton method is an instance method associated with one specific object.
+Phương thức singleton là một phương thức thể hiện được liên kết với một đối
+tượng cụ thể.
 
-You create a singleton method by including the object in the definition:
+Bạn tạo phương thức singleton bằng cách bao gồm đối tượng trong định nghĩa:
 
 ~~~
 class Foo; end
@@ -157,20 +159,20 @@ foo.hello
 bar.hello
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 Hello
 prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NoMethodError)
 ~~~
 
-Singleton methods are useful when you want to add a method to an object and
-creating a new subclass is not appropriate.
+Phương thức singleton hữu ích khi bạn muốn thêm phương thức vào một đối tượng
+và việc tạo một lớp con mới là không phù hợp.
 
-### All these objects are fine, but does Ruby have any simple functions?
+### Tất cả các đối tượng này đều tốt, nhưng Ruby có hàm đơn giản không?
 
-Yes and no. Ruby has methods that look like functions in languages such
-as C or Perl:
+Có và không. Ruby có các phương thức trông giống như hàm trong các ngôn ngữ
+như C hoặc Perl:
 
 ~~~
 def hello(name)
@@ -180,38 +182,39 @@ end
 hello("World")
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 Hello, World!
 ~~~
 
-However, they are actually method calls with the receiver omitted.
-In this case, Ruby assumes the receiver is self.
+Tuy nhiên, chúng thực chất là lời gọi phương thức với bộ nhận bị bỏ qua.
+Trong trường hợp này, Ruby giả định bộ nhận là self.
 
-So, `hello` resembles a function but it's actually a method belonging to
-class `Object` and sent as a message to the hidden receiver self.
-Ruby is a pure object-oriented language.
+Vì vậy, `hello` giống như một hàm nhưng thực chất là một phương thức thuộc
+lớp `Object` và được gửi dưới dạng thông điệp đến bộ nhận ẩn self.
+Ruby là một ngôn ngữ hướng đối tượng thuần túy.
 
-Of course you can use such methods as if they were functions.
+Tất nhiên bạn có thể sử dụng các phương thức như vậy như thể chúng là hàm.
 
-### So where do all these function-like methods come from?
+### Vậy tất cả các phương thức giống hàm này đến từ đâu?
 
-Almost all classes in Ruby are derived from class `Object`. The definition
-of class `Object` mixes in the methods defined in the `Kernel` module.
-These methods are therefore available within every object in the system.
+Hầu hết tất cả các lớp trong Ruby đều kế thừa từ lớp `Object`. Định nghĩa
+của lớp `Object` trộn vào các phương thức được định nghĩa trong module
+`Kernel`. Do đó, các phương thức này có sẵn trong mọi đối tượng trong hệ
+thống.
 
-Even if you are writing a simple Ruby program without classes, you are
-actually working inside class `Object`.
+Ngay cả khi bạn đang viết một chương trình Ruby đơn giản mà không có lớp,
+bạn thực chất đang làm việc bên trong lớp `Object`.
 
-### Can I access an object's instance variables?
+### Tôi có thể truy cập biến thể hiện của đối tượng không?
 
-An object's instance variables (those variables starting with `@`) are not
-directly accessible outside the object. This promotes good encapsulation.
-However, Ruby makes it easy for you to define accessors to these instance
-variables in such a way that users of your class can treat instance variables
-just like attributes. Just use one or more of `attr_reader`, `attr_writer`,
-or `attr_accessor`.
+Các biến thể hiện của đối tượng (những biến bắt đầu bằng `@`) không thể truy
+cập trực tiếp từ bên ngoài đối tượng. Điều này thúc đẩy tính đóng gói tốt.
+Tuy nhiên, Ruby giúp bạn dễ dàng định nghĩa các accessor cho các biến thể
+hiện này theo cách mà người dùng lớp của bạn có thể xử lý biến thể hiện giống
+như thuộc tính. Chỉ cần sử dụng một hoặc nhiều `attr_reader`, `attr_writer`
+hoặc `attr_accessor`.
 
 ~~~
 class Person
@@ -230,21 +233,21 @@ p.wearing_a_hat = true
 p.wearing_a_hat  # => true
 ~~~
 
-You can also define your own accessor functions (perhaps to perform
-validation, or to handle derived attributes). The read accessor is simply a
-method that takes no parameters, and the assignment accessor is a method name
-ending in `=` that takes a single parameter. Although there can be no space
-between the method name and the `=` in the method definition, you can insert
-spaces there when you call the method, making it look like any other
-assignment. You can also utilize self assignments such as `+=` and `-=`,
-as long as the corresponding `+` or `-` methods are defined.
+Bạn cũng có thể tự định nghĩa các hàm accessor (có thể để thực hiện kiểm
+tra hợp lệ, hoặc để xử lý các thuộc tính dẫn xuất). Accessor đọc đơn giản
+là một phương thức không nhận tham số, và accessor gán là một phương thức có
+tên kết thúc bằng `=` nhận một tham số duy nhất. Mặc dù không thể có khoảng
+trắng giữa tên phương thức và `=` trong định nghĩa phương thức, bạn có thể
+chèn khoảng trắng ở đó khi gọi phương thức, làm cho nó trông giống như bất
+kỳ phép gán nào khác. Bạn cũng có thể sử dụng các phép tự gán như `+=` và
+`-=`, miễn là phương thức `+` hoặc `-` tương ứng đã được định nghĩa.
 
-### What's the difference between `private` and `protected`?
+### Sự khác biệt giữa `private` và `protected` là gì?
 
-The visibility keyword `private` makes a method callable only in a function
-form, without an explicit receiver, and so it can only have `self` as its
-receiver. A private method is callable only within the class in which the
-method was defined or in its subclasses.
+Từ khóa khả năng hiển thị `private` làm cho phương thức chỉ có thể gọi được
+dưới dạng hàm, không có bộ nhận tường minh, và do đó chỉ có thể có `self`
+là bộ nhận. Phương thức private chỉ có thể gọi được trong lớp mà phương thức
+được định nghĩa hoặc trong các lớp con của nó.
 
 ~~~
 class Test
@@ -272,7 +275,7 @@ end
 t1.test(t2)
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 99
@@ -282,9 +285,9 @@ prog.rb:8:in `test': private method `foo' called for #<Test:0x00000000b57a48> (N
         from prog.rb:23:in `<main>'
 ~~~
 
-Protected methods are also callable only from within their own class or
-its subclasses, but they can be called both in function form and using
-a receiver. For example:
+Các phương thức protected cũng chỉ có thể gọi được từ bên trong lớp của
+chúng hoặc các lớp con, nhưng chúng có thể được gọi cả dưới dạng hàm và
+với bộ nhận. Ví dụ:
 
 ~~~
 def <=>(other)
@@ -292,16 +295,18 @@ def <=>(other)
 end
 ~~~
 
-Will compile if `age` is a protected method, but not if it is private.
+Sẽ biên dịch được nếu `age` là phương thức protected, nhưng không nếu nó là
+private.
 
-These features help you control access to your class's internals.
+Các tính năng này giúp bạn kiểm soát quyền truy cập vào nội bộ của lớp.
 
-### How can I change the visibility of a method?
+### Làm thế nào để thay đổi khả năng hiển thị của phương thức?
 
-You change the visibility of methods using `private`, `protected`, and
-`public`. When used without parameters during a class definition, they affect
-the visibility of subsequent methods. When used with parameters, they change
-the visibility of the named methods.
+Bạn thay đổi khả năng hiển thị của phương thức bằng `private`, `protected`
+và `public`. Khi được sử dụng không có tham số trong định nghĩa lớp, chúng
+ảnh hưởng đến khả năng hiển thị của các phương thức tiếp theo. Khi được sử
+dụng với tham số, chúng thay đổi khả năng hiển thị của các phương thức được
+đặt tên.
 
 ~~~
 class Foo
@@ -315,13 +320,13 @@ foo = Foo.new
 foo.test
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 prog.rb:9:in `<main>': private method `test' called for #<Foo:0x0000000284dda0> (NoMethodError)
 ~~~
 
-You can make a class method private using `private_class_method`.
+Bạn có thể đặt phương thức lớp thành private bằng `private_class_method`.
 
 ~~~
 class Foo
@@ -334,68 +339,68 @@ end
 Foo.test
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 prog.rb:8:in `<main>': private method `test' called for Foo:Class (NoMethodError)
 ~~~
 
-The default visibility for the methods defined in a class is public.
-The exception is the instance initializing method, `initialize`.
+Khả năng hiển thị mặc định cho các phương thức được định nghĩa trong lớp là
+public. Ngoại lệ là phương thức khởi tạo thể hiện, `initialize`.
 
-Methods defined at the toplevel are also public by default.
+Các phương thức được định nghĩa ở cấp cao nhất cũng mặc định là public.
 
-### Can an identifier beginning with a capital letter be a method name?
+### Định danh bắt đầu bằng chữ hoa có thể là tên phương thức không?
 
-Yes, it can, but we don't do it lightly! If Ruby sees a capitalized name
-followed by a space, it will probably (depending on the context) assume it's
-a constant, not a method name. So, if you use capitalized method names,
-always remember to put parameter lists in parentheses, and always put the
-parentheses next to the method name with no intervening spaces.
-(This last suggestion is a good idea anyway!)
+Có, nhưng chúng ta không nên làm điều đó một cách thiếu cân nhắc! Nếu Ruby
+thấy một tên viết hoa theo sau bởi khoảng trắng, nó có thể (tùy theo ngữ
+cảnh) giả định đó là hằng số, không phải tên phương thức. Vì vậy, nếu bạn
+sử dụng tên phương thức viết hoa, luôn nhớ đặt danh sách tham số trong ngoặc
+đơn, và luôn đặt ngoặc đơn sát tên phương thức không có khoảng trắng xen
+giữa. (Gợi ý cuối cùng này là ý tưởng tốt trong mọi trường hợp!)
 
-### Calling `super` gives an `ArgumentError`.
+### Gọi `super` bị lỗi `ArgumentError`.
 
-Invoking `super` with no parameters in a method passes all the arguments of
-that method to a method of the same name in a superclass. If the number of
-arguments to the original method disagrees with that of the higher-level
-method, an `ArgumentError` is raised. To get around this, simply call `super`
-and pass a suitable number of arguments.
+Gọi `super` không có tham số trong một phương thức sẽ truyền tất cả các đối
+số của phương thức đó đến phương thức cùng tên trong lớp cha. Nếu số lượng
+đối số của phương thức gốc không khớp với phương thức cấp cao hơn, lỗi
+`ArgumentError` sẽ được phát sinh. Để khắc phục điều này, chỉ cần gọi `super`
+và truyền số lượng đối số phù hợp.
 
-### How can I call the method of the same name two levels up?
+### Làm thế nào để gọi phương thức cùng tên hai cấp trên?
 
-`super` invokes the same named method one level up. If you are overloading a
-method in a more distant ancestor, use `alias` to give it a new name before
-masking it with your method definition. You can then call it using that
-aliased name.
+`super` gọi phương thức cùng tên một cấp trên. Nếu bạn đang nạp chồng một
+phương thức trong lớp tổ tiên xa hơn, hãy sử dụng `alias` để đặt cho nó
+một tên mới trước khi che phủ nó bằng định nghĩa phương thức của bạn. Sau đó
+bạn có thể gọi nó bằng tên bí danh đó.
 
-### How can I invoke an original built-in method after redefining it?
+### Làm thế nào để gọi phương thức có sẵn gốc sau khi định nghĩa lại nó?
 
-Within the method definition, you can use `super`. You can also use `alias`
-to give it an alternative name. Finally, you can call the original method as
-a singleton method of `Kernel`.
+Trong định nghĩa phương thức, bạn có thể sử dụng `super`. Bạn cũng có thể
+sử dụng `alias` để đặt cho nó một tên thay thế. Cuối cùng, bạn có thể gọi
+phương thức gốc như một phương thức singleton của `Kernel`.
 
-### What is a destructive method?
+### Phương thức hủy là gì?
 {: #destructive-method}
 
-A destructive method is one which alters the state of an object. `String`,
-`Array`, `Hash`, and others have such methods. Often there are two
-versions of a method, one with a plain name, the other with the same name,
-but followed by `!`. The plain version creates a copy of the receiver, makes
-its change to it, and returns the copy. The “bang” version (with the `!`)
-modifies the receiver in place.
+Phương thức hủy là phương thức thay đổi trạng thái của đối tượng. `String`,
+`Array`, `Hash` và những lớp khác có các phương thức như vậy. Thường có hai
+phiên bản của một phương thức, một với tên thường, phiên bản khác có cùng tên
+nhưng theo sau bởi `!`. Phiên bản thường tạo một bản sao của bộ nhận, thực
+hiện thay đổi trên đó và trả về bản sao. Phiên bản "bang" (có `!`) sửa đổi
+bộ nhận tại chỗ.
 
-Beware, however, that there are a fair number of destructive methods that
-do not have an `!`, including assignment methods (`name=`), array assignment
-(`[]=`), and methods such as `Array.delete`.
+Tuy nhiên, hãy lưu ý rằng có khá nhiều phương thức hủy không có `!`, bao gồm
+các phương thức gán (`name=`), gán mảng (`[]=`), và các phương thức như
+`Array.delete`.
 
-### Why can destructive methods be dangerous?
+### Tại sao phương thức hủy có thể nguy hiểm?
 
-Remember that assignment in most cases just copies object references, and that
-parameter passing is equivalent to assignment. This means you can end up with
-multiple variables referencing the same object. If one of those variables is
-used to invoke a destructive method, the object referenced by all of them will
-be changed.
+Hãy nhớ rằng phép gán trong hầu hết các trường hợp chỉ sao chép tham chiếu
+đối tượng, và việc truyền tham số tương đương với phép gán. Điều này có nghĩa
+là bạn có thể có nhiều biến tham chiếu đến cùng một đối tượng. Nếu một trong
+những biến đó được sử dụng để gọi phương thức hủy, đối tượng được tham chiếu
+bởi tất cả chúng sẽ bị thay đổi.
 
 ~~~
 def foo(str)
@@ -407,11 +412,11 @@ foo(obj)     # => "baz"
 obj          # => "baz"
 ~~~
 
-In this case the actual argument is altered.
+Trong trường hợp này, đối số thực tế bị thay đổi.
 
-### Can I return multiple values from a method?
+### Tôi có thể trả về nhiều giá trị từ phương thức không?
 
-Yes and no.
+Có và không.
 
 ~~~
 def m1
@@ -426,9 +431,9 @@ m1  # => [1, 2, 3]
 m2  # => [1, 2, 3]
 ~~~
 
-So, only one thing is returned, but that thing can be an arbitrarily complex
-object. In the case of arrays, you can use multiple assignment to get the
-effect of multiple return values. For example:
+Vậy, chỉ một thứ được trả về, nhưng thứ đó có thể là một đối tượng phức tạp
+tùy ý. Trong trường hợp mảng, bạn có thể sử dụng phép gán đa trị để có được
+hiệu ứng trả về nhiều giá trị. Ví dụ:
 
 ~~~
 def foo

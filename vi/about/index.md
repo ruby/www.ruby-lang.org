@@ -1,82 +1,84 @@
 ---
 layout: page
-title: "About Ruby"
+title: "Về Ruby"
 lang: vi
 ---
 
-Wondering why Ruby is so popular? Its fans call it a beautiful, artful
-language. And yet, they say it’s handy and practical. What gives?
+Bạn tự hỏi vì sao Ruby lại phổ biến đến vậy? Những người hâm mộ gọi nó
+là một ngôn ngữ đẹp đẽ và tinh tế. Nhưng họ cũng nói nó tiện dụng và
+thiết thực. Vậy điều gì làm nên sức hút đó?
 {: .summary}
 
-### The Ideals of Ruby’s Creator
+### Lý tưởng của người tạo ra Ruby
 
-Ruby is a language of careful balance. Its creator, [Yukihiro “Matz”
-Matsumoto][matz], blended parts of his favorite languages (Perl, Smalltalk,
-Eiffel, Ada, and Lisp) to form a new language that balanced functional
-programming with imperative programming.
+Ruby là một ngôn ngữ được cân bằng một cách cẩn thận. Người tạo ra nó,
+[Yukihiro "Matz" Matsumoto][matz], đã kết hợp những phần tinh hoa từ các
+ngôn ngữ yêu thích của ông (Perl, Smalltalk, Eiffel, Ada, và Lisp) để tạo
+thành một ngôn ngữ mới cân bằng giữa lập trình hàm và lập trình mệnh lệnh.
 
-He has often said that he is “trying to make Ruby natural, not simple,”
-in a way that mirrors life.
+Ông thường nói rằng ông "cố gắng làm cho Ruby tự nhiên, chứ không phải đơn
+giản," theo cách phản ánh cuộc sống.
 
-Building on this, he adds:
+Dựa trên điều này, ông nói thêm:
 
-> Ruby is simple in appearance, but is very complex inside, just like
-> our human body<sup>[1](#fn1)</sup>.
+> Ruby trông bề ngoài đơn giản, nhưng bên trong rất phức tạp, giống như
+> cơ thể con người vậy<sup>[1](#fn1)</sup>.
 
-### About Ruby’s Growth
+### Về sự phát triển của Ruby
 
-Since its public release in 1995, Ruby has drawn devoted coders
-worldwide. In 2006, Ruby achieved mass acceptance. With active user
-groups formed in the world’s major cities and Ruby-related conferences
-filled to capacity.
+Kể từ khi được phát hành công khai vào năm 1995, Ruby đã thu hút những lập
+trình viên tận tụy trên toàn thế giới. Vào năm 2006, Ruby đạt được sự chấp
+nhận rộng rãi. Các nhóm người dùng hoạt động tích cực được thành lập ở các
+thành phố lớn trên thế giới và các hội nghị liên quan đến Ruby luôn chật kín
+chỗ.
 
-Ruby-Talk, the primary [mailing list](/en/community/mailing-lists/) for
-discussion of the Ruby language, climbed to an average of 200 messages
-per day in 2006. It has dropped in recent years as the size of the
-community pushed discussion from one central list into many smaller
-groups.
+Ruby-Talk, [danh sách thư](/vi/community/mailing-lists/) chính để thảo luận
+về ngôn ngữ Ruby, đã đạt trung bình 200 tin nhắn mỗi ngày vào năm 2006. Con
+số này đã giảm trong những năm gần đây khi quy mô cộng đồng đẩy các cuộc
+thảo luận từ một danh sách trung tâm sang nhiều nhóm nhỏ hơn.
 
-Ruby is ranked among the top 10 on most of the indices that measure
-the growth and popularity of programming languages worldwide
-(such as the [TIOBE index][tiobe]). Much of the growth is attributed to the
-popularity of software written in Ruby, particularly the
-[Ruby on Rails][ror] web framework.
+Ruby được xếp hạng trong top 10 trên hầu hết các chỉ số đo lường sự phát
+triển và mức độ phổ biến của các ngôn ngữ lập trình trên toàn thế giới
+(chẳng hạn như [chỉ số TIOBE][tiobe]). Phần lớn sự tăng trưởng được cho là
+nhờ sự phổ biến của các phần mềm được viết bằng Ruby, đặc biệt là framework
+web [Ruby on Rails][ror].
 
-Ruby is also [completely free]({{ site.license.url }}). Not only free of charge, but
-also free to use, copy, modify, and distribute.
+Ruby cũng [hoàn toàn miễn phí]({{ site.license.url }}). Không chỉ miễn phí
+về chi phí, mà còn tự do sử dụng, sao chép, sửa đổi và phân phối.
 
-### Seeing Everything as an Object
+### Mọi thứ đều là đối tượng
 
-Initially, Matz looked at other languages to find an ideal syntax.
-Recalling his search, he said, “I wanted a scripting language that was
-more powerful than Perl, and more object-oriented than
-Python<sup>[2](#fn2)</sup>.”
+Ban đầu, Matz tìm hiểu các ngôn ngữ khác để tìm một cú pháp lý tưởng. Nhớ
+lại quá trình tìm kiếm của mình, ông nói, "Tôi muốn một ngôn ngữ kịch bản
+mạnh mẽ hơn Perl, và hướng đối tượng hơn
+Python<sup>[2](#fn2)</sup>."
 
-In Ruby, everything is an object. Every bit of information and code can
-be given their own properties and actions. Object-oriented programming
-calls properties by the name *instance variables* and actions are known
-as *methods*. Ruby’s pure object-oriented approach is most commonly
-demonstrated by a bit of code which applies an action to a number.
+Trong Ruby, mọi thứ đều là đối tượng. Mỗi phần thông tin và mã nguồn đều có
+thể được gán các thuộc tính và hành động riêng. Lập trình hướng đối tượng
+gọi các thuộc tính bằng tên *biến thực thể* và các hành động được gọi là
+*phương thức*. Cách tiếp cận hướng đối tượng thuần túy của Ruby thường được
+minh họa rõ nhất qua một đoạn mã áp dụng hành động lên một số.
 
 {% highlight ruby %}
 5.times { print "We *love* Ruby -- it's outrageous!" }
 {% endhighlight %}
 
-In many languages, numbers and other primitive types are not objects.
-Ruby follows the influence of the Smalltalk language by giving methods
-and instance variables to all of its types. This eases one’s use of
-Ruby, since rules applying to objects apply to all of Ruby.
+Trong nhiều ngôn ngữ, số và các kiểu nguyên thủy khác không phải là đối
+tượng. Ruby theo ảnh hưởng của ngôn ngữ Smalltalk bằng cách cung cấp
+phương thức và biến thực thể cho tất cả các kiểu dữ liệu. Điều này giúp
+việc sử dụng Ruby trở nên dễ dàng hơn, vì các quy tắc áp dụng cho đối
+tượng cũng áp dụng cho toàn bộ Ruby.
 
-### Ruby’s Flexibility
+### Sự linh hoạt của Ruby
 
-Ruby is seen as a flexible language, since it allows its users to freely
-alter its parts. Essential parts of Ruby can be removed or redefined, at
-will. Existing parts can be added upon. Ruby tries not to restrict the
-coder.
+Ruby được xem là một ngôn ngữ linh hoạt, vì nó cho phép người dùng tự do
+thay đổi các thành phần của nó. Các phần thiết yếu của Ruby có thể được gỡ
+bỏ hoặc định nghĩa lại tùy ý. Các phần hiện có có thể được bổ sung thêm.
+Ruby cố gắng không hạn chế lập trình viên.
 
-For example, addition is performed with the plus (`+`) operator. But, if
-you’d rather use the readable word `plus`, you could add such a method
-to Ruby’s builtin `Numeric` class.
+Ví dụ, phép cộng được thực hiện bằng toán tử cộng (`+`). Nhưng nếu bạn
+muốn sử dụng từ dễ đọc `plus`, bạn có thể thêm phương thức đó vào lớp
+`Numeric` có sẵn của Ruby.
 
 {% highlight ruby %}
 class Numeric
@@ -89,19 +91,19 @@ y = 5.plus 6
 # y is now equal to 11
 {% endhighlight %}
 
-Ruby’s operators are syntactic sugar for methods. You can redefine them
-as well.
+Các toán tử của Ruby là cú pháp tiện lợi (syntactic sugar) cho các phương
+thức. Bạn cũng có thể định nghĩa lại chúng.
 
-### Blocks: a Truly Expressive Feature
+### Block: một tính năng thực sự mạnh mẽ
 
-Ruby’s block are also seen as a source of great flexibility. A
-programmer can attach a closure to any method, describing how that
-method should act. The closure is called a *block* and has become one of
-the most popular features for newcomers to Ruby from other imperative
-languages like PHP or Visual Basic.
+Block của Ruby cũng được xem là nguồn mang lại sự linh hoạt lớn. Lập trình
+viên có thể gắn một closure vào bất kỳ phương thức nào, mô tả cách phương
+thức đó nên hoạt động. Closure này được gọi là *block* và đã trở thành một
+trong những tính năng phổ biến nhất cho những người mới đến với Ruby từ các
+ngôn ngữ mệnh lệnh khác như PHP hay Visual Basic.
 
-Blocks are inspired by functional languages. Matz said, “in Ruby
-closures, I wanted to respect the Lisp culture<sup>[3](#fn3)</sup>.”
+Block được lấy cảm hứng từ các ngôn ngữ hàm. Matz nói, "trong các closure
+của Ruby, tôi muốn tôn trọng văn hóa Lisp<sup>[3](#fn3)</sup>."
 
 {% highlight ruby %}
 search_engines =
@@ -110,21 +112,21 @@ search_engines =
   end
 {% endhighlight %}
 
-In the above code, the block is described inside the `do ... end`
-construct. The `map` method applies the block to the provided list of
-words. Many other methods in Ruby leave a hole open for a coder to write
-their own block to fill in the details of what that method should do.
+Trong đoạn mã trên, block được mô tả bên trong cấu trúc `do ... end`.
+Phương thức `map` áp dụng block lên danh sách các từ được cung cấp. Nhiều
+phương thức khác trong Ruby để mở một chỗ trống cho lập trình viên viết
+block riêng của họ để điền vào chi tiết những gì phương thức đó nên làm.
 
-### Ruby and the Mixin
+### Ruby và Mixin
 
-Unlike many object-oriented languages, Ruby features single inheritance
-only, **on purpose**. But Ruby knows the concept of modules (called
-Categories in Objective-C). Modules are collections of methods.
+Không giống như nhiều ngôn ngữ hướng đối tượng khác, Ruby chỉ hỗ trợ đơn
+kế thừa, và điều này là **có chủ đích**. Nhưng Ruby có khái niệm module
+(gọi là Category trong Objective-C). Module là các tập hợp phương thức.
 
-Classes can mixin a module and receive all its methods for free. For
-example, any class which implements the `each` method can mixin the
-`Enumerable` module, which adds a pile of methods that use `each` for
-looping.
+Các lớp có thể mixin một module và nhận tất cả các phương thức của nó miễn
+phí. Ví dụ, bất kỳ lớp nào triển khai phương thức `each` đều có thể mixin
+module `Enumerable`, module này bổ sung hàng loạt phương thức sử dụng `each`
+để duyệt vòng lặp.
 
 {% highlight ruby %}
 class MyArray
@@ -132,93 +134,96 @@ class MyArray
 end
 {% endhighlight %}
 
-Generally, Rubyists see this as a much clearer way than multiple
-inheritance, which is complex and can be too restrictive.
+Nói chung, các Rubyist xem đây là cách rõ ràng hơn nhiều so với đa kế thừa,
+vốn phức tạp và có thể quá hạn chế.
 
-### Ruby’s Visual Appearance
+### Diện mạo trực quan của Ruby
 
-While Ruby often uses very limited punctuation and usually prefers
-English keywords, some punctuation is used to decorate Ruby. Ruby needs
-no variable declarations. It uses simple naming conventions to denote
-the scope of variables.
+Mặc dù Ruby thường sử dụng rất ít dấu câu và ưu tiên các từ khóa tiếng
+Anh, một số dấu câu được dùng để trang trí Ruby. Ruby không cần khai báo
+biến. Nó sử dụng các quy ước đặt tên đơn giản để biểu thị phạm vi của
+biến.
 
-* `var` could be a local variable.
-* `@var` is an instance variable.
-* `$var` is a global variable.
+* `var` có thể là biến cục bộ.
+* `@var` là biến thực thể.
+* `$var` là biến toàn cục.
 
-These sigils enhance readability by allowing the programmer to easily
-identify the roles of each variable. It also becomes unnecessary to use
-a tiresome `self.` prepended to every instance member.
+Các ký hiệu này tăng tính dễ đọc bằng cách cho phép lập trình viên dễ dàng
+nhận biết vai trò của từng biến. Nó cũng giúp loại bỏ sự cần thiết phải
+thêm tiền tố `self.` trước mỗi thành viên thực thể.
 
-### Beyond the Basics
+### Ngoài những điều cơ bản
 
-Ruby has a wealth of other features, among which are the following:
+Ruby có rất nhiều tính năng khác, trong đó bao gồm:
 
-* Ruby has exception handling features, like Java or Python, to make it
-  easy to handle errors.
+* Ruby có các tính năng xử lý ngoại lệ, giống như Java hay Python, giúp
+  xử lý lỗi một cách dễ dàng.
 
-* Ruby features a true mark-and-sweep garbage collector for all Ruby
-  objects. No need to maintain reference counts in extension libraries.
-  As Matz says, “This is better for your health.”
+* Ruby có bộ thu gom rác (garbage collector) theo kiểu đánh dấu và quét
+  (mark-and-sweep) thực thụ cho tất cả các đối tượng Ruby. Không cần phải
+  duy trì bộ đếm tham chiếu trong các thư viện mở rộng. Như Matz nói,
+  "Điều này tốt hơn cho sức khỏe của bạn."
 
-* Writing C extensions in Ruby is easier than in Perl or Python, with a
-  very elegant API for calling Ruby from C. This includes calls for
-  embedding Ruby in software, for use as a scripting language. A SWIG
-  interface is also available.
+* Viết các phần mở rộng C trong Ruby dễ dàng hơn so với Perl hay Python,
+  với một API rất tinh tế để gọi Ruby từ C. Điều này bao gồm các lệnh gọi
+  để nhúng Ruby vào phần mềm, sử dụng như một ngôn ngữ kịch bản. Giao diện
+  SWIG cũng có sẵn.
 
-* Ruby can load extension libraries dynamically if an OS allows.
+* Ruby có thể tải các thư viện mở rộng một cách động nếu hệ điều hành
+  cho phép.
 
-* Ruby features OS independent threading. Thus, for all platforms on
-  which Ruby runs, you also have multithreading, regardless of if the OS
-  supports it or not, even on MS-DOS!
+* Ruby có luồng (threading) độc lập với hệ điều hành. Do đó, trên tất cả
+  các nền tảng mà Ruby chạy, bạn cũng có đa luồng, bất kể hệ điều hành
+  có hỗ trợ hay không, kể cả trên MS-DOS!
 
-* Ruby is highly portable: it is developed mostly on GNU/Linux, but
-  works on many types of UNIX, macOS, Windows, DOS, BeOS, OS/2, etc.
+* Ruby có tính di động cao: nó được phát triển chủ yếu trên GNU/Linux,
+  nhưng hoạt động trên nhiều loại UNIX, macOS, Windows, DOS, BeOS, OS/2,
+  v.v.
 
-### Other Implementations of Ruby
+### Các bản triển khai khác của Ruby
 
-Ruby, as a language, has a few different implementations.
-This page has been discussing the reference implementation, in the
-community often referred to as **MRI** (“Matz’s Ruby Interpreter”)
-or **CRuby** (since it is written in C), but there are also others.
-They are often useful in certain situations, provide extra
-integration to other languages or environments, or have special features
-that MRI doesn’t.
+Ruby, với tư cách là một ngôn ngữ, có một số bản triển khai khác nhau.
+Trang này đã thảo luận về bản triển khai tham chiếu, trong cộng đồng thường
+được gọi là **MRI** ("Matz's Ruby Interpreter") hoặc **CRuby** (vì nó
+được viết bằng C), nhưng cũng có những bản triển khai khác. Chúng thường
+hữu ích trong các tình huống nhất định, cung cấp khả năng tích hợp thêm với
+các ngôn ngữ hoặc môi trường khác, hoặc có các tính năng đặc biệt mà MRI
+không có.
 
-Here’s a list:
+Dưới đây là danh sách:
 
-* [JRuby][jruby] is Ruby atop the JVM (Java Virtual Machine), utilizing the
-  JVM’s optimizing JIT compilers, garbage collectors, concurrent
-  threads, tool ecosystem, and vast collection of libraries.
-* [Rubinius][rubinius] is ‘Ruby written in Ruby’. Built on top of LLVM,
-  Rubinius sports a nifty virtual machine that other languages are being
-  built on top of, too.
-* [TruffleRuby][truffleruby] is a high performance Ruby implementation on top of
-  GraalVM.
-* [mruby][mruby] is a lightweight implementation of the Ruby language
-  that can be linked and embedded within an application.
-  Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
-* [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
-  Framework”.
-* [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
-  object persistence and distributed shared cache”.
-* [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
-  (Perl 6).
+* [JRuby][jruby] là Ruby chạy trên JVM (Java Virtual Machine), tận dụng
+  các trình biên dịch JIT tối ưu, bộ thu gom rác, luồng đồng thời, hệ sinh
+  thái công cụ, và bộ sưu tập thư viện đồ sộ của JVM.
+* [Rubinius][rubinius] là 'Ruby được viết bằng Ruby'. Được xây dựng trên
+  nền LLVM, Rubinius có một máy ảo tiện lợi mà các ngôn ngữ khác cũng đang
+  được xây dựng trên đó.
+* [TruffleRuby][truffleruby] là một bản triển khai Ruby hiệu năng cao trên
+  nền GraalVM.
+* [mruby][mruby] là một bản triển khai nhẹ của ngôn ngữ Ruby, có thể được
+  liên kết và nhúng vào trong một ứng dụng. Việc phát triển được dẫn dắt
+  bởi người tạo ra Ruby, Yukihiro "Matz" Matsumoto.
+* [IronRuby][ironruby] là một bản triển khai "tích hợp chặt chẽ với .NET
+  Framework".
+* [MagLev][maglev] là "một bản triển khai Ruby nhanh, ổn định với tính năng
+  lưu trữ đối tượng tích hợp và bộ nhớ đệm chia sẻ phân tán".
+* [Cardinal][cardinal] là "trình biên dịch Ruby cho [Parrot][parrot] Virtual
+  Machine" (Perl 6).
 
-For a more complete list, see [Awesome Rubies][awesome-rubies].
+Để xem danh sách đầy đủ hơn, hãy tham khảo [Awesome Rubies][awesome-rubies].
 
-### References
+### Tham khảo
 
-<sup>1</sup> Matz, speaking on the Ruby-Talk mailing list, [May 12th,
-2000][blade].
+<sup>1</sup> Matz, phát biểu trên danh sách thư Ruby-Talk, [ngày 12 tháng 5
+năm 2000][blade].
 {: #fn1}
 
-<sup>2</sup> Matz, in [An Interview with the Creator of Ruby][linuxdevcenter], Nov.
-29th, 2001.
+<sup>2</sup> Matz, trong [An Interview with the Creator of Ruby][linuxdevcenter], ngày
+29 tháng 11 năm 2001.
 {: #fn2}
 
-<sup>3</sup> Matz, in [Blocks and Closures in Ruby][artima], December 22nd,
-2003.
+<sup>3</sup> Matz, trong [Blocks and Closures in Ruby][artima], ngày 22 tháng 12
+năm 2003.
 {: #fn3}
 
 

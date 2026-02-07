@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,72 +35,72 @@ header: |
 
 {% include faq-notice.md %}
 
-## Syntax
+## Cú pháp
 
-### What is the difference between an immediate value and a reference?
+### Sự khác biệt giữa giá trị trực tiếp và tham chiếu là gì?
 {: #immediate}
 
 {% include warnings/faq-out-of-date.html %}
 
-`Fixnum`, `true`, `nil`, and `false` are implemented as immediate values.
-With immediate values, variables hold the objects themselves, rather than
-references to them.
+`Fixnum`, `true`, `nil` và `false` được triển khai dưới dạng giá trị trực
+tiếp. Với giá trị trực tiếp, biến chứa chính đối tượng, thay vì tham chiếu
+đến chúng.
 
-Singleton methods cannot be defined for such objects. Two `Fixnums` of the
-same value always represent the same object instance, so (for example)
-instance variables for the `Fixnum` with the value `1` are shared between
-all the `1`'s in the system. This makes it impossible to define a singleton
-method for just one of these.
+Không thể định nghĩa phương thức singleton cho các đối tượng như vậy. Hai
+`Fixnum` có cùng giá trị luôn đại diện cho cùng một thể hiện đối tượng,
+nên (ví dụ) các biến thể hiện cho `Fixnum` có giá trị `1` được chia sẻ giữa
+tất cả các `1` trong hệ thống. Điều này khiến việc định nghĩa phương thức
+singleton cho chỉ một trong số chúng là không thể.
 
-### What is the difference between `nil` and `false`?
+### Sự khác biệt giữa `nil` và `false` là gì?
 
-First the similarity: `nil` and `false` are the only two objects
-that evaluate to `false` in a boolean context.
-(In other words: they are the only “falsy” values, all other
-objects are “truthy”.)
+Trước hết là điểm tương đồng: `nil` và `false` là hai đối tượng duy nhất
+được đánh giá là `false` trong ngữ cảnh boolean.
+(Nói cách khác: chúng là hai giá trị "falsy" duy nhất, tất cả các đối tượng
+khác đều là "truthy".)
 
-However, `nil` and `false` are instances of different classes
-(`NilClass` and `FalseClass`), and have different behavior elsewhere.
+Tuy nhiên, `nil` và `false` là thể hiện của các lớp khác nhau
+(`NilClass` và `FalseClass`), và có hành vi khác nhau ở những chỗ khác.
 
-We recommend that predicate methods (those whose name ends with a question
-mark) return `true` or `false`. Other methods that need to indicate failure
-should return `nil`.
+Chúng tôi khuyến nghị các phương thức vị ngữ (những phương thức có tên kết
+thúc bằng dấu hỏi) nên trả về `true` hoặc `false`. Các phương thức khác cần
+chỉ ra sự thất bại nên trả về `nil`.
 
-### Why is an empty string not `false`?
+### Tại sao chuỗi rỗng không phải là `false`?
 
-Q: An empty string (`""`) returns `true` in a conditional expression!
-In Perl, it's `false`.
+H: Một chuỗi rỗng (`""`) trả về `true` trong biểu thức điều kiện!
+Trong Perl, nó là `false`.
 
-A: But Ruby is not Perl ;-). It's very simple: in Ruby, only `nil`
-and `false` are false in conditional contexts.
+Đ: Nhưng Ruby không phải là Perl ;-). Rất đơn giản: trong Ruby, chỉ có `nil`
+và `false` là false trong ngữ cảnh điều kiện.
 
-You can use `empty?`, compare the string to `""`, or compare the string's
-`size` or `length` to `0` to find out if a string is empty.
+Bạn có thể sử dụng `empty?`, so sánh chuỗi với `""`, hoặc so sánh `size`
+hoặc `length` của chuỗi với `0` để kiểm tra xem một chuỗi có rỗng hay không.
 
-### What does `:name` mean?
+### `:name` có ý nghĩa gì?
 
-A colon followed by a name generates a Symbol object which corresponds
-one to one with the identifier. During the duration of a program's
-execution the same Symbol object will be created for a given name or string.
-Symbols can also be created with `"name".intern` or `"name".to_sym`.
+Một dấu hai chấm theo sau bởi một tên tạo ra một đối tượng Symbol tương ứng
+một-một với định danh đó. Trong suốt thời gian thực thi chương trình, cùng
+một đối tượng Symbol sẽ được tạo cho một tên hoặc chuỗi nhất định.
+Symbol cũng có thể được tạo bằng `"name".intern` hoặc `"name".to_sym`.
 
-Symbol objects can represent identifiers for methods, variables, and so on.
-Some methods, like `define_method`, `method_missing`, or `trace_var`,
-require a symbol. Other methods, e.g. `attr_accessor`, `send`, or `autoload`,
-also accept a string.
+Các đối tượng Symbol có thể đại diện cho các định danh của phương thức, biến,
+v.v. Một số phương thức, như `define_method`, `method_missing` hoặc
+`trace_var`, yêu cầu một symbol. Các phương thức khác, ví dụ `attr_accessor`,
+`send` hoặc `autoload`, cũng chấp nhận chuỗi.
 
-Due to the fact that they are created only once, Symbols are often used as
-hash keys. String hash keys would create a new object for every single use,
-thereby causing some memory overhead.
-There is even a special syntax for symbol hash keys:
+Do chỉ được tạo một lần, Symbol thường được sử dụng làm khóa hash.
+Khóa hash dạng chuỗi sẽ tạo một đối tượng mới cho mỗi lần sử dụng, gây ra
+một số chi phí bộ nhớ.
+Thậm chí còn có cú pháp đặc biệt cho khóa hash dạng symbol:
 
 ~~~
 person_1 = { :name => "John", :age => 42 }
 person_2 = { name: "Jane", age: 24 }        # alternate syntax
 ~~~
 
-Symbols can also be used as enumeration values
-or to assign unique values to constants:
+Symbol cũng có thể được sử dụng làm giá trị liệt kê
+hoặc để gán giá trị duy nhất cho các hằng số:
 
 ~~~
 status = :open  # :closed, ...
@@ -109,11 +109,11 @@ NORTH = :NORTH
 SOUTH = :SOUTH
 ~~~
 
-### How can I access the value of a symbol?
+### Làm thế nào để truy cập giá trị của symbol?
 
-To get the value of the variable corresponding to a symbol, you can use
-`symbol.to_s` or `"#{symbol}"` to get the name of the variable, and then
-eval that in the scope of the symbol to get the variable's contents:
+Để lấy giá trị của biến tương ứng với một symbol, bạn có thể sử dụng
+`symbol.to_s` hoặc `"#{symbol}"` để lấy tên của biến, rồi eval nó trong phạm
+vi của symbol để lấy nội dung của biến:
 
 ~~~
 a = "This is the content of `a'"
@@ -121,13 +121,14 @@ b = eval("#{:a}")
 a.object_id == b.object_id  # => true
 ~~~
 
-You can also use
+Bạn cũng có thể sử dụng
 
 ~~~
 b = binding.local_variable_get(:a)
 ~~~
 
-If your symbol corresponds to the name of a method, you can use `send`:
+Nếu symbol của bạn tương ứng với tên một phương thức, bạn có thể sử dụng
+`send`:
 
 ~~~
 class Demo
@@ -140,27 +141,27 @@ demo = Demo.new
 demo.send(:hello)
 ~~~
 
-Or you can use `Object#method` to return a corresponding `Method` object,
-which you may then call:
+Hoặc bạn có thể sử dụng `Object#method` để trả về đối tượng `Method` tương
+ứng, rồi gọi nó:
 
 ~~~
 m = demo.method(:hello)  # => #<Method: Demo#hello>
 m.call                   # => "Hello, world"
 ~~~
 
-### Is `loop` a control structure?
+### `loop` có phải là cấu trúc điều khiển không?
 
-Although `loop` looks like a control structure, it is actually a method
-defined in `Kernel`. The block which follows introduces a new scope for
-local variables.
+Mặc dù `loop` trông giống như một cấu trúc điều khiển, nhưng thực chất nó là
+một phương thức được định nghĩa trong `Kernel`. Khối theo sau tạo ra một phạm
+vi mới cho các biến cục bộ.
 
-### Ruby doesn't have a post-test loop
+### Ruby không có vòng lặp kiểm tra điều kiện sau
 
-Q: Ruby does not have a `do { ... } while` construct, so how can I implement
-loops that test the condition at the end?
+H: Ruby không có cấu trúc `do { ... } while`, vậy làm thế nào để triển khai
+các vòng lặp kiểm tra điều kiện ở cuối?
 
-Clemens Hintze says: You can use a combination of Ruby's `begin ... end`
-and the `while` or `until` statement modifiers to achieve the same effect:
+Clemens Hintze nói: Bạn có thể sử dụng kết hợp `begin ... end` của Ruby
+và bổ ngữ `while` hoặc `until` để đạt được hiệu quả tương tự:
 
 ~~~
 i = 0
@@ -170,7 +171,7 @@ begin
 end until i > 4
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 i = 0
@@ -180,15 +181,15 @@ i = 3
 i = 4
 ~~~
 
-### Why can't I pass a hash literal to a method: `p {}`?
+### Tại sao tôi không thể truyền hash literal cho phương thức: `p {}`?
 
-The `{}` is parsed as a block, not a `Hash` constructor. You can force the
-`{}` to be treated as an expression by making the fact that it's a parameter
-explicit: `p({})`.
+`{}` được phân tích cú pháp như một khối, không phải hàm tạo `Hash`. Bạn có
+thể buộc `{}` được xử lý như một biểu thức bằng cách chỉ rõ rằng nó là một
+tham số: `p({})`.
 
-### I can't get `def pos=(val)` to work!
+### Tôi không thể làm cho `def pos=(val)` hoạt động!
 
-I have the following code, but I cannot use the method `pos = 1`.
+Tôi có đoạn mã sau, nhưng không thể sử dụng phương thức `pos = 1`.
 
 ~~~
 def pos=(val)
@@ -197,37 +198,37 @@ def pos=(val)
 end
 ~~~
 
-Methods with `=` appended must be called with an explicit receiver
-(without the receiver, you are just assigning to a local variable).
-Invoke it as `self.pos = 1`.
+Các phương thức có `=` ở cuối phải được gọi với bộ nhận tường minh
+(nếu không có bộ nhận, bạn chỉ đang gán cho một biến cục bộ).
+Gọi nó bằng `self.pos = 1`.
 
-### What is the difference between `'\1'` and `'\\1'`?
+### Sự khác biệt giữa `'\1'` và `'\\1'` là gì?
 
-They have the same meaning. In a single quoted string, only `\'` and `\\`
-are transformed and other combinations remain unchanged.
+Chúng có cùng ý nghĩa. Trong chuỗi nháy đơn, chỉ `\'` và `\\`
+được chuyển đổi và các tổ hợp khác giữ nguyên.
 
-However, in a double quoted string, `"\1"` is the byte `\001`
-(an octal bit pattern), while `"\\1"` is the two character string
-containing a backslash and the character `"1"`.
+Tuy nhiên, trong chuỗi nháy kép, `"\1"` là byte `\001`
+(một mẫu bit bát phân), trong khi `"\\1"` là chuỗi hai ký tự
+chứa một dấu gạch chéo ngược và ký tự `"1"`.
 
-### What is the difference between `..` and `...`?
+### Sự khác biệt giữa `..` và `...` là gì?
 
-`..` includes the right hand side in the range, `...` does not:
+`..` bao gồm giá trị bên phải trong phạm vi, `...` thì không:
 
 ~~~
 (5..8).to_a   # => [5, 6, 7, 8]
 (5...8).to_a  # => [5, 6, 7]
 ~~~
 
-### What is the difference between `or` and `||`?
+### Sự khác biệt giữa `or` và `||` là gì?
 
-Q: `p(nil || "Hello")` prints `"Hello"`, while `p(nil or "Hello")` gives a
-parse error. Why?
+H: `p(nil || "Hello")` in ra `"Hello"`, trong khi `p(nil or "Hello")` gây ra
+lỗi phân tích cú pháp. Tại sao?
 
-A: `or` has a very low precedence, `p( (nil or "Hello") )` will work.
+Đ: `or` có mức ưu tiên rất thấp, `p( (nil or "Hello") )` sẽ hoạt động.
 
-The precedence of `or` is for instance also lower than that of `=`,
-whereas `||` has a higher precedence:
+Mức ưu tiên của `or` ví dụ cũng thấp hơn so với `=`,
+trong khi `||` có mức ưu tiên cao hơn:
 
 ~~~
 foo = nil || "Hello"  # parsed as: foo = (nil || "Hello")
@@ -239,33 +240,33 @@ foo = nil or "Hello"  # parsed as: (foo = nil) or "Hello"
 foo  # => nil
 ~~~
 
-`or` (and similarly `and`) is best used **not** for combining
-boolean expressions, but for control flow, like in
+`or` (và tương tự `and`) tốt nhất nên được sử dụng **không** phải để kết hợp
+các biểu thức boolean, mà cho luồng điều khiển, như trong
 
 ~~~
 do_something  or raise "some error!"
 ~~~
 
-where `do_something` returns `false` or `nil` when an error occurs.
+trong đó `do_something` trả về `false` hoặc `nil` khi có lỗi xảy ra.
 
-### Does Ruby have function pointers?
+### Ruby có con trỏ hàm không?
 
-A `Proc` object generated by `Proc.new`, `proc`, or `lambda` can be referenced
-from a variable, so that variable could be said to be a function pointer. You
-can also get references to methods within a particular object instance using
-`object.method`.
+Đối tượng `Proc` được tạo bởi `Proc.new`, `proc` hoặc `lambda` có thể được
+tham chiếu từ một biến, nên biến đó có thể được coi là một con trỏ hàm. Bạn
+cũng có thể lấy tham chiếu đến các phương thức trong một thể hiện đối tượng
+cụ thể bằng `object.method`.
 
-### What is the difference between `load` and `require`?
+### Sự khác biệt giữa `load` và `require` là gì?
 
-`load` will load and execute a Ruby program (`*.rb`).
+`load` sẽ nạp và thực thi một chương trình Ruby (`*.rb`).
 
-`require` loads Ruby programs as well, but will also load binary Ruby
-extension modules (shared libraries or DLLs). In addition,
-`require` ensures that a feature is never loaded more than once.
+`require` cũng nạp các chương trình Ruby, nhưng còn nạp các module mở rộng
+Ruby dạng nhị phân (thư viện chia sẻ hoặc DLL). Ngoài ra,
+`require` đảm bảo rằng một tính năng không bao giờ được nạp nhiều hơn một lần.
 
-### Does Ruby have exception handling?
+### Ruby có xử lý ngoại lệ không?
 
-Ruby supports a flexible exception handling scheme:
+Ruby hỗ trợ cơ chế xử lý ngoại lệ linh hoạt:
 
 ~~~
 begin
@@ -279,15 +280,16 @@ ensure
 end
 ~~~
 
-If an exception occurs in the `begin` clause, the `rescue` clause with the
-matching exception name is executed. The `ensure` clause is executed whether
-an exception occurred or not. `rescue` and `ensure` clauses may be omitted.
+Nếu một ngoại lệ xảy ra trong mệnh đề `begin`, mệnh đề `rescue` có tên
+ngoại lệ phù hợp sẽ được thực thi. Mệnh đề `ensure` được thực thi bất kể
+có ngoại lệ xảy ra hay không. Các mệnh đề `rescue` và `ensure` có thể được
+bỏ qua.
 
-If no exception class is designated for a `rescue` clause, `StandardError`
-exception is implied, and exceptions which are in a `is_a?` relation to
-`StandardError` are captured.
+Nếu không có lớp ngoại lệ nào được chỉ định cho mệnh đề `rescue`, ngoại lệ
+`StandardError` được ngụ ý, và các ngoại lệ có quan hệ `is_a?` với
+`StandardError` sẽ được bắt.
 
-This expression returns the value of the `begin` clause.
+Biểu thức này trả về giá trị của mệnh đề `begin`.
 
-The latest exception is accessed by the global variable `$!`
-(and so its type can be determined using `$!.type`).
+Ngoại lệ mới nhất được truy cập bằng biến toàn cục `$!`
+(và do đó kiểu của nó có thể được xác định bằng `$!.type`).

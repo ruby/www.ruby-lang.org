@@ -1,39 +1,40 @@
 ---
 layout: page
-title: "Podcasts"
+title: "Podcast"
 lang: vi
 ---
 
-Listen to news, interviews, and discussions about Ruby and its community.
+Nghe tin tức, phỏng vấn và thảo luận về Ruby và cộng đồng của nó.
 
 [On Rails][onrails]
-: Ruby on Rails developers share real-world technical challenges,
-  architectural decisions, and scaling strategies. Join experienced
-  engineers for technical deep-dives and retrospectives on building
-  production Rails applications.
+: Các lập trình viên Ruby on Rails chia sẻ những thách thức kỹ thuật
+  thực tế, quyết định kiến trúc và chiến lược mở rộng. Tham gia cùng
+  các kỹ sư giàu kinh nghiệm cho các phân tích kỹ thuật chuyên sâu và
+  hồi tưởng về việc xây dựng ứng dụng Rails trong môi trường thực tế.
 
 [Ruby Rogues][rogues]
-: The Ruby Rogues podcast is a panel discussion about topics relating to
-  programming, careers, community, and Ruby.
+: Podcast Ruby Rogues là một cuộc thảo luận nhóm về các chủ đề liên
+  quan đến lập trình, sự nghiệp, cộng đồng và Ruby.
 
 [Ruby on Rails Podcast][rorpodcast]
-: The Ruby on Rails Podcast, a weekly conversation about Ruby on Rails,
-  open source software, and the programming profession.
+: Ruby on Rails Podcast, một cuộc trò chuyện hàng tuần về Ruby on Rails,
+  phần mềm mã nguồn mở và nghề lập trình.
 
 [Remote Ruby][remote_ruby]
-: Virtual meetup turned podcast, Remote Ruby celebrates and highlights
-  the Ruby community in an informal setting.
+: Từ buổi gặp mặt trực tuyến trở thành podcast, Remote Ruby tôn vinh và
+  nêu bật cộng đồng Ruby trong một không gian thân mật.
 
 [Rooftop Ruby][rooftop_ruby]
-: Collin and Joel discuss Ruby, software development, open source, career,
-  and a lot more together and with guests.
+: Collin và Joel thảo luận về Ruby, phát triển phần mềm, mã nguồn mở,
+  sự nghiệp và nhiều hơn nữa cùng nhau và với khách mời.
 
-### Getting Involved
+### Tham gia
 
-Podcast hosts are always looking for guests. If you have some Ruby
-wisdom to share, get in touch with the creators of these shows.
+Các host podcast luôn tìm kiếm khách mời. Nếu bạn có kiến thức Ruby
+muốn chia sẻ, hãy liên hệ với những người tạo ra các chương trình này.
 
-You can also start your own Ruby podcast and get added to this list!
+Bạn cũng có thể bắt đầu podcast Ruby của riêng mình và được thêm vào
+danh sách này!
 
 [onrails]: https://podcast.rubyonrails.org/
 [rooftop_ruby]: https://www.rooftopruby.com

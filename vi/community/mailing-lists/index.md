@@ -1,39 +1,40 @@
 ---
 layout: page
-title: "Mailing Lists"
+title: "Hộp thư chung"
 lang: vi
 ---
 
-Mailing-lists are a great way to keep your finger on the pulse of the
-Ruby community.
+Hộp thư chung là một cách tuyệt vời để nắm bắt nhịp đập của cộng
+đồng Ruby.
 {: .summary}
 
-Ruby has four primary English speaking mailing lists:
+Ruby có bốn hộp thư chung chính bằng tiếng Anh:
 
 Ruby-Talk
-: This is the most popular mailing-list and deals with general topics
-  about Ruby. ([Archives][3], [Posting Guidelines][guidelines], [Community Archive][rubytalk])
+: Đây là hộp thư chung phổ biến nhất và bàn về các chủ đề chung về
+  Ruby. ([Lưu trữ][3], [Hướng dẫn đăng bài][guidelines], [Lưu trữ cộng đồng][rubytalk])
 
 Ruby-Core
-: This list deals with core and implementation topics about Ruby, often
-  used to run patches for review. ([Archives][4])
+: Hộp thư chung này bàn về lõi và các chủ đề triển khai của Ruby,
+  thường được sử dụng để gửi bản vá để xem xét. ([Lưu trữ][4])
 
 Ruby-Doc
-: This list is for discussing documentation standards and tools for
-  Ruby. ([Archives][5])
+: Hộp thư chung này dùng để thảo luận về tiêu chuẩn và công cụ tài
+  liệu cho Ruby. ([Lưu trữ][5])
 
 Ruby-CVS
-: This list reports all commits to Ruby’s Subversion repository.
+: Hộp thư chung này báo cáo tất cả các commit vào kho lưu trữ
+  Subversion của Ruby.
 
-The comp.lang.ruby Newsgroup
-: Those who prefer Usenet over mailing lists will want to checkout the
-  [comp.lang.ruby](news:comp.lang.ruby) newsgroup. ([FAQ][clrFAQ])
+Nhóm tin comp.lang.ruby
+: Những ai thích Usenet hơn hộp thư chung có thể xem nhóm tin
+  [comp.lang.ruby](news:comp.lang.ruby). ([FAQ][clrFAQ])
 
-## Subscribe or Unsubscribe
+## Đăng ký hoặc Hủy đăng ký
 
-See [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
-for more information about all mailing lists on ruby-lang.org,
-including the lists in Japanese language.
+Xem [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
+để biết thêm thông tin về tất cả các hộp thư chung trên ruby-lang.org,
+bao gồm cả các danh sách bằng tiếng Nhật.
 
 
 

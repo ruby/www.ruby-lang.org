@@ -1,60 +1,62 @@
 ---
 layout: page
-title: "Community"
+title: "Cộng Đồng"
 lang: vi
 ---
 
-The community that grows up around a programming language is one of its
-most important strengths. Ruby has a vibrant and growing community that
-is friendly towards people of all skill levels.
+Cộng đồng phát triển xung quanh một ngôn ngữ lập trình là một trong
+những thế mạnh quan trọng nhất của nó. Ruby có một cộng đồng sôi động
+và đang phát triển, luôn thân thiện với mọi người ở mọi trình độ.
 {: .summary}
 
-If you are interested in getting involved, here are a couple of places
-to start:
+Nếu bạn muốn tham gia, đây là một vài nơi để bắt đầu:
 
-[Ruby User Groups](user-groups/)
-: Your local Ruby user group is a great place to network with other Ruby
-  programmers. Ruby user groups are self-organizing and typically
-  feature monthly meetings, a mailing list, a Web site, and if you are
-  lucky, frequent codefests.
+[Nhóm người dùng Ruby](user-groups/)
+: Nhóm người dùng Ruby tại địa phương của bạn là một nơi tuyệt vời để
+  kết nối với các lập trình viên Ruby khác. Các nhóm người dùng Ruby
+  tự tổ chức và thường có các buổi gặp mặt hàng tháng, hộp thư chung,
+  trang web, và nếu bạn may mắn, các buổi lập trình thường xuyên.
 
-[Ruby Mailing Lists and Newsgroups](mailing-lists/)
-: Ruby has an assortment of lists on different topics and in several
-  languages. If you have questions about Ruby, asking them on a mailing
-  list is a great way to get answers.
+[Hộp thư chung và nhóm tin Ruby](mailing-lists/)
+: Ruby có nhiều danh sách về các chủ đề khác nhau và bằng nhiều ngôn
+  ngữ. Nếu bạn có câu hỏi về Ruby, đặt câu hỏi trên hộp thư chung
+  là một cách tuyệt vời để nhận được câu trả lời.
 
-[Ruby Discord Server (invite link)][ruby-discord]
-: The Ruby Language Discord Server is a place where you can
-  chat with other Rubyists, get help with Ruby questions, or help others.
-  Discord is a good entry point for new developers and it is easy to join.
+[Máy chủ Discord Ruby (liên kết mời)][ruby-discord]
+: Máy chủ Discord Ngôn ngữ Ruby là nơi bạn có thể trò chuyện với
+  các Rubyist khác, nhận trợ giúp về các câu hỏi Ruby, hoặc giúp đỡ
+  người khác. Discord là một điểm khởi đầu tốt cho các lập trình viên
+  mới và rất dễ tham gia.
 
-[Ruby on IRC (#ruby)](https://web.libera.chat/#ruby)
-: The Ruby Language IRC Channel is a wonderful way to chat with fellow
-  Rubyists.
+[Ruby trên IRC (#ruby)](https://web.libera.chat/#ruby)
+: Kênh IRC Ngôn ngữ Ruby là một cách tuyệt vời để trò chuyện với các
+  Rubyist khác.
 
-[Ruby Core](ruby-core/)
-: Now is a fantastic time to follow Ruby’s development.
-  If you are interested in helping with Ruby, start here.
+[Lõi Ruby](ruby-core/)
+: Bây giờ là thời điểm tuyệt vời để theo dõi sự phát triển của Ruby.
+  Nếu bạn muốn giúp đỡ với Ruby, hãy bắt đầu từ đây.
 
-[Ruby Blogs and Newsletters](weblogs/)
-: Most activities and updates in the Ruby community are discussed through blogs and newsletters. Here’s a curated list to help you stay connected and informed.
+[Blog và Bản tin Ruby](weblogs/)
+: Hầu hết các hoạt động và cập nhật trong cộng đồng Ruby được thảo luận
+  qua blog và bản tin. Đây là danh sách được tuyển chọn để giúp bạn
+  luôn kết nối và cập nhật thông tin.
 
-[Ruby Conferences](conferences/)
-: Ruby programmers around the world are getting involved in more and
-  more conferences, where they get together to share reports on
-  work-in-progress, discuss the future of Ruby, and welcome newcomers to
-  the Ruby community.
+[Các hội thảo Ruby](conferences/)
+: Các lập trình viên Ruby trên khắp thế giới đang tham gia ngày càng
+  nhiều hội thảo, nơi họ cùng nhau chia sẻ báo cáo về công việc đang
+  tiến hành, thảo luận về tương lai của Ruby, và chào đón những người
+  mới đến cộng đồng Ruby.
 
-  Additionally, you can visit [RubyEvents.org](https://www.rubyevents.org/) to find videos of Ruby conferences and talks.
+  Ngoài ra, bạn có thể truy cập [RubyEvents.org](https://www.rubyevents.org/) để tìm video về các hội thảo và bài nói chuyện về Ruby.
 
-[Podcasts](podcasts/)
-: If you prefer to listen to discussions about Ruby rather than read,
-  you can tune into one of these awesome Ruby podcasts. These Rubyists
-  use their podcasts to cover new releases, community news, and
-  interview their fellow Ruby developers.
+[Podcast](podcasts/)
+: Nếu bạn thích nghe thảo luận về Ruby hơn là đọc, bạn có thể theo
+  dõi một trong những podcast Ruby tuyệt vời này. Các Rubyist sử dụng
+  podcast của họ để đưa tin về các bản phát hành mới, tin tức cộng đồng,
+  và phỏng vấn các lập trình viên Ruby khác.
 
 [Ruby Central][ruby-central]
-: Ruby Central is a non-profit organization dedicated to supporting the worldwide Ruby community.
+: Ruby Central là một tổ chức phi lợi nhuận chuyên hỗ trợ cộng đồng Ruby trên toàn thế giới.
 
 [ruby-central]: http://rubycentral.org/
 [ruby-discord]: https://discord.gg/ad2acQFtkh

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,33 +35,33 @@ header: |
 
 {% include faq-notice.md %}
 
-## Installing Ruby
+## Cài đặt Ruby
 
-For current information on downloading and installing Ruby
-see the [Installation](/en/documentation/installation/)
-or [Downloads](/en/downloads/) page.
+Để biết thông tin mới nhất về tải xuống và cài đặt Ruby,
+hãy xem trang [Cài đặt](/vi/documentation/installation/)
+hoặc [Tải xuống](/vi/downloads/).
 
-### What operating systems support Ruby?
-
-{% include warnings/faq-out-of-date.html %}
-
-Ruby is developed under Linux, and is written in fairly straightforward C.
-It runs under Linux and other UNIX-like operating systems, macOS,
-Windows, DOS, BeOS, Amiga, Acorn Risc OS, and OS/2.
-
-### Where can I get Ruby sources?
-
-The latest version of Ruby can be downloaded from:
-[www.ruby-lang.org/en/downloads/](/en/downloads/).
-Mirror sites are also listed on this page.
-
-Also on this page is a link to a nightly snapshot of the development tree.
-
-### Can I get to the development source tree?
+### Những hệ điều hành nào hỗ trợ Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
-If you have a CVS client, you can check out the current source tree using:
+Ruby được phát triển trên Linux, và được viết bằng C khá đơn giản.
+Nó chạy trên Linux và các hệ điều hành tương tự UNIX khác, macOS,
+Windows, DOS, BeOS, Amiga, Acorn Risc OS, và OS/2.
+
+### Tôi có thể lấy mã nguồn Ruby ở đâu?
+
+Phiên bản mới nhất của Ruby có thể được tải xuống từ:
+[www.ruby-lang.org/vi/downloads/](/vi/downloads/).
+Các trang mirror cũng được liệt kê trên trang này.
+
+Ngoài ra trên trang này còn có liên kết đến bản snapshot hàng đêm của cây phát triển.
+
+### Tôi có thể truy cập cây mã nguồn phát triển không?
+
+{% include warnings/faq-out-of-date.html %}
+
+Nếu bạn có ứng dụng CVS, bạn có thể lấy cây mã nguồn hiện tại bằng cách:
 
 ~~~
 $ cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs login
@@ -70,15 +70,15 @@ CVS password: guest
 $ cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs co ruby
 ~~~
 
-If you do not have CVS you can get a nightly snapshot of the development
-source from
+Nếu bạn không có CVS, bạn có thể lấy bản snapshot hàng đêm của mã nguồn
+phát triển từ
 [https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz](https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz).
 
-### How do I compile Ruby?
+### Làm thế nào để biên dịch Ruby?
 
-Under Unix, Ruby uses the `autoconf` system to configure the build
-environment. You don't need the `autoconf` command on your box to build Ruby
-from a distribution; just use the commands:
+Trên Unix, Ruby sử dụng hệ thống `autoconf` để cấu hình môi trường biên dịch.
+Bạn không cần lệnh `autoconf` trên máy để biên dịch Ruby
+từ bản phân phối; chỉ cần dùng các lệnh:
 
 ~~~
 $ ./configure [configure options]
@@ -87,112 +87,112 @@ $ make test
 $ make install
 ~~~
 
-You may need superuser privileges to install Ruby if you don't override the
-default installation location (`/usr/local`). You can get a full list of
-`configure` options using:
+Bạn có thể cần quyền superuser để cài đặt Ruby nếu bạn không thay đổi
+vị trí cài đặt mặc định (`/usr/local`). Bạn có thể xem danh sách đầy đủ
+các tùy chọn `configure` bằng:
 
 ~~~
 $ ./configure --help
 ~~~
 
-If you are working from the source repository, you may need to run
-`autoconf` before running `configure`.
+Nếu bạn đang làm việc từ kho mã nguồn, bạn có thể cần chạy
+`autoconf` trước khi chạy `configure`.
 
-### How do I tell Ruby where my libraries are?
+### Làm thế nào để cho Ruby biết thư viện của tôi ở đâu?
 
 {% include warnings/faq-out-of-date.html %}
 
-On some systems, the build process may fail to find libraries used by
-extension modules (for example the `dbm` libraries).
+Trên một số hệ thống, quá trình biên dịch có thể không tìm thấy thư viện được sử dụng
+bởi các module mở rộng (ví dụ các thư viện `dbm`).
 
-You can tell Ruby where to find libraries using options to `configure`.
-From [\[ruby-talk:5041\]][ruby-talk:5041]:
+Bạn có thể cho Ruby biết nơi tìm thư viện bằng các tùy chọn cho `configure`.
+Từ [\[ruby-talk:5041\]][ruby-talk:5041]:
 
 ~~~
 $ ./configure --with-xxx-yyy=DIR
 ~~~
 
-where xxx is either
+trong đó xxx là
 
 ~~~
-opt           extra software path in general
-dbm           path for dbm library
-gdbm          path for gdbm library
-x11           ...for X11..
-tk            ...for Tk...
-tcl           ...for Tcl...
+opt           đường dẫn phần mềm bổ sung nói chung
+dbm           đường dẫn cho thư viện dbm
+gdbm          đường dẫn cho thư viện gdbm
+x11           ...cho X11..
+tk            ...cho Tk...
+tcl           ...cho Tcl...
 ~~~
 
-and yyy is either
+và yyy là
 
 ~~~
-dir           specifies -I DIR/include -L DIR/lib
-include       specifies -I DIR
-lib           specifies -L DIR
+dir           chỉ định -I DIR/include -L DIR/lib
+include       chỉ định -I DIR
+lib           chỉ định -L DIR
 ~~~
 
-On HP-UX, there may be problems building with `gcc`. Try using the native
-compiler instead. WATANABE Tetsuya recommends:
+Trên HP-UX, có thể gặp vấn đề khi biên dịch với `gcc`. Hãy thử sử dụng trình
+biên dịch gốc thay thế. WATANABE Tetsuya khuyến nghị:
 
 ~~~
 $ CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
 ~~~
 
-There may also be problems with HP's native `sed`.
-He recommends installing the GNU equivalent.
+Cũng có thể gặp vấn đề với `sed` gốc của HP.
+Ông khuyến nghị cài đặt phiên bản GNU tương đương.
 
 [ruby-talk:5041]: https://blade.ruby-lang.org/ruby-talk/5041
 
-### Are precompiled binaries available?
+### Có sẵn các bản biên dịch sẵn không?
 
-A single download that contains everything you need to run Ruby under various
-Windows operating systems is available from [RubyInstaller](https://rubyinstaller.org/).
+Một gói tải xuống duy nhất chứa mọi thứ bạn cần để chạy Ruby trên
+các hệ điều hành Windows có sẵn tại [RubyInstaller](https://rubyinstaller.org/).
 
-[Reuben Thomas](mailto:Reuben.Thomas@cl.cam.ac.uk) writes:
+[Reuben Thomas](mailto:Reuben.Thomas@cl.cam.ac.uk) viết:
 
 > You could mention that there's a port to Acorn RISC OS, currently of v1.4.3.
 > I made the port, and have no plans to maintain it, but I did send the
 > patches to matz, so newer versions may well compile too.
 
-### What's all this “cygwin”, “mingw”, and “djgpp” stuff?
+### "cygwin", "mingw", và "djgpp" là gì?
 
 {% include warnings/faq-out-of-date.html %}
 
-Ruby is written to take advantage of the rich feature set of a Unix
-environment. Unfortunately, Windows is missing some of the functions, and
-implements others differently. As a result, some kind of mapping layer is
-needed to run Ruby (and other Unix-based programs) under Windows.
+Ruby được viết để tận dụng bộ tính năng phong phú của môi trường Unix.
+Thật không may, Windows thiếu một số hàm, và triển khai các hàm khác
+theo cách khác. Vì vậy, cần có một lớp ánh xạ nào đó để chạy Ruby
+(và các chương trình dựa trên Unix khác) trên Windows.
 
-You may come across different versions of the Ruby executable that use
-different wrapper mapping layers.
+Bạn có thể gặp các phiên bản khác nhau của tệp thực thi Ruby sử dụng
+các lớp ánh xạ wrapper khác nhau.
 
-The rbdj version is a stand-alone version of the Windows binary of Ruby.
-It uses the DJ Delorie tools
+Phiên bản rbdj là phiên bản độc lập của bản nhị phân Windows của Ruby.
+Nó sử dụng các công cụ DJ Delorie
 ([http://www.delorie.com](http://www.delorie.com)).
 
-The rbcw version is a Windows binary of Ruby that requires the cygwin library,
-available at [http://www.cygwin.com](http://www.cygwin.com) or from the
-Ruby download pages. Cygwin is both an emulation layer and a set of
-utilities initially produced by Cygnus Solutions (now part of Redhat).
-The cygwin version of Ruby probably has the fullest set of features under
-Windows, so most programmers will want to use it.
+Phiên bản rbcw là bản nhị phân Windows của Ruby yêu cầu thư viện cygwin,
+có tại [http://www.cygwin.com](http://www.cygwin.com) hoặc từ các
+trang tải xuống Ruby. Cygwin vừa là một lớp giả lập vừa là một bộ
+tiện ích ban đầu được sản xuất bởi Cygnus Solutions (nay thuộc Redhat).
+Phiên bản cygwin của Ruby có lẽ có bộ tính năng đầy đủ nhất trên
+Windows, nên hầu hết lập trình viên sẽ muốn sử dụng nó.
 
-To use the rbcw version, you will need to install the cygwin .dll separately.
-Once you have installed cygwin on your computer, copy `cygwin1.dll` (which
-is found in the `bin` subdirectory of the cygwin distribution) to your
-`Windows\System32` folder (or somewhere else on your path).
+Để sử dụng phiên bản rbcw, bạn cần cài đặt tệp cygwin .dll riêng.
+Sau khi cài đặt cygwin trên máy tính, hãy sao chép `cygwin1.dll` (nằm
+trong thư mục con `bin` của bản phân phối cygwin) vào thư mục
+`Windows\System32` (hoặc một nơi khác trên đường dẫn PATH của bạn).
 
-Thanks to Anders Schneiderman for the basis of this description.
+Cảm ơn Anders Schneiderman đã cung cấp nền tảng cho phần mô tả này.
 
-### Why doesn't Tk graphics work under Windows?
+### Tại sao đồ họa Tk không hoạt động trên Windows?
 
 {% include warnings/faq-out-of-date.html %}
 
-Is Tk installed correctly on your Windows box? Go to
+Tk đã được cài đặt đúng trên máy Windows của bạn chưa? Truy cập
 [https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae)
-to find a precompiled binary Tcl/Tk distribution for your box.
+để tìm bản phân phối nhị phân Tcl/Tk biên dịch sẵn cho máy của bạn.
 
-Are the environment variables `TCL_LIBRARY` and `TK_LIBRARY` pointing to the
-directories containing tcl and tk?
+Các biến môi trường `TCL_LIBRARY` và `TK_LIBRARY` có đang trỏ đến
+các thư mục chứa tcl và tk không?
 
-Is the tk library in your path?
+Thư viện tk có nằm trong đường dẫn PATH của bạn không?

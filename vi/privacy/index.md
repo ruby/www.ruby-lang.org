@@ -1,25 +1,25 @@
 ---
 layout: page
-title: "Privacy Policy for ruby-lang.org"
+title: "Chính sách bảo mật cho ruby-lang.org"
 lang: vi
 ---
 
-This privacy policy covers ruby-lang.org.
+Chính sách bảo mật này áp dụng cho ruby-lang.org.
 
 ## Email
 
-We will not give away your email address to anyone, who is not related to the operations of ruby-lang.org. We will also never ask you to send us any of your passwords via email.
+Chúng tôi sẽ không cung cấp địa chỉ email của bạn cho bất kỳ ai không liên quan đến hoạt động vận hành của ruby-lang.org. Chúng tôi cũng sẽ không bao giờ yêu cầu bạn gửi mật khẩu của bạn qua email.
 
-## Logfiles
+## Tệp nhật ký
 
-ruby-lang.org records access logs of the requests that reach the web servers, but we use those files only for debugging and statistical purposes.
+ruby-lang.org ghi lại nhật ký truy cập của các yêu cầu đến máy chủ web, nhưng chúng tôi chỉ sử dụng các tệp đó cho mục đích gỡ lỗi và thống kê.
 
-We use GitHub Pages for www.ruby-lang.org. Please refer [Usage limits of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection).
+Chúng tôi sử dụng GitHub Pages cho www.ruby-lang.org. Vui lòng tham khảo [Giới hạn sử dụng của GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection).
 
-## Cookies
+## Cookie
 
-Some sites under ruby-lang.org (e.g. bugs.ruby-lang.org) uses cookies to keep track of user preferences. Unless you login on the site, the cookies will not be used to store personal information and we do not give away the information from the cookies.
+Một số trang thuộc ruby-lang.org (ví dụ: bugs.ruby-lang.org) sử dụng cookie để theo dõi tùy chọn của người dùng. Trừ khi bạn đăng nhập vào trang, cookie sẽ không được sử dụng để lưu trữ thông tin cá nhân và chúng tôi không cung cấp thông tin từ cookie cho bên nào khác.
 
-## Acknowledgements
+## Lời cảm ơn
 
-This privacy policy is based on the [php.net privacy policy](https://www.php.net/privacy.php).
+Chính sách bảo mật này dựa trên [chính sách bảo mật của php.net](https://www.php.net/privacy.php).

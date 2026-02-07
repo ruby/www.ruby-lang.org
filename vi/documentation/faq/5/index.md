@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,17 +35,17 @@ header: |
 
 {% include faq-notice.md %}
 
-## Iterators
+## Iterator
 
-### What is an iterator?
+### Iterator là gì?
 
-An iterator is a method which accepts a block or a `Proc` object. In the
-source file, the block is placed immediately after the invocation of the
-method. Iterators are used to produce user-defined control
-structures---especially loops.
+Iterator là một phương thức nhận một khối hoặc đối tượng `Proc`. Trong mã
+nguồn, khối được đặt ngay sau lời gọi phương thức. Iterator được sử dụng
+để tạo ra các cấu trúc điều khiển do người dùng định nghĩa---đặc biệt là
+các vòng lặp.
 
-Let's look at an example to see how this works. Iterators are often used to
-repeat the same action on each element of a collection, like this:
+Hãy xem một ví dụ để hiểu cách hoạt động. Iterator thường được sử dụng để
+lặp lại cùng một hành động trên mỗi phần tử của một tập hợp, như thế này:
 
 ~~~
 data = [1, 2, 3]
@@ -54,7 +54,7 @@ data.each do |i|
 end
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 1
@@ -62,11 +62,11 @@ Produces:
 3
 ~~~
 
-The each method of the array `data` is passed the `do ... end` block,
-and executes it repeatedly. On each call, the block is passed successive
-elements of the array.
+Phương thức each của mảng `data` được truyền khối `do ... end`, và thực thi
+nó lặp đi lặp lại. Trong mỗi lần gọi, khối được truyền các phần tử liên tiếp
+của mảng.
 
-You can define blocks with `{ ... }` in place of `do ... end`.
+Bạn có thể định nghĩa khối bằng `{ ... }` thay cho `do ... end`.
 
 ~~~
 data = [1, 2, 3]
@@ -75,7 +75,7 @@ data.each { |i|
 }
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 1
@@ -83,34 +83,33 @@ Produces:
 3
 ~~~
 
-This code has the same meaning as the last example. However, in some cases,
-precedence issues cause `do ... end` and `{ ... }` to act differently.
+Đoạn mã này có cùng ý nghĩa với ví dụ trước. Tuy nhiên, trong một số trường
+hợp, vấn đề ưu tiên khiến `do ... end` và `{ ... }` hoạt động khác nhau.
 
 ~~~
 foobar a, b do ... end  # foobar is the iterator.
 foobar a, b { ... }     # b is the iterator.
 ~~~
 
-This is because `{ ... }` binds more tightly to the preceding expression
-than does a `do ... end` block. The first example is equivalent to
-`foobar(a, b) do ... end`, while the second is `foobar(a, b { ... })`.
+Điều này là vì `{ ... }` liên kết chặt hơn với biểu thức đứng trước so với
+khối `do ... end`. Ví dụ đầu tiên tương đương với
+`foobar(a, b) do ... end`, trong khi ví dụ thứ hai là `foobar(a, b { ... })`.
 
-### How can I pass a block to an iterator?
+### Làm thế nào để truyền một khối cho iterator?
 
-You simply place the block after the iterator call. You can also pass a
-`Proc` object by prepending `&` to the variable or constant name that refers
-to the `Proc`.
+Bạn chỉ cần đặt khối sau lời gọi iterator. Bạn cũng có thể truyền một đối
+tượng `Proc` bằng cách đặt `&` trước tên biến hoặc hằng số tham chiếu đến
+đối tượng `Proc`.
 
-### How is a block used in an iterator?
+### Khối được sử dụng như thế nào trong iterator?
 
 {% include warnings/faq-out-of-date.html %}
 
-There are three ways to execute a block from an iterator method:
-(1) the `yield` control structure; (2) calling a `Proc` argument
-(made from a block) with `call`; and (3) using `Proc.new` followed by a call.
+Có ba cách để thực thi một khối từ phương thức iterator:
+(1) cấu trúc điều khiển `yield`; (2) gọi đối số `Proc`
+(được tạo từ khối) bằng `call`; và (3) sử dụng `Proc.new` rồi gọi.
 
-The `yield` statement calls the block, optionally passing it one or more
-arguments.
+Câu lệnh `yield` gọi khối, tùy chọn truyền cho nó một hoặc nhiều đối số.
 
 ~~~
 def my_iterator
@@ -120,16 +119,16 @@ end
 my_iterator {|a, b| puts a, b }
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 1
 2
 ~~~
 
-If a method definition has a block argument (the last formal parameter has
-an ampersand (`&`) prepended), it will receive the attached block, converted
-to a `Proc` object. This may be called using `prc.call(args)`.
+Nếu định nghĩa phương thức có đối số khối (tham số hình thức cuối cùng có
+dấu và (`&`) đặt trước), nó sẽ nhận khối đi kèm, được chuyển đổi thành đối
+tượng `Proc`. Đối tượng này có thể được gọi bằng `prc.call(args)`.
 
 ~~~
 def my_iterator(&b)
@@ -139,20 +138,20 @@ end
 my_iterator {|a, b| puts a, b }
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 1
 2
 ~~~
 
-`Proc.new` (or the equivalent `proc` or `lambda` calls), when used in an
-iterator definition, takes the block which is given to the method as its
-argument and generates a procedure object from it.
-(`proc` and `lambda` are effectively synonyms.)
+`Proc.new` (hoặc các lời gọi tương đương `proc` hay `lambda`), khi được sử
+dụng trong định nghĩa iterator, nhận khối được truyền cho phương thức như đối
+số của nó và tạo ra một đối tượng thủ tục từ đó.
+(`proc` và `lambda` thực chất là từ đồng nghĩa.)
 
-_[Update needed: `lambda` behaves in a slightly different way and
-produces a warning `tried to create Proc object without a block`.]_
+_[Cần cập nhật: `lambda` hoạt động hơi khác một chút và
+tạo ra cảnh báo `tried to create Proc object without a block`.]_
 
 ~~~
 def my_iterator
@@ -164,7 +163,7 @@ end
 my_iterator {|a, b| puts a, b }
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 3
@@ -175,24 +174,24 @@ Produces:
 8
 ~~~
 
-Perhaps surprisingly, `Proc.new` and friends do not in any sense consume
-the block attached to the method---each call to `Proc.new` generates a new
-procedure object out of the same block.
+Có thể hơi bất ngờ, `Proc.new` và các hàm tương tự không hề tiêu thụ khối
+đi kèm phương thức---mỗi lần gọi `Proc.new` tạo ra một đối tượng thủ tục
+mới từ cùng một khối.
 
-You can tell if there is a block associated with a method by calling
-`block_given?`.
+Bạn có thể kiểm tra xem có khối nào được liên kết với phương thức hay không
+bằng cách gọi `block_given?`.
 
-### What does `Proc.new` without a block do?
+### `Proc.new` không có khối thì sao?
 
-`Proc.new` without a block cannot generate a procedure object and an error
-occurs. In a method definition, however, `Proc.new` without a block implies
-the existence of a block at the time the method is called, and so no error
-will occur.
+`Proc.new` không có khối không thể tạo ra đối tượng thủ tục và sẽ xảy ra lỗi.
+Tuy nhiên, trong định nghĩa phương thức, `Proc.new` không có khối ngụ ý sự
+tồn tại của một khối tại thời điểm phương thức được gọi, và do đó sẽ không
+xảy ra lỗi.
 
-### How can I run iterators in parallel?
+### Làm thế nào để chạy các iterator song song?
 
-Here an adoption of a solution by Matz, in
-[\[ruby-talk:5252\]][ruby-talk:5252], that uses threads:
+Đây là một phiên bản chỉnh sửa của giải pháp bởi Matz, trong
+[\[ruby-talk:5252\]][ruby-talk:5252], sử dụng luồng:
 
 ~~~
 require "thread"

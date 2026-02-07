@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,35 +35,35 @@ header: |
 
 {% include faq-notice.md %}
 
-## Other features
+## Các tính năng khác
 
-### What does `a ? b : c` mean?
+### `a ? b : c` có nghĩa là gì?
 
-This is the so-called “ternary operator” and is the same as saying
+Đây là cái gọi là "toán tử ba ngôi" và tương đương với
 `if a then b else c end`.
 
-### How can I count the number of lines in a file?
+### Làm thế nào để đếm số dòng trong một tệp?
 
-The following code may give the fastest result.
+Đoạn mã sau có thể cho kết quả nhanh nhất.
 
 ~~~
 File.readlines("example").size  # => 3
 ~~~
 
-### What do `MatchData#begin` and `MatchData#end` return?
+### `MatchData#begin` và `MatchData#end` trả về gì?
 
-They act with `$~`, and return the start index and the end index of
-the matched data in the original string. See an example in
-[tab expansion](../9/#tab-expansion).
+Chúng hoạt động với `$~`, và trả về chỉ mục bắt đầu và chỉ mục kết thúc
+của dữ liệu khớp trong chuỗi gốc. Xem ví dụ trong
+[mở rộng tab](../9/#tab-expansion).
 
-### How can I sum the elements in an array?
+### Làm thế nào để tính tổng các phần tử trong một mảng?
 
 {% include warnings/faq-out-of-date.html %}
 
-Rather than solve the specific problem, let's solve the general case.
-The first thing we will do is produce a method that will iterate over
-an `Enumerable` object and collect a single result. Smalltalk calls that
-method inject, so we will too:
+Thay vì giải quyết bài toán cụ thể, hãy giải quyết trường hợp tổng quát.
+Điều đầu tiên chúng ta sẽ làm là tạo một phương thức duyệt qua
+một đối tượng `Enumerable` và thu thập một kết quả duy nhất. Smalltalk gọi
+phương thức đó là inject, nên chúng ta cũng sẽ gọi như vậy:
 
 ~~~
 module Enumerable
@@ -77,12 +77,12 @@ module Enumerable
 end
 ~~~
 
-Notice how we have added the method to `Enumerable`. This means that anything
-that includes Enumerable can now use `inject`. But how do we use it? It takes
-a single argument `n` and a block. For each element in the thing being
-enumerated, it calls the block, passing in `n` and the element itself.
-The result of the block is assigned back to `n`. So, to define `sum`,
-we could write:
+Lưu ý cách chúng ta thêm phương thức vào `Enumerable`. Điều này có nghĩa
+là bất cứ thứ gì include Enumerable giờ đều có thể sử dụng `inject`. Nhưng
+làm thế nào để sử dụng nó? Nó nhận một đối số duy nhất `n` và một block.
+Với mỗi phần tử trong đối tượng đang được duyệt, nó gọi block, truyền vào
+`n` và chính phần tử đó. Kết quả của block được gán lại cho `n`. Vì vậy,
+để định nghĩa `sum`, chúng ta có thể viết:
 
 ~~~
 module Enumerable
@@ -95,17 +95,18 @@ end
 (1..100).sum     # => 5050
 ~~~
 
-### How can I use continuations?
+### Làm thế nào để sử dụng continuation?
 
 {% include warnings/faq-out-of-date.html %}
 
-Ruby's continuations allow you to create an object representing a place in a
-Ruby program, and then return to that place at any time (even if it has
-apparently gone out of scope). Continuations can be used to implement complex
-control structures, but are typically more useful as ways of confusing people.
+Continuation trong Ruby cho phép bạn tạo một đối tượng đại diện cho một vị
+trí trong chương trình Ruby, và sau đó quay lại vị trí đó bất cứ lúc nào
+(ngay cả khi nó dường như đã ra khỏi phạm vi). Continuation có thể được sử
+dụng để triển khai các cấu trúc điều khiển phức tạp, nhưng thường hữu ích
+hơn như một cách để làm rối người khác.
 
-In [\[ruby-talk:4482\]][ruby-talk:4482], Jim Weirich posted the following
-examples of continuations:
+Trong [\[ruby-talk:4482\]][ruby-talk:4482], Jim Weirich đã đăng các ví dụ
+sau về continuation:
 
 ~~~
 # --------------------------------------------------------------------

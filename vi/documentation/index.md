@@ -1,194 +1,194 @@
 ---
 layout: page
-title: "Documentation"
+title: "Tài liệu"
 lang: vi
 ---
 
-Guides, tutorials, and reference material to help you learn more about Ruby
+Hướng dẫn, bài học và tài liệu tham khảo giúp bạn tìm hiểu thêm về Ruby
 {: .summary}
 
-### Installing Ruby
+### Cài đặt Ruby
 
-Although you can easily [try Ruby in your browser][1], you can also read
-the [installation guide](installation/) for help on installing Ruby.
+Mặc dù bạn có thể dễ dàng [thử Ruby ngay trên trình duyệt][1], bạn cũng có thể
+đọc [hướng dẫn cài đặt](installation/) để được trợ giúp về việc cài đặt Ruby.
 
-### Official Ruby Documentation
+### Tài liệu Ruby chính thức
 
-[docs.ruby-lang.org/en][docs-rlo]: List of documentation for all Ruby versions released after 2.1.
+[docs.ruby-lang.org/en][docs-rlo]: Danh sách tài liệu cho tất cả các phiên bản Ruby được phát hành sau 2.1.
 
-[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Documentation for Ruby 4.0.
+[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Tài liệu cho Ruby 4.0.
 
-[docs.ruby-lang.org/en/master][docs-rlo-master]: Documentation for Ruby's master branch.
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Tài liệu cho nhánh master của Ruby.
 
-[C Extension Guide][docs-rlo-extension]: In-depth guide for creating C extensions for Ruby.
+[C Extension Guide][docs-rlo-extension]: Hướng dẫn chuyên sâu về cách tạo C extension cho Ruby.
 
-### Getting Started
+### Bắt đầu
 
 [Try Ruby][1]
-: You can try Ruby right in your browser.
+: Bạn có thể thử Ruby ngay trên trình duyệt.
 
 [Learn to Program][8]
-: A wonderful little tutorial by Chris Pine for programming newbies. If
-  you don’t know how to program, start here.
+: Một bài hướng dẫn nhỏ tuyệt vời của Chris Pine dành cho người mới học lập trình.
+  Nếu bạn chưa biết lập trình, hãy bắt đầu từ đây.
 
 [Ruby in Twenty Minutes][rubyin20]
-: A small Ruby tutorial that should take no more than 20 minutes to
-  complete.
+: Một bài hướng dẫn Ruby ngắn gọn chỉ mất không quá 20 phút để
+  hoàn thành.
 
 [The Odin Project][odin]
-: An open source full stack curriculum
+: Chương trình giảng dạy full stack mã nguồn mở
 
 [Exercism][exercism]
-: 120 exercises with automatic analysis and personal mentoring.
+: 120 bài tập với phân tích tự động và hướng dẫn cá nhân.
 
 [Codecademy][codecademy]
-: Online code bootcamp with a variety of topics.
+: Khóa học lập trình trực tuyến với đa dạng chủ đề.
 
-### Manuals / Books
+### Sách hướng dẫn / Sách
 
-#### Beginner
+#### Cơ bản
 
 [Programming Ruby 3.3][pickaxe]
-: The seminal work on Ruby in English. Recently updated to Ruby 3.3.
+: Tác phẩm nền tảng về Ruby bằng tiếng Anh. Mới được cập nhật cho Ruby 3.3.
 
 [The Well-Grounded Rubyist][grounded]
-: A tutorial that begins with your first Ruby program and takes you all the way to sophisticated topics like reflection, threading, and recursion.
+: Một bài hướng dẫn bắt đầu từ chương trình Ruby đầu tiên của bạn và đưa bạn đến những chủ đề nâng cao như reflection, threading và recursion.
 
-#### Intermediate
+#### Trung cấp
 
 [Practical OOD in Ruby (POODR)][poodr]
-: A programmer's tale about how to write object-oriented code.
+: Câu chuyện của một lập trình viên về cách viết mã hướng đối tượng.
 
-#### Expert
+#### Nâng cao
 
 [Metaprogramming][meta]
-: Explains metaprogramming in a down-to-earth style.
+: Giải thích metaprogramming theo phong cách dễ hiểu và thực tế.
 
 [Ruby Under a Microscope (RUM)][microscope]
-: An illustrated guide to Ruby internals.
+: Hướng dẫn có minh họa về cơ chế bên trong của Ruby.
 
-### Community Documentation
+### Tài liệu cộng đồng
 
-These documentation sites are maintained by the Ruby community.
+Các trang tài liệu này được duy trì bởi cộng đồng Ruby.
 
 [RubyDoc.info][16]
-: The one-stop web site for reference documentation about Ruby gems and
-  GitHub-hosted Ruby projects.
+: Trang web tham khảo tài liệu toàn diện về các Ruby gem và
+  các dự án Ruby trên GitHub.
 
 [RubyAPI.org][rubyapi-org]
-: Easily find and browse Ruby classes, modules, and methods.
+: Dễ dàng tìm kiếm và duyệt các class, module và method của Ruby.
 
 [ruby-doc.org][39]
-: Online API documentation
+: Tài liệu API trực tuyến
 
 [DevDocs.io][40]
-: Online API documentation
+: Tài liệu API trực tuyến
 
 [Ruby QuickRef][42]
-: The Ruby quick reference
+: Tham khảo nhanh về Ruby
 
 [rubyreferences][43]
-: A full language reference + detailed language changelog.
+: Tham khảo ngôn ngữ đầy đủ + nhật ký thay đổi ngôn ngữ chi tiết.
 
-### Style Guides
+### Hướng dẫn về phong cách viết mã
 
 [rubystyle.guide][44]
-: RuboCop's Ruby style guide
+: Hướng dẫn phong cách Ruby của RuboCop
 
 [RuboCop][45]
-: Automated enforcement of their style guide.
+: Công cụ tự động áp dụng hướng dẫn phong cách viết mã của họ.
 
 [Shopify][46]
-: Shopify's Ruby style guide
+: Hướng dẫn phong cách Ruby của Shopify
 
 [GitLab][47]
-: Gitlab's Ruby style guide
+: Hướng dẫn phong cách Ruby của GitLab
 
 [Airbnb][48]
-: Airbnb's Ruby style guide
+: Hướng dẫn phong cách Ruby của Airbnb
 
 [w3resource][49]
-: W3's Ruby style guide
+: Hướng dẫn phong cách Ruby của W3
 
-# Tools
+# Công cụ
 
 [IRB][50]
-: The interactive Ruby Read-Eval-Print-Loop (REPL)
+: Vòng lặp Read-Eval-Print-Loop (REPL) tương tác của Ruby
 
 [Pry][51]
-: An alternative Ruby REPL
+: Một REPL thay thế cho Ruby
 
 [Rake][52]
-: A make-like build utility for Ruby.
+: Công cụ build tương tự make dành cho Ruby.
 
 [RI][53]
-: (Ruby Information) is the Ruby command-line utility that gives fast and easy on-line access to Ruby documentation.
+: (Ruby Information) là tiện ích dòng lệnh của Ruby giúp truy cập nhanh chóng và dễ dàng vào tài liệu Ruby.
 
 [RBS][54]
-: Type Signature for Ruby
+: Chữ ký kiểu dữ liệu cho Ruby
 
 [TypeProf][55]
-: An experimental type-level Ruby interpreter for testing and understanding Ruby code.
+: Trình thông dịch Ruby thử nghiệm ở mức kiểu dữ liệu để kiểm tra và hiểu mã Ruby.
 
 [Steep][56]
-: Static type checker for Ruby.
+: Trình kiểm tra kiểu dữ liệu tĩnh cho Ruby.
 
-### Editors and IDEs
+### Trình soạn thảo và IDE
 
-For coding in Ruby, you can use the default editor of your operating
-system. By the way, to be more effective in coding, it is worth choosing a source code editor with basic Ruby support (e.g.
-syntax-highlighting, file browsing) or an integrated development
-environment with advanced features (e.g. code completion, refactoring,
-testing support).
+Để lập trình Ruby, bạn có thể sử dụng trình soạn thảo mặc định của hệ
+điều hành. Tuy nhiên, để lập trình hiệu quả hơn, bạn nên chọn một trình soạn thảo mã nguồn có hỗ trợ Ruby cơ bản (ví dụ:
+tô sáng cú pháp, duyệt tệp) hoặc một môi trường phát triển tích hợp
+với các tính năng nâng cao (ví dụ: tự động hoàn thành mã, tái cấu trúc,
+hỗ trợ kiểm thử).
 
-Here is a list of popular editors used by Rubyists, broken up by
-learning curve:
+Dưới đây là danh sách các trình soạn thảo phổ biến được các lập trình viên Ruby
+sử dụng, phân loại theo độ khó học:
 
-* Days
-  * [Sublime Text][37] (paid)
+* Vài ngày
+  * [Sublime Text][37] (trả phí)
   * [Visual Studio Code][vscode]
   * [Zed][zed]
-* Months
-  * [RubyMine][27] (paid)
-* "Years" (as in, you'll spend years still learning things about it)
-  * [Emacs][20] with [Ruby mode][21] or [Enhanced Ruby mode][enh-ruby-mode]
-  * [Vim][25] with [vim-ruby][26] plugin
+* Vài tháng
+  * [RubyMine][27] (trả phí)
+* "Vài năm" (nghĩa là bạn sẽ mất nhiều năm vẫn còn học thêm được điều mới)
+  * [Emacs][20] với [Ruby mode][21] hoặc [Enhanced Ruby mode][enh-ruby-mode]
+  * [Vim][25] với plugin [vim-ruby][26]
   * [NeoVim][neovim]
 
-All of these editors support the Language Server Protocol (LSP),
-either by default or through their LSP plugins. Shopify's
-[ruby-lsp][ruby-lsp] is one of the most popular language servers for
-Ruby and [supports all of the above editors][ruby-lsp-supported-editors].
+Tất cả các trình soạn thảo trên đều hỗ trợ Language Server Protocol (LSP),
+mặc định hoặc thông qua các plugin LSP. [ruby-lsp][ruby-lsp] của Shopify
+là một trong những language server phổ biến nhất cho
+Ruby và [hỗ trợ tất cả các trình soạn thảo nêu trên][ruby-lsp-supported-editors].
 
-### Older Reading / Resources
+### Tài liệu / Tài nguyên cũ
 
-These links were more prominent but haven't been updated in ages.
+Các liên kết này từng nổi bật nhưng đã không được cập nhật từ lâu.
 
 [Ruby Koans][2]
-: The Koans walk you along the path to enlightenment in order to learn
-  Ruby. The goal is to learn the Ruby language, syntax, structure, and
-  some common functions and libraries. We also teach you culture.
+: Koans dẫn dắt bạn trên con đường giác ngộ để học
+  Ruby. Mục tiêu là học ngôn ngữ Ruby, cú pháp, cấu trúc và
+  một số hàm và thư viện phổ biến. Chúng tôi cũng dạy bạn về văn hóa.
 
 [Ruby Essentials][7]
-: A free on-line book designed to provide a concise
-  and easy to follow guide to learning Ruby.
+: Một cuốn sách trực tuyến miễn phí được thiết kế để cung cấp hướng dẫn
+  ngắn gọn và dễ theo dõi để học Ruby.
 
-[Why’s (Poignant) Guide to Ruby][5]
-: An unconventional but interesting book that will teach you Ruby
-  through stories, wit, and comics. Originally created by *why the lucky
-  stiff*, this guide remains a classic for Ruby learners.
+[Why's (Poignant) Guide to Ruby][5]
+: Một cuốn sách độc đáo và thú vị sẽ dạy bạn Ruby
+  thông qua những câu chuyện, sự hài hước và truyện tranh. Được tạo bởi *why the lucky
+  stiff*, hướng dẫn này vẫn là một tác phẩm kinh điển cho người học Ruby.
 
 [Learn Ruby the Hard Way][38]
-: A very good set of exercises with explanations that guide you from
-  the absolute basics of Ruby all the way to OOP and web development.
+: Một bộ bài tập rất tốt với các giải thích hướng dẫn bạn từ
+  những kiến thức cơ bản nhất của Ruby cho đến OOP và phát triển web.
 
 [Programming Ruby][9]
-: The seminal work on Ruby in English, this first edition of the
-  [Pragmatic Programmers’ book][10] is available for free online.
+: Tác phẩm nền tảng về Ruby bằng tiếng Anh, phiên bản đầu tiên của
+  [cuốn sách Pragmatic Programmers][10] có sẵn miễn phí trực tuyến.
 
 [The Ruby Programming Wikibook][12]
-: A free online manual with beginner and intermediate content plus a
-  thorough language reference.
+: Sách hướng dẫn trực tuyến miễn phí với nội dung cho người mới bắt đầu
+  và trung cấp cùng với tài liệu tham khảo ngôn ngữ chi tiết.
 
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
@@ -240,6 +240,6 @@ These links were more prominent but haven't been updated in ages.
 [ruby-lsp]: https://github.com/Shopify/ruby-lsp
 [ruby-lsp-supported-editors]: https://shopify.github.io/ruby-lsp/editors.html
 [rubyapi-org]: https://rubyapi.org/
-[rubyin20]: https://www.ruby-lang.org/en/documentation/quickstart/
+[rubyin20]: https://www.ruby-lang.org/vi/documentation/quickstart/
 [vscode]: https://code.visualstudio.com/docs/languages/ruby
 [zed]: https://zed.dev/

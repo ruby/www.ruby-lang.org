@@ -1,23 +1,23 @@
 ---
 layout: page
-title: "Ruby in Twenty Minutes"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
+    <a href="../" title="Phần 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Phần 2">2</a>
     <span class="separator"> | </span>
     <strong>3</strong>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Phần 4">4</a>
   </div>
-  <h1>Ruby in Twenty Minutes</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
-Now let’s create a greeter object and use it:
+Bây giờ hãy tạo một đối tượng greeter và sử dụng nó:
 
 {% highlight irb %}
 irb(main):035:0> greeter = Greeter.new("Pat")
@@ -30,24 +30,24 @@ Bye Pat, come back soon.
 => nil
 {% endhighlight %}
 
-Once the `greeter` object is created, it remembers that the name is Pat. Hmm,
-what if we want to get at the name directly?
+Sau khi đối tượng `greeter` được tạo, nó ghi nhớ rằng tên là Pat. Hmm,
+nếu chúng ta muốn truy cập trực tiếp vào tên thì sao?
 
 {% highlight irb %}
 irb(main):038:0> greeter.@name
 SyntaxError: (irb):38: syntax error, unexpected tIVAR, expecting '('
 {% endhighlight %}
 
-Nope, can’t do it.
+Không, không làm được.
 
-## Under the Object’s Skin
+## Bên trong đối tượng
 
-Instance variables are hidden away inside the object. They’re not
-terribly hidden, you see them whenever you inspect the object, and there
-are other ways of accessing them, but Ruby uses the good object-oriented
-approach of keeping data sort-of hidden away.
+Các biến thực thể được ẩn bên trong đối tượng. Chúng không bị ẩn hoàn
+toàn, bạn vẫn thấy chúng khi kiểm tra đối tượng, và cũng có những cách
+khác để truy cập chúng, nhưng Ruby sử dụng phương pháp hướng đối tượng
+tốt là giữ dữ liệu ở mức tương đối ẩn.
 
-So what methods do exist for Greeter objects?
+Vậy những method nào tồn tại cho các đối tượng Greeter?
 
 {% highlight irb %}
 irb(main):039:0> Greeter.instance_methods
@@ -65,20 +65,21 @@ irb(main):039:0> Greeter.instance_methods
     :!, :==, :!=, :__send__, :equal?, :instance_eval, :instance_exec, :__id__]
 {% endhighlight %}
 
-Whoa. That’s a lot of methods. We only defined two methods. What’s going
-on here? Well this is **all** of the methods for Greeter objects, a
-complete list, including ones defined by ancestor classes. If we want to
-just list methods defined for Greeter we can tell it to not include
-ancestors by passing it the parameter `false`, meaning we don’t want
-methods defined by ancestors.
+Ồ. Nhiều method quá. Chúng ta chỉ định nghĩa có hai method thôi mà.
+Chuyện gì đang xảy ra ở đây vậy? Đây là **tất cả** các method của đối
+tượng Greeter, một danh sách đầy đủ, bao gồm cả các method được định
+nghĩa bởi các class cha. Nếu chúng ta chỉ muốn liệt kê các method
+được định nghĩa riêng cho Greeter, chúng ta có thể yêu cầu không bao
+gồm các class cha bằng cách truyền tham số `false`, nghĩa là chúng ta
+không muốn các method được định nghĩa bởi các class cha.
 
 {% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
 => [:say_hi, :say_bye]
 {% endhighlight %}
 
-Ah, that’s more like it. So let’s see which methods our greeter object
-responds to:
+À, thế mới đúng. Vậy hãy xem đối tượng greeter của chúng ta phản hồi
+những method nào:
 
 {% highlight irb %}
 irb(main):041:0> greeter.respond_to?("name")
@@ -89,14 +90,14 @@ irb(main):043:0> greeter.respond_to?("to_s")
 => true
 {% endhighlight %}
 
-So, it knows `say_hi`, and `to_s` (meaning convert something to a
-string, a method that’s defined by default for every object), but it
-doesn’t know `name`.
+Vậy là nó biết `say_hi` và `to_s` (nghĩa là chuyển đổi một thứ gì đó
+thành chuỗi ký tự, một method được định nghĩa mặc định cho mọi đối
+tượng), nhưng nó không biết `name`.
 
-## Altering Classes—It’s Never Too Late
+## Thay đổi class — Không bao giờ là quá muộn
 
-But what if you want to be able to view or change the name? Ruby
-provides an easy way of providing access to an object’s variables.
+Nhưng nếu bạn muốn xem hoặc thay đổi tên thì sao? Ruby cung cấp một
+cách dễ dàng để truy cập các biến của đối tượng.
 
 {% highlight irb %}
 irb(main):044:0> class Greeter
@@ -105,10 +106,10 @@ irb(main):046:1> end
 => [:name, :name=]
 {% endhighlight %}
 
-In Ruby, you can reopen a class and modify it. The changes will
-be present in any new objects you create and even available in existing
-objects of that class. So, let’s create a new object and play with its
-`@name` property.
+Trong Ruby, bạn có thể mở lại một class và sửa đổi nó. Những thay đổi
+sẽ có mặt trong mọi đối tượng mới bạn tạo và thậm chí có sẵn trong các
+đối tượng đã tồn tại của class đó. Vậy, hãy tạo một đối tượng mới và
+thử nghiệm với thuộc tính `@name` của nó.
 
 {% highlight irb %}
 irb(main):047:0> greeter = Greeter.new("Andy")
@@ -131,19 +132,20 @@ Hi Betty!
 => nil
 {% endhighlight %}
 
-Using `attr_accessor` defined two new methods for us, `name` to get the
-value, and `name=` to set it.
+Sử dụng `attr_accessor` đã định nghĩa hai method mới cho chúng ta,
+`name` để lấy giá trị, và `name=` để đặt giá trị.
 
-## Greeting Anything and Everything, MegaGreeter Neglects None!
+## Chào hỏi mọi thứ và mọi người, MegaGreeter không bỏ sót ai!
 
-This greeter isn’t all that interesting though, it can only deal with
-one person at a time. What if we had some kind of MegaGreeter that could
-either greet the world, one person, or a whole list of people?
+Tuy nhiên, greeter này chưa thực sự thú vị lắm, nó chỉ có thể xử lý
+một người tại một thời điểm. Nếu chúng ta có một loại MegaGreeter nào
+đó có thể chào cả thế giới, một người, hoặc cả một danh sách người thì
+sao?
 
-Let’s write this one in a file instead of directly in the interactive
-Ruby interpreter IRB.
+Hãy viết cái này trong một tệp thay vì trực tiếp trong trình thông dịch
+Ruby tương tác IRB.
 
-To quit IRB, type “quit”, “exit” or just hit Control-D.
+Để thoát IRB, gõ "quit", "exit" hoặc chỉ cần nhấn Control-D.
 
 {% highlight ruby %}
 #!/usr/bin/env ruby
@@ -207,8 +209,8 @@ if __FILE__ == $0
 end
 {% endhighlight %}
 
-Save this file as “ri20min.rb”, and run it as “ruby ri20min.rb”. The
-output should be:
+Lưu tệp này với tên "ri20min.rb", và chạy bằng lệnh "ruby ri20min.rb".
+Kết quả đầu ra sẽ là:
 
     Hello World!
     Goodbye World.  Come back soon!
@@ -225,5 +227,5 @@ output should be:
     ...
 {: .code}
 
-There are a lot of new things thrown into this final example that we
-[can take a deeper look at.](../4/)
+Có rất nhiều thứ mới trong ví dụ cuối cùng này mà chúng ta
+[có thể tìm hiểu sâu hơn.](../4/)

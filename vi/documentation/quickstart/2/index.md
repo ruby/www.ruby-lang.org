@@ -1,24 +1,24 @@
 ---
 layout: page
-title: "Ruby in Twenty Minutes"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
+    <a href="../" title="Phần 1">1</a>
     <span class="separator"> | </span>
     <strong>2</strong>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Phần 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Phần 4">4</a>
   </div>
-  <h1>Ruby in Twenty Minutes</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
-What if we want to say “Hello” a lot without getting our fingers all
-tired? We need to define a method!
+Nếu chúng ta muốn nói "Hello" thật nhiều lần mà không phải gõ mỏi tay
+thì sao? Chúng ta cần định nghĩa một method!
 
 {% highlight irb %}
 irb(main):010:0> def hi
@@ -27,17 +27,18 @@ irb(main):012:1> end
 => :hi
 {% endhighlight %}
 
-The code `def hi` starts the definition of the method. It tells Ruby that
-we’re defining a method, that its name is `hi`. The next line is the body
-of the method, the same line we saw earlier: `puts "Hello World"`.
-Finally, the last line `end` tells Ruby we’re done defining the method.
-Ruby’s response `=> :hi` tells us that it knows we’re done defining the
-method. This response could be `=> nil` for Ruby 2.0 and earlier versions.
-But, it's not important here, so let's go on.
+Đoạn mã `def hi` bắt đầu việc định nghĩa method. Nó cho Ruby biết rằng
+chúng ta đang định nghĩa một method có tên là `hi`. Dòng tiếp theo là
+phần thân của method, cùng dòng mà chúng ta đã thấy trước đó:
+`puts "Hello World"`. Cuối cùng, dòng `end` cho Ruby biết chúng ta đã
+hoàn tất việc định nghĩa method. Phản hồi `=> :hi` của Ruby cho chúng
+ta biết rằng nó đã nhận biết method vừa được định nghĩa. Phản hồi này
+có thể là `=> nil` đối với Ruby 2.0 và các phiên bản trước đó. Tuy
+nhiên, điều đó không quan trọng ở đây, hãy tiếp tục nào.
 
-## The Brief, Repetitive Lives of a Method
+## Cuộc đời ngắn ngủi và lặp đi lặp lại của một method
 
-Now let’s try running that method a few times:
+Bây giờ hãy thử chạy method đó vài lần:
 
 {% highlight irb %}
 irb(main):013:0> hi
@@ -48,13 +49,12 @@ Hello World!
 => nil
 {% endhighlight %}
 
-Well, that was easy. Calling a method in Ruby is as easy as just
-mentioning its name to Ruby. If the method doesn’t take parameters
-that’s all you need. You can add empty parentheses if you’d like, but
-they’re not needed.
+Dễ quá. Gọi một method trong Ruby đơn giản chỉ cần nhắc đến tên của nó
+với Ruby. Nếu method không nhận tham số thì chỉ cần thế là đủ. Bạn có
+thể thêm dấu ngoặc đơn trống nếu muốn, nhưng chúng không bắt buộc.
 
-What if we want to say hello to one person, and not the whole world?
-Just redefine `hi` to take a name as a parameter.
+Nếu chúng ta muốn chào một người cụ thể chứ không phải cả thế giới thì
+sao? Chỉ cần định nghĩa lại `hi` để nhận một tên làm tham số.
 
 {% highlight irb %}
 irb(main):015:0> def hi(name)
@@ -66,15 +66,16 @@ Hello Matz!
 => nil
 {% endhighlight %}
 
-So it works… but let’s take a second to see what’s going on here.
+Vậy là nó hoạt động rồi... nhưng hãy dừng lại một chút để xem chuyện
+gì đang xảy ra ở đây.
 
-## Holding Spots in a String
+## Giữ chỗ trong chuỗi ký tự
 
-What’s the `#{name}` bit? That’s Ruby’s way of inserting something into
-a string. The bit between the braces is turned into a string (if it
-isn’t one already) and then substituted into the outer string at that
-point. You can also use this to make sure that someone’s name is
-properly capitalized:
+Phần `#{name}` là gì? Đó là cách Ruby chèn nội dung vào một chuỗi ký
+tự. Phần nằm giữa dấu ngoặc nhọn được chuyển thành chuỗi ký tự (nếu
+nó chưa phải là chuỗi) và sau đó được thay thế vào chuỗi bên ngoài tại
+vị trí đó. Bạn cũng có thể dùng cách này để đảm bảo tên của ai đó được
+viết hoa đúng cách:
 
 {% highlight irb %}
 irb(main):019:0> def hi(name = "World")
@@ -89,17 +90,17 @@ Hello World!
 => nil
 {% endhighlight %}
 
-A couple of other tricks to spot here. One is that we’re calling the
-method without parentheses again. If it’s obvious what you’re doing, the
-parentheses are optional. The other trick is the default parameter
-`World`. What this is saying is “If the name isn’t supplied, use the
-default name of `"World"`”.
+Có vài thủ thuật cần chú ý ở đây. Một là chúng ta lại gọi method mà
+không dùng dấu ngoặc đơn. Nếu những gì bạn đang làm là rõ ràng thì dấu
+ngoặc đơn là tùy chọn. Thủ thuật kia là tham số mặc định `World`.
+Ý nghĩa của nó là "Nếu tên không được cung cấp, hãy dùng tên mặc định
+là `"World"`".
 
-## Evolving Into a Greeter
+## Tiến hóa thành Greeter
 
-What if we want a real greeter around, one that remembers your name and
-welcomes you and treats you always with respect. You might want to use
-an object for that. Let’s create a “Greeter” class.
+Nếu chúng ta muốn một người chào hỏi thực thụ, một người nhớ tên bạn
+và luôn chào đón bạn, đối xử với bạn bằng sự tôn trọng thì sao? Bạn có
+thể dùng một đối tượng cho việc đó. Hãy tạo một class "Greeter".
 
 {% highlight irb %}
 irb(main):024:0> class Greeter
@@ -116,10 +117,11 @@ irb(main):034:1> end
 => :say_bye
 {% endhighlight %}
 
-The new keyword here is `class`. This defines a new class called Greeter
-and a bunch of methods for that class. Also notice `@name`. This is an
-instance variable, and is available to all the methods of the class. As
-you can see it’s used by `say_hi` and `say_bye`.
+Từ khóa mới ở đây là `class`. Nó định nghĩa một class mới có tên là
+Greeter và một loạt các method cho class đó. Cũng hãy chú ý `@name`.
+Đây là một biến thực thể (instance variable), và nó có thể được truy
+cập bởi tất cả các method của class. Như bạn có thể thấy, nó được sử
+dụng bởi `say_hi` và `say_bye`.
 
-So how do we get this Greeter class set in motion?
-[Create an object.](../3/)
+Vậy làm thế nào để đưa class Greeter này vào hoạt động?
+[Hãy tạo một đối tượng.](../3/)

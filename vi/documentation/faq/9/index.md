@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Câu hỏi thường gặp về Ruby"
 lang: vi
 
 header: |
@@ -35,31 +35,31 @@ header: |
 
 {% include faq-notice.md %}
 
-## Built-in libraries
+## Thư viện tích hợp sẵn
 
-### What does `instance_methods(false)` return?
+### `instance_methods(false)` trả về gì?
 
-The method `instance_methods` returns an array containing the names of
-instance methods in the receiving class or module. This will include
-the methods in superclasses and in mixed in modules.
+Phương thức `instance_methods` trả về một mảng chứa tên của các phương thức
+instance trong lớp hoặc module nhận. Điều này bao gồm cả các phương thức
+trong các lớp cha và trong các module đã được trộn vào.
 
-`instance_methods(false)` or `instance_methods(nil)` returns the names
-of just those methods which are defined in the receiver.
+`instance_methods(false)` hoặc `instance_methods(nil)` chỉ trả về tên
+của những phương thức được định nghĩa trực tiếp trong receiver.
 
-### How do random number seeds work?
+### Seed của số ngẫu nhiên hoạt động như thế nào?
 
-If `rand` is called without a prior call to `srand`,
-Ruby's pseudo-random number generator uses a random(ish) seed that
-amongst other things uses an entropy source provided by the OS,
-if available.
-Successive runs of a program that does not use `srand` will generate
-different sequences of random numbers.
+Nếu `rand` được gọi mà không có lời gọi `srand` trước đó,
+bộ sinh số giả ngẫu nhiên của Ruby sử dụng một seed ngẫu nhiên mà
+trong đó có sử dụng nguồn entropy do hệ điều hành cung cấp,
+nếu có sẵn.
+Các lần chạy liên tiếp của một chương trình không sử dụng `srand` sẽ tạo ra
+các chuỗi số ngẫu nhiên khác nhau.
 
-For testing purposes, you can get a predictable behavior with the same
-series of numbers each time the program is run by calling `srand`
-with a constant seed.
+Cho mục đích kiểm thử, bạn có thể có hành vi dự đoán được với cùng
+chuỗi số mỗi lần chạy chương trình bằng cách gọi `srand`
+với một seed cố định.
 
-### I read a file and changed it, but the file on disk has not changed.
+### Tôi đọc một tệp và thay đổi nó, nhưng tệp trên đĩa không thay đổi.
 
 ~~~
 File.open("example", "r+").readlines.each_with_index do |line, i|
@@ -67,11 +67,11 @@ File.open("example", "r+").readlines.each_with_index do |line, i|
 end
 ~~~
 
-This program does _not_ add line numbers to the file `example`. It does read
-the contents of the file, and for each line read does prepend the line number,
-but the data is never written back. The code below _does_ update the file
-(although somewhat dangerously, as it takes no backup before starting the
-update):
+Chương trình này _không_ thêm số dòng vào tệp `example`. Nó đọc
+nội dung của tệp, và với mỗi dòng đọc được thì thêm số dòng vào đầu,
+nhưng dữ liệu không bao giờ được ghi lại. Đoạn mã dưới đây _có_ cập nhật
+tệp (mặc dù hơi nguy hiểm, vì nó không tạo bản sao lưu trước khi bắt đầu
+cập nhật):
 
 ~~~
 File.open("example", "r+") do |f|
@@ -82,23 +82,23 @@ File.open("example", "r+") do |f|
 end
 ~~~
 
-### How can I process a file and update its contents?
+### Làm thế nào để xử lý một tệp và cập nhật nội dung của nó?
 
-Using the command-line option `-i`, or built-in variable `$-i`, you can read
-a file and replace it.
+Sử dụng tùy chọn dòng lệnh `-i`, hoặc biến tích hợp `$-i`, bạn có thể đọc
+một tệp và thay thế nó.
 
-The code in the preceding question, which added line numbers to a file,
-is probably best written using this technique:
+Đoạn mã trong câu hỏi trước, thêm số dòng vào một tệp,
+có lẽ nên được viết theo cách này:
 
 ~~~
 $ ruby -i -ne 'print "#$.: #$_"' example
 ~~~
 
-If you want to preserve the original file, use `-i.bak` to create a backup.
+Nếu bạn muốn giữ lại tệp gốc, sử dụng `-i.bak` để tạo bản sao lưu.
 
-### I wrote a file, copied it, but the end of the copy seems to be lost.
+### Tôi đã ghi một tệp, sao chép nó, nhưng phần cuối của bản sao bị mất.
 
-This code will not work correctly:
+Đoạn mã này sẽ không hoạt động đúng:
 
 ~~~
 require "fileutils"
@@ -107,12 +107,12 @@ File.open("file", "w").puts "This is a file."
 FileUtils.cp("file", "newfile")
 ~~~
 
-Because I/O is buffered, `file` is being copied before its contents have been
-written to disk. `newfile` will probably be empty. However, when the program
-terminates, the buffers are flushed, and file has the expected content.
+Vì I/O được đệm, `file` đang được sao chép trước khi nội dung của nó được
+ghi xuống đĩa. `newfile` có thể sẽ trống. Tuy nhiên, khi chương trình
+kết thúc, bộ đệm được xả, và file có nội dung như mong đợi.
 
-The problem doesn't arise if you make sure that `file` is closed before
-copying:
+Vấn đề không xảy ra nếu bạn đảm bảo rằng `file` được đóng trước
+khi sao chép:
 
 ~~~
 require "fileutils"
@@ -121,15 +121,15 @@ File.open("file", "w") {|f| f.puts "This is a file." }
 FileUtils.cp("file", "newfile")
 ~~~
 
-### How can I get the line number in the current input file?
+### Làm thế nào để lấy số dòng trong tệp đầu vào hiện tại?
 
-As you read from a file, Ruby increments a line number counter in the global
-variable `$.`. This is also available using the `lineno` attribute of the
-`File` object.
+Khi bạn đọc từ một tệp, Ruby tăng bộ đếm số dòng trong biến toàn cục
+`$.`. Giá trị này cũng có thể được lấy thông qua thuộc tính `lineno` của
+đối tượng `File`.
 
-The special constant `ARGF` is a file-like object that can be used to read
-all the input files specified on the command line (or standard input if there
-are no files). `ARGF` is used implicitly by code such as:
+Hằng số đặc biệt `ARGF` là một đối tượng giống tệp có thể được sử dụng để
+đọc tất cả các tệp đầu vào được chỉ định trên dòng lệnh (hoặc đầu vào tiêu
+chuẩn nếu không có tệp nào). `ARGF` được sử dụng ngầm bởi đoạn mã như:
 
 ~~~
 while gets
@@ -137,40 +137,41 @@ while gets
 end
 ~~~
 
-In this case, `$.` will be the cumulative number of lines read across all
-input files. To get the line number in the current file, use
+Trong trường hợp này, `$.` sẽ là số dòng tích lũy trên tất cả
+các tệp đầu vào. Để lấy số dòng trong tệp hiện tại, sử dụng
 
 ~~~
 ARGF.file.lineno
 ~~~
 
-You can also get the name of the current file using `ARGF.file.path`.
+Bạn cũng có thể lấy tên tệp hiện tại bằng `ARGF.file.path`.
 
-### How can I use `less` to display my program's output?
+### Làm thế nào để sử dụng `less` để hiển thị đầu ra của chương trình?
 
-I tried the following, but nothing came out:
+Tôi đã thử cách sau, nhưng không có gì xuất hiện:
 
 ~~~
 open("|less", "w").puts "abc"
 ~~~
 
-That's because the program ends immediately, and `less` never gets a chance
-to see the stuff you've written to it, never mind to display it.
-Make sure that the IO is properly closed and it will wait until `less` ends.
+Đó là vì chương trình kết thúc ngay lập tức, và `less` không bao giờ có cơ
+hội nhìn thấy những gì bạn đã ghi vào nó, chứ đừng nói đến việc hiển thị nó.
+Hãy đảm bảo rằng IO được đóng đúng cách và nó sẽ đợi cho đến khi `less`
+kết thúc.
 
 ~~~
 open("|less", "w") {|f| f.puts "abc" }
 ~~~
 
-### What happens to a `File` object which is no longer referenced?
+### Điều gì xảy ra với đối tượng `File` không còn được tham chiếu?
 
-A `File` object which is no longer referenced becomes eligible for garbage
-collection. The file will be closed automatically when the `File` object is
-garbage collected.
+Đối tượng `File` không còn được tham chiếu sẽ đủ điều kiện để
+thu gom rác. Tệp sẽ được đóng tự động khi đối tượng `File` được
+thu gom rác.
 
-### I feel uneasy if I don't close a file.
+### Tôi cảm thấy không yên tâm nếu không đóng tệp.
 
-There are at least four good ways of ensuring that you do close a file:
+Có ít nhất bốn cách tốt để đảm bảo rằng bạn đóng tệp:
 
 ~~~
 # (1)
@@ -193,24 +194,24 @@ File.foreach("file") {|line| print line }
 File.readlines("file").each {|line| print line }
 ~~~
 
-### How can I sort files by their modification time?
+### Làm thế nào để sắp xếp tệp theo thời gian chỉnh sửa?
 
 ~~~
 Dir.glob("*").sort {|a, b| File.mtime(b) <=> File.mtime(a) }
 ~~~
 
-Although this works (returning a list in reverse chronological order) it
-isn't very efficient, as it fetches the files' modification times from the
-operating system on every comparison.
+Mặc dù cách này hoạt động (trả về danh sách theo thứ tự thời gian ngược),
+nó không hiệu quả lắm, vì nó lấy thời gian chỉnh sửa của tệp từ
+hệ điều hành mỗi lần so sánh.
 
-More efficiency can be bought with some extra complexity:
+Hiệu quả hơn có thể đạt được với một chút phức tạp hơn:
 
 ~~~
 Dir.glob("*").map {|f| [File.mtime(f), f] }.
   sort {|a, b| b[0] <=> a[0] }.map(&:last)
 ~~~
 
-### How can I count the frequency of words in a file?
+### Làm thế nào để đếm tần suất từ trong một tệp?
 
 ~~~
 freq = Hash.new(0)
@@ -218,7 +219,7 @@ File.read("example").scan(/\w+/) {|word| freq[word] += 1 }
 freq.keys.sort.each {|word| puts "#{word}: #{freq[word]}" }
 ~~~
 
-Produces:
+Kết quả:
 
 ~~~
 and: 1
@@ -230,13 +231,13 @@ three: 1
 two: 1
 ~~~
 
-### How can I sort strings in alphabetical order?
+### Làm thế nào để sắp xếp chuỗi theo thứ tự bảng chữ cái?
 
-If you want your strings to sort 'AAA', 'BBB', ..., 'ZZZ', 'aaa', 'bbb',
-then the built-in comparison will work just fine.
+Nếu bạn muốn chuỗi được sắp xếp 'AAA', 'BBB', ..., 'ZZZ', 'aaa', 'bbb',
+thì phép so sánh tích hợp sẽ hoạt động tốt.
 
-If you want to sort ignoring case distinctions, compare downcased versions of
-the strings in the sort block:
+Nếu bạn muốn sắp xếp không phân biệt chữ hoa chữ thường, so sánh phiên bản
+chữ thường của các chuỗi trong khối sort:
 
 ~~~
 array = %w( z bB Bb bb Aa BB aA AA aa a A )
@@ -244,18 +245,18 @@ array.sort {|a, b| a.downcase <=> b.downcase }
   # => ["a", "A", "Aa", "aA", "AA", "aa", "bB", "Bb", "bb", "BB", "z"]
 ~~~
 
-If you want to sort so that the 'A's and 'a's come together, but 'a' is
-considered greater than 'A' (so 'Aa' comes after 'AA' but before 'AB'), use:
+Nếu bạn muốn sắp xếp sao cho các chữ 'A' và 'a' đứng cạnh nhau, nhưng 'a'
+được coi là lớn hơn 'A' (nên 'Aa' đứng sau 'AA' nhưng trước 'AB'), sử dụng:
 
 ~~~
 array.sort {|a, b| (a.downcase <=> b.downcase).nonzero? || a <=> b }
   # => ["A", "a", "AA", "Aa", "aA", "aa", "BB", "Bb", "bB", "bb", "z"]
 ~~~
 
-### How can I expand tabs to spaces?
+### Làm thế nào để mở rộng tab thành khoảng trắng?
 {: #tab-expansion}
 
-If `a` holds the string to be expanded, you could use one of:
+Nếu `a` chứa chuỗi cần mở rộng, bạn có thể sử dụng một trong các cách:
 
 ~~~
 1 while a.sub!(/(^[^\t]*)\t(\t*)/){$1+" "*(8-$1.size%8+8*$2.size)}
@@ -265,35 +266,36 @@ If `a` holds the string to be expanded, you could use one of:
 a.gsub!(/([^\t]{8})|([^\t]*)\t/n){[$+].pack("A8")}
 ~~~
 
-### How can I escape a backslash in a regular expression?
+### Làm thế nào để thoát dấu gạch chéo ngược trong biểu thức chính quy?
 
-`Regexp.quote('\\')` escapes a backslash.
+`Regexp.quote('\\')` thoát một dấu gạch chéo ngược.
 
-It gets trickier if you are using `sub` and `gsub`. Say you write
-`gsub(/\\/, '\\\\')`, hoping to replace each backslash with two.
-The second argument is converted to `'\\'` in syntax analysis. When the
-substitution occurs, the regular expression engine converts this to `'\'`,
-so the net effect is to replace each single backslash with another single
-backslash. You need to write `gsub(/\\/, '\\\\\\')`!
+Nó trở nên phức tạp hơn nếu bạn sử dụng `sub` và `gsub`. Giả sử bạn viết
+`gsub(/\\/, '\\\\')`, hy vọng thay thế mỗi dấu gạch chéo ngược bằng hai.
+Đối số thứ hai được chuyển đổi thành `'\\'` trong quá trình phân tích cú pháp.
+Khi phép thay thế xảy ra, bộ xử lý biểu thức chính quy chuyển đổi nó thành
+`'\'`, nên hiệu quả thực tế là thay thế mỗi dấu gạch chéo ngược đơn bằng
+một dấu gạch chéo ngược đơn khác. Bạn cần viết `gsub(/\\/, '\\\\\\')`!
 
-However, using the fact that `\&` contains the matched string, you could also
-write `gsub(/\\/, '\&\&')`.
+Tuy nhiên, sử dụng thực tế là `\&` chứa chuỗi khớp, bạn cũng có thể
+viết `gsub(/\\/, '\&\&')`.
 
-If you use the block form of `gsub`, i.e. `gsub(/\\/) { '\\\\' }`, the string
-for substitution is analyzed only once (during the syntax pass) and the
-result is what you intended.
+Nếu bạn sử dụng dạng block của `gsub`, tức là `gsub(/\\/) { '\\\\' }`,
+chuỗi thay thế chỉ được phân tích một lần (trong bước phân tích cú pháp) và
+kết quả đúng như bạn mong muốn.
 
-### What is the difference between `sub` and `sub!`?
+### Sự khác biệt giữa `sub` và `sub!` là gì?
 
-In `sub`, a copy of the receiver is generated, substituted, and returned.
+Trong `sub`, một bản sao của receiver được tạo ra, thực hiện thay thế,
+và trả về.
 
-In `sub!`, the receiver is altered and returned if any match was found.
-Otherwise, `nil` is returned.
+Trong `sub!`, receiver bị thay đổi và trả về nếu tìm thấy bất kỳ kết quả
+khớp nào. Nếu không, `nil` được trả về.
 
-Methods like `sub!`, which alter the attribute of the receiver,
-are called [destructive methods](../7/#destructive-method).
-Usually, if there are two similar methods and one is destructive,
-the destructive one has a suffix `!`.
+Các phương thức như `sub!`, thay đổi thuộc tính của receiver,
+được gọi là [phương thức hủy](../7/#destructive-method).
+Thông thường, nếu có hai phương thức tương tự và một trong số đó là phương
+thức hủy, phương thức hủy sẽ có hậu tố `!`.
 
 ~~~
 def foo(str)
@@ -312,48 +314,49 @@ foo(obj)  # => "baz"
 obj       # => "baz"
 ~~~
 
-### Where does `\Z` match?
+### `\Z` khớp ở đâu?
 
-`\Z` matches just before the last `\n` (newline) if the string ends
-with a `\n`, otherwise it matches at the end of a string.
+`\Z` khớp ngay trước `\n` (dòng mới) cuối cùng nếu chuỗi kết thúc
+bằng `\n`, nếu không thì nó khớp ở cuối chuỗi.
 
-### What is the difference between `thread` and `fork`?
+### Sự khác biệt giữa `thread` và `fork` là gì?
 
 {% include warnings/faq-out-of-date.html %}
 
-Ruby threads are implemented within the interpreter, while `fork` invokes the
-operating system to create a separately executing subprocess.
+Các thread của Ruby được triển khai bên trong trình thông dịch, trong khi
+`fork` gọi hệ điều hành để tạo một tiến trình con thực thi riêng biệt.
 
-Thread and fork have the following characteristics:
+Thread và fork có các đặc điểm sau:
 
-* `fork` is slow, `thread` is not.
-* `fork` does not share the memory space.
-* `thread` does not cause thrashing.
-* `thread` works on DOS.
-* When `thread` gets in a deadlock, the whole process stops.
-* `fork` can take advantage of pauses waiting for I/O to complete,
-  `thread` does not (at least not without some help).
+* `fork` chậm, `thread` thì không.
+* `fork` không chia sẻ không gian bộ nhớ.
+* `thread` không gây ra thrashing.
+* `thread` hoạt động trên DOS.
+* Khi `thread` rơi vào deadlock, toàn bộ tiến trình dừng lại.
+* `fork` có thể tận dụng các khoảng tạm dừng khi chờ I/O hoàn tất,
+  `thread` thì không (ít nhất là không có sự hỗ trợ thêm).
 
-You probably shouldn't mix `fork` and `thread`.
+Bạn có lẽ không nên trộn lẫn `fork` và `thread`.
 
-### How can I use `Marshal`?
+### Làm thế nào để sử dụng `Marshal`?
 
-`Marshal` is used to store an object in a file or a string, and later
-reconstitute it. Objects may be stored using:
+`Marshal` được sử dụng để lưu trữ một đối tượng vào tệp hoặc chuỗi,
+và sau đó khôi phục lại nó. Đối tượng có thể được lưu trữ bằng:
 
 ~~~
 Marshal.dump( obj [, io ] [, lev] )
 ~~~
 
-`io` is a writable `IO` object, `lev` designates the level to which objects
-are dereferred and stored. If `lev` levels of dereferring are done and object
-references still exist, then `dump` stores just the reference, not the object
-referenced. This is not good, as these referenced objects cannot be
-subsequently reconstructed.
+`io` là một đối tượng `IO` có thể ghi, `lev` chỉ định mức độ mà các đối
+tượng được tham chiếu và lưu trữ. Nếu `lev` mức tham chiếu được thực hiện
+và vẫn còn tham chiếu đối tượng, thì `dump` chỉ lưu trữ tham chiếu,
+không phải đối tượng được tham chiếu. Điều này không tốt, vì các đối tượng
+được tham chiếu này không thể được khôi phục lại sau đó.
 
-If `io` is omitted, the marshaled objects are returned in a string.
+Nếu `io` bị bỏ qua, các đối tượng đã marshal hóa được trả về dưới dạng
+chuỗi.
 
-You can load objects back using:
+Bạn có thể tải lại đối tượng bằng:
 
 ~~~
 obj = Marshal.load(io)
@@ -361,11 +364,11 @@ obj = Marshal.load(io)
 obj = Marshal.load(str)
 ~~~
 
-where `io` is a readable `IO` object, `str` is the dumped string.
+trong đó `io` là đối tượng `IO` có thể đọc, `str` là chuỗi đã dump.
 
-### How can I use `trap`?
+### Làm thế nào để sử dụng `trap`?
 
-`trap` associates code blocks with external events (signals).
+`trap` liên kết các khối mã với các sự kiện bên ngoài (tín hiệu).
 
 ~~~
 trap("PIPE") { raise "SIGPIPE" }

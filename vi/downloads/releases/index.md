@@ -1,36 +1,35 @@
 ---
 layout: page
-title: "Ruby Releases"
+title: "Các phiên bản Ruby"
 lang: vi
 ---
 
-This page lists individual Ruby releases.
+Trang này liệt kê các phiên bản Ruby riêng lẻ.
 {: .summary}
 
-For information about the current maintenance status of the various
-Ruby branches see the
-[Branches page](../branches/).
+Để biết thông tin về tình trạng bảo trì hiện tại của các nhánh Ruby,
+xem [trang Các nhánh](../branches/).
 
-### Ruby releases by version number
+### Các phiên bản Ruby theo số phiên bản
 
-This is a list of Ruby releases.
-The shown dates correspond to the publication dates of the
-English versions of release posts and may differ from the
-actual creation dates of the source tarballs.
+Đây là danh sách các phiên bản Ruby đã phát hành.
+Các ngày hiển thị tương ứng với ngày công bố của các bài đăng
+phiên bản tiếng Anh và có thể khác với ngày tạo thực tế của
+các tarball mã nguồn.
 
 <table class="release-list">
 <tr>
-<th>Release Version</th>
-<th>Release Date</th>
-<th>Download URL</th>
-<th>Release Notes</th>
+<th>Phiên bản</th>
+<th>Ngày phát hành</th>
+<th>Đường dẫn tải về</th>
+<th>Ghi chú phát hành</th>
 </tr>
 {% assign releases = site.data.releases | reverse | sort: "date" | reverse %}
 {% for release in releases %}
 <tr>
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
-<td><a href="{{ release.url.gz }}">download</a></td>
-<td><a href="{{ release.post }}">more...</a></td>
+<td><a href="{{ release.url.gz }}">tải về</a></td>
+<td><a href="{{ release.post }}">xem thêm...</a></td>
 </tr>{% endfor %}
 </table>

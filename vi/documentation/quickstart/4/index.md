@@ -1,30 +1,30 @@
 ---
 layout: page
-title: "Ruby in Twenty Minutes"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Part 1">1</a>
+    <a href="../" title="Phần 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Phần 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Phần 3">3</a>
     <span class="separator"> | </span>
     <strong>4</strong>
   </div>
-  <h1>Ruby in Twenty Minutes</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
-So, looking deeper at our new program, notice the initial lines, which
-begin with a hash mark (#). In Ruby, anything on a line after a hash
-mark is a comment and is ignored by the interpreter. The first line of
-the file is a special case, and under a Unix-like operating system tells
-the shell how to run the file. The rest of the comments are there just
-for clarity.
+Bây giờ, hãy nhìn sâu hơn vào chương trình mới của chúng ta, chú ý các
+dòng đầu tiên bắt đầu bằng dấu thăng (#). Trong Ruby, bất cứ thứ gì
+trên một dòng sau dấu thăng đều là chú thích và bị trình thông dịch bỏ
+qua. Dòng đầu tiên của tệp là một trường hợp đặc biệt, trên các hệ
+điều hành giống Unix, nó cho shell biết cách chạy tệp. Các chú thích
+còn lại chỉ để giải thích rõ ràng hơn.
 
-Our `say_hi` method has become a bit trickier:
+Method `say_hi` của chúng ta đã trở nên phức tạp hơn một chút:
 
 {% highlight ruby %}
 # Say hi to everybody
@@ -42,18 +42,18 @@ def say_hi
 end
 {% endhighlight %}
 
-It now looks at the `@names` instance variable to make decisions. If
-it’s nil, it just prints out three dots. No point greeting nobody,
-right?
+Bây giờ nó kiểm tra biến thực thể `@names` để đưa ra quyết định. Nếu
+giá trị là nil, nó chỉ in ra ba dấu chấm. Chẳng có lý do gì để chào
+không ai cả, đúng không?
 
-## Cycling and Looping—a.k.a. Iteration
+## Lặp vòng — hay còn gọi là Iteration
 
-If the `@names` object responds to `each`, it is something that you can
-iterate over, so iterate over it and greet each person in turn. Finally,
-if `@names` is anything else, just let it get turned into a string
-automatically and do the default greeting.
+Nếu đối tượng `@names` phản hồi method `each`, thì đó là thứ có thể
+lặp qua được, vậy hãy lặp qua nó và chào từng người một. Cuối cùng,
+nếu `@names` là bất cứ thứ gì khác, cứ để nó tự động được chuyển thành
+chuỗi ký tự và thực hiện lời chào mặc định.
 
-Let’s look at that iterator in more depth:
+Hãy xem kỹ hơn bộ lặp đó:
 
 {% highlight ruby %}
 @names.each do |name|
@@ -61,17 +61,17 @@ Let’s look at that iterator in more depth:
 end
 {% endhighlight %}
 
-`each` is a method that accepts a block of code then runs that block of
-code for every element in a list, and the bit between `do` and `end` is
-just such a block. A block is like an anonymous function or `lambda`.
-The variable between pipe characters is the parameter for this block.
+`each` là một method nhận một khối mã (block) rồi chạy khối mã đó cho
+mỗi phần tử trong danh sách, và phần nằm giữa `do` và `end` chính là
+khối mã đó. Một block giống như một hàm ẩn danh hoặc `lambda`. Biến nằm
+giữa hai dấu gạch đứng là tham số của block này.
 
-What happens here is that for every entry in a list, `name` is bound to
-that list element, and then the expression `puts "Hello #{name}!"` is
-run with that name.
+Điều xảy ra ở đây là với mỗi phần tử trong danh sách, `name` được gán
+bằng phần tử đó, và sau đó biểu thức `puts "Hello #{name}!"` được thực
+thi với tên đó.
 
-Most other programming languages handle going over a list using the
-`for` loop, which in C looks something like:
+Hầu hết các ngôn ngữ lập trình khác xử lý việc duyệt qua một danh sách
+bằng vòng lặp `for`, trong C trông giống như thế này:
 
 {% highlight c %}
 for (i=0; i<number_of_elements; i++)
@@ -80,20 +80,20 @@ for (i=0; i<number_of_elements; i++)
 }
 {% endhighlight %}
 
-This works, but isn’t very elegant. You need a throw-away variable like
-`i`, have to figure out how long the list is, and have to explain how to
-walk over the list. The Ruby way is much more elegant, all the
-housekeeping details are hidden within the `each` method, all you need
-to do is to tell it what to do with each element. Internally, the `each`
-method will essentially call `yield "Albert"`, then `yield "Brenda"` and
-then `yield "Charles"`, and so on.
+Cách này hoạt động được, nhưng không thanh lịch lắm. Bạn cần một biến
+tạm như `i`, phải tính xem danh sách dài bao nhiêu, và phải giải thích
+cách duyệt qua danh sách. Cách của Ruby thanh lịch hơn nhiều, tất cả
+các chi tiết xử lý được ẩn bên trong method `each`, bạn chỉ cần nói cho
+nó biết phải làm gì với mỗi phần tử. Bên trong, method `each` về cơ bản
+sẽ gọi `yield "Albert"`, rồi `yield "Brenda"`, rồi `yield "Charles"`,
+và cứ tiếp tục như vậy.
 
-## Blocks, the Highly Sparkling Glint on the Edge of Ruby
+## Block, viên ngọc sáng lấp lánh của Ruby
 
-The real power of blocks is when dealing with things that are more
-complicated than lists. Beyond handling simple housekeeping details
-within the method, you can also handle setup, teardown, and errors—all
-hidden away from the cares of the user.
+Sức mạnh thực sự của block là khi xử lý những thứ phức tạp hơn danh
+sách. Ngoài việc xử lý các chi tiết đơn giản bên trong method, bạn còn
+có thể xử lý thiết lập, dọn dẹp, và lỗi — tất cả đều được ẩn đi khỏi
+sự quan tâm của người dùng.
 
 {% highlight ruby %}
 # Say bye to everybody
@@ -109,40 +109,39 @@ def say_bye
 end
 {% endhighlight %}
 
-The `say_bye` method doesn’t use `each`, instead it checks to see if
-`@names` responds to the `join` method, and if so, uses it. Otherwise,
-it just prints out the variable as a string. This method of not caring
-about the actual *type* of a variable, just relying on what methods it
-supports is known as “Duck Typing”, as in “if it walks like a duck and
-quacks like a duck…”. The benefit of this is that it doesn’t
-unnecessarily restrict the types of variables that are supported. If
-someone comes up with a new kind of list class, as long as it implements
-the `join` method with the same semantics as other lists, everything
-will work as planned.
+Method `say_bye` không sử dụng `each`, thay vào đó nó kiểm tra xem
+`@names` có phản hồi method `join` hay không, và nếu có thì sử dụng nó.
+Nếu không, nó chỉ đơn giản in biến đó ra dưới dạng chuỗi ký tự. Cách
+không quan tâm đến *kiểu* thực sự của biến, mà chỉ dựa vào các method
+mà nó hỗ trợ, được gọi là "Duck Typing", như câu nói "nếu nó đi như
+vịt và kêu như vịt...". Lợi ích của điều này là không hạn chế một cách
+không cần thiết các kiểu biến được hỗ trợ. Nếu ai đó tạo ra một loại
+class danh sách mới, miễn là nó triển khai method `join` với cùng ngữ
+nghĩa như các danh sách khác, mọi thứ sẽ hoạt động đúng như dự kiến.
 
-## Kicking Off the Script
+## Khởi chạy script
 
-So, that’s the MegaGreeter class, the rest of the file just calls
-methods on that class. There’s one final trick to notice, and that’s the
-line:
+Vậy đó là class MegaGreeter, phần còn lại của tệp chỉ gọi các method
+trên class đó. Có một thủ thuật cuối cùng cần chú ý, đó là dòng:
 
 {% highlight ruby %}
 if __FILE__ == $0
 {% endhighlight %}
 
-`__FILE__` is the magic variable that contains the name of the current
-file. `$0` is the name of the file used to start the program. This check
-says “If this is the main file being used…” This allows a file to be
-used as a library, and not to execute code in that context, but if the
-file is being used as an executable, then execute that code.
+`__FILE__` là biến đặc biệt chứa tên của tệp hiện tại. `$0` là tên của
+tệp được dùng để khởi chạy chương trình. Kiểm tra này có nghĩa là "Nếu
+đây là tệp chính đang được chạy..." Điều này cho phép một tệp được sử
+dụng như một thư viện mà không thực thi mã trong ngữ cảnh đó, nhưng nếu
+tệp đang được sử dụng như một chương trình thực thi, thì hãy thực thi
+mã đó.
 
-## Consider Yourself Introduced
+## Coi như đã làm quen xong
 
-So that’s it for the quick tour of Ruby. There’s a lot more to explore,
-the different control structures that Ruby offers; the use of blocks and
-`yield`; modules as mixins; and more. I hope this taste of Ruby has left
-you wanting to learn more.
+Vậy là kết thúc chuyến tham quan nhanh về Ruby. Còn rất nhiều thứ để
+khám phá: các cấu trúc điều khiển khác nhau mà Ruby cung cấp; cách sử
+dụng block và `yield`; module dùng như mixin; và nhiều hơn nữa. Tôi hy
+vọng trải nghiệm Ruby vừa rồi đã khiến bạn muốn tìm hiểu thêm.
 
-If so, please head on over to our [Documentation](/en/documentation/)
-area, which rounds up links to manuals and tutorials, all freely
-available online.
+Nếu vậy, hãy ghé thăm khu vực [Tài liệu](/vi/documentation/) của chúng
+tôi, nơi tổng hợp các liên kết đến sách hướng dẫn và tài liệu học, tất
+cả đều miễn phí trực tuyến.
