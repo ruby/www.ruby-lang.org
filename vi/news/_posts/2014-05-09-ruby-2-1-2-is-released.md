@@ -1,23 +1,23 @@
 ---
 layout: news_post
-title: "Phát hành ấn bản Ruby 2.1.2"
+title: "Ruby 2.1.2 is released"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2014-05-09 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản 2.1.2 của Ruby.
+We are pleased to announce the release of Ruby 2.1.2.
 
-Ấn bản này có một vá cho lỗi
-[regression của bản 2.1.1 với Hash#reject](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
-và hỗ trợ xây dựng với Readline-6.3
+This release contains a fix for a
+[regression of Hash#reject in Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
+support for build with Readline-6.3
 (see [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
-và nâng cấp cho libyaml với psych và một số vá khác.
+an updated bundled version of libyaml with psych, and some bug fixes.
 
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
-để biết thêm chi tiết.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
+for details.
 
 ## Download
 
@@ -39,7 +39,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
       MD5:    7c303050d1e28e18398aed0fd59d334c
       SHA256: b62a0ded5cfce7d08e539bf5875d543e24208096a37f85bee3304c1284337fa2
 
-## Phản hồi
+## Release Comment
 
-Chúng tôi cảm ơn các lập trình viên và người dùng đã báo cáo lỗi giúp chúng tôi
-hoàn thành ấn bản này.
+Many committers, developers, and users who provided bug reports helped me to make this release.
+Thanks for their contributions.

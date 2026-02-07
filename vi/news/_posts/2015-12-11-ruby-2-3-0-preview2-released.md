@@ -1,55 +1,58 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.3.0-preview2"
+title: "Ruby 2.3.0-preview2 Released"
 author: "naruse"
-translator: "Trung Lê"
+translator:
 date: 2015-12-11 14:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản Ruby 2.3.0-preview2.
+We are pleased to announce the release of Ruby 2.3.0-preview2.
 
-Ruby 2.3.0-preview2 là phiên bản thử nghiệm thứ hai của Ruby 2.3.0.
-Giới thiệu cùng với phiên bản này bao gồm các cải tiến sau:
+Ruby 2.3.0-preview2 is the second preview of Ruby 2.3.0.
+Many new features and improvements are included.
 
-[Frozen String Literal
-Pragma](https://bugs.ruby-lang.org/issues/11473) được giới thiệu. Trên
-Ruby 2.1, "str".freeze được tối ưu hoá để giảm số lượng đối tượng được
-tạo ra. Ruby 2.3 cho phép đóng băng tất cả chuỗi ký tự trong các
-file mã nguồn thông qua một magic comment và một cờ của command line.
-Ngoài ra người dùng còn có thể biết được vị trí đổi tượng được tạo
-khi gặp phải lỗi "can't modify frozen String" thông qua cờ `--debug=frozen-string-literal`.
+A [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
+is introduced.
+With Ruby 2.1, `"str".freeze` has been optimized to reduce object allocation.
+Ruby 2.3 introduces a new magic comment and command line option to
+freeze all string literals in the source files.
+Additionally for debugging, you can get where the object is created on
+`"can't modify frozen String"` error by using the
+`--debug=frozen-string-literal` command line option.
 
-[Safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
-([hay còn gọi là lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
-chức năng này đã hiện diện trong C#, Groovy, và Swift. Cú pháp này
-được giới thiệu để làm giảm thiểu sự phiền toái khi xử lý `nil`, xem ví dụ:
-`obj&.foo`. `Array#dig` và `Hash#dig` cũng mới được bổ sung vào thư viện.
+A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
+([so-called lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
+which already exists in C#, Groovy, and Swift, is introduced to ease
+`nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
 
-[Giới thiệu did_you_mean gem](https://bugs.ruby-lang.org/issues/11252).
-did_you_mean gem hiển thị những gợi ý trong trường hợp gặp lỗi `NameError`
-hay `NoMethodError` giúp cho việc debug dễ dàng hơn.
+The [did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
+The did_you_mean gem
+shows the candidates on the `NameError` and `NoMethodError` to ease
+debugging.
 
 [RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788)
-là các tính năng thử nghiệm được giới thiệu trong phiên bản này. Với các chức năng này
-chúng ta có thể tạo ra một hệ thống biên dịch trước ISeq (bytecode).
+are introduced as experimental features.
+With these features, we can make an ISeq (bytecode) pre-compilation system.
 
-Ruby 2.3 còn kèm theo các cải tiến về phần hiệu chỉnh công suất.
-Ví dụ, [tối ưu hoá Proc#call](https://bugs.ruby-lang.org/issues/11569),
-[xem xét lại phần cấu trúc dữ liệu hàm nhập](https://bugs.ruby-lang.org/issues/11278),
-[giới thiệu kiểu cấu trúc dữ liệu bảng mới](https://bugs.ruby-lang.org/issues/11420),
-hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã,
-và nhiều tối ưu khác.
+Ruby 2.3 includes many performance tuning fixes.
+For example,
+[optimizing Proc#call](https://bugs.ruby-lang.org/issues/11569),
+[reconsidering method entry data structure](https://bugs.ruby-lang.org/issues/11278),
+[introducing new table data structure](https://bugs.ruby-lang.org/issues/11420),
+machine code level tuning for object allocation and method calling code,
+and many other optimizations.
 
-Hãy thử sử dụng Ruby 2.3.0-preview2, và cho chúng tôi biết trải nghiệm của bạn.
+Try and enjoy programming with Ruby 2.3.0-preview2, and report us your
+knowledge!
 
-## Các thay đổi đáng chú ý so với 2.2
+## Notable Changes since 2.2
 
-Xem [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview2/NEWS)
-và [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0_preview2/ChangeLog)
-để biết thêm chi tiết.
+See [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview2/NEWS)
+and [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0_preview2/ChangeLog)
+for details.
 
-Các thay đổi: [1097 files bị thay đổi, 97466 thêm vào(+), 58685 loại bỏ(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0_preview2) kể từ Ruby 2.2.0!
+With those changes, [1097 files changed, 97466 insertions(+), 58685 deletions(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0_preview2) since Ruby 2.2.0!
 
 ## Download
 
@@ -81,8 +84,8 @@ Các thay đổi: [1097 files bị thay đổi, 97466 thêm vào(+), 58685 loạ
   * SHA256: 90d036fd1ec40aa8f5493821ac162bf69f505c5977db54afe53b8bf689d79b9d
   * SHA512: 05784df420018aaae7d09d41e872df708e861cacc74dc8ee97a9e3ac7458cb12b937523ad6def34d5ae2890a0cf037a8d61e365beb88d28acd84879b9391ad65
 
-## Chú thích
+## Release Comment
 
-Xin xem lịch ấn bản và các thông tin khác tại
+See also the release schedule and other information:
 
 [ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

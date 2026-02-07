@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p353 được phát hành"
+title: "Ruby 2.0.0-p353 is released"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2013-11-22 03:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.0.0-p353 mới được phát hành.
+Now Ruby 2.0.0-p353 is released.
 
-Bao gồm một vá bảo mật liên quan đến truyền số thực dấu phẩy động (floating point parsing).
+This release includes a security fix about floating point parsing.
 
-* [Tràn vùng Heap trong Truyền số thực dấu phẩy động (CVE-2013-4164)](/vi/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* [Heap Overflow in Floating Point Parsing
+  (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
-Và một vài vá lỗi khác.
+And some bugfixes are also included.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) for details.
 
-Xem [vé](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) để biết thêm chi tiết.
+## Download
 
-## Tải về
-
-Bạn có thể tải bản phát hành này tại:
+You can download this release from:
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2)
 
@@ -40,7 +40,7 @@ Bạn có thể tải bản phát hành này tại:
       MD5:    0f8aeb1f1b1cd606ab9790badabd0fb4
       SHA256: 878c9cec05751a4c7019ad255a9e737d0f47ec7188cee1c522545ac7e3bc73a3
 
-## Chú thích
+## Release Comment
 
-Tôi muốn cảm ơn các lập trình viên, các thành viên tham gia kiểm tra
-và thông báo lỗi đã giúp tôi hoàn thành ấn bản này.
+Many committers, testers and users who gave bug reports helped me to
+make this release. Thanks for their contributions.

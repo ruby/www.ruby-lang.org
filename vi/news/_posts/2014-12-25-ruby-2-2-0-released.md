@@ -1,65 +1,81 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.2.0"
+title: "Ruby 2.2.0 Released"
 author: "naruse"
-translator: "Nhat Tan"
+translator:
 date: 2014-12-25 09:00:00 +0000
 lang: vi
 ---
 
-Rất vui khi được thông báo ấn bản Ruby 2.2.0.
+We are pleased to announce the release of Ruby 2.2.0.
 
-Ruby 2.2 cung cấp nhiều tính năng và cải tiến mới nhằm phục vụ nhu cầu ngày càng đa dạng và mở rộng cho Ruby.
+Ruby 2.2 includes many new features and improvements for the increasingly
+diverse and expanding demands for Ruby.
 
-Ví dụ: Symbol GC giúp tự động thu hồi bộ nhớ cho Symbols. Nó giúp cho giảm tải
-đáng kể dung lượng Symbols tạo ra, bởi vì trước bản Ruby 2.2 thì GC không thể
-thu hồi bộ nhớ sử dụng của Symbols. Vì Rails 5.0 bắt buộc yêu cầu chức năng
-Symbol GC, thế nên Rails 5.0 sẽ chỉ hỗ trợ Ruby 2.2.
-(Xem [bài post trên Rails' blog](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/)
-để thêm chi tiết.)
+For example, Ruby's Garbage Collector is now able to collect Symbol type objects.
+This reduces memory usage of Symbols; because GC was previously unable
+to collect them before 2.2.
+Since Rails 5.0 will require Symbol GC, it will support only Ruby 2.2 or later.
+(See [Rails 4.2 release post](http://weblog.rubyonrails.org/2014/12/19/Rails-4-2-final/) for details.)
 
-Ngoài ra Incremental GC mới cũng giúp giảm thời tạm dừng của việc thu hồi bộ
-nhớ, thực sự hữu dụng khi chạy các ứng dụng Rails. Gần đây các lập trình viên đã đề cập trên [Rails blog](http://weblog.rubyonrails.org/) cho rằng Rails 5.0 sẽ tận dụng lợi thế của Incremental GC cũng như Symbol GC.
+Also, a reduced pause time thanks to the new Incremental Garbage Collector will
+be helpful for running Rails applications. Recent developments mentioned on the
+[Rails blog](http://weblog.rubyonrails.org/)
+suggest that Rails 5.0 will take advantage of Incremental GC as well as
+Symbol GC.
 
-Một tính năng khác liên quan đến việc quản lý bộ nhớ là một lựa chọn cho
-configure.in để sử dụng jemalloc
+Another feature related to memory management is an additional option
+for `configure.in` to use jemalloc
 [Feature #9113](https://bugs.ruby-lang.org/issues/9113).
-Đây là là một tính năng thử nghiệm với mặc định không được bật lên cho đến khi chúng tôi thu thập được nhiều hơn use case và peformance data. Nếu tất cả đều ở
-trạng thái hoạt động tốt và ổn định thì tính năng này sẽ mặc định được bật lên.
+This feature is still experimental and currently disabled by default until we
+gather performance data and more use cases. When we are convinced of the
+benefits, this feature will be enabled by default.
 
-Hỗ trợ thực nghiệm cho việc sử dụng vfork(2) trong system() và spawn() cũng đã được thêm vào. Bạn có thể xem chi tiết hơn trên [tanaka-san’s blog bằng Tiếng Nhật](http://www.a-k-r.org/d/2014-09.html#a2014_09_06). Điều này giúp tăng tốc rất nhiều khi một tiến trình lớn thực hiện những lệnh bên ngoài nhiều lần. Tuy nhiên vfork(2) vẫn chưa được hiểu rõ và là một system call nguy hiểm tiềm ẩn. Chúng tôi muốn thực nghiệm để có thể biết được các lợi ích nó mang lại qua việc thu thập thông tin về peformance data và use cases.
+Experimental support for using vfork(2) with system() and spawn() have also
+been added. You can read more detail on
+[tanaka-san's blog in Japanese](http://www.a-k-r.org/d/2014-09.html#a2014_09_06).
+This could potentially bring huge speed-up when a large process executes
+external commands many times.
+However vfork(2) is still not well understood and a potentially harmful
+system call. We would like to experiment to find out how much benefit can be
+gained by gathering performance data and use cases.
 
-Mong nhận được nhiều phản hồi trong qua trình sử dụng Ruby 2.2.0 từ các bạn.
+Try and enjoy programming with Ruby 2.2.0, and report us your findings!
 
-## Các thay đổi đáng chú ý so với bản 2.1
+## Notable Changes since 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
-  ([bài diễn thuyết tại RubyConf 2014: “Incremental GC for Ruby interpreter”](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
+  ([presentation at RubyConf 2014: "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
-  ([bài diễn thuyết tại RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
-* configure --with-jemalloc [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
+  ([presentation at RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
+* configure --with-jemalloc
+  [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * core libraries:
-  * Hỗ trợ Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * Hàm mới:
-    * Enumerable#slice_after [#9071](https://bugs.ruby-lang.org/issues/9071), Enumerable#slice_when [#9826](https://bugs.ruby-lang.org/issues/9826)
-    * Float#next_float, Float#prev_float [#9834](https://bugs.ruby-lang.org/issues/9834)
-    * File.birthtime, File#birthtime [#9647](https://bugs.ruby-lang.org/issues/9647)
+  * Support Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
+  * New methods:
+    * Enumerable#slice_after [#9071](https://bugs.ruby-lang.org/issues/9071),
+      Enumerable#slice_when [#9826](https://bugs.ruby-lang.org/issues/9826)
+    * Float#next_float, Float#prev_float
+      [#9834](https://bugs.ruby-lang.org/issues/9834)
+    * File.birthtime, File#birthtime
+      [#9647](https://bugs.ruby-lang.org/issues/9647)
     * String#unicode_normalize [#10084](https://bugs.ruby-lang.org/issues/10084)
 * bundled libraries:
-  * Nâng cấp Psych 2.0.8
-  * Nâng cấp Rake 10.4.2
-  * Nâng cấp RDoc 4.2.0
-  * Nâng cấp RubyGems 2.4.5
-  * Nâng cấp test-unit 3.0.8 (xoá khỏi repository nhưng được kèm cùng tarball)
-  * Nâng cấp minitest 5.4.3 (xoá khỏi repository nhưng được kèm cùng tarball)
+  * Update Psych 2.0.8
+  * Update Rake 10.4.2
+  * Update RDoc 4.2.0
+  * Update RubyGems 2.4.5
+  * Update test-unit 3.0.8 (removed from repository but bundled in tarball)
+  * Update minitest 5.4.3 (removed from repository but bundled in tarball)
   * Deprecate mathn
 * C API
-  * Xoá deprecated APIs
+  * Remove deprecated APIs
 
-Xem thêm chi tiết tại
-[NEWS trong Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS).
+See [NEWS in Ruby repository](https://github.com/ruby/ruby/blob/v2_2_0/NEWS)
+for details.
 
-Với những thay đổi, 1557 file đã được thay đổi, 125039 insertions(+), 74376 deletions(-).
+With those changes, 1557 files changed, 125039 insertions(+), 74376 deletions(-)
+from v2.1.0!
 
 ## Download
 

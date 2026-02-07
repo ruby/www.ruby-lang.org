@@ -1,47 +1,48 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.3.0-preview1"
+title: "Ruby 2.3.0-preview1 Released"
 author: "naruse"
-translator: "Trung Lê"
+translator:
 date: 2015-11-11 14:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản Ruby 2.3.0-preview1.
+We are pleased to announce the release of Ruby 2.3.0-preview1.
 
-Ruby 2.3.0-preview1 là phiên bản thử nghiệm đầu tiên của Ruby 2.3.0.
-Giới thiệu cùng với phiên bản này bao gồm các cải tiến sau:
+Ruby 2.3.0-preview1 is the first preview of Ruby 2.3.0.
+Many new features and improvements are included.
 
-[Frozen String Literal
-Pragma](https://bugs.ruby-lang.org/issues/11473) được giới thiệu. Trên
-Ruby 2.1, "str".freeze được tối ưu hoá để giảm số lượng đối tượng được
-tạo ra. Ruby 2.3 cho phép đóng băng tất cả chuỗi ký tự trong các
-file mã nguồn thông qua một magic comment và một cờ của command line.
-Ngoài ra người dùng còn có thể biết được vị trí đổi tượng được tạo
-khi gặp phải lỗi "can't modify frozen String" thông qua cờ `--enable-frozen-string-literal-debug`.
+A [Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473)
+is introduced.
+With Ruby 2.1, `"str".freeze` has been optimized to reduce object allocation.
+Ruby 2.3 introduces a new magic comment and command line option to
+freeze all string literals in the source files.
+Additionally for debugging, you can get where the object is created on
+`"can't modify frozen String"` error by
+`--enable-frozen-string-literal-debug`.
 
-[Safe navigation operator](https://bugs.ruby-lang.org/issues/11537),
-chức năng này đã hiện diện trong C#, Groovy, và Swift. Cú pháp này
-được giới thiệu để làm giảm phiền toái xử lý `nil`, xem vd: `obj&.foo`.
-`Array#dig` và `Hash#dig` cũng mới được bổ sung vào thư viện.
+A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537),
+which already exists in C#, Groovy, and Swift, is introduced to ease
+`nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
 
-[did_you_mean gem được kèm cùng](https://bugs.ruby-lang.org/issues/11252).
-did_you_mean gem hiển thị những gợi ý trong trường hợp gặp lỗi `NameError`
-hay `NoMethodError` giúp cho việc debug dễ dàng hơn.
+The [did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
+The did_you_mean gem
+shows the candidates on the `NameError` and `NoMethodError` to ease
+debugging.
 
-Hãy thử nghiệm Ruby 2.3.0-preview1 với ứng dụng của bạn và phản hồi cho
-chúng tôi biết nếu bạn có gặp bất cứ sự cố nào.
+Try and enjoy programming with Ruby 2.3.0-preview1, and report us your
+knowledge!
 
-## Các thay đổi tiêu biểu từ bản 2.2
+## Notable Changes since 2.2
 
 * TBD
 
-Xem [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) và
+See [NEWS](https://github.com/ruby/ruby/blob/v2_3_0_preview1/NEWS) and
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0_preview1/ChangeLog)
-để biết thêm chi tiết.
+for detail.
 
-Với các thay đổi, 1036 files thay đổi, 81312 dòng bổ sung(+), 51322 dòng
-gỡ bỏ(-) từ Ruby 2.2.0.
+With those changes, 1036 files changed, 81312 insertions(+), 51322
+deletions(-) since Ruby 2.2.0.
 
 ## Download
 
@@ -73,8 +74,8 @@ gỡ bỏ(-) từ Ruby 2.2.0.
   * SHA256: 0fc1d4450e9141f541038a4433f8fb49fb929e43c7bf5985685a4fa7b213a811
   * SHA512: f53653cf11d8dce1d627f7db3a15acca29c74c78735406a5d64bbbdc39fac232ef63110eb4d83521bef40c6f3006d55bbeaf54d1ddab1d4b6e5a13cee9247e85
 
-## Chú thích
+## Release Comment
 
-Xin xem lịch ấn bản và các thông tin khác tại
+See also the release schedule and other information:
 
 [ReleaseEngineering23](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering23)

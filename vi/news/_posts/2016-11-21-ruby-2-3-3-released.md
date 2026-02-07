@@ -1,22 +1,23 @@
 ---
 layout: news_post
-title: "Ruby ra mắt ấn bản 2.3.3"
+title: "Ruby 2.3.3 Released"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2016-11-21 10:30:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.3 mới được phát hành.
+Ruby 2.3.3 has been released.
 
-Ấn bản này bao gồm một vá lỗi về Refinements và Module#prepend.
-Trong trường hợp dùng chung Module#refine và Module#prepend cho cùng một Class
-có thể gây ra `NoMethodError`. Đây là một regression của bản 2.3.2.
-Xem [Bug #12920](https://bugs.ruby-lang.org/issues/12920) để biết thêm chi tiết.
+This release contains a bug fix concerning Refinements and Module#prepend.
+The combined use of Module#refine and Module#prepend to the same class
+could cause an unexpected `NoMethodError`.
+This is a regression on Ruby 2.3.2 released last week.
+See [Bug #12920](https://bugs.ruby-lang.org/issues/12920) for details.
 
-Thêm vào đó cũng có các vá lỗi khác.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
-để biết thêm chi tiết.
+There are some other bugfixes, too.
+See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+for details.
 
 ## Download
 
@@ -48,6 +49,7 @@ Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
       SHA256: cbffda17fdb1bbd86dd36de093524b0a9b5c92e007fd60acac1c9804b429886e
       SHA512: 5f75b77962c9d01fe591d87e20900d71a54c737e0d1198fae437729f21a9af84278a91ee73e850b5f49361b3cbf48af7a0a3ed9920cce932b58fd8e2420d5b26
 
-## Chú thích
+## Release Comment
 
-Cảm ơn tất cả mọi người đã đóng góp để chúng tôi có thể hoàn thành ấn bản lần này.
+Many committers, developers, and users who provided bug reports helped us to make this release.
+Thanks for their contributions.

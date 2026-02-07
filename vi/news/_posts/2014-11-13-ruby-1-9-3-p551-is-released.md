@@ -1,33 +1,33 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 1.9.3-p551"
+title: "Ruby 1.9.3-p551 Released"
 author: "usa"
-translator: "hoasung01"
+translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi xin thông báo phiên bản Ruby 1.9.3-p551.
+We are pleased to announce the release of Ruby 1.9.3-p551.
 
-Phiên bản này bao gồm bản sửa lỗi cho lỗ hổng DoS của REXML.
-Tương tự như
-[lỗ hổng đã sửa](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [phiên bản trưóc](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-1-9-3-p550-is-released/),
-nhưng những xử lý này cho các trường hợp mở rộng khác.
-Xin xem chủ đề bên dưới để biết thêm chi tiết.
+This release includes a security fix for a DoS vulnerability of REXML.
+It is similar to the
+[fixed vulnerability](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+in the [previous release](https://www.ruby-lang.org/en/news/2014/10/27/ruby-1-9-3-p550-is-released/),
+but this handles another case for entity expansion.
+Please view the topic below for more details.
 
-* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
-
-
-## Chú ý
-
-Ruby 1.9.3 hiện đang trong quá trình bảo trì bảo mật.
-Đìều này có nghĩa là chúng tôi chỉ sửa những lỗi liên quan đến bảo mật.
-Và, tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
-Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
+* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 
-## Tải về
+## Notice
+
+Ruby 1.9.3 is now in the security maintenance phase.
+This means that we never fix bugs except for security issues.
+And, at this time, the end of the maintenance of 1.9.3 has been scheduled for February next year.
+We recommend that users of Ruby 1.9.3 should migrate to a newer version as soon as possible.
+
+
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2)
 
@@ -57,7 +57,7 @@ Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụn
       SHA256: cf468ccabd5cdef5047b8f02f4f71052fd3a9c87c12aba314f04748a451a63ec
       SHA512: 6ee550c7e435622114e3669393220a90946652eade0a83dab74970fff7088d5c2051bee9c272e2e6eccc36885b4f64928fc2d27c36584c1cc8dac91ce730d3ea
 
-## Ghi chú phiên bản
+## Release Comment
 
-Xin lỗi về sự bất tiện thường xuyên trong khi phát hành.
-Cảm ơn tất cả mọi ngưòi đã giúp đỡ.
+Sorry for the inconvenience of releasing frequently.
+Thanks to everyone who helped with the release.

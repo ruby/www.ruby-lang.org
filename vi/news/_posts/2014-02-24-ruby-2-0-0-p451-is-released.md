@@ -1,20 +1,21 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p451 được phát hành"
+title: "Ruby 2.0.0-p451 is released"
 author: "nagachika"
-translator: "Vinh Nguyễn"
+translator:
 date: 2014-02-24 12:00:00 +0000
 lang: vi
 ---
 
-Ngày hôm nay, 24/2/2014 là ngày kỷ niêm lần thứ 21 của Ruby, vì vậy chúng
-tôi rất vui khi thông báo về việc phát hành một bản vá mới, Ruby 2.0.0-p451.
+Today, Feb. 24th, is the 21st anniversary of Ruby,
+so we happily announce a new patch release, Ruby 2.0.0-p451.
 
-Lần phát hành này đã sửa chữa nhiều lỗi.
-Xem [danh sách các vấn đề](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [bản ghi thay đổi](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog).
+This release includes many bugfixes.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog)
+for details.
 
-## Tải về
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p451.tar.bz2)
 
@@ -34,7 +35,7 @@ và [bản ghi thay đổi](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451
       MD5:    e90cb32e9cf534d180754d7492988748
       SHA256: 8999133f35ad5ddc9a6174860c795c5022e3868ff3b6587448b86af81ea2d5ec
 
-## Ghi chú
+## Release Comment
 
-Rất nhiều committer, các lập trình viên và người sử dụng đã thông báo các lỗi
-cho tôi để tạo nên lần phát hành này. Cảm ơn mọi người vì những đóng góp đó.
+Many committers, developers and users who gave bug reports helped me to make this release.
+Thanks for their contributions.

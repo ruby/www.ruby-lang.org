@@ -1,50 +1,49 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p247 được phát hành"
+title: "Ruby 2.0.0-p247 is released"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2013-06-27 11:00:03 +0000
 lang: vi
-
 ---
 
-Ruby 2.0.0-p247 mới được phát hành.
+Now Ruby 2.0.0-p247 is released.
 
-Bản này kèm một vá bảo mật về OpenSSL đi kèm.
+This release includes a security fix about bundled OpenSSL.
 
-* [Lỗi bỏ qua kiểm tra lai lịch hostname trong SSL client
-  (CVE-2013-4073)](/vi/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+* [Hostname check bypassing vulnerability in SSL client
+  (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-Và sửa một số lỗi khác.
+And some bugfixes are also included.
 
 ## Download
 
-Bạn có thể download bản này từ:
+You can download this release from:
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.bz2)
 
-      DUNG LƯỢNG:   10804581 bytes
+      SIZE:   10804581 bytes
       MD5:    60913f3eec0c4071f44df42600be2604
       SHA256: 08e3d4b85b8a1118a8e81261f59dd8b4ddcfd70b6ae554e0ec5ceb99c3185e8a
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz)
 
-      DUNG LƯỢNG:   13652782 bytes
+      SIZE:   13652782 bytes
       MD5:    c351450a0bed670e0f5ca07da3458a5b
       SHA256: 3e71042872c77726409460e8647a2f304083a15ae0defe90d8000a69917e20d3
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.zip)
 
-      DUNG LƯỢNG:   15100206 bytes
+      SIZE:   15100206 bytes
       MD5:    7548f781d868456e84afcd0327c7f894
       SHA256: 40c938238075b1e7e8df5d7ebfd069a45b93066318d91da9024d81b20a1c5a8a
 
-## Thay đổi
+## Changes
 
-Các vá cho các lỗi nghiêm trọng bao gồm:
+Major fixes are listed below.
 
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) for details.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) for details.
 
 ### Keyword Arguments
 
@@ -62,7 +61,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) 
 
 ### RubyGems
 
-RubyGems đi kèm được nâng lên 2.0.3
+Bundled RubyGems version is updated to 2.0.3
 
 ### Encoding
 
@@ -77,6 +76,7 @@ RubyGems đi kèm được nâng lên 2.0.3
 * [#8467](https://bugs.ruby-lang.org/issues/8467) Rewinding and iterating through gzipped IO leads to segmentation fault
 * [#8415](https://bugs.ruby-lang.org/issues/8415) Net::IMAP#capability_response raises "Net::IMAP::ResponseParseError: unexpected token CRLF" for common CAPABILITY
 
-## Chú thích
+## Release Comment
 
-Cảm ơn sự giúp đỡ của các committer, tester và người dùng đã tìm và thông báo lỗi.
+Many committers, testers and users who gave bug reports helped me to
+make this release. Thanks for their contributions.

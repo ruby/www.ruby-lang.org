@@ -1,35 +1,35 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 1.9.3-p550"
+title: "Ruby 1.9.3-p550 Released"
 author: "usa"
-translator: "hoasung01"
+translator:
 date: 2014-10-27 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo phát hành ấn bản Ruby 1.9.3-p550.
+We are pleased to announce the release of Ruby 1.9.3-p550.
 
-Phiên bản này gồm bản vá cho lỗ hổng bảo mật DoS của REXML.
+This release includes a security fix for DoS vulnerability of REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
-Bản release này gồm sự thay đổi về những thiết lập mặc định của ext/openssl.
-Các tùy chọn SSL/TLS không bảo mật đã được mặc định vô hiệu hoá.
+This release also includes the change of default settings of ext/openssl.
+Insecure SSL/TLS options are now turned off by default.
 
-* [Changed default settings of ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Changed default settings of ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-Và bundled jQuery cho darkfish template của RDOC cũng đã được cập nhật.
-
-
-## Chú ý
-
-Ruby 1.9.3 hiện đang trong quá trình bảo trì tính bảo mật.
-Điều này có nghĩa là chúng tôi chỉ sữa những lỗi liên quan đến vấn đề bảo mật.
-Và tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
-Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
+And, in addition, bundled jQuery for darkfish template of RDoc is also updated.
 
 
-## Tải về
+## Notice
+
+Ruby 1.9.3 is now in the security maintenance phase.
+This means that we never fix bugs except about security issues.
+And, at this time, the end of the maintenance of 1.9.3 has been scheduled for February next year.
+We recommend that users of Ruby 1.9.3 should migrate to a newer version as soon as possible.
+
+
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p550.tar.bz2)
 
@@ -59,7 +59,7 @@ Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụn
       SHA256: 6e7eceddca615c19f81c125f9864de3570b9687df858cfb27298d867521d5beb
       SHA512: 0daa8fafa950f1e6ddf79815a615c7d730d234042718bd70e8211e4c23d7cc93126c924ad42673844c3a8cb908bf02a8d03ae2857658a027935f46c13bb17a13
 
-## Chú thích
+## Release Comment
 
-Tôi chân thành cảm ơn những người hỗ trợ Ruby.
-Cảm ơn.
+I'm grateful to everybody who supports Ruby.
+Thank you.

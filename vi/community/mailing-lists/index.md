@@ -1,41 +1,45 @@
 ---
 layout: page
-title: "Hộp thư chung"
+title: "Mailing Lists"
 lang: vi
 ---
 
-Hộp thư chung luôn là nơi tốt nhất để giúp bạn hòa nhịp với cộng đồng Ruby.
+Mailing-lists are a great way to keep your finger on the pulse of the
+Ruby community.
 {: .summary}
 
-Ruby có 4 hộp thư sử dụng tiếng Anh là ngôn ngữ chính sau :
+Ruby has four primary English speaking mailing lists:
 
 Ruby-Talk
-: Đây là hộp thư phổ biến nhất với các chủ đề chung về Ruby.
-  ([Lưu trữ][3])
+: This is the most popular mailing-list and deals with general topics
+  about Ruby. ([Archives][3], [Posting Guidelines][guidelines], [Community Archive][rubytalk])
 
 Ruby-Core
-: Danh sách này có rất nhiều chủ đề về Ruby core và cách xử lý,
-  thường được dùng để thử nghiệm các bản vá lỗi. ([Lưu trữ][4])
+: This list deals with core and implementation topics about Ruby, often
+  used to run patches for review. ([Archives][4])
 
 Ruby-Doc
-: Danh sách này thảo luận các tiêu chuẩn về tài liệu cũng như công cụ cho
-  Ruby. ([Lưu trữ][5])
+: This list is for discussing documentation standards and tools for
+  Ruby. ([Archives][5])
 
 Ruby-CVS
-: Danh sách này báo cáo tất cả các commit được lưu trữ tại Ruby-CVS.
+: This list reports all commits to Ruby’s Subversion repository.
 
 The comp.lang.ruby Newsgroup
-: Những ai thích Usenet(Unix User Network - hệ thống bảng tin điện tử trên
-  phạm vi toàn thế giới) hơn là thông qua hộp thư chung sẽ cần đến nhóm tin
-  [comp.lang.ruby](news:comp.lang.ruby).
+: Those who prefer Usenet over mailing lists will want to checkout the
+  [comp.lang.ruby](news:comp.lang.ruby) newsgroup. ([FAQ][clrFAQ])
+
+## Subscribe or Unsubscribe
+
+See [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
+for more information about all mailing lists on ruby-lang.org,
+including the lists in Japanese language.
 
 
-## Đăng ký theo dõi hoặc Hủy đăng ký
 
-[Đăng ký theo dõi hoặc Hủy đăng ký](https://ml.ruby-lang.org/mailman3/lists/)
-
-
-
+[guidelines]: ruby-talk-guidelines/
+[clrFAQ]: http://rubyhacker.com/clrFAQ.html
 [3]: https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/
-[4]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org/
+[4]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org
 [5]: https://ml.ruby-lang.org/archives/list/ruby-doc@ml.ruby-lang.org/
+[rubytalk]: https://rubytalk.org/

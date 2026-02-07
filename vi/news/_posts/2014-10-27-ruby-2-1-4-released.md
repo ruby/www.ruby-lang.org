@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.1.4"
+title: "Ruby 2.1.4 Released"
 author: "nagachika"
-translator: "longkt90"
+translator:
 date: 2014-10-27 12:00:00 +0000
 lang: vi
 ---
 
-Ra mắt Ruby 2.1.4.
+Ruby 2.1.4 has been released.
 
-Phiên bản này gồm bản chỉnh sửa cho các lỗi bảo mật sau:
+This release includes security fixes for the following vulnerabilities:
 
-* [CVE-2014-8080: Tấn công từ chối dịch vụ bằng XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
-* [Thay đổi thiết lập mặc định của ext/openssl liên quan đến CVE-2014-3566](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [Changed default settings of ext/openssl related to CVE-2014-3566](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-Và một số lỗi khác.
+And there are some bug-fixes.
 
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
-để biết thêm chi tiết.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+for details.
 
-**Cập nhật:** Có một regression xảy ra ở bản 2.1.3 giờ đã được sửa:
+**Update:** There was a regression introduced in 2.1.3 that is now fixed:
 
 {% highlight irb %}
 >> { key: if true then 0 else 1 end }
@@ -29,7 +29,7 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
          ^
 {% endhighlight %}
 
-## Tải về
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.4.tar.bz2)
 
@@ -60,12 +60,12 @@ SyntaxError: (irb):1: syntax error, unexpected modifier_if
       SHA512: 7fd8d13810a4336dc498a6eb05e140825d52eca0317d0848152688060b95ce4c79ab6a10cf14ab2499ae559fb4676d86538eacd94fb262c16795067fb4f47614
 
 
-## Ghi chú cho phiên bản
+## Release Comment
 
-Nhiều tình nguyện viên, lập trình viên và người dùng đã báo lỗi để giúp chúng tôi có được phiên bản này.
-Cảm ơn vì sự đóng góp của họ.
+Many committers, developers, and users who provided bug reports helped us to make this release.
+Thanks for their contributions.
 
-## Lịch sử đăng
+## History
 
-* Được sửa lại 2014-10-27 21:00:00 (UTC)
-* Đăng lên lần đầu 2014-10-27 12:00:00 (UTC)
+* Update published at 2014-10-27 21:00:00 (UTC)
+* Originally published at 2014-10-27 12:00:00 (UTC)

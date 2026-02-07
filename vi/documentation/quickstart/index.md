@@ -1,123 +1,132 @@
 ---
 layout: page
-title: "Tìm hiểu Ruby trong 25 phút"
+title: "Ruby in Twenty Minutes"
 lang: vi
 
 header: |
   <div class="multi-page">
     <strong>1</strong>
     <span class="separator"> | </span>
-    <a href="2/" title="Phần 2">2</a>
+    <a href="2/" title="Part 2">2</a>
     <span class="separator"> | </span>
-    <a href="3/" title="Phần 3">3</a>
+    <a href="3/" title="Part 3">3</a>
     <span class="separator"> | </span>
-    <a href="4/" title="Phần 4">4</a>
+    <a href="4/" title="Part 4">4</a>
   </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
+  <h1>Ruby in Twenty Minutes</h1>
 
 ---
 
-## Giới thiệu
+## Introduction
 
-Đây là một bài hướng dẫn nhỏ, chỉ cần không quá 20 phút để hoàn thành. Giả thiết
-là bạn đã cài sẵn Ruby. (Nếu bạn chưa có Ruby, hãy [cài đặt][installation]
-trước khi bắt đầu nhé.)
+This is a small Ruby tutorial that should take no more than 20 minutes
+to complete. It makes the assumption that you already have Ruby installed.
+(If you do not have Ruby on your computer [install][installation] it
+before you get started.)
 
-## Tương tác với Ruby
+## Interactive Ruby
 
-Ruby có một chương trình hiển thị kết quả của bất kỳ câu lệnh Ruby nào bạn gõ
-vào. Thử sức với Ruby code theo cách tương tác như thế này là một cách tuyệt vời
-để khám phá nó.
+Ruby comes with a program that will show the results of any Ruby
+statements you feed it. Playing with Ruby code in interactive sessions
+like this is a terrific way to learn the language.
 
-Mở IRB (hiểu là Tương tác với Ruby).
+Open up IRB (which stands for Interactive Ruby).
 
-* Nếu bạn sử dụng **macOS**, mở `Terminal` và gõ `irb` rồi enter.
-* Nếu bạn sử dụng **Linux**, mở một shell và gõ `irb` rồi enter.
-* Nếu bạn sử dụng **Windows**, mở `Interactive Ruby` từ phần Ruby trên
-  Start Menu.
+* If you’re using **macOS** open up `Terminal` and type `irb`, then
+  hit enter.
+* If you’re using **Linux**, open up a shell and type `irb` and hit
+  enter.
+* If you’re using **Windows**, open `Interactive Ruby` from the
+  Ruby section of your Start Menu.
 
 {% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
-Rồi, nó đã mở. Giờ ta phải làm gì?
+Ok, so it’s open. Now what?
 
-Gõ: `"Xin chào thế giới"`
+Type this: `"Hello World"`
 
 {% highlight irb %}
-irb(main):001:0> "Xin chào thế giới"
-=> "Xin chào thế giới"
+irb(main):001:0> "Hello World"
+=> "Hello World"
 {% endhighlight %}
 
-## Ruby phục vụ bạn!
+## Ruby Obeyed You!
 
-Điều gì đã xảy ra vậy? Chúng ta vừa viết chương trình "Xin chào thế giới" ngắn
-nhất thế giới ư? Không phải vậy. Dòng thứ 2 chỉ là cách mà IRB nói cho ta biết
-kết quả của phép toán cuối cùng nó nhận được. Nếu muốn in ra "Xin chào thế giới"
-ta cần viết nhiều hơn:
+What just happened? Did we just write the world’s shortest “Hello World”
+program? Not exactly. The second line is just IRB’s way of telling us
+the result of the last expression it evaluated. If we want to print out
+“Hello World” we need a bit more:
 
 {% highlight irb %}
-irb(main):002:0> puts "Xin chào thế giới"
-Xin chào thế giới
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 
-`puts` là cú pháp cơ bản để in ra trong Ruby. Nhưng sau đó `=> nil` là gì? Nó là
-kết quả của phép toán. `puts` luôn trả về nil - giá trị rỗng.
+`puts` is the basic command to print something out in Ruby. But then
+what’s the `=> nil` bit? That’s the result of the expression. `puts`
+always returns nil, which is Ruby’s absolutely-positively-nothing value.
 
-## Máy tính miễn phí của bạn đây
+## Your Free Calculator is Here
 
-Rõ ràng, chúng ta có thể sử dụng IRB như một chiếc máy tính cơ bản:
+Already, we have enough to use IRB as a basic calculator:
 
 {% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
 
-Ba cộng hai. Quá dễ. Thế còn ba nhân hai thì sao? Bạn có thể gõ trực tiếp vì nó
-rất ngắn, tuy nhiên bạn có thể sẽ sửa lại những gì mình vừa nhập vào. Bấm nút
-**mũi tên lên** trên bàn phím và nó sẽ hiển thị dòng `3+2`. Nếu được, bạn có thể
-sử dụng phím mũi tên trái để di chuyển đến dấu `+` và thay nó bằng dấu `*`.
+Three plus two. Easy enough. What about three *times* two? You could
+type it in, it’s short enough, but you may also be able to go up and
+change what you just entered. Try hitting the **up-arrow** on your
+keyboard and see if it brings up the line with `3+2` on it. If it does,
+you can use the left arrow key to move just after the `+` sign and then
+use backspace to change it to a `*` sign.
 
 {% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
-Tiếp theo, hãy thử tính 3 bình phương:
+Next, let’s try three squared:
 
 {% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
 
-Trong Ruby, `**` nghĩa là "bình phương". Nhưng nếu bạn muốn tìm căn bậc hai thì
-sao?
+In Ruby `**` is the way you say “to the power of”. But what if you want
+to go the other way and find the square root of something?
 
 {% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
 
-Bạn thấy gì ở kết quả? Nếu bạn nghĩ, đó là "căn bậc hai của 9" thì bạn đã đúng.
-Nhưng hãy chú ý vào những thứ khác. Đầu tiên: `Math` là gì?
+Ok, wait, what was that last one? If you guessed, “it was figuring out
+the square root of nine,” you’re right. But let’s take a closer look at
+things. First of all, what’s `Math`?
 
-## Gộp nhóm mã module theo chủ đề
+## Modules Group Code by Topic
 
-`Math` là một module của toán học. Các module phụ vụ hai vai trò trong Ruby. Ở
-đây là một vai trò: nhóm các phương thức giống nhau lại với nhau dưới một cái
-tên tương tự. `Math` còn có các phương thức như `sin()` và `tan()`.
+`Math` is a built-in module for mathematics. Modules serve two roles in
+Ruby. This shows one role: grouping similar methods together under a
+familiar name. `Math` also contains methods like `sin()` and `tan()`.
 
-Tiếp theo là dấu chấm. Dấu chấm có tác dụng gì? Dấu chấm dùng để xác định nơi
-nhận của một câu lệnh. Câu lệnh là gì? Trong trường hợp này thì nó là `sqrt(9)`,
-nghĩa là gọi phương thức `sqrt`, viết tắt của "căn bậc hai (square root)" với
-tham số là 9.
+Next is a dot. What does the dot do? The dot is how you identify the
+receiver of a message. What’s the message? In this case it’s `sqrt(9)`,
+which means call the method `sqrt`, shorthand for “square root” with the
+parameter of `9`.
 
-Kết quả của việc gọi phương thức này là `3.0`. Chú ý rằng nó không chỉ là `3`
-bởi vì phần lớn căn bậc 2 của một số không phải là một số nguyên, do đó phương
-thức luôn trả về một số thực.
+The result of this method call is the value `3.0`. You might notice it’s
+not just `3`. That’s because most of the time the square root of a
+number won’t be an integer, so the method always returns a
+floating-point number.
 
-Nếu muốn lưu lại một vài kết quả của phép toán này, hãy gán kết quả cho một biến.
+What if we want to remember the result of some of this math? Assign the
+result to a variable.
 
 {% highlight irb %}
 irb(main):007:0> a = 3 ** 2
@@ -128,8 +137,8 @@ irb(main):009:0> Math.sqrt(a+b)
 => 5.0
 {% endhighlight %}
 
-Tuyệt vời như một chiếc máy tính, chúng ta đang vượt xa thông điệp `Xin chào
-thế giới` truyền thống mà ban đầu bài hướng dẫn giả sử...
-[Vậy chúng ta hãy quay lại nào](2/)
+As great as this is for a calculator, we’re getting away from the
+traditional `Hello World` message that beginning tutorials are supposed
+to focus on… [so let’s go back to that.](2/)
 
-[installation]: /vi/documentation/installation/
+[installation]: /en/documentation/installation/

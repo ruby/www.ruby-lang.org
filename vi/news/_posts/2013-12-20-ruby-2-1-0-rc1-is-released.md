@@ -1,23 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 2.1.0-rc1 được phát hành"
+title: "Ruby 2.1.0-rc1 is released"
 author: "nurse"
-translator: "Trung Lê"
+translator:
 date: 2013-12-20 16:53:05 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố bản Ruby 2.1.0-rc1.
-Xin giúp chúng tôi kiểm tra các công năng mới của Ruby 2.1 trước khi ấn bản cuối được phát
-hành vào 2013-12-25!
+We are pleased to announce the release of Ruby 2.1.0-rc1.
+Please test the new features in Ruby 2.1 before the final release scheduled on 2013-12-25!
 
-## Các thay đổi lớn so với preview 2
+## Notable changes since preview 2
 
-* gỡ bỏ curses [#8584](https://bugs.ruby-lang.org/issues/8584)
+* remove curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-cho các thay đổi khác, xin xem [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
+for other changes, see [NEWS](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
-## Tải về
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-rc1.tar.bz2)
   * SIZE:   11394226 bytes
@@ -32,38 +31,38 @@ cho các thay đổi khác, xin xem [NEWS](https://github.com/ruby/ruby/blob/v2_
   * MD5:    b6cdc0e63185b4aeb268bdf6ebd4de9f
   * SHA256: 4d6a256b73b79f5b64182e1f55db3e61042bbe0166a45917e69c1b4e47247276
 
-## Thay đổi từ 2.0
+## Changes since 2.0
 
-Các thay đổi lớn:
+The notable changes are:
 
 * VM (method cache)
-* RGenGC (Xem [bài thuyết trình của ko1 tại RubyKaigi](http://rubykaigi.org/2013/talk/S73) và [tại RubyConf 2013](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
+* RGenGC (See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [RubyConf 2013 presentation](http://www.atdot.net/~ko1/activities/rubyconf2013-ko1_pub.pdf))
 * refinements [#8481](https://bugs.ruby-lang.org/issues/8481) [#8571](https://bugs.ruby-lang.org/issues/8571)
-* cú pháp thay đổi
+* syntax changes
   * Rational/Complex Literal [#8430](https://bugs.ruby-lang.org/issues/8430)
-  * giá trị trả về của hàm def [#3753](https://bugs.ruby-lang.org/issues/3753)
+  * def's return value [#3753](https://bugs.ruby-lang.org/issues/3753)
 * Bignum
-  * dùng GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
+  * use GMP [#8796](https://bugs.ruby-lang.org/issues/8796)
 * String#scrub [#8414](https://bugs.ruby-lang.org/issues/8414)
 * Socket.getifaddrs [#8368](https://bugs.ruby-lang.org/issues/8368)
-* RDoc 4.1.0 và RubyGems 2.2.0
-* "literal".freeze đã dược tối ưu hoá [#9042](https://bugs.ruby-lang.org/issues/9042)
-* thêm Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
-* cập nhật thư viện như BigDecimal, JSON, NKF, Rake, RubyGems, và RDoc
-* gỡ bỏ curses [#8584](https://bugs.ruby-lang.org/issues/8584)
+* RDoc 4.1.0 and RubyGems 2.2.0
+* "literal".freeze is now optimized [#9042](https://bugs.ruby-lang.org/issues/9042)
+* add Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
+* update libraries like BigDecimal, JSON, NKF, Rake, RubyGems, and RDoc
+* remove curses [#8584](https://bugs.ruby-lang.org/issues/8584)
 
-Xem thêm chi tiết tại: [NEWS trong Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
+See more details of changes: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_1_0_rc1/NEWS).
 
-ko1 nói về các công năng mới của Ruby 2.1 tại toruby: [Tất cả về Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
+ko1 talked about the new features of Ruby 2.1 at toruby: [All about Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
 
-Konstantin Haase (@konstantinhaase) tóm tắt trên trang blog của anh: [Có gì mới trong Ruby 2.1?](http://rkh.im/ruby-2.1).
+Konstantin Haase (@konstantinhaase) wrote a good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
 
-## Chú thích
+## Release Comment
 
-Các vấn đề được biết:
+Known issues are:
 
 <https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102>
 
-Và xem luôn lịch phát hành và các thông tin khác tại:
+See also the release schedule and other information:
 
 <https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210>

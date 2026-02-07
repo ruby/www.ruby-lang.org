@@ -1,24 +1,25 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.1.9"
+title: "Ruby 2.1.9 Released"
 author: "usa"
-translator: "Cẩm Huỳnh"
+translator:
 date: 2016-03-30 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.9 đã được chính thức phát hành.
+Ruby 2.1.9 has been released.
 
-Bản phát hành này bao gồm nhiều vá lỗi.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
-để biết thêm chi tiết.
+This release includes many bug fixes.
+See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+for details.
 
-[Như đã được thông báo trước đó](https://www.ruby-lang.org/vi/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành thông thường cuối cùng của series 2.1.
-Sau bản phát hành này, chúng tôi sẽ không còn hỗ trợ bất kì lỗi nào cho 2.1 ngoại trừ lỗi bảo mật. Chúng tôi khuyến khích bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.3 hoặc 2.2.
+[As announced before](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), this is the last normal release of the Ruby 2.1 series.
+After this release we will never backport any bug fixes to 2.1 except security fixes.
+We recommend that you start planning to upgrade to Ruby 2.3 or 2.2.
 
-Đồng thời, chúng tôi dự định sẽ tung ra bản 2.1.10 trong vòng ít ngày tới.
-Ruby 2.1.10 sẽ không có bất kì sự thay đổi nào so với 2.1.9 ngoại trừ con số phiên bản.
-Bạn không cần phải sử dụng nó cho production, nhưng bạn nên thử nghiệm nó bởi vì số phiên bản của nó có hai chữ số.
+By the way, we are planning to release Ruby 2.1.10 in a few days.
+Ruby 2.1.10 will not include any changes from 2.1.9, except for its version number.
+You do not have to use it on production, but you should test it because it has a two-digit version number.
 
 ## Download
 
@@ -50,8 +51,8 @@ Bạn không cần phải sử dụng nó cho production, nhưng bạn nên th�
       SHA256: 8610fdb1836d493c19600cfed4828083f85197096c0aea3f73fa1ed532cbb5a7
       SHA512: a212b6a58637f6bf4f456d7ecc7bbd8ceaa0c3f16cb844b872eb62eaf261b5874fdb79705241d05a356fcdc1d3fdd8a94fcd8e6ca62190e9f544c8f45a9f41af
 
-## Chú thích phát hành
+## Release Comment
 
-Cảm ơn tất cả mọi người đã đóng góp vào bản phát hành này.
+Thanks to everyone who helped with this release.
 
-Sự bảo trì của Ruby 2.1, bao gồm bản phát hành này, được dựa trên "Agreement for the Ruby stable version" của [Ruby Association](http://www.ruby.or.jp/).
+The maintenance of Ruby 2.1, including this release, is based on the "Agreement for the Ruby stable version" of the [Ruby Association](http://www.ruby.or.jp/).

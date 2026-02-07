@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ra mắt Ruby 2.4.1"
+title: "Ruby 2.4.1 Released"
 author: "naruse"
-translator: "Trung Lê"
+translator:
 date: 2017-03-22 03:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản Ruby 2.4.1.
-Đấy là bản TEENY đầu tiên của chuỗi ấn bản ổn định 2.4.
+We are pleased to announce the release of Ruby 2.4.1.
+This is the first TEENY version release of the stable 2.4 series.
 
-Xem [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1)
-để biết thêm chi tiết.
+See [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1)
+for details.
 
 ## Download
 
@@ -43,7 +43,8 @@ Xem [commit logs](https://github.com/ruby/ruby/compare/v2_4_0...v2_4_1)
       SHA256: f98a3b50439ffdd270f9ae86d99ff0be431c81b85215c9aafac942ef40b89cbf
       SHA512: 4dc8991a5f8751a5853798b2e438eb3879c959a02517aa4d0efa045412e47ba7036679fd4c6797249a502f0bfac9ef43740f7bff29b017d10e0b3f51d63f161f
 
-## Chú thích
+## Release Comment
 
-Cảm ơn tất cả committer, lập trình viên và người dùng đã góp phần
-giúp ấn bản lần này.
+Many committers, developers, and users who provided bug reports helped
+us to make this release.
+Thanks for their contributions.

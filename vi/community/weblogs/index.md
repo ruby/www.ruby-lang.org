@@ -1,45 +1,58 @@
 ---
 layout: page
-title: "Nhật ký web"
+title: "Blogs and Newsletters"
 lang: vi
 ---
 
-Các blog về Ruby đã phát triển qua nhiều năm và
-bạn có thể tìm đươc hàng trăm blog chia sẻ code Ruby,
-giới thiệu về các kỹ thuật mới, hoặc dự đoán về tương lai của Ruby.
+Ruby blogs and newsletters have exploded over the past years and given
+sufficient hunting, you can unearth hundreds of blogs sharing bits of
+Ruby code, describing new techniques, or speculating on Ruby’s future.
 {: .summary}
 
-### Các blog ghi chú
+### Newsletters
 
-Một vài trang blog nổi bật về sự nhanh chóng và tần số cập nhật các bài viết.
+* [**Ruby Weekly**][ruby-weekly]: A newsletter that curates the most interesting Ruby articles and news each week.
+* [**Short Ruby Newsletter**][short-ruby-newsletter]: A weekly summary of the articles, discussions, and news from the Ruby community.
 
-* [**O’Reilly Ruby**][8] là một blog của nhóm tập trung vào các bài hướng dẫn về Ruby
-  và các bài phỏng vấn thú vị đến từ khắp nơi trong cộng đồng Ruby.
-* [**Riding Rails**][9] là trang blog chính thức của nhóm.
-  Nếu bạn đang học Rails, thì bạn cần xem qua blog này vì thường xuyên có các cập nhật về
-  an toàn bảo mật cũng như cái nhìn tổng thể về cộng đồng Rails.
-* [**Ruby Inside**][10] Cập nhật các ứng dụng thú vị và các thư viện từ khắp thế giới,
-  dành cho cả Ruby và Rails.
-* [**Matz’ Blog**][11] là một blog tiếng Nhật được viết bởi cha đẻ của Ruby.
-  Thậm chí nếu như bạn không biết tiếng Nhật thì cũng biết được rằng là ông ấy đang ở đó!
+### Mining for Ruby Blogs
 
-### Phổ biến từ khóa
+* [**RubyFlow**][rubyflow], “the Ruby and Rails community linklog”,
+  is a Ruby news site with links to libraries, blog posts, tutorials,
+  and other Ruby resources.
+* [**Rubyland**][rubyland] aggregates news and blog posts about Ruby
+  from RSS feeds.
 
-Ngoài ra bạn cũng có thể liên hệ với
-các blog trên nếu bạn đang theo dõi một chủ đề nào đó mà họ cũng đang quan tâm.
-(Tất nhiên, nếu chủ đề đó không liên quan đến Rails thì nhóm *Riding Rails*
-có lẽ sẽ không quan tâm lắm —nhưng biết đâu đấy.)
+### Blogs of Note
 
-Ruby cũng là một chủ đề phổ biến trên [Slashdot][14], [reddit][15],
-và [Hacker News][16], trong các chương trình tin tức tương ứng của họ.
-Nếu như bạn tìm được một số đoạn mã hay trên mạng, hãy nói cho họ biết về nó!
+A few notable blogs stand out for the frequency and immediacy of their
+updates.
+
+* [**DEV Ruby Tag**][dev-ruby-tag] is the collection of all posts
+  tagged Ruby within the DEV Community. DEV is a network of thousands
+  of software developers who blog about and discuss code.
+* [**Ruby on Rails Blog**][ruby-on-rails-blog] is the official group blog of the
+  Ruby on Rails team. If you are running Rails, this blog is essential
+  for notification of security updates and an overall view of the wide
+  Rails community.
+* [**Rails at Scale**][rails-at-scale] contains posts discussing much
+  of the recent work being done to advance both Ruby and Rails.
+
+### Spreading the Word
+
+If you're interested in writing for any of the above blogs, you should
+contact the authors.
+
+Ruby is also a common topic on [reddit][reddit] and [Hacker News][hn],
+in their respective programming news. If you find some brilliant code
+out there, be sure to share!
 
 
-
-[8]: http://oreillynet.com/ruby/
-[9]: http://weblog.rubyonrails.org/
-[10]: http://www.rubyinside.com/
-[11]: http://www.rubyist.net/~matz/
-[14]: http://developers.slashdot.org/
-[15]: http://www.reddit.com/r/ruby
-[16]: http://news.ycombinator.com/
+[rubyflow]: http://www.rubyflow.com/
+[rubyland]: http://rubyland.news/
+[ruby-weekly]: https://rubyweekly.com/
+[dev-ruby-tag]: https://dev.to/t/ruby
+[ruby-on-rails-blog]: https://rubyonrails.org/blog/
+[reddit]: http://www.reddit.com/r/ruby
+[hn]: http://news.ycombinator.com/
+[short-ruby-newsletter]: https://newsletter.shortruby.com/
+[rails-at-scale]: https://railsatscale.com/

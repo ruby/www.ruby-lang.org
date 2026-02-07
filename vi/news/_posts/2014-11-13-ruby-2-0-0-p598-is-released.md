@@ -1,28 +1,29 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.0.0-p598"
+title: "Ruby 2.0.0-p598 Released"
 author: "usa"
-translator: "Victor Tran"
+translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi rất vui mừng ra mắt phiên bản Ruby 2.0.0-p598.
+We are pleased to announce the release of Ruby 2.0.0-p598.
 
-Phiên bản này bao gồm bản vá lỗ hổng bảo mật từ chối dịch vụ REXML.
-Tương tự như
-[lỗ hổng đã được vá](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-0-0-p594-is-released/),
-nhưng phiên bản này giải quyết vấn đề thực thể giãn nở.
-Các bạn có thể xem thêm chi tiết ở chủ đề bên dưới.
+This release includes a security fix for a DoS vulnerability of REXML.
+It is similar to the
+[fixed vulnerability](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+in the [previous release](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/),
+but this handles another case for entity expansion.
+Please view the topic below for more details.
 
-* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
-Một số lỗi khác cũng đã được sửa.
-Xem thêm chi tiết trong [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog).
+And, some bug fixes are also included.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+for details.
 
-## Tải về
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.bz2)
 
@@ -52,7 +53,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog).
       SHA256: d5bdafd7b0fbd4254902ba10385c6e5812beac4ad221805aa4d92a37eff47f97
       SHA512: 6cdaf7f2d27a5f0ead9b94325b9c9fe90cf04c64dedaea8e1d45a8855a73ad61c5c72f1fda835eab73693c25c15a74c7e4e639ed5c18a9433dd79e398600b3ea
 
-## Ý kiến cho phiên bản này
+## Release Comment
 
-Xin lỗi nếu sự ra mắt các phiên bản một cách thường xuyên gây ra bất tiện cho các bạn.
-Cảm ơn tất cả mọi người đã đóng góp công sức để ra mắt phiên bản này.
+Sorry for the inconvenience of releasing frequently.
+Thanks to everyone who helped with the release.

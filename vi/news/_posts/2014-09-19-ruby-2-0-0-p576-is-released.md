@@ -1,24 +1,23 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.0.0-p576"
+title: "Ruby 2.0.0-p576 Released"
 author: "usa"
-translator: "Vinh Nguyễn"
+translator:
 date: 2014-09-19 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo phát hành Ruby 2.0.0-p576 để chào mừng
-việc tổ chức [RubyKaigi2014](http://rubykaigi.org/2014) tại Nhật Bản.
+We are pleased to announce the release of Ruby 2.0.0-p576, to celebrate the
+holding of [RubyKaigi2014](http://rubykaigi.org/2014) in Japan now.
 
-Lần phát hành này bao gồm nhiều bản sửa lỗi, chẳng hạn như:
+This release includes many bugfixes, such as:
 
-* các bản sửa lỗi về rò rỉ bộ nhớ (memory leaks) và sử dụng nhiều bộ nhớ (extra memory),
-* các bản sửa lỗi đi sâu vào nền tảng (platform-specific issue) - đặc biệt
-  là trong quá trình xây dựng (build process),
-* sửa các lỗi về tài liệu.
+* many fixes of memory leaks and using extra memory,
+* many fixes of platform-specific issues (especially in build process),
+* many documentation fixes.
 
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) để biết thêm chi tiết.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) for details.
 
 ## Download
 
@@ -50,6 +49,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) 
       SHA256: cb0166d9afb0126612dff10d15848483984df4900c1b34cd053b1be6893ea38b
       SHA512: adce5f044283e97fccbc80c770f999d20e366f7ee8e13782ca71490b5a16198ae0cdbc6df7419f085e2f7adea30552704141d37496cefcb9b147802b55d3ff82
 
-## Chú thích về lần phát hành:
+## Release Comment
 
-Cảm ơn sự hỗ trợ về Ruby của mọi người.
+I'm grateful to everybody who supports Ruby.
+Thank you.

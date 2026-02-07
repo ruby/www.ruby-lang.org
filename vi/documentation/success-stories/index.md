@@ -1,63 +1,68 @@
 ---
 layout: page
-title: "Những câu chuyện về thành công"
+title: "Success Stories"
 lang: vi
 ---
 
-Nhiều người sử dụng vào những công việc chính hàng ngày. Một số chỉ coi
-nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những ví dụ về
-ứng dụng Ruby trên thế giới.
+Many people use Ruby in their daily jobs. Others just as a hobby. Here
+you’ll find a small sample of real world usage of Ruby.
 {: .summary}
 
-#### Giả lập
+#### Simulations
 
-* [NASA Langley Research Center][1] sử dụng Ruby để giả lập các nghiên cứu.
+* [NASA Langley Research Center][1] uses Ruby to conduct simulations.
 
-* Một nhóm nghiên cứu trong [Motorola][2] sử dụng Ruby để script một trình giả
-  lập để tạo ra những giả lập và để xử lý thông tin sau đấy.
+* A research group in [Motorola][2] uses Ruby to script a simulator,
+  both to generate scenarios and to post process the data.
 
-#### Mô phỏng 3D
+#### 3D Modeling
 
-* [Google SketchUp][3] là một ứng dụng mô phỏng 3D dùng Ruby làm ngôn ngữ scripting
-  để tương tác với API của lõi.
+* [Google SketchUp][3] is a 3D modeling application that uses Ruby for
+  its macro scripting API.
 
-#### Kinh doanh
+#### Business
 
-* [Toronto Rehab][4] sử dụng một trình dựa trên RubyWebDialogs để quản lý hỗ trợ
-  khách hàng qua điện thoại hoặc ngay tại văn phòng cho các đội IT help desk và IT
-  operation.
+* [Toronto Rehab][4] uses a RubyWebDialogs-based app to manage and track
+  on-call and on-site support for the IT help desk and IT operations
+  teams.
 
 #### Robotics
 
-* Dự án MORPHA dùng Ruby để triển khai phần tương tác phản hồi của cho rô-bô dịch vụ của Siemens.
+* At MORPHA project, Ruby was used to implement the reactive
+  control part for the Siemens service robot.
 
-#### Viễn thông
+#### Telephony
 
-* Ruby được sử dụng bên trong Lucent để phát triển các sản phảm viễn thông 3G.
+* Ruby is being used within Lucent on a 3G wireless telephony
+  product.
 
-#### Quản lý hệ thống
+#### System Administration
 
-* Ruby được dùng để viết phần thu thập thông tin trung ương của hệ thống [Level 3
-  Communications][8] Unix Capacity and Planning; thu thập các thống kê
-  về hiệu suất của trên 1700 Unix (Solaris và Linux) server rải khắp thế giới.
+* Ruby was used to write the central data collection portion of [Level 3
+  Communications][8] Unix Capacity and Planning system that gathers
+  performance statistics from over 1700 Unix (Solaris and Linux) servers
+  scattered around the globe.
 
-#### Ứng dụng Web
+#### Web Applications
 
-* [Basecamp][9], là trình quản lý dự án trên nền web được phát triển bởi
-  [37signals][10], hoàn toàn với ngôn ngữ Ruby.
+* [Basecamp][9], a web-based project management application, is programmed entirely in Ruby.
 
-* [A List Apart][11], tạp chí cho ai thích tạo website, ra đời năm 1997, mới
-  cải tiến site của họ bằng một ứng dụng riêng xây dựng với Ruby on Rails.
+* [A List Apart][10], a magazine for people who make websites that has
+  been around since 1997, has recently been revamped and uses a custom
+  application built with Ruby on Rails.
 
-#### Bảo mật
+#### Security
 
-* [Metasploit Framework][metasploit], một dự án mã nguồn mỡ quản lý bởi
-  [Rapid7][rapid7], là một nền tảng thử nghiệm các tấn công bảo mật
-  giúp các chuyên gia kiểm định bảo mật của mạng hay ứng dụng.
-  Dự án Metasploit bao gồm trên 700,000 dòng mã và được download
-  trên một triệu lần trong năm 2010.
-  Phiên bản thương mại Metasploit Express và Metasploit Pro
-  do Rapid7 phát triển cũng dựa trên Ruby.
+* The [Metasploit Framework][metasploit], a community open source project
+  managed by [Rapid7][rapid7], is a free penetration testing platform that
+  helps IT professionals assess the security of their networks and
+  applications. The Metasploit Project consists of over 700,000 lines of
+  code and has been downloaded over a million times in 2010.
+  The commercial editions developed by Rapid7 are also based on Ruby.
+
+* The [Arachni Web Application Security Scanner][arachni] is a free, modular,
+  high-performance Ruby framework aimed towards helping penetration testers
+  and administrators evaluate the security of modern web applications.
 
 
 
@@ -66,8 +71,9 @@ nó như thứ tiêu khiển. Trong trang này, bạn sẽ tìm thấy những v
 [3]: http://www.sketchup.com/
 [4]: https://www.uhn.ca/TorontoRehab
 [8]: http://www.level3.com/
-[9]: http://www.basecamphq.com
-[10]: http://www.37signals.com
-[11]: http://www.alistapart.com
+[9]: https://www.basecamp.com
+[10]: http://www.alistapart.com
+
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
+[arachni]: http://www.arachni-scanner.com/

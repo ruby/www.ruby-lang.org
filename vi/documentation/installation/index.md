@@ -1,276 +1,396 @@
 ---
 layout: page
-title: "Cài đặt Ruby"
+title: "Installing Ruby"
 lang: vi
 ---
 
-Bạn có thể cài đặt Ruby bằng nhiều công cụ khác nhau.
-Bài viết này hướng dẫn sử dụng các hệ thống quản lý gói
-và các công cụ của bên thứ 3 để quản lý, cài đặt Ruby
-và cách biên dịch Ruby từ mã nguồn.
+With package managers or third-party tools, you have plenty of options
+to install and manage Ruby.
 {: .summary}
 
+You may already have Ruby installed on your computer. You can check
+inside a [terminal emulator][terminal] by typing:
 
-## Chọn phương thức cài đặt của bạn
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
 
-Bạn có thể cài đặt Ruby bằng một trong những cách sau:
+This should output some information on the installed Ruby version.
 
-* Nếu bạn đang dùng hệ điều hành giống UNIX, sử dụng
-  **trình quản lý gói** sẵn có là cách dễ nhất.
-  Tuy nhiên, phiên bản Ruby được đóng gói thường không phải là bản mới nhất.
-* **Installer** có thể được sử dụng để cài đặt một hoặc một số
-  phiên bản Ruby. Installer cũng có sẵn trên Windows.
-* **Trình quản lý** giúp bạn chuyển đổi giữa các bản cài đặt Ruby
-  trên hệ điều hành của bạn.
-* Và cuối cùng, bạn cũng có thể **biên dịch Ruby từ mã nguồn**.
+## Choose Your Installation Method
 
-Tổng quan các phương thức cài đặt có sẵn
-theo nhu cầu và nền tảng khác nhau.
+There are several ways to install Ruby:
 
-* [Hệ thống quản lý gói](#package-management-systems)
+* On a UNIX-like operating system, using your system's
+  **package manager** is easiest.
+  However, the packaged Ruby version may not be the newest one.
+* **Installers** can be used to install a specific or multiple
+  Ruby versions. There is also an installer for Windows.
+* **Managers** help you to switch between multiple Ruby versions
+  on your system.
+* Finally, you can also **build Ruby from source**.
+
+On Windows 10, you can also use the [Windows Subsystem for Linux][wsl]
+to install one of the supported Linux distributions and use any of the
+installation methods available on that system.
+
+Here are available installation methods:
+
+* [Package Management Systems](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
-  * [Solaris, OpenIndiana](#solaris)
-  * [Các bản phân phối khác](#other-systems)
+  * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
+  * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
+  * [Chocolatey package manager for Windows](#chocolatey)
+  * [Other Distributions](#other-systems)
 * [Installers](#installers)
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller và Ruby Stack](#railsinstaller)
-* [Trình quản lý](#managers)
+  * [Ruby Stack](#rubystack)
+* [Managers](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
+  * [mise-en-place](#mise-en-place)
   * [rbenv](#rbenv)
+  * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
   * [uru](#uru)
-* [Biên dịch từ mã nguồn](#building-from-source)
+* [Building from source](#building-from-source)
 
 
-## Hệ thống quản lý gói
+## Package Management Systems
 {: #package-management-systems}
 
-Nếu bạn không thể tự biên dịch Ruby và bạn không muốn sử dụng một
-công cụ của bên thứ ba, bạn có thể sử dụng trình quản lý gói
-của hệ điều hành để cài đặt Ruby.
+If you cannot compile your own Ruby, and you do not want to use a
+third-party tool, you can use your system's package manager to install Ruby.
 
-Một số thành viên trong cộng đồng Ruby khuyên rằng bạn không nên sử dụng
-một trình quản lý gói để cài đặt Ruby mà bạn nên sử dụng các công cụ
-thay thế khác. Trong khi danh sách đầy đủ các ưu, nhược điểm nằm ngoài phạm vi
-của trang này thì lý do cơ bản nhất là hầu hết các trình quản lý gói có chứa các
-phiên bản cũ của Ruby trong repository chính thức. Nếu bạn muốn sử dụng phiên
-bản Ruby mới nhất, hãy chắc chắn rằng bạn sử dụng tên gói đúng,
-hoặc sử dụng các công cụ được mô tả chi tiết ở dưới đây để thay thế.
+Some members of the Ruby community feel that you should avoid package
+managers to install Ruby and that you should use dedicated tools instead.
+
+It is possible that major package managers will install older Ruby
+versions instead of the latest release. To use the latest Ruby release,
+check that the package name matches its version number. Or use a
+dedicated [installer][installers].
 
 
-### apt (Debian và Ubuntu)
+### apt (Debian or Ubuntu)
 {: #apt}
 
-Debian GNU/Linux và Ubuntu sử dụng trình quản lý gói apt.
-Bạn có thể sử dụng như sau:
+Debian GNU/Linux and Ubuntu use the apt package manager. You can use it
+like this:
 
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-`ruby-full` ở lệnh trên cung cấp Ruby 2.3.1, một bản phân phối ổn định cũ,
-trên Debian và Ubuntu.
 
-
-### yum (CentOS, Fedora, và RHEL)
+### yum (CentOS, Fedora, or RHEL)
 {: #yum}
 
-CentOS, Fedora, và RHEL sử dụng trình quản lý gói yum.
-Bạn có thể sử dụng như sau:
+CentOS, Fedora, and RHEL use the yum package manager.
+You can use it like this:
 
 {% highlight sh %}
 $ sudo yum install ruby
 {% endhighlight %}
 
-Phiên bản được cài đặt thường là phiên bản mới nhất của Ruby ở thời gian
-phát hành bản phân phối của hệ điều hành đó.
+The installed version is typically the latest version of Ruby available
+at the release time of the specific distribution version.
+
+
+### snap (Ubuntu or other Linux distributions)
+{: #snap}
+
+Snap is a package manager developed by Canonical.
+It is available out-of-the-box on Ubuntu, but snap also works
+on many other Linux distributions.
+You can use it like this:
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+We have several channels per Ruby minor series.
+For instance, the following commands switch to Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 
 ### portage (Gentoo)
 {: #portage}
 
-Gentoo sử dụng trình quản lý gói portage.
+Gentoo uses the portage package manager.
 
 {% highlight sh %}
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-Mặc định, lệnh trên sẽ cài đặt các phiên bản 1.9 và 2.0,
-nhưng các phiên bản khác cũng có sẵn.
-Để cài đặt một phiên bản nhất định, đặt giá trị cho `RUBY_TARGETS`
-trong `make.conf`.
-Xem chi tiết tại [Gentoo Ruby Project website][gentoo-ruby]
+To install a specific version, set `RUBY_TARGETS` in your `make.conf`.
+See the [Gentoo Ruby Project website][gentoo-ruby] for details.
 
 
 ### pacman (Arch Linux)
 {: #pacman}
 
-Arch Linux sử dụng trình quản lý gói pacman.
-Bạn có thể sử dụng như sau:
+Arch Linux uses a package manager named pacman.
+To get Ruby, just do this:
 
 {% highlight sh %}
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-Lệnh trên sẽ cài đặt phiên bản ổn định mới nhất của Ruby.
+This should install the latest stable Ruby version.
 
 
 ### Homebrew (macOS)
 {: #homebrew}
 
-Trên Yosemite và Mavericks, Ruby 2.0 có sẵn trong homebrew
-Đối với OS X Mountain Lion, Lion, và Snow Leopard thì là Ruby 1.8.7.
+Ruby versions 2.0 and above are included by default in macOS releases
+since at least El Capitan (10.11).
 
-Nhiều người sử dụng [Homebrew][homebrew] trên macOS như một trình quản lý gói.
-Rất dễ để cài đặt phiên bản mới nhất của Ruby bằng Homebrew:
+[Homebrew][homebrew] is a commonly used package manager on macOS.
+Installing Ruby using Homebrew is easy:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-Lệnh trên sẽ cài đặt phiên bản mới nhất của Ruby.
+This should install the latest Ruby version.
 
 
-### Ruby trên Solaris và OpenIndiana
-{: #solaris}
+### FreeBSD
+{: #freebsd}
 
-Ruby 1.8.7 có sẵn từ Solaris 8 đến Solaris 10 trên
-[Sunfreeware][sunfreeware] và Ruby 1.8.7 có sẵn ở
-Blastwave.
-Ruby 1.9.2p0 cũng có sẵn tại [Sunfreeware][sunfreeware],
-nhưng đây là phiên bản đã lỗi thời.
-
-Để cài đặt Ruby trên [OpenIndiana][openindiana], vui lòng sử dụng
-[Image Packaging System (IPS)][opensolaris-pkg] client.
-Nó sẽ cài đặt các gói nhị phân mới nhất của Ruby và RubyGems trực tiếp
-từ repository của OpenSolaris cho Ruby 1.9. Thật dễ dàng:
+FreeBSD offers both pre-packaged and source-based methods to install Ruby.
+Prebuilt packages can be installed via the pkg tool:
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install ruby
 {% endhighlight %}
 
-Tuy nhiên, các công cụ của bên thứ ba cũng là một cách tốt để có được
-phiên bản mới nhất của Ruby.
+A source-based method can be used to install Ruby using the
+[Ports Collection][freebsd-ports-collection]. This is useful if you want
+to customize the build configuration options.
+
+More information about Ruby and its surrounding ecosystem on FreeBSD
+can be found on the [FreeBSD Ruby Project website][freebsd-ruby].
 
 
-### Các bản phân phối khác
+### OpenBSD
+{: #openbsd}
+
+OpenBSD as well as its distribution adJ has packages for the three
+major versions of Ruby. The following command allows you to see the
+available versions and to install one:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+You can install multiple major versions side by side, because their
+binaries have different names (e.g. `ruby27`, `ruby26`).
+
+The `HEAD` branch of the OpenBSD ports collection might have the
+most recent version of Ruby for this platform some days after it
+is released, see
+[directory lang/ruby in the most recent ports collection][openbsd-current-ruby-ports].
+
+
+### Ruby on OpenIndiana
+{: #openindiana}
+
+To install Ruby on [OpenIndiana][openindiana], please use the
+Image Packaging System (IPS) client.
+This will install the Ruby binaries and RubyGems directly
+from the OpenIndiana repositories. It’s easy:
+
+{% highlight sh %}
+$ pkg install runtime/ruby
+{% endhighlight %}
+
+However, the third-party tools might be a good way to obtain the
+latest version of Ruby.
+
+### Windows Package Manager
+{: #winget}
+
+On Windows, you can use the [Windows Package Manager CLI](https://github.com/microsoft/winget-cli)
+to install Ruby:
+
+{% highlight powershell %}
+> winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+# Example
+> winget install RubyInstallerTeam.Ruby.3.2
+# To see all versions available
+> winget search RubyInstallerTeam.Ruby
+# Note: if you are installing ruby for projects, you may want to install RubyWithDevKit
+> winget install RubyInstallerTeam.RubyWithDevKit.3.2
+{% endhighlight %}
+
+### Chocolatey package manager for Windows
+{: #chocolatey}
+
+Also on Windows, you can use the [Chocolatey Package Manager](https://chocolatey.org/install)
+to install Ruby:
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+It will reuse existing `msys2`, or install own for complete Ruby development environment
+
+### Other Distributions
 {: #other-systems}
 
-Trên các hệ điều hành khác, bạn có thể tìm các gói bằng trình quản lý có sẵn
-hoặc các công cụ của bên thứ ba.
+On other systems, you can search the package repository of your Linux
+distribution's manager for Ruby. Alternatively, you can use a
+[third-party installer][installers].
 
 
 ## Installers
 {: #installers}
 
-Nếu phiên bản của Ruby được cung cấp bởi hệ điều hành hoặc trình quản lý
-bị lỗi thời, bạn có thể sử dụng một installer của bên thứ ba để cài đặt
-phiên bản mới nhất.
-Một số installer cho phép bạn có thể cài đặt nhiều phiên bản Ruby trên cùng
-hệ điều hành; các trình quản lý đi kèm có thể giúp bạn chuyển đổi giữa
-các phiên bản Ruby khác nhau.
-Nếu bạn đang có ý định sử dụng [RVM](#rvm) như một trình quản lý phiên bản
-thì bạn không cần thêm installer nữa vì RVM đã có một installer riêng.
+If the version of Ruby provided by your system or package manager is out
+of date, a newer one can be installed using a third-party installer.
+
+Some installers allow you to install multiple versions on the same
+system; associated managers can help to switch between the different
+Rubies.
+
+If you are planning to use [RVM](#rvm) as a version manager you don't
+need a separate installer, it comes with its own.
 
 
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build] là một plugin cho [rbenv](#rbenv)
-cho phép bạn có thể biên dịch và cài đặt các phiên bản khác nhau của Ruby
-trong các thư mục tuỳ ý.
-ruby-build có thể được sử dụng như một chương trình độc lập mà không cần rbenv.
-Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
+[ruby-build][ruby-build] is a plugin for [rbenv](#rbenv) that allows you
+to compile and install different versions of Ruby. ruby-build can also
+be used as a standalone program without rbenv. It is available for macOS,
+Linux, and other UNIX-like operating systems.
 
 
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] cho phép bạn biên dịch và cài đặt các
-phiên bản khác nhau của Ruby trong các thư mục tuỳ ý.
-Người anh em của nó là [chruby](#chruby), dùng để chuyển đổi giữa các
-phiên bản Ruby.
-Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
+[ruby-install][ruby-install] allows you to compile and install different
+versions of Ruby into arbitrary directories. [chruby](#chruby) is a
+complimentary tool used to switch between Ruby versions. It is available
+for macOS, Linux, and other UNIX-like operating systems.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-Nếu bạn đang sử dụng Windows, có một dự án tuyệt vời giúp bạn cài đặt Ruby:
-[RubyInstaller][rubyinstaller]. Nó cung cấp cho bạn mọi thứ cần thiết để cài
-đặt một môi trường phát triển đầy đủ trên Windows.
+On Windows, [RubyInstaller][rubyinstaller] gives you everything you need
+to set up a full Ruby development environment.
 
-Chỉ việc tải xuống và chạy là xong!
-
-
-### RailsInstaller và Ruby Stack
-{: #railsinstaller}
-
-Nếu bạn đang cài đặt Ruby để sử dụng Ruby on Rails,
-bạn có thể sử dụng các installers sau đây:
-
-* [RailsInstaller][railsinstaller],
-  sử dụng RubyInstaller nhưng cung cấp cho bạn
-  thêm nhiều công cụ trợ giúp để phát triển Rails.
-  Có sẵn trên OS X và Windows.
-* [Bitnami Ruby Stack][rubystack],
-  cung cấp một môi trường phát triển hoàn chỉnh cho Rails.
-  Có sẵn trên macOS, Linux, Windows, các máy ảo và các cloud image.
+Just download it, run it, and you are done!
 
 
-## Trình quản lý
+### Ruby Stack
+{: #rubystack}
+
+If you are installing Ruby in order to use Ruby on Rails,
+you can use the following installer:
+
+* [Bitnami Ruby Stack][rubystack] provides a complete development
+  environment for Rails. It supports macOS, Linux, Windows, virtual
+  machines, and cloud images.
+
+
+## Managers
 {: #managers}
 
-Nhiều Rubyist sử dụng các trình quản lý Ruby để quản lý các phiên bản Ruby.
-Mặc dù, chúng có nhiều điểm mạnh nhưng lại không được hỗ trợ chính thức.
-Tuy nhiên, các cộng đồng của họ cũng rất hữu ích.
+Many Rubyists use Ruby managers to manage multiple Rubies. They allow
+easy or even automatic switching between Ruby versions depending on the
+project and other advantages but are not officially supported. You can
+however find support within their respective communities.
+
+
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] is an extendable version manager that can manage multiple
+language runtime versions on a per-project basis. You will need the
+[asdf-ruby][asdf-ruby] plugin (which in turn uses [ruby-build](#ruby-build))
+to install Ruby.
 
 
 ### chruby
 {: #chruby}
 
-[chruby][chruby] cho phép bạn chuyển đổi giữa các phiên bản Ruby.
-chruby có thể quản lý các phiên bản Ruby được cài đặt bằng
-[ruby-install](#ruby-install)
-hoặc thậm chí là các phiên bản được biên dịch từ mã nguồn.
+[chruby][chruby] allows you to switch between multiple Rubies. It can
+manage Rubies installed by [ruby-install](#ruby-install) or even built
+from source.
+
+
+### mise-en-place
+{: #mise-en-place}
+
+[mise-en-place][mise-en-place] allows you to switch between multiple Rubies without requiring additional tools.
+It manages installations automatically and includes a [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) to manage versions of CLIs written in Ruby.
+It supports UNIX-like and Windows operating systems.
 
 
 ### rbenv
 {: #rbenv}
 
-[rbenv][rbenv] cho phép bạn quản lý nhiều bản cài đặt của Ruby.
-Nó không hỗ trợ cài đặt Ruby, nhưng bạn có thể dùng plugin
-[ruby-build](#ruby-build) để cài đặt Ruby.
-Cả hai công cụ trên đều có sẵn trên macOS, Linux,
-và các hệ điều hành giống UNIX khác.
+[rbenv][rbenv] allows you to manage multiple installations of Ruby.
+While it can't install Ruby by default, its [ruby-build](#ruby-build)
+plugin can. Both tools are available for macOS, Linux, or other
+UNIX-like operating systems.
+
+
+### rbenv for Windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows] allows you to install and
+manage multiple installations of Ruby on Windows. It's written in
+PowerShell thus providing a native way to use Ruby for Windows users.
+Besides, the command line interface is compatible with [rbenv][rbenv]
+on UNIX-like systems.
 
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-[RVM][rvm] cho phép bạn cài đặt và quản lý nhiều bản cài đặt của Ruby.
-Nó cũng có thể quản lý các gemset khác nhau.
-Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
+[RVM][rvm] allows you to install and manage multiple installations of
+Ruby on your system. It can also manage different gemsets. It is
+available for macOS, Linux, or other UNIX-like operating systems.
+
+
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] allows you to install and manage multiple
+installations of Ruby on Windows. It is a clone of the original RVM and
+supports the classic command line as well as Powershell by providing
+the same command line interface as the original RVM.
 
 
 ### uru
 {: #uru}
 
-[Uru][uru] là một công cụ dòng lệnh đa nền tảng, gọn nhẹ giúp bạn
-sử dụng nhiều phiên bản Ruby trên macOS, Linux, hoặc Windows.
+[Uru][uru] is a lightweight, multi-platform command line tool that helps you
+to use multiple Rubies on macOS, Linux, or Windows systems.
 
 
-## Biên dịch từ mã nguồn
+## Building from Source
 {: #building-from-source}
 
-Bạn hoàn toàn có thể cài đặt Ruby từ mã nguồn.
-[Tải về](/vi/downloads/) và giải nén tarball, sau đó:
+Of course, you can install Ruby from source.
+[Download][download] and unpack a tarball, then just do this:
 
 {% highlight sh %}
 $ ./configure
@@ -278,25 +398,38 @@ $ make
 $ sudo make install
 {% endhighlight %}
 
-Mặc định, lệnh trên sẽ cài đặt Ruby vào `/usr/local`.
-Để thay đổi, thêm lựa chọn `--prefix=DIR` vào script `./configure`.
+By default, this will install Ruby into `/usr/local`.
+To change, pass the `--prefix=DIR` option to the `./configure` script.
 
-Sử dụng các công cụ của bên thứ ba hoặc các trình quản lý gói có thể là một
-ý tưởng hay hơn, tuy nhiên, Ruby được cài đặt sẽ không được quản lý bởi
-bất kỳ công cụ nào.
+You can find more information about building from source in the
+[Building Ruby instructions][building-ruby].
+
+Using the third-party tools or package managers might be a better idea,
+though, because the installed Ruby won't be managed by any tools.
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[download]: /en/downloads/
+[installers]: /en/documentation/installation/#installers
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[mise-en-place]: https://mise.jdx.dev
+[mise-en-place-ruby]: https://mise.jdx.dev/lang/ruby.html
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD

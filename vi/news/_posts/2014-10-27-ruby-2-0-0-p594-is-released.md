@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.0.0-p594"
+title: "Ruby 2.0.0-p594 Released"
 author: "usa"
-translator: "JosNguyen"
+translator:
 date: 2014-10-27 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi xin thông báo phiên bản Ruby 2.0.0-p594.
+We are pleased to announce the release of Ruby 2.0.0-p594.
 
-Phiên bản này bao gồm bản sửa lỗi bảo mật cho lỗ hỗng DoS của REXML.
+This release includes a security fix for DoS vulnerability of REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
-Phiên bản này cũng bao gồm thay đổi thiết lập mặc định của ext/openssl.
-Các tùy chọn SSL/TLS bây giờ được vô hiệu hóa mặc định.
+This release also includes the change of default settings of ext/openssl.
+Insecure SSL/TLS options are now turned off by default.
 
-* [Changed default settings of ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Changed default settings of ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-Và cũng bao gồm nhiều lỗi đã được chỉnh sửa.
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) để xem thêm chi tiết.
+And, many bug fixes are also included.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) for details.
 
-## Tải về
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p594.tar.bz2)
 
@@ -52,7 +52,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) 
       SHA256: 38a8db127d5b241ac2090ef75e9f7941a34851d4c6b61135b88019129f9c04a3
       SHA512: 1f7d94029e5af480a0ae0ebd21129a01b0066fecd15278b272754e6e80b6a6fb1ded53fd1288e7375a17021d482a59b40414270923c2ecfb06999ea66a91fc54
 
-## Ghi chú phiên bản
+## Release Comment
 
-Tôi cám ơn tất cả mọi người đã hỗ trợ Ruby.
-Cám ơn.
+I'm grateful to everybody who supports Ruby.
+Thank you.

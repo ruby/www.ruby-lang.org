@@ -1,70 +1,82 @@
 ---
 layout: page
-title: "Đến với Ruby từ Python"
+title: "To Ruby From Python"
 lang: vi
 ---
 
-Python là một ngôn ngữ lập trình khác khá tốt. Khi chuyển từ Python qua Ruby,
-bạn sẽ học thêm một vài cú pháp.
+Python is another very nice general purpose programming language. Going
+from Python to Ruby, you’ll find that there’s a little bit more syntax
+to learn than with Python.
 
-### Điểm tương đồng
+### Similarities
 
-Giống như Python, trong Ruby,...
+As with Python, in Ruby,...
 
-* Có một dấu nhắc tương tác (được gọi là `irb`).
-* Bạn có thể đọc các doc trên cửa sổ dòng lệnh (với lệnh `ri` thay vì
-  `pydoc`).
-* Không có dòng kết thúc đặc biệt (ngoài trừ xuống dòng).
-* Các chuỗi có thể kéo dài nhiều dòng giống như chuỗi triple-quoted của
-  Python.
-* Ngoặc vuông dùng cho list, và ngoặc nhọn dùng cho dict (trong Ruby
-  được gọi là "hash").
-* Các mảng hoạt động như nhau (khi thêm vào sẽ làm tăng phần tử mảng,
-  nhưng khi kết hợp lại như `a3=[ a1, a2 ]` sẽ thành mảng trong mảng).
-* Đối tượng là kiểu dữ liệu chủ đạo.
-* Tất cả mọi thứ đều là đối tượng, và các biến chỉ tham chiếu đến đối tượng.
-* Mặc dù từ khóa có một chút khác biệt, nhưng các ngoại lệ hoạt động như
-  nhau.
-* Công cụ doc được tích hợp sẵn (trong Ruby là rdoc).
+* There’s an interactive prompt (called `irb`).
+* You can read docs on the command line (with the `ri` command instead
+  of `pydoc`).
+* There are no special line terminators (except the usual newline).
+* String literals can span multiple lines like Python’s triple-quoted
+  strings.
+* Brackets are for lists, and braces are for dicts (which, in Ruby, are
+  called “hashes”).
+* Arrays work the same (adding them makes one long array, but composing
+  them like this `a3 = [ a1, a2 ]` gives you an array of arrays).
+* Objects are strongly and dynamically typed.
+* Everything is an object, and variables are just references to objects.
+* Although the keywords are a bit different, exceptions work about the
+  same.
+* You’ve got embedded doc tools (Ruby’s is called rdoc).
+* There is good support for functional programming with first-class
+  functions, anonymous functions, and closures.
 
-### Khác biệt
+### Differences
 
-Khác với Python, trong Ruby,...
+Unlike Python, in Ruby,...
 
-* Chuỗi có thể thay đổi.
-* Bạn có thể tạo hằng số (giá trị của các biến không thay đổi).
-* Viết theo quy ước trong một số trường hợp (ví dụ tên lớp phải bắt đầu
-  bằng ký tự in hoa, các biến bắt đầu với ký tự thường).
-* Chỉ có một loại danh sách chứa (một mảng), và có thể thay đổi.
-* Các chuỗi trong dấu nháy kép cho phép chuyển đổi tuần tự (như `\t`)
-  và cú pháp "thay đổi biểu thức" đặc biệt (cho phép bạn có thể chèn
-  trực tiếp vào kết quả của biểu thức đó mà không cần phải `"gắn " +
-  "các chuỗi " + "vào nhau"`). Các chuỗi nằm trong dấu nháy đơn tương
-  tự như `r"raw strings"` của Python.
-* Không có các lớp "new style" và "old style". Chỉ có 1 loại (Python
-  3+ không có vấn đề này, nhưng nó không hoàn toàn tương thích với
-  Python 2).
-* Bạn không thể truy cập trực tiếp thuộc tính. Trong Ruby tất cả đểu
-  thông qua việc gọi phương thức.
-* Dấu ngoặc đơn khi gọi phương thức được tùy chọn.
-* Có các truy cập `public`, `private`, và `protected` thay vì
-  gạch dưới `_voluntary_` `__convention__` trong Python.
-* “mixins” được sử dụng thay cho đa kế thừa.
-* Bạn có thể chỉnh sửa các phương thức trong lớp được xây dựng sẵn. Cả
-  hai ngôn ngữ đều là mã nguồn mở và bạn có thể chỉnh sửa các lớp ở bất
-  kỳ đâu, nhưng Python ngăn chặn việc thay đổi mã nguồn được xây dựng sẵn
-  - Ruby thì không.
-* Bạn có `true` và `false` thay vì `True` và `False` (và `nil` thay cho
-  `None`).
-* Khi kiểm tra đúng sai, chỉ có `false` và `nil` là dành cho giá trị
-  sai. Tất cả mọi thứ còn lại đều là true (bao gồm `0`, `0.0`, `""`, và
-  `[]`).
-* Dùng `elsif` thay vì `elif`.
-* Dùng `require` thay vì `import`. tuy nhiên cách dùng thì như nhau.
-* Các dòng ghi chú được viết phía *trên* (ngoại trừ docstrings viết
-  bên dưới) được dùng để tạo chú thích.
-* Số lượng phím tắt giúp bạn dễ nhớ và dễ học hơn. Nó làm cho ngôn
-  ngữ Ruby dễ dàng tiếp cận và thú vị hơn.
-* Không có cách nào gỡ bỏ một biến đã được thiết lập (như lệnh `del`
-  trong Python). Bạn có thể gán giá trị `nil` cho biến, làm cho nội
-  dung cũ được xoá, tuy nhiên biến đó vẫn sẽ tồn tại trong bảng symbol.
+* Strings are mutable.
+* You can make constants (variables whose value you don’t intend to
+  change).
+* There are some enforced case-conventions (ex. class names start with a
+  capital letter, variables start with a lowercase letter).
+* There’s only one kind of list container (an Array), and it’s mutable.
+* Double-quoted strings allow escape sequences (like `\t`) and a special
+  “expression substitution” syntax (which allows you to insert the
+  results of Ruby expressions directly into other strings without having
+  to `"add " + "strings " + "together"`). Single-quoted strings are like
+  Python’s `r"raw strings"`.
+* There are no “new style” and “old style” classes. Just one kind.
+  (Python 3+ doesn’t have this issue, but it isn’t fully backward
+  compatible with Python 2.)
+* You never directly access attributes. With Ruby, it’s all method
+  calls.
+* Parentheses for method calls are usually optional.
+* There’s `public`, `private`, and `protected` to enforce access,
+  instead of Python’s `_voluntary_` underscore `__convention__`.
+* “mixins” are used instead of multiple inheritance.
+* You can add or modify the methods of built-in classes. Both languages
+  let you open up and modify classes at any point, but Python prevents
+  modification of built-ins — Ruby does not.
+* You’ve got `true` and `false` instead of `True` and `False` (and `nil`
+  instead of `None`).
+* When tested for truth, only `false` and `nil` evaluate to a false
+  value. Everything else is true (including `0`, `0.0`, `""`, and `[]`).
+* It’s `elsif` instead of `elif`.
+* It’s `require` instead of `import`. Otherwise though, usage is the
+  same.
+* The usual-style comments on the line(s) *above* things (instead of
+  docstrings below them) are used for generating docs.
+* There are a number of shortcuts that, although give you more to
+  remember, you quickly learn. They tend to make Ruby fun and very
+  productive.
+* There’s no way to unset a variable once set (like Python’s `del`
+  statement). You can reset a variable to `nil`, allowing the old
+  contents to be garbage collected, but the variable will remain in the
+  symbol table as long as it is in scope.
+* The `yield` keyword behaves differently. In Python it will return
+  execution to the scope outside the function's invocation. External
+  code is responsible for resuming the function. In Ruby `yield` will
+  execute another function that has been passed as the final argument,
+  then immediately resume.
+* Python supports just one kind of anonymous functions, lambdas, while
+  Ruby contains blocks, Procs, and lambdas.

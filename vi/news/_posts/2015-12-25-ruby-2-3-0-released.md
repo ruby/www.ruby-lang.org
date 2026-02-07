@@ -1,63 +1,58 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.3.0"
+title: "Ruby 2.3.0 Released"
 author: "naruse"
-translator: "Nguyễn Đức Giang"
+translator:
 date: 2015-12-25 17:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi vui mừng thông báo việc phát hành Ruby 2.3.0.
+We are pleased to announce the release of Ruby 2.3.0.
 
-Đây là phiên bản ổn định đầu tiên của sê-ri Ruby 2.3.
-Phiên bản này giới thiệu nhiều tính năng mới, như:
+This is the first stable release of the Ruby 2.3 series.
+It introduces many new features, for example:
 
-Giới thiệu
-[Frozen String Literal Pragma](https://bugs.ruby-lang.org/issues/11473).
-Trong Ruby 2.1, `"str".freeze` được tối ưu để giảm số lượng đối tượng tạo ra.
-Ruby 2.3 giới thiệu một magic comment và một tùy chọn cho command line để đóng
-băng tất cả các chuỗi trong tệp mã nguồn. Ngoài ra, bạn có thể sử dụng tùy
-chọn `--debug=frozen-string-literal` trong command line để xem các đối được
-tạo ra ở đâu khi debug lỗi `"can't modify frozen String"`.
+A [frozen string literal pragma](https://bugs.ruby-lang.org/issues/11473)
+is introduced.
+With Ruby 2.1, `"str".freeze` has been optimized to reduce object allocation.
+Ruby 2.3 introduces a new magic comment and command line option to
+freeze all string literals in the source files.
+Additionally for debugging, you can get where the object is created on
+`"can't modify frozen String"` error by using the
+`--debug=frozen-string-literal` command line option.
 
-[Safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
-([hay còn gọi là lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
-đã hiện diện trong C#, Groovy, và Swift, được giới thiệu để làm giảm
-thiểu sự phiền toái khi xử lý `nil` với cú pháp `obj&.foo`. `Array#dig` và
-`Hash#dig` cũng mới được thêm vào, chúng hoạt động giống như
-[try! trong Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
-vốn được tạo ra để xử lý trường hợp `nil`.
+A [safe navigation operator](https://bugs.ruby-lang.org/issues/11537)
+([so-called lonely operator](https://instagram.com/p/-M9l6mRPLR/)) `&.`,
+which already exists in C#, Groovy, and Swift, is introduced to ease
+`nil` handling as `obj&.foo`. `Array#dig` and `Hash#dig` are also added.
+Note that this behaves like [try! of Active Support](http://api.rubyonrails.org/v4.2.5/classes/Object.html#method-i-try-21),
+which specially handles only `nil`.
 
-[Tích hợp did_you_mean gem](https://bugs.ruby-lang.org/issues/11252).
-did_you_mean gem đưa ra một số lời khuyên khi gặp `NameError` và
-`NoMethodError`, giúp cho việc debug dễ dàng hơn.
+The [did_you_mean gem is bundled](https://bugs.ruby-lang.org/issues/11252).
+The did_you_mean gem
+shows the candidates on the `NameError` and `NoMethodError` to ease
+debugging.
 
-[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788)
-là các tính năng thử nghiệm được giới thiệu trong phiên bản này. Với các chức
-năng này chúng ta có thể tạo ra một hệ thống tiền biên dịch ISeq (bytecode).
+[RubyVM::InstructionSequence#to_binary and .load_from_binary](https://bugs.ruby-lang.org/issues/11788) are introduced as experimental features. With these features, we can make a ISeq (bytecode) pre-compilation system.
 
-Ruby 2.3.0 còn có rất nhiều cải thiện về hiệu suất, như
-[xem xét lại phần cấu trúc dữ liệu hàm nhập](https://bugs.ruby-lang.org/issues/11278),
-[giới thiệu kiểu cấu trúc dữ liệu bảng mới](https://bugs.ruby-lang.org/issues/11420),
-[tối ưu Proc#call](https://bugs.ruby-lang.org/issues/11569),
-hiệu chỉnh ở tầng mã máy cho việc gán phần tử và hàm gọi mã,
-[cấu trúc dữ liệu instance variable thông minh hơn](https://bugs.ruby-lang.org/issues/11170),
-[hỗ trợ keyword argument `exception: false` cho Socket#*_nonblock methods](https://bugs.ruby-lang.org/issues/11229).
-Vui lòng xem phần "Implementation improvements" trong tệp tin NEWS.
+Ruby 2.3 also includes many performance improvements, for example
+[reconsidering method entry data structure](https://bugs.ruby-lang.org/issues/11278),
+[introducing new table data structure](https://bugs.ruby-lang.org/issues/11420),
+[optimizing Proc#call](https://bugs.ruby-lang.org/issues/11569),
+machine code level tuning for object allocation and method calling code,
+[smarter instance variable data structure](https://bugs.ruby-lang.org/issues/11170),
+[`exception: false` keyword argument support on Socket#*_nonblock methods](https://bugs.ruby-lang.org/issues/11229),
+and so on. Check the "Implementation improvements" section in the NEWS file.
 
-Để biết đầy đủ danh sách các tính năng mới và các lưu ý về vấn đề tương thích,
-vui lòng xem
-[NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) và
+For a complete list of new features and compatibility notes, please see
+[NEWS](https://github.com/ruby/ruby/blob/v2_3_0/NEWS) and
 [ChangeLog](https://github.com/ruby/ruby/blob/v2_3_0/ChangeLog).
 
-Để có những thay đổi trên,
-[2946 tệp tin đã được thay đổi, 104057 dòng được thêm vào(+), 59478 dòng được xóa đi(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0)
-kể từ Ruby 2.2.0!
+With those changes, [2946 files changed, 104057 insertions(+), 59478 deletions(-)](https://github.com/ruby/ruby/compare/v2_2_0...v2_3_0) since Ruby 2.2.0!
 
-Chúc mừng Giáng sinh, chúc các bạn có một kì nghỉ vui vẻ, và có những giây
-phút lập trình đầy hứng khởi với Ruby 2.3!
+Merry Christmas, Happy Holidays, and enjoy programming with Ruby 2.3!
 
-## Tải về
+## Download
 
 * <https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.bz2>
 

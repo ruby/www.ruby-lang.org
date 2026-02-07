@@ -4,160 +4,132 @@ title: "Ruby Core"
 lang: vi
 ---
 
-Lúc này là thời điểm tuyệt vời để theo dõi sự phát triển của Ruby với sự xuất
-hiện của Ruby 2.0.  Với việc số người quan tâm đến Ruby ngày một tăng trong
-những năm qua, cộng đồng Ruby đang rất cần những tài năng tham gia để nâng cao
-chất lượng tài liệu hướng dẫn cũng như cải thiện ngôn ngữ Ruby.  Vậy, bạn nên
-bắt đầu ở đâu?
+Now is a fantastic time to follow Ruby’s development. With the increased
+attention Ruby has received in the past few years, there’s a growing need
+for good talent to help enhance Ruby and document its parts.
+So, where do you start?
 {: .summary}
 
-Các chủ đề liên quan đến sự phát triển Ruby được đề cập ở đây là:
+The topics related to Ruby development covered here are:
 
-* [Dùng Subversion để theo dõi sự phát triển của Ruby](#following-ruby)
-* [Làm việc với Git](#git-ruby)
-* [Cải tiến Ruby theo từng bản vá lỗi](#patching-ruby)
-* [Quy tắc cho các nhà phát triển Ruby-core](#coding-standards)
+* [Using Git to Track Ruby Development](#following-ruby)
+* [Improving Ruby, Patch by Patch](#patching-ruby)
+* [Note about branches](#branches-ruby)
 
-### Dùng Subversion để theo dõi sự phát triển của Ruby
+### Using Git to Track Ruby Development
 {: #following-ruby}
 
-Để lấy được mã nguồn mới nhất từ kho lưu trữ của [Subversion][1]
-là một vấn đề đối với các checkout không xác định. Bạn gõ dòng lệnh sau:
+The current primary repository of the latest Ruby source code is
+[git.ruby-lang.org/ruby.git][gitrlo].
+There is also a [mirror on GitHub][7].  Usually, please use this mirror.
+
+You can get the latest Ruby source code by using Git.
+From your command line:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
-Thư mục `ruby` sẽ chứa toàn bộ mã nguồn của phiên bản mới nhất (theo dạng
-cây).  Các bản vá lỗi áp dụng cho từng phần được backported ổn định cho
-nhánh {{ site.svn.stable.version }}, {{ site.svn.previous.version }},
-{{ site.svn.old.version }} (xem bên dưới).
+The `ruby` directory will now contain the latest source code
+for the development version of Ruby (ruby-trunk).
 
-Nếu bạn muốn theo dõi các bản vá lỗi cho Ruby 2.0.0, bạn cần nhập
-`ruby_2_0_0` khi checkout:
+See also [Non-committer’s HOWTO to join our development][noncommitterhowto].
+
+If you have commit access, and if you want to push something,
+you should use the primary repository.
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+$ git clone git@git.ruby-lang.org:ruby.git
 {% endhighlight %}
 
-Nếu bạn muốn theo dõi các bản vá lỗi cho Ruby 1.9.3, bạn cần nhập
-`ruby_1_9_3` khi checkout:
-
-{% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
-{% endhighlight %}
-
-Câu lệnh trên sẽ checkout Ruby 1.9.3 vào thư mục `ruby_1_9_3`.  Các nhà phát
-triển làm việc trên Ruby 1.9.3 dự kiến sẽ chuyển những thay đổi về mã nguồn
-gốc, Thường thì 2 phiên bản có nhiều điểm giống nhau, ngoại trừ những cải tiến
-được thực hiện bởi Matz và Nobu với ngôn ngữ riêng của mình.
-
-Nếu thích, bạn có thể duyệt qua [kho lưu trữ của Ruby trên Subversion thông
-qua web][2].
-
-Để biết thêm thông tin về Subversion, vui lòng xem
-[những câu hỏi thường gặp của Subversion][3] và [sách về Subversion][4].
-Ngoài ra, bạn có thể tìm quyển [quản lý phiên bản với Subversion][5]
-là một quyển sách rất hữu ích.
-
-### Làm việc với Git
-{: #git-ruby}
-
-Dành cho những ai thích dùng [Git][6] hơn là Subversion có thể tìm được hướng
-dẫn với [the mirror trên GitHub][7], cho cả [những người có quyền commit][8]
-và [tất cả những người khác][9].
-
-### Cải tiến Ruby theo từng bản vá lỗi
+### Improving Ruby, Patch by Patch
 {: #patching-ruby}
 
-Nhóm phát triển Ruby Core luôn theo dõi [các vấn đề phát sinh (issue
-tracker)][10] để gửi các bản vá lỗi và các báo cáo bug cho Matz và các cộng sự
-của ông. Các bản báo cáo này cũng được gửi vào
-[Hộp thư chung của Ruby-Core][mailing-lists] để thảo luận, do đó đừng lo về việc
-yêu cầu của bạn sẽ không được chú ý.  Bạn cũng có thề gửi các bản vá lỗi vào
-thẳng hộp thư chung.  Bằng cách này hay cách khác thì bạn cũng được khuyến
-khích tham gia vào các cuộc thảo luận.
+The core team maintains an [issue tracker][10] for submitting patches and
+bug reports to Matz and the gang. These reports also get submitted to
+the [Ruby-Core mailing list][mailing-lists] for discussion,
+so you can be sure your request won’t go unnoticed. You can
+also send your patches straight to the mailing list. Either way, you are
+encouraged to take part in the discussion that ensues.
 
-Bạn có thể xem qua một số [hướng dẫn của Patch Writer’s][11] để tìm thấy một
-số mẹo từ Matz, và cách làm thế nào để các bản vá lỗi của bạn được xem xét.
+Please look over the [Patch Writer’s Guide][writing-patches] for some tips,
+straight from Matz, on how to get your patches considered.
 
-Dưới đây là một số bước để tạo được một bản vá lỗi:
+To summarize, the steps for building a patch are:
 
-1.  Checkout một bản sao mã nguồn Ruby từ Subversion. Thường thì các bản vá
-    lỗi hoặc tính năng mới sẽ được thêm vào nhánh chính của mã nguồn. Thậm chí
-    nếu bạn muốn thêm một tính năng cho Ruby 1.9.3, thì nó cần được kiểm tra ở
-    nhánh chính trước.
+1.  Check out a copy of the Ruby source code from GitHub.
+    Usually patches for bugfixes or new features should be submitted
+    for the trunk of Ruby’s source.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
-    Nếu bạn đang sử chữa một lỗi nào đó trong nhánh nào đó thì checkout bản
-    sao của nhánh đó ví dụ như `ruby_1_9.3`.
+    If you are fixing a bug that is specific to only one maintenance branch,
+    check out a copy of the respective branch.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ git checkout ruby_X_X
 
-2.  Thêm các cải tiến cho code.
+    X_X should be replaced with a version that you want to check out.
 
-3.  Tạo bản vá.
+2.  Add your improvements to the code.
 
-        $ svn diff > ruby-changes.patch
+3.  Create a patch.
 
-4.  Tạo một ticket trong [issue tracker][10] hoặc gửi bản vá của bạn đến
-    [hộp thư chung của Ruby-Core][mailing-lists] với ChangeLog
-    mô tả nội dung về bản vá đó.
+        $ git diff > ruby-changes.patch
 
-5.  Nếu bản vá không phát sinh thêm lỗi nào thì những người được phép commit
-    sẽ duyệt và áp dụng bản vá đó.
+4.  Create a ticket in the [issue tracker][10] or email your patch to
+    the [Ruby-Core mailing list][mailing-lists] with a ChangeLog entry
+    describing the patch.
 
-**Lưu ý:** Các bản vá được gửi phải có sự [khác biệt thống nhất][12].
-Để biết các bản vá được merged như thế nào, xem thêm [the diffutils reference][13].
+5.  If there are no issues raised about the patch, committers will be
+    given the approval to apply it.
 
-Các cuộc thảo luận về phát triển Ruby tập trung ở
-[hộp thư chung của Ruby-Core][mailing-lists].
-Do đó, nếu bạn muốn biết bản vá của mình có đáng giá hay không hoặc bạn chỉ
-muốn thảo luận về tương lai của Ruby, đừng ngại cùng thảo luận.  Tất cả các
-cuộc thảo luận không liên quan đến Ruby đều không được chấp nhận, các cuộc
-thảo luận phải đúng với chủ đề và được diễn đạt tốt bằng văn bản.  Hãy dành sự
-tôn kính khi muốn đề cập đến tác giả của Ruby.
+**Please note:** patches should be submitted as a [unified diff][12].
+For more on how patches are merged, see [the diffutils reference][13].
 
-Hãy nhớ rằng những người phát triển nên Ruby sống ở Nhật và phần lớn đều giỏi
-tiếng Anh thì vẫn khác nhau về múi giờ. Họ cũng sử dụng hộp thư chung tiếng
-Anh song song với tiếng Nhật.  Hãy kiên nhẫn và gửi lại yêu cầu của bạn sau
-một vài ngày nếu nó vẫn chưa được giải quyết.
+Discussion of Ruby’s development converges on the
+[Ruby-Core mailing list][mailing-lists]. So, if you are curious
+about whether your patch is worthwhile or you want to spark a discussion
+about Ruby’s future, don’t hesitate to come aboard. Be warned that
+off-topic discussions are not tolerated on this list, the noise level
+should be very low, topics should be pointed, well-conceived and
+well-written. Since we’re addressing Ruby’s creator, let’s have some
+reverence.
 
-### Quy tắc cho các nhà phát triển cốt lõi
-{: #coding-standards}
-
-Thông thường, các nhà phát triển Ruby đã rất quen với mã nguồn và
-cách phát triển của nhóm. Dưới đây là một số quy tắc chính để kiểm tra
-trước khi được checkin vào Subversion:
-
-* Tất cả các check-in đều phải được mô tả trong `ChangeLog`, theo các
-  [quy ước GNU][14].  (Nhiều nhà phát triển Ruby core sử dụng chế độ
-  `add-log` của Emacs, có thể được truy cập được qua lệnh `C-x 4 a`.)
-* Các ngày Check-in đều phải theo chuẩn thời gian của Nhật (UTC+9).
-* Các điểm mấu chốt của ChangeLog cũng phải được ghi trong message khi
-  commit lên Subversion. Thông điệp này (message) sẽ tự động được gửi
-  vào Ruby-CVS sau khi commnit.
-* Các tính năng thử nghiệm được sử dụng cho mã nguồn Ruby và các gói mở rộng của nó.
-* Vui lòng không sử dụng kiểu chú thích của C++ (`//`),
-  mà thay vào đó hãy sử dụng chuẩn của C khi chú thích nhiều dòng (`/* .. */`).
-
-Xem thêm thông tin về [Ruby’s issue tracker][10].
+Keep in mind that many of Ruby’s core developers live in Japan and, while many
+speak very good English, there is a significant timezone difference.
+They also have an entire body of Japanese development lists happening
+alongside the English counterparts. Be patient, if your claim isn’t
+resolved, be persistent—give it another shot a few days later.
 
 
+### Note about branches
+{: #branches-ruby}
 
-[mailing-lists]: /vi/community/mailing-lists/
-[1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[3]: http://subversion.apache.org/faq.html
-[4]: http://svnbook.org
-[5]: http://www.pragmaticprogrammer.com/titles/svn/
-[6]: http://git-scm.com/
+The source code of Ruby had been managed under Subversion repository until 22nd April 2019.
+Thus, some branches may still be managed under Subversion.
+You can view the SVN repository.
+
+* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+
+However, you don't have to care about it (unless you are a branch maintainer).
+You can check out the branches in your Git working copy.
+For example, run the following command.
+
+{% highlight sh %}
+$ git checkout ruby_X_X
+{% endhighlight %}
+
+X_X should be replaced with a version that you want to check out.
+
+If you want to modify the branches, please open an issue in our [issue tracker][10].
+See also the following section.
+
+[gitrlo]: https://git.ruby-lang.org/ruby.git
+[mailing-lists]: /en/community/mailing-lists/
+[writing-patches]: /en/community/ruby-core/writing-patches/
+[noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
+[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
 [7]: https://github.com/ruby/ruby
-[8]: https://github.com/shyouhei/ruby/wiki/committerhowto
-[9]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
 [10]: https://bugs.ruby-lang.org/
-[11]: https://blade.ruby-lang.org/ruby-core/25139
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [13]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
-[14]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

@@ -1,26 +1,26 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.1.5"
+title: "Ruby 2.1.5 Released"
 author: "nagachika"
-translator: "thomastran"
+translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.5 vừa được ra mắt.
+Ruby 2.1.5 has been released.
 
-Phiên bản này bao gồm bản vá cho lỗ hổng bảo mật DoS của REXML.
-Nó tương tự với
-[bản vá lỗ hổng bảo mật](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/),
-nhưng theo cách mới và khác.
+This release includes a security fix for a DoS vulnerability of REXML.
+It is similar to the
+[fixed vulnerability](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+in the [previous release](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/),
+but new and different from it.
 
-* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Another Denial of Service XML Expansion](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
-Ngoài ra, phiên bản này cũng bao gồm một số vá lỗi khác.
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
-để biết thêm chi tiết.
+And, some bug fixes are also included.
+See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+for details.
 
 ## Download
 
@@ -52,7 +52,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
       SHA256: 69c517a6d3ea65264455a9316719ffdec49cf6a613a24fd89b3f6da7146a8aa7
       SHA512: a55cf5970203904e7bc8cef2b6fbf7b8d5067a160289a1a49d13c4dfef8c95002bcdf697f5d04d420ef663efad5ee80d5a9e4e7445c4db9a02f9cbc9e4b8444e
 
-## Ý kiến cho phiên bản này
+## Release Comment
 
-Xin lỗi nếu sự ra mắt các phiên bản một cách thường xuyên gây ra bất tiện cho các bạn.
-Cảm ơn tất cả mọi người đã đóng góp công sức để ra được phiên bản này.
+Sorry for the inconvenience of frequent releases.
+Thanks to everyone who gave the cooperation to release.

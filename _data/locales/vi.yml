@@ -1,13 +1,19 @@
 ---
 
 navigation:
-- text: Downloads
+- text: Cài đặt
   url: /vi/documentation/installation/
   submenu:
-  - text: Installing Ruby
+  - text: Cài đặt Ruby
     url: /vi/documentation/installation/
-  - text: Downloads
+  - text: Tải về
     url: /vi/downloads/
+  - text: Phiên bản
+    url: /vi/downloads/releases/
+  - text: Nhánh
+    url: /vi/downloads/branches/
+  - text: Mirror
+    url: /vi/downloads/mirrors/
   - text: Trình quản lý gói
     submenu:
     - text: rbenv
@@ -44,6 +50,8 @@ navigation:
       url: /vi/documentation/ruby-from-other-languages/to-ruby-from-php/
     - text: Đến với Ruby từ Python
       url: /vi/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: FAQ
+    url: /vi/documentation/faq/
   - text: Nhập môn & Khám phá
     submenu:
     - text: TryRuby
@@ -94,6 +102,10 @@ navigation:
     url: /vi/documentation/repository-guide/
   - text: Mailing Lists
     url: /vi/community/mailing-lists/
+  - text: Hướng dẫn Mailing List
+    url: /vi/community/mailing-lists/ruby-talk-guidelines/
+  - text: Hướng dẫn viết Patch
+    url: /vi/community/ruby-core/writing-patches/
   - text: Khác
     submenu:
     - text: ruby/ruby
@@ -112,8 +124,12 @@ navigation:
     url: /vi/community/
   - text: Nhóm người dùng
     url: /vi/community/user-groups/
-  - text: Weblogs
+  - text: Blog và Bản tin
     url: /vi/community/weblogs/
+  - text: Podcast
+    url: /vi/community/podcasts/
+  - text: Quy tắc ứng xử
+    url: /vi/conduct/
   - text: Sự kiện & Hội nghị
     submenu:
     - text: RubyKaigi
@@ -121,6 +137,11 @@ navigation:
       external: true
     - text: Ruby Events
       url: https://www.rubyevents.org/
+      external: true
+  - text: Tổ chức
+    submenu:
+    - text: Ruby Association
+      url: https://www.ruby.or.jp/en/
       external: true
 - text: Tin tức
   url: /vi/news/
@@ -136,10 +157,11 @@ syndicate:
     text: Tin mới (RSS)
     url: /vi/feeds/news.rss
 
-languages_heading:
+languages_heading: 'Trang web này bằng các ngôn ngữ khác:'
 
 toc:
   heading: Mục lục
+
 credits:
   <a href="/vi/about/website/">Trang web này</a>
   được tự hào duy trì bởi các thành viên của cộng đồng Ruby.
@@ -203,6 +225,9 @@ footer:
     news_rss:
       text: Tin tức RSS
       url: /vi/feeds/news.rss
+    privacy:
+      text: Chính sách bảo mật
+      url: /vi/privacy/
     ruby_license:
-      text: Ruby License
+      text: Giấy phép Ruby
       url: /en/about/license.txt

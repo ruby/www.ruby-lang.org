@@ -1,24 +1,24 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.2.3"
+title: "Ruby 2.2.3 Released"
 author: "nagachika"
-translator: "Quang Nguyễn"
+translator:
 date: 2015-08-18 16:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi rất vui mừng được thông báo về việc phát hành Ruby 2.2.3.
-Đây là một phiên bản tí hon được phát hành trong sêri ổn định 2.2.
+We are pleased to announce the release of Ruby 2.2.3.
+This is a TEENY version release of the stable 2.2 series.
 
-Phiên bản này bao gồm một số vá về bảo mật cho cho việc xác minh lỗ hổng trên một tên miền RubyGems.
+This release includes the security fix for a RubyGems domain name verification vulnerability.
 
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
-Ngoài ra còn một số sửa lỗi khác.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
-để biết chi tiết.
+There are also some bugfixes.
+See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+for details.
 
-## Tải về
+## Download
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.bz2)
 
@@ -48,7 +48,7 @@ Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
       SHA256: 0af3035be23120e5a617fcae0d34bc6cd5ee313ed7a6e1b68591268b415c95e4
       SHA512: ae288d7c0c21a159cf8173b4b4d51281616cf92a50ec63fe3b17b0af2b97302106406330aaf203a997c1169dda215068b480b5947a6bed56db5d378b0a4d2be5
 
-## Chú thích
+## Release Comment
 
-Rất nhiều các committer, lập trình viên và người dùng đã cung cấp các báo lỗi giúp chúng tôi hoàn thành phiên bản này.
-Rất cảm ơn vì những đóng góp đó.
+Many committers, developers, and users who provided bug reports helped us to make this release.
+Thanks for their contributions.

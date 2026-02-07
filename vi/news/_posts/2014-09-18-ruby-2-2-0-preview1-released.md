@@ -1,53 +1,52 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.2.0-preview1"
+title: "Ruby 2.2.0-preview1 Released"
 author: "naruse"
-translator: "Trung Lê"
+translator:
 date: 2014-09-18 09:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản 2.2.0-preview1.
+We are pleased to announce the release of Ruby 2.2.0-preview1.
 
-Ruby 2.2.0-preview1 là bản thử nghiệm đầu tiên của Ruby 2.2.0.
-Để đáp ứng nhu cầu mới cho Ruby, chúng tôi giới thiệu các chức năng mới và đồng thời
-cũng cải tiến tốc độ và các chức năng hiện thời.
+Ruby 2.2.0-preview1 is the first preview of Ruby 2.2.0.
+Many new features and improvements are included for the increasingly
+diverse and expanding demands for Ruby.
 
-Một ví dụ là với Symbol GC, cải tiến này giúp gom rác Symbol giúp giảm
-bộ nhớ khi sử dụng Symbol; bởi vì GC không thu rác Symbol trước Ruby 2.2.
-Do đó Rails 5 sẽ sử dụng Symbol GC sau khi yêu cầu thấp nhất của phiên
-bản Ruby được đẩy lên Ruby 2.2 hoặc mới hơn.
-(Xem [bài viết trên Rails blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để biết thêm chi tiết).
+For example, Symbol GC makes Symbols garbage collectable.
+This reduces memory usage of Symbols; because GC couldn't collect Symbols before
+Ruby 2.2. So Rails 5.0 will require Symbol GC. It will support only Ruby 2.2
+or later. (See [Rails' blog post](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) for details.)
 
-Đồng thời, chức năng GC Tăng dần (Incremental GC) giúp giảm thời gian
-chờ, khá là hiệu quả để chạy cái ứng dụng Rails.
+Also, new Incremental GC decreases pause time of garbage collection.
+It is helpful for running Rails applications.
 
-Hi vọng các bạn sẽ thích bản Ruby 2.2.0-preview1!
+Enjoy programming with Ruby 2.2.0-preview1!
 
-## Các thay đổi đáng lưu ý so với 2.1
+## Notable Changes since 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
 * [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
-* thư viện lõi:
-  * Hỗ trợi Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * Hàm mới:
+* core libraries:
+  * Support Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
+  * New methods:
     * Enumerable#slice_after
     * Float#next_float, Float#prev_float
     * File.birthtime, File#birthtime
 * bundled libraries:
-  * Nâng cấp Psych 2.0.6
-  * Nâng cấp Rake 10.3.2+ (e47d0239)
-  * Nâng cấp RDoc 4.2.0.alpha (21b241a)
-  * Nâng cấp RubyGems 2.4.1+ (713ab65)
-  * Nâng cấp test-unit 3.0.1 (removed from repository but bundled in tarball)
-  * Nâng cấp minitest 5.4.1 (removed from repository but bundled in tarball)
+  * Update Psych 2.0.6
+  * Update Rake 10.3.2+ (e47d0239)
+  * Update RDoc 4.2.0.alpha (21b241a)
+  * Update RubyGems 2.4.1+ (713ab65)
+  * Update test-unit 3.0.1 (removed from repository but bundled in tarball)
+  * Update minitest 5.4.1 (removed from repository but bundled in tarball)
   * Deprecate mathn
 * C API
-  * Xoá các API bị deprecated
+  * Remove deprecated APIs
 
-Xem [NEWS trong Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) for details.
+See [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) for details.
 
-Thông kê thay đổi, 1239 files thay đổi, 98343 thêm vào(+), 61858 xoá đi(-).
+With those changes, 1239 files changed, 98343 insertions(+), 61858 deletions(-).
 
 ## Download
 
@@ -72,10 +71,10 @@ Thông kê thay đổi, 1239 files thay đổi, 98343 thêm vào(+), 61858 xoá 
   * SHA256: 2fa6c0cbddd1566a8658e16a34b6ae2f9eda2a8eeee4113561b3948d066f44a0
   * SHA512: 615b35c0a0bc408b28af9d9220ccd1658c718c7657ae7ad3f8318d38850bec760b1738c43454986b105857a7ffc2fea95294b964e5ea26a915d6fd9d510351b7
 
-## Chú thích ấn bản
+## Release Comment
 
-* [2.2.0 Các lỗi đã xác định](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [2.2.0 Known issues](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
-Xem luôn lịch ấn hành và các thông tin khác tại:
+See also the release schedule and other information:
 
 [ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

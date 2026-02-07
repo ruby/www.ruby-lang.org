@@ -1,19 +1,20 @@
 ---
 layout: news_post
-title: "Phát hành Ruby 2.1.0 preview1"
+title: "Ruby 2.1.0-preview1 is released"
 author: "nurse"
-translator: "Trung Lê"
+translator:
 date: 2013-09-23 07:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố phiên bản Ruby 2.1.0-preview1 đã được phát hành.
-Xin xem chi tiết các công năng mới của Ruby 2.1 trước khi ấn bản cuối cùng được phát hành!
+We are pleased to announce the release of Ruby 2.1.0-preview1.
+Please check out the new features in Ruby 2.1 before the final release!
 
 ## Download
 
-Chúng tôi khuyến khích tải về từ Fastly với
-[https://cache.ruby-lang.org/pub/ruby/2.1/](https://cache.ruby-lang.org/pub/ruby/2.1/).
+We recommend to use
+[https://cache.ruby-lang.org/pub/ruby/2.1/](https://cache.ruby-lang.org/pub/ruby/2.1/)
+via Fastly.
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0-preview1.tar.bz2)
 
@@ -33,30 +34,36 @@ Chúng tôi khuyến khích tải về từ Fastly với
       MD5:    f9bc3f9a10174a022381ce2c60a59e64
       SHA256: 28855621f7d364277e7f258d5cc380e005896ef8ebc36e5cbf78d2bf763c291b
 
-## Thay đổi
+## Changes
 
-Các thay đổi chính:
+The notable changes are:
 
 * VM (method cache)
-* RGenGC
+* RGenGC (See ko1's [RubyKaigi presentation](http://rubykaigi.org/2013/talk/S73) and [EuRuKo presentation](http://www.atdot.net/~ko1/activities/Euruko2013-ko1.pdf))
 * refinements
-* cú pháp
-* Decimal Literal
-* Frozen String Literal
-* giá trị trả về của def
+* syntax
+  * Decimal Literal
+  * Frozen String Literal
+* def's return value
 * Bignum
-* 128bit
-* GMP
+  * 128bit
+  * GMP
 * String#scrub
 * Socket.getifaddrs
-* RubyGems mới
+* new RubyGems
 
-## Khuyến cáo
+See more details of changes: [NEWS in Ruby repository (WIP)](https://github.com/ruby/ruby/blob/trunk/NEWS).
 
-Các vấn đề hiện được biết:
+ko1 exhibited toruby presentation: [Summary of Ruby 2.1](http://www.atdot.net/~ko1/activities/toruby05-ko1.pdf)
+
+Konstantin Haase (@konstantinhaase) wrote a good summary in his blog post: [What's new in Ruby 2.1?](http://rkh.im/ruby-2.1).
+
+## Release Comment
+
+Known issues are:
 
 [https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=102)
 
-Xem thông tin lịch trình phát hành tại:
+See also the release schedule and other information:
 
 [https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering210)
