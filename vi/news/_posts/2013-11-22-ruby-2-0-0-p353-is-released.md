@@ -1,26 +1,25 @@
 ---
 layout: news_post
-title: "Ruby 2.0.0-p353 được phát hành"
+title: "Phát hành Ruby 2.0.0-p353"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2013-11-22 03:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.0.0-p353 mới được phát hành.
+Ruby 2.0.0-p353 đã được phát hành.
 
-Bao gồm một vá bảo mật liên quan đến truyền số thực dấu phẩy động (floating point parsing).
+Bản phát hành này bao gồm bản sửa lỗi bảo mật về phân tích số dấu phẩy động.
 
-* [Tràn vùng Heap trong Truyền số thực dấu phẩy động (CVE-2013-4164)](/vi/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+* [Tràn Heap trong phân tích số dấu phẩy động (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
-Và một vài vá lỗi khác.
-
-Xem [vé](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) để biết thêm chi tiết.
+Một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) để biết chi tiết.
 
 ## Tải về
 
-Bạn có thể tải bản phát hành này tại:
+Bạn có thể tải bản phát hành này từ:
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.bz2)
 
@@ -40,7 +39,7 @@ Bạn có thể tải bản phát hành này tại:
       MD5:    0f8aeb1f1b1cd606ab9790badabd0fb4
       SHA256: 878c9cec05751a4c7019ad255a9e737d0f47ec7188cee1c522545ac7e3bc73a3
 
-## Chú thích
+## Lời nhận xét về bản phát hành
 
-Tôi muốn cảm ơn các lập trình viên, các thành viên tham gia kiểm tra
-và thông báo lỗi đã giúp tôi hoàn thành ấn bản này.
+Nhiều committer, tester và người dùng đã gửi báo cáo lỗi đã giúp tôi tạo
+ra bản phát hành này. Cảm ơn những đóng góp của họ.

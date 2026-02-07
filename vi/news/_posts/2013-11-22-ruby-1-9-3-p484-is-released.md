@@ -1,26 +1,23 @@
 ---
 layout: news_post
-title: "Ruby 1.9.3-p484 được phát hành"
+title: "Phát hành Ruby 1.9.3-p484"
 author: "usa"
-translator: "Trung Lê"
+translator:
 date: 2013-11-22 04:00:00 +0000
 lang: vi
 ---
 
-Ruby Ruby 1.9.3-p484 mới được phát hành.
+Ruby 1.9.3-p484 đã được phát hành.
 
-Bao gồm một vá bảo mật liên quan đến truyền số thực dấu phẩy động (floating point parsing).
+Bản phát hành này bao gồm bản sửa lỗi bảo mật liên quan đến phân tích số dấu phẩy động:
 
- * [Tràn vùng Heap trong Truyền số thực dấu phẩy động (CVE-2013-4164)](/vi/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
+ * [Tràn Heap trong phân tích số dấu phẩy động (CVE-2013-4164)](/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
-Và một vài vá lỗi khác.
-
-Xem [vé](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) để biết thêm chi tiết.
+Một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) để biết chi tiết.
 
 ## Tải về
-
-Bạn có thể tải bản phát hành này tại:
 
 * [https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2](https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.bz2)
 
@@ -40,7 +37,7 @@ Bạn có thể tải bản phát hành này tại:
       MD5:    1b74a8a3b1e8f13bb306dd59cc1e12d1
       SHA256: 7496c972c716f0bc9f9c718155ef36281e9f22375867e95abc2ba64c1fb09d2e
 
-## Chú thích
+## Lời nhận xét về bản phát hành
 
-Tôi muốn cảm ơn các lập trình viên, các thành viên tham gia kiểm tra
-và thông báo lỗi đã giúp tôi hoàn thành ấn bản này.
+Nhiều người (committer, người đóng góp và người báo cáo) đã giúp tôi tạo ra
+bản phát hành này. Cảm ơn!

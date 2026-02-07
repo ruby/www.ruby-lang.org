@@ -1,24 +1,25 @@
 ---
 layout: news_post
-title: "Ruby ra mắt ấn bản 2.3.3"
+title: "Phát hành Ruby 2.3.3"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2016-11-21 10:30:00 +0000
 lang: vi
 ---
 
-Ruby 2.3.3 mới được phát hành.
+Ruby 2.3.3 đã được phát hành.
 
-Ấn bản này bao gồm một vá lỗi về Refinements và Module#prepend.
-Trong trường hợp dùng chung Module#refine và Module#prepend cho cùng một Class
-có thể gây ra `NoMethodError`. Đây là một regression của bản 2.3.2.
-Xem [Bug #12920](https://bugs.ruby-lang.org/issues/12920) để biết thêm chi tiết.
+Bản phát hành này bao gồm bản sửa lỗi liên quan đến Refinements và Module#prepend.
+Việc sử dụng kết hợp Module#refine và Module#prepend trên cùng một lớp
+có thể gây ra lỗi `NoMethodError` không mong đợi.
+Đây là lỗi hồi quy trên Ruby 2.3.2 được phát hành tuần trước.
+Xem [Bug #12920](https://bugs.ruby-lang.org/issues/12920) để biết chi tiết.
 
-Thêm vào đó cũng có các vá lỗi khác.
+Ngoài ra còn có một số bản sửa lỗi khác.
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
-để biết thêm chi tiết.
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.3.tar.bz2)
 
@@ -48,6 +49,7 @@ Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
       SHA256: cbffda17fdb1bbd86dd36de093524b0a9b5c92e007fd60acac1c9804b429886e
       SHA512: 5f75b77962c9d01fe591d87e20900d71a54c737e0d1198fae437729f21a9af84278a91ee73e850b5f49361b3cbf48af7a0a3ed9920cce932b58fd8e2420d5b26
 
-## Chú thích
+## Ghi chú phát hành
 
-Cảm ơn tất cả mọi người đã đóng góp để chúng tôi có thể hoàn thành ấn bản lần này.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

@@ -1,19 +1,20 @@
 ---
 layout: news_post
-title: "Ruby ra mắt ấn bản 2.2.6"
+title: "Phát hành Ruby 2.2.6"
 author: "usa"
-translator: "Trung Lê"
+translator:
 date: 2016-11-15 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.2.6 mới được phát hành
+Ruby 2.2.6 đã được phát hành.
 
-Bản này có kèm theo SSL certificates mới cho RubyGems, và fix khoảng 80 lỗi khác từ bản release trước.
+Bản phát hành này bao gồm các chứng chỉ SSL mới cho RubyGems.
+Ngoài ra, bản phát hành cũng bao gồm khoảng 80 bản sửa lỗi kể từ bản phát hành trước.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)
+để biết chi tiết.
 
-Xen thêm chi tiết trong [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog).
-
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.6.tar.bz2)
 
@@ -43,10 +44,10 @@ Xen thêm chi tiết trong [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags
       SHA256: 71bafc98c0b6f7b70cd79473952060e9b9fc36c8d57ee21c6b775451a16e6f9a
       SHA512: dfce7a0e1c3e3d64490dfad101897e8aaacb6f1c0b193a97a38a4288532ec65464796de898685497ba35f199ed6d8eeaf9bb84d31cab0ea4cfd762466597a840
 
-## Lời nhắn
+## Ghi chú phát hành
 
-Cảm ơn tất cả mọi người đã giúp đỡ với ấn bản này.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-Việc bảo trì của Ruby 2.2 (kèm luôn cả ấn bản này) được dựa
-trên "Bản chấp thuận về việc bảo trì các phiên bản Ruby bền vững" của
+Việc bảo trì Ruby 2.2, bao gồm bản phát hành này,
+dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của
 [Ruby Association](http://www.ruby.or.jp/).

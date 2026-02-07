@@ -2,54 +2,53 @@
 layout: news_post
 title: "Phát hành Ruby 2.2.0-preview1"
 author: "naruse"
-translator: "Trung Lê"
+translator:
 date: 2014-09-18 09:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản 2.2.0-preview1.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.2.0-preview1.
 
-Ruby 2.2.0-preview1 là bản thử nghiệm đầu tiên của Ruby 2.2.0.
-Để đáp ứng nhu cầu mới cho Ruby, chúng tôi giới thiệu các chức năng mới và đồng thời
-cũng cải tiến tốc độ và các chức năng hiện thời.
+Ruby 2.2.0-preview1 là bản preview đầu tiên của Ruby 2.2.0.
+Nhiều tính năng mới và cải tiến được bao gồm cho các nhu cầu ngày càng
+đa dạng và mở rộng của Ruby.
 
-Một ví dụ là với Symbol GC, cải tiến này giúp gom rác Symbol giúp giảm
-bộ nhớ khi sử dụng Symbol; bởi vì GC không thu rác Symbol trước Ruby 2.2.
-Do đó Rails 5 sẽ sử dụng Symbol GC sau khi yêu cầu thấp nhất của phiên
-bản Ruby được đẩy lên Ruby 2.2 hoặc mới hơn.
-(Xem [bài viết trên Rails blog](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để biết thêm chi tiết).
+Ví dụ, Symbol GC giúp các Symbol có thể được thu gom rác.
+Điều này giảm sử dụng bộ nhớ cho Symbol; vì GC không thể thu gom Symbol trước
+Ruby 2.2. Vì vậy Rails 5.0 sẽ yêu cầu Symbol GC. Nó sẽ chỉ hỗ trợ Ruby 2.2
+trở lên. (Xem [bài đăng trên blog Rails](http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/) để biết chi tiết.)
 
-Đồng thời, chức năng GC Tăng dần (Incremental GC) giúp giảm thời gian
-chờ, khá là hiệu quả để chạy cái ứng dụng Rails.
+Ngoài ra, Incremental GC mới giảm thời gian tạm dừng của quá trình thu gom rác.
+Điều này hữu ích cho việc chạy các ứng dụng Rails.
 
-Hi vọng các bạn sẽ thích bản Ruby 2.2.0-preview1!
+Hãy tận hưởng lập trình với Ruby 2.2.0-preview1!
 
-## Các thay đổi đáng lưu ý so với 2.1
+## Thay đổi đáng chú ý so với 2.1
 
 * [Incremental GC](https://bugs.ruby-lang.org/issues/10137)
 * [Symbol GC](https://bugs.ruby-lang.org/issues/9634)
-* thư viện lõi:
-  * Hỗ trợi Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
-  * Hàm mới:
+* thư viện core:
+  * Hỗ trợ Unicode 7.0 [#9092](https://bugs.ruby-lang.org/issues/9092)
+  * Phương thức mới:
     * Enumerable#slice_after
     * Float#next_float, Float#prev_float
     * File.birthtime, File#birthtime
-* bundled libraries:
-  * Nâng cấp Psych 2.0.6
-  * Nâng cấp Rake 10.3.2+ (e47d0239)
-  * Nâng cấp RDoc 4.2.0.alpha (21b241a)
-  * Nâng cấp RubyGems 2.4.1+ (713ab65)
-  * Nâng cấp test-unit 3.0.1 (removed from repository but bundled in tarball)
-  * Nâng cấp minitest 5.4.1 (removed from repository but bundled in tarball)
-  * Deprecate mathn
+* thư viện đi kèm:
+  * Cập nhật Psych 2.0.6
+  * Cập nhật Rake 10.3.2+ (e47d0239)
+  * Cập nhật RDoc 4.2.0.alpha (21b241a)
+  * Cập nhật RubyGems 2.4.1+ (713ab65)
+  * Cập nhật test-unit 3.0.1 (xóa khỏi repository nhưng đi kèm trong tarball)
+  * Cập nhật minitest 5.4.1 (xóa khỏi repository nhưng đi kèm trong tarball)
+  * Deprecated mathn
 * C API
-  * Xoá các API bị deprecated
+  * Loại bỏ các API đã deprecated
 
-Xem [NEWS trong Ruby repository (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) for details.
+Xem [NEWS trong kho Ruby (WIP)](https://github.com/ruby/ruby/blob/v2_2_0_preview1/NEWS) để biết chi tiết.
 
-Thông kê thay đổi, 1239 files thay đổi, 98343 thêm vào(+), 61858 xoá đi(-).
+Với các thay đổi đó, 1239 file đã thay đổi, 98343 dòng thêm(+), 61858 dòng xóa(-).
 
-## Download
+## Tải về
 
 * <https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0-preview1.tar.bz2>
   * SIZE:   12385780 bytes
@@ -72,10 +71,10 @@ Thông kê thay đổi, 1239 files thay đổi, 98343 thêm vào(+), 61858 xoá 
   * SHA256: 2fa6c0cbddd1566a8658e16a34b6ae2f9eda2a8eeee4113561b3948d066f44a0
   * SHA512: 615b35c0a0bc408b28af9d9220ccd1658c718c7657ae7ad3f8318d38850bec760b1738c43454986b105857a7ffc2fea95294b964e5ea26a915d6fd9d510351b7
 
-## Chú thích ấn bản
+## Ghi chú phát hành
 
-* [2.2.0 Các lỗi đã xác định](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
+* [Các vấn đề đã biết của 2.2.0](https://bugs.ruby-lang.org/projects/ruby-trunk/issues?query_id=115)
 
-Xem luôn lịch ấn hành và các thông tin khác tại:
+Xem thêm lịch trình phát hành và thông tin khác:
 
 [ReleaseEngineering22](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering22)

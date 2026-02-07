@@ -1,32 +1,32 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 1.9.3-p550"
+title: "Phát hành Ruby 1.9.3-p550"
 author: "usa"
-translator: "hoasung01"
+translator:
 date: 2014-10-27 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo phát hành ấn bản Ruby 1.9.3-p550.
+Chúng tôi vui mừng thông báo phát hành Ruby 1.9.3-p550.
 
-Phiên bản này gồm bản vá cho lỗ hổng bảo mật DoS của REXML.
+Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
 
-* [CVE-2014-8080: Denial of Service XML Expansion](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Tấn công từ chối dịch vụ bằng mở rộng XML](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
-Bản release này gồm sự thay đổi về những thiết lập mặc định của ext/openssl.
-Các tùy chọn SSL/TLS không bảo mật đã được mặc định vô hiệu hoá.
+Bản phát hành này cũng bao gồm thay đổi cài đặt mặc định của ext/openssl.
+Các tùy chọn SSL/TLS không an toàn giờ đã bị tắt theo mặc định.
 
-* [Changed default settings of ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Thay đổi cài đặt mặc định của ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-Và bundled jQuery cho darkfish template của RDOC cũng đã được cập nhật.
+Ngoài ra, jQuery đi kèm cho template darkfish của RDoc cũng đã được cập nhật.
 
 
-## Chú ý
+## Lưu ý
 
-Ruby 1.9.3 hiện đang trong quá trình bảo trì tính bảo mật.
-Điều này có nghĩa là chúng tôi chỉ sữa những lỗi liên quan đến vấn đề bảo mật.
-Và tháng 2 năm sau, chúng tôi sẽ ngừng bảo trì Ruby 1.9.3.
-Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụng phiên bản mới hơn.
+Ruby 1.9.3 hiện đang trong giai đoạn bảo trì bảo mật.
+Điều này có nghĩa là chúng tôi không bao giờ sửa lỗi ngoại trừ các vấn đề bảo mật.
+Và, hiện tại, thời điểm kết thúc bảo trì 1.9.3 đã được lên lịch vào tháng 2 năm sau.
+Chúng tôi khuyến nghị người dùng Ruby 1.9.3 nên di chuyển sang phiên bản mới hơn càng sớm càng tốt.
 
 
 ## Tải về
@@ -59,7 +59,7 @@ Chúng tôi khuyến cáo người dùng Ruby 1.9.3 nên chuyển qua sử dụn
       SHA256: 6e7eceddca615c19f81c125f9864de3570b9687df858cfb27298d867521d5beb
       SHA512: 0daa8fafa950f1e6ddf79815a615c7d730d234042718bd70e8211e4c23d7cc93126c924ad42673844c3a8cb908bf02a8d03ae2857658a027935f46c13bb17a13
 
-## Chú thích
+## Ghi chú phát hành
 
-Tôi chân thành cảm ơn những người hỗ trợ Ruby.
+Tôi biết ơn tất cả những ai hỗ trợ Ruby.
 Cảm ơn.

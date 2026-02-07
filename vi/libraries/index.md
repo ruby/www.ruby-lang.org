@@ -4,55 +4,65 @@ title: "Thư viện"
 lang: vi
 ---
 
-Như những ngôn ngữ lập trình khác, Ruby có một lượng lớn thư viện không thuộc
-thư viện lõi.
+Giống như hầu hết các ngôn ngữ lập trình, Ruby tận dụng một bộ thư viện
+bên thứ ba phong phú.
 {: .summary}
 
-Hầu hết được phát hành dưới dạng **gem**. [**RubyGems**][1] là hệ thống đóng gói
-Ruby giúp tạo, chia sẻ và cài đặt thư viện (ở dưới một góc độ nào đó thì nó là
-hệ thống phân phối gói, giống như `apt-get`, nhưng tập trung chỉ vào phần mềm Ruby).
-Từ phiên bản 1.9, Ruby có kèm RubyGems vào cùng, trong khi đó những phiên bản thì
-phải [cài đặt riêng][2].
+Hầu như tất cả các thư viện này được phát hành dưới dạng **gem**,
+một thư viện hoặc ứng dụng được đóng gói có thể được cài đặt bằng công cụ
+có tên [**RubyGems**][1].
 
-Nhiều thư viện khác được phát hành dưới hình thức gói lưu trữ (.zip hay .tar.gz)
-của **mã nguồn**. Phương thức cài đặt có thể khác nhưng hầu hết hướng dẫn cài
-đặt được viết trong `README` hay `INSTALL`.
+RubyGems là hệ thống đóng gói Ruby được thiết kế để hỗ trợ việc tạo,
+chia sẻ và cài đặt thư viện (theo một cách nào đó, nó là hệ thống đóng gói
+phân phối tương tự như `apt-get`, nhưng nhắm đến phần mềm Ruby).
+Ruby đi kèm với RubyGems mặc định từ phiên bản 1.9, các phiên bản Ruby
+trước đó cần [cài đặt RubyGems thủ công][2].
 
-Nào bây giờ hãy cùng tìm thư viện và cài đặt chúng theo yêu cầu sử dụng của bạn.
+Một số thư viện khác được phát hành dưới dạng thư mục nén (.zip hoặc .tar.gz)
+chứa **mã nguồn**. Quy trình cài đặt có thể khác nhau,
+thường sẽ có tệp `README` hoặc `INSTALL` kèm hướng dẫn.
 
-### Tìm thư viện
+Hãy cùng tìm hiểu cách tìm kiếm thư viện và cài đặt chúng để sử dụng.
 
-Địa điểm chính nơi thư viện được phát hành là [**RubyGems.org**][1],
-hệ thống này cung cấp thư viện Ruby dưới dạng gem. Bạn có thể xem trang web trực
-tiếp hoặc thông qua lệnh `gem`.
+### Tìm kiếm thư viện
 
-Sử dụng `gem search -r` để tra cứu repository của RubyGems. Ví dụ,
-`gem search -r rails` sẽ trả về một danh sách những gem liên quan đến Rails.
-Nếu khai báo lệnh với lựa chọn `--local` (`-l`) để tìm kiếm trong những gem đã
-được cài đặt trên máy. Để cài một gem, dùng `gem install
-[gem]`. Xem những gem đã cài trên máy với lệnh `gem list`. Để biết thêm chi tiết
-về lệnh `gem`, xin hãy tham khảo ở dưới hoặc xem [Tài liệu RubyGems][3].
+Nơi chính để lưu trữ thư viện là [**RubyGems.org**][1], một kho gem công khai
+có thể tìm kiếm và cài đặt vào máy của bạn.
+Bạn có thể duyệt và tìm kiếm gem qua trang web RubyGems,
+hoặc sử dụng lệnh `gem`.
 
-Có nhiều nguồn thư viện. [RubyForge][4] từng là nhà của rất nhiều thư viện phổ
-dụng, nhưng nhũng năm gần đây chứng kiến [**GitHub**][5] lên ngôi như là một
-trung tâm lưu trữ tất cả nội dung liên quan đến Ruby. Hầu hết mã nguồn của gem
-đều được để trên GitHub trong khi gem ở dạng đóng gói thì được phát hành trên
-RubyGems.org.
+Sử dụng `gem search -r`, bạn có thể tìm kiếm trong kho RubyGems. Ví dụ,
+`gem search -r rails` sẽ trả về danh sách các gem liên quan đến Rails.
+Với tùy chọn `--local` (`-l`), bạn có thể tìm kiếm cục bộ trong các gem
+đã cài đặt. Để cài đặt một gem, sử dụng `gem install [gem]`.
+Xem danh sách gem đã cài đặt bằng `gem list`. Để biết thêm thông tin
+về lệnh `gem`, xem phần bên dưới hoặc truy cập
+[tài liệu RubyGems][3].
 
-[Ruby Application Archive][6] (hay RAA) là danh mục tất cả mọi thứ về phần mềm
-Ruby, sắp xếp theo chức năng. Tuy nhưng trang này không còn được sử dụng nữa. Có
-lẽ bạn không bỏ qua trang này.
+Ngoài ra còn có các nguồn thư viện khác.
+[**GitHub**][5] là kho lưu trữ nội dung liên quan đến Ruby chính.
+Thông thường mã nguồn của gem sẽ được lưu trữ trên GitHub đồng thời
+được phát hành dưới dạng gem đầy đủ trên RubyGems.org.
 
-### Một vài lời về RubyGems
+[**The Ruby Toolbox**][6] là một dự án giúp dễ dàng khám phá các dự án
+Ruby mã nguồn mở. Nó có các danh mục cho nhiều tác vụ phát triển phổ biến,
+thu thập nhiều thông tin về các dự án như hoạt động phát hành, commit
+hay các phụ thuộc và đánh giá các dự án dựa trên mức độ phổ biến trên
+RubyGems.org và GitHub. Điều này giúp dễ dàng tìm được gem giải quyết
+một vấn đề cụ thể như framework web, công cụ tài liệu và
+thư viện kiểm tra chất lượng mã.
 
-Sau đây là một bài hướng dẫn nhanh về lệnh `gem` trong sử dụng hàng ngày.
-[Nhiều tài liệu chi tiết hơn][7] chỉ ra những khía cạnh sâu của hệ thống gói này.
+### Thêm vài điều về RubyGems
 
-#### Tìm kiếm gem
+Dưới đây là tổng quan nhanh về lệnh `gem` cho việc sử dụng hàng ngày.
+[Tài liệu chi tiết hơn][7] có sẵn, bao gồm mọi khía cạnh
+của hệ thống đóng gói này.
 
-Lệnh **search** được dùng để tìm gem, theo một từ khoá.
-Gems mà tên bắt đầu với từ chỉ định sẽ được trả về.
-Ví dụ, tìm những gem liên quan từ khoá “html”:
+#### Tìm kiếm trong các gem có sẵn
+
+Lệnh **search** có thể được dùng để tìm gem, dựa trên một chuỗi ký tự.
+Các gem có tên bắt đầu bằng chuỗi được chỉ định sẽ được liệt kê.
+Ví dụ, để tìm các gem liên quan đến "html":
 
 {% highlight sh %}
 $ gem search -r html
@@ -62,19 +72,22 @@ $ gem search -r html
 html-sample (1.0, 1.1)
 {% endhighlight %}
 
-Cờ `--remote` / `-r` chỉ định là chúng ta muốn kiểm tra trên repository
-của RubyGems.org (mặc định).
-Với cờ `--local` / `-l` bạn sẽ tìm gem chỉ được cài trên máyc của bạn.
+Cờ `--remote` / `-r` cho biết rằng chúng ta muốn tìm trong
+kho RubyGems.org chính thức (hành vi mặc định).
+Với cờ `--local` / `-l`, bạn có thể tìm kiếm cục bộ
+trong các gem đã cài đặt.
 
-#### Cài đặt gem
+#### Cài đặt một gem
 
-Khi bạn biết gem nào cần **cài đặt**, ví dụ gem Rails:
+Khi bạn đã biết gem nào muốn **cài đặt**, ví dụ framework
+Ruby on Rails phổ biến:
 
 {% highlight sh %}
 $ gem install rails
 {% endhighlight %}
 
-Bạn có thể cài một phiên bản nhất định của gem, với cờ `--version` / `-v`:
+Bạn thậm chí có thể cài đặt một phiên bản cụ thể của thư viện, sử dụng
+cờ `--version` / `-v`:
 
 {% highlight sh %}
 $ gem install rails --version 5.0
@@ -82,41 +95,41 @@ $ gem install rails --version 5.0
 
 #### Liệt kê tất cả gem
 
-Muốn có một **danh sách** gem đã cài trên máy:
+Để xem **danh sách** tất cả gem đã cài đặt cục bộ:
 
 {% highlight sh %}
 $ gem list
 {% endhighlight %}
 
-Để lấy danh sách các gem trên RubyGems.org:
+Để xem danh sách (rất dài) tất cả gem có sẵn trên RubyGems.org:
 
 {% highlight sh %}
 $ gem list -r
 {% endhighlight %}
 
-#### Giúp!
+#### Trợ giúp!
 
-Tài liệu có thể được truy cập trong terminal với:
+Tài liệu hướng dẫn có sẵn ngay trong terminal của bạn:
 
 {% highlight sh %}
 $ gem help
 {% endhighlight %}
 
-Ví dụ, `gem help commands` sẽ liệt kê ra các lệnh của `gem`.
+Ví dụ, `gem help commands` rất hữu ích vì nó hiển thị danh sách
+tất cả các lệnh của `gem`.
 
-#### Tạo ra gem riêng của bạn
+#### Tạo gem của riêng bạn
 
-RubyGems.org có một vài [hướng dẫn][3] về chủ đề này. Bạn có thể tra khảo về
-[Bundler][9], một công cụ giúp quản lý các phần mềm yêu cầu và có thể sử dụng
-cùng với RubyGems.
+RubyGems.org có [một số hướng dẫn][3] về chủ đề này. Bạn cũng có thể
+muốn tìm hiểu [Bundler][9], một công cụ đa năng giúp bạn quản lý
+các phụ thuộc của ứng dụng và có thể sử dụng cùng với RubyGems.
 
 
 
 [1]: https://rubygems.org/
 [2]: https://rubygems.org/pages/download/
 [3]: http://guides.rubygems.org/
-[4]: http://rubyforge.org/
 [5]: https://github.com/
-[6]: http://raa.ruby-lang.org/
+[6]: https://www.ruby-toolbox.com/
 [7]: http://guides.rubygems.org/command-reference/
 [9]: http://bundler.io/

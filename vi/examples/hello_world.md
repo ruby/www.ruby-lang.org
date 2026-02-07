@@ -3,16 +3,15 @@ layout: null
 ---
 
 {% highlight ruby %}
-# Chương trình in ra
-# câu Xin Chào Thế Giới
-# được viết dễ dàng
-# với Ruby. Bao gồm:
+# Chương trình Hello World
+# nổi tiếng rất đơn giản
+# trong Ruby. Không cần:
 #
-# * Hàm "chính"
-# * Xuống dòng
+# * Phương thức "main"
+# * Ký tự xuống dòng
 # * Dấu chấm phẩy
 #
-# Code như sau:
+# Đây là mã nguồn:
 
-puts "Xin chào thế giới!"
+puts "Hello World!"
 {% endhighlight %}

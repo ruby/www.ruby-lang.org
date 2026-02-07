@@ -2,16 +2,22 @@
 layout: news_post
 title: "Google Summer of Code 2015"
 author: "Federico Builes"
-translator: "Nguyễn Đức Giang"
+translator:
 date: 2015-03-06 10:48:37 +0000
 lang: vi
 ---
 
-Ruby sẽ là một trong những tổ chức hàng đầu góp mặt trong sự kiện [Google Summer of Code 2015][gsoc]. Chúng tôi tham gia với vai trò bảo trợ cho các dự án liên quan tới Ruby bao gồm [Ruby][ruby-ideas], [JRuby][jruby-ideas], [Celluloid][celluloid] và [một số dự án khác][ideas]. Sinh viên có thể gửi đăng kí từ ngày 16/3 tới ngày 27/3 (xem [lịch chương trình][timeline]).
+Ruby sẽ tham gia [Google Summer of Code 2015][gsoc] với tư cách là một tổ chức cấp cao nhất. Chúng tôi sẽ đóng vai trò là tổ chức bảo trợ cho các dự án liên quan đến Ruby bao gồm [Ruby][ruby-ideas], [JRuby][jruby-ideas], [Celluloid][celluloid] và
+[các dự án khác][ideas]. Đơn ứng tuyển của sinh viên có thể được gửi bắt đầu từ ngày 16 tháng 3 và hạn chót là ngày 27 tháng 3
+(xem [lịch trình][timeline]).
 
-Nếu các bạn muốn tham gia sự kiện với tư cách sinh viên hoặc cố vấn (mentor) vui lòng tham gia [mailing list][ml] của chúng tôi. Các bạn có thể tìm thấy danh mục các ý tưởng cho dự án tại [RubyGSoC wiki][ideas].
+Nếu bạn quan tâm tham gia với tư cách là sinh viên hoặc người hướng dẫn, vui lòng tham gia
+[danh sách thư][ml] của chúng tôi. Bạn có thể tìm danh sách ý tưởng cho các dự án tại [wiki RubyGSoC][ideas].
 
-Trong chương trình năm nay, [Ruby on Rails][ror] và [SciRuby][sciruby] cũng sẽ tham gia và nằm trong nhóm các tổ chức hàng đầu. Vì vậy nếu ý tưởng của các bạn phù hợp với các dự án này hơn, xin hãy vui lòng theo dõi các thông báo của họ [tại đây][ror-announcement] và [tại đây][sciruby-ideas].
+[Ruby on Rails][ror] và [SciRuby][sciruby] cũng sẽ tham gia cùng chúng tôi với tư cách
+tổ chức cấp cao nhất trong chương trình năm nay. Nếu bạn có ý tưởng phù hợp hơn với các dự án này, vui lòng đọc
+[các][ror-announcement] [thông báo][sciruby-ideas] tương ứng của họ.
+
 
 [gsoc]: http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/about_page
 [timeline]: http://www.google-melange.com/gsoc/events/google/gsoc2015

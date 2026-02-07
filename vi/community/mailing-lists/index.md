@@ -4,38 +4,43 @@ title: "Hộp thư chung"
 lang: vi
 ---
 
-Hộp thư chung luôn là nơi tốt nhất để giúp bạn hòa nhịp với cộng đồng Ruby.
+Hộp thư chung là một cách tuyệt vời để nắm bắt nhịp đập của cộng
+đồng Ruby.
 {: .summary}
 
-Ruby có 4 hộp thư sử dụng tiếng Anh là ngôn ngữ chính sau :
+Ruby có bốn hộp thư chung chính bằng tiếng Anh:
 
 Ruby-Talk
-: Đây là hộp thư phổ biến nhất với các chủ đề chung về Ruby.
-  ([Lưu trữ][3])
+: Đây là hộp thư chung phổ biến nhất và bàn về các chủ đề chung về
+  Ruby. ([Lưu trữ][3], [Hướng dẫn đăng bài][guidelines], [Lưu trữ cộng đồng][rubytalk])
 
 Ruby-Core
-: Danh sách này có rất nhiều chủ đề về Ruby core và cách xử lý,
-  thường được dùng để thử nghiệm các bản vá lỗi. ([Lưu trữ][4])
+: Hộp thư chung này bàn về lõi và các chủ đề triển khai của Ruby,
+  thường được sử dụng để gửi bản vá để xem xét. ([Lưu trữ][4])
 
 Ruby-Doc
-: Danh sách này thảo luận các tiêu chuẩn về tài liệu cũng như công cụ cho
-  Ruby. ([Lưu trữ][5])
+: Hộp thư chung này dùng để thảo luận về tiêu chuẩn và công cụ tài
+  liệu cho Ruby. ([Lưu trữ][5])
 
 Ruby-CVS
-: Danh sách này báo cáo tất cả các commit được lưu trữ tại Ruby-CVS.
+: Hộp thư chung này báo cáo tất cả các commit vào kho lưu trữ
+  Subversion của Ruby.
 
-The comp.lang.ruby Newsgroup
-: Những ai thích Usenet(Unix User Network - hệ thống bảng tin điện tử trên
-  phạm vi toàn thế giới) hơn là thông qua hộp thư chung sẽ cần đến nhóm tin
-  [comp.lang.ruby](news:comp.lang.ruby).
+Nhóm tin comp.lang.ruby
+: Những ai thích Usenet hơn hộp thư chung có thể xem nhóm tin
+  [comp.lang.ruby](news:comp.lang.ruby). ([FAQ][clrFAQ])
+
+## Đăng ký hoặc Hủy đăng ký
+
+Xem [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
+để biết thêm thông tin về tất cả các hộp thư chung trên ruby-lang.org,
+bao gồm cả các danh sách bằng tiếng Nhật.
 
 
-## Đăng ký theo dõi hoặc Hủy đăng ký
 
-[Đăng ký theo dõi hoặc Hủy đăng ký](https://ml.ruby-lang.org/mailman3/lists/)
-
-
-
+[guidelines]: ruby-talk-guidelines/
+[clrFAQ]: http://rubyhacker.com/clrFAQ.html
 [3]: https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/
 [4]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org/
 [5]: https://ml.ruby-lang.org/archives/list/ruby-doc@ml.ruby-lang.org/
+[rubytalk]: https://rubytalk.org/

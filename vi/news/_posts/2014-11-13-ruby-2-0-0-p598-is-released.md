@@ -1,26 +1,27 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.0.0-p598"
+title: "Phát hành Ruby 2.0.0-p598"
 author: "usa"
-translator: "Victor Tran"
+translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi rất vui mừng ra mắt phiên bản Ruby 2.0.0-p598.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p598.
 
-Phiên bản này bao gồm bản vá lỗ hổng bảo mật từ chối dịch vụ REXML.
-Tương tự như
-[lỗ hổng đã được vá](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-0-0-p594-is-released/),
-nhưng phiên bản này giải quyết vấn đề thực thể giãn nở.
-Các bạn có thể xem thêm chi tiết ở chủ đề bên dưới.
+Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
+Nó tương tự với
+[lỗ hổng đã được sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [bản phát hành trước](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-0-0-p594-is-released/),
+nhưng xử lý một trường hợp khác của mở rộng entity.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
-Một số lỗi khác cũng đã được sửa.
-Xem thêm chi tiết trong [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog).
+Ngoài ra, một số bản sửa lỗi cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+để biết chi tiết.
 
 ## Tải về
 
@@ -52,7 +53,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog).
       SHA256: d5bdafd7b0fbd4254902ba10385c6e5812beac4ad221805aa4d92a37eff47f97
       SHA512: 6cdaf7f2d27a5f0ead9b94325b9c9fe90cf04c64dedaea8e1d45a8855a73ad61c5c72f1fda835eab73693c25c15a74c7e4e639ed5c18a9433dd79e398600b3ea
 
-## Ý kiến cho phiên bản này
+## Ghi chú phát hành
 
-Xin lỗi nếu sự ra mắt các phiên bản một cách thường xuyên gây ra bất tiện cho các bạn.
-Cảm ơn tất cả mọi người đã đóng góp công sức để ra mắt phiên bản này.
+Xin lỗi vì sự bất tiện khi phát hành thường xuyên.
+Cảm ơn mọi người đã giúp đỡ cho bản phát hành.

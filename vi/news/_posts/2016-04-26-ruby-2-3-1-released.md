@@ -2,18 +2,18 @@
 layout: news_post
 title: "Phát hành Ruby 2.3.1"
 author: "nagachika"
-translator: "Nguyễn Đức Giang"
+translator:
 date: 2016-04-26 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi vừa phát hành Ruby 2.3.1.
+Ruby 2.3.1 đã được phát hành.
 
-Đây là phiên bản TEENY (chú thích: cách gọi vui của minor version)
-đầu tiên của sê-ri 2.3.
+Đây là phiên bản TEENY đầu tiên của dòng 2.3 ổn định.
 
-Phiên bản này bao gồm nhiều bản vá lỗi, được liệt kê đầy đủ trong
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog).
+Có nhiều bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+để biết chi tiết.
 
 ## Tải về
 
@@ -45,8 +45,7 @@ Phiên bản này bao gồm nhiều bản vá lỗi, được liệt kê đầy 
       SHA256: 4c8ae431b33f78d64cabb31911e0890e9a3ac380b4f22b11738f9baeeda51763
       SHA512: a26d3ab5983c6f3ea454e3e75554137305525479e4c15c0ae424689e870e2c5a9f0fe194975cf362cc5528ce601e31a0a15b87c7af200fd0d1da17459435b953
 
-## Lời nhắn
+## Ghi chú phát hành
 
-Xin gửi lời cảm ơn tới các cộng tác viên, các nhà phát triển,
-và những người dùng đã cung cấp thông báo lỗi,
-đã giúp chúng tôi có thể phát hành phiên bản này.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

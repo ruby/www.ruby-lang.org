@@ -2,25 +2,24 @@
 layout: news_post
 title: "Phát hành Ruby 2.0.0-p576"
 author: "usa"
-translator: "Vinh Nguyễn"
+translator:
 date: 2014-09-19 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo phát hành Ruby 2.0.0-p576 để chào mừng
-việc tổ chức [RubyKaigi2014](http://rubykaigi.org/2014) tại Nhật Bản.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p576, để chào mừng việc
+tổ chức [RubyKaigi2014](http://rubykaigi.org/2014) tại Nhật Bản.
 
-Lần phát hành này bao gồm nhiều bản sửa lỗi, chẳng hạn như:
+Bản phát hành này bao gồm nhiều bản sửa lỗi, như:
 
-* các bản sửa lỗi về rò rỉ bộ nhớ (memory leaks) và sử dụng nhiều bộ nhớ (extra memory),
-* các bản sửa lỗi đi sâu vào nền tảng (platform-specific issue) - đặc biệt
-  là trong quá trình xây dựng (build process),
-* sửa các lỗi về tài liệu.
+* nhiều bản sửa lỗi rò rỉ bộ nhớ và sử dụng bộ nhớ dư thừa,
+* nhiều bản sửa lỗi liên quan đến nền tảng cụ thể (đặc biệt trong quá trình build),
+* nhiều bản sửa lỗi tài liệu.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) để biết thêm chi tiết.
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p576.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p576.tar.bz2)
 
@@ -41,7 +40,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) 
       SIZE:   8318772 bytes
       MD5:    d64d6a92d6101c83396ef4a2754d9d2a
       SHA256: 4aeac1cbca1b5ead0ace5625ba5ea50bb11ee6f8c41ff7cd305f7ff760e09496
-      SHA512: e556435df9e6b4aae1ad27f986307a5aa6718b4b6a3365f6572b1eb3be72f1fa7cdda3cf5b9c142b878617770497ea2660595f505d1fe6924dcffacb5ccabecf
+      SHA512: cd7e52faa464df8aca7ccfa23a5f06248e1ad82bc8c9f1829aa1b51ff37b15973b8caaa68e914d837325b8d59427fda4f3cad82c50925e1c84e688324a2a155d
 
 * [https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p576.zip](https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p576.zip)
 
@@ -50,6 +49,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) 
       SHA256: cb0166d9afb0126612dff10d15848483984df4900c1b34cd053b1be6893ea38b
       SHA512: adce5f044283e97fccbc80c770f999d20e366f7ee8e13782ca71490b5a16198ae0cdbc6df7419f085e2f7adea30552704141d37496cefcb9b147802b55d3ff82
 
-## Chú thích về lần phát hành:
+## Ghi chú phát hành
 
-Cảm ơn sự hỗ trợ về Ruby của mọi người.
+Tôi biết ơn tất cả những ai hỗ trợ Ruby.
+Cảm ơn.
