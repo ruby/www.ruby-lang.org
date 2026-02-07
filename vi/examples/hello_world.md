@@ -3,15 +3,15 @@ layout: null
 ---
 
 {% highlight ruby %}
-# The famous Hello World
-# Program is trivial in
-# Ruby. Superfluous:
+# Chương trình Hello World
+# nổi tiếng rất đơn giản
+# trong Ruby. Không cần:
 #
-# * A "main" method
-# * Newline
-# * Semicolons
+# * Phương thức "main"
+# * Ký tự xuống dòng
+# * Dấu chấm phẩy
 #
-# Here is the Code:
+# Đây là mã nguồn:
 
 puts "Hello World!"
 {% endhighlight %}
