@@ -7,7 +7,7 @@ date: 2025-12-23 00:00:00 +0000
 lang: vi
 ---
 
-Tiếp theo [việc thiết kế lại ruby-lang.org](https://www.ruby-lang.org/en/news/2025/12/22/redesign-site-identity/), chúng tôi có thêm tin vui để kỷ niệm 30 năm Ruby: [docs.ruby-lang.org][ruby-doc] có diện mạo hoàn toàn mới với Aliki—giao diện mặc định mới của [RDoc](https://github.com/ruby/rdoc).
+Tiếp theo [việc thiết kế lại ruby-lang.org](https://www.ruby-lang.org/vi/news/2025/12/22/redesign-site-identity/), chúng tôi có thêm tin vui để kỷ niệm 30 năm Ruby: [docs.ruby-lang.org][ruby-doc] có diện mạo hoàn toàn mới với Aliki—giao diện mặc định mới của [RDoc](https://github.com/ruby/rdoc).
 
 ## Diện mạo mới cho tài liệu Ruby
 

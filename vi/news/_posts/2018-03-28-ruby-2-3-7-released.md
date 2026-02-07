@@ -12,13 +12,13 @@ Ruby 2.3.7 đã được phát hành.
 Bản phát hành này bao gồm khoảng 70 bản sửa lỗi sau bản phát hành trước, và cũng bao gồm một số bản sửa lỗi bảo mật.
 Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 
-* [CVE-2017-17742: Lỗ hổng tách phản hồi HTTP trong WEBrick](/en/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
-* [CVE-2018-8777: Tấn công DoS bằng yêu cầu lớn trong WEBrick](/en/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
-* [CVE-2018-6914: Tạo tệp và thư mục ngoài ý muốn với duyệt thư mục trong tempfile và tmpdir](/en/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
-* [CVE-2018-8778: Lỗ hổng đọc dưới bộ đệm trong String#unpack](/en/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
-* [CVE-2018-8779: Tạo socket ngoài ý muốn bằng byte NUL độc hại trong UNIXServer và UNIXSocket](/en/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
-* [CVE-2018-8780: Duyệt thư mục ngoài ý muốn bằng byte NUL độc hại trong Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
-* [Nhiều lỗ hổng bảo mật trong RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
+* [CVE-2017-17742: Lỗ hổng tách phản hồi HTTP trong WEBrick](/vi/news/2018/03/28/http-response-splitting-in-webrick-cve-2017-17742/)
+* [CVE-2018-8777: Tấn công DoS bằng yêu cầu lớn trong WEBrick](/vi/news/2018/03/28/large-request-dos-in-webrick-cve-2018-8777/)
+* [CVE-2018-6914: Tạo tệp và thư mục ngoài ý muốn với duyệt thư mục trong tempfile và tmpdir](/vi/news/2018/03/28/unintentional-file-and-directory-creation-with-directory-traversal-cve-2018-6914/)
+* [CVE-2018-8778: Lỗ hổng đọc dưới bộ đệm trong String#unpack](/vi/news/2018/03/28/buffer-under-read-unpack-cve-2018-8778/)
+* [CVE-2018-8779: Tạo socket ngoài ý muốn bằng byte NUL độc hại trong UNIXServer và UNIXSocket](/vi/news/2018/03/28/poisoned-nul-byte-unixsocket-cve-2018-8779/)
+* [CVE-2018-8780: Duyệt thư mục ngoài ý muốn bằng byte NUL độc hại trong Dir](/vi/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
+* [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog) để biết chi tiết.
 

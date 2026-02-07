@@ -11,12 +11,12 @@ Chúng tôi vui mừng thông báo phát hành Ruby 1.9.3-p550.
 
 Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
 
-* [CVE-2014-8080: Tấn công từ chối dịch vụ bằng mở rộng XML](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
+* [CVE-2014-8080: Tấn công từ chối dịch vụ bằng mở rộng XML](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
 
 Bản phát hành này cũng bao gồm thay đổi cài đặt mặc định của ext/openssl.
 Các tùy chọn SSL/TLS không an toàn giờ đã bị tắt theo mặc định.
 
-* [Thay đổi cài đặt mặc định của ext/openssl](https://www.ruby-lang.org/en/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Thay đổi cài đặt mặc định của ext/openssl](https://www.ruby-lang.org/vi/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 Ngoài ra, jQuery đi kèm cho template darkfish của RDoc cũng đã được cập nhật.
 

@@ -665,6 +665,6 @@ và được sử dụng trên toàn thế giới, đặc biệt cho phát tri�
 [GH-rubygems-6149]:   https://github.com/rubygems/rubygems/pull/6149
 [GH-rubygems-6167]:   https://github.com/rubygems/rubygems/pull/6167
 [sec-156615]:         https://hackerone.com/reports/156615
-[CVE-2021-33621]:     https://www.ruby-lang.org/en/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/
+[CVE-2021-33621]:     https://www.ruby-lang.org/vi/news/2022/11/22/http-response-splitting-in-cgi-cve-2021-33621/
 [wasm/README.md]:     https://github.com/ruby/ruby/blob/master/wasm/README.md
 [ruby.wasm]:          https://github.com/ruby/ruby.wasm

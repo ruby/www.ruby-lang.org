@@ -18,11 +18,11 @@ Bản phát hành này bao gồm nhiều bản sửa lỗi.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) để biết chi tiết.
 
-Theo [chính sách đánh số phiên bản đã thay đổi của Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/) đã công bố trước đó,
+Theo [chính sách đánh số phiên bản đã thay đổi của Ruby 2.1](https://www.ruby-lang.org/vi/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/) đã công bố trước đó,
 phiên bản này đơn giản được gọi là "2.1.1".
 
 **Cập nhật:** Chúng tôi nhận thấy một lỗi hồi quy trong `Hash#reject`. Để biết thêm chi tiết, xem:
-[Lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
+[Lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/vi/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/).
 
 ## Tải về
 

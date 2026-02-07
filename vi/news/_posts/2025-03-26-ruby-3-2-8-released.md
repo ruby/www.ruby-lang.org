@@ -7,7 +7,7 @@ date: 2025-03-26 04:45:01 +0000
 lang: vi
 ---
 
-Ruby 3.2.8 đã được phát hành. Bản phát hành này bao gồm [các bản sửa CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/).
+Ruby 3.2.8 đã được phát hành. Bản phát hành này bao gồm [các bản sửa CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221](https://www.ruby-lang.org/vi/news/2025/02/26/security-advisories/).
 
 Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_2_8) để biết thêm chi tiết.
 

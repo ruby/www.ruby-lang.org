@@ -11,7 +11,7 @@ Ruby 3.3.9 đã được phát hành.
 
 Bản phát hành này bao gồm bản sửa lỗi bảo mật sau của các gem mặc định:
 
-* [CVE-2025-24294: Khả năng tấn công từ chối dịch vụ trong gem resolv](https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
+* [CVE-2025-24294: Khả năng tấn công từ chối dịch vụ trong gem resolv](https://www.ruby-lang.org/vi/news/2025/07/08/dos-resolv-cve-2025-24294/)
 
 và các bản sửa lỗi sau cho các vấn đề biên dịch:
 

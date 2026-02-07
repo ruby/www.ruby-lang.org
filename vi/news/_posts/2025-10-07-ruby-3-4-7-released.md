@@ -9,7 +9,7 @@ lang: vi
 
 Ruby 3.4.7 đã được phát hành.
 
-Bản phát hành này bao gồm [bản cập nhật gem uri xử lý CVE-2025-61594](https://www.ruby-lang.org/en/news/2025/10/07/uri-cve-2025-61594/),
+Bản phát hành này bao gồm [bản cập nhật gem uri xử lý CVE-2025-61594](https://www.ruby-lang.org/vi/news/2025/10/07/uri-cve-2025-61594/),
 cùng với các bản sửa lỗi khác. Vui lòng tham khảo [ghi chú phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_7) để biết thêm chi tiết.
 
 Chúng tôi khuyến nghị cập nhật phiên bản gem uri của bạn. Bản phát hành này được thực hiện để thuận tiện cho những ai muốn tiếp tục sử dụng nó như một gem mặc định.

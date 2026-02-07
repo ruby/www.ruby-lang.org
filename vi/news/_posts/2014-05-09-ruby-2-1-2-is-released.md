@@ -10,7 +10,7 @@ lang: vi
 Chúng tôi vui mừng thông báo phát hành Ruby 2.1.2.
 
 Bản phát hành này chứa bản sửa cho
-[lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
+[lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/vi/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
 hỗ trợ build với Readline-6.3
 (xem [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
 phiên bản libyaml đi kèm đã được cập nhật với psych, và một số bản sửa lỗi.

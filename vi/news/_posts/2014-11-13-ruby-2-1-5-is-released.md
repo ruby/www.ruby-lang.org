@@ -11,11 +11,11 @@ Ruby 2.1.5 đã được phát hành.
 
 Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
 Nó tương tự với
-[lỗ hổng đã được sửa](https://www.ruby-lang.org/en/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [bản phát hành trước](https://www.ruby-lang.org/en/news/2014/10/27/ruby-2-1-4-released/),
+[lỗ hổng đã được sửa](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [bản phát hành trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/),
 nhưng là lỗ hổng mới và khác biệt.
 
-* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/en/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 Ngoài ra, một số bản sửa lỗi cũng được bao gồm.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)

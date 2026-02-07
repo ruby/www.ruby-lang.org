@@ -12,7 +12,7 @@ Ruby 2.2.4 đã được phát hành.
 Bản phát hành này bao gồm bản vá bảo mật cho phần mở rộng Fiddle.
 Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
+* [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/vi/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 Ngoài ra còn có một số bản sửa lỗi.
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) để biết chi tiết.

@@ -82,7 +82,7 @@ Việc chuyển đổi tự động giữa tham số từ khóa và tham số v�
 đã bị phản đối, và việc chuyển đổi sẽ bị loại bỏ trong Ruby 3.
 [[Feature #14183]](https://bugs.ruby-lang.org/issues/14183)
 
-Xem bài viết "[Separation of positional and keyword arguments in Ruby 3.0](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)" để biết chi tiết.
+Xem bài viết "[Separation of positional and keyword arguments in Ruby 3.0](https://www.ruby-lang.org/vi/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/)" để biết chi tiết.
 Chỉ các thay đổi được liệt kê như sau.
 
 * Khi một lời gọi phương thức truyền một Hash ở tham số cuối cùng, và khi nó

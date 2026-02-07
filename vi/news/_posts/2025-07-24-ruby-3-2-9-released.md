@@ -11,8 +11,8 @@ Ruby 3.2.9 đã được phát hành.
 
 Bản phát hành này bao gồm các bản sửa bảo mật sau:
 
-* [CVE-2025-24294: Khả năng Từ chối Dịch vụ trong gem resolv](https://www.ruby-lang.org/en/news/2025/07/08/dos-resolv-cve-2025-24294/)
-* [CVE-2025-43857: Lỗ hổng DoS trong net-imap](https://www.ruby-lang.org/en/news/2025/04/28/dos-net-imap-cve-2025-43857/)
+* [CVE-2025-24294: Khả năng Từ chối Dịch vụ trong gem resolv](https://www.ruby-lang.org/vi/news/2025/07/08/dos-resolv-cve-2025-24294/)
+* [CVE-2025-43857: Lỗ hổng DoS trong net-imap](https://www.ruby-lang.org/vi/news/2025/04/28/dos-net-imap-cve-2025-43857/)
 
 và các bản sửa lỗi build sau:
 

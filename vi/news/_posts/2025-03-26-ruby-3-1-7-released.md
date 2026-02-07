@@ -7,7 +7,7 @@ date: 2025-03-26 04:44:27 +0000
 lang: vi
 ---
 
-Ruby 3.1.7 đã được phát hành. Bản phát hành này bao gồm [các bản sửa CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221](https://www.ruby-lang.org/en/news/2025/02/26/security-advisories/) và cập nhật các gem REXML và RSS đi kèm.
+Ruby 3.1.7 đã được phát hành. Bản phát hành này bao gồm [các bản sửa CVE-2025-27219, CVE-2025-27220 và CVE-2025-27221](https://www.ruby-lang.org/vi/news/2025/02/26/security-advisories/) và cập nhật các gem REXML và RSS đi kèm.
 
 Vui lòng xem [các bản phát hành trên GitHub](https://github.com/ruby/ruby/releases/tag/v3_1_7) để biết thêm chi tiết.
 

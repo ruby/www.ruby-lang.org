@@ -26,7 +26,7 @@ p SubHash.new.reject { }.class
 không được sao chép.)
 
 Ruby 2.1.1 không nên bao gồm các thay đổi hành vi như vậy, bởi vì với việc
-phát hành Ruby 2.1.0 chúng tôi đã [thay đổi chính sách đánh số phiên bản](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
+phát hành Ruby 2.1.0 chúng tôi đã [thay đổi chính sách đánh số phiên bản](https://www.ruby-lang.org/vi/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 vì vậy Ruby 2.1.1 là bản phát hành cấp patch và không nên phá vỡ tương thích ngược.
 
 Lỗi hồi quy này có thể ảnh hưởng đến nhiều thư viện, một trường hợp như vậy là

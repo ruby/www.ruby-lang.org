@@ -15,7 +15,7 @@ Bản phát hành này cũng ngừng cảnh báo về các dependency gem mặc 
 
 ## Lịch trình phát hành
 
-Như đã [thông báo](https://www.ruby-lang.org/en/news/2024/07/09/ruby-3-3-4-released/) trước đó, chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 3.3) mỗi 2 tháng sau bản phát hành `.1`.
+Như đã [thông báo](https://www.ruby-lang.org/vi/news/2024/07/09/ruby-3-3-4-released/) trước đó, chúng tôi dự định phát hành phiên bản Ruby ổn định mới nhất (hiện tại là Ruby 3.3) mỗi 2 tháng sau bản phát hành `.1`.
 
 Chúng tôi dự kiến phát hành Ruby 3.3.7 vào ngày 7 tháng 1. Nếu có bất kỳ thay đổi đáng kể nào ảnh hưởng đến số lượng lớn người dùng, chúng tôi có thể phát hành phiên bản mới sớm hơn lịch trình.
 

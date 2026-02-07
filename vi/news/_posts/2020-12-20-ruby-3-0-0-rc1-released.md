@@ -211,7 +211,7 @@ end
 ## Các thay đổi đáng chú ý khác kể từ 2.7
 
 * Tham số từ khóa được tách riêng khỏi các tham số khác.
-  * Về nguyên tắc, mã hiển thị cảnh báo trên Ruby 2.7 sẽ không hoạt động. Xem [tài liệu](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) để biết chi tiết.
+  * Về nguyên tắc, mã hiển thị cảnh báo trên Ruby 2.7 sẽ không hoạt động. Xem [tài liệu](https://www.ruby-lang.org/vi/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/) để biết chi tiết.
   * Ngoài ra, chuyển tiếp tham số giờ đã hỗ trợ tham số đứng đầu.
 
     ``` ruby

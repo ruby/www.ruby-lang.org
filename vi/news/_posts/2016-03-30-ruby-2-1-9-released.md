@@ -13,7 +13,7 @@ Bản phát hành này bao gồm nhiều bản sửa lỗi.
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
 để biết chi tiết.
 
-[Như đã thông báo trước đó](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành bình thường cuối cùng của dòng Ruby 2.1.
+[Như đã thông báo trước đó](https://www.ruby-lang.org/vi/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành bình thường cuối cùng của dòng Ruby 2.1.
 Sau bản phát hành này, chúng tôi sẽ không bao giờ backport bất kỳ bản sửa lỗi nào sang 2.1 ngoại trừ các bản sửa bảo mật.
 Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.3 hoặc 2.2.
 

@@ -12,7 +12,7 @@ Ruby 2.1.8 đã được phát hành.
 Bản phát hành này bao gồm bản vá bảo mật cho phần mở rộng Fiddle và DL.
 Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
+* [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/vi/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 Ngoài ra, nhiều bản sửa lỗi cũng được bao gồm.
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog)

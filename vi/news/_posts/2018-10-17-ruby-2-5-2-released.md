@@ -11,8 +11,8 @@ Ruby 2.5.2 đã được phát hành.
 
 Bản phát hành này bao gồm một số bản sửa lỗi và một số bản sửa bảo mật.
 
-* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/en/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
-* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/en/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
+* [CVE-2018-16396: Cờ tainted không được truyền trong Array#pack và String#unpack với một số directive](/vi/news/2018/10/17/not-propagated-taint-flag-in-some-formats-of-pack-cve-2018-16396/)
+* [CVE-2018-16395: Kiểm tra bằng nhau của OpenSSL::X509::Name không hoạt động đúng](/vi/news/2018/10/17/openssl-x509-name-equality-check-does-not-work-correctly-cve-2018-16395/)
 
 Ngoài ra còn một số bản sửa lỗi khác.
 Xem [nhật ký commit](https://github.com/ruby/ruby/compare/v2_5_1...v2_5_2)

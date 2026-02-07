@@ -91,46 +91,46 @@ Các vấn đề đã biết khác:
 * [Heap overflow in String (CVE-2009-4124)][15]
   công bố ngày 7 tháng 12, 2009.
 * [DoS vulnerability in
-  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/ (CVE-2009-1904))
+  BigDecimal](/vi/news/2009/06/09/dos-vulnerability-in-bigdecimal/ (CVE-2009-1904))
   công bố ngày 9 tháng 6, 2009.
 * [DoS vulnerability (CVE-2008-3790) in
-  REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/)
+  REXML](/vi/news/2008/08/23/dos-vulnerability-in-rexml/)
   công bố ngày 23 tháng 8, 2008.
 * [Multiple vulnerabilities in
-  Ruby](/en/news/2008/08/08/multiple-vulnerabilities-in-ruby/)
+  Ruby](/vi/news/2008/08/08/multiple-vulnerabilities-in-ruby/)
   công bố ngày 8 tháng 8, 2008.
 * [Arbitrary code execution
-  vulnerabilities](/en/news/2008/06/20/arbitrary-code-execution-vulnerabilities/)
+  vulnerabilities](/vi/news/2008/06/20/arbitrary-code-execution-vulnerabilities/)
   công bố ngày 20 tháng 6, 2008.
 * [File access vulnerability of
-  WEBrick](/en/news/2008/03/03/webrick-file-access-vulnerability/)
+  WEBrick](/vi/news/2008/03/03/webrick-file-access-vulnerability/)
   công bố ngày 3 tháng 3, 2008.
 * [Net::HTTPS
-  Vulnerability](/en/news/2007/10/04/net-https-vulnerability/)
+  Vulnerability](/vi/news/2007/10/04/net-https-vulnerability/)
   công bố ngày 4 tháng 10, 2007.
 * [Another DoS Vulnerability in CGI
-  Library](/en/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
+  Library](/vi/news/2006/12/04/another-dos-vulnerability-in-cgi-library/)
   công bố ngày 4 tháng 12, 2006.
-* [DoS Vulnerability in CGI Library (CVE-2006-5467)](/en/news/2006/11/03/CVE-2006-5467/)
+* [DoS Vulnerability in CGI Library (CVE-2006-5467)](/vi/news/2006/11/03/CVE-2006-5467/)
   công bố ngày 3 tháng 11, 2006.
 * [Ruby vulnerability in the safe level
-  settings](/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
+  settings](/vi/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
   công bố ngày 2 tháng 10, 2005.
 
 
 
-[1]: /en/news/2013/02/22/rexml-dos-2013-02-22/
-[2]: /en/news/2013/02/22/json-dos-cve-2013-0269/
-[3]: /en/news/2013/02/06/rdoc-xss-cve-2013-0256/
-[4]: /en/news/2012/11/09/ruby19-hashdos-cve-2012-5371/
-[5]: /en/news/2012/10/12/poisoned-NUL-byte-vulnerability/
-[6]: /en/news/2012/10/12/cve-2012-4464-cve-2012-4466/
-[7]: /en/news/2012/04/20/ruby-1-9-3-p194-is-released/
-[8]: /en/news/2012/02/16/security-fix-for-ruby-openssl-module/
-[9]: /en/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/
-[10]: /en/news/2011/02/18/exception-methods-can-bypass-safe/
-[11]: /en/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/
-[12]: /en/news/2010/08/16/xss-in-webrick-cve-2010-0541/
-[13]: /en/news/2010/07/02/ruby-1-9-1-p429-is-released/
-[14]: /en/news/2010/01/10/webrick-escape-sequence-injection/
-[15]: /en/news/2009/12/07/heap-overflow-in-string/
+[1]: /vi/news/2013/02/22/rexml-dos-2013-02-22/
+[2]: /vi/news/2013/02/22/json-dos-cve-2013-0269/
+[3]: /vi/news/2013/02/06/rdoc-xss-cve-2013-0256/
+[4]: /vi/news/2012/11/09/ruby19-hashdos-cve-2012-5371/
+[5]: /vi/news/2012/10/12/poisoned-NUL-byte-vulnerability/
+[6]: /vi/news/2012/10/12/cve-2012-4464-cve-2012-4466/
+[7]: /vi/news/2012/04/20/ruby-1-9-3-p194-is-released/
+[8]: /vi/news/2012/02/16/security-fix-for-ruby-openssl-module/
+[9]: /vi/news/2011/12/28/denial-of-service-attack-was-found-for-rubys-hash-algorithm-cve-2011-4815/
+[10]: /vi/news/2011/02/18/exception-methods-can-bypass-safe/
+[11]: /vi/news/2011/02/18/fileutils-is-vulnerable-to-symlink-race-attacks/
+[12]: /vi/news/2010/08/16/xss-in-webrick-cve-2010-0541/
+[13]: /vi/news/2010/07/02/ruby-1-9-1-p429-is-released/
+[14]: /vi/news/2010/01/10/webrick-escape-sequence-injection/
+[15]: /vi/news/2009/12/07/heap-overflow-in-string/

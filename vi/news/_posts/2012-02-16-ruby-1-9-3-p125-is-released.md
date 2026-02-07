@@ -43,7 +43,7 @@ LƯU Ý: Đã đóng gói lại vào 2012-02-17 02:04:00 UTC để sửa [\[Bug 
 
 
 
-[1]: {{ site.url }}/en/news/2012/02/16/security-fix-for-ruby-openssl-module/
+[1]: {{ site.url }}/vi/news/2012/02/16/security-fix-for-ruby-openssl-module/
 [2]: https://bugs.ruby-lang.org/issues/show/5076
 [3]: https://bugs.ruby-lang.org/issues/show/5851
 [4]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5

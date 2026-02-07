@@ -5,7 +5,7 @@ lang: vi
 ---
 
 {% comment %}
-Not to be translated. Link to this page (/en/downloads/mirrors/) instead.
+Not to be translated. Link to this page (/vi/downloads/mirrors/) instead.
 {% endcomment %}
 
 Mã nguồn Ruby có sẵn từ một tập hợp các máy chủ nhân bản trên toàn thế giới.

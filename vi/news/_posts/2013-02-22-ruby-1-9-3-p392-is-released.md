@@ -48,8 +48,8 @@ bản phát hành này. Cảm ơn những đóng góp của họ.
 
 
 
-[1]: {{ site.url }}/en/news/2013/02/22/json-dos-cve-2013-0269/
-[2]: {{ site.url }}/en/news/2013/02/22/rexml-dos-2013-02-22/
+[1]: {{ site.url }}/vi/news/2013/02/22/json-dos-cve-2013-0269/
+[2]: {{ site.url }}/vi/news/2013/02/22/rexml-dos-2013-02-22/
 [3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
 [4]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_392/ChangeLog
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2

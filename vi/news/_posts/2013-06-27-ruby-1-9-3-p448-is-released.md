@@ -12,7 +12,7 @@ Ruby 1.9.3-p448 đã được phát hành.
 Bản phát hành này bao gồm bản sửa lỗi bảo mật về OpenSSL đi kèm:
 
  * [Lỗ hổng bỏ qua kiểm tra hostname trong SSL client
-   (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
+   (CVE-2013-4073)](/vi/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 Một số bản sửa lỗi cũng được bao gồm.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)

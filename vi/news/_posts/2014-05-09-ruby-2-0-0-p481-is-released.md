@@ -14,7 +14,7 @@ Bản phát hành này bao gồm nhiều bản sửa lỗi, như:
 * hỗ trợ build với Readline-6.3,
 * sửa lỗi cho OpenSSL cũ (lỗi hồi quy trong p451),
 * phiên bản libyaml đi kèm đã được cập nhật
-  (xem [Tràn bộ nhớ Heap trong phân tích YAML URI Escape (CVE-2014-2525)](https://www.ruby-lang.org/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
+  (xem [Tràn bộ nhớ Heap trong phân tích YAML URI Escape (CVE-2014-2525)](https://www.ruby-lang.org/vi/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) để biết chi tiết.
