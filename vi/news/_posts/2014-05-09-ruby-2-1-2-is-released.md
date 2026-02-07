@@ -41,5 +41,5 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
 
 ## Ghi chú phát hành
 
-Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp tôi thực hiện bản phát hành này.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
 Cảm ơn sự đóng góp của họ.
