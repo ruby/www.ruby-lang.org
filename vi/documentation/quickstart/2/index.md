@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tìm hiểu Ruby trong 25 phút"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
@@ -13,108 +13,115 @@ header: |
     <span class="separator"> | </span>
     <a href="../4/" title="Phần 4">4</a>
   </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
-Nếu muốn nói "Xin chào" rất nhiều mà không muốn mỏi tay, ta cần định nghĩa một
-phương thức!
+Nếu chúng ta muốn nói "Hello" thật nhiều lần mà không phải gõ mỏi tay
+thì sao? Chúng ta cần định nghĩa một method!
 
 {% highlight irb %}
-irb(main):010:0> def h
-irb(main):011:1> puts "Xin chào Thế giới!"
+irb(main):010:0> def hi
+irb(main):011:1> puts "Hello World!"
 irb(main):012:1> end
+=> :hi
+{% endhighlight %}
+
+Đoạn mã `def hi` bắt đầu việc định nghĩa method. Nó cho Ruby biết rằng
+chúng ta đang định nghĩa một method có tên là `hi`. Dòng tiếp theo là
+phần thân của method, cùng dòng mà chúng ta đã thấy trước đó:
+`puts "Hello World"`. Cuối cùng, dòng `end` cho Ruby biết chúng ta đã
+hoàn tất việc định nghĩa method. Phản hồi `=> :hi` của Ruby cho chúng
+ta biết rằng nó đã nhận biết method vừa được định nghĩa. Phản hồi này
+có thể là `=> nil` đối với Ruby 2.0 và các phiên bản trước đó. Tuy
+nhiên, điều đó không quan trọng ở đây, hãy tiếp tục nào.
+
+## Cuộc đời ngắn ngủi và lặp đi lặp lại của một method
+
+Bây giờ hãy thử chạy method đó vài lần:
+
+{% highlight irb %}
+irb(main):013:0> hi
+Hello World!
+=> nil
+irb(main):014:0> hi()
+Hello World!
 => nil
 {% endhighlight %}
 
-Đoạn mã `def h` bắt đầu định nghĩa phương thức. Nó báo với Ruby rằng "Chúng tôi
-đang định nghĩa một phương thức tên là `h`". Dòng tiếp theo là phần thân của
-phương thức, tương tự với dòng chúng ta đã thấy trước đây: `puts "Xin chào Thế
-giới"`. Cuối cùng, dòng cuối cùng `end` thông báo với Ruby rằng ta đã định nghĩa
-xong phương thức. Ruby trả lại `=> nil` để xác nhận.
+Dễ quá. Gọi một method trong Ruby đơn giản chỉ cần nhắc đến tên của nó
+với Ruby. Nếu method không nhận tham số thì chỉ cần thế là đủ. Bạn có
+thể thêm dấu ngoặc đơn trống nếu muốn, nhưng chúng không bắt buộc.
 
-## Tóm tắt, vòng đời của một phương thức
-
-Bây giờ ta sẽ chạy phương thức vừa rồi vài lần:
+Nếu chúng ta muốn chào một người cụ thể chứ không phải cả thế giới thì
+sao? Chỉ cần định nghĩa lại `hi` để nhận một tên làm tham số.
 
 {% highlight irb %}
-irb(main):013:0> h
-Xin chào Thế giới!
-=> nil
-irb(main):014:0> h()
-Xin chào Thế giới!
-=> nil
-{% endhighlight %}
-
-Tốt rồi, rất đơn giản. Gọi một phương thức trong Ruby rất dễ dàng, chỉ cần gõ
-tên của nó vào. Nếu phương thức không cần tham số, bạn có thể thêm cặp ngoặc đơn
-trống nếu thích vì chúng cũng không cần thiết.
-
-Nếu bạn muốn nói xin chào tới một người mà không phải là cả thế giới, hãy định
-nghĩa lại `h` để thêm tên là tham số truyền vào.
-
-{% highlight irb %}
-irb(main):015:0> def h(tên)
-irb(main):016:1>   puts "Xin chào #{tên}!"
+irb(main):015:0> def hi(name)
+irb(main):016:1> puts "Hello #{name}!"
 irb(main):017:1> end
-=> nil
-irb(main):018:0> h("Matz")
-Xin chào Matz!
+=> :hi
+irb(main):018:0> hi("Matz")
+Hello Matz!
 => nil
 {% endhighlight %}
 
-Nó đã hoạt động... nhưng hãy dành vài giây để xem có gì ở đây.
+Vậy là nó hoạt động rồi... nhưng hãy dừng lại một chút để xem chuyện
+gì đang xảy ra ở đây.
 
-## Giữ các đoạn trong xâu
+## Giữ chỗ trong chuỗi ký tự
 
-Đoạn `#{tên}` nghĩa là gì? Đó là cách mà Ruby chèn thứ gì đó vao trong một xâu.
-Đoạn ở giữa cặp ngoặc nhọn được chuyển thành một xâu (nếu nó chưa phải) sau đó
-chèn vào xâu bên ngoài tại chỗ mà đoạn đó được viết. Bạn có thể sử dụng cái này
-để chắc chắn rằng tên của ai đó đã được viết hoa:
+Phần `#{name}` là gì? Đó là cách Ruby chèn nội dung vào một chuỗi ký
+tự. Phần nằm giữa dấu ngoặc nhọn được chuyển thành chuỗi ký tự (nếu
+nó chưa phải là chuỗi) và sau đó được thay thế vào chuỗi bên ngoài tại
+vị trí đó. Bạn cũng có thể dùng cách này để đảm bảo tên của ai đó được
+viết hoa đúng cách:
 
 {% highlight irb %}
-irb(main):019:0> def h(tên = "Thế giới")
-irb(main):020:1> puts "Xin chào #{tên.capitalize}!"
+irb(main):019:0> def hi(name = "World")
+irb(main):020:1> puts "Hello #{name.capitalize}!"
 irb(main):021:1> end
+=> :hi
+irb(main):022:0> hi "chris"
+Hello Chris!
 => nil
-irb(main):022:0> h "chris"
-Xin chào Chris!
-=> nil
-irb(main):023:0> h
-Xin chào Thế giới!
+irb(main):023:0> hi
+Hello World!
 => nil
 {% endhighlight %}
 
-Ta thấy có hai cách gọi khác nhau ở đây. Một là gọi phương thức không cần ngoặc
-đơn một lần nữa. Nếu đó là mục đích của bạn thì ngoặc đơn chỉ là tùy chọn. Cách
-còn lại là lấy tham số mặc định là "Thế giới". Điều này nghĩa là "Nếu không cung
-cấp tên thì ta sử dụng tên mặc định là 'Thế giới'"
+Có vài thủ thuật cần chú ý ở đây. Một là chúng ta lại gọi method mà
+không dùng dấu ngoặc đơn. Nếu những gì bạn đang làm là rõ ràng thì dấu
+ngoặc đơn là tùy chọn. Thủ thuật kia là tham số mặc định `World`.
+Ý nghĩa của nó là "Nếu tên không được cung cấp, hãy dùng tên mặc định
+là `"World"`".
 
-## Phát triển thành ChàoMừng
+## Tiến hóa thành Greeter
 
-Phải làm gì nếu chúng ta muốn có những ChàoMừng thực sự ở xung quanh, nhớ tên
-bạn, chào đón bạn và luôn kính trọng bạn. Bạn sẽ phải dùng đối tượng! Chúng ta
-sẽ tạo một lớp ChàoMừng.
+Nếu chúng ta muốn một người chào hỏi thực thụ, một người nhớ tên bạn
+và luôn chào đón bạn, đối xử với bạn bằng sự tôn trọng thì sao? Bạn có
+thể dùng một đối tượng cho việc đó. Hãy tạo một class "Greeter".
 
 {% highlight irb %}
-irb(main):024:0> class ChàoMừng
-irb(main):025:1>   def initialize(tên = "Thế giới")
-irb(main):026:2>     @tên = tên
+irb(main):024:0> class Greeter
+irb(main):025:1>   def initialize(name = "World")
+irb(main):026:2>     @name = name
 irb(main):027:2>   end
-irb(main):028:1>   def xin_chào
-irb(main):029:2>     puts "Xin chào #{@tên}!"
+irb(main):028:1>   def say_hi
+irb(main):029:2>     puts "Hi #{@name}!"
 irb(main):030:2>   end
-irb(main):031:1>   def tạm_biệt
-irb(main):032:2>     puts "Tạm biệt #{@tên}, hẹn gặp lại."
+irb(main):031:1>   def say_bye
+irb(main):032:2>     puts "Bye #{@name}, come back soon."
 irb(main):033:2>   end
 irb(main):034:1> end
-=> nil
+=> :say_bye
 {% endhighlight %}
 
-Từ khóa mới ở đây là `class` nghĩa là `lớp`. Nó định nghĩa một lớp mới tên là
-ChàoMừng và một vài phương thức thuộc lớp. Thông báo tới `@tên`, đây là một biến
-đối tượng và nó có thể sử dụng trong tất cả các phương thức của lớp, như trong
-đối tượng được sử dụng với `xin_chào` và `tạm_biệt`.
+Từ khóa mới ở đây là `class`. Nó định nghĩa một class mới có tên là
+Greeter và một loạt các method cho class đó. Cũng hãy chú ý `@name`.
+Đây là một biến thực thể (instance variable), và nó có thể được truy
+cập bởi tất cả các method của class. Như bạn có thể thấy, nó được sử
+dụng bởi `say_hi` và `say_bye`.
 
-Vậy, làm thế nào để chúng ta thiết lập lớp ChàoMừng này?
-[Tạo một đối tượng](../3/)
+Vậy làm thế nào để đưa class Greeter này vào hoạt động?
+[Hãy tạo một đối tượng.](../3/)

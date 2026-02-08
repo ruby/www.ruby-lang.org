@@ -30,6 +30,7 @@ exclude:
   - .github
   - .idea
   - .vscode
+  - CLAUDE.md
 
 plugins:
   - jekyll-postcss-v2

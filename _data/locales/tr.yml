@@ -50,7 +50,7 @@ navigation:
       url: https://try.ruby-lang.org/
       external: true
     - text: Ruby Reference Manual
-      url: https://docs.ruby-lang.org/en/3.4/
+      url: https://docs.ruby-lang.org/en/4.0/
       external: true
     - text: The Ruby Bibliography
       url: https://rubybib.org/
@@ -125,7 +125,7 @@ navigation:
   - text: Etkinlikler ve Konferanslar
     submenu:
     - text: RubyKaigi
-      url: https://rubykaigi.org/2025/
+      url: https://rubykaigi.org/
       external: true
     - text: Ruby Events
       url: https://www.rubyevents.org/

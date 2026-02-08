@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tìm hiểu Ruby trong 25 phút"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
@@ -13,64 +13,65 @@ header: |
     <span class="separator"> | </span>
     <strong>4</strong>
   </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
-Vậy hãy nhìn sâu hơn vào chương tình mới của chúng ta, chú ý các dòng ban đầu,
-bắt đầu bởi dấu thăng (#). Trong Ruby, bất cứ thứ gì trong một dòng phía sau
-dấu thăng là một bình luận và trình biên dịch sẽ bỏ qua. Dòng đầu tiên của tập
-tin là trường hợp đặc biệt, hệ điều hành nhân Unix sẽ cho shell biết cách chạy
-tập tin. Mục đích của các bình luận là để làm rõ hơn.
+Bây giờ, hãy nhìn sâu hơn vào chương trình mới của chúng ta, chú ý các
+dòng đầu tiên bắt đầu bằng dấu thăng (#). Trong Ruby, bất cứ thứ gì
+trên một dòng sau dấu thăng đều là chú thích và bị trình thông dịch bỏ
+qua. Dòng đầu tiên của tệp là một trường hợp đặc biệt, trên các hệ
+điều hành giống Unix, nó cho shell biết cách chạy tệp. Các chú thích
+còn lại chỉ để giải thích rõ ràng hơn.
 
-Phương thức `xin_chao`đã trở nên phức tạp hơn một chút:
+Method `say_hi` của chúng ta đã trở nên phức tạp hơn một chút:
 
 {% highlight ruby %}
 # Say hi to everybody
-def xin_chao
+def say_hi
   if @names.nil?
     puts "..."
   elsif @names.respond_to?("each")
-    # @names là danh sách tên, lặp đi lặp lại!
+    # @names is a list of some kind, iterate!
     @names.each do |name|
-      puts "Xin chào #{name}!"
+      puts "Hello #{name}!"
     end
   else
-    puts "Xin chào #{@names}!"
+    puts "Hello #{@names}!"
   end
 end
 {% endhighlight %}
 
-Chương trình sẽ dựa vào biến ví dụ `@names` để đưa ra quyết định. Nếu nó rỗng
-thì chỉ in ra ba dấu chấm. Không có lý nào lại đi chào không ai cả, phải vậy
-chứ?
+Bây giờ nó kiểm tra biến thực thể `@names` để đưa ra quyết định. Nếu
+giá trị là nil, nó chỉ in ra ba dấu chấm. Chẳng có lý do gì để chào
+không ai cả, đúng không?
 
-## Chu kỳ và vòng lặp—a.k.a. lặp đi lặp lại
+## Lặp vòng — hay còn gọi là Iteration
 
-Nếu đối tượng `@names` phản hồi `each` (mỗi), nó nghĩa là bạn có thể lặp đi
-lặp lại, vì thế nó lặp đi lặp lại và mỗi lần chào một người. Cuối cùng, nếu
-`@names` là thứ gì đó, tự động chuyển nó thành xâu và thực hiện chào như mặc
-định.
+Nếu đối tượng `@names` phản hồi method `each`, thì đó là thứ có thể
+lặp qua được, vậy hãy lặp qua nó và chào từng người một. Cuối cùng,
+nếu `@names` là bất cứ thứ gì khác, cứ để nó tự động được chuyển thành
+chuỗi ký tự và thực hiện lời chào mặc định.
 
-Chúng ta hãy nhìn sấu hơn vào phép lặp:
+Hãy xem kỹ hơn bộ lặp đó:
 
 {% highlight ruby %}
 @names.each do |name|
-  puts "Xin chào #{name}!"
+  puts "Hello #{name}!"
 end
 {% endhighlight %}
 
-`each` là phương thức cho phép một khối lệnh chạy mỗi lần gặp một thành phần
-trong danh sách, và đoạn ở giữa `do` và `end` là khối lệnh. Một khối lệnh
-giống như một hàm bất định hay `lambda`. Biến nằm giữa 2 dấu gạch dọc là tham
-số cho khối lệnh này.
+`each` là một method nhận một khối mã (block) rồi chạy khối mã đó cho
+mỗi phần tử trong danh sách, và phần nằm giữa `do` và `end` chính là
+khối mã đó. Một block giống như một hàm ẩn danh hoặc `lambda`. Biến nằm
+giữa hai dấu gạch đứng là tham số của block này.
 
-Điều xảy ra ở đây là với tất cả các mục trong một danh sách, `name` ràng buộc
-với các phần tử của danh sách, và cú pháp `puts "Xin chào #{name}!"` sẽ chạy
-với cái tên đó.
+Điều xảy ra ở đây là với mỗi phần tử trong danh sách, `name` được gán
+bằng phần tử đó, và sau đó biểu thức `puts "Hello #{name}!"` được thực
+thi với tên đó.
 
-Phần lớn các ngôn ngữ lập trình khác làm việc với một danh sách bằng vòng lặp
-`for`, ví dụ trong C sẽ như này:
+Hầu hết các ngôn ngữ lập trình khác xử lý việc duyệt qua một danh sách
+bằng vòng lặp `for`, trong C trông giống như thế này:
 
 {% highlight c %}
 for (i=0; i<number_of_elements; i++)
@@ -79,66 +80,68 @@ for (i=0; i<number_of_elements; i++)
 }
 {% endhighlight %}
 
-Nó vẫn hoạt động tuy nhiên không được hay cho lắm. Bạn cần một biến đếm `i`,
-xác định được độ dài của danh sách, và cần phải giải thích làm thế nào để đi
-hết danh sách. Cách của Ruby hay hơn nhiều, tất cả chi tiết quản lý được ẩn
-trong phương thức `each`, tất cả những gì bạn cần làm là nói với vó cần phải
-làm gì với các thành phần. Trong đó, phương thức `each` về cơ bản sẽ gọi
-`yield "Albert"`, sau đó `yeld "Brenda"` rồi `yield "Charles"`, vv.
+Cách này hoạt động được, nhưng không thanh lịch lắm. Bạn cần một biến
+tạm như `i`, phải tính xem danh sách dài bao nhiêu, và phải giải thích
+cách duyệt qua danh sách. Cách của Ruby thanh lịch hơn nhiều, tất cả
+các chi tiết xử lý được ẩn bên trong method `each`, bạn chỉ cần nói cho
+nó biết phải làm gì với mỗi phần tử. Bên trong, method `each` về cơ bản
+sẽ gọi `yield "Albert"`, rồi `yield "Brenda"`, rồi `yield "Charles"`,
+và cứ tiếp tục như vậy.
 
-## Khối lệnh, ánh sáng lấp lánh trên các cạnh của Ruby
+## Block, viên ngọc sáng lấp lánh của Ruby
 
-Sức mạnh thực sự của khối lệnh là khi xử lý các đối tượng phức tạp hơn danh
-sách. Ngoài việc xử lý các chi tiết nội dung đơn giản trong phương thức, bạn
-còn có thể xử lý thiết lập, teardown và lỗi - tất cả ẩn đi khỏi sự chú ý của
-người dùng.
+Sức mạnh thực sự của block là khi xử lý những thứ phức tạp hơn danh
+sách. Ngoài việc xử lý các chi tiết đơn giản bên trong method, bạn còn
+có thể xử lý thiết lập, dọn dẹp, và lỗi — tất cả đều được ẩn đi khỏi
+sự quan tâm của người dùng.
 
 {% highlight ruby %}
-# Tạm biệt mọi người
-def tam_biet
+# Say bye to everybody
+def say_bye
   if @names.nil?
     puts "..."
   elsif @names.respond_to?("join")
-    # Gộp các thành phần của danh sách bằng dấu phẩy
-    puts "Tạm biệt #{@names.join(", ")}.  Hẹn gặp lại!"
+    # Join the list elements with commas
+    puts "Goodbye #{@names.join(", ")}.  Come back soon!"
   else
-    puts "Tạm biệt #{@names}.  Hẹn gặp lại!"
+    puts "Goodbye #{@names}.  Come back soon!"
   end
 end
 {% endhighlight %}
 
-Phương thức `tam_biet` không sử dụng `each`, thay vào đó nó kiểm tra xem nếu
-`@names` có đáp ứng phương thức `join` không, nếu có thì sử dụng nó. Mặt khác
-nó chỉ in ra các biến dưới dạng xâu. Phương thức này không quan tâm tới *kiểu*
-của biến, chỉ dựa vào phương thức mà nó hỗ trợ được gọi là "Duck Typing",
-giống như "nếu nó đi giống con vịt và quạc quạc giống con vịt...". Lợi ích của
-điều này là không cần thiết phải hạn chế kiểu biến được hỗ trợ. Nếu ai đó đến
-với một kiểu danh sách lớp mới, miễn là nó thực thi phương thức `join` với
-cùng một ngữ nghĩa như các danh sách khác, mọi thứ sẽ hoạt động theo đúng kế
-hoạch.
+Method `say_bye` không sử dụng `each`, thay vào đó nó kiểm tra xem
+`@names` có phản hồi method `join` hay không, và nếu có thì sử dụng nó.
+Nếu không, nó chỉ đơn giản in biến đó ra dưới dạng chuỗi ký tự. Cách
+không quan tâm đến *kiểu* thực sự của biến, mà chỉ dựa vào các method
+mà nó hỗ trợ, được gọi là "Duck Typing", như câu nói "nếu nó đi như
+vịt và kêu như vịt...". Lợi ích của điều này là không hạn chế một cách
+không cần thiết các kiểu biến được hỗ trợ. Nếu ai đó tạo ra một loại
+class danh sách mới, miễn là nó triển khai method `join` với cùng ngữ
+nghĩa như các danh sách khác, mọi thứ sẽ hoạt động đúng như dự kiến.
 
-## Bắt đầu kịch bản
+## Khởi chạy script
 
-Vậy, đó là lớp MegaGreeter, phần còn lại của tập tin chỉ để gọi phương thức
-trong lớp đó. Có một mẹọ cuối cùng để chú ý, đó là dòng
+Vậy đó là class MegaGreeter, phần còn lại của tệp chỉ gọi các method
+trên class đó. Có một thủ thuật cuối cùng cần chú ý, đó là dòng:
 
 {% highlight ruby %}
 if __FILE__ == $0
 {% endhighlight %}
 
-`__FILE__` là biến kỳ diệu, nó chứa tên của tập tin hiện tại. `$0` là tên của
-tập tin sử dụng để bắt đầu chương trình. Kiểm tra này nói rằng "Nếu đây là tập
-tin chính được sử dụng..." nghĩa là nó cho phép một tập tin có thể sử dụng như
-một thư viện và không phải thực thi mã bên trong, nhưng nếu nó là một tập tin
-có thể thực thi thì mã sẽ được thực thi.
+`__FILE__` là biến đặc biệt chứa tên của tệp hiện tại. `$0` là tên của
+tệp được dùng để khởi chạy chương trình. Kiểm tra này có nghĩa là "Nếu
+đây là tệp chính đang được chạy..." Điều này cho phép một tệp được sử
+dụng như một thư viện mà không thực thi mã trong ngữ cảnh đó, nhưng nếu
+tệp đang được sử dụng như một chương trình thực thi, thì hãy thực thi
+mã đó.
 
-## Xem xét tự giới thiệu
+## Coi như đã làm quen xong
 
-Vì vậy, đó là nó sử dụng cho tour tham quan nhanh về Ruby. Có rất nhiều điều
-cần khám phá, các cấu trúc điều khiển khác nhau mà Ruby cung cấp; cách sử dụng
-của các khối lệnh và `yield`; các module như mixins; và còn nhiều hơn nữa. Tôi
-hy vọng những thú vị ban đầu này của Ruby sẽ khiến bạn muốn học thêm nữa.
+Vậy là kết thúc chuyến tham quan nhanh về Ruby. Còn rất nhiều thứ để
+khám phá: các cấu trúc điều khiển khác nhau mà Ruby cung cấp; cách sử
+dụng block và `yield`; module dùng như mixin; và nhiều hơn nữa. Tôi hy
+vọng trải nghiệm Ruby vừa rồi đã khiến bạn muốn tìm hiểu thêm.
 
-Nếu vậy, hãy đi đến khu vực [Tài liệu](/vi/documentation/) của chúng tôi, nơi
-có vô vàn đường dẫn tới các bài chỉ dẫn và hướng dẫn sử dụng, tất cả đều miễn
-phi trực tuyến.
+Nếu vậy, hãy ghé thăm khu vực [Tài liệu](/vi/documentation/) của chúng
+tôi, nơi tổng hợp các liên kết đến sách hướng dẫn và tài liệu học, tất
+cả đều miễn phí trực tuyến.

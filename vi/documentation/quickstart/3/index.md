@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tìm hiểu Ruby trong 25 phút"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
@@ -13,216 +13,219 @@ header: |
     <span class="separator"> | </span>
     <a href="../4/" title="Phần 4">4</a>
   </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
-Bây giờ, chúng ta hãy tạo một đối tượng ChàoMừng và sử dụng nó:
+Bây giờ hãy tạo một đối tượng greeter và sử dụng nó:
 
 {% highlight irb %}
-irb(main):035:0> g = ChàoMừng.new("Pat")
-=> #<ChàoMừng:0x16cac @tên="Pat">
-irb(main):036:0> g.xin_chào
-Xin chào Pat!
+irb(main):035:0> greeter = Greeter.new("Pat")
+=> #<Greeter:0x16cac @name="Pat">
+irb(main):036:0> greeter.say_hi
+Hi Pat!
 => nil
-irb(main):037:0> g.tạm_biệt
-Tạm biệt Pat, hẹn gặp lại.
+irb(main):037:0> greeter.say_bye
+Bye Pat, come back soon.
 => nil
 {% endhighlight %}
 
-Khi đối tượng `g` được tạo, nó nhớ rằng cái tên là Pat. Vậy nếu chúng ta muốn
-lấy một cái tên trực tiếp thì sao?
+Sau khi đối tượng `greeter` được tạo, nó ghi nhớ rằng tên là Pat. Hmm,
+nếu chúng ta muốn truy cập trực tiếp vào tên thì sao?
 
 {% highlight irb %}
-irb(main):038:0> g.@tên
-SyntaxError: compile error
-(irb):52: syntax error
-        from (irb):52
+irb(main):038:0> greeter.@name
+SyntaxError: (irb):38: syntax error, unexpected tIVAR, expecting '('
 {% endhighlight %}
 
-Ồ, không thể làm được.
+Không, không làm được.
 
-## Bên trong của đối tượng
+## Bên trong đối tượng
 
-Các biến đối tượng thường ẩn trong trong đối tượng. Chúng không ẩn hoàn toàn,
-bạn sẽ thấy chúng mỗi khi khởi tạo một đối tượng và có nhiều cách để gọi chúng,
-nhưng Ruby sử dụng phương pháp tiếp cận hướng đối tượng tốt trong việc giữ dữ
-liệu ẩn đi phần nào.
+Các biến thực thể được ẩn bên trong đối tượng. Chúng không bị ẩn hoàn
+toàn, bạn vẫn thấy chúng khi kiểm tra đối tượng, và cũng có những cách
+khác để truy cập chúng, nhưng Ruby sử dụng phương pháp hướng đối tượng
+tốt là giữ dữ liệu ở mức tương đối ẩn.
 
-Vậy những phương thức nào tồn tại cho đối tượng ChàoMừng?
+Vậy những method nào tồn tại cho các đối tượng Greeter?
 
 {% highlight irb %}
-irb(main):039:0> ChàoMừng.instance_methods
-=> ["method", "send", "object_id", "singleton_methods",
-    "__send__", "equal?", "taint", "frozen?",
-    "instance_variable_get", "kind_of?", "to_a",
-    "instance_eval", "type", "protected_methods", "extend",
-    "eql?", "display", "instance_variable_set", "hash",
-    "is_a?", "to_s", "class", "tainted?", "private_methods",
-    "untaint", "xin_chào", "id", "inspect", "==", "===",
-    "clone", "public_methods", "respond_to?", "freeze",
-    "tạm_biệt", "__id__", "=~", "methods", "nil?", "dup",
-    "instance_variables", "instance_of?"]
+irb(main):039:0> Greeter.instance_methods
+=> [:say_hi, :say_bye, :instance_of?, :public_send,
+    :instance_variable_get, :instance_variable_set,
+    :instance_variable_defined?, :remove_instance_variable,
+    :private_methods, :kind_of?, :instance_variables, :tap,
+    :is_a?, :extend, :define_singleton_method, :to_enum,
+    :enum_for, :<=>, :===, :=~, :!~, :eql?, :respond_to?,
+    :freeze, :inspect, :display, :send, :object_id, :to_s,
+    :method, :public_method, :singleton_method, :nil?, :hash,
+    :class, :singleton_class, :clone, :dup, :itself, :taint,
+    :tainted?, :untaint, :untrust, :trust, :untrusted?, :methods,
+    :protected_methods, :frozen?, :public_methods, :singleton_methods,
+    :!, :==, :!=, :__send__, :equal?, :instance_eval, :instance_exec, :__id__]
 {% endhighlight %}
 
-Quá tuyệt! Có rất nhiều method hay phương thức. Chúng ta chỉ định nghĩa 2 phương
-thức, vậy cái gì đây? Đó là **tất cả** các phương thức cho đối tượng Người chào
-đón, một danh sách hoàn chỉnh bao gồm cả những phương thức được kế thừa. Nếu
-chúng ta muốn một danh sách chỉ có các phương thức định nghĩa cho ChàoMừng,
-chúng ta có thể loại bỏ các phương thức được kế thừa bằng cách thêm tham số
-`false`, nghĩa là chúng ta không muốn bất kỳ phương thức được kế thừa nào.
+Ồ. Nhiều method quá. Chúng ta chỉ định nghĩa có hai method thôi mà.
+Chuyện gì đang xảy ra ở đây vậy? Đây là **tất cả** các method của đối
+tượng Greeter, một danh sách đầy đủ, bao gồm cả các method được định
+nghĩa bởi các class cha. Nếu chúng ta chỉ muốn liệt kê các method
+được định nghĩa riêng cho Greeter, chúng ta có thể yêu cầu không bao
+gồm các class cha bằng cách truyền tham số `false`, nghĩa là chúng ta
+không muốn các method được định nghĩa bởi các class cha.
 
 {% highlight irb %}
-irb(main):040:0> ChàoMừng.instance_methods(false)
-=> ["xin_chào", "tạm_biệt"]
+irb(main):040:0> Greeter.instance_methods(false)
+=> [:say_hi, :say_bye]
 {% endhighlight %}
 
-A, được hơn rồi đó. Bây giờ chúng ta hãy xem phương thức nào được đối tượng
-ChàoMừng phản hồi:
+À, thế mới đúng. Vậy hãy xem đối tượng greeter của chúng ta phản hồi
+những method nào:
 
 {% highlight irb %}
-irb(main):041:0> g.respond_to?("tên")
+irb(main):041:0> greeter.respond_to?("name")
 => false
-irb(main):042:0> g.respond_to?("xin_chào")
+irb(main):042:0> greeter.respond_to?("say_hi")
 => true
-irb(main):043:0> g.respond_to?("to_s")
+irb(main):043:0> greeter.respond_to?("to_s")
 => true
 {% endhighlight %}
 
-Nó hiểu được `xin_chào` và `to_s` (to string - chuyển sang chuỗi kí tự, một
-phương thức mặc định cho mọi đối tượng), nhưng không biết `tên`.
+Vậy là nó biết `say_hi` và `to_s` (nghĩa là chuyển đổi một thứ gì đó
+thành chuỗi ký tự, một method được định nghĩa mặc định cho mọi đối
+tượng), nhưng nó không biết `name`.
 
-## Thay thế các lớp - Không bao giờ là quá muộn
+## Thay đổi class — Không bao giờ là quá muộn
 
-Nếu bạn muốn có thể xem hoặc thay đổi tên? Ruby cung cấp một cách dễ dàng để
-truy xuất dữ liệu tới các biến của một đối tượng.
+Nhưng nếu bạn muốn xem hoặc thay đổi tên thì sao? Ruby cung cấp một
+cách dễ dàng để truy cập các biến của đối tượng.
 
 {% highlight irb %}
-irb(main):044:0> class ChàoMừng
-irb(main):045:1>   attr_accessor :tên
+irb(main):044:0> class Greeter
+irb(main):045:1>   attr_accessor :name
 irb(main):046:1> end
-=> [:tên, :tên=]
+=> [:name, :name=]
 {% endhighlight %}
 
-Trong Ruby, bạn có thể mở một lớp ở phía trên và sửa nó. Sự thay đổi sẽ xuất
-hiện trong các đối tượng mới mà bạn tạo và cả những đối tượng đã tồn tại của
-lớp này. Vậy thì chúng ta hãy tạo một đối tượng mới và thử với thuộc tính
-`@tên` của nó.
+Trong Ruby, bạn có thể mở lại một class và sửa đổi nó. Những thay đổi
+sẽ có mặt trong mọi đối tượng mới bạn tạo và thậm chí có sẵn trong các
+đối tượng đã tồn tại của class đó. Vậy, hãy tạo một đối tượng mới và
+thử nghiệm với thuộc tính `@name` của nó.
 
 {% highlight irb %}
-irb(main):047:0> g = ChàoMừng.new("Andy")
-=> #<ChàoMừng:0x3c9b0 @tên="Andy">
-irb(main):048:0> g.respond_to?("tên")
+irb(main):047:0> greeter = Greeter.new("Andy")
+=> #<Greeter:0x3c9b0 @name="Andy">
+irb(main):048:0> greeter.respond_to?("name")
 => true
-irb(main):049:0> g.respond_to?("tên=")
+irb(main):049:0> greeter.respond_to?("name=")
 => true
-irb(main):050:0> g.xin_chào
-Xin chào Andy!
+irb(main):050:0> greeter.say_hi
+Hi Andy!
 => nil
-irb(main):051:0> g.tên="Betty"
+irb(main):051:0> greeter.name="Betty"
 => "Betty"
-irb(main):052:0> g
-=> #<ChàoMừng:0x3c9b0 @tên="Betty">
-irb(main):053:0> g.tên
+irb(main):052:0> greeter
+=> #<Greeter:0x3c9b0 @name="Betty">
+irb(main):053:0> greeter.name
 => "Betty"
-irb(main):054:0> g.xin_chào
-Xin chào Betty!
+irb(main):054:0> greeter.say_hi
+Hi Betty!
 => nil
 {% endhighlight %}
 
-Sử dụng `attr_accessor` định nghĩa 2 phương thức mới cho chúng ta: `tên` để
-lấy giá trị và `tên=` để gán giá trị.
+Sử dụng `attr_accessor` đã định nghĩa hai method mới cho chúng ta,
+`name` để lấy giá trị, và `name=` để đặt giá trị.
 
-## MegaChàoMừng chào mừng tất cả mọi thứ
+## Chào hỏi mọi thứ và mọi người, MegaGreeter không bỏ sót ai!
 
-Trình chào mừng này không thú vị gì nếu nó chỉ chào được một người trong cùng
-một thời điểm. Sẽ thế nào nếu chúng ta có thể vài kiểu MegaChàoMừng có thể đồng
-thời chào Thế giới, chào một người nào đó hay một danh sách cá nhân?
+Tuy nhiên, greeter này chưa thực sự thú vị lắm, nó chỉ có thể xử lý
+một người tại một thời điểm. Nếu chúng ta có một loại MegaGreeter nào
+đó có thể chào cả thế giới, một người, hoặc cả một danh sách người thì
+sao?
 
-Chúng ta sẽ viết trong một tập tin thay vì gõ trực tiếp trên IRB.
+Hãy viết cái này trong một tệp thay vì trực tiếp trong trình thông dịch
+Ruby tương tác IRB.
 
-Để thoát IRB, gõ "quit", "exit" hoặc tổ hợp phím Control-D.
+Để thoát IRB, gõ "quit", "exit" hoặc chỉ cần nhấn Control-D.
 
 {% highlight ruby %}
 #!/usr/bin/env ruby
 
-class MegaChàoMừng
-  attr_accessor :danh_sách_tên
+class MegaGreeter
+  attr_accessor :names
 
   # Create the object
-  def initialize(danh_sách_tên = "Thế giới")
-    @danh_sách_tên = danh_sách_tên
+  def initialize(names = "World")
+    @names = names
   end
 
-  # Nói xin chào tới mọi người
-  def xin_chào
-    if @danh_sách_tên.nil?
+  # Say hi to everybody
+  def say_hi
+    if @names.nil?
       puts "..."
-    elsif @danh_sách_tên.respond_to?("each")
-      # @danh_sách_tên là danh sách tên, lặp đi lặp lại!
-      @danh_sách_tên.each do |name|
-        puts "Xin chào #{name}!"
+    elsif @names.respond_to?("each")
+      # @names is a list of some kind, iterate!
+      @names.each do |name|
+        puts "Hello #{name}!"
       end
     else
-      puts "Xin chào #{@danh_sách_tên}!"
+      puts "Hello #{@names}!"
     end
   end
 
-  # Tạm biệt mọi người
-  def tạm_biệt
-    if @danh_sách_tên.nil?
+  # Say bye to everybody
+  def say_bye
+    if @names.nil?
       puts "..."
-    elsif @danh_sách_tên.respond_to?("join")
-      # Gộp các thành phần của danh sách bằng dấu phẩy
-      puts "Tạm biệt #{@danh_sách_tên.join(", ")}.  Hẹn gặp lại!"
+    elsif @names.respond_to?("join")
+      # Join the list elements with commas
+      puts "Goodbye #{@names.join(", ")}.  Come back soon!"
     else
-      puts "Tạm biệt #{@danh_sách_tên}.  Hẹn gặp lại!"
+      puts "Goodbye #{@names}.  Come back soon!"
     end
   end
-
 end
 
 
 if __FILE__ == $0
-  mg = MegaChàoMừng.new
-  mg.xin_chào
-  mg.tạm_biệt
+  mg = MegaGreeter.new
+  mg.say_hi
+  mg.say_bye
 
-  # Đổi tên thành "Zeke"
-  mg.danh_sách_tên = "Zeke"
-  mg.xin_chào
-  mg.tạm_biệt
+  # Change name to be "Zeke"
+  mg.names = "Zeke"
+  mg.say_hi
+  mg.say_bye
 
-  # Đổi tên thành danh sách tên
-  mg.danh_sách_tên = ["Albert", "Brenda", "Charles",
-    "Dave", "Engelbert"]
-  mg.xin_chào
-  mg.tạm_biệt
+  # Change the name to an array of names
+  mg.names = ["Albert", "Brenda", "Charles",
+              "Dave", "Engelbert"]
+  mg.say_hi
+  mg.say_bye
 
-  # Đổi thành rỗng
-  mg.danh_sách_tên = nil
-  mg.xin_chào
-  mg.tạm_biệt
+  # Change to nil
+  mg.names = nil
+  mg.say_hi
+  mg.say_bye
 end
 {% endhighlight %}
 
-Lưu tập tin này với tên “ri20min.rb”, và chạy nó “ruby ri20min.rb”. Màn hình sẽ
-hiện như này:
+Lưu tệp này với tên "ri20min.rb", và chạy bằng lệnh "ruby ri20min.rb".
+Kết quả đầu ra sẽ là:
 
-    Xin chào Thế giới!
-    Tạm biệt Thế giới.  Hẹn gặp lại!
-    Xin chào Zeke!
-    Tạm biệt Zeke.  Hẹn gặp lại!
-    Xin chào Albert!
-    Xin chào Brenda!
-    Xin chào Charles!
-    Xin chào Dave!
-    Xin chào Engelbert!
-    Tạm biệt Albert, Brenda, Charles, Dave, Engelbert.  Come
+    Hello World!
+    Goodbye World.  Come back soon!
+    Hello Zeke!
+    Goodbye Zeke.  Come back soon!
+    Hello Albert!
+    Hello Brenda!
+    Hello Charles!
+    Hello Dave!
+    Hello Engelbert!
+    Goodbye Albert, Brenda, Charles, Dave, Engelbert.  Come
     back soon!
     ...
     ...
 {: .code}
 
-Có rất nhiều thứ mới trong ví dụ cuối cùng này và chúng ta
-[có thể có cái nhìn sâu hơn tại.](../4/)
+Có rất nhiều thứ mới trong ví dụ cuối cùng này mà chúng ta
+[có thể tìm hiểu sâu hơn.](../4/)

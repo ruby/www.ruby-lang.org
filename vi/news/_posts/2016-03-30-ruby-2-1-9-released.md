@@ -2,25 +2,26 @@
 layout: news_post
 title: "Phát hành Ruby 2.1.9"
 author: "usa"
-translator: "Cẩm Huỳnh"
+translator:
 date: 2016-03-30 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.9 đã được chính thức phát hành.
+Ruby 2.1.9 đã được phát hành.
 
-Bản phát hành này bao gồm nhiều vá lỗi.
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
 Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
-để biết thêm chi tiết.
+để biết chi tiết.
 
-[Như đã được thông báo trước đó](https://www.ruby-lang.org/vi/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành thông thường cuối cùng của series 2.1.
-Sau bản phát hành này, chúng tôi sẽ không còn hỗ trợ bất kì lỗi nào cho 2.1 ngoại trừ lỗi bảo mật. Chúng tôi khuyến khích bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.3 hoặc 2.2.
+[Như đã thông báo trước đó](https://www.ruby-lang.org/vi/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành bình thường cuối cùng của dòng Ruby 2.1.
+Sau bản phát hành này, chúng tôi sẽ không bao giờ backport bất kỳ bản sửa lỗi nào sang 2.1 ngoại trừ các bản sửa bảo mật.
+Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch nâng cấp lên Ruby 2.3 hoặc 2.2.
 
-Đồng thời, chúng tôi dự định sẽ tung ra bản 2.1.10 trong vòng ít ngày tới.
-Ruby 2.1.10 sẽ không có bất kì sự thay đổi nào so với 2.1.9 ngoại trừ con số phiên bản.
-Bạn không cần phải sử dụng nó cho production, nhưng bạn nên thử nghiệm nó bởi vì số phiên bản của nó có hai chữ số.
+Nhân tiện, chúng tôi dự định phát hành Ruby 2.1.10 trong vài ngày tới.
+Ruby 2.1.10 sẽ không bao gồm bất kỳ thay đổi nào từ 2.1.9, ngoại trừ số phiên bản.
+Bạn không cần sử dụng nó trong môi trường production, nhưng bạn nên kiểm thử vì nó có số phiên bản hai chữ số.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.9.tar.bz2)
 
@@ -50,8 +51,8 @@ Bạn không cần phải sử dụng nó cho production, nhưng bạn nên th�
       SHA256: 8610fdb1836d493c19600cfed4828083f85197096c0aea3f73fa1ed532cbb5a7
       SHA512: a212b6a58637f6bf4f456d7ecc7bbd8ceaa0c3f16cb844b872eb62eaf261b5874fdb79705241d05a356fcdc1d3fdd8a94fcd8e6ca62190e9f544c8f45a9f41af
 
-## Chú thích phát hành
+## Ghi chú phát hành
 
-Cảm ơn tất cả mọi người đã đóng góp vào bản phát hành này.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-Sự bảo trì của Ruby 2.1, bao gồm bản phát hành này, được dựa trên "Agreement for the Ruby stable version" của [Ruby Association](http://www.ruby.or.jp/).
+Việc bảo trì Ruby 2.1, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của [Ruby Association](http://www.ruby.or.jp/).

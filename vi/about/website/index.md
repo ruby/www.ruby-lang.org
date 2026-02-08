@@ -4,52 +4,52 @@ title: "Về trang web Ruby"
 lang: vi
 ---
 
-Trang web này được tạo bằng Ruby sử dụng [Jekyll][jekyll],<br>
+Trang web này được tạo bằng Ruby với [Jekyll][jekyll],<br>
 mã nguồn được lưu trữ trên [GitHub][github-repo].
 
 ## Thiết kế
 
-Thiết kế hình ảnh hiện tại được thực hiện bởi [Taeko Akatsuka][akatsuka].
-Trang web đã được làm mới vào tháng 12 năm 2025.
+Thiết kế giao diện hiện tại được thực hiện bởi [Taeko Akatsuka][akatsuka].
+Trang web được làm mới vào tháng 12 năm 2025.
 
-<img src="../../../images/about/screenshot.png" alt="Thiết kế hiện tại của ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />
+<img src="../../../images/about/screenshot.png" alt="Current ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />
 
-"Happy Hacking" ở footer được viết tay bởi [Yukihiro Matsumoto (Matz)][matz].
+Dòng chữ "Happy Hacking" ở chân trang được viết tay bởi [Yukihiro Matsumoto (Matz)][matz].
 
-<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking ở footer" width="400" style="border: 1px solid #d6d3d1;" />
+<img src="../../../images/about/screenshot-happy-hacking.png" alt="Happy Hacking on Footer" width="400" style="border: 1px solid #d6d3d1;" />
 
-## Thiết kế trước đó
+## Thiết kế trước đây
 
-Thiết kế hình ảnh trước tháng 12 năm 2025 bởi [Jason Zimdars][jzimdars].<br>
+Thiết kế giao diện trước tháng 12 năm 2025 bởi [Jason Zimdars][jzimdars].<br>
 Dựa trên thiết kế trước đó của Ruby Visual Identity Team.
 
-<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Thiết kế trước đó của ruby-lang.org" width="400" style="border: 1px solid #d6d3d1;" />
+<img src="../../../images/about/screenshot-ruby-lang-old.png" alt="Previous ruby-lang.org design" width="400" style="border: 1px solid #d6d3d1;" />
 
 ## Logo
 
-[Logo Ruby][logo] được bảo hộ bản quyền &copy; 2006, Yukihiro Matsumoto.
+[Logo Ruby][logo] là bản quyền &copy; 2006 của Yukihiro Matsumoto.
 
 
 ## Báo cáo vấn đề ##
 
-Để báo cáo vấn đề, vui lòng sử dụng [hệ thống theo dõi vấn đề][github-issues]
-hoặc liên hệ với [webmaster][webmaster] của chúng tôi (bằng tiếng Anh).
+Để báo cáo vấn đề, vui lòng sử dụng [trình theo dõi lỗi][github-issues]
+hoặc liên hệ [quản trị viên][webmaster] của chúng tôi (bằng tiếng Anh).
 
 
 ## Cách đóng góp ##
 
-Trang web này được duy trì với niềm tự hào bởi các thành viên của cộng đồng Ruby.
+Trang web này được duy trì bởi các thành viên trong cộng đồng Ruby.
 
 Nếu bạn muốn đóng góp, hãy đọc [hướng dẫn đóng góp][github-wiki]
-và bắt đầu mở các issue hoặc pull request!
+và bắt đầu tạo issue hoặc pull request!
 
 
 ## Lời cảm ơn ##
 
-Cảm ơn tất cả các committer, tác giả, dịch giả và những người đóng góp khác
-cho trang web này.
+Chúng tôi cảm ơn tất cả các committer, tác giả, dịch giả và những người đóng góp
+khác cho trang web này.
 
-Chúng tôi cũng cảm ơn các tổ chức đã hỗ trợ chúng tôi:
+Đồng thời xin chân thành cảm ơn các tổ chức đã hỗ trợ chúng tôi:
 
 <table class="not-prose sponsor-table">
   <tr>
@@ -85,7 +85,7 @@ Chúng tôi cũng cảm ơn các tổ chức đã hỗ trợ chúng tôi:
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/dd.png" alt="Datadog" style="width: 120px;" /></td>
   </tr>
   <tr>
-    <td><a href="https://1password.com/">1Password</a> (trình quản lý mật khẩu)</td>
+    <td><a href="https://1password.com/">1Password</a> (quản lý mật khẩu)</td>
     <td class="sponsor-logo"><img src="../../../images/about/sponsor/1password.png" alt="1Password" style="width: 250px;" /></td>
   </tr>
 </table>

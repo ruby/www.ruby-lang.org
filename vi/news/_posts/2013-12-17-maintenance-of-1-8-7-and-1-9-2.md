@@ -1,74 +1,75 @@
 ---
 layout: news_post
-title: "Gia hạn bảo trì vá bảo mật cho Ruby 1.8.7 và 1.9.2"
+title: "Gia hạn bảo trì bảo mật cho Ruby 1.8.7 và 1.9.2"
 author: "zzak"
-translator: "Trung Lê"
+translator:
 date: 2013-12-17 20:49:03 +0000
 lang: vi
 ---
 
-Có hiệu lực ngay bây giờ, 1.8.7 và 1.9.2 sẽ được tiếp tục hỗ trợ các vá
-bảo mật cho đến tháng 6, 2014.
+Có hiệu lực ngay lập tức, 1.8.7 và 1.9.2 sẽ được hỗ trợ các bản vá bảo mật
+cho đến tháng 6 năm 2014.
 
 * Terence Lee ([@hone02](https://twitter.com/hone02))
   và Zachary Scott ([@_zzak](https://twitter.com/_zzak))
-  sẽ tiếp nhận vai trò bảo trì.
-* Sau giai đoạn 6 tháng bảo trì, chúng tôi có thể thêm vào
-  các thành viên cho 6 tháng tiếp theo.
+  sẽ đảm nhận vai trò bảo trì.
+* Sau giai đoạn bảo trì 6 tháng, chúng tôi có thể thêm các committer khác để
+  gia hạn thêm 6 tháng nữa.
 
-Làm được gia hạn này là do sự giúp đỡ bởi [Heroku][heroku],
-xem trên blog của họ [A Patch in Time: Securing Ruby][securing-ruby]
-để biết thêm chi tiết.
+Việc gia hạn bảo trì này được thực hiện nhờ [Heroku][heroku],
+xem bài viết trên blog của họ [A Patch in Time: Securing Ruby][securing-ruby]
+để biết thêm thông tin.
 
-### Thông báo các vấn đề
+### Báo cáo vấn đề
 
-Trong giai đoạn gia hạn này, chúng tôi sẽ _chỉ_ áp các vá bảo mật vào mã
-cho [1.8.7][source-187] và [1.9.2][source-192].
+Trong giai đoạn bảo trì mở rộng này, chúng tôi sẽ _chỉ_ áp dụng các bản vá
+bảo mật vào kho mã nguồn cho [1.8.7][source-187] và [1.9.2][source-192].
 
-Chúng tôi coi bảo mật là một vấn đề hệ trọng, nếu bạn tìm thấy lỗ hổng
-xin hãy báo cho chúng tôi qua security@ruby-lang.org.
-Mailing list này riêng tư và các vấn đề thông báo sẽ được công bố
-sau khi vá được phát hành.
+Chúng tôi rất coi trọng vấn đề bảo mật, nếu bạn phát hiện lỗ hổng, vui lòng
+báo cáo ngay tới security@ruby-lang.org. Danh sách gửi thư này là riêng tư và
+các vấn đề được báo cáo sẽ được công bố sau khi bản vá được phát hành.
 
-Xin xem [ruby-lang.org/en/security][security-en] để biết thêm chi tiết.
+Vui lòng xem [ruby-lang.org/en/security][security-en] để biết thêm thông tin.
 
-### Về quản lý phát hành
+### Về việc quản lý phát hành
 
-Như tôi đã đề cập ở trên, chúng tôi sẽ chỉ áp dụng các vá bảo mật và
-tăng cấp vá (patch level).
+Như đã đề cập ở trên, chúng tôi sẽ chỉ áp dụng các bản vá bảo mật và
+tăng số patch level.
 
-Chúng tôi sẽ không phát hành các bản được vá của 1.8.7 hoặc 1.9.2 trên ruby-lang.org.
-Nhưng bạn có thể tùy thích đóng gói lại từ nguồn.
+Chúng tôi sẽ không phát hành phiên bản vá của 1.8.7 hoặc 1.9.2 lên ruby-lang.org.
+Tuy nhiên, bạn có thể tự do đóng gói lại binary từ mã nguồn.
 
-Lí do là vì chúng tôi không muốn tiếp nhận thêm các vé mới, bởi vì các ấn
-bản chính sẽ tăng trách nhiệm của ruby-core trong việc theo dõi và bảo trì.
-Nhóm của chúng tối hiện không đủ nguồn lực, nên chúng tôi khuyến khích nâng
-cấp hơn là hỗ trợ các bản lỗi thời.
+Lý do là chúng tôi không muốn có thêm ticket mới, vì một bản phát hành chính thức
+sẽ dẫn đến trách nhiệm tiếp tục bảo trì của ruby-core. Nguồn lực đội ngũ của
+chúng tôi đã hạn chế, và chúng tôi muốn khuyến khích nâng cấp thay vì hỗ trợ
+các phiên bản lỗi thời.
 
-### Tại sao lài hồi sinh 1.8.7?
+### Tại sao khôi phục 1.8.7?
 
-Bạn có thể nhớ công bố 6 tháng trước của bài [xế chiều 1.8.7][sunset-187-en].
+Bạn có thể nhớ một thông báo khoảng 6 tháng trước về việc
+[kết thúc vòng đời 1.8.7][sunset-187-en].
 
-Trong khi ruby-core sẽ không tiếp tục bảo trì 1.8.7 hay 1.9.2, Terence
-và Zachary sẽ hỗ trợ các phiên bản vá lỗi như là một phần tài trợ công ty.
+Mặc dù ruby-core sẽ không tiếp tục bảo trì 1.8.7 hoặc 1.9.2, Terence
+và Zachary sẽ hỗ trợ các phiên bản này về mặt bảo mật như một phần của
+chương trình tài trợ doanh nghiệp.
 
-Trong quá khứ chúng tôi đã hỗ trợ các nhà cung cấp muốn bảo toàn các phiên
-bản lỗi thời. Trong năm 2009, bao trì của Ruby 1.8.6 được chuyển giao cho
-Engine Yard khi họ phát hành 1.8.6-p369.
+Trước đây, chúng tôi đã hỗ trợ các nhà cung cấp muốn bảo trì các phiên bản
+cũ. Năm 2009, việc bảo trì Ruby 1.8.6 đã được chuyển giao cho Engine Yard
+khi họ phát hành 1.8.6-p369.
 
-### Lời ngỏ khuyến khích
+### Lời khuyến khích
 
-Chúng tôi muốn nhân cơ hội này khuyến khích bạn nâng cấp lên các phiên
-bản được hỗ trợ càng sớm càng tốt. Nhiều thành viên ruby-core đã bỏ ra
-nhiều giờ để cải thiện tốc độ và chức năng của Ruby trong 2.0+ và chúng
-tôi mong các bạn tận dụng nó.
+Chúng tôi muốn nhân cơ hội này khuyến khích bạn nâng cấp lên phiên bản Ruby
+được hỗ trợ càng sớm càng tốt. Nhiều thành viên ruby-core đã dành vô số giờ
+để cải thiện hiệu suất và tính năng của Ruby trong phiên bản 2.0+ và chúng tôi
+mong bạn tận dụng điều đó.
 
-Cảm bạn đã tiếp tục ủng hộ và hãy cùng làm cho Ruby tốt hơn!
+Cảm ơn sự hỗ trợ liên tục của bạn và hãy cùng nhau làm Ruby tốt hơn!
 
 
 [heroku]:        http://heroku.com/
 [securing-ruby]: https://blog.heroku.com/archives/2013/12/5/a_patch_in_time_securing_ruby/
 [source-187]:    https://bugs.ruby-lang.org/projects/ruby-187/repository
 [source-192]:    https://bugs.ruby-lang.org/projects/ruby-192/repository
-[security-en]:   https://www.ruby-lang.org/en/security/
-[sunset-187-en]: https://www.ruby-lang.org/en/news/2013/06/30/we-retire-1-8-7/
+[security-en]:   https://www.ruby-lang.org/vi/security/
+[sunset-187-en]: https://www.ruby-lang.org/vi/news/2013/06/30/we-retire-1-8-7/

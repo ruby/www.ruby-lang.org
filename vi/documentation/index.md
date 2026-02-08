@@ -4,161 +4,242 @@ title: "Tài liệu"
 lang: vi
 ---
 
-Bạn sẽ tìm được các nguồn tài liệu hướng dẫn và tham khảo liên quan đến Ruby
-tại đây.
+Hướng dẫn, bài học và tài liệu tham khảo giúp bạn tìm hiểu thêm về Ruby
 {: .summary}
 
 ### Cài đặt Ruby
 
-Trừ khi bạn chỉ muốn thử Ruby trên trình duyệt (xem những liên kết bên dưới),
-bạn cần có Ruby được cài đặt trong máy tính của bạn. Bạn có thể kiểm tra liệu
-Ruby đã có sẵn hay chưa bằng việc mở terminal lên và gõ
+Mặc dù bạn có thể dễ dàng [thử Ruby ngay trên trình duyệt][1], bạn cũng có thể
+đọc [hướng dẫn cài đặt](installation/) để được trợ giúp về việc cài đặt Ruby.
 
-{% highlight sh %}
-ruby -v
-{% endhighlight %}
+### Tài liệu Ruby chính thức
 
-Câu lệnh này nên in ra một số về phiên bản của Ruby đã được cài đặt. Nếu không
-thấy, hãy xem [trang cài đặt](installation/) để có những tùy chọn khác nhau cho
-việc cài đặt Ruby.
+[docs.ruby-lang.org/en][docs-rlo]: Danh sách tài liệu cho tất cả các phiên bản Ruby được phát hành sau 2.1.
 
-### Khởi đầu
+[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Tài liệu cho Ruby 4.0.
 
-[Thử Ruby!][1]
-: Một bài hướng dẫn tương tác cho phép bạn dùng thử Ruby thực sự trên trình
-  duyệt. 15 phút của bài hướng dẫn này dành cho những người mới bắt đầu và
-  muốn có cảm nhận về Ruby.
+[docs.ruby-lang.org/en/master][docs-rlo-master]: Tài liệu cho nhánh master của Ruby.
 
-[Ruby Koans][2]
-: Koans sẽ khai sáng con đường của bạn đến với Ruby. Chúng tôi sẽ hướng dẫn
-  bạn kiến thức về ngôn ngữ, cú pháp, cấu trúc và một số hàm và thư viện phổ
-  dụng của Ruby.
+[C Extension Guide][docs-rlo-extension]: Hướng dẫn chuyên sâu về cách tạo C extension cho Ruby.
 
-[Why’s (Poignant) Guide to Ruby][5]
-: Một cuốn sách thú vị và độc đáo, dạy bạn Ruby qua các mẩu truyện tranh vui
-  nhộn. Ban đầu được tạo ra bởi *why the lucky stiff*. Sách này được xem là
-  kinh điển cho người nhập môn Ruby.
+### Bắt đầu
 
-[Tìm hiểu Ruby trong 25 phút](/vi/documentation/quickstart/)
-: Một hướng dẫn hay được viết lại từ Ruby căn bản. Bạn không cần bỏ quá 25
-  phút cho phần này.
+[Try Ruby][1]
+: Bạn có thể thử Ruby ngay trên trình duyệt.
 
-[Đến với Ruby từ ngôn ngữ khác](/vi/documentation/ruby-from-other-languages/)
-: Bạn đến với Ruby từ ngôn ngữ khác? Bất kể nó là C, C++, Java,
-  Perl, PHP hay Python, bài viết này sẽ giải quyết cho bạn.
+[Learn to Program][8]
+: Một bài hướng dẫn nhỏ tuyệt vời của Chris Pine dành cho người mới học lập trình.
+  Nếu bạn chưa biết lập trình, hãy bắt đầu từ đây.
 
-[Ruby Essentials][7]
-: Ruby Essentials là một cuốn sách trực tuyến miễn phí hướng dẫn học Ruby dễ
-  dàng và ngắn gọn.
+[Ruby in Twenty Minutes][rubyin20]
+: Một bài hướng dẫn Ruby ngắn gọn chỉ mất không quá 20 phút để
+  hoàn thành.
 
-[Học cách lập trình][8]
-: Một bài hướng dẫn nhỏ tuyệt vời cho lập trình viên mới viết bởi Chris Pine.
-  Nếu bạn không biết phải viết chương trình như thế nào, hãy bắt đầu từ đây.
+[The Odin Project][odin]
+: Chương trình giảng dạy full stack mã nguồn mở
 
-[Bài học Ruby đắt giá][38]
-: Một bộ bài tập rất hay với những giải thích có thể hướng dẫn bạn từ những
-  điều cơ bản nhất của Ruby cho tới lập trình hướng đối tượng và lập trình web.
+[Exercism][exercism]
+: 120 bài tập với phân tích tự động và hướng dẫn cá nhân.
 
-### Hướng dẫn sử dụng
+[Codecademy][codecademy]
+: Khóa học lập trình trực tuyến với đa dạng chủ đề.
 
-[Lập trình Ruby][9]
-: Hội thảo làm việc trên Ruby bằng Tiếng Anh, phiên bản đầu tiên
-  [Sách của Lập trình viên thực dụng][10] hiện đang được miễn phí trực tuyến.
+### Sách hướng dẫn / Sách
 
-[Sách bách khoa lập trình Ruby][12]
-: Một hướng dẫn trực tuyến miễn phí với người mới bắt đầu và nội dung trung
-  cấp cộng với một tài liệu tham khảo ngôn ngữ chi tiết.
+#### Cơ bản
 
-### Tài liệu tham khảo
+[Programming Ruby 3.3][pickaxe]
+: Tác phẩm nền tảng về Ruby bằng tiếng Anh. Mới được cập nhật cho Ruby 3.3.
 
-[Tài liệu tham khảo lõi Ruby][13]
-: Tải thẳng từ mã nguồn sử dụng [RDoc][14], thư viện này bao gồm các bài viết
-  về các lớp lõi và mô đun (ví dụ Xâu, Mảng, Ký tự, vv).
+[The Well-Grounded Rubyist][grounded]
+: Một bài hướng dẫn bắt đầu từ chương trình Ruby đầu tiên của bạn và đưa bạn đến những chủ đề nâng cao như reflection, threading và recursion.
 
-[Thư viện tài liệu tham khảo Ruby chuẩn][15]
-: Cũng được tải từ mã nguồn sử dụng RDoc, đưa ra tài liệu của thư viện chuẩn.
+#### Trung cấp
 
-[Tài liệu tham khảo Ruby C API][extensions]
-: Sự giới thiệu chính thức về Ruby's C API. Tuyệt vời nếu bạn muốn
-  viết những mở rộng của C hoặc đóng góp cho sự phát triển của Ruby.
+[Practical OOD in Ruby (POODR)][poodr]
+: Câu chuyện của một lập trình viên về cách viết mã hướng đối tượng.
+
+#### Nâng cao
+
+[Metaprogramming][meta]
+: Giải thích metaprogramming theo phong cách dễ hiểu và thực tế.
+
+[Ruby Under a Microscope (RUM)][microscope]
+: Hướng dẫn có minh họa về cơ chế bên trong của Ruby.
+
+### Tài liệu cộng đồng
+
+Các trang tài liệu này được duy trì bởi cộng đồng Ruby.
 
 [RubyDoc.info][16]
-: Các trang web một cửa cho tài liệu tham khảo về Ruby gems và GitHub chứa các
-  dự án Ruby.
+: Trang web tham khảo tài liệu toàn diện về các Ruby gem và
+  các dự án Ruby trên GitHub.
 
-[APIdock][18]
-: Tài liệu Ruby, Rails và RSpec với các ghi chú của người sử dụng.
+[RubyAPI.org][rubyapi-org]
+: Dễ dàng tìm kiếm và duyệt các class, module và method của Ruby.
 
-### Phần mềm chỉnh sửa và các môi trường phát triển tích hợp
+[ruby-doc.org][39]
+: Tài liệu API trực tuyến
 
-Để lập trình trong Ruby bạn có thể sử dụng chương trình chỉnh sửa mặc định của
-hệ điều hành. Nhân tiện, để hiệu quả hơn trong việc lập trình, tốt hơn bạn nên
-chọn một chương trình chỉnh sửa mã nguồn có hỗ trợ Ruby căn bản (ví dụ đánh
-dấu cú pháp, lựa chọn tài liệu) hoặc môi trường lập trình tích hợp với các
-tính năng nâng cao (ví dụ: tự động hoàn thiện, tái cấu trúc, hỗ trợ kiểm tra).
+[DevDocs.io][40]
+: Tài liệu API trực tuyến
 
-Đây là danh sách các công cụ phổ biến thường được dùng:
+[Ruby QuickRef][42]
+: Tham khảo nhanh về Ruby
 
-* Linux và công cụ đa nền tảng:
-  * [Aptana Studio][19]
-  * [Emacs][20] with [Ruby mode][21] and [Rsense][22]
-  * [Geany][23]
-  * [gedit][24]
-  * [Vim][25] with [vim-ruby][26] plugin and [Rsense][22]
-  * [RubyMine][27]
-  * [SciTe][28]
-  * [NetBeans][36]
-  * [Sublime Text][37]
-  * [Atom][atom]
+[rubyreferences][43]
+: Tham khảo ngôn ngữ đầy đủ + nhật ký thay đổi ngôn ngữ chi tiết.
+
+### Hướng dẫn về phong cách viết mã
+
+[rubystyle.guide][44]
+: Hướng dẫn phong cách Ruby của RuboCop
+
+[RuboCop][45]
+: Công cụ tự động áp dụng hướng dẫn phong cách viết mã của họ.
+
+[Shopify][46]
+: Hướng dẫn phong cách Ruby của Shopify
+
+[GitLab][47]
+: Hướng dẫn phong cách Ruby của GitLab
+
+[Airbnb][48]
+: Hướng dẫn phong cách Ruby của Airbnb
+
+[w3resource][49]
+: Hướng dẫn phong cách Ruby của W3
+
+# Công cụ
+
+[IRB][50]
+: Vòng lặp Read-Eval-Print-Loop (REPL) tương tác của Ruby
+
+[Pry][51]
+: Một REPL thay thế cho Ruby
+
+[Rake][52]
+: Công cụ build tương tự make dành cho Ruby.
+
+[RI][53]
+: (Ruby Information) là tiện ích dòng lệnh của Ruby giúp truy cập nhanh chóng và dễ dàng vào tài liệu Ruby.
+
+[RBS][54]
+: Chữ ký kiểu dữ liệu cho Ruby
+
+[TypeProf][55]
+: Trình thông dịch Ruby thử nghiệm ở mức kiểu dữ liệu để kiểm tra và hiểu mã Ruby.
+
+[Steep][56]
+: Trình kiểm tra kiểu dữ liệu tĩnh cho Ruby.
+
+### Trình soạn thảo và IDE
+
+Để lập trình Ruby, bạn có thể sử dụng trình soạn thảo mặc định của hệ
+điều hành. Tuy nhiên, để lập trình hiệu quả hơn, bạn nên chọn một trình soạn thảo mã nguồn có hỗ trợ Ruby cơ bản (ví dụ:
+tô sáng cú pháp, duyệt tệp) hoặc một môi trường phát triển tích hợp
+với các tính năng nâng cao (ví dụ: tự động hoàn thành mã, tái cấu trúc,
+hỗ trợ kiểm thử).
+
+Dưới đây là danh sách các trình soạn thảo phổ biến được các lập trình viên Ruby
+sử dụng, phân loại theo độ khó học:
+
+* Vài ngày
+  * [Sublime Text][37] (trả phí)
   * [Visual Studio Code][vscode]
+  * [Zed][zed]
+* Vài tháng
+  * [RubyMine][27] (trả phí)
+* "Vài năm" (nghĩa là bạn sẽ mất nhiều năm vẫn còn học thêm được điều mới)
+  * [Emacs][20] với [Ruby mode][21] hoặc [Enhanced Ruby mode][enh-ruby-mode]
+  * [Vim][25] với plugin [vim-ruby][26]
+  * [NeoVim][neovim]
 
-* Trên Windows:
-  * [Notepad++][29]
+Tất cả các trình soạn thảo trên đều hỗ trợ Language Server Protocol (LSP),
+mặc định hoặc thông qua các plugin LSP. [ruby-lsp][ruby-lsp] của Shopify
+là một trong những language server phổ biến nhất cho
+Ruby và [hỗ trợ tất cả các trình soạn thảo nêu trên][ruby-lsp-supported-editors].
 
-* Trên macOS:
-  * [TextMate][32]
-  * [BBEdit][33]
-  * [Dash][39] (trình duyệt tài liệu)
+### Tài liệu / Tài nguyên cũ
 
-### Đọc thêm
+Các liên kết này từng nổi bật nhưng đã không được cập nhật từ lâu.
 
-[Ruby-Doc.org][34] duy trì một danh sách đầy đủ của nguồn tài liệu tiếng anh.
-Nếu bạn có câu hỏi gì về Ruby, [danh sách mail](/vi/community/mailing-lists/)
-là một nơi tuyệt vời.
+[Ruby Koans][2]
+: Koans dẫn dắt bạn trên con đường giác ngộ để học
+  Ruby. Mục tiêu là học ngôn ngữ Ruby, cú pháp, cấu trúc và
+  một số hàm và thư viện phổ biến. Chúng tôi cũng dạy bạn về văn hóa.
 
+[Ruby Essentials][7]
+: Một cuốn sách trực tuyến miễn phí được thiết kế để cung cấp hướng dẫn
+  ngắn gọn và dễ theo dõi để học Ruby.
 
+[Why's (Poignant) Guide to Ruby][5]
+: Một cuốn sách độc đáo và thú vị sẽ dạy bạn Ruby
+  thông qua những câu chuyện, sự hài hước và truyện tranh. Được tạo bởi *why the lucky
+  stiff*, hướng dẫn này vẫn là một tác phẩm kinh điển cho người học Ruby.
+
+[Learn Ruby the Hard Way][38]
+: Một bộ bài tập rất tốt với các giải thích hướng dẫn bạn từ
+  những kiến thức cơ bản nhất của Ruby cho đến OOP và phát triển web.
+
+[Programming Ruby][9]
+: Tác phẩm nền tảng về Ruby bằng tiếng Anh, phiên bản đầu tiên của
+  [cuốn sách Pragmatic Programmers][10] có sẵn miễn phí trực tuyến.
+
+[The Ruby Programming Wikibook][12]
+: Sách hướng dẫn trực tuyến miễn phí với nội dung cho người mới bắt đầu
+  và trung cấp cùng với tài liệu tham khảo ngôn ngữ chi tiết.
 
 [1]: https://try.ruby-lang.org/
 [2]: https://rubykoans.com/
 [5]: https://poignant.guide
-[7]: http://www.techotopia.com/index.php/Ruby_Essentials
-[8]: http://pine.fm/LearnToProgram/
+[7]: https://www.techotopia.com/index.php/Ruby_Essentials
+[8]: https://pine.fm/LearnToProgram/
 [9]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
-[10]: http://pragmaticprogrammer.com/titles/ruby/index.html
-[12]: http://en.wikibooks.org/wiki/Ruby_programming_language
-[13]: http://www.ruby-doc.org/core
-[14]: https://ruby.github.io/rdoc/
-[15]: http://www.ruby-doc.org/stdlib
-[extensions]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
-[16]: http://www.rubydoc.info/
-[18]: http://apidock.com/
-[19]: http://www.aptana.com/
-[20]: http://www.gnu.org/software/emacs/
-[21]: http://www.emacswiki.org/emacs/RubyMode
-[22]: http://rsense.github.io/
-[23]: http://www.geany.org/
-[24]: http://projects.gnome.org/gedit/screenshots.html
-[25]: http://www.vim.org/
+[10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
+[12]: https://en.wikibooks.org/wiki/Ruby_programming_language
+[16]: https://www.rubydoc.info/
+[20]: https://www.gnu.org/software/emacs/
+[21]: https://www.emacswiki.org/emacs/RubyMode
+[25]: https://www.vim.org/
 [26]: https://github.com/vim-ruby/vim-ruby
-[27]: http://www.jetbrains.com/ruby/
-[28]: http://www.scintilla.org/SciTE.html
-[29]: http://notepad-plus-plus.org/
-[32]: http://macromates.com/
-[33]: https://www.barebones.com/products/bbedit/
-[34]: http://ruby-doc.org
-[36]: https://netbeans.org/
-[37]: http://www.sublimetext.com/
+[27]: https://www.jetbrains.com/ruby/
+[37]: https://www.sublimetext.com/
 [38]: https://learncodethehardway.org/ruby/
-[39]: http://kapeli.com/dash
-[atom]: https://atom.io/
-[vscode]: https://code.visualstudio.com/
+[39]: https://ruby-doc.org/
+[40]: https://devdocs.io/ruby/
+[42]: https://www.zenspider.com/ruby/quickref.html
+[43]: https://rubyreferences.github.io/
+[44]: https://rubystyle.guide/
+[45]: https://github.com/rubocop/ruby-style-guide
+[46]: https://ruby-style-guide.shopify.dev/
+[47]: https://docs.gitlab.com/ee/development/backend/ruby_style_guide.html
+[48]: https://github.com/airbnb/ruby
+[49]: https://www.w3resource.com/ruby/ruby-style-guide.php
+[50]: https://github.com/ruby/irb
+[51]: https://github.com/pry/pry
+[52]: https://github.com/ruby/rake
+[53]: https://ruby.github.io/rdoc/RI_md.html
+[54]: https://github.com/ruby/rbs
+[55]: https://github.com/ruby/typeprof
+[56]: https://github.com/soutaro/steep
+[codecademy]: https://www.codecademy.com/learn/learn-ruby
+[docs-rlo]: https://docs.ruby-lang.org/en
+[docs-rlo-4.0]: https://docs.ruby-lang.org/en/4.0
+[docs-rlo-master]: https://docs.ruby-lang.org/en/master
+[docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
+[enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/
+[exercism]: https://exercism.org/tracks/ruby
+[grounded]: https://www.manning.com/books/the-well-grounded-rubyist-third-edition
+[meta]: https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/
+[microscope]: https://patshaughnessy.net/ruby-under-a-microscope
+[neovim]: https://neovim.io/
+[odin]: https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby
+[pickaxe]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
+[poodr]: https://www.poodr.com/
+[ruby-lsp]: https://github.com/Shopify/ruby-lsp
+[ruby-lsp-supported-editors]: https://shopify.github.io/ruby-lsp/editors.html
+[rubyapi-org]: https://rubyapi.org/
+[rubyin20]: https://www.ruby-lang.org/vi/documentation/quickstart/
+[vscode]: https://code.visualstudio.com/docs/languages/ruby
+[zed]: https://zed.dev/

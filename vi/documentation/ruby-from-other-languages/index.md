@@ -4,19 +4,19 @@ title: "Đến với Ruby từ các ngôn ngữ khác"
 lang: vi
 ---
 
-Khi bạn xem các đoạn mã của Ruby, nó sẽ làm bạn liên tưởng tới các
-ngôn ngữ khác mà bạn đã sử dụng qua. Đây chính là chủ đích. Đa số
-cú pháp đều quen thuộc với những ngưởi sử dụng Perl, Python, và Java,
-vì vậy nếu bạn đã từng sử dụng qua thì việc làm quen với Ruby sẽ không
-mấy khó khăn.
+Khi bạn lần đầu nhìn vào mã Ruby, nó có thể sẽ gợi nhớ đến
+các ngôn ngữ lập trình mà bạn đã từng sử dụng. Điều này là có chủ đích.
+Phần lớn cú pháp quen thuộc với người dùng Perl, Python, và Java
+(cùng nhiều ngôn ngữ khác), vì vậy nếu bạn đã từng sử dụng chúng,
+việc học Ruby sẽ rất dễ dàng.
 {: .summary}
 
-Tài liệu này có 2 phần chính. Phần đầu tiên là tóm tắt những gì
-bạn mong muốn khi chuyển từ ngôn ngữ *X* sang Ruby. Phần thứ hai thảo
-luận về các đặc điểm chính của Ruby và so sánh với những ngôn ngữ
-mà bạn đã quen thuộc.
+Tài liệu này bao gồm hai phần chính. Phần đầu tiên cố gắng tóm tắt
+nhanh những gì bạn có thể mong đợi khi chuyển từ ngôn ngữ *X* sang Ruby.
+Phần thứ hai đề cập đến các tính năng chính của ngôn ngữ và so sánh
+chúng với những gì bạn đã quen thuộc.
 
-## Mong đợi gì: từ *ngôn ngữ X* đến Ruby
+## Điều gì sẽ xảy ra: Từ *ngôn ngữ X* đến Ruby
 
 * [Đến với Ruby từ C và C++](to-ruby-from-c-and-cpp/)
 * [Đến với Ruby từ Java](to-ruby-from-java/)
@@ -24,33 +24,34 @@ mà bạn đã quen thuộc.
 * [Đến với Ruby từ PHP](to-ruby-from-php/)
 * [Đến với Ruby từ Python](to-ruby-from-python/)
 
-## Một số vấn đề và tính năng quan trọng của ngôn ngữ
+## Các tính năng quan trọng của ngôn ngữ và một số điều cần lưu ý
 
-Dưới đây là một số ghi chú và gợi ý về tính năng của Ruby mà bạn sẽ thấy
-khi học Ruby.
+Dưới đây là một số gợi ý và chỉ dẫn về các tính năng chính của Ruby mà
+bạn sẽ gặp khi học Ruby.
 
-### Bước lặp
+### Vòng lặp
 
-Hai đặc điểm của Ruby có một chút khác biệt với những gì bạn biết trước
-đây, trong số đó có một số thường hay được sử dụng, là "blocks" và vòng lặp.
-Thay vì phải lặp trên một index (như C, C++, hoặc Java 1.5 trở về trước),
-hoặc lặp trên một danh sách (như Perl `for (@a) {...}`, hay Python
-`for i in aList: ...`, thì với Ruby bạn sẽ thường xuyên thấy
+Hai tính năng của Ruby hơi khác so với những gì bạn có thể đã thấy trước
+đây, và cần một chút thời gian để làm quen, đó là "block" và iterator.
+Thay vì lặp qua một chỉ số (như với C, C++, hoặc Java trước phiên bản 1.5),
+hoặc lặp qua một danh sách (như `for (@a) {...}` của Perl, hoặc
+`for i in aList: ...` của Python), với Ruby bạn sẽ thường thấy
 
 {% highlight ruby %}
 some_list.each do |this_item|
-  # chúng ta đang ở trong block.
-  # làm việc với biến this_item.
+  # We're inside the block.
+  # deal with this_item.
 end
 {% endhighlight %}
 
-Để hiểu thêm về `each` (và cũng như `collect`, `find`, `inject`,
-`sort`, v.v..), xem `ri Enumerable` (và `ri Enumerable#some_method`).
+Để biết thêm thông tin về `each` (và các hàm liên quan `collect`, `find`,
+`inject`, `sort`, v.v.), hãy xem `ri Enumerable`
+(và sau đó `ri Enumerable#some_method`).
 
-### Tất cả mọi thứ đều có giá trị
+### Mọi thứ đều có giá trị
 
-Không có sự khác nhau giữa biểu thức và mệnh đề. Tất cả đều có giá trị,
-thậm chí giá trị đó là **nil**. Đều có thể:
+Không có sự khác biệt giữa biểu thức và câu lệnh. Mọi thứ
+đều có giá trị, ngay cả khi giá trị đó là `nil`. Điều này hoàn toàn hợp lệ:
 
 {% highlight ruby %}
 x = 10
@@ -63,13 +64,14 @@ z = if x < y
 z # => true
 {% endhighlight %}
 
-### Các Symbol không phải là String
+### Symbol không phải là String nhẹ
 
-Những người mới học đều cố gắng hiểu được Symbol là gì, và nó được dùng
-cho việc gì.
+Nhiều người mới học Ruby gặp khó khăn trong việc hiểu Symbol là gì và
+chúng có thể được sử dụng để làm gì.
 
-Symbol có thể được mô tả như là định danh. Symbol là thông tin về **ai**
-đó, chứ không phải về **cái gì** đó. Xem `irb` để thấy sự khác biệt:
+Symbol có thể được mô tả tốt nhất như là định danh. Một symbol quan trọng
+ở **nó là ai**, không phải **nó là gì**. Hãy mở `irb` lên và xem sự
+khác biệt:
 
 {% highlight irb %}
 irb(main):001:0> :george.object_id == :george.object_id
@@ -79,32 +81,31 @@ irb(main):002:0> "george".object_id == "george".object_id
 irb(main):003:0>
 {% endhighlight %}
 
-`object_id` của phương thức trả về định danh của đối tượng. Nếu hai
-đối tượng có chung một `object_id`, thì như nhau (đều trỏ đến cùng
-một đối tượng trong vùng nhớ).
+Phương thức `object_id` trả về định danh của một Object. Nếu hai
+đối tượng có cùng `object_id`, chúng là một (trỏ đến cùng một
+Object trong bộ nhớ).
 
-Như bạn có thể thấy, một khi đã sử dụng Symbol một lần, thì những
-Symbol có cùng ký tự đều tham chiếu đến cùng một đối tượng trong bộ
-nhớ. Với bất kỳ 2 Symbol nào có ký tự giống nhau, thì `object_id`
-cũng giống nhau.
+Như bạn thấy, khi bạn đã sử dụng một Symbol, bất kỳ Symbol nào có cùng
+ký tự đều tham chiếu đến cùng một Object trong bộ nhớ. Với bất kỳ hai
+Symbol nào đại diện cho cùng các ký tự, `object_id` của chúng khớp nhau.
 
-Bây giờ hãy xem chuỗi String (“george”). Hai `object_id` không giống nhau.
-Điều đó nghĩa là nó được tham chiếu tới 2 đối tượng khác nhau trong vùng
-nhớ. Bất cứ khi nào bạn sử dụng new String, Ruby sẽ cấp phát vùng nhớ
-mới cho nó.
+Bây giờ hãy nhìn vào String ("george"). Các `object_id` không khớp nhau.
+Điều đó có nghĩa là chúng đang tham chiếu đến hai đối tượng khác nhau
+trong bộ nhớ. Mỗi khi bạn sử dụng một String mới, Ruby cấp phát bộ nhớ
+cho nó.
 
-Nếu bạn phân vân trong việc sử dụng Symbol hay String, hãy xem xét xem
-cái gì quan trọng hơn: định danh của một đối tượng (i.e một Hash key),
-hay là nội dung của nó (như ví dụ bên trên là “george”).
+Nếu bạn phân vân nên sử dụng Symbol hay String, hãy xem xét điều gì
+quan trọng hơn: định danh của một đối tượng (ví dụ: một khóa Hash), hay
+nội dung (trong ví dụ trên, "george").
 
-### Mọi thứ đều là đối tượng (Object)
+### Mọi thứ đều là Object
 
-“Mọi thứ đều là đối tượng” không hề nói quá. Thậm chí lớp (Class) và số
-đều là đối tượng, và bạn có thể làm việc với chúng giống như các đối
-tượng khác:
+"Mọi thứ đều là object" không chỉ là cường điệu. Ngay cả các lớp và
+số nguyên cũng là object, và bạn có thể làm những điều tương tự với chúng
+như với bất kỳ object nào khác:
 
 {% highlight ruby %}
-# Lệnh này tương đương với
+# This is the same as
 # class MyClass
 #   attr_accessor :instance_var
 # end
@@ -113,21 +114,21 @@ MyClass = Class.new do
 end
 {% endhighlight %}
 
-### Các biến hằng số (Constant)
+### Hằng số có thể thay đổi
 
-Các hằng số không thực sự cố định. Nếu bạn chỉnh sửa một hằng số đã được
-khởi tạo, nó sẽ kích hoạt cảnh báo, nhưng không ngăn chương trình thực thi.
-Nó sẽ không báo rằng bạn **cần** định nghĩa lại hằng số.
+Hằng số không thực sự là hằng số. Nếu bạn thay đổi một hằng số đã được
+khởi tạo, nó sẽ kích hoạt cảnh báo, nhưng không dừng chương trình của bạn.
+Tuy nhiên, điều đó không có nghĩa là bạn **nên** định nghĩa lại hằng số.
 
-### Những quy tắc chung
+### Quy ước đặt tên
 
-Ruby áp dụng một số quy ước đặt tên. Nếu một định danh bắt đầu bằng ký
-tự hoa, thì đó là hằng số. Nếu nó bắt đầu bằng dấu `$`, thì đó là
-biến toàn cục. Nếu như bắt đầu với `@`, thì đó là một thể hiện của biến.
-Nếu như bắt đầu với `@@`, thì đó là biến của lớp.
+Ruby áp dụng một số quy ước đặt tên. Nếu một định danh bắt đầu bằng
+chữ hoa, nó là hằng số. Nếu nó bắt đầu bằng dấu đô la (`$`), nó là
+biến toàn cục. Nếu nó bắt đầu bằng `@`, nó là biến instance. Nếu nó
+bắt đầu bằng `@@`, nó là biến lớp.
 
-Các tên phương thức, đều có thể bắt đầu với các ký tự hoa.
-Điều này có thể dẫn đến sự nhầm lẫn, như ví dụ dưới đây:
+Tuy nhiên, tên phương thức được phép bắt đầu bằng chữ hoa. Điều này
+có thể gây nhầm lẫn, như ví dụ dưới đây cho thấy:
 
 {% highlight ruby %}
 Constant = 10
@@ -138,41 +139,41 @@ end
 
 Bây giờ `Constant` là 10, nhưng `Constant()` là 11.
 
-### Các từ khóa đối số
+### Tham số từ khóa
 
-Giống như Python, khi các phương thức của Ruby 2.0 có
-thể được định nghĩa qua việc sử dụng các tư khóa đối số:
+Giống như Python, từ Ruby 2.0 các phương thức có thể được định nghĩa
+sử dụng tham số từ khóa:
 
 {% highlight ruby %}
 def deliver(from: "A", to: nil, via: "mail")
-  "Gửi từ #{from} đến #{to} qua #{via}."
+  "Sending from #{from} to #{to} via #{via}."
 end
 
 deliver(to: "B")
-# => "Gửi từ A đến B qua mail."
+# => "Sending from A to B via mail."
 deliver(via: "Pony Express", from: "B", to: "A")
-# => "Gửi từ B đến A qua Pony Express."
+# => "Sending from B to A via Pony Express."
 {% endhighlight %}
 
-### Các chân lý tổng quát
+### Sự thật tuyệt đối
 
-Trong Ruby, tất cả mọi thứ ngoài trừ **nil** và **false** thì đều được
-xem là true. Trong C, Python và các ngôn ngữ khác, 0 và các giá trị khác,
-như các danh sách rỗng, đều được xem là false. Hãy xem đoạn mã Python
-dưới đây (ví dụ cũng được áp dụng với các ngôn ngữ khác):
+Trong Ruby, mọi thứ trừ `nil` và `false` đều được coi là true. Trong
+C, Python và nhiều ngôn ngữ khác, 0 và có thể các giá trị khác, chẳng hạn
+như danh sách rỗng, được coi là false. Hãy xem đoạn mã Python sau
+(ví dụ cũng áp dụng cho các ngôn ngữ khác):
 
 {% highlight python %}
-# trong Python
+# in Python
 if 0:
   print("0 is true")
 else:
   print("0 is false")
 {% endhighlight %}
 
-Sẽ trả về kết quả “0 is false”. tương tự với Ruby:
+Đoạn mã này sẽ in ra "0 is false". Tương đương trong Ruby:
 
 {% highlight ruby %}
-# trong Ruby
+# in Ruby
 if 0
   puts "0 is true"
 else
@@ -180,11 +181,11 @@ else
 end
 {% endhighlight %}
 
-Sẽ in ra “0 is true”.
+In ra "0 is true".
 
-### Phạm vi áp dụng của các truy cập
+### Phạm vi truy cập áp dụng đến cuối phạm vi
 
-Trong đoạn mã dưới đây,
+Trong đoạn mã Ruby sau,
 
 {% highlight ruby %}
 class MyClass
@@ -194,46 +195,48 @@ class MyClass
 end
 {% endhighlight %}
 
-Bạn muốn `another_method` là public. Nhưng không. Truy cập `private`
-có phạm vi ảnh hướng đến toàn bộ các phương thức, hoặc cho đến khi
-xuất hiện truy cập khác. Mặc định, các phương thức đều public:
+Bạn có thể nghĩ rằng `another_method` là public. Nhưng không phải vậy.
+Bộ điều chỉnh truy cập `private` tiếp tục có hiệu lực cho đến cuối
+phạm vi, hoặc cho đến khi một bộ điều chỉnh truy cập khác xuất hiện,
+tùy điều nào đến trước. Mặc định, các phương thức là public:
 
 {% highlight ruby %}
 class MyClass
-  # bây giờ phương thức a_method là public
+  # Now a_method is public
   def a_method; true; end
 
   private
 
-  # phương thức another_method là private
+  # another_method is private
   def another_method; false; end
 end
 {% endhighlight %}
 
-`public`, `private` và `protected` đều là các phương thức, vì vậy nó có thể
-có tham số. Nếu bạn truyền một symbol vào thì phương thức đó sẽ bị thay đổi.
+`public`, `private` và `protected` thực ra là các phương thức, vì vậy chúng
+có thể nhận tham số. Nếu bạn truyền một Symbol cho một trong số chúng,
+phạm vi truy cập của phương thức đó sẽ được thay đổi.
 
-### Truy cập phương thức
+### Quyền truy cập phương thức
 
-Trong Java, `public` nghĩa là phương thức có thể được truy cập từ bất
-cứ đâu. `protected` nghĩa là thể hiện của lớp đó, và các lớp con của
-lớp đó, và không có lớp nào có thể truy cập ngoại trừ lớp con của nó,
-và `private` nghĩa là không có bất cứ lớp nào ngoài nó có thể truy cập
-vào phương thức đó.
+Trong Java, `public` có nghĩa là phương thức có thể được truy cập bởi
+bất kỳ ai. `protected` có nghĩa là các instance của lớp, các instance
+của lớp con, và các instance của các lớp trong cùng package có thể truy
+cập, nhưng không ai khác, và `private` có nghĩa là không ai ngoài các
+instance của lớp có thể truy cập phương thức.
 
-Ruby thì hơi khác một chút. `public` có nghĩa là phương thức công khai.
-`private` nghĩa là các phương thức được truy cập khi nó có thể được gọi
-mà không có một tiếp nhận rõ ràng. Chỉ có **self** được cho phép là nơi
-tiếp nhận khi gọi phương thức private.
+Ruby có một chút khác biệt. `public` thì tự nhiên là public. `private`
+có nghĩa là phương thức chỉ có thể được truy cập khi chúng có thể được
+gọi mà không cần bộ nhận (receiver) tường minh. Chỉ `self` được phép
+là bộ nhận của lệnh gọi phương thức private.
 
-`protected` là một truy cập cần được xem xét. Một phương thức protected có thể
-được gọi từ một lớp con của lớp thể hiện (lớp cha), nhưng cũng có thề được gọi
-bởi lớp thể hiện khác như là một lớp tiếp nhận của nó.
-Ví dụ, từ [Ruby Language FAQ][faq]:
+`protected` là cái cần chú ý. Một phương thức protected có thể được gọi
+từ các instance của lớp hoặc lớp con, nhưng cũng có thể với một instance
+khác làm bộ nhận.
+Đây là một ví dụ (chuyển thể từ [The Ruby Language FAQ][faq]):
 
 {% highlight ruby %}
 class Test
-  # mặc định là public
+  # public by default
   def identifier
     99
   end
@@ -247,8 +250,8 @@ t1 = Test.new  # => #<Test:0x34ab50>
 t2 = Test.new  # => #<Test:0x342784>
 t1 == t2       # => true
 
-# bây giờ chuyển `identifier' thành protected, và nó
-# vẫn hoạt động vì protected cho phép tham chiếu
+# now make `identifier' protected; it still works
+# because protected allows `other' as receiver
 
 class Test
   protected :identifier
@@ -256,7 +259,7 @@ end
 
 t1 == t2  # => true
 
-# bây giờ chuyển `identifier' thành private
+# now make `identifier' private
 
 class Test
   private :identifier
@@ -266,41 +269,42 @@ t1 == t2
 # NoMethodError: private method `identifier' called for #<Test:0x342784>
 {% endhighlight %}
 
-### Các lớp đều mở
+### Lớp mở
 
-Các lớp trong Ruby đều mở. Bạn có thể mở, thêm vào, và thay đổi nó bất cứ lúc nào.
-Thậm chí các lớp lõi, như `Integer` hoặc thậm chí là `Object`, lớp chính của mọi
-đối tượng. Ruby on Rails định nghĩa một loạt các phương thức để xử lý thời gian
-trên `Integer`. Xem bên dưới:
+Các lớp trong Ruby là mở. Bạn có thể mở chúng ra, thêm vào, và thay đổi
+chúng bất cứ lúc nào. Ngay cả các lớp lõi, như `Integer` hoặc thậm chí
+`Object`, lớp cha của tất cả các đối tượng. Ruby on Rails định nghĩa
+nhiều phương thức xử lý thời gian trên `Integer`. Hãy xem:
 
 {% highlight ruby %}
 class Integer
   def hours
-    self * 3600 # số giây trong 1 giờ
+    self * 3600 # number of seconds in an hour
   end
   alias hour hours
 end
 
-# 14 tiếng tính từ 00:00 ngày 1 tháng 1
-# (khi bạn thực sự thức dậy ;)
+# 14 hours from 00:00 January 1st
+# (aka when you finally wake up ;)
 Time.mktime(2006, 01, 01) + 14.hours # => Sun Jan 01 14:00:00
 {% endhighlight %}
 
-### Các tên phương thức hài hước
+### Tên phương thức thú vị
 
-Trong Ruby, các phương thức có thể được kết thúc với dấu hỏi hoặc chấm than.
-theo quy ước, các phương thức mà trả lời các câu hỏi (ví dụ `Array#empty?`
-trả về **true** nếu mảng đó rỗng) kết thúc với dấu hỏi. Các phương thức có khả
-năng “nguy hiểm” (ví dụ các phương thức thay đổi **self** hay các đối số,
-`exit!` v.v) theo quy ước kết thúc với dấu chấm than. Tất cả các phương thức
-thay đổi các đối số không kết thúc với dấu chấm than. `Array#replace`
-thay đổi nội dung của mảng với nội dụng của mảng khác. Nó không có ý nghĩa nhiều
-để có một phương thức như thế mà **không phải** thay đổi chính nó.
+Trong Ruby, các phương thức được phép kết thúc bằng dấu hỏi hoặc dấu chấm
+than. Theo quy ước, các phương thức trả lời câu hỏi kết thúc bằng dấu hỏi
+(ví dụ `Array#empty?`, trả về `true` nếu bộ nhận rỗng). Các phương thức
+có thể "nguy hiểm" theo quy ước kết thúc bằng dấu chấm than (ví dụ
+các phương thức thay đổi `self` hoặc các tham số, `exit!`, v.v.).
+Tuy nhiên, không phải tất cả các phương thức thay đổi tham số đều kết thúc
+bằng dấu chấm than. `Array#replace` thay thế nội dung của một mảng bằng
+nội dung của một mảng khác. Sẽ không hợp lý nếu có một phương thức như vậy
+mà lại **không** thay đổi self.
 
-### Các phương thức đơn
+### Phương thức singleton
 
-Các phương thức đơn là các phương thức cho từng đối tượng. Nó chỉ có trên
-đối tượng mà bạn viết riêng cho nó.
+Phương thức singleton là các phương thức dành riêng cho từng đối tượng.
+Chúng chỉ có sẵn trên Object mà bạn đã định nghĩa nó.
 
 {% highlight ruby %}
 class Car
@@ -317,108 +321,108 @@ end
 
 porsche.inspect # => Expensive car
 
-# Các đối tượng khác không bị ảnh hưởng
+# Other objects are not affected
 other_car = Car.new
 other_car.inspect # => Cheap car
 {% endhighlight %}
 
-### Các phương thức bị thiếu
+### Phương thức bị thiếu
 
-Ruby không từ bỏ nếu nó không thể tìm được một phương thức để phản
-hồi lại một thông điệp cụ thể. Nó được gọi là phương thức `method_missing`
-với tên phương thức và các đối số không thể tìm thấy. Mặc định, phương
-thức bị thiếu sẽ hiển thị ngoại lệ NameError, nhưng bạn có thể tái định
-nghĩa để phù hợp với ứng dụng cũng như thư viện của mình. Đây là một ví dụ:
+Ruby không bỏ cuộc nếu nó không tìm thấy phương thức phản hồi một
+thông điệp cụ thể. Nó gọi phương thức `method_missing` với tên của
+phương thức không tìm thấy và các tham số. Mặc định, `method_missing`
+ném ra ngoại lệ NameError, nhưng bạn có thể định nghĩa lại nó cho phù
+hợp với ứng dụng của bạn, và nhiều thư viện làm như vậy. Đây là một ví dụ:
 
 {% highlight ruby %}
-# id là tên của phương thức được gọi, cú pháp * là tập hợp
-# tất cả các tham số của mảng có tên 'arguments'
+# id is the name of the method called, the * syntax collects
+# all the arguments in an array named 'arguments'
 def method_missing(id, *arguments)
-  puts "Phương thức #{id} được gọi, nhưng không tìm thấy. Nó có " +
-       "các tham số: #{arguments.join(", ")}"
+  puts "Method #{id} was called, but not found. It has " +
+       "these arguments: #{arguments.join(", ")}"
 end
 
 __ :a, :b, 10
-# => Phương thức __ được gọi, nhưng không tìm thấy. Nó có các
-# tham số: a, b, 10
+# => Method __ was called, but not found. It has these
+# arguments: a, b, 10
 {% endhighlight %}
 
-Đoạn mã bên trên chỉ in ra chi tiết của phương thức được gọi,
-nhưng bạn có thể xử lý thông điệp theo bất kỳ cách nào mà bạn
-cho là phù hợp.
+Đoạn mã trên chỉ in ra chi tiết của lệnh gọi, nhưng bạn hoàn toàn
+tự do xử lý thông điệp theo bất kỳ cách nào phù hợp.
 
-### Truyền thông điệp, không phải gọi chức năng
+### Truyền thông điệp, không phải gọi hàm
 
-Gọi một phương thức thực chất là gửi **thông điệp** đến đối tượng khác:
+Một lệnh gọi phương thức thực chất là một **thông điệp** gửi đến đối
+tượng khác:
 
 {% highlight ruby %}
-# Lệnh này
+# This
 1 + 2
-# tương đương với lệnh
+# Is the same as this ...
 1.+(2)
-# và cũng tương đương với lệnh
+# Which is the same as this:
 1.send "+", 2
 {% endhighlight %}
 
-### Block cũng là đối tượng
+### Block là Object, chúng chỉ chưa biết điều đó
 
-Blocks (bao đóng) được sử dụng nhiều bởi các thư viện chuẩn.
-Để gọi một block, bạn cũng có thể dùng `yield`, hoặc làm cho
-nó thành một `Proc` bằng các thêm các đối số đặc biệt vào danh
-sách đối số, như thế này:
+Block (thực chất là closure) được sử dụng rất nhiều bởi thư viện chuẩn.
+Để gọi một block, bạn có thể sử dụng `yield`, hoặc biến nó thành `Proc`
+bằng cách thêm một tham số đặc biệt vào danh sách tham số, như sau:
 
 {% highlight ruby %}
 def block(&the_block)
-  # Bên trong này, the_block là block được truyền vào phương thức
-  the_block # đồng thời trả về chính nó
+  # Inside here, the_block is the block passed to the method
+  the_block # return the block
 end
 adder = block { |a, b| a + b }
-# adder bây giờ là một đối tượng Proc
+# adder is now a Proc object
 adder.class # => Proc
 {% endhighlight %}
 
-Bạn cũng có thể tạo các block bên ngoài phương thức được gọi,
-bằng cách gọi `Proc.new` với một block hoặc gọi phương thức `lambda`.
+Bạn cũng có thể tạo block bên ngoài lệnh gọi phương thức bằng cách gọi
+`Proc.new` với một block hoặc gọi phương thức `lambda`.
 
-Tương tự như vậy, các phương thức cũng được tạo như đối tượng:
+Tương tự, các phương thức cũng là Object đang hình thành:
 
 {% highlight ruby %}
-method(:puts).call "puts là một đối tượng!"
-# => puts là một đối tượng!
+method(:puts).call "puts is an object!"
+# => puts is an object!
 {% endhighlight %}
 
-### Toán tử và cú pháp
+### Toán tử là cú pháp ngọt
 
-Hầu hết các toán tử trong Ruby chỉ là cú pháp (với một số quy tắc ưu tiên)
-để gọi phương thức. Ví dụ, bạn có thể viết lại phương thức Integers +
+Hầu hết các toán tử trong Ruby chỉ là cú pháp ngọt (syntactic sugar)
+(với một số quy tắc ưu tiên) cho lệnh gọi phương thức. Ví dụ, bạn có thể
+ghi đè phương thức `+` của Integer:
 
 {% highlight ruby %}
 class Integer
-  # Bạn có thể, nhưng tốt nhất là đừng sửa
+  # You can, but please don't do this
   def +(other)
     self - other
   end
 end
 {% endhighlight %}
 
-Bạn không cần `toán tử +` của C++.
+Bạn không cần `operator+` của C++, v.v.
 
-Thậm chí bạn cũng có thể truy cập kiểu mảng nếu bạn định nghĩa
-các phương thức `[]` và `[]=`. Để định nghĩa toán tử nguyên phân + và -
-(như +1 và -2), bạn phải định nghĩa phương thức `+@` và `-@` tương ứng.
-Các toán tử dưới đây **không** có cú pháp. Nó không phải là các
-phương thức, và không thể tái định nghĩa:
+Bạn thậm chí có thể có truy cập kiểu mảng nếu bạn định nghĩa các phương
+thức `[]` và `[]=`. Để định nghĩa toán tử một ngôi + và - (ví dụ +1 và -2),
+bạn phải định nghĩa các phương thức `+@` và `-@`, tương ứng. Tuy nhiên,
+các toán tử dưới đây **không** phải là cú pháp ngọt. Chúng không phải là
+phương thức, và không thể được định nghĩa lại:
 
 {% highlight ruby %}
 =, .., ..., not, &&, and, ||, or, ::
 {% endhighlight %}
 
-Thêm vào đó, `+=`, `*=` v.v. chỉ là cách viết tắt cho `var = var + other_var`,
-`var = var * other_var` v.v và cũng không thể tái định nghĩa.
+Ngoài ra, `+=`, `*=` v.v. chỉ là viết tắt cho `var = var + other_var`,
+`var = var * other_var`, v.v. và do đó không thể được định nghĩa lại.
 
-## Tham khảo thêm
+## Tìm hiểu thêm
 
-Khi bạn đã sẵn sàng để nâng cao kiến thức về Ruby, xem phần
+Khi bạn đã sẵn sàng để tìm hiểu thêm về Ruby, hãy xem phần
 [Tài liệu](/vi/documentation/) của chúng tôi.
 
 

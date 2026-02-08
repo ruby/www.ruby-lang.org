@@ -1,21 +1,23 @@
 ---
 layout: news_post
-title: "Thay đổi thiết lập mặc định của ext/openssl"
+title: "Thay đổi cài đặt mặc định của ext/openssl"
 author: "usa"
-translator: "Thomas Tran"
+translator:
 date: 2014-10-27 12:00:00 +0000
 tags: security
 lang: vi
 ---
 
-Chúng tôi đã thay đổi thiết lập mặc định của ext/openssl trên các phiên bản Ruby 2.1.4, 2.0.0-p594 và 1.9.3-p550. Với thay đổi này, các tuỳ chọn SSL/TLS không bảo mật bị mặc định vô hiệu hoá. Tuy nhiên, thay đổi này có khả năng gây ra một số vấn đề với kết nối SSL.
+Chúng tôi đã thay đổi cài đặt mặc định của ext/openssl trong Ruby 2.1.4, Ruby 2.0.0-p594 và Ruby 1.9.3-p550.
+Với thay đổi này, các tùy chọn SSL/TLS không an toàn giờ đã bị tắt theo mặc định.
+Tuy nhiên, với thay đổi này, có khả năng xảy ra một số vấn đề trong kết nối SSL.
 
 ## Chi tiết
 
-OpenSSL vẫn thực thi các giao thức và mật mã được xem là không bảo mật vào ngày nay bởi các hoàn cảnh lịch sử.
-Giống như là lỗ hổng bảo mật POODLE ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), nếu bạn tiếp tục sử dụng OpenSSL với các tính năng không bảo mật đó, bạn có thể không thể đảm bảo sự an toàn của giao tiếp mạng.
-Vì vậy, dựa trên cuộc thảo luận ở [Bug #9424](https://bugs.ruby-lang.org/issues/9424), chúng tôi quyết định vô hiệu hoá các tuỳ chọn không bảo mật của SSL/TLS ở mặc định.
-Nếu bạn cần phải bỏ qua thay đổi này (xem ở dưới), hãy áp dụng bản vá ngược để thu hồi.
+OpenSSL vẫn triển khai các giao thức và cipher được coi là không an toàn ngày nay vì các lý do lịch sử.
+Giống như lỗ hổng POODLE ([CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)), nếu bạn tiếp tục sử dụng OpenSSL với các tính năng không an toàn như vậy, bạn có thể không đảm bảo được an toàn của truyền thông mạng.
+Vì vậy, dựa trên cuộc thảo luận trong [Bug #9424](https://bugs.ruby-lang.org/issues/9424), chúng tôi đã quyết định tắt các tùy chọn SSL/TLS không an toàn theo mặc định.
+Nếu bạn cần hủy thay đổi này (hiển thị bên dưới), hãy áp dụng bản vá ngược để hoàn nguyên.
 
 2.1.4
 : [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
@@ -26,18 +28,19 @@ Nếu bạn cần phải bỏ qua thay đổi này (xem ở dưới), hãy áp d
 1.9.3-p550
 : [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
 
-Tuy nhiên, nếu bạn bỏ qua thay đổi này, có nguy cơ là bạn không đảm bảo được sự an toàn của giao tiếp mạng.
-Bạn nên hiểu trước khi làm điều đó.
+Tuy nhiên, nếu bạn hủy thay đổi này, có rủi ro không đảm bảo được an toàn truyền thông mạng.
+Bạn nên hiểu các hệ quả của thay đổi này trước khi loại bỏ nó.
 
-### Các gói thư viện của Ruby
+### Thư viện đi kèm của Ruby
 
-Thay đổi này ảnh hưởng đến net/http, net/imap và net/pop.
-Tuy nhiên WEBrick và Drb lại không bởi vì chúng nhận các thiết lập một cách độc lập.
+Thay đổi này được phản ánh trong net/http, net/imap và net/pop.
+Vì DRb và WEBrick nhận cài đặt riêng, thay đổi này không ảnh hưởng đến chúng.
 
-### Các kịch bản sử dụng ext/openssl trực tiếp
+### Script sử dụng ext/openssl trực tiếp
 
-Thay đổi này ảnh hưởng khi một đối tượng `OpenSSL::SSL::SSLContext` được khởi tạo và phương thức `set_params` được gọi.
-Cụ thể, đoạn code như sau:
+Thay đổi này được phản ánh khi đối tượng `OpenSSL::SSL::SSLContext` được khởi tạo và phương thức instance `set_params` được gọi.
+
+Cụ thể, mã như sau:
 
 {% highlight ruby %}
 ctx = OpenSSL::SSL::SSLContext.new
@@ -45,13 +48,14 @@ ctx.set_params  # if you want to change some options, such as cert store, verify
 ssl = OpenSSL::SSL::SSLSocket.new(socket, ctx)
 {% endhighlight %}
 
-Khi sử dụng ext/openssl ở phía client, chúng tôi cho rằng có thể không có vấn đề gì với thay đổi này. Tuy nhiên, nếu bạn đang sử dụng ext/openssl ở phía server và áp dụng thay đổi này, một vài client cũ (IE6, trình duyệt trên các máy điện thoại đời cũ, vv...) có thể không thể kết nối đến server.
+Khi sử dụng ext/openssl ở phía client, chúng tôi cho rằng có thể không có vấn đề gì với thay đổi này.
+Tuy nhiên, nếu bạn sử dụng ext/openssl ở phía server và phản ánh thay đổi này, một số client cũ (Internet Explorer 6 trên Windows XP, trình duyệt trong điện thoại di động cũ, v.v.) có thể không kết nối được với server.
 
-Bạn sẽ là người quyết định có cho phép thay đổi này hay không, hãy cân nhắc lựa chọn.
+Việc bật thay đổi này hay không là quyết định của bạn, hãy cân nhắc các đánh đổi.
 
-## Giải pháp khác
+## Giải pháp tạm thời
 
-Néu bạn không thể nâng cấp Ruby nhưng bạn phải đương đầu các tuỳ chọn SSL/TSL không bảo mật, hãy áp dụng bản vá tạm sau:
+Nếu bạn không thể cập nhật Ruby nhưng phải đối phó với các tùy chọn SSL/TLS không an toàn, hãy áp dụng monkey-patch sau:
 
 {% highlight ruby %}
 module OpenSSL
@@ -110,13 +114,13 @@ module OpenSSL
 end
 {% endhighlight %}
 
-## Các phiên bản bị ảnh hưởng của thay đổi này
+## Các phiên bản bị ảnh hưởng bởi thay đổi này
 
-* Ruby 1.9.3 patchlevel 550 và sau đó
-* Ruby 2.0.0 patchlevel 594 và sau đó
-* Ruby 2.1.4 và sau đó
-* Trunk: revision 48097 và sau đó
+* Ruby 1.9.3 patchlevel 550 trở lên
+* Ruby 2.0.0 patchlevel 594 trở lên
+* Ruby 2.1.4 trở lên
+* revision 48097 trở lên của trunk
 
 ## Lịch sử
 
-* Được phát hành đầu tiên vào 2014-10-27 12:00:00 (UTC)
+* Công bố lần đầu vào 2014-10-27 12:00:00 (UTC)

@@ -2,17 +2,18 @@
 layout: news_post
 title: "Phát hành Ruby 2.2.1"
 author: "hsbt"
-translator: "Nguyễn Đức Giang"
+translator:
 date: 2015-03-03 03:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi vui mừng thông báo về việc phát hành Ruby 2.2.1.
-Đây là phiên bản tí hon đầu tiên của sêri Ruby 2.2.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.2.1.
+Đây là bản phát hành TEENY đầu tiên của nhánh ổn định 2.2.
 
-Phiên bản này bao gồm bản sửa lỗi cho ffi build failure và vấn đề rõ rỉ bộ nhớ trong Symbol GC (Xem [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
+Bản phát hành này bao gồm bản sửa lỗi biên dịch ffi và vấn đề rò rỉ bộ nhớ trên Symbol GC (Xem [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-Xem chi tiết tại [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog).
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+để biết chi tiết.
 
 ## Tải về
 
@@ -44,6 +45,8 @@ Xem chi tiết tại [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_
       SHA256: 73af1b1a9d5ceebfc129f270652fe81d9f760082c9fb3206a81bb7162b2a4087
       SHA512: 7150f0b6c6d27e6053ac88309903adf42fce537b8228740b97929712689c5623757aeb8a76dab1126cb70970c860fedb55a28c4660d818845921c0c74f8563f8
 
-## Lời nhắn
+## Nhận xét về bản phát hành
 
-Rất nhiều các commiters, nhà phát triển và người dùng đã cung cấp các thông báo lỗi tạo điều kiện cho chúng tôi hoàn thành phiên bản này. Xin trân trọng gửi lời cảm ơn.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi
+giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

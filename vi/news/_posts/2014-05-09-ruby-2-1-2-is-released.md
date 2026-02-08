@@ -1,25 +1,25 @@
 ---
 layout: news_post
-title: "Phát hành ấn bản Ruby 2.1.2"
+title: "Ruby 2.1.2 đã được phát hành"
 author: "nagachika"
-translator: "Trung Lê"
+translator:
 date: 2014-05-09 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh công bố ấn bản 2.1.2 của Ruby.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.1.2.
 
-Ấn bản này có một vá cho lỗi
-[regression của bản 2.1.1 với Hash#reject](https://www.ruby-lang.org/en/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
-và hỗ trợ xây dựng với Readline-6.3
-(see [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
-và nâng cấp cho libyaml với psych và một số vá khác.
+Bản phát hành này chứa bản sửa cho
+[lỗi hồi quy của Hash#reject trong Ruby 2.1.1](https://www.ruby-lang.org/vi/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/),
+hỗ trợ build với Readline-6.3
+(xem [Bug #9578](https://bugs.ruby-lang.org/issues/9578)),
+phiên bản libyaml đi kèm đã được cập nhật với psych, và một số bản sửa lỗi.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
-để biết thêm chi tiết.
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.bz2)
 
@@ -39,7 +39,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
       MD5:    7c303050d1e28e18398aed0fd59d334c
       SHA256: b62a0ded5cfce7d08e539bf5875d543e24208096a37f85bee3304c1284337fa2
 
-## Phản hồi
+## Ghi chú phát hành
 
-Chúng tôi cảm ơn các lập trình viên và người dùng đã báo cáo lỗi giúp chúng tôi
-hoàn thành ấn bản này.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn sự đóng góp của họ.

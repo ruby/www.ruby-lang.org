@@ -4,53 +4,54 @@ title: "Đến với Ruby từ Java"
 lang: vi
 ---
 
-Java rất phổ biến. Nó đã được chứng minh là nhanh (trái với những
-gì mà các nhóm anti-Java nêu ra). Nó cũng khá là rườm rà. Chuyển
-từ Java qua Ruby, đoạn mã của bạn sẽ rút ngắn đáng kề. Ruby cho phép
-thực hiện nguyên mẫu nhanh hơn.
+Java là một ngôn ngữ trưởng thành. Nó đã được kiểm chứng. Và nó nhanh
+(trái với những gì nhóm phản đối Java vẫn có thể tuyên bố). Nó cũng
+khá dài dòng. Khi chuyển từ Java sang Ruby, bạn có thể mong đợi kích thước
+mã của mình giảm đi đáng kể. Bạn cũng có thể mong đợi sẽ mất ít thời gian
+hơn để xây dựng các bản mẫu nhanh.
 
 ### Điểm tương đồng
 
 Giống như Java, trong Ruby,...
 
-* Bộ nhớ được quản lý thông qua một bộ thu dọn (Garbage Collector).
-* Đối tượng là kiểu dữ liệu chủ đạo.
+* Bộ nhớ được quản lý cho bạn thông qua bộ thu gom rác.
+* Các đối tượng được định kiểu mạnh.
 * Có các phương thức public, private, và protected.
-* Có tích hợp các công cụ doc (trong Ruby là RDoc). Các doc
-  được tạo bằng rdoc cũng tương tự như được tạo bởi javadoc.
+* Có các công cụ tài liệu tích hợp (của Ruby được gọi là RDoc). Tài liệu
+  được tạo bởi rdoc trông rất giống với tài liệu được tạo bởi javadoc.
 
 ### Khác biệt
 
-Khác với Java, trong Ruby,...
+Không giống Java, trong Ruby,...
 
-* Bạn không cần phải biên dịch, chỉ cần chạy trực tiếp.
-* Có một số khác biệt với các công cụ GUI của bên thứ ba. Người
-  dùng Ruby có thể dùng [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
-  [Qt][4], hoặc ví dụ như các gói  trong Ruby Tk.
-* Bạn sử dụng từ khóa `end` sau khi định nghĩa mọi thứ trong các lớp,
-  thay vì sử dụng các block.
-* Sử dụng `require` thay vì `import`.
-* Tất cả các biến đều là private. Bạn chỉ có thể truy cập từ bên ngoài
-  thông qua các phương thức.
-* Các dấu ngoặc khi gọi phương thức thường bỏ qua hoặc tùy chọn.
-* Tất cả đều là đối tượng, bao gồm số như là 2 và 3.14159.
-* Không kiểm tra các kiểu static.
-* Tên biến chỉ là các nhãn. Không có loại nào liên quan tới chúng.
-* Không có kiểu khai báo. Bạn chỉ cần gán cho tên biến mới những gì
-  cần thiết và nó sẽ "tự tạo" (ví dụ `a = [1,2,3]` thay vì
+* Bạn không cần biên dịch mã. Bạn chỉ cần chạy trực tiếp.
+* Có một số bộ công cụ GUI bên thứ ba phổ biến khác nhau. Người dùng Ruby
+  có thể thử [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3],
+  [Qt][4], hoặc [Ruby Tk](https://github.com/ruby/tk) chẳng hạn.
+* Bạn sử dụng từ khóa `end` sau khi định nghĩa các thứ như lớp, thay vì
+  phải đặt dấu ngoặc nhọn bao quanh các khối mã.
+* Bạn dùng `require` thay vì `import`.
+* Tất cả biến thành viên đều là private. Từ bên ngoài, bạn truy cập
+  mọi thứ thông qua phương thức.
+* Dấu ngoặc đơn trong lệnh gọi phương thức thường là tùy chọn và thường
+  được bỏ qua.
+* Mọi thứ đều là đối tượng, bao gồm cả các số như 2 và 3.14159.
+* Không có kiểm tra kiểu tĩnh.
+* Tên biến chỉ là nhãn. Chúng không có kiểu dữ liệu đi kèm.
+* Không có khai báo kiểu. Bạn chỉ cần gán cho tên biến mới
+  khi cần và chúng sẽ tự "xuất hiện" (ví dụ: `a = [1,2,3]` thay vì
   `int[] a = {1,2,3};`).
-* Không cần ép kiểu. Chỉ cần gọi các phương thức. Các unit test
-  sẽ báo các ngoại lệ cho bạn biết trước khi bạn thực thi lệnh.
+* Không có ép kiểu. Chỉ cần gọi phương thức. Các bài kiểm thử đơn vị
+  của bạn sẽ cho bạn biết trước khi chạy mã nếu bạn sẽ gặp ngoại lệ.
 * Sử dụng `foo = Foo.new("hi")` thay vì `Foo foo = new Foo("hi")`.
-* Các phương thức khởi tạo luôn được đặt tên là “initialize”
-  thay vì là tên của lớp đó.
-* Bạn có “mixins” thay cho các interface.
-* YAML thường được sử dụng trên XML.
-* Ruby báo `nil` thay vì `null`.
-* `==` và `equals()` được xử lý khác nhau trong Ruby. Sử dụng `==`
-  khi bạn muốn kiểm tra tương đương trong Ruby (trong Java là `equals()`).
-  Sử dụng `equals?()` khi bạn muốn biết 2 đối tượng có giống nhau không
-  (trong Java là `==`).
+* Constructor luôn được đặt tên là "initialize" thay vì tên của lớp.
+* Bạn có "mixin" thay vì interface.
+* YAML có xu hướng được ưa chuộng hơn XML.
+* Sử dụng `nil` thay vì `null`.
+* `==` và `equals()` được xử lý khác nhau trong Ruby. Sử dụng `==` khi
+  bạn muốn kiểm tra tương đương trong Ruby (`equals()` trong Java).
+  Sử dụng `equal?()` khi bạn muốn biết hai đối tượng có phải là cùng
+  một đối tượng hay không (`==` trong Java).
 
 
 

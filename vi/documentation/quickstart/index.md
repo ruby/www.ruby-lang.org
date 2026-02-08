@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tìm hiểu Ruby trong 25 phút"
+title: "Ruby trong 20 phút"
 lang: vi
 
 header: |
@@ -13,111 +13,121 @@ header: |
     <span class="separator"> | </span>
     <a href="4/" title="Phần 4">4</a>
   </div>
-  <h1>Tìm hiểu Ruby trong 25 phút</h1>
+  <h1>Ruby trong 20 phút</h1>
 
 ---
 
 ## Giới thiệu
 
-Đây là một bài hướng dẫn nhỏ, chỉ cần không quá 20 phút để hoàn thành. Giả thiết
-là bạn đã cài sẵn Ruby. (Nếu bạn chưa có Ruby, hãy [cài đặt][installation]
-trước khi bắt đầu nhé.)
+Đây là một hướng dẫn Ruby nhỏ, chỉ mất không quá 20 phút để hoàn
+thành. Hướng dẫn này giả định rằng bạn đã cài đặt Ruby trên máy.
+(Nếu bạn chưa có Ruby trên máy tính, hãy [cài đặt][installation]
+trước khi bắt đầu.)
 
-## Tương tác với Ruby
+## Ruby tương tác
 
-Ruby có một chương trình hiển thị kết quả của bất kỳ câu lệnh Ruby nào bạn gõ
-vào. Thử sức với Ruby code theo cách tương tác như thế này là một cách tuyệt vời
-để khám phá nó.
+Ruby đi kèm với một chương trình cho phép bạn thấy ngay kết quả của
+bất kỳ câu lệnh Ruby nào bạn nhập vào. Thử nghiệm với mã Ruby trong
+các phiên tương tác như thế này là một cách tuyệt vời để học ngôn ngữ.
 
-Mở IRB (hiểu là Tương tác với Ruby).
+Hãy mở IRB (viết tắt của Interactive Ruby).
 
-* Nếu bạn sử dụng **macOS**, mở `Terminal` và gõ `irb` rồi enter.
-* Nếu bạn sử dụng **Linux**, mở một shell và gõ `irb` rồi enter.
-* Nếu bạn sử dụng **Windows**, mở `Interactive Ruby` từ phần Ruby trên
-  Start Menu.
+* Nếu bạn đang dùng **macOS**, hãy mở `Terminal` và gõ `irb`, sau đó
+  nhấn enter.
+* Nếu bạn đang dùng **Linux**, hãy mở một shell và gõ `irb` rồi nhấn
+  enter.
+* Nếu bạn đang dùng **Windows**, hãy mở `Interactive Ruby` từ phần
+  Ruby trong Start Menu.
 
 {% highlight irb %}
 irb(main):001:0>
 {% endhighlight %}
 
-Rồi, nó đã mở. Giờ ta phải làm gì?
+OK, vậy là đã mở rồi. Bây giờ thì sao?
 
-Gõ: `"Xin chào thế giới"`
+Hãy gõ như sau: `"Hello World"`
 
 {% highlight irb %}
-irb(main):001:0> "Xin chào thế giới"
-=> "Xin chào thế giới"
+irb(main):001:0> "Hello World"
+=> "Hello World"
 {% endhighlight %}
 
-## Ruby phục vụ bạn!
+## Ruby đã nghe lời bạn!
 
-Điều gì đã xảy ra vậy? Chúng ta vừa viết chương trình "Xin chào thế giới" ngắn
-nhất thế giới ư? Không phải vậy. Dòng thứ 2 chỉ là cách mà IRB nói cho ta biết
-kết quả của phép toán cuối cùng nó nhận được. Nếu muốn in ra "Xin chào thế giới"
-ta cần viết nhiều hơn:
+Chuyện gì vừa xảy ra vậy? Chúng ta vừa viết chương trình "Hello World"
+ngắn nhất thế giới ư? Không hẳn vậy. Dòng thứ hai chỉ là cách IRB cho
+chúng ta biết kết quả của biểu thức cuối cùng mà nó đã thực thi. Nếu
+chúng ta muốn in ra "Hello World" thì cần thêm một chút nữa:
 
 {% highlight irb %}
-irb(main):002:0> puts "Xin chào thế giới"
-Xin chào thế giới
+irb(main):002:0> puts "Hello World"
+Hello World
 => nil
 {% endhighlight %}
 
-`puts` là cú pháp cơ bản để in ra trong Ruby. Nhưng sau đó `=> nil` là gì? Nó là
-kết quả của phép toán. `puts` luôn trả về nil - giá trị rỗng.
+`puts` là lệnh cơ bản để in nội dung ra màn hình trong Ruby. Nhưng vậy
+thì phần `=> nil` là gì? Đó là kết quả của biểu thức. `puts` luôn trả
+về nil, đây là giá trị "hoàn-toàn-không-có-gì" trong Ruby.
 
-## Máy tính miễn phí của bạn đây
+## Máy tính miễn phí đây
 
-Rõ ràng, chúng ta có thể sử dụng IRB như một chiếc máy tính cơ bản:
+Chúng ta đã có đủ để dùng IRB như một máy tính cơ bản:
 
 {% highlight irb %}
 irb(main):003:0> 3+2
 => 5
 {% endhighlight %}
 
-Ba cộng hai. Quá dễ. Thế còn ba nhân hai thì sao? Bạn có thể gõ trực tiếp vì nó
-rất ngắn, tuy nhiên bạn có thể sẽ sửa lại những gì mình vừa nhập vào. Bấm nút
-**mũi tên lên** trên bàn phím và nó sẽ hiển thị dòng `3+2`. Nếu được, bạn có thể
-sử dụng phím mũi tên trái để di chuyển đến dấu `+` và thay nó bằng dấu `*`.
+Ba cộng hai. Đơn giản quá. Vậy còn ba *nhân* hai thì sao? Bạn có thể gõ
+trực tiếp, nó đủ ngắn, nhưng bạn cũng có thể quay lại và sửa lại dòng
+vừa nhập. Hãy thử nhấn phím **mũi tên lên** trên bàn phím và xem nó có
+hiện lại dòng `3+2` không. Nếu có, bạn có thể dùng phím mũi tên trái
+để di chuyển đến ngay sau dấu `+` rồi dùng phím xóa lùi để đổi thành
+dấu `*`.
 
 {% highlight irb %}
 irb(main):004:0> 3*2
 => 6
 {% endhighlight %}
 
-Tiếp theo, hãy thử tính 3 bình phương:
+Tiếp theo, hãy thử ba bình phương:
 
 {% highlight irb %}
 irb(main):005:0> 3**2
 => 9
 {% endhighlight %}
 
-Trong Ruby, `**` nghĩa là "bình phương". Nhưng nếu bạn muốn tìm căn bậc hai thì
-sao?
+Trong Ruby, `**` là cách bạn viết "lũy thừa". Nhưng nếu bạn muốn làm
+ngược lại và tìm căn bậc hai của một số thì sao?
 
 {% highlight irb %}
 irb(main):006:0> Math.sqrt(9)
 => 3.0
 {% endhighlight %}
 
-Bạn thấy gì ở kết quả? Nếu bạn nghĩ, đó là "căn bậc hai của 9" thì bạn đã đúng.
-Nhưng hãy chú ý vào những thứ khác. Đầu tiên: `Math` là gì?
+OK, khoan đã, cái cuối cùng đó là gì vậy? Nếu bạn đoán "nó đang tìm
+căn bậc hai của chín" thì bạn đúng rồi. Nhưng hãy nhìn kỹ hơn một chút.
+Trước hết, `Math` là gì?
 
-## Gộp nhóm mã module theo chủ đề
+## Module nhóm mã theo chủ đề
 
-`Math` là một module của toán học. Các module phụ vụ hai vai trò trong Ruby. Ở
-đây là một vai trò: nhóm các phương thức giống nhau lại với nhau dưới một cái
-tên tương tự. `Math` còn có các phương thức như `sin()` và `tan()`.
+`Math` là một module có sẵn dành cho toán học. Trong Ruby, module đóng
+hai vai trò. Đây là một vai trò: nhóm các method tương tự lại với nhau
+dưới một tên quen thuộc. `Math` cũng chứa các method như `sin()` và
+`tan()`.
 
-Tiếp theo là dấu chấm. Dấu chấm có tác dụng gì? Dấu chấm dùng để xác định nơi
-nhận của một câu lệnh. Câu lệnh là gì? Trong trường hợp này thì nó là `sqrt(9)`,
-nghĩa là gọi phương thức `sqrt`, viết tắt của "căn bậc hai (square root)" với
-tham số là 9.
+Tiếp theo là dấu chấm. Dấu chấm dùng để làm gì? Dấu chấm là cách bạn
+xác định đối tượng nhận thông điệp. Thông điệp là gì? Trong trường hợp
+này là `sqrt(9)`, nghĩa là gọi method `sqrt`, viết tắt của "square root"
+(căn bậc hai) với tham số là `9`.
 
-Kết quả của việc gọi phương thức này là `3.0`. Chú ý rằng nó không chỉ là `3`
-bởi vì phần lớn căn bậc 2 của một số không phải là một số nguyên, do đó phương
-thức luôn trả về một số thực.
+Kết quả của lời gọi method này là giá trị `3.0`. Bạn có thể nhận thấy
+nó không phải chỉ là `3`. Đó là vì trong hầu hết trường hợp, căn bậc
+hai của một số sẽ không phải là số nguyên, nên method này luôn trả về
+một số thực dấu phẩy động.
 
-Nếu muốn lưu lại một vài kết quả của phép toán này, hãy gán kết quả cho một biến.
+Nếu chúng ta muốn ghi nhớ kết quả của các phép tính thì sao? Hãy gán
+kết quả vào một biến.
 
 {% highlight irb %}
 irb(main):007:0> a = 3 ** 2
@@ -128,8 +138,8 @@ irb(main):009:0> Math.sqrt(a+b)
 => 5.0
 {% endhighlight %}
 
-Tuyệt vời như một chiếc máy tính, chúng ta đang vượt xa thông điệp `Xin chào
-thế giới` truyền thống mà ban đầu bài hướng dẫn giả sử...
-[Vậy chúng ta hãy quay lại nào](2/)
+Dù máy tính này khá tuyệt, nhưng chúng ta đang đi xa khỏi thông điệp
+`Hello World` truyền thống mà các hướng dẫn nhập môn thường tập trung
+vào... [vậy hãy quay lại với nó nào.](2/)
 
 [installation]: /vi/documentation/installation/

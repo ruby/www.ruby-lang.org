@@ -2,22 +2,22 @@
 layout: news_post
 title: "Phát hành Ruby 2.1.6"
 author: "usa"
-translator: "My Mai"
+translator:
 date: 2015-04-13 12:00:00 +0000
 lang: vi
 ---
 
-Phiên bản Ruby 2.1.6 đã được phát hành.
+Ruby 2.1.6 đã được phát hành.
 
-Phiên bản phát hành lần này bao gồm việc sửa chữa bảo mật cho tiện ích OpenSSL.
-Xem các chủ đề bên dưới để biết thêm chi tiết.
+Bản phát hành này bao gồm bản sửa lỗi bảo mật cho extension OpenSSL.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2015-1855: Xác nhận Hostname Ruby OpenSSL](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/vi/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-Ngoài ra có nhiều lỗi khác được sửa.
-Xem tại [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+Ngoài ra, nhiều bản sửa lỗi khác cũng được bao gồm.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
-để biết thêm chi tiết.
+để biết chi tiết.
 
 ## Tải về
 
@@ -49,8 +49,8 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
       SHA256: ecbc4b97cc78e96e01375b961936133279db806044fd4d23771136dae4c1056d
       SHA512: d1450bd013dbaabf10d7097e9dcd8c3f027110c08693ee7c94c002ea96b7e6e171c951b8b1ca3971b7f89e05b15df00ec56a006f9393889ae7f8045e9b328fad
 
-## Lời nhắn của lần phát hành này
+## Nhận xét về bản phát hành
 
-Cảm ơn tất cả những người đã giúp đỡ cho phiên bản này, đặc biệt là nagachika.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này, đặc biệt là nagachika.
 
-Tiếp tục duy trì Ruby 2.1, bao gồm cả phiên bản phát hành lần này được dựa trên “Sự đồng ý đối với các phiên bản Ruby ổn định” của [hiệp hội Ruby](http://www.ruby.or.jp/).
+Việc bảo trì Ruby 2.1, bao gồm bản phát hành này, dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của [Hiệp hội Ruby](http://www.ruby.or.jp/).

@@ -3,14 +3,15 @@ layout: null
 ---
 
 {% highlight ruby %}
-# In ra "I love Ruby"
-nói = "I love Ruby"
-puts nói
+# Output "I love Ruby"
+say = "I love Ruby"
+puts say
 
-# In ra "I *LOVE* RUBY"
-nói = nói.sub("love", "*love*")
-puts nói.upcase
+# Output "I *LOVE* RUBY"
+say = say.sub("love", "*love*")
+puts say.upcase
 
-# In ra "I *love* Ruby" 5 lần
-5.times { puts nói }
+# Output "I *love* Ruby"
+# five times
+5.times { puts say }
 {% endhighlight %}
