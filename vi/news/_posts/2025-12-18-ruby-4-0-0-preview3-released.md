@@ -14,7 +14,7 @@ Ruby 4.0 giới thiệu Ruby::Box và "ZJIT", cùng nhiều cải tiến khác.
 ## Ruby::Box
 
 Một tính năng mới (thử nghiệm) cung cấp sự phân tách về các định nghĩa.
-Để biết chi tiết về "Ruby Box", xem [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+Để biết chi tiết về "Ruby Box", xem [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html).
 [[Feature #21311]] [[Misc #21385]]
 
 ## Thay đổi ngôn ngữ
