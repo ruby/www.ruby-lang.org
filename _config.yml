@@ -15,11 +15,25 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - README.md
+  - CLAUDE.md
   - lib
   - test
   - vendor
   - tsconfig.json
+  - package.json
+  - package-lock.json
+  - node_modules
+  - tailwind.config.js
+  - postcss.config.js
+  - .git
+  - .gitignore
+  - .github
+  - .idea
+  - .vscode
   - CLAUDE.md
+
+plugins:
+  - jekyll-postcss-v2
 
 url: https://www.ruby-lang.org
 
