@@ -270,9 +270,6 @@ Originally, or historically, it was called “ruby”.
   [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim).
 * [Jedit](http://jedit.sourceforge.net/): A portable editor written in Java,
   comes with support for Ruby.
-* [Nedit](http://www.nedit.org): Eric Santonacci has written Ruby support for
-  Nedit, available from
-  [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz).
 * Barry Shultz has written a Ruby definition file for TextPad, available at
   [https://www.textpad.com/add-ons/synn2t.html](https://www.textpad.com/add-ons/synn2t.html).
 
