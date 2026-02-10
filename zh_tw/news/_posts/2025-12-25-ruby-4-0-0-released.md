@@ -261,7 +261,7 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 
 * Ruby::Box
 
-    * 這是一項用來提供定義區隔的(實驗性質)新功能。關於「Ruby Box」的詳細資訊，請參閱[doc/language/box.md](doc/language/box.md)。
+    * 這是一項用來提供定義區隔的(實驗性質)新功能。關於「Ruby Box」的詳細資訊，請參閱[doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)。
       [[Feature #21311]] [[Misc #21385]]
 
 * Set

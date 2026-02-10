@@ -14,7 +14,7 @@ Ruby 4.0 introduce Ruby::BOX y "ZJIT", y agrega muchas mejoras.
 ## Ruby::BOX
 
 Una nueva característica (experimental) para dar separación en definiciones.
-Vea detalles de "Ruby Box" en [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+Vea detalles de "Ruby Box" en [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html).
 [[Característica #21311]] [[Misc #21385]]
 
 ## Cambios en el lenguaje
@@ -173,7 +173,7 @@ y ahora está definido oficialmente. [[Característica #20884]]
 * Ruby::Box
 
 * Una nueva característica (experimental) para proporcionar separación entre definiciones.
-Para obtener detalles sobre "Ruby Box", consulte [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+Para obtener detalles sobre "Ruby Box", consulte [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html).
 [[Característica #21311]] [[Misc #21385]]
 
 * Set

@@ -14,7 +14,7 @@ Ruby 4.0 引入了 Ruby::Box 和 "ZJIT"，以及若干改进。
 ## Ruby::Box
 
 这是一项新的用于提供定义隔离的实验性功能。
-"Ruby Box" 的详细信息，可以参阅 [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md)。
+"Ruby Box" 的详细信息，可以参阅 [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)。
 [[Feature #21311]] [[Misc #21385]]
 
 ## 语言变化
@@ -162,7 +162,7 @@ Ruby 4.0 引入了 Ruby::Box 和 "ZJIT"，以及若干改进。
 * Ruby::Box
 
     * 这是一项新的（实验性）功能，用于实现定义分离。
-      关于 "Ruby Box" 的详细信息，请参阅 [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md)。
+      关于 "Ruby Box" 的详细信息，请参阅 [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)。
       [[Feature #21311]] [[Misc #21385]]
 
 * Set
