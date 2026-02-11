@@ -102,6 +102,10 @@ navigation:
     url: /ru/documentation/repository-guide/
   - text: Почтовые рассылки
     url: /ru/community/mailing-lists/
+  - text: Правила списков рассылки
+    url: /en/community/mailing-lists/ruby-talk-guidelines/
+  - text: Руководство по созданию патчей
+    url: /en/community/ruby-core/writing-patches/
   - text: Прочее
     submenu:
     - text: ruby/ruby
