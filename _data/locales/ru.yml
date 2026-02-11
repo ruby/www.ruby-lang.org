@@ -126,6 +126,10 @@ navigation:
     url: /ru/community/user-groups/
   - text: Блоги и рассылки
     url: /ru/community/weblogs/
+  - text: Подкасты
+    url: /en/community/podcasts/
+  - text: Кодекс поведения
+    url: /en/conduct/
   - text: События и конференции
     submenu:
     - text: RubyKaigi
@@ -133,6 +137,11 @@ navigation:
       external: true
     - text: Ruby Events
       url: https://www.rubyevents.org/
+      external: true
+  - text: Организации
+    submenu:
+    - text: Ruby Association
+      url: https://www.ruby.or.jp/en/
       external: true
 - text: Новости
   url: /ru/news/
