@@ -9,11 +9,11 @@ navigation:
   - text: Скачать
     url: /ru/downloads/
   - text: Релизы
-    url: /en/downloads/releases/
+    url: /ru/downloads/releases/
   - text: Ветки
-    url: /en/downloads/branches/
+    url: /ru/downloads/branches/
   - text: Зеркала
-    url: /en/downloads/mirrors/
+    url: /ru/downloads/mirrors/
   - text: Менеджеры пакетов
     submenu:
     - text: rbenv
@@ -51,7 +51,7 @@ navigation:
     - text: В Ruby из Python
       url: /ru/documentation/ruby-from-other-languages/to-ruby-from-python/
   - text: FAQ
-    url: /en/documentation/faq/
+    url: /ru/documentation/faq/
   - text: Начните сейчас & Исследуйте
     submenu:
     - text: TryRuby
@@ -103,9 +103,9 @@ navigation:
   - text: Почтовые рассылки
     url: /ru/community/mailing-lists/
   - text: Правила списков рассылки
-    url: /en/community/mailing-lists/ruby-talk-guidelines/
+    url: /ru/community/mailing-lists/ruby-talk-guidelines/
   - text: Руководство по созданию патчей
-    url: /en/community/ruby-core/writing-patches/
+    url: /ru/community/ruby-core/writing-patches/
   - text: Прочее
     submenu:
     - text: ruby/ruby
@@ -127,9 +127,9 @@ navigation:
   - text: Блоги и рассылки
     url: /ru/community/weblogs/
   - text: Подкасты
-    url: /en/community/podcasts/
+    url: /ru/community/podcasts/
   - text: Кодекс поведения
-    url: /en/conduct/
+    url: /ru/conduct/
   - text: События и конференции
     submenu:
     - text: RubyKaigi
