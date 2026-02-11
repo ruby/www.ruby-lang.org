@@ -50,6 +50,8 @@ navigation:
       url: /ru/documentation/ruby-from-other-languages/to-ruby-from-php/
     - text: В Ruby из Python
       url: /ru/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: FAQ
+    url: /en/documentation/faq/
   - text: Начните сейчас & Исследуйте
     submenu:
     - text: TryRuby
