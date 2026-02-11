@@ -8,6 +8,12 @@ navigation:
     url: /ru/documentation/installation/
   - text: Скачать
     url: /ru/downloads/
+  - text: Релизы
+    url: /en/downloads/releases/
+  - text: Ветки
+    url: /en/downloads/branches/
+  - text: Зеркала
+    url: /en/downloads/mirrors/
   - text: Менеджеры пакетов
     submenu:
     - text: rbenv
