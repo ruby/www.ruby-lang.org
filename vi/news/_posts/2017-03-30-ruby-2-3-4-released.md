@@ -27,7 +27,7 @@ Một sự không tương thích API đã được phát hiện trong Ruby 2.3.4
 Chúng tôi sẽ sửa vấn đề này trong bản phát hành tiếp theo, nhưng nếu bạn đang gặp
 vấn đề này ngay bây giờ và cần khắc phục ngay lập tức, hãy sử dụng bản vá sau:
 
-* [bản vá cho vấn đề rb_thread_fd_close](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [bản vá cho vấn đề rb_thread_fd_close](https://git.ruby-lang.org/ruby.git)
 
 
 ## Tải về

@@ -17,7 +17,7 @@ Ruby 2.1.4 已经发布了。
 同时包含了许多错误修正。
 
 参见 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog) 来了解更多细节。
+以及 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4) 来了解更多细节。
 
 **更新：** 2.1.3 引入的功能退化（regression），在 2.1.4 已经修正了：
 

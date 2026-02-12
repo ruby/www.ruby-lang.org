@@ -16,7 +16,7 @@ Ruby 2.3.6 がリリースされました。
 * [CVE-2017-17405: Net::FTP におけるコマンドインジェクション](/ja/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)への対応
 * [RubyGems における安全でないオブジェクトの逆シリアル化の脆弱性](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)への対応
 
-詳しくは、対応する [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) を参照してください。
+詳しくは、対応する [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_6) を参照してください。
 
 ## ダウンロード
 

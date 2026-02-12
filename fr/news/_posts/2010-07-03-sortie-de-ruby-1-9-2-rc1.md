@@ -56,8 +56,8 @@ exprimer vos retours sur [le bug tracker][5].
 
 
 [1]: http://yehudakatz.com/2010/05/17/encodings-unabridged/
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/NEWS
-[3]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc1/ChangeLog
+[2]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_2_rc1
+[3]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_2_rc1
 [4]: https://bugs.ruby-lang.org/issues/show/3462
 [5]: https://bugs.ruby-lang.org/projects/show/ruby-19/
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc1.tar.bz2

@@ -11,7 +11,7 @@ Ruby 2.1.2 がリリースされました。
 
 今回のリリースには、[2.1.1 に含まれていた Hash#reject の不具合](https://www.ruby-lang.org/ja/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)の修正、拡張ライブラリ readline の Readline-6.3 とのビルドエラーの修正([Bug #9578](https://bugs.ruby-lang.org/issues/9578)参照)、拡張ライブラリ psych に同梱される libyaml のバージョン更新、その他不具合修正が含まれます。
 
-詳しくは対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)および[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)を確認してください。
+詳しくは対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)および[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_2)を確認してください。
 
 ## ダウンロード
 

@@ -16,7 +16,7 @@ lang: ko
 * [CVE-2015-7551: Fiddle, DL의 tainted 문자열 사용 취약점](https://www.ruby-lang.org/ko/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 또한 많은 버그가 수정되었습니다.
-자세한 내용은 [변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog)를 참고하세요.
+자세한 내용은 [변경로그](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_4)를 참고하세요.
 
 ## 다운로드
 

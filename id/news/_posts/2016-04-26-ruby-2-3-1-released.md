@@ -12,7 +12,7 @@ Ruby 2.3.1 telah rilis.
 Ini adalah versi rilis TEENY pertama dalam rangkaian versi 2.3 yang *stable*.
 
 Ada banyak perbaikan *bug*.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+Lihat [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_1)
 untuk detail.
 
 ## Unduh

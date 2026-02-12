@@ -23,7 +23,7 @@ Ruby 2.3.4 において、拡張ライブラリ向け API の非互換性問題�
 具体的には `rb_thread_fd_close` という API が誤って削除されています。
 次回リリース時には修正される予定ですが、この API を利用している拡張ライブラリを使用しており、緊急に対応が必要なユーザーは、以下のパッチを利用してください。
 
-* [rb_thread_fd_close 対応パッチ](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [rb_thread_fd_close 対応パッチ](https://git.ruby-lang.org/ruby.git)
 
 ## ダウンロード
 

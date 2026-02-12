@@ -98,7 +98,7 @@ preview と rc1 を試してくれた皆さんに感謝します。 相変わら
 [1]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.bz2
 [2]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-rc2.zip
-[4]: https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_rc2/NEWS
+[4]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v2_0_0_rc2
 [5]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails
 [6]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
 [7]: http://www.infoq.com/news/2012/11/ruby-20-preview1

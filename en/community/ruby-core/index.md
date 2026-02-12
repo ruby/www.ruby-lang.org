@@ -109,7 +109,7 @@ The source code of Ruby had been managed under Subversion repository until 22nd 
 Thus, some branches may still be managed under Subversion.
 You can view the SVN repository.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 However, you don't have to care about it (unless you are a branch maintainer).
 You can check out the branches in your Git working copy.
@@ -128,7 +128,7 @@ See also the following section.
 [mailing-lists]: /en/community/mailing-lists/
 [writing-patches]: /en/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

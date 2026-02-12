@@ -10,7 +10,7 @@ lang: bg
 Излезе Ruby 2.2.5.
 
 Рилийзът съдържа много бъгфиксове. Виж
-[Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+[Списък с промени](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5)
 за повече информация.
 
 ## Сваляне

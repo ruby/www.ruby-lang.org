@@ -46,7 +46,7 @@ lang: ja
 
 
 [1]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_362/ChangeLog
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_362
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.zip

@@ -5,7 +5,7 @@ author: "Bryan Kang"
 lang: ko
 ---
 
-소스 코드 저장소를 [https://svn.ruby-lang.org/repos/ruby/][1]로 옮겼습니다. 이제는 svn
+소스 코드 저장소를 [https://git.ruby-lang.org/ruby.git][1]로 옮겼습니다. 이제는 svn
 명령어를 이용해 코드를 체크아웃하면 됩니다. 또는 [ViewVC][2]에서 소스 코드를 브라우징할 수 있습니다.
 
 svn.ruby-lang.org가 설치된 새로운 기기은 [Sun Microsystems][3]에서 후원한 것입니다. 새 기기에는
@@ -13,6 +13,6 @@ svn.ruby-lang.org가 설치된 새로운 기기은 [Sun Microsystems][3]에서 �
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[1]: https://git.ruby-lang.org/ruby.git
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://www.sun.com/

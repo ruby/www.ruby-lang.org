@@ -18,7 +18,7 @@ lang: ja
 
 Ruby 1.9.1は1.8から数多くの改良が加えられています。 1.8.7以来の主な変更点は下記URLから参照できます。
 
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_1\_0/NEWS&gt;][2]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git/plain/NEWS&gt;][2]?id=refs/tags/v1\_9\_1\_0
   (英語)
 
 また、1.9.1 RC2と比較しても、7つのバグが修正され、より安定度が増しています。
@@ -57,7 +57,7 @@ Ruby 1.9.1は1.8から数多くの改良が加えられています。 1.8.7以�
 
 
 [1]: https://blade.ruby-lang.org/ruby-list/45836
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS
+[2]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_1_0
 [3]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=11
 [4]: https://bugs.ruby-lang.org
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2

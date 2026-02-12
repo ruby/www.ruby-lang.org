@@ -16,7 +16,7 @@ lang: ru
 неделе. Подробности доступны по адресу [Bug #12920](https://bugs.ruby-lang.org/issues/12920).
 
 Кроме этого были исправлены и другие ошибки. За подробностями обращайтесь к
-[логу изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog).
+[логу изменений](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3).
 
 ## Скачать
 

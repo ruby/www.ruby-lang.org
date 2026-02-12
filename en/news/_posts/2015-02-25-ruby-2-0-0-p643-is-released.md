@@ -19,7 +19,7 @@ We recommend to start planning to migrate to newer versions of Ruby, such as 2.1
 
 This release includes many bugfixes.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+and [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_643)
 for details.
 
 ## Download

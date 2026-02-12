@@ -19,7 +19,7 @@ Vui lòng xem các chủ đề bên dưới để biết chi tiết.
 * [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Cập nhật libyaml đi kèm lên phiên bản 0.1.7
 
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) để biết chi tiết.
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_5) để biết chi tiết.
 
 ## Vấn đề đã biết
 

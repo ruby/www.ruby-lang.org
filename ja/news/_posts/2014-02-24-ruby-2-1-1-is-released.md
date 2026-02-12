@@ -12,7 +12,7 @@ lang: ja
 [Ruby 2.1](https://www.ruby-lang.org/ja/news/2013/12/25/ruby-2-1-0-is-released/) は Ruby 1.9 から始まる Ruby 2 系の最新の安定版です。Ruby 2.1 は以前からの互換性を重視するとともに、様々な高速化が行われており、Rails その他の用途でより快適な環境を得ることができます。
 
 パッチリリースである Ruby 2.1.1 ではリリース後に見つかった様々なバグを修正しています。
-バグ修正の詳細については[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) や [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) をご覧下さい。
+バグ修正の詳細については[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) や [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_1) をご覧下さい。
 
 なお以前お伝えしましたとおり、Ruby 2.1 では[新しいバージョン表記](https://www.ruby-lang.org/ja/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)を採用していますので、単純に「Ruby 2.1.1」というのがこのリリースの名称になります。
 

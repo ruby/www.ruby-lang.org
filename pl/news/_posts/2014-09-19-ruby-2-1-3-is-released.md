@@ -15,7 +15,7 @@ To wydanie zawiera zmianę pełnego czasu GC w celu zmniejszenia zużycia pamię
 błędów.
 
 Zobacz [zgłoszenia](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-i [log zmian](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+i [log zmian](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_3)
 po więcej szczegółów.
 
 ## Pobieranie

@@ -19,7 +19,7 @@ Ruby 2.0.0-p594がリリースされました。
 * [ext/openssl のデフォルト設定の変更について](https://www.ruby-lang.org/ja/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
 他にも、幾つかのバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_576) を確認して下さい。
 
 ## Download
 

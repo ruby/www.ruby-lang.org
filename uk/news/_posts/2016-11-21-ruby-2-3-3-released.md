@@ -16,7 +16,7 @@ Ruby 2.3.3 випущено.
 Див. [Помилка #12920](https://bugs.ruby-lang.org/issues/12920) для деталей.
 
 Також є деякі інші виправлення помилок.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3)
 для деталей.
 
 ## Завантаження

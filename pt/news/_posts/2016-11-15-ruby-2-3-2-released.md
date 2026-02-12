@@ -14,7 +14,7 @@ Esta é uma versão *TEENY* da série 2.3 stable.
 Esta versão inclui uma atualização do RubyGems 2.5.2 e dos certificados ssl incluídos.
 
 Inclui, também, muitas correções de erros.
-Consulte o [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
+Consulte o [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_2)
 para detalhes.
 
 ## Download

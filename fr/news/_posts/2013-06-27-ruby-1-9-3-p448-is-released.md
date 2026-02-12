@@ -17,7 +17,7 @@ embarquée :
 
 Elle contient également des correctifs de bugs.
 Voyez les [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-et le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) pour plus de détails.
+et le [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_448) pour plus de détails.
 
 ## Téléchargement
 

@@ -13,8 +13,8 @@ os problemas descritos em CVE-2007-1558 e CVE-2008-1447. Resolvidos
 muitos problemas com segmentation faults. Para uma lista completa ler os
 ChangeLogs inclusos nos ficheiros para download ou aqui:
 
-* [https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_6\_368/ChangeLog][1]
-* [https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7\_160/ChangeLog][2]
+* [https://git.ruby-lang.org/ruby.git/plain/ChangeLog][1]?id=refs/tags/v1\_8\_6\_368
+* [https://git.ruby-lang.org/ruby.git/plain/ChangeLog][2]?id=refs/tags/v1\_8\_7\_160
 
 O download está disponível em:
 
@@ -54,8 +54,8 @@ Checksums:
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_6_368/ChangeLog
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_160/ChangeLog
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_8_6_368
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_8_7_160
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p368.zip

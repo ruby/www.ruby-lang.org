@@ -19,7 +19,7 @@ Mohon cek topik-topik di bawah ini untuk detail.
 * [Beberapa Kerentanan di RubyGems](/id/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Memperbarui libyaml yang di-*bundle* ke versi 0.1.7
 
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) untuk detail.
+Lihat [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_5) untuk detail.
 
 ## Masalah Umum
 

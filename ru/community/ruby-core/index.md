@@ -24,7 +24,7 @@ lang: ru
 репозитория. В командной строке наберите:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 Папка `ruby` теперь будет содержать последние исходники
@@ -37,13 +37,17 @@ development-версии Ruby (ruby-trunk). Патчи, применяемые �
 на `{{ site.svn.stable.branch }}` ветку:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout {{ site.svn.stable.branch }}
 {% endhighlight %}
 
 То же самое для Ruby {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout {{ site.svn.previous.branch }}
 {% endhighlight %}
 
 Эти команды скачают соответствующее дерево разработки в папку
@@ -91,18 +95,18 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
     добавить конструкцию к {{ site.svn.previous.version }}, это должно быть сначала проверено в
     trunk.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
     Если вы исправляете баг, который специфичен для одной из
     поддерживаемых веток, выберите эту ветку, например, `{{ site.svn.previous.version }}`.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://git.ruby-lang.org/ruby.git/plain//`?id=refs/heads/{{ site.svn.previous.branch }}
 
 2.  Добавьте ваши улучшения в код.
 
 3.  Создайте патч.
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  Создайте тикет в [специальном форуме][10] или вышлите свой патч в
     рассылку [Ruby-Core mailing list][mailing-lists]
@@ -147,7 +151,7 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
   комментарии к вашему коммиту в Subversion. Сообщение будет
   автоматически выслано в рассылку Ruby-CVS после вашего коммита.
 * Прототипы функций используются в исходном коде Ruby и его расширениях.
-* Пожалуйста, не используйте C++ комментарии (`//`), разработчики ядра
+* Пожалуйста, не используйте C++ комментарии (`), разработчики ядра
   предпочитают стиль многострочных комментариев C (`/* .. */`).
 
 Также, для большей информации читайте [Ruby's issue tracker][10]
@@ -156,7 +160,7 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
 
 [mailing-lists]: /ru/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

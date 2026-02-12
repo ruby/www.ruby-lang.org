@@ -106,7 +106,7 @@ Der Ruby-Quellcode wurde bis zum 22. April 2019 über Subversion verwaltet.
 Daher werden manche Zweige immer noch über Subversion gepflegt.
 Du kannst das SVN-Repository betrachten.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 Normalerweise musst du dich darum aber nicht kümmern (außer wenn du ein
 Branch-Maintainer bist).
@@ -128,7 +128,7 @@ Siehe auch den nachfolgenden Abschnitt.
 [mailing-lists]: /de/community/mailing-lists/
 [writing-patches]: /de/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

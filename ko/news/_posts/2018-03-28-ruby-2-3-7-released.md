@@ -20,7 +20,7 @@ lang: ko
 * [CVE-2018-8780: Dir에서 NUL 문자 주입을 통한 의도하지 않은 디렉터리 접근 취약점](/ko/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 * [RubyGems의 취약점 다수 발견](/ko/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog)를 확인해주세요.
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_7)를 확인해주세요.
 
 이번 릴리스를 마지막으로 루비 2.3의 통상적인 유지보수 단계는 끝나게 되며,
 보안 유지보수 단계가 시작됩니다.

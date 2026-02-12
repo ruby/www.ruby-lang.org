@@ -16,7 +16,7 @@ lang: ko
 * 동봉되어있는 libyaml의 업데이트 ([YAML URI 이스케이프 파싱의 힙 오버플로 (CVE-2014-2525)](https://www.ruby-lang.org/ko/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/) 참조)
 
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog)를 보세요.
+[변경로그](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_481)를 보세요.
 
 ## 다운로드
 

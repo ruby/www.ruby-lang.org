@@ -20,7 +20,7 @@ Następnie utrzymanie Rubiego 1.9.3 zostanie zakończone 24 lutego 2015.
 
 To wydanie zawiera wiele poprawek błędów.
 Zobacz [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-i [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) po szczegóły.
+i [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_545) po szczegóły.
 
 ## Pobieranie
 

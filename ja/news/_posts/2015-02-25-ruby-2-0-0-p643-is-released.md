@@ -16,7 +16,7 @@ Ruby 2.0.0-p643 がリリースされました。
 Ruby 2.0.0 のユーザーには、2.1 あるいは 2.2 といった新しいバージョンへの移行の検討を開始されるようお勧めします。
 
 今回のリリースには、多数のバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_643) を確認して下さい。
 
 ## Download
 

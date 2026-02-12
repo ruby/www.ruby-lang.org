@@ -15,7 +15,7 @@ Vui lòng kiểm tra các chủ đề bên dưới để biết chi tiết.
 * [CVE-2017-17405: Lỗ hổng chèn lệnh trong Net::FTP](/vi/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [Lỗ hổng giải tuần tự hóa đối tượng không an toàn trong RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) để biết chi tiết.
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_6) để biết chi tiết.
 
 ## Tải về
 

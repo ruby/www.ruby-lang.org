@@ -12,7 +12,7 @@ Ruby 2.3.2 ist veröffentlicht worden.
 Dies ist eine TEENY-Veröffentlichung der stabilen 2.3er Serie. Sie
 aktualisiert RubyGems auf 2.5.2 und enthält neue SSL-Zertifikate,
 außerdem gibt es eine Reihe von Fehlerkorrekturen. Siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_2)
 für weitere Informationen.
 
 ## Download

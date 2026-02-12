@@ -15,7 +15,7 @@ Rilis ini termasuk perbaikan keamanan tentang Ruby interpreter core:
 
 Dan beberapa bugfixes juga termasuk.
 Lihat [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) untuk rincian.
+dan [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_484) untuk rincian.
 
 ## Unduh
 

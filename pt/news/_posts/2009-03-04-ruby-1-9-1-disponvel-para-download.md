@@ -56,7 +56,7 @@ O Download está disponível em:
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_0/NEWS
+[1]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_1_0
 [2]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=11
 [3]: https://bugs.ruby-lang.org
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p0.tar.bz2

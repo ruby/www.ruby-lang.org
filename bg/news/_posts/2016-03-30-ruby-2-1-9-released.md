@@ -10,7 +10,7 @@ lang: bg
 Излезе Ruby 2.1.9.
 
 Рилийзът съдържа много бъгфиксове. Вижте
-[Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+[Списък с промени](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_9)
 за повече информация.
 
 [Както бе обявено по-рано](https://www.ruby-lang.org/bg/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/),

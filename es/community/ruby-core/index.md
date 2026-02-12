@@ -110,7 +110,7 @@ El código fuente de Ruby se había gestionado en el repositorio de Subversion h
 Por lo tanto, algunas ramas aún pueden administrarse bajo Subversion.
 Puedes ver el repositorio de SVN.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 Sin embargo, no tienes que preocuparte por eso (a menos que seas un mantenedor de rama).
 Puedes consultar las ramas en tu copia de trabajo de Git.
@@ -129,7 +129,7 @@ Ver también la siguiente sección.
 [mailing-lists]: /es/community/mailing-lists/
 [writing-patches]: /es/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

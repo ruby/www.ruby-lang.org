@@ -15,7 +15,7 @@ Vui lòng kiểm tra các tính năng mới trong Ruby 2.1 trước bản phát 
 * sửa [Tràn Heap trong phân tích số dấu phẩy động (CVE-2013-4164)](https://www.ruby-lang.org/vi/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze giờ được tối ưu hóa [#9042](https://bugs.ruby-lang.org/issues/9042)
 * hậu tố f của String Literal đã bị loại bỏ [#9042](https://bugs.ruby-lang.org/issues/9042)
-* sửa vấn đề tiêu tốn bộ nhớ trên RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) và [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* sửa vấn đề tiêu tốn bộ nhớ trên RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) và [r43755](https://git.ruby-lang.org/ruby.git))
 * thêm Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * cập nhật các thư viện như json, nkf, rake, RubyGems, và RDoc.
 

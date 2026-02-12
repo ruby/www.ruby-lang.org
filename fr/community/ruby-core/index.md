@@ -25,7 +25,7 @@ un *check out* en se connectant au compte anonyme du dépôt Subversion.
 Dans un terminal :
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 Le répertoire `ruby` contient maintenant le code source de Ruby 1.9.x
@@ -39,13 +39,17 @@ Si vous êtes plutôt intéressé par le suivi des patchs appliqués à Ruby
 faut récupérer la branche stable par :
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout ruby_1_9_1
 {% endhighlight %}
 
 Si vous êtes intéressés par la branche 1.8.6 ou 1.8.7 :
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8_*
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout ruby_1_8_*
 {% endhighlight %}
 
 où `*` est `6` ou `7`.
@@ -79,16 +83,18 @@ diffusion Ruby-Core, ils ne passent donc pas inaperçus.
 
 Pour résumer, les grandes étapes pour proposer un patch sont :
 
-1.  Récupérer une copie de travail de Ruby 1.8 depuis Subversion, sur la
+1.  Récupérer une copie de travail de Ruby 1.8 depuis Git, sur la
     branche `ruby_1_8` branch.
 
-         $ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8
+         $ git clone https://github.com/ruby/ruby.git
+         $ cd ruby
+         $ git checkout ruby_1_8
 
-2.  Ajouter vos améliorations dans le code (dans le répertoire/dossier
+2.  Ajouter vos améliorations dans le code (dans le répertoire
     `ruby_1_8` en local).
 3.  Créer un patch.
 
-         $ svn diff > ruby-1.8-changes.patch
+         $ git diff > ruby-1.8-changes.patch
 
 4.  [Envoyer][10] ce patch.
 
@@ -135,16 +141,7 @@ Les développeurs de Ruby devraient évidemment être à l’aise avec le code s
 
 
 [mailing-lists]: /fr/community/mailing-lists/
-[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
-[2]: http://subversion.apache.org/faq.html
-[3]: http://svnbook.org
-[4]: http://www.pragmaticprogrammer.com/titles/svn/
-[5]: http://git-scm.com/
-[6]: https://github.com/shyouhei/ruby
-[7]: https://github.com/shyouhei/ruby/wiki/committerhowto
-[8]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[9]: https://bugs.ruby-lang.org
-[10]: http://rubyforge.org/tracker/?func=add&amp;group_id=426&amp;atid=1700
+[1]: https://git.ruby-lang.org/ruby.git
 [11]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Merging-with-patch.html#Merging%20with%20patch
 [13]: http://www.gnu.org/prep/standards/standards.html#Change-Logs

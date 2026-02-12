@@ -43,7 +43,7 @@ lang: zh_cn
 重大问题的修正如下所列。
 
 更多内容请查看 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-和 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog)。
+和 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_247)。
 
 ### 关键词参数
 

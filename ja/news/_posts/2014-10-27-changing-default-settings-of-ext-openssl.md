@@ -19,13 +19,13 @@ OpenSSL には、現在では安全ではないとみなされるプロトコル
 この変更を無効化する必要がある場合は、以下に示す対応する変更を取り消すパッチを各自で適応してください。
 
 2.1.4
-: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://git.ruby-lang.org/ruby.git)
 
 2.0.0-p594
-: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://git.ruby-lang.org/ruby.git)
 
 1.9.3-p550
-: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://git.ruby-lang.org/ruby.git)
 
 ただし、今回の変更を取り消した場合、通信の安全が確保できなくなる可能性があります。
 影響を十分理解した上で行ってください。

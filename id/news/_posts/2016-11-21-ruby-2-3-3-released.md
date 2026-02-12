@@ -16,7 +16,7 @@ Ini adalah regresi pada rilis Ruby 2.3.2 minggu lalu.
 Lihat [Bug #12920](https://bugs.ruby-lang.org/issues/12920) untuk detail.
 
 Ada juga beberapa perbaikan *bug*.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+Lihat [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3)
 untuk detail.
 
 ## Unduh

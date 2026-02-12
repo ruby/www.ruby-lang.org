@@ -12,7 +12,7 @@ e siamo lieti di annunciare una nuova patch release, Ruby 2.0.0-p451.
 
 Questa release include molti bugfixes.
 Vedere i [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-e il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog)
+e il [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_451)
 per maggiori dettagli.
 
 ## Download

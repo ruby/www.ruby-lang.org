@@ -16,7 +16,7 @@ Ruby 2.1.6 已经发布。
 
 同时修复了许多bug。
 详细内容请参考 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
+以及 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_6)
 
 ## 下载
 

@@ -16,7 +16,7 @@ Ruby 2.1.8 がリリースされました。
 * [CVE-2015-7551: Fiddle と DL における tainted 文字列使用時の脆弱性について](https://www.ruby-lang.org/ja/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 この脆弱性の対応以外にも、多数のバグ修正が行われています。
-詳しくは、対応する [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog) を参照してください。
+詳しくは、対応する [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_8) を参照してください。
 
 ## ダウンロード
 

@@ -17,7 +17,7 @@ Bản phát hành này bao gồm một bản sửa lỗi bảo mật về DL / F
 
 Một số bản sửa lỗi nhỏ cũng được bao gồm.
 
-Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) để biết chi tiết.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) và [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_429) để biết chi tiết.
 
 ## Tải về
 

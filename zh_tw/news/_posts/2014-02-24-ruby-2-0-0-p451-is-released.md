@@ -9,7 +9,7 @@ lang: zh_tw
 
 今天 2 月 24 日是 Ruby 的 21 歲生日，我們很高興地發佈 Ruby 2.0.0-p451。
 
-本發行版修正了許多錯誤。參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) 與 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog) 來了解更多細節。
+本發行版修正了許多錯誤。參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) 與 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_451) 來了解更多細節。
 
 ## 下載
 

@@ -64,8 +64,8 @@ RC1 공개 후 psych 라이브러리 수정과 몇 가지 버그 수정이 이�
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/NEWS
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_rc2/ChangeLog
+[1]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_2_rc2
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_2_rc2
 [3]: https://bugs.ruby-lang.org/projects/show/ruby-19/
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-rc2.tar.gz

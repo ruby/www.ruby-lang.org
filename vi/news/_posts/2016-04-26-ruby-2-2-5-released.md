@@ -10,7 +10,7 @@ lang: vi
 Ruby 2.2.5 đã được phát hành.
 
 Bản phát hành này bao gồm nhiều bản sửa lỗi.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5)
 để biết chi tiết.
 
 ## Tải về

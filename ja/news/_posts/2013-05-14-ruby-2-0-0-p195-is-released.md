@@ -37,7 +37,7 @@ Ruby 2.0.0-p195 をリリースします。 これは 2.0.0 の最初のパッ�
 
 ## Changes
 
-主な変更点は以下にあります。より詳細な変更点は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog) ファイルやチケットを参照してください。
+主な変更点は以下にあります。より詳細な変更点は [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_195) ファイルやチケットを参照してください。
 
 * https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5
 

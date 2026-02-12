@@ -15,7 +15,7 @@ Ruby 2.3.6 випущено.
 * [CVE-2017-17405: Вразливість ін'єкції команди в Net::FTP](/uk/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [Вразливість небезпечної десеріалізації об'єкта в RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) для деталей.
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_6) для деталей.
 
 ## Завантаження
 

@@ -10,7 +10,7 @@ lang: vi
 Ruby 2.2.7 đã được phát hành.
 
 Bản phát hành này bao gồm khoảng 70 bản sửa lỗi kể từ phiên bản trước.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_7)
 để biết thêm chi tiết.
 
 Sau bản phát hành này, chúng tôi sẽ kết thúc giai đoạn bảo trì thông thường của Ruby 2.2,

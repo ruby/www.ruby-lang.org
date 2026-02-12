@@ -26,7 +26,7 @@ Kami akan memperbaiki masalah ini pada rilis berikutnya, tetapi jika Anda
 sedang menghadapi masalah ini sekarang dan perlu untuk mengatasinya segera, gunakan
 patch berikut:
 
-* [patch for rb_thread_fd_close problem](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [patch for rb_thread_fd_close problem](https://git.ruby-lang.org/ruby.git)
 
 ## Unduh
 

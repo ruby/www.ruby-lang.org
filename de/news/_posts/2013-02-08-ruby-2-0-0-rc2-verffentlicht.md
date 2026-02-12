@@ -134,7 +134,7 @@ mir bei dieser Veröffentlichung geholfen haben, sehr dankbar.
 [2]: http://www.ruby-doc.org/core-2.0/Module.html#method-i-prepend
 [3]: http://www.ruby-doc.org/core-2.0/Enumerator.html#method-i-size
 [4]: http://www.ruby-doc.org/core-2.0/Range.html#method-i-size
-[5]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v2_0_0_rc2/NEWS?view=markup
+[5]: https://git.ruby-lang.org/ruby.git
 [6]: https://speakerdeck.com/a_matsuda/ruby-2-dot-0-on-rails
 [7]: http://globaldev.co.uk/2012/11/ruby-2-0-0-preview-features/
 [8]: http://www.infoq.com/news/2012/11/ruby-20-preview1

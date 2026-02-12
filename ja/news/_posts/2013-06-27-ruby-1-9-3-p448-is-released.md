@@ -15,7 +15,7 @@ Ruby 1.9.3-p448 がリリースされました。
    (CVE-2013-4073)](/ja/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
 この他にも、幾つかのバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_448) を確認して下さい。
 
 ## ダウンロード
 

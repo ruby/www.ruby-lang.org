@@ -27,7 +27,7 @@ _(Цей розділ додано 11 квітня 2017 року.)_
 Ми виправимо цю проблему з наступним випуском, але якщо ви стикаєтеся
 з проблемою зараз і потребуєте подолати її негайно, використовуйте цей патч:
 
-* [патч для проблеми rb_thread_fd_close](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [патч для проблеми rb_thread_fd_close](https://git.ruby-lang.org/ruby.git)
 
 
 ## Завантаження

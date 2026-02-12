@@ -150,7 +150,7 @@ resolv.rb виправлено для рандомізації їх.
 
 : Будь ласка, виконайте checkout останньої версії, використовуючи Subversion.
 
-      $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+      $ svn co https://git.ruby-lang.org/ruby.git/tree/?id=master ruby
 
 Будь ласка, зверніть увагу, що пакет, який виправляє цю слабкість, може вже бути
 доступний через ваше програмне забезпечення управління пакетами.

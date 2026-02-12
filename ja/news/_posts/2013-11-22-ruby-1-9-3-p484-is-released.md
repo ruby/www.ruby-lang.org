@@ -14,7 +14,7 @@ Ruby 1.9.3-p484 がリリースされました。
  * [浮動小数点数パースにおけるヒープオーバーフロー (CVE-2013-4164)](/ja/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 この他にも、幾つかのバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_484) を確認して下さい。
 
 ## ダウンロード
 

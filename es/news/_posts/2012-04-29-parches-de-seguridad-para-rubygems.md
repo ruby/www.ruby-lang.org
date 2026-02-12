@@ -128,8 +128,8 @@ SHA256:
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_194/ChangeLog
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_320/ChangeLog
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_194
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_2_320
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip

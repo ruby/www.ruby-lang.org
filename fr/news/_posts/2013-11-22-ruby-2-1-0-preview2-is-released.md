@@ -16,7 +16,7 @@ preview, dans la perspective d'une version 2.1 finale !
 * correction d'[un dépassement du tas pour l'interprétation des nombres à virgule flottante (CVE-2013-4164)](https://www.ruby-lang.org/fr/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * optimisation de "literal".freeze [#9042](https://bugs.ruby-lang.org/issues/9042)
 * retrait du suffixe f pour les littéraux chaînes de caractères [#9042](https://bugs.ruby-lang.org/issues/9042)
-* correction du problème de consommation mémoire avec RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) et [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* correction du problème de consommation mémoire avec RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) et [r43755](https://git.ruby-lang.org/ruby.git))
 * ajout de Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * mise à jour de diverses bibliothèques, telles que json, nkf, rake, RubyGems ou encore RDoc.
 

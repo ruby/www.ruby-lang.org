@@ -15,7 +15,7 @@ Per favore provate le nuove feature di Ruby 2.1 prima del rilascio finale!
 * risolto [Heap Overflow nel Parsing di numeri in Virgola Mobile (CVE-2013-4164)](https://www.ruby-lang.org/it/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze è ora ottimizzato [#9042](https://bugs.ruby-lang.org/issues/9042)
 * il suffisso f delle String Literal è stato rimosso [#9042](https://bugs.ruby-lang.org/issues/9042)
-* risolto problema di consumo memoria sul RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) e [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* risolto problema di consumo memoria sul RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) e [r43755](https://git.ruby-lang.org/ruby.git))
 * aggiunto Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * aggiornate librerie come json, nkf, rake, RubyGems, e RDoc.
 

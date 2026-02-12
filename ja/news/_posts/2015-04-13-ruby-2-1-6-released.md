@@ -16,7 +16,7 @@ Ruby 2.1.6 がリリースされました。
 * [CVE-2015-1855: Ruby OpenSSL ホスト名検証の脆弱性](https://www.ruby-lang.org/ja/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 この脆弱性の対応以外にも、多数のバグ修正が行われています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)または [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog) を参照してください。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)または [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_6) を参照してください。
 
 ## Download
 

@@ -16,7 +16,7 @@ vor dem finalen Release!
 * Korrigiere [Heap-Überlauf beim Parsen von Floating-Point (CVE-2013-4164)](https://www.ruby-lang.org/de/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * `"literal".freeze` wurde optimiert [#9042](https://bugs.ruby-lang.org/issues/9042)
 * `f`-Suffix von String-Literalen entfernt [#9024](https://bugs.ruby-lang.org/issues/9042)
-* Korrigiere Speicherproblem im RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) und [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* Korrigiere Speicherproblem im RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) und [r43755](https://git.ruby-lang.org/ruby.git))
 * Füge Exception#cause hinzu [#8257](https://bugs.ruby-lang.org/issues/8257)
 * Aktualisiere Programmbibliotheken wie json, nkf, rake, RubyGems und RDoc.
 

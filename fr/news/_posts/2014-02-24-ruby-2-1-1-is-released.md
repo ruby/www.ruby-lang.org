@@ -17,7 +17,7 @@ autres pour disposer d'une meilleure expérience Ruby.
 
 Cette version inclut quelques corrections de bugs.
 Voir les [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-et le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) pour plus d'informations.
+et le [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_1) pour plus d'informations.
 
 Par rapport à la précédente annonce sur le [passage au versionnage sémantique de Ruby 2.1](https://www.ruby-lang.org/fr/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 cette version s'appelle simplement "2.1.1".

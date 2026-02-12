@@ -12,7 +12,7 @@ Ruby 2.3.1 釋出。
 這是穩定 2.3 系列的第一個小版本釋出。
 
 本次發行版包含了許多錯誤修正。
-請參考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog) 來進一步了解。
+請參考 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_1) 來進一步了解。
 
 ## 下載
 

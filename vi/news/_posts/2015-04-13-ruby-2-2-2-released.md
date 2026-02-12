@@ -15,7 +15,7 @@ Bản phát hành này bao gồm bản sửa lỗi bảo mật cho lỗ hổng x
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/vi/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Ngoài ra còn có một số bản sửa lỗi khác.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 để biết chi tiết.
 
 ## Tải về

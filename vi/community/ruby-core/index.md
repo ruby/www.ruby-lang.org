@@ -110,7 +110,7 @@ Mã nguồn của Ruby đã được quản lý trong kho lưu trữ Subversion 
 Do đó, một số nhánh có thể vẫn được quản lý trên Subversion.
 Bạn có thể xem kho lưu trữ SVN.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 Tuy nhiên, bạn không cần phải quan tâm đến điều này (trừ khi bạn là
 người bảo trì nhánh). Bạn có thể chuyển sang các nhánh trong bản sao
@@ -129,7 +129,7 @@ Xem thêm phần sau.
 [mailing-lists]: /vi/community/mailing-lists/
 [writing-patches]: /vi/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

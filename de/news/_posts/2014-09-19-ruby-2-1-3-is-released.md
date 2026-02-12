@@ -16,7 +16,7 @@ um den Speicherbedarf zu reduzieren
 sowie viele Fehlerkorrekturen.
 
 Siehe die [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-und das [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+und das [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_3)
 für weitere Informationen.
 
 ## Download

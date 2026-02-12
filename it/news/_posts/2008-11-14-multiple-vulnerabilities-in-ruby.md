@@ -150,7 +150,7 @@ serie 1.9
 
 : Eseguire un checkout dell\'ultima versione tramite Subversion.
 
-      $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+      $ svn co https://git.ruby-lang.org/ruby.git/tree/?id=master ruby
 
 Nota che un pacchetto che corregge questa vulnerabilità potrebbe essere
 già disponibile attraverso il tuo software di package management.

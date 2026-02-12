@@ -39,7 +39,7 @@ Ruby 2.0.0-p195 випущено. Це перший випуск рівня па
 ## Зміни
 
 Основні виправлення нижче.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_195)
 або [Тікети](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 для деталей.
 

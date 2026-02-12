@@ -99,7 +99,7 @@ Ruby의 소스 코드는 2019년 4월 22일까지 서브버전에서 관리되�
 그러므로 몇몇 버전은 그대로 서브버전에서 관리됩니다.
 다음 SVN 저장소를 이용할 수 있습니다.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 그렇지만 (브랜치 유지보수 담당자가 아니라면) 이를 신경쓸 필요는 없습니다.
 브랜치를 Git에서 체크아웃 할 수 있습니다.
@@ -118,7 +118,7 @@ X_X는 체크아웃 하고 싶은 브랜치 이름으로 변경하세요.
 [mailing-lists]: /ko/community/mailing-lists/
 [writing-patches]: /en/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

@@ -16,7 +16,7 @@ có thể gây ra lỗi `NoMethodError` không mong đợi.
 Xem [Bug #12920](https://bugs.ruby-lang.org/issues/12920) để biết chi tiết.
 
 Ngoài ra còn có một số bản sửa lỗi khác.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3)
 để biết chi tiết.
 
 ## Tải về

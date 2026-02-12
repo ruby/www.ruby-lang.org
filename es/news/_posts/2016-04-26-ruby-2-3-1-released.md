@@ -12,7 +12,7 @@ Ruby 2.3.1 ha sido liberado.
 Esta es la primera versión TEENY de la serie estable de 2.3.
 
 Esta entrega contiene varias correcciones de errores.
-Puedes ver el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog) para más detalles.
+Puedes ver el [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_1) para más detalles.
 
 ## Descargas
 

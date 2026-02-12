@@ -18,7 +18,7 @@ OpenSSL:
 Diese Version enthält auch einige Bugfixes.
 Siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-und das [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog)
+und das [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_448)
 für nähere Informationen.
 
 ## Download

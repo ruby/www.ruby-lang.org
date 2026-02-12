@@ -20,7 +20,7 @@ lang: zh_cn
 从 [Subversion][1] 仓库匿名检出是获取最新 Ruby 源码的关键。在命令行:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 `ruby` 目录包含了最近的 Ruby 开发版本（ruby-trunk）的源码。目前，应用于 trunk 的补丁被向后移植到稳定版 {{ site.svn.stable.version }}，{{ site.svn.previous.version }} 和 {{ site.svn.old.version }} 分支（如下所示）。
@@ -28,13 +28,17 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 如果你想要 Ruby {{ site.svn.stable.version }} 的补丁，检出的时候应当使用 `{{ site.svn.stable.branch }}`
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout {{ site.svn.stable.branch }}
 {% endhighlight %}
 
 类似地，对于 Ruby {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout {{ site.svn.previous.branch }}
 {% endhighlight %}
 
 它会检出各自的开发树到 `{{ site.svn.stable.branch }}` 或 `{{ site.svn.previous.branch }}` 目录。
@@ -62,17 +66,17 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
 
 1.  从 Subversion 检出 Ruby 源码。通常情况下，针对缺陷修复的补丁或新特性应当被提交到 Ruby 源码的主干上。即使你希望添加一个特性到 Ruby {{ site.svn.previous.version }}，它也必须先被主干所接受。
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
     如果修复的缺陷是针对特定的某一个维护分支，请检出相应分支的代码，例如`{{ site.svn.previous.branch }}`。
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://git.ruby-lang.org/ruby.git/plain//`），Ruby?id=refs/heads/{{ site.svn.previous.branch }}
 
 2.  添加你的改进代码。
 
 3.  创建补丁。
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  在 [问题跟踪器][10] 创建一个 ticket，或者用描述该补丁的更新日志条目将补丁发送到 [Ruby 核心邮件列表][mailing-lists]。
 
@@ -94,7 +98,7 @@ Ruby 开发的讨论集中在 [Ruby 核心邮件列表][mailing-lists]。如果�
 * 检入的日期应该是日本标准时间（UTC+9）。
 * 变更日志中的项目符号点也应该被放到 Subversion 的提交信息当中。在你提交之后，提交信息会通过邮件自动的发送到 Ruby-CVS 列表。
 * 函数原型在整个 Ruby 源码和扩展库中都会被用到。
-* 请不要使用 C++ 风格的注释（`//`），Ruby 的维护者更倾向于使用标准 C 的多重注释（`/* .. */`）。
+* 请不要使用 C++ 风格的注释（` 的维护者更倾向于使用标准 C 的多重注释（`/* .. */`）。
 
 也可以在 [Ruby问题跟踪器][10] 中查看相关信息。
 
@@ -102,7 +106,7 @@ Ruby 开发的讨论集中在 [Ruby 核心邮件列表][mailing-lists]。如果�
 
 [mailing-lists]: /en/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

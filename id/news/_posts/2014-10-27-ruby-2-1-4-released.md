@@ -17,7 +17,7 @@ Rilis ini mencakup perbaikan celah keamanan diantaranya sebagai berikut:
 dan beberapa perbaikan *bugs* lainnya.
 
 Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+dan [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4)
 untuk lebih detil.
 
 **Update:** Ada sebuah regresi yang telah dikenalkan di 2.1.3 yang mana sekarang telah diperbaiki:

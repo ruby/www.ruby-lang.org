@@ -14,7 +14,7 @@ Ini adalah rilis versi TEENY dari rangkaian versi 2.3 yang *stable*.
 Rilis ini mencakup pembaruan RubyGems 2.5.2 dan sertifikat ssl di dalamnya.
 
 Ada banyak perbaikan *bug* juga.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
+Lihat [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_2)
 untuk detail.
 
 ## Unduh

@@ -10,7 +10,7 @@ lang: uk
 Ruby 2.1.9 випущено.
 
 Цей випуск включає багато виправлень помилок.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_9)
 для деталей.
 
 [Як було оголошено раніше](https://www.ruby-lang.org/uk/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), це останній нормальний випуск серії Ruby 2.1.

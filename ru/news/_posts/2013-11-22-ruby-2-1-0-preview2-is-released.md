@@ -15,7 +15,7 @@ lang: ru
 * фикс [Переполнение кучи при парсинге плавающей запятой (CVE-2013-4164)](/ru/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze теперь оптимизирован [#9042](https://bugs.ruby-lang.org/issues/9042)
 * f суффикс у String Literal убран [#9042](https://bugs.ruby-lang.org/issues/9042)
-* фикс проблемы потребления памяти на RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) and [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* фикс проблемы потребления памяти на RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) and [r43755](https://git.ruby-lang.org/ruby.git))
 * добавлен Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * обновлены библиотеки, такие как json, nkf, rake, RubyGems, и RDoc.
 

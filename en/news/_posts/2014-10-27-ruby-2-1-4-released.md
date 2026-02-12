@@ -17,7 +17,7 @@ This release includes security fixes for the following vulnerabilities:
 And there are some bug-fixes.
 
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+and [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4)
 for details.
 
 **Update:** There was a regression introduced in 2.1.3 that is now fixed:

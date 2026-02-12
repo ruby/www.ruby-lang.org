@@ -19,7 +19,7 @@ Ruby 2.3.5 випущено.
 * [Множинні вразливості в RubyGems](/uk/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Оновлено включену libyaml до версії 0.1.7
 
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) для деталей.
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_5) для деталей.
 
 ## Відома проблема
 

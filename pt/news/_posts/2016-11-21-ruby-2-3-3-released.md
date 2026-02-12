@@ -15,7 +15,7 @@ Esta versão é uma regressão ao Ruby 2.3.2 lançado na semana passada.
 Ver [[Bug #12920]](https://bugs.ruby-lang.org/issues/12920) para detalhes.
 
 Inclui, também, algumas correcções de erros.
-Consulte o [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+Consulte o [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3)
 para mais detalhes.
 
 ## Download

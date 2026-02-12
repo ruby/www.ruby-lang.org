@@ -15,7 +15,7 @@ lang: zh_tw
 * 修復了 [浮點數解析存在溢出風險 (CVE-2013-4164)](https://www.ruby-lang.org/zh_tw/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * 優化了 `"literal".freeze` [#9042](https://bugs.ruby-lang.org/issues/9042)。
 * 移除字串常量的 f 字尾 [#9042](https://bugs.ruby-lang.org/issues/9042)。
-* 修正了 RGenGC 記憶體的耗損問題 ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) 與 [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))。
+* 修正了 RGenGC 記憶體的耗損問題 ([r43532](https://git.ruby-lang.org/ruby.git) 與 [r43755](https://git.ruby-lang.org/ruby.git))。
 * 新增 `Exception#cause` [#8257](https://bugs.ruby-lang.org/issues/8257)
 * 更新了許多函式庫，如 json、nkf、rake、RubyGems、以及 RDoc。
 

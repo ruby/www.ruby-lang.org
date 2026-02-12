@@ -15,7 +15,7 @@ lang: ko
 * [CVE-2017-17405: Net::FTP의 명령 주입 취약점](/ko/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [RubyGems의 안전하지 않은 객체 역직렬화 취약점](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog)를 확인해주세요.
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_6)를 확인해주세요.
 
 ## 다운로드
 

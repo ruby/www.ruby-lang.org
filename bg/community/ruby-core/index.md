@@ -24,7 +24,7 @@ lang: bg
 [Subversion][1] с анонимен акаунт. От командния ред:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 Директорията `ruby` съдържа актуалният изходен код на Ruby (ruby-trunk).
@@ -36,13 +36,17 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
 трябва да използвате `{{ site.svn.stable.branch }}` branch-a:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.stable.branch }}
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout {{ site.svn.stable.branch }}
 {% endhighlight %}
 
 Подобно за {{ site.svn.previous.version }}:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout {{ site.svn.previous.branch }}
 {% endhighlight %}
 
 Това ще свали желанaта версия в директорията `{{ site.svn.stable.branch }}` или
@@ -79,18 +83,18 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
     ако желаете да добавите нещо към Ruby {{ site.svn.previous.version }},
     трябва първо то да мине през trunk.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
     Ако желаете да оправите проблем по специфична версия, дръпнете само нея,
     например `{{ site.svn.previous.branch }}`.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.branch }}
+        $ svn co https://git.ruby-lang.org/ruby.git/plain//`?id=refs/heads/{{ site.svn.previous.branch }}
 
 2.  Добавете подобренията на кода.
 
 3.  Създайте кръпка.
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  Създайте ticket в [issue tracker-а][10] или изпратете email с кръпката
     на [Ruby-Core пощенският списък][mailing-lists] със списък и описание
@@ -125,7 +129,7 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
   поща до Ruby-CVS списъка.
 * Стила на писане използва ANSI декларации на функциите в изходния код
   на Ruby и неговите разширения.
-* Моля, не ползвайте C++ стил на коментарите (`//`), а. (`/* .. */`).
+* Моля, не ползвайте C++ стил на коментарите (`), а. (`/* .. */`).
 
 Повече информация може да намерите в [Ruby’s issue tracker][10].
 
@@ -133,7 +137,7 @@ $ svn co https://svn.ruby-lang.org/repos/ruby/branches/{{ site.svn.previous.bran
 
 [mailing-lists]: /bg/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

@@ -20,7 +20,7 @@ e Fiddle.
 Sono incluse anche alcune correzioni minori.
 
 Si veda i [ticket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-e il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) per maggiori dettagli.
+e il [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_429) per maggiori dettagli.
 
 ## Download
 

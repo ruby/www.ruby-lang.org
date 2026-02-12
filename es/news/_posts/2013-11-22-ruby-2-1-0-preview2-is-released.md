@@ -16,7 +16,7 @@ la entrega final.
 * Corrección [Desborbamiento de pila en el interprete de flotantes (CVE-2013-4164)](https://www.ruby-lang.org/es/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze ha sido optimizado [#9042](https://bugs.ruby-lang.org/issues/9042)
 * Remover el sufijo f de el literal de cadena [#9042](https://bugs.ruby-lang.org/issues/9042)
-* Corregir un problema de consumo de memoria en RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) y [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* Corregir un problema de consumo de memoria en RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) y [r43755](https://git.ruby-lang.org/ruby.git))
 * Agregar Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * Actualizar librerías como json, nkf, rake, RubyGems, and RDoc.
 

@@ -15,7 +15,7 @@ Rilis ini mencakup perbaikan keamanan untuk *OpenSSL extension's hostname verifi
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/id/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Ada juga beberapa *bugfixes*.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Lihat [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 untuk detail.
 
 ## Unduh

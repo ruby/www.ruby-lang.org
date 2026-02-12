@@ -43,7 +43,7 @@ lang: zh_tw
 主要的修復如下：
 
 參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) 來了解更多細節。
+以及 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_247) 來了解更多細節。
 
 ### 關鍵字參數 (keyword arguments)
 

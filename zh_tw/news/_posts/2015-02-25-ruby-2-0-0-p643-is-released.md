@@ -13,7 +13,7 @@ Ruby 2.0.0 目前進入安全性維護階段，除非發現重大功能退化（
 
 本次發佈包含了許多錯誤修正。
 參考 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-和 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog) 來了解更多細節。
+和 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_643) 來了解更多細節。
 
 ## 下載
 

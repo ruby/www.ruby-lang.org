@@ -26,7 +26,7 @@ API가 호환되지 않는 문제점이 Ruby 2.3.4에서 발견되었습니다.
 다음 릴리스에서 이 문제를 해결할 예정이지만, 이 때문에 문제를 겪고 있고 지금
 당장 해결해야 한다면 다음 패치를 이용하세요.
 
-* [rb_thread_fd_close 문제를 위한 패치](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [rb_thread_fd_close 문제를 위한 패치](https://git.ruby-lang.org/ruby.git)
 
 
 ## 다운로드

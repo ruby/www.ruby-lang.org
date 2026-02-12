@@ -11,7 +11,7 @@ lang: it
 
 Questo è il rilascio della prima versione TEENY della serie stabile 2.3.
 
-Ci sono molti bugfixes, vedere il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+Ci sono molti bugfixes, vedere il [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_1)
 per i dettagli.
 
 ## Download

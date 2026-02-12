@@ -17,7 +17,7 @@ To wydanie zawiera poprawki bezpieczeństwa dla następujących podatności:
 Są też poprawki błędów.
 
 Zobacz [zgłoszenia](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-i [log zmian](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+i [log zmian](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4)
 po szczegóły.
 
 **Aktualizacja:** Była regresja w 2.1.3, która obecnie jest poprawiona:

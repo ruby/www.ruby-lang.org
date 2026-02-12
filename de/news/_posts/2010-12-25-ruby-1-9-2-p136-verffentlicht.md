@@ -56,7 +56,7 @@ Dies ist das zweite Release von Ruby 1.9.2 und berichtigt viele Bugs von
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_2_136
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip

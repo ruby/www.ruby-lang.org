@@ -19,7 +19,7 @@ Ruby 2.3.4 发布了。
 
 Ruby 2.3.4 中发现存在 API 不兼容。这是由于意外地删除了一个叫 `rb_thread_fd_close` 的 API。我们会在下一个版本修复这个问题，如果你遇到这个问题并且需要解决方案的话，请应用这个补丁：
 
-* [修复 rb_thread_fd_close 问题的补丁](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [修复 rb_thread_fd_close 问题的补丁](https://git.ruby-lang.org/ruby.git)
 
 ## 下载
 

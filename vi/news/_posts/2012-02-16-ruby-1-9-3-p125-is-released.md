@@ -47,7 +47,7 @@ LƯU Ý: Đã đóng gói lại vào 2012-02-17 02:04:00 UTC để sửa [\[Bug 
 [2]: https://bugs.ruby-lang.org/issues/show/5076
 [3]: https://bugs.ruby-lang.org/issues/show/5851
 [4]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
-[5]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_125/ChangeLog
+[5]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_125
 [6]: https://bugs.ruby-lang.org/issues/6040
 [7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
 [8]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz

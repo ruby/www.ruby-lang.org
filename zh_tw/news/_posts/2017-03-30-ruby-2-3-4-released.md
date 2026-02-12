@@ -24,7 +24,7 @@ Ruby 2.3.4 發布了。
 在 Ruby 2.3.4 中發現了 API 不相容，原因是意外刪除了 `rb_thread_fd_close` 這個 API 函數。
 我們會在下一個發布修復這個問題，但如果你遇到了此問題且需要立即解決，請使用這個補丁：
 
-* [rb_thread_fd_close 問題修復補丁](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [rb_thread_fd_close 問題修復補丁](https://git.ruby-lang.org/ruby.git)
 
 
 ## 下載

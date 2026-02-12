@@ -110,7 +110,7 @@ Kode sumber Ruby telah dikelola menggunakan repositori Subversion hingga
 Sehingga, beberapa *branch* mungkin masih dikelola dengan Subversion.
 Anda dapat melihat repositori SVN.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 Namun demikian, Anda tidak harus peduli tentang itu (kecuali Anda adalah
 seorang *branch maintainer*).
@@ -130,7 +130,7 @@ Lihat juga bagian berikut.
 [mailing-lists]: /en/community/mailing-lists/
 [writing-patches]: /en/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

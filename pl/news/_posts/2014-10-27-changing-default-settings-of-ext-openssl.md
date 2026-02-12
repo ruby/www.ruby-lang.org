@@ -26,13 +26,13 @@ Jeżeli potrzebujesz anulować tą zmianę (pokazaną poniżej), zaaplikuj wstec
 poprawkę by wycofać tą zmianę.
 
 2.1.4
-: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://git.ruby-lang.org/ruby.git)
 
 2.0.0-p594
-: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://git.ruby-lang.org/ruby.git)
 
 1.9.3-p550
-: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://git.ruby-lang.org/ruby.git)
 
 Jednakże jeśli wycofasz tą zmianę, istnieje ryzyko, że nie będziesz w stanie
 zagwarantować bezpieczeństwa komunikacji sieciowej.

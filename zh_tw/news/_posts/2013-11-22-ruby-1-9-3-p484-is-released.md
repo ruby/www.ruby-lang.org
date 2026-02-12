@@ -16,7 +16,7 @@ Ruby 1.9.3-p484 發佈了。
 並修復了一些其它的錯誤。
 
 參考 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) 來了解更多細節。
+及 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_484) 來了解更多細節。
 
 ## 下載
 

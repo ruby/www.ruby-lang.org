@@ -20,7 +20,7 @@ Sau đó, việc bảo trì Ruby 1.9.3 sẽ kết thúc vào ngày 24 tháng 2 n
 
 Bản phát hành này bao gồm nhiều bản sửa lỗi.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) để biết chi tiết.
+và [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_545) để biết chi tiết.
 
 ## Tải về
 

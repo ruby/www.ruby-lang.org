@@ -15,7 +15,7 @@ Ruby 2.1.0-preview2 をリリースしました。
 * [浮動小数点数パースにおけるヒープオーバーフロー (CVE-2013-4164)](https://www.ruby-lang.org/ja/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/) の修正
 * "literal".freeze が最適化されるようになりました [#9042](https://bugs.ruby-lang.org/issues/9042)
 * 文字列リテラルの f 接尾辞はなくなりました [#9042](https://bugs.ruby-lang.org/issues/9042) (訳注: リリースされたバージョンでは 2.1.0-preview1 にだけありました)
-* RGenGC の メモリ使用量増大問題の修正 ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) と [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* RGenGC の メモリ使用量増大問題の修正 ([r43532](https://git.ruby-lang.org/ruby.git) と [r43755](https://git.ruby-lang.org/ruby.git))
 * Exception#cause 追加 [#8257](https://bugs.ruby-lang.org/issues/8257)
 * 以下のライブラリの更新: json, nkf, rake, RubyGems, RDoc
 

@@ -27,13 +27,13 @@ Si vous avez besoin d'annuler ce changement (inclus ci-dessous), appliquez le
 patch inverse pour revenir en arrière.
 
 2.1.4
-: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://git.ruby-lang.org/ruby.git)
 
 2.0.0-p594
-: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://git.ruby-lang.org/ruby.git)
 
 1.9.3-p550
-: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://git.ruby-lang.org/ruby.git)
 
 Néanmoins, si vous annulez ce changement, vous risquez de ne plus pouvoir
 garantir la sécurité de vos communications réseaux.

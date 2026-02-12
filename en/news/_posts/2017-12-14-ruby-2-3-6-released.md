@@ -15,7 +15,7 @@ Please check the topics below for details.
 * [CVE-2017-17405: Command injection vulnerability in Net::FTP](/en/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [Unsafe Object Deserialization Vulnerability in RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) for details.
+See the [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_6) for details.
 
 ## Download
 

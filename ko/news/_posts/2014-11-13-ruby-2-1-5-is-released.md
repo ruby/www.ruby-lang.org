@@ -18,7 +18,7 @@ lang: ko
 
 그리고, 버그 수정도 포함되어 있습니다.
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)를 참고하세요.
+[변경로그](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_5)를 참고하세요.
 
 ## 다운로드
 

@@ -10,7 +10,7 @@ lang: ko
 루비 2.2.7이 릴리스 되었습니다.
 
 이번 릴리스는 이전 릴리스의 버그 70개를 수정합니다.
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)를
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_7)를
 확인해주세요.
 
 이번 릴리스를 마지막으로 루비 2.2의 통상적인 유지보수 단계는 끝나게 되며,

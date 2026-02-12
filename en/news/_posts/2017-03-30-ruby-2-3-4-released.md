@@ -27,7 +27,7 @@ It is the accidental removal of the API function `rb_thread_fd_close`.
 We will fix this problem with the next release, but if you are facing
 the problem now and need to overcome it immediately, use this patch:
 
-* [patch for rb_thread_fd_close problem](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/branches/ruby_2_3/thread.c?r1=58289&r2=58288&pathrev=58289&view=patch)
+* [patch for rb_thread_fd_close problem](https://git.ruby-lang.org/ruby.git)
 
 
 ## Download

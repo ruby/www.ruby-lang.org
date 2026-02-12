@@ -20,7 +20,7 @@ Opsi SSL/TLS yang tidak aman dimatikan secara *default*.
 
 Dan, banyak *bugs* lain diperbaiki.
 Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) untuk lebih detil.
+dan [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_594) untuk lebih detil.
 
 ## Unduh
 

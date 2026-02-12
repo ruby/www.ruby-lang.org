@@ -10,7 +10,7 @@ lang: id
 Ruby 2.2.7 telah dirilis.
 
 Rilis ini mencakup sekitar 70 perbaikan *bug* setelah rilis sebelumnya.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
+Lihat [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_7)
 untuk detail.
 
 Setelah rilis ini, kami akan mengakhiri fase perawatan yang biasa dilakukan

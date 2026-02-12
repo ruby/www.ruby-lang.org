@@ -11,7 +11,7 @@ Ruby 2.2.5 がリリースされました。
 これは安定版 2.2 系列の TEENY リリースです。
 
 今回のリリースでは、多数のバグ修正が行われています。
-詳しくは、対応する [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog) を参照してください。
+詳しくは、対応する [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5) を参照してください。
 
 ## ダウンロード
 

@@ -20,7 +20,7 @@ Ruby 2.3.7 випущено.
 * [CVE-2018-8780: Ненавмисний обхід директорії через отруєний NUL байт в Dir](/uk/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 * [Множинні вразливості в RubyGems](/uk/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog) для деталей.
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_7) для деталей.
 
 Після цього випуску ми закінчимо нормальну фазу обслуговування Ruby 2.3,
 та почнемо фазу обслуговування безпеки.

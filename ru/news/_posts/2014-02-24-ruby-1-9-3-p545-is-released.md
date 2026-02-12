@@ -20,7 +20,7 @@ lang: ru
 
 Этот релиз содержит множество багфиксов.
 См. [тикеты](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-и [лог изменений](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) для дальнейшей информации.
+и [лог изменений](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_545) для дальнейшей информации.
 
 ## Загрузить
 

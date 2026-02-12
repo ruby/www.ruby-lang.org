@@ -12,7 +12,7 @@ lang: ru
 Это первый релиз TEENY версии стабильной серии 2.3.
 
 В него включено множество исправлений.
-Подробности можно узнать из [списка изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog).
+Подробности можно узнать из [списка изменений](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_1).
 
 ## Скачать
 

@@ -16,7 +16,7 @@ wsparcie dla budowy z Readline-6.3
 zaktualizowaną załączoną wersję libyaml z psych, i poprawki błędów.
 
 Zobacz [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-i [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
+i [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_2)
 po szczegóły.
 
 ## Pobieranie

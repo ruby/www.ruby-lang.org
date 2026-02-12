@@ -17,7 +17,7 @@ Bản phát hành này bao gồm các bản vá bảo mật cho các lỗ hổng
 Và có một số bản sửa lỗi.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+và [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4)
 để biết chi tiết.
 
 **Cập nhật:** Một lỗi hồi quy được giới thiệu trong 2.1.3 đã được sửa:

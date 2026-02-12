@@ -156,7 +156,7 @@ resolv.rb允许远程攻击者欺骗DNS响应。这个漏洞可以通过随机�
 
 : 请通过Subversion取得最新版本。
 
-      $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+      $ svn co https://git.ruby-lang.org/ruby.git/tree/?id=master ruby
 
 请注意修正这个漏洞的软件包可能已经可以通过你的软件包管理软件更新了。
 

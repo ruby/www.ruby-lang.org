@@ -18,7 +18,7 @@ Rilis ini berisi perbaikan pada security dari extension Ruby DL / Fiddle yang di
 
 Beberapa perbaikan bug juga termasuk dalam rilis ini.
 
-Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) and [changelog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) untuk rinciannya.
+Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) and [changelog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_429) untuk rinciannya.
 
 ## Unduhan
 

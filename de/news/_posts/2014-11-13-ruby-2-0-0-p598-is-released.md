@@ -19,7 +19,7 @@ Weitere Informationen finden Sie im folgenden Artikel:
 
 Dieses Release enthält außerdem einige Fehlerkorrekturen.
 Siehe die [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-und das [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+und das [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_598)
 für Details.
 
 ## Download

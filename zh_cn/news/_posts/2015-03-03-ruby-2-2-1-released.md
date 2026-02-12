@@ -12,7 +12,7 @@ lang: zh_cn
 
 这个版本发布包含了对 ffi 编译失败与 Symbol GC 中内存泄漏问题的修复（详见 [Bug #10686](https://bugs.ruby-lang.org/issues/10686)）。
 
-请见 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+请见 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_1)
 以了解更多细节。
 
 ## 下载

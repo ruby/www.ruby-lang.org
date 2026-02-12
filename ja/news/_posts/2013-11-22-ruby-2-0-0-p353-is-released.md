@@ -15,7 +15,7 @@ Ruby 2.0.0-p353 がリリースされました。
    (CVE-2013-4164)](/ja/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 その他にもいくつかのバグフィックスやドキュメントの修正が含まれています。
-より詳細な変更点は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) ファイルや[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)を参照してください。
+より詳細な変更点は [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_353) ファイルや[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)を参照してください。
 
 ## ダウンロード
 

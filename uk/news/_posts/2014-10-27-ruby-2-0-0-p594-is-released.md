@@ -20,7 +20,7 @@ lang: uk
 
 І, багато виправлень помилок також включені.
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) для деталей.
+та [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_594) для деталей.
 
 ## Завантаження
 

@@ -39,7 +39,7 @@ Ngoài ra còn có nhiều bản sửa lỗi, một số tối ưu hóa, và s�
 ## Thay đổi
 
 Các bản sửa lỗi chính được liệt kê bên dưới.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_195)
 hoặc [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 để biết chi tiết.
 

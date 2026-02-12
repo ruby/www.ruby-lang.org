@@ -20,7 +20,7 @@ Please check the topics below for details.
 * [CVE-2018-8780: Unintentional directory traversal by poisoned NUL byte in Dir](/en/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 * [Multiple vulnerabilities in RubyGems](/en/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog) for details.
+See the [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_7) for details.
 
 After this release, we will end the normal maintenance phase of Ruby 2.3,
 and start the security maintenance phase of it.

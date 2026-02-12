@@ -32,8 +32,8 @@ completa con todos los cambios desde la versión 1.8.5, ver los archivos
 incluidos NEWS y ChangeLog, que también están disponibles en las
 siguientes direcciones:
 
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_6/NEWS&gt;][5]
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_6/ChangeLog&gt;][6]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git/plain/NEWS&gt;][5]?id=refs/tags/v1\_8\_6
+* [&lt;URL:https://git.ruby-lang.org/ruby.git/plain/ChangeLog&gt;][6]?id=refs/tags/v1\_8\_6
 
 Después de este anuncio, se comenzará con el desarrollo de la versión
 1.8.7 así como el mantenimiento del branch \"ruby\_1\_8\_6\" donde sólo
@@ -48,5 +48,5 @@ actualizarse a Ruby 1.8.6.
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6.zip
-[5]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/NEWS
-[6]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_6/ChangeLog
+[5]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_8_6
+[6]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_8_6

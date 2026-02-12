@@ -8,7 +8,7 @@ lang: fr
 Les services CVS (y compris CVSup et CVSweb) ont été définitivement
 stopppés à compter du mardi 16 février 2007 à 03h00 UTC. Le code source
 est désormais uniquement disponible sur
-[https://svn.ruby-lang.org/repos/ruby/][1]. Le checkout se réalise par la
+[https://git.ruby-lang.org/ruby.git][1]. Le checkout se réalise par la
 commande svn usuelle. Un accès web est possible par [ViewVC][2].
 
 La nouvelle machine pour svn.ruby-lang.org est fournie par [Sun
@@ -17,7 +17,7 @@ travail.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[1]: https://git.ruby-lang.org/ruby.git
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://www.sun.com
 [4]: http://www.sun.com/software/solaris/

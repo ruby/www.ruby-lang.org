@@ -149,7 +149,7 @@ This vulnerability was reported by Tanaka Akira.
 
 : Please check out the latest version using Subversion.
 
-      $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+      $ svn co https://git.ruby-lang.org/ruby.git/tree/?id=master ruby
 
 Please note that a package that corrects this weakness may already be
 available through your package management software.

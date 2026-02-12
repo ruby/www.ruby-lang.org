@@ -13,7 +13,7 @@ Ruby 2.2.2 がリリースされました。これは安定版 2.2 系列の TEE
 
 * [CVE-2015-1855: Ruby OpenSSL ホスト名検証の脆弱性](https://www.ruby-lang.org/ja/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2) を参照してください。
 
 ## ダウンロード
 

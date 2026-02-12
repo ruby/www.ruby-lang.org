@@ -78,7 +78,7 @@ que tanto nos a facilitado la vida a muchos.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_125/ChangeLog
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_125
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.zip

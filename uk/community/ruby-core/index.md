@@ -109,7 +109,7 @@ $ git clone git@git.ruby-lang.org:ruby.git
 Тож деякі гілки й досі можуть підтримуватися у Subversion.
 Ви можете переглянути SVN-репозиторій.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 Проте вам не потрібно про це турбуватися (якщо тільки ви не супроводжуєте гілку).
 Ви можете переключатися на гілки у своїй робочій копії Git.
@@ -128,7 +128,7 @@ X_X слід замінити на версію, яку ви хочете отр
 [mailing-lists]: /uk/community/mailing-lists/
 [writing-patches]: /uk/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

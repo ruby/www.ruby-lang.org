@@ -15,7 +15,7 @@ Please test the new features in Ruby 2.1 before the final release!
 * fix [Heap Overflow in Floating Point Parsing (CVE-2013-4164)](https://www.ruby-lang.org/en/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze is now optimized [#9042](https://bugs.ruby-lang.org/issues/9042)
 * f suffix of String Literal is removed [#9042](https://bugs.ruby-lang.org/issues/9042)
-* fix memory consuming issue on RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) and [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* fix memory consuming issue on RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) and [r43755](https://git.ruby-lang.org/ruby.git))
 * add Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * update libraries like json, nkf, rake, RubyGems, and RDoc.
 

@@ -24,13 +24,13 @@ OpenSSL의 안전하지 않은 기능을 계속 사용할 경우,
 이 수정(밑의 링크)을 되돌릴 필요가 있다면, 리버스 패치를 적용하세요.
 
 2.1.4
-: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://git.ruby-lang.org/ruby.git)
 
 2.0.0-p594
-: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://git.ruby-lang.org/ruby.git)
 
 1.9.3-p550
-: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://git.ruby-lang.org/ruby.git)
 
 하지만, 이 수정을 되돌린다면, 네트워크의 안전을 보장할 수 없는 위험이있습니다.
 당신은 이 변경을 되돌리기 전에 그 점을 숙지하셔야 합니다.

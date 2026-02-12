@@ -16,7 +16,7 @@ l'interpréteur Ruby :
 
 Cette version comprend également d'autres corrections de bugs.
 Veuillez consulter [les tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-et [le ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) pour plus de détails.
+et [le ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_353) pour plus de détails.
 
 ## Téléchargement
 

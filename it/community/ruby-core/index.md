@@ -25,7 +25,7 @@ Per fare checkout del più recente codice Ruby, devi semplicemente fare
 il login usando l’account anonimo di [Subversion][1]. Dalla linea di comando:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+$ git clone https://github.com/ruby/ruby.git
 {% endhighlight %}
 
 La directory `ruby` contiene ora il codice sorgente più recente per la
@@ -37,14 +37,18 @@ Se sei interessato a seguire il patching di Ruby 2.0.0, devi fare checkout
 del branch `ruby_2_0_0`\:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_2_0_0
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout ruby_2_0_0
 {% endhighlight %}
 
 Se sei interessato a seguire il patching di Ruby 1.9.3, devi fare checkout
 del branch `ruby_1_9_3`\:
 
 {% highlight sh %}
-$ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+$ git clone https://github.com/ruby/ruby.git
+$ cd ruby
+$ git checkout ruby_1_9_3
 {% endhighlight %}
 
 Questo comando effettua il checkout del development tree su una
@@ -87,19 +91,21 @@ In sintesi, i passi per costruire un patch sono:
     Persino se vuoi aggiungere una feature a Ruby 1.9.3, deve essere
     provata prima nel trunk.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+        $ git clone https://github.com/ruby/ruby.git
 
     Se stai correngendo un bug che è specifico di un solo branch
     di manuntenzione, fai il check out di una copia del rispettivo
     branch, ad esempio `ruby_1_9.3`.
 
-        $ svn co https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_3
+        $ git clone https://github.com/ruby/ruby.git
+        $ cd ruby
+        $ git checkout ruby_1_9_3
 
 2.  Aggiungi le tue modifiche al codice.
 
 3.  Crea una patch.
 
-        $ svn diff > ruby-changes.patch
+        $ git diff > ruby-changes.patch
 
 4.  Crea un ticket nel [issue tracker][10] o manda via mail la tua patch
     [Ruby-Core mailing list][mailing-lists] con una entry sul
@@ -147,7 +153,7 @@ Subversion:
   sarà automaticamente inviato alla lista Ruby-CVS dopo il commit.
 * lo stile ANSI per le dichiarazioni di funzioni è usato nel codice
   source di Ruby e nei suoi package di estensione.
-* Per favore, non usare lo stile di commento per C++ (`//`); coloro che
+* Per favore, non usare lo stile di commento per C++ (`); coloro che
   mantengono Ruby preferiscono invece lo stile di commento multilinea
   di C (`/* .. */`).
 
@@ -157,7 +163,7 @@ Guarda anche le informazioni su [Ruby’s issue tracker][10].
 
 [mailing-lists]: /it/community/mailing-lists/
 [1]: http://subversion.apache.org/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://subversion.apache.org/faq.html
 [4]: http://svnbook.org
 [5]: http://www.pragmaticprogrammer.com/titles/svn/

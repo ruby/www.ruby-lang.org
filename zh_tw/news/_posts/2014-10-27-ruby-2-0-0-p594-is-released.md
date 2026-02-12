@@ -20,7 +20,7 @@ lang: zh_tw
 同時包含了許多錯誤修正。
 
 參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) 來了解更多細節。
+以及 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_594) 來了解更多細節。
 
 ## 下載
 

@@ -13,7 +13,7 @@ Este es la primer versión TEENY de la serie estable de 2.2.
 Esta entrega contiene la corrección para la falla de compilación de ffi y
 una fuga de memoria en el colector de objetos tipo Symbol (Ver [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-También puedes leer el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+También puedes leer el [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_1)
 para obtener más detalles.
 
 ## Descarga

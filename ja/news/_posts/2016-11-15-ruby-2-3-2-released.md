@@ -12,7 +12,7 @@ Ruby 2.3.2 がリリースされました。これは安定版 2.3 系列の TEE
 このリリースには RubyGems 2.5.2 への更新および RubyGems が利用するSSL証明書の更新が含まれています。
 その他多くの不具合修正も含まれます。
 
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_2) を参照してください。
 
 ## ダウンロード
 

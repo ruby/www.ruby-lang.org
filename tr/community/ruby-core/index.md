@@ -111,7 +111,7 @@ Ruby'nin kaynak kodu 22 Nisan 2019'a kadar Subversion deposunda yönetiliyordu.
 Bu sebeple bazı dallar hala Subversion altında yönetiliyor olabilir.
 SVN deposunu görüntüleyebilirsiniz.
 
-* [&lt;URL:https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby&gt;][svn-viewvc]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git&gt;][svn-viewvc]
 
 Fakat bununla ilgili bir endişeniz olmamalı (bir dal geliştiricisi değilseniz).
 Git çalışma kopyanızda dallara geçiş yapabilirsiniz.
@@ -130,7 +130,7 @@ konu açın. Ayrıca takip eden bölüme bakın.
 [mailing-lists]: /tr/community/mailing-lists/
 [writing-patches]: /tr/community/ruby-core/writing-patches/
 [noncommitterhowto]: https://github.com/shyouhei/ruby/wiki/noncommitterhowto
-[svn-viewvc]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[svn-viewvc]: https://git.ruby-lang.org/ruby.git
 [7]: https://github.com/ruby/ruby
 [10]: https://bugs.ruby-lang.org/
 [12]: http://www.gnu.org/software/diffutils/manual/html_node/Unified-Format.html

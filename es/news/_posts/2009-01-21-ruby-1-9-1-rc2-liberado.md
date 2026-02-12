@@ -14,7 +14,7 @@ Yugui (Yuki Sonoda) ha anunciando la segunda versión candidata a estable
 versión estable de la serie 1.9.1. Pueden leer sobre los cambios desde
 la versión 1.8.7 en:
 
-[https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_1\_rc2/NEWS][1]
+[https://git.ruby-lang.org/ruby.git/plain/NEWS][1]?id=refs/tags/v1\_9\_1\_rc2
 
 Hemos arreglado 29 errores y agregado algunos convertidores de
 codificación de caracteres.
@@ -52,7 +52,7 @@ Ubicación:
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_rc2/NEWS
+[1]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_1_rc2
 [2]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=7
 [3]: https://bugs.ruby-lang.org
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2

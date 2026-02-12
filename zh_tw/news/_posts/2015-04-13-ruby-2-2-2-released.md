@@ -14,7 +14,7 @@ lang: zh_tw
 * [CVE-2015-1855: Ruby OpenSSL 主機名稱驗證風險](https://www.ruby-lang.org/zh_tw/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 同時帶有許多錯誤修正。
-參見 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+參見 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 來了解更多細節。
 
 ## 下載

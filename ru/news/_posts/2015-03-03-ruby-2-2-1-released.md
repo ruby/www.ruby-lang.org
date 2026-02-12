@@ -13,7 +13,7 @@ lang: ru
 Этот релиз включает в себя фикс ошибки сборки ffi и утечки памяти в сборщике
 для символов (см. [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-См. [лог изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+См. [лог изменений](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_1)
 за подробностями.
 
 ## Скачать

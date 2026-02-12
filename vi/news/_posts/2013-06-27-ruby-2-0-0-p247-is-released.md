@@ -43,7 +43,7 @@ Bạn có thể tải bản phát hành này từ:
 Các bản sửa lỗi chính được liệt kê bên dưới.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) để biết chi tiết.
+và [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_247) để biết chi tiết.
 
 ### Keyword Arguments
 

@@ -15,7 +15,7 @@ Ruby 2.1.5 がリリースされました。これは安定版 2.1 系のパッ�
 * [CVE-2014-8090: REXML における XML 展開に伴う新たなサービス不能攻撃について](https://www.ruby-lang.org/ja/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 他にも、幾つかのバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5) および [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_5) を確認して下さい。
 
 ## Download
 

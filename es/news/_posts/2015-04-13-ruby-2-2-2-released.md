@@ -16,7 +16,7 @@ Esta entrega contiene una corrección de seguridad para la extensión de OpenSSL
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/es/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 También se incluyen algunas otras correcciones.
-Puedes leer el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Puedes leer el [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 para obtener más detalles.
 
 ## Descargas

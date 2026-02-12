@@ -17,7 +17,7 @@ Cette version inclut des correctifs de sécurité pour les failles suivantes :
 De plus, plusieurs bugs ont été corrigés.
 
 Voir les [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-et le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+et le [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4)
 pour plus de détails.
 
 **Mise à jour :** Une régression introduite dans Ruby 2.1.3 est désormais

@@ -15,7 +15,7 @@ Proszę sprawdźcie nowe funkcjonalności w Rubim 2.1 przed finalnym wydaniem!
 * poprawione [Przepełnienie stosu podczas parsowania zmiennoprzecinkowego (CVE-2013-4164)](https://www.ruby-lang.org/pl/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * optymalizacja "literal".freeze [#9042](https://bugs.ruby-lang.org/issues/9042)
 * przyrostek f dla literałów napisów został usunięty [#9042](https://bugs.ruby-lang.org/issues/9042)
-* poprawiono problem zużycia pamięci w RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) and [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* poprawiono problem zużycia pamięci w RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) and [r43755](https://git.ruby-lang.org/ruby.git))
 * dodano Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * zaktualizowano biblioteki json, nkf, rake, RubyGems, i RDoc.
 

@@ -15,7 +15,7 @@ Ruby 2.3.3 发布了。
 参考 [Bug #12920](https://bugs.ruby-lang.org/issues/12920) 来查阅更多细节。
 
 本次发布还包含一些其他的漏洞修复。
-请参考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog) 来进一步了解。
+请参考 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3) 来进一步了解。
 
 ## 下载
 

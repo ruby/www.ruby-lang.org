@@ -16,7 +16,7 @@ da una vulnerabilità nella verifica degli hostname.
 
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-Sono stati inclusi numerosi bugfix. Potete leggere il [changeloog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Sono stati inclusi numerosi bugfix. Potete leggere il [changeloog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 per tutti i dettagli.
 
 ## Download

@@ -15,7 +15,7 @@ Potete leggere il seguente link per tutti i dettagli.
 * [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Inoltre, sono stati risolti molti bug. Potete leggere i [ticket](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-e il [changelog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog) per tutti i dettagli.
+e il [changelog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_6) per tutti i dettagli.
 
 ## Download
 

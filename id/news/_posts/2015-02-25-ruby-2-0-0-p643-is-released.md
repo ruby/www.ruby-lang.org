@@ -19,7 +19,7 @@ Kami merekomendasikan untuk mulai merencanakan migrasi ke versi Ruby yang lebih 
 
 Rilis ini mencakup banyak *bugfixes*.
 Lihat [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+dan [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_643)
 untuk detail.
 
 ## Unduh

@@ -15,7 +15,7 @@ This release includes a security fix about Ruby interpreter core:
 
 And some bugfixes are also included.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) for details.
+and [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_484) for details.
 
 ## Download
 

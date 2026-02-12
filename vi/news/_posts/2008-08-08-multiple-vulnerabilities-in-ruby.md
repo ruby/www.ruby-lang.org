@@ -149,7 +149,7 @@ Lỗ hổng này được báo cáo bởi Tanaka Akira.
 
 : Vui lòng checkout phiên bản mới nhất bằng Subversion.
 
-      $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+      $ svn co https://git.ruby-lang.org/ruby.git/tree/?id=master ruby
 
 Xin lưu ý rằng gói sửa lỗi này có thể đã có sẵn qua phần mềm quản lý
 gói của bạn.

@@ -42,8 +42,8 @@ Checksums:
 sách đầy đủ tất cả thay đổi, hãy xem các tệp đi kèm có tên NEWS và
 ChangeLog, cũng có sẵn tại các địa chỉ sau:
 
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
+* https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1\_8\_7
+* https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1\_8\_7
 
 
 

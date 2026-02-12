@@ -10,7 +10,7 @@ lang: uk
 Ruby 2.2.7 випущено.
 
 Цей випуск включає близько 70 виправлень помилок після попереднього випуску.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_7)
 для деталей.
 
 Після цього випуску ми закінчимо нормальну фазу обслуговування Ruby 2.2,

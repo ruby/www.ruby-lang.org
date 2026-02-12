@@ -15,7 +15,7 @@ lang: uk
 * виправлення [Переповнення купи при парсингу чисел з плаваючою комою (CVE-2013-4164)](https://www.ruby-lang.org/uk/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze тепер оптимізовано [#9042](https://bugs.ruby-lang.org/issues/9042)
 * суфікс f літералу рядка видалено [#9042](https://bugs.ruby-lang.org/issues/9042)
-* виправлення проблеми споживання пам'яті на RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) та [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* виправлення проблеми споживання пам'яті на RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) та [r43755](https://git.ruby-lang.org/ruby.git))
 * додано Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * оновлено бібліотеки, такі як json, nkf, rake, RubyGems, та RDoc.
 

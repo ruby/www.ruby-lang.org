@@ -31,7 +31,7 @@ Kellinis, KPMG London.
 
 Див. ChangeLog для більше деталей.
 
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/branches/ruby\_1\_9\_1/ChangeLog&gt;][2]
+* [&lt;URL:https://git.ruby-lang.org/ruby.git/plain/ChangeLog&gt;][2]?id=refs/heads/ruby\_1\_9\_1
 
 #### Розташування
 
@@ -69,7 +69,7 @@ Kellinis, KPMG London.
 
 
 [1]: {{ site.url }}/uk/news/2009/12/07/heap-overflow-in-string/
-[2]: https://svn.ruby-lang.org/repos/ruby/branches/ruby_1_9_1/ChangeLog
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/heads/ruby_1_9_1
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.zip

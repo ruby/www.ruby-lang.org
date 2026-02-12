@@ -20,7 +20,7 @@ Mohon melihat topik berikut untuk lebih detil.
 
 Dan, beberapa perbaikan terhadap *bugs* juga dimasukkan.
 Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+dan [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_598)
 untuk lebih detil.
 
 ## Unduh

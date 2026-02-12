@@ -20,7 +20,7 @@ Ruby 2.3.5 がリリースされました。
 * [RubyGems の複数の脆弱性](/ja/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)への対応
 * 添付の libyaml を 0.1.7 に更新
 
-詳しくは、対応する [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) を参照してください。
+詳しくは、対応する [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_5) を参照してください。
 
 ## 既知の不具合について(2017年9月15日追記)
 

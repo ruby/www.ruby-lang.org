@@ -17,7 +17,7 @@ lang: ru
 И несколько других фиксов.
 
 См. [тикеты](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-и [лог изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+и [лог изменений](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_4)
 за подробностями.
 
 **Обновление:** регрессия, представленная в 2.1.3, теперь исправлена:

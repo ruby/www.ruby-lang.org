@@ -14,7 +14,7 @@ lang: zh_cn
 (见 [Bug #9607](https://bugs.ruby-lang.org/issues/9607))，以及其他大量的 Bug 修正。
 
 详情请到对应的 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog) 进行确认。
+以及 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_3) 进行确认。
 
 ## 下载
 

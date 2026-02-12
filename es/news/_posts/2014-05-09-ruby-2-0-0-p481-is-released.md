@@ -17,7 +17,7 @@ Esta entrega incluye muchas correcciones, tal como:
   (ver [Desbordamiento de Pila en la interpretacion de URIs en YAML (CVE-2014-2525)](https://www.ruby-lang.org/es/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 Ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog)
+y el [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_481)
 para más detalles.
 
 ## Descargas

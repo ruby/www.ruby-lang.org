@@ -15,7 +15,7 @@ Ruby 2.3.3 がリリースされました。
 詳しくは [Bug #12920](https://bugs.ruby-lang.org/issues/12920) を参照してください。
 
 他にもいくつかの不具合修正がありました。
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_3) を参照してください。
 
 ## ダウンロード
 

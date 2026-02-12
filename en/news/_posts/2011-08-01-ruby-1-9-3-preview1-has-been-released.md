@@ -53,8 +53,8 @@ SJIS changed to alias for Windows-31J, instead of Shift\_JIS.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/ChangeLog
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/NEWS
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_preview1
+[2]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_3_preview1
 [3]: http://www.rubyinside.com/ruby-1-9-3-preview-1-released-5229.html
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz

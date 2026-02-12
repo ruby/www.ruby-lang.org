@@ -16,7 +16,7 @@ der Domainnamen-Validierung von RubyGems. Weitere Informationen dazu
 finden Sie in diesem Blogpost:
 
 Außerdem sind einige Bugfixes gemacht worden. Siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_3)
 für weitere Informationen.
 
 ## Download

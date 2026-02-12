@@ -36,8 +36,8 @@ Akinori MUSHA 今天宣布 Ruby 1.8.7 发布了。
 
 简单用户可见变更和全部变更日志的信息在捆绑的 NEWS 和 ChangeLog 文件里，也可在如下地址获得：
 
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
+* https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1\_8\_7
+* https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1\_8\_7
 
 
 

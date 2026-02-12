@@ -39,7 +39,7 @@ And there are many bug-fixes and some optimization, and documentation fixes.
 ## Changes
 
 Major fixes are below.
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+See [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_195)
 or [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 for details.
 

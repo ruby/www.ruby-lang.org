@@ -10,7 +10,7 @@ lang: ru
 Вышел Ruby 2.2.5.
 
 Этот релиз включает множество исправлений.
-Подробности можно узнать из [списка изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog).
+Подробности можно узнать из [списка изменений](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5).
 
 ## Скачать
 

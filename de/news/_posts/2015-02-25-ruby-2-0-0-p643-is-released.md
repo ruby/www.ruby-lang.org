@@ -24,7 +24,7 @@ Ruby-Versionen wie 2.1 oder 2.2 zu beginnen.
 Diese Veröffentlichung enthält viele Fehlerkorrekturen. Siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
 und das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_643)
 für weitere Informationen.
 
 ## Download

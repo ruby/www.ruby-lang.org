@@ -16,7 +16,7 @@ Please view the topic below for more details.
 
 And, many bug fixes are also included.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
+and [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_6)
 for details.
 
 ## Download

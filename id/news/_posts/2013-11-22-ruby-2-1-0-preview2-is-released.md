@@ -15,7 +15,7 @@ Silakan uji fitur baru di Ruby 2.1 sebelum rilis akhir!
 * perbaikan [Heap Overflow dalam Floating Point Parsing (CVE-2013-4164)](https://www.ruby-lang.org/id/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 * "literal".freeze sekarang dioptimalkan [#9042](https://bugs.ruby-lang.org/issues/9042)
 * f suffix dari String Literal dihapus [#9042](https://bugs.ruby-lang.org/issues/9042)
-* perbaikan isu memory consuming pada RGenGC ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) dan [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755))
+* perbaikan isu memory consuming pada RGenGC ([r43532](https://git.ruby-lang.org/ruby.git) dan [r43755](https://git.ruby-lang.org/ruby.git))
 * penambahan Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257)
 * pemutakhiran pustaka seperti json, nkf, rake, RubyGems, dan RDoc.
 

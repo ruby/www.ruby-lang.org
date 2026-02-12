@@ -33,7 +33,7 @@ Zu dieser Version sind keine Release Notes erschienen, aber es gibt ein
 
 
 
-[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v1_8_7_248/ChangeLog
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_8_7_248
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p248.tar.gz
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p248.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p248.zip

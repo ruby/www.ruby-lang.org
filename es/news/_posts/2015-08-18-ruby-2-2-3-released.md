@@ -16,7 +16,7 @@ Esta publicación incluye una solución a una vulnerabilidad de seguridad en la 
 * [CVE-2015-3900 Vulnerabilidad, secuestro de peticiones en RubyGems 2.4.6 y anteriores](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 También hay algunas soluciones a fallas. Consulta detalles en la
-[Bitacora de Cambios](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+[Bitacora de Cambios](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_3)
 
 ## Descargas
 

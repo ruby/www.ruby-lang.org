@@ -22,7 +22,7 @@ weitere Informationen.
 * [Zahlreiche Schwachstellen in RubyGems](/de/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
 Siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog)
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_7)
 für Details.
 
 Mit dieser Veröffentlichung endet die normale Unterstützungsphase von

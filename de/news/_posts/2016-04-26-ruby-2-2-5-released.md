@@ -11,7 +11,7 @@ Ruby 2.2.5 ist veröffentlicht worden.
 
 Diese Veröffentlichung enthält viele Bugfixes.
 Siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5)
 für weitere Informationen.
 
 ## Download

@@ -14,7 +14,7 @@ lang: uk
 (див. [Помилка #9607](https://bugs.ruby-lang.org/issues/9607)), та багато виправлень помилок.
 
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+та [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_3)
 для деталей.
 
 ## Завантаження

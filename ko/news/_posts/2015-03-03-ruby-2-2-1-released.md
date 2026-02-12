@@ -14,7 +14,7 @@ lang: ko
 포함됩니다.([버그 #10686](https://bugs.ruby-lang.org/issues/10686) 참조)
 
 자세한 내용은
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)를
+[변경로그](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_1)를
 확인하세요.
 
 ## 다운로드

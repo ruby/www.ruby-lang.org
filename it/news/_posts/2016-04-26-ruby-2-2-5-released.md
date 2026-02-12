@@ -9,7 +9,7 @@ lang: it
 
 È stato rilasciato Ruby 2.2.5.
 
-Questa release contiene molti bugfixes, si veda il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+Questa release contiene molti bugfixes, si veda il [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5)
 per i dettagli.
 
 ## Download

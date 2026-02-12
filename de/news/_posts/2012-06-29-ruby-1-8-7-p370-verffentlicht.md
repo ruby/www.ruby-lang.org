@@ -61,7 +61,7 @@ Release stellt daher dessen 4. Geburtstag da. Vielen Dank an alle!
 
 
 [1]: {{ site.url }}/de/news/2011/10/11/plne-fr-1-8-7
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_370/ChangeLog
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_8_7_370
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p370.zip

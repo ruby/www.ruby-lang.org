@@ -15,7 +15,7 @@ Cette version inclut un correctif de sécurité d'une extension d'OpenSSL sur la
 * [CVE-2015-1855: Vérification des noms d'hôte par Ruby OpenSSL](https://www.ruby-lang.org/fr/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Il y a également des correctifs de bugs.
-Consultez le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Consultez le [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 pour plus de détails.
 
 ## Téléchargement

@@ -14,7 +14,7 @@ Ruby 2.3.6 已發佈。
 * [CVE-2017-17405: Net::FTP 命令注入安全性風險](/zh_tw/news/2017/12/14/net-ftp-command-injection-cve-2017-17405/)
 * [RubyGems 中不安全物件反序列化風險](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
-查看 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) 以獲取詳細訊息。
+查看 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_6) 以獲取詳細訊息。
 
 ## 下載
 

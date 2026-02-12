@@ -19,7 +19,7 @@ Ruby 2.3.5 發布了。
 * [RubyGems 多個安全性風險](/zh_tw/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * 內建的 libyaml 更新至版本 0.1.7
 
-參考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) 來進一步了解。
+參考 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_5) 來進一步了解。
 
 ## 已知問題
 

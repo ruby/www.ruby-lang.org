@@ -41,7 +41,7 @@ lang: ko
 
 주요 수정사항은 아래에 나열되어 있습니다.
 
-세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과 [변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog)를 보십시오.
+세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과 [변경로그](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_247)를 보십시오.
 
 ### 키워드 인수(Keyword Arguments)
 

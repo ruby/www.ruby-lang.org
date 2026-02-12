@@ -59,5 +59,5 @@ Ruby 1.9.3 preview1をリリースしました。これはRuby 1.9.3の最初の
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.zip
 [4]: http://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29
 [5]: {{ site.url }}{{ site.license.url }}
-[6]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/NEWS
-[7]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/ChangeLog
+[6]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_3_preview1
+[7]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_preview1

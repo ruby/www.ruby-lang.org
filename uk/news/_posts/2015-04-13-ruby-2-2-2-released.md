@@ -15,7 +15,7 @@ lang: uk
 * [CVE-2015-1855: Перевірка імені хоста Ruby OpenSSL](https://www.ruby-lang.org/uk/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Також є деякі виправлення помилок.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Див. [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_2)
 для деталей.
 
 ## Завантаження

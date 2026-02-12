@@ -20,13 +20,13 @@ So, based on the discussion in [Bug #9424](https://bugs.ruby-lang.org/issues/942
 If you need to cancel this change (shown below), apply the reverse patch to revoke it.
 
 2.1.4
-: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://git.ruby-lang.org/ruby.git)
 
 2.0.0-p594
-: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://git.ruby-lang.org/ruby.git)
 
 1.9.3-p550
-: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://git.ruby-lang.org/ruby.git)
 
 However, if you cancel this change, there is a risk that you can not guarantee the safety of network communication.
 You should understand the implications of this change before removing it.

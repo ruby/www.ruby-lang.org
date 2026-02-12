@@ -11,7 +11,7 @@ lang: ko
 
 이번 릴리스는 RubyGems를 위한 새 SSL 인증서를 포함하고 있습니다.
 그리고 이전 릴리스의 버그 80개를 수정합니다.
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)를
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_6)를
 확인해주세요.
 
 ## 다운로드

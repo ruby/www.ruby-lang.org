@@ -17,7 +17,7 @@ Wydanie to zawiera wiele poprawek błędów, takich jak:
   (zobacz [Przepełnienie stosu podczas parsowania znaku modyfikacji dla URI w YAML (CVE-2014-2525)](https://www.ruby-lang.org/pl/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 Zobacz [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-i [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) po szczegóły.
+i [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_481) po szczegóły.
 
 ## Pobieranie
 

@@ -17,13 +17,13 @@ lang: zh_tw
 OpenSSL 仍在透過先前發生的事件在持續改善不安全的協議與密碼。像是 POODLE 風險（[CVE-2014-3566](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566)）。若繼續使用 OpenSSL 這樣的不安全功能，可能無法保證網路溝通的安全性。基於在 [Bug #9424](https://bugs.ruby-lang.org/issues/9424) 的討論後考量，我們決定預設禁用這些不安全的選項。若需要取消這次的修改（如下所示），把這個補丁打上去即可取消。
 
 2.1.4
-: [r48098](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48098&view=revision)
+: [r48098](https://git.ruby-lang.org/ruby.git)
 
 2.0.0-p594
-: [r48110](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48110&view=revision)
+: [r48110](https://git.ruby-lang.org/ruby.git)
 
 1.9.3-p550
-: [r48121](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?revision=48121&view=revision)
+: [r48121](https://git.ruby-lang.org/ruby.git)
 
 但如果你取消本次修改，便無法保證網路溝通的安全性。移除之前，請先了解此次修改背後的意義。
 

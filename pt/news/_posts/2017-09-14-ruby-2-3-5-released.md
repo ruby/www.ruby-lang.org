@@ -19,7 +19,7 @@ Por favor, confira os tópicos abaixo para detalhes.
 * [últiplas vulnerabilidades em RubyGems](/en/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * Atualizada libyaml empacotada para versão 0.1.7
 
-Veja o [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog) para detalhes.
+Veja o [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_5) para detalhes.
 
 ## Problemas Conhecidos
 

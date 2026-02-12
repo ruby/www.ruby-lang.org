@@ -9,7 +9,7 @@ lang: zh_cn
 
 Ruby 2.2.5 今天发布了。
 
-这一版修正了很多缺陷，详情参见[更改日志](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)。
+这一版修正了很多缺陷，详情参见[更改日志](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_5)。
 
 ## 下载
 

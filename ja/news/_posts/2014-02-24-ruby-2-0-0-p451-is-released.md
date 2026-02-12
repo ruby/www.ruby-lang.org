@@ -11,7 +11,7 @@ lang: ja
 これを記念して、Ruby 2.0.0-p451 がリリースされました。
 
 今回のリリースには、多数のバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_451) を確認して下さい。
 
 ## ダウンロード
 

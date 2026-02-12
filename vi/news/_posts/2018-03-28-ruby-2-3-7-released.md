@@ -20,7 +20,7 @@ Vui lòng kiểm tra các chủ đề dưới đây để biết chi tiết.
 * [CVE-2018-8780: Duyệt thư mục ngoài ý muốn bằng byte NUL độc hại trong Dir](/vi/news/2018/03/28/poisoned-nul-byte-dir-cve-2018-8780/)
 * [Nhiều lỗ hổng bảo mật trong RubyGems](/vi/news/2018/02/17/multiple-vulnerabilities-in-rubygems/)
 
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_7/ChangeLog) để biết chi tiết.
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_7) để biết chi tiết.
 
 Sau bản phát hành này, chúng tôi sẽ kết thúc giai đoạn bảo trì thông thường của Ruby 2.3,
 và bắt đầu giai đoạn bảo trì bảo mật.

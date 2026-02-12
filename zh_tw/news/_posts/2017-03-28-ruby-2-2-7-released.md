@@ -9,7 +9,7 @@ lang: zh_tw
 
 Ruby 2.2.7 發布了。
 
-本次發布較前板相比約修正了 70 個錯誤。參考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog) 來進一步了解。
+本次發布較前板相比約修正了 70 個錯誤。參考 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_7) 來進一步了解。
 
 本次發布後，Ruby 2.2 的正常維護週期將會結束，進入安全性維護週期。2.2.7 之後的版本，除了安全性修正之外，就不再將錯誤修正移植到 2.2 版本。安全性維護週期的期程約為 1 年。1 年後，官方將停止支援 Ruby 2.2 版本。我們建議您開始計畫升級到 Ruby 2.4 或 2.3。
 

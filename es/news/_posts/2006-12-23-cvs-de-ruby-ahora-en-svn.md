@@ -6,7 +6,7 @@ lang: es
 ---
 
 Hemos cambiado el repositorio de código fuente a
-[https://svn.ruby-lang.org/repos/ruby/][1]. Ahora puedes hacer un
+[https://git.ruby-lang.org/ruby.git][1]. Ahora puedes hacer un
 *checkout* usando svn, o puedes verlo con tu navegador usando
 [ViewVC][2].
 
@@ -16,7 +16,7 @@ funciona bastante bien.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/
-[2]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?root=ruby
+[1]: https://git.ruby-lang.org/ruby.git
+[2]: https://git.ruby-lang.org/ruby.git
 [3]: http://www.sun.com
 [4]: http://www.sun.com/software/solaris/

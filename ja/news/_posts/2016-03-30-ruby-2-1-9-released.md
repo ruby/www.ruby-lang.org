@@ -11,7 +11,7 @@ Ruby 2.1.9 がリリースされました。
 これは安定版 2.1 系列の TEENY リリースです。
 
 今回のリリースでは、多数のバグ修正が行われています。
-詳しくは、対応する [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog) を参照してください。
+詳しくは、対応する [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_9) を参照してください。
 
 [以前からの予告どおり](https://www.ruby-lang.org/ja/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/)、本リリースが 2.1 系列の最後の通常リリースとなります。
 以後、2.1 系列はセキュリティメンテナンスに移行し、セキュリティ対応以外のバグ修正・リリースは行われなくなります。

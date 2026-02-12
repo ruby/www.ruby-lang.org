@@ -149,7 +149,7 @@ resolv.rbには、リモートの攻撃者が偽造したDNS問い合わせの�
 
 : Subversionで最新版をチェックアウトしてください。
 
-      $ svn co https://svn.ruby-lang.org/repos/ruby/trunk ruby
+      $ svn co https://git.ruby-lang.org/ruby.git/tree/?id=master ruby
 
 Rubyのパッケージを配布している各ベンダから、この脆弱性を修正した版のパッケージが提供されている場合もあります。詳細については各ベンダにお問い合わせください。
 

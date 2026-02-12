@@ -30,8 +30,8 @@ Xem [ChangeLogs][1] và [NEWS][2] để biết mô tả.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/ChangeLog
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_rc1/NEWS
+[1]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_rc1
+[2]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=refs/tags/v1_9_3_rc1
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-rc1.zip

@@ -211,7 +211,7 @@ Vielen Dank euch allen!
 
 
 
-[1]: https://svn.ruby-lang.org/cgi-bin/viewvc.cgi/tags/v2_0_0_0/NEWS?view=markup
+[1]: https://git.ruby-lang.org/ruby.git
 [2]: http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example
 [3]: https://speakerdeck.com/shyouhei/whats-new-in-ruby-2-dot-0
 [4]: http://el.jibun.atmarkit.co.jp/rails/2012/11/ruby-20-8256.html

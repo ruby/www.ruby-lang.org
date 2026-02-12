@@ -16,7 +16,7 @@ lang: ko
 
 그리고 몇몇 버그 수정도 포함되었습니다.
 
-세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)과 [변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog)를 보십시오.
+세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)과 [변경로그](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v1_9_3_448)를 보십시오.
 
 ## 디운로드
 

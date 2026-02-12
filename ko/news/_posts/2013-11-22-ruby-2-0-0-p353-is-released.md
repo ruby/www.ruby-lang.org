@@ -15,7 +15,7 @@ lang: ko
   (CVE-2013-4164)](/ko/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/)
 
 또한 몇몇 버그 수정도 포함되었습니다.
-세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog)를 보십시오.
+세부 사항은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과 [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_353)를 보십시오.
 
 ## 다운로드
 

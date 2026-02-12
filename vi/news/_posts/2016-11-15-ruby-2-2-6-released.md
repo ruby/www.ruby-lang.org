@@ -11,7 +11,7 @@ Ruby 2.2.6 đã được phát hành.
 
 Bản phát hành này bao gồm các chứng chỉ SSL mới cho RubyGems.
 Ngoài ra, bản phát hành cũng bao gồm khoảng 80 bản sửa lỗi kể từ bản phát hành trước.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)
+Xem [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_2_6)
 để biết chi tiết.
 
 ## Tải về

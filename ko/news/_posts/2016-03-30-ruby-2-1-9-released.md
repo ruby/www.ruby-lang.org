@@ -11,7 +11,7 @@ lang: ko
 
 이번 릴리스는 많은 버그 수정을 포함하고 있습니다.
 자세한 사항은
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)를
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_1_9)를
 확인해주세요.
 
 [이전에 공지했듯이](https://www.ruby-lang.org/en/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/),

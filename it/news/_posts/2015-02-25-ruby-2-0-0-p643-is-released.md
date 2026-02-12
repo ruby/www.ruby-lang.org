@@ -20,7 +20,7 @@ Ruby, come la 2.1 o 2.2.
 
 Questa release include numerosi bugfix.
 Vedere i [ticket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-e il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+e il [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_643)
 per i dettagli.
 
 ## Download

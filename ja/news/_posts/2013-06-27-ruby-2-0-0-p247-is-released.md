@@ -39,7 +39,7 @@ Ruby 2.0.0-p247 をリリースします。
 ## 変更点
 
 主な変更点は以下にあります。より詳細な変更点は
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) ファイルや[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)を参照してください。
+[ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_0_0_247) ファイルや[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)を参照してください。
 
 ### キーワード引数
 

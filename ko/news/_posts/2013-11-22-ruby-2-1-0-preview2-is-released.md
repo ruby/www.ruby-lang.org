@@ -15,7 +15,7 @@ lang: ko
 * [부동소수점 파싱할 때 힙 오버플로 발생 (CVE-2013-4164)](https://www.ruby-lang.org/ko/news/2013/11/22/heap-overflow-in-floating-point-parsing-cve-2013-4164/) 수정함
 * "literal".freeze 최적화 [#9042](https://bugs.ruby-lang.org/issues/9042)
 * 문자열의 f 접미사 제거 [#9042](https://bugs.ruby-lang.org/issues/9042)
-* RGenGC에서 메모리 소모 이슈 ([r43532](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43532) 그리고 [r43755](https://svn.ruby-lang.org/cgi-bin/viewvc.cgi?view=rev&revision=43755)) 수정
+* RGenGC에서 메모리 소모 이슈 ([r43532](https://git.ruby-lang.org/ruby.git) 그리고 [r43755](https://git.ruby-lang.org/ruby.git)) 수정
 * Exception#cause [#8257](https://bugs.ruby-lang.org/issues/8257) 추가
 * json, nkf, rake, RubyGems, 그리고 RDoc 등의 라이브러리 업데이트
 

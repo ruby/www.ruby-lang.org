@@ -9,7 +9,7 @@ lang: ja
 
 Ruby 2.3.1 がリリースされました。これは安定版 2.3 系列の最初の TEENY リリースです。
 
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=refs/tags/v2_3_1) を参照してください。
 
 ## ダウンロード
 
