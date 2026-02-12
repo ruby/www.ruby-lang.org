@@ -56,8 +56,8 @@ Voyez le fichier [NEWS][1] et le [ChangeLog][2] pour plus de détails.
 
 
 
-[1]: https://git.ruby-lang.org/ruby.git/plain/NEWS%0D%0A?id=master
-[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog%0D%0A?id=master
+[1]: https://git.ruby-lang.org/ruby.git/plain/NEWS?id=master
+[2]: https://git.ruby-lang.org/ruby.git/plain/ChangeLog?id=master
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-preview1.zip
