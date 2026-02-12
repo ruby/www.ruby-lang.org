@@ -70,7 +70,7 @@ Also many thanks to the organizations that support us:
   </tr>
   <tr>
     <td><a href="https://www.ibm.com/">IBM</a> (hosting)</td>
-    <td class="sponsor-logo"></td>
+    <td class="sponsor-logo"><!-- Intentional: Logo is omitted by design. Do not add. Context: https://github.com/ruby/www.ruby-lang.org/issues/3829 --></td>
   </tr>
   <tr>
     <td><a href="http://www.fastly.com">Fastly</a> (CDN)</td>
