@@ -79,6 +79,8 @@
   --color-text-success: #047857;
   /* Icon colors */
   --color-icon-default: #78716c;
+  /* CJK font stack */
+  --font-sans-cjk: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont;
 }
 
 /* Dark mode */
@@ -1962,8 +1964,15 @@ video {
   display: none;
 }
 
-body:lang(ja),body:lang(ko),body:lang(zh-CN),body:lang(zh-TW) {
-  font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
+/* Fixed: CJK fonts incorrectly applied to elements
+   with non-CJK lang attribute when page language is CJK */
+
+html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp){
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(ja),html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(ko),html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(zh-CN),html [lang]:not(.font-serif):not(.font-mono):not(.font-sans):not(code):not(pre):not(kbd):not(samp):lang(zh-TW) {
+  font-family: var(--font-sans-cjk), sans-serif;
 }
 
 body{
@@ -1977,6 +1986,10 @@ body{
   color: rgb(28 25 23 / var(--tw-text-opacity, 1));
 }
 
+body:lang(ja),body:lang(ko),body:lang(zh-CN),body:lang(zh-TW) {
+  font-family: var(--font-sans-cjk), sans-serif;
+}
+
 body:is(.dark *){
   --tw-bg-opacity: 1;
   background-color: rgb(28 25 23 / var(--tw-bg-opacity, 1));
@@ -1984,37 +1997,21 @@ body:is(.dark *){
   color: rgb(250 250 249 / var(--tw-text-opacity, 1));
 }
 
-[lang]:lang(ja),[lang]:lang(ko),[lang]:lang(zh-CN),[lang]:lang(zh-TW) {
-  font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-[lang]{
-  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
 /* CJK fonts */
 
 html:lang(ja),
   body:lang(ja),
-  .font-default:lang(ja),
-  .font-sans:lang(ja),
   [lang="ja"],
   html:lang(ko),
   body:lang(ko),
-  .font-default:lang(ko),
-  .font-sans:lang(ko),
   [lang="ko"],
   html:lang(zh-CN),
   body:lang(zh-CN),
-  .font-default:lang(zh-CN),
-  .font-sans:lang(zh-CN),
   [lang="zh-CN"],
   html:lang(zh-TW),
   body:lang(zh-TW),
-  .font-default:lang(zh-TW),
-  .font-sans:lang(zh-TW),
   [lang="zh-TW"] {
-  font-family: "Plus Jakarta Sans", var(--noto-sans-subset), -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-sans-cjk), sans-serif;
 }
 
 /* Ensure syntax highlighting colors are not overridden by body color */
@@ -4682,9 +4679,7 @@ html:lang(ja),
 }
 
 .transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -4735,6 +4730,17 @@ html:lang(ja),
 
 .will-change-transform{
   will-change: transform;
+}
+
+.font-default:lang(ja),
+  .font-sans:lang(ja),
+  .font-default:lang(ko),
+  .font-sans:lang(ko),
+  .font-default:lang(zh-CN),
+  .font-sans:lang(zh-CN),
+  .font-default:lang(zh-TW),
+  .font-sans:lang(zh-TW) {
+  font-family: var(--font-sans-cjk), sans-serif;
 }
 
 .\[ruby-core\:03694\]{
