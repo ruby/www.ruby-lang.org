@@ -42,7 +42,7 @@ Ruby 1.9.2-p136がリリースされました。 これはRuby 1.9.2の2回目�
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog
+[1]: https://github.com/ruby/ruby/blob//v1_9_2_136/ChangeLog
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p136.zip

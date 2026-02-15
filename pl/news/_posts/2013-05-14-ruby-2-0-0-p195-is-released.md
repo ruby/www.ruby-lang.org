@@ -40,7 +40,7 @@ poprawek w dokumentacji.
 ## Zmiany
 
 Bardziej znaczące poprawki są poniżej.
-Zobacz [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+Zobacz [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_195/ChangeLog)
 lub [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5).
 
 Dziękujemy wszystkim zaangażowanym osobom.

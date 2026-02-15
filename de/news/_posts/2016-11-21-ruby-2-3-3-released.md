@@ -18,7 +18,7 @@ Siehe [Bug #12920](https://bugs.ruby-lang.org/issues/12920)
 für weitere Informationen.
 
 Daneben gab es noch ein paar weitere Fehlerkorrekturen, die im
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_3_3/ChangeLog)
 dokumentiert sind.
 
 ## Download

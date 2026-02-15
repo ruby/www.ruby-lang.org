@@ -18,7 +18,7 @@ nel seguente link.
 Inoltre, sono stati inclusi numerosi bugfix.
 
 Potete leggere i [ticket](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-e il [changelog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
+e il [changelog](https://github.com/ruby/ruby/blob//v2_1_7/ChangeLog)
 per tutti i dettagli.
 
 ## Download

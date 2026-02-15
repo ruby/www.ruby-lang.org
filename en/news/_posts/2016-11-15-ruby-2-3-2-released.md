@@ -15,7 +15,7 @@ This release contains an update to RubyGems 2.5.2
 and updates of the included SSL certificates.
 
 There are many bugfixes, too.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
+See the [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_2/ChangeLog)
 for details.
 
 ## Download

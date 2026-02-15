@@ -15,7 +15,7 @@ tốn bộ nhớ (xem thêm ở [Bug #9607](https://bugs.ruby-lang.org/issues/96
 và nhiều lỗi được sửa khác.
 
 Vui lòng xem thêm tại [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+và [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog)
 để biết thêm thông tin chi tiết.
 
 ## Tải về

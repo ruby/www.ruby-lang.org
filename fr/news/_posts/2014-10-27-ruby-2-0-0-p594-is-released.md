@@ -21,7 +21,7 @@ Les options non-sécurisées de SSL/TLS sont désormais désactivées par défau
 
 De plus, plusieurs bugs ont été corrigés.
 Voir les [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-et le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog)
+et le [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_594/ChangeLog)
 pour plus de détails.
 
 ## Téléchargements

@@ -43,8 +43,8 @@ For a brief list of user visible changes and a full list of all changes,
 see the bundled files named NEWS and ChangeLog, which are also available
 at the following locations:
 
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
+* https://github.com/ruby/ruby/blob//v1\_8\_7/NEWS
+* https://github.com/ruby/ruby/blob//v1\_8\_7/ChangeLog
 
 
 

@@ -16,7 +16,7 @@ Ruby 2.0.0-p353 發佈了。
 並修復了一些其它的錯誤。
 
 參考 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) 來了解更多細節。
+及 [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_353/ChangeLog) 來了解更多細節。
 
 ## 下載
 

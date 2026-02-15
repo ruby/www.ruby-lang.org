@@ -17,7 +17,7 @@ lang: uk
   (див. [Переповнення купи при парсингу екранування URI YAML (CVE-2014-2525)](https://www.ruby-lang.org/uk/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) для деталей.
+та [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_481/ChangeLog) для деталей.
 
 ## Завантаження
 

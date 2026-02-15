@@ -16,7 +16,7 @@ ainsi que de nombreuses corrections de bugs et des optimisations. On trouvera
 également quelques corrections sur la documentation.
 
 Pour plus de détails, consultez les [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
-et le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog) associés.
+et le [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_195/ChangeLog) associés.
 Les principales corrections de bugs sont listées ci-dessous.
 
 ## Téléchargement

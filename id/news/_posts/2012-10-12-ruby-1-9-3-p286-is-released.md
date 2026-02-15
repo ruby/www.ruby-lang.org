@@ -39,7 +39,7 @@ Lihat [tiket][3] dan [ChangeLog][4] untuk rinciannya.
 [1]: {{ site.url }}/id/news/2012/10/12/cve-2012-4464-cve-2012-4466/
 [2]: {{ site.url }}/id/news/2012/10/12/poisoned-NUL-byte-vulnerability/
 [3]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
-[4]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_286/ChangeLog
+[4]: https://github.com/ruby/ruby/blob//v1_9_3_286/ChangeLog
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.bz2
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.tar.gz
 [7]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p286.zip

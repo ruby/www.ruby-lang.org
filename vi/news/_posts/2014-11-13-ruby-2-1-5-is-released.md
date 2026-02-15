@@ -19,7 +19,7 @@ nhưng theo cách mới và khác.
 
 Ngoài ra, phiên bản này cũng bao gồm một số vá lỗi khác.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+và [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_5/ChangeLog)
 để biết thêm chi tiết.
 
 ## Download

@@ -16,7 +16,7 @@ Ruby 2.1.4 がリリースされました。これは安定版 2.1 系のパッ�
 
 その他にもいくつかの不具合修正が行われました。
 
-詳しくは対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)および[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)を確認してください。
+詳しくは対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)および[ChangeLog](https://github.com/ruby/ruby/blob//v2_1_4/ChangeLog)を確認してください。
 
 __追記:__ 2.1.3 において下記 regression が発生していましたが、本バージョンにて修正されています。
 

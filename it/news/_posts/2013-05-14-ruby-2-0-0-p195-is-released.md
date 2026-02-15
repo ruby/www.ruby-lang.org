@@ -43,7 +43,7 @@ Puoi scaricare questa versione da:
 ## Modifiche
 
 Le principali correzioni sono qui di seguito.
-Vedi il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+Vedi il [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_195/ChangeLog)
 e i [ticket](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)
 per maggiori dettagli.
 

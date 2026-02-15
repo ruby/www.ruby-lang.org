@@ -16,7 +16,7 @@ du nom de domaine de Rubygems.
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 Il y a également différents correctifs de bugs.
-Consultez le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+Consultez le [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog)
 pour plus de détails.
 
 ## Téléchargements

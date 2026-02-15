@@ -42,7 +42,7 @@ Diese Version enthält auch einige Bugfixes.
 Größere Fixes sind unten aufgeführt.
 
 Siehe die [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-und das [Changelog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog)
+und das [Changelog](https://github.com/ruby/ruby/blob//v2_0_0_247/ChangeLog)
 für nähere Informationen.
 
 ### Benannte Argumente

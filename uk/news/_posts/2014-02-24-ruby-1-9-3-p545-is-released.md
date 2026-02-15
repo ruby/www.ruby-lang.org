@@ -20,7 +20,7 @@ lang: uk
 
 Цей випуск включає багато виправлень помилок.
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) для деталей.
+та [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_545/ChangeLog) для деталей.
 
 ## Завантаження
 

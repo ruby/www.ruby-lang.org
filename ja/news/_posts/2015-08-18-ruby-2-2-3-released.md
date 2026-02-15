@@ -13,7 +13,7 @@ Ruby 2.2.3 がリリースされました。これは安定版 2.2 系列の TEE
 
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog) を参照してください。
 
 ## ダウンロード
 

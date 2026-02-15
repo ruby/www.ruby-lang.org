@@ -11,7 +11,7 @@ Ruby 2.2.5 ha sido liberado.
 
 Esta entrega contiene varias correcciones de errores.
 
-Puedes ver el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog) para más detalles.
+Puedes ver el [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog) para más detalles.
 
 ## Descargas
 

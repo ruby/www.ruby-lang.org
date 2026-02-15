@@ -13,7 +13,7 @@ Ruby 2.2.4 がリリースされました。これは安定版 2.2 系列の TEE
 
 * [CVE-2015-7551: Fiddle と DL における tainted 文字列使用時の脆弱性について](https://www.ruby-lang.org/ja/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_4/ChangeLog) を参照してください。
 
 ## ダウンロード
 

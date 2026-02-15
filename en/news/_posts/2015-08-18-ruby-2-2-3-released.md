@@ -15,7 +15,7 @@ This release includes the security fix for a RubyGems domain name verification v
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 There are also some bugfixes.
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+See [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog)
 for details.
 
 ## Download

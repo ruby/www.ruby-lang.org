@@ -39,7 +39,7 @@ Ruby 2.0.0-p195 发布了，这是 2.0.0 的第一个补丁版本。
 ## 变动
 
 主要的修正如下。详细说明参见
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog) 或
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_195/ChangeLog) 或
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5)。
 
 感谢所有的贡献者。

@@ -16,7 +16,7 @@ and get a more comfortable experience.
 
 This release includes many bugfixes.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) for details.
+and [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_1/ChangeLog) for details.
 
 Following the previously announced [changed versioning policy of Ruby 2.1](https://www.ruby-lang.org/en/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 this version is simply called "2.1.1".

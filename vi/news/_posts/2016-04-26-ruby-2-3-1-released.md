@@ -13,7 +13,7 @@ Chúng tôi vừa phát hành Ruby 2.3.1.
 đầu tiên của sê-ri 2.3.
 
 Phiên bản này bao gồm nhiều bản vá lỗi, được liệt kê đầy đủ trong
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog).
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_3_1/ChangeLog).
 
 ## Tải về
 

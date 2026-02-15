@@ -21,7 +21,7 @@ Por favor continua leyendo para obtener más detalles.
 
 También se incluyen otras correcciones.
 Puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_5/ChangeLog)
 para obtener una lista completa de los cambios incluidos en la versión.
 
 ## Descargas

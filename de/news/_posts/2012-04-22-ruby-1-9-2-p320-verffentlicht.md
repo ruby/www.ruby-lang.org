@@ -97,7 +97,7 @@ Für nähere Informationen siehe die [Tickets][2] und das [Changelog][3].
 
 [1]: https://github.com/rubygems/rubygems/blob/1.8/History.txt
 [2]: https://bugs.ruby-lang.org/projects/ruby-192/issues?set_filter=1&amp;status_id=5
-[3]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_320/ChangeLog
+[3]: https://github.com/ruby/ruby/blob//v1_9_2_320/ChangeLog
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.zip

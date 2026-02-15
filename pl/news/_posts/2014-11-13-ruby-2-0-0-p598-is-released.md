@@ -20,7 +20,7 @@ Proszę zobaczyć poniższy artykuł po więcej szczegółów.
 
 Dodatkowo załączone zostały poprawki do pewnych błędów.
 Zobacz [zgłoszenia](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-i [log zmian](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+i [log zmian](https://github.com/ruby/ruby/blob//v2_0_0_598/ChangeLog)
 po szczegóły.
 
 ## Pobieranie

@@ -11,7 +11,7 @@ Ruby 1.9.3-p429 发布了，我们刚发布p426不久，但是那个版本在某
 
 * [Object taint bypassing in DL and Fiddle in Ruby (CVE-2013-2065)](/en/news/2013/05/14/taint-bypass-dl-fiddle-cve-2013-2065/)
 
-同时还包括了一些小的错误修正，更多细节请参考 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) 和 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) 。
+同时还包括了一些小的错误修正，更多细节请参考 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) 和 [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_429/ChangeLog) 。
 
 ## 下载
 

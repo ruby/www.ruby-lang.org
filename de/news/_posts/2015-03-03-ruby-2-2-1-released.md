@@ -17,7 +17,7 @@ mit ffi und einen weiteren für ein Speicherleck im Symbol-GC (siehe
 [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
 Siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog)
 für weitere Details.
 
 ## Download

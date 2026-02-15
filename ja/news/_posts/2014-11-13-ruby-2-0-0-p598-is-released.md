@@ -16,7 +16,7 @@ Ruby 2.0.0-p598 がリリースされました。
 * [CVE-2014-8090: REXML における XML 展開に伴う新たなサービス不能攻撃について](https://www.ruby-lang.org/ja/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
 他にも、幾つかのバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_598/ChangeLog) を確認して下さい。
 
 ## Download
 

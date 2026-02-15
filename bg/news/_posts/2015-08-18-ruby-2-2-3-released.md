@@ -16,7 +16,7 @@ RubyGems. Моля погледнете тази тема за повече ин
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 Включени са и много поправки на бъгове.
-Виж [Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+Виж [Списък с промени](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog)
 за повече информация.
 
 ## Сваляне

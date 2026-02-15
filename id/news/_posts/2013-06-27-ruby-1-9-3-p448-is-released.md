@@ -16,7 +16,7 @@ Rilis ini mencakup perbaikan keamanan tentang OpenSSL yang dibundel:
 
 Dan beberapa perbaikan bug lain juga termasuk dalam rilis ini.
 Harap lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) untuk rinciannya.
+dan [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_448/ChangeLog) untuk rinciannya.
 
 ## Unduhan
 

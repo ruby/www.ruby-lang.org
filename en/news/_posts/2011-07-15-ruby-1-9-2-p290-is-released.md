@@ -46,7 +46,7 @@ See [ChangeLog][1] for details.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_290/ChangeLog
+[1]: https://github.com/ruby/ruby/blob//v1_9_2_290/ChangeLog
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.zip

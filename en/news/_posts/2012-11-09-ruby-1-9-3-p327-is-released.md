@@ -35,7 +35,7 @@ See [tickets][2] and [ChangeLog][3] for details.
 
 [1]: {{ site.url }}/en/news/2012/11/09/ruby19-hashdos-cve-2012-5371/
 [2]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
-[3]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_327/ChangeLog
+[3]: https://github.com/ruby/ruby/blob//v1_9_3_327/ChangeLog
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.bz2
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.gz
 [6]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.zip

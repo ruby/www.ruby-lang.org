@@ -10,7 +10,7 @@ lang: pt
 Ruby 2.2.5 foi lançado.
 
 Essa *release* inclui várias correções de *bugs*.
-Consulte o [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+Consulte o [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog)
 para mais detalhes.
 
 ## Download

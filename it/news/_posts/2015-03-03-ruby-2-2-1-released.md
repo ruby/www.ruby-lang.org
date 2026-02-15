@@ -13,7 +13,7 @@ Questa è la prima release versione teeny della serie stabile 2.2.
 Questa versione risolve un problema di compilazione di ffi e un problema di
 gestione della memoria usata dai simboli (Vedi [Bug #10686] (https://bugs.ruby-lang.org/issues/10686)).
 
-Potete leggere il [changelog] (https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/changelog) per tutti i dettagli.
+Potete leggere il [changelog] (https://github.com/ruby/ruby/blob//v2_2_1/changelog) per tutti i dettagli.
 
 ## Download
 

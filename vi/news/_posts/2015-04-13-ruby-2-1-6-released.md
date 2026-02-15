@@ -16,7 +16,7 @@ Xem các chủ đề bên dưới để biết thêm chi tiết.
 
 Ngoài ra có nhiều lỗi khác được sửa.
 Xem tại [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
+và [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_6/ChangeLog)
 để biết thêm chi tiết.
 
 ## Tải về

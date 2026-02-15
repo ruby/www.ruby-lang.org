@@ -12,7 +12,7 @@ lang: zh_tw
 
 本次發佈修復了 ffi 無法 build 的錯誤以及 SymbolGC 的記憶體洩漏問題（見 [Bug #10686](https://bugs.ruby-lang.org/issues/10686)）。
 
-參見 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog) 來了解更多細節。
+參見 [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog) 來了解更多細節。
 
 ## 下載
 

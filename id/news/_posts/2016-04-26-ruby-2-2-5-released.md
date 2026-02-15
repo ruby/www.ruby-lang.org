@@ -10,7 +10,7 @@ lang: id
 Ruby 2.2.5 telah rilis.
 
 Rilis ini mencakup banyak perbaikan *bug*.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+Lihat [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog)
 untuk detail.
 
 ## Unduh

@@ -17,7 +17,7 @@ Puedes leer más detalles en esta publicación:
 
 También se incluyen muchas correcciones de errores.
 
-Puedes ver el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog) para más detalles.
+Puedes ver el [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_8/ChangeLog) para más detalles.
 
 ## Descargas
 

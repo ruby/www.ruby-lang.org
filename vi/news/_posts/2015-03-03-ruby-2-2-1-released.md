@@ -12,7 +12,7 @@ Chúng tôi vui mừng thông báo về việc phát hành Ruby 2.2.1.
 
 Phiên bản này bao gồm bản sửa lỗi cho ffi build failure và vấn đề rõ rỉ bộ nhớ trong Symbol GC (Xem [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-Xem chi tiết tại [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog).
+Xem chi tiết tại [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog).
 
 ## Tải về
 

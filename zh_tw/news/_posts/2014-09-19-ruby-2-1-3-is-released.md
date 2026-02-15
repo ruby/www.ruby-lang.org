@@ -12,7 +12,7 @@ lang: zh_tw
 本次發佈對進行完整 GC 的時間點做了修正，以減少記憶體的使用量（參見 [Bug #9607](https://bugs.ruby-lang.org/issues/9607)，並修復了許多錯誤。
 
 參考 [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog) 來了解更多細節。
+以及 [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog) 來了解更多細節。
 
 ## 下載
 

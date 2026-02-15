@@ -16,7 +16,7 @@ RubyGems. Моля погледнете тази тема за повече ин
 
 Включени са и много поправки на бъгове.
 Виж [тикети](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-и [Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
+и [Списък с промени](https://github.com/ruby/ruby/blob//v2_1_7/ChangeLog)
 за повече информация.
 
 ## Сваляне

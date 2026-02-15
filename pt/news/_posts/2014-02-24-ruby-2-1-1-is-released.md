@@ -16,7 +16,7 @@ experiência mais confortável.
 
 Esta versão inclui muitas correções de bugs.
 Veja [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-e [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)
+e [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_1/ChangeLog)
 para detalhes.
 
 Como no anúncio anterior que altera a

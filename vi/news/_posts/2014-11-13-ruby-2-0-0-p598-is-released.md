@@ -20,7 +20,7 @@ Các bạn có thể xem thêm chi tiết ở chủ đề bên dưới.
 
 Một số lỗi khác cũng đã được sửa.
 Xem thêm chi tiết trong [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog).
+và [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_598/ChangeLog).
 
 ## Tải về
 

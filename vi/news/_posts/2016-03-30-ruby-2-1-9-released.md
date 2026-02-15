@@ -10,7 +10,7 @@ lang: vi
 Ruby 2.1.9 đã được chính thức phát hành.
 
 Bản phát hành này bao gồm nhiều vá lỗi.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+Xem [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_9/ChangeLog)
 để biết thêm chi tiết.
 
 [Như đã được thông báo trước đó](https://www.ruby-lang.org/vi/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), đây là bản phát hành thông thường cuối cùng của series 2.1.

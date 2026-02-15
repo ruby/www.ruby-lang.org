@@ -14,7 +14,7 @@ Esta liberación contiene un cambio en la sincronización del GC que reduce el c
 (ver [Bug #9607](https://bugs.ruby-lang.org/issues/9607)), y varias correcciones menores.
 
 Ver [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+y [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog)
 para más detalles.
 
 ## Descargas

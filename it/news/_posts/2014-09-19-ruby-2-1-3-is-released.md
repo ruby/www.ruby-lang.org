@@ -15,7 +15,7 @@ consumo di memoria (vedi [Bug #9607](https://bugs.ruby-lang.org/issues/9607)),
 e numerosi bugfix.
 
 Vedere [i ticket](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-e [il ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
+e [il ChangeLog](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog)
 per i dettagli.
 
 ## Download

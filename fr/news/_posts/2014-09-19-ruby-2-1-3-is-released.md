@@ -16,7 +16,7 @@ réduire la consommation de la mémoire
 et plusieurs corrections de bugs.
 
 Consultez les [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-et le [Changelog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog) pour plus d'informations.
+et le [Changelog](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog) pour plus d'informations.
 
 ## Téléchargements
 

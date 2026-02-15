@@ -15,7 +15,7 @@ soporte para compilar con Readline-6.3
 una versión actualizada de libyaml con psych y algunas otras correcciones.
 
 Ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_2/ChangeLog)
 para mas detalles.
 
 ## Descargas

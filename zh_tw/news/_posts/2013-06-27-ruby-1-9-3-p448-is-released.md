@@ -14,7 +14,7 @@ lang: zh_tw
  * [Hostname check bypassing vulnerability in SSL client
    (CVE-2013-4073)](/en/news/2013/06/27/hostname-check-bypassing-vulnerability-in-openssl-client-cve-2013-4073/)
 
-同時也修復了一些其它的錯誤。參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) 以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) 來了解更多細節。
+同時也修復了一些其它的錯誤。參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) 以及 [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_448/ChangeLog) 來了解更多細節。
 
 ## 下載
 

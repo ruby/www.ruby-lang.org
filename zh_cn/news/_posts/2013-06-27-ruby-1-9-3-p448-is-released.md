@@ -16,7 +16,7 @@ lang: zh_cn
 
 同时也修正了一些其他问题。
 
-详情参见 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) 和 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_448/ChangeLog) for details.
+详情参见 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5) 和 [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_448/ChangeLog) for details.
 
 ## 下载
 

@@ -12,7 +12,7 @@ lang: bg
 
 Версията oправя неуспешното билдване на ffi и премахва течове на памет в Symbol GC (Виж [Бъг #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-Виж [Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+Виж [Списък с промени](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog)
 за повече информация.
 
 ## Сваляне

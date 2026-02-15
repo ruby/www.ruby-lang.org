@@ -15,7 +15,7 @@ có thể gây ra `NoMethodError`. Đây là một regression của bản 2.3.2.
 Xem [Bug #12920](https://bugs.ruby-lang.org/issues/12920) để biết thêm chi tiết.
 
 Thêm vào đó cũng có các vá lỗi khác.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+Xem [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_3/ChangeLog)
 để biết thêm chi tiết.
 
 ## Download

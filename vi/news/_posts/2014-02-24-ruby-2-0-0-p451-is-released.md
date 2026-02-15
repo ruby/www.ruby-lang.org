@@ -12,7 +12,7 @@ tôi rất vui khi thông báo về việc phát hành một bản vá mới, Ru
 
 Lần phát hành này đã sửa chữa nhiều lỗi.
 Xem [danh sách các vấn đề](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [bản ghi thay đổi](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog).
+và [bản ghi thay đổi](https://github.com/ruby/ruby/blob//v2_0_0_451/ChangeLog).
 
 ## Tải về
 

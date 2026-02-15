@@ -14,7 +14,7 @@ Ruby 2.1.8 已經發佈了。
 
 * [CVE-2015-7551：不安全的字串用途瑕疵存在安全性風險](https://www.ruby-lang.org/zh_tw/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
-同時包含了許多錯誤修正。請查閱 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog) 來進一步了解。
+同時包含了許多錯誤修正。請查閱 [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_8/ChangeLog) 來進一步了解。
 
 ## 下載
 

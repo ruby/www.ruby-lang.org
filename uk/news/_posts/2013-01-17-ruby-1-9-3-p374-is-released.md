@@ -49,7 +49,7 @@ lang: uk
 
 
 [1]: https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5
-[2]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_374/ChangeLog
+[2]: https://github.com/ruby/ruby/blob//v1_9_3_374/ChangeLog
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p374.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p374.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p374.zip

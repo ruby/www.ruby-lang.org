@@ -18,7 +18,7 @@ OpenSSL-Erweiterung im Bezug auf die Verifikation von Hostnames.
 * [CVE-2015-1855: Hostname-Überprüfung in Ruby-OpenSSL](https://www.ruby-lang.org/de/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Weiterhin hat es einige Fehlerkorrekturen gegeben, siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_2_2/ChangeLog)
 für Details.
 
 ## Download

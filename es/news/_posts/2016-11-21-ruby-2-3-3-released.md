@@ -15,7 +15,7 @@ Esta es una regresión de Ruby 2.3.2 liberado la semana pasada.
 Ve [Bug #12920](https://bugs.ruby-lang.org/issues/12920) para mas detalles.
 
 También incluye varias correcciones de errores.
-Ve el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog)
+Ve el [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_3/ChangeLog)
 para mas detalles.
 
 ## Descarga

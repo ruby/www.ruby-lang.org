@@ -16,7 +16,7 @@ Bao gồm một vá bảo mật liên quan đến truyền số thực dấu ph�
 Và một vài vá lỗi khác.
 
 Xem [vé](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) để biết thêm chi tiết.
+và [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_484/ChangeLog) để biết thêm chi tiết.
 
 ## Tải về
 

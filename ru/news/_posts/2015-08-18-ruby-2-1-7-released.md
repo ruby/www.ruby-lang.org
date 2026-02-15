@@ -16,7 +16,7 @@ lang: ru
 
 А также включены многие другие исправления.
 Подробности можно узнать из [тикетов](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-и [лога изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog).
+и [лога изменений](https://github.com/ruby/ruby/blob//v2_1_7/ChangeLog).
 
 ## Скачать
 

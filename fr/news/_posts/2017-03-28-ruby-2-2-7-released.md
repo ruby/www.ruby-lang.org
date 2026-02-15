@@ -10,7 +10,7 @@ lang: fr
 Ruby 2.2.7 est désormais disponible.
 
 Cette version amène près de 70 nouvelles résolutions de bugs.
-Consultez le [changelog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_7/ChangeLog)
+Consultez le [changelog](https://github.com/ruby/ruby/blob//v2_2_7/ChangeLog)
 pour plus de détails.
 
 La version 2.2.7 marque la fin de la phase standard de maintenance de la

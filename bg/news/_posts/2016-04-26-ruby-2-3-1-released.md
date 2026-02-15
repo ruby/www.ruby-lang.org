@@ -12,7 +12,7 @@ lang: bg
 Това е първата TEENY версия от стабилната 2.3 серия.
 
 Включени са много бъгфиксове. Вижте
-[Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+[Списък с промени](https://github.com/ruby/ruby/blob//v2_3_1/ChangeLog)
 за повече информация.
 
 ## Сваляне

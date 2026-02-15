@@ -12,7 +12,7 @@ de anunciar una nueva entrega, Ruby 2.0.0-p451.
 
 Esta entrega incluye varias correcciones.
 Ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_451/ChangeLog)
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_451/ChangeLog)
 para conocer los detalles.
 
 ## Descargas

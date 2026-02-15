@@ -37,8 +37,8 @@ Para una reducida lista de cambios visibles al usuario y una lista
 completa de todos los cambios, vea los archivos llamados NEWS y
 Changelog, que están disponibles en las siguientes direcciones:
 
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
+* https://github.com/ruby/ruby/blob//v1\_8\_7/NEWS
+* https://github.com/ruby/ruby/blob//v1\_8\_7/ChangeLog
 
 
 

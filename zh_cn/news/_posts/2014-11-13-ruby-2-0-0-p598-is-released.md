@@ -19,7 +19,7 @@ lang: zh_cn
 
 此外，本次发布还包含以下修复：
 请见 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-和 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_598/ChangeLog)
+和 [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_598/ChangeLog)
 以了解详情。
 
 ## 下载

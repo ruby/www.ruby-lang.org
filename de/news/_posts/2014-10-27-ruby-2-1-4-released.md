@@ -19,7 +19,7 @@ Außerdem gibt es einige Fehlerkorrekturen.
 Siehe die
 [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 und das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_1_4/ChangeLog)
 für weitere Informationen.
 
 **Update:** In Ruby 2.1.3 trat ein Regressionsfehler auf, der nun behoben ist:

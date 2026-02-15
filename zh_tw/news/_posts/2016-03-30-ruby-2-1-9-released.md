@@ -10,7 +10,7 @@ lang: zh_tw
 Ruby 2.1.9 釋出。
 
 本次發行版包含了許多錯誤修正。
-請參考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+請參考 [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_9/ChangeLog)
 來進一步了解。
 
 [如先前所宣布](https://www.ruby-lang.org/zh_tw/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/)，這是 2.1 系列的最後一次正常發行版。

@@ -19,7 +19,7 @@ Ruby 1.9.3 am 24. Februar 2015 vollständig eingestellt.
 
 Diese Veröffentlichung enthält zahlreiche Fehlerkorrekturen.
 Siehe die [Tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-und das [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog)
+und das [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_545/ChangeLog)
 für weitere Informationen.
 
 ## Download

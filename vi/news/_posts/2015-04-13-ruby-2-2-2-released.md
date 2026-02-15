@@ -14,7 +14,7 @@ Phiên bản này đã sửa chữa lỗi bảo mật do lỗ hổng xác minh c
 * [CVE-2015-1855: Xác nhận Hostname Ruby OpenSSL](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
 Ngoài ra còn sửa chữa một số lỗi khác.
-Xem chi tiết tại đây [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog).
+Xem chi tiết tại đây [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_2/ChangeLog).
 
 ## Tải về
 

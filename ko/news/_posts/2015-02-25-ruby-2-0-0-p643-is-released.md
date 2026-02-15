@@ -18,7 +18,7 @@ lang: ko
 
 이 릴리스는 많은 버그 수정이 포함됩니다.
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)를
+[변경로그](https://github.com/ruby/ruby/blob//v2_0_0_643/ChangeLog)를
 확인하세요.
 
 ## 다운로드

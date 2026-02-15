@@ -12,7 +12,7 @@ lang: uk
 
 Цей випуск включає виправлення для збою збірки ffi та проблеми витоку пам'яті на Symbol GC (Див. [Помилка #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+Див. [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog)
 для деталей.
 
 ## Завантаження

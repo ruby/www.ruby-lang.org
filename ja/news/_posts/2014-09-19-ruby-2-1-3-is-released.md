@@ -11,7 +11,7 @@ Ruby 2.1.3 がリリースされました。これは安定版 2.1 系のパッ�
 
 今回のリリースには、full GC タイミングの変更によるメモリ使用量抑制([Bug #9607](https://bugs.ruby-lang.org/issues/9607) 参照)や、その他多数の不具合修正が含まれます。
 
-詳しくは対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)および[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)を確認してください。
+詳しくは対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)および[ChangeLog](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog)を確認してください。
 
 ## ダウンロード
 

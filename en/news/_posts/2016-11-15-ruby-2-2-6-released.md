@@ -11,7 +11,7 @@ Ruby 2.2.6 has been released.
 
 This release includes new SSL certificates for RubyGems.
 And, this also includes about 80 bug fixes after the previous release.
-See the [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)
+See the [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_6/ChangeLog)
 for details.
 
 ## Download

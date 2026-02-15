@@ -12,7 +12,7 @@ Ruby 2.3.1 foi lançado.
 Essa é a primeira versão minúscula (*TEENY*) estável da série 2.3.
 
 Essa versão inclui várias correções de *bugs*.
-Consulte o [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)
+Consulte o [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_1/ChangeLog)
 para detalhes.
 
 ## Download

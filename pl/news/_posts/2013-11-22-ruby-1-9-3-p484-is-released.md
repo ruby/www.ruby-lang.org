@@ -15,7 +15,7 @@ To wydanie zawiera łatkę bezpieczeństwa dotyczącą interpretera Rubiego:
 
 Zawartych zostało też trochę poprawek błędów.
 Zobacz [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-i [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_484/ChangeLog) dla szczegółów.
+i [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_484/ChangeLog) dla szczegółów.
 
 ## Pobieranie
 

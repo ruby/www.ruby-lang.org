@@ -10,7 +10,7 @@ lang: id
 Ruby 2.1.9 telah rilis.
 
 Rilis ini mencakup banyak perbaikan *bug*.
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+Lihat [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_9/ChangeLog)
 untuk detail.
 
 [Seperti yang diumumkan sebelumnya](https://www.ruby-lang.org/id/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), ini adalah rilis terakhir dari rangkaian versi Ruby 2.1.

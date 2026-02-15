@@ -12,7 +12,7 @@ lang: zh_tw
 本次發佈修正了 [2.1.1 有關 Hash#reject 的 regression](https://www.ruby-lang.org/zh_tw/news/2014/03/10/regression-of-hash-reject-in-ruby-2-1-1/)，支援使用 Readline-6.3 來編譯（參見 [Bug #9578](https://bugs.ruby-lang.org/issues/9578)），更新了內建 psych 的 libyaml 版本並修復了許多 Bug。
 
 參見 [Tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-與 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)
+與 [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_2/ChangeLog)
 來了解更多細節。
 
 ## 下載

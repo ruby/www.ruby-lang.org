@@ -10,7 +10,7 @@ prochaine version de Ruby, il subsiste donc encore quelques problèmes
 mineurs qui seront corrigés pour la prochaine release, Ruby 1.9.3-p0.
 
 Voyez le [ChangeLog][1] et le fichier
-[NEWS](URL:https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/NEWS)
+[NEWS](URL:https://github.com/ruby/ruby/blob//v1_9_3_preview1/NEWS)
 pour plus de détails.
 
 Ruby Inside a publié une [revue de détail][2] de cette preview.
@@ -56,7 +56,7 @@ SJIS changed to alias for Windows-31J, instead of Shift\_JIS.
 
 
 
-[1]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_preview1/ChangeLog
+[1]: https://github.com/ruby/ruby/blob//v1_9_3_preview1/ChangeLog
 [2]: http://www.rubyinside.com/ruby-1-9-3-preview-1-released-5229.html
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.bz2
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-preview1.tar.gz

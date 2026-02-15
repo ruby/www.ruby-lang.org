@@ -12,7 +12,7 @@ Ini adalah versi rilis TEENY pertama dari rangkaian versi 2.2 yang stabil.
 
 Rilis ini mencakup perbaikan untuk *ffi build failure* dan *memory leak* pada *Symbol GC* (Lihat [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-Lihat [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+Lihat [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog)
 untuk detail.
 
 ## Unduh

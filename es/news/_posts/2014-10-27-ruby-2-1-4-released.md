@@ -17,7 +17,7 @@ Esta versión incluye correcciones de seguridad de las siguientes vulnerabilidad
 También incluye algunas otras correcciones de errores.
 
 Para más detalles puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog).
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_4/ChangeLog).
 
 **Actualización:** Fue corregida una regresión incluida en 2.1.3:
 

@@ -10,7 +10,7 @@ lang: ru
 Вышел Ruby 2.1.9.
 
 Этот релиз включает множество исправлений.
-Подробности можно узнать из [списка изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog).
+Подробности можно узнать из [списка изменений](https://github.com/ruby/ruby/blob//v2_1_9/ChangeLog).
 
 [Как было анонсировано ранее](https://www.ruby-lang.org/ru/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/),
 это последний нормальный релиз Ruby 2.1.

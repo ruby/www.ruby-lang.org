@@ -10,7 +10,7 @@ lang: es
 Ruby 2.1.9 ha sido liberada.
 
 Este lanzamiento incluye varias correcciones de errores.
-Puedes revisar el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog) para más detalles.
+Puedes revisar el [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_9/ChangeLog) para más detalles.
 
 [Como se anunció hace tiempo](https://www.ruby-lang.org/es/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/), este es el último lanzamiento regular de la serie Ruby 2.1.
 Después de este lanzamiento nunca más volveremos a migrar correciones de errores a la versión 2.1 a excepción de parches de seguridad.

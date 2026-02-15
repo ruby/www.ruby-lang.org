@@ -17,7 +17,7 @@ Bu sürümde birçok hata giderildi, aşağıdakiler bunlardan birkaçı:
 * birçok belgelendirme düzeltmesi.
 
 Ayrıntılar için [etiketler](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)e
-ve [değişiklikler](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog)'e bakınız.
+ve [değişiklikler](https://github.com/ruby/ruby/blob//v2_0_0_576/ChangeLog)'e bakınız.
 
 ## İndir
 

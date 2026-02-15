@@ -16,7 +16,7 @@ lang: bg
 
 Включени са също много бъгфиксове.
 Виж [Тикети](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-и [Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_6/ChangeLog)
+и [Списък с промени](https://github.com/ruby/ruby/blob//v2_1_6/ChangeLog)
 за повече детайли.
 
 ## Сваляне

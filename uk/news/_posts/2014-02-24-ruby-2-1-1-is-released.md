@@ -16,7 +16,7 @@ Ruby 2.1 має багато покращень, включаючи приско
 
 Цей випуск включає багато виправлень помилок.
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) для деталей.
+та [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_1/ChangeLog) для деталей.
 
 Дотримуючись раніше оголошеної [зміненої політики версіонування Ruby 2.1](https://www.ruby-lang.org/uk/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),
 ця версія просто називається "2.1.1".

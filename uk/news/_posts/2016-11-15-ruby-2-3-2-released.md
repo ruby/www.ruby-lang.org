@@ -15,7 +15,7 @@ Ruby 2.3.2 випущено.
 та оновлення включених SSL сертифікатів.
 
 Також є багато виправлень помилок.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog)
+Див. [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_2/ChangeLog)
 для деталей.
 
 ## Завантаження

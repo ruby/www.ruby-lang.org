@@ -17,7 +17,7 @@ This release includes many bugfixes, such as:
 * many documentation fixes.
 
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) for details.
+and [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_576/ChangeLog) for details.
 
 ## Download
 

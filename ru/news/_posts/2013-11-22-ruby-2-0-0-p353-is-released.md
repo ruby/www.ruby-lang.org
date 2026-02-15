@@ -15,7 +15,7 @@ lang: ru
 
 А также некоторые багфиксы.
 Смотри [тикеты](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-и [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog).
+и [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_353/ChangeLog).
 
 ## Скачать
 

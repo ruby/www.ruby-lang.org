@@ -10,7 +10,7 @@ lang: pt
 Ruby 2.1.9 foi lançado.
 
 Esta versão inclui várias correções de *bugs*.
-Consulte o [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_9/ChangeLog)
+Consulte o [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_9/ChangeLog)
 para detalhes.
 
 [Como anunciado anteriormente](https://www.ruby-lang.org/pt/news/2016/02/24/support-plan-of-ruby-2-0-0-and-2-1/),

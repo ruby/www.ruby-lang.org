@@ -15,7 +15,7 @@ Ruby 2.1.8 випущено.
 * [CVE-2015-7551: Небезпечне використання tainted рядка в Fiddle та DL](https://www.ruby-lang.org/uk/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 І, багато виправлень помилок також включені.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog)
+Див. [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_8/ChangeLog)
 для деталей.
 
 ## Завантаження

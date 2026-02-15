@@ -17,7 +17,7 @@ lang: ru
   (см. [Переполнение буфера в модуле YAML для URI-закодированных строк (CVE-2014-2525)](https://www.ruby-lang.org/ru/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 См. [тикеты](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-и [лог изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog) для дальнейшей информации.
+и [лог изменений](https://github.com/ruby/ruby/blob//v2_0_0_481/ChangeLog) для дальнейшей информации.
 
 ## Загрузить
 

@@ -12,7 +12,7 @@ This is the first TEENY version release of the stable 2.2 series.
 
 This release includes the fix for ffi build failure and memory leak issue on Symbol GC (See [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-See [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog)
+See [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog)
 for details.
 
 ## Download

@@ -18,7 +18,7 @@ jour vers Ruby 2.1 ou 2.2 si vous utilisez encore la version 2.0.0.
 
 Ce patch 643 contient de nombreuses corrections de bugs. Consultez les
 [tickets de bugs](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-et le [changelog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+et le [changelog](https://github.com/ruby/ruby/blob//v2_0_0_643/ChangeLog)
 pour plus de détails.
 
 ## Téléchargement

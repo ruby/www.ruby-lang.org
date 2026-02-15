@@ -15,7 +15,7 @@ lang: ja
 このフェーズは 1 年間を予定しており、2015 年 2 月 24 日をもって、Ruby 1.9.3 の保守は終了することになります。
 
 今回のリリースには、多数のバグ修正が含まれています。
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_545/ChangeLog) を確認して下さい。
 
 ## ダウンロード
 

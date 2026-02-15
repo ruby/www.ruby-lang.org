@@ -19,7 +19,7 @@ but new and different from it.
 
 And, some bug fixes are also included.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+and [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_5/ChangeLog)
 for details.
 
 ## Download

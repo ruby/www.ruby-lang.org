@@ -40,7 +40,7 @@ lang: ru
 ## Изменения
 
 Большие изменения перечислены ниже.
-Смотри [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_195/ChangeLog)
+Смотри [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_195/ChangeLog)
 или [тикеты](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5).
 
 

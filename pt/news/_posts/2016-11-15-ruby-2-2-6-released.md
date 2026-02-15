@@ -10,7 +10,7 @@ lang: pt
 Foi lançado o Ruby 2.2.6.
 
 Esta versão inclui os novos certificados SSL para o RubyGems, e ainda a correção de 80 *bugs* desde a última versão.
-Consulte o [ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_2_6/ChangeLog)
+Consulte o [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_6/ChangeLog)
 para mais detalhes.
 
 ## Download

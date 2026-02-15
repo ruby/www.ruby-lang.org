@@ -16,7 +16,7 @@ aplicaciones y obtener una experiencia mas agradable.
 
 Esta entrega incluye varias correcciones.
 Ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_1/ChangeLog)
 para conocer los detalles.
 
 Después de anunciar el [cambio en la política de versiones de Ruby 2.1](https://www.ruby-lang.org/es/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/),

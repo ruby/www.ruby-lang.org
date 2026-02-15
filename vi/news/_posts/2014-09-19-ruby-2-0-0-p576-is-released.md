@@ -18,7 +18,7 @@ Lần phát hành này bao gồm nhiều bản sửa lỗi, chẳng hạn như:
 * sửa các lỗi về tài liệu.
 
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) để biết thêm chi tiết.
+và [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_576/ChangeLog) để biết thêm chi tiết.
 
 ## Download
 

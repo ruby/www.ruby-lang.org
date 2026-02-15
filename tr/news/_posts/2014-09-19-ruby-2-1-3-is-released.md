@@ -14,7 +14,7 @@ Bu sürüm, bellek kullanımını azaltmak için tam çöp toplayıcı zamanlama
 (bakınız [Hata #9607](https://bugs.ruby-lang.org/issues/9607)) ve birçok hata düzeltmesi içermektedir.
 
 Ayrıntılar için [etiketler](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)e
-ve [değişiklikler](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)'e bakabilirsiniz.
+ve [değişiklikler](https://github.com/ruby/ruby/blob//v2_1_3/ChangeLog)'e bakabilirsiniz.
 
 ## İndir
 

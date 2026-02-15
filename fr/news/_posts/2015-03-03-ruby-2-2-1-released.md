@@ -12,7 +12,7 @@ Cette version est la première mise à jour de maintenance de la branche stable 
 
 Cette version contient le correctif pour le problème de ffi et la fuite de mémoire sur le ramasse miettes des Symbol (voir [Bug #10686](https://bugs.ruby-lang.org/issues/10686)).
 
-Consultez le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog) pour plus de détails.
+Consultez le [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog) pour plus de détails.
 
 ## Téléchargements
 

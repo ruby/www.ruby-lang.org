@@ -19,7 +19,7 @@ lang: ko
 * [RubyGems의 취약점 다수 발견](/ko/news/2017/08/29/multiple-vulnerabilities-in-rubygems/)
 * libyaml 버전 0.1.7로 업데이트
 
-[ChangeLog](http://svn.ruby-lang.org/repos/ruby/tags/v2_3_5/ChangeLog)를 확인해주세요.
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_3_5/ChangeLog)를 확인해주세요.
 
 ## 알려진 문제점
 

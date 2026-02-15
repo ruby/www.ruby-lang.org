@@ -20,7 +20,7 @@ Insecure SSL/TLS options are now turned off by default.
 
 And, many bug fixes are also included.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) for details.
+and [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_594/ChangeLog) for details.
 
 ## Download
 

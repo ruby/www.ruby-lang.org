@@ -15,7 +15,7 @@ Ruby 2.1.7 已發佈。
 
 同時也包含了許多錯誤修正。
 參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_7/ChangeLog)
+以及 [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_7/ChangeLog)
 來了解更多細節。
 
 ## 下載

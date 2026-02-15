@@ -17,7 +17,7 @@ Ruby 1.9.3-p429 がリリースされました。
 
 この他にも、幾つかの小さなバグ修正が含まれています。
 
-詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) を確認して下さい。
+詳しくは、対応する[チケット](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)および [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_429/ChangeLog) を確認して下さい。
 
 ## ダウンロード
 

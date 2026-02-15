@@ -17,7 +17,7 @@ Sicherheitsproblemen finden Sie unter den folgenden Links.
 * [Unsichere Objekt-Deserialisierung in RubyGems](http://blog.rubygems.org/2017/10/09/unsafe-object-deserialization-vulnerability.html)
 
 Siehe das
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog)
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_3_6/ChangeLog)
 für weitere Informationen.
 
 ## Download

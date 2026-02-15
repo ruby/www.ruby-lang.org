@@ -17,7 +17,7 @@ Cette nouvelle version incorpore un certain nombre de correctifs, tels que :
   (cf. [Heap Overflow in YAML URI Escape Parsing (CVE-2014-2525)](https://www.ruby-lang.org/en/news/2014/03/29/heap-overflow-in-yaml-uri-escape-parsing-cve-2014-2525/)).
 
 Pour plus de détails, vous pouvez consulter les [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-ainsi que le [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_481/ChangeLog).
+ainsi que le [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_481/ChangeLog).
 
 ## Téléchargement
 

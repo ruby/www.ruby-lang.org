@@ -14,7 +14,7 @@ lang: ko
 확인하세요), libyaml과 psych의 버전업, 자잘한 버그 수정을 포함합니다.
 
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_2/ChangeLog)를 보세요.
+[변경로그](https://github.com/ruby/ruby/blob//v2_1_2/ChangeLog)를 보세요.
 
 ## 다운로드
 

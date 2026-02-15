@@ -14,7 +14,7 @@ Ruby 2.3.2 已经发布了。
 本次发布将 RubyGems 更新至 2.5.2，并更新了其内置的 SSL 证书。
 
 同时还修正了一些漏洞。
-请查阅 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_2/ChangeLog) 进一步了解。
+请查阅 [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_2/ChangeLog) 进一步了解。
 
 ## 下载
 

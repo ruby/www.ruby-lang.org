@@ -11,7 +11,7 @@ Chúng tôi vui mừng thông báo về việc phát hành Ruby 2.0.0-p643.
 
 Đây sẽ là phiên bản thường kì cuối cùng được phát hành. Ruby 2.0.0 tiến vào giai đoạn bảo trì an ninh và sẽ không có thêm bản cập nhật trừ trường hợp có lỗi hoặc vấn đề về bảo mật nghiêm trọng được phát hiện. Giai đoạn này dự định sẽ kéo dài 1 năm. Tính từ ngày hôm nay, việc bảo trì Ruby 2.0.0 sẽ kết thúc vào ngày 24 / 02 / 2016. Chúng tôi khuyến khích (các bạn) lên kế hoạch nâng cấp lên các phiên bản Ruby mới hơn, chẳng hạn 2.1 hay 2.2.
 
-Phiên bản này cung cấp bản vá cho nhiều lỗi. Vui lòng xem chi tiết tại [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5) và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog).
+Phiên bản này cung cấp bản vá cho nhiều lỗi. Vui lòng xem chi tiết tại [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5) và [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_643/ChangeLog).
 
 ## Tải về
 

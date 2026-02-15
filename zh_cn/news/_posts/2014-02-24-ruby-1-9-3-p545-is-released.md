@@ -19,7 +19,7 @@ lang: zh_cn
 
 这次发布包含了许多缺陷修复。
 见 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-与 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog)
+与 [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_545/ChangeLog)
 以了解更多细节。
 
 ## 下载

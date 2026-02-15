@@ -20,7 +20,7 @@ Các tùy chọn SSL/TLS bây giờ được vô hiệu hóa mặc định.
 
 Và cũng bao gồm nhiều lỗi đã được chỉnh sửa.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog) để xem thêm chi tiết.
+và [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_594/ChangeLog) để xem thêm chi tiết.
 
 ## Tải về
 

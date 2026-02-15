@@ -13,7 +13,7 @@ lang: ko
 
 많은 버그 수정이 포함됩니다.
 자세한 사항은
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)를
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_3_1/ChangeLog)를
 확인해주세요.
 
 ## 다운로드

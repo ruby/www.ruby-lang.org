@@ -17,7 +17,7 @@ lang: ko
 그리고 버그 수정도 있습니다.
 
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)를 참고하세요.
+[변경로그](https://github.com/ruby/ruby/blob//v2_1_4/ChangeLog)를 참고하세요.
 
 **업데이트:** 2.1.3에 있었던 회귀는 이제 수정되었습니다.
 

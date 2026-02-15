@@ -15,7 +15,7 @@ lang: uk
 * [CVE-2015-3900 Вразливість перехоплення запиту в RubyGems 2.4.6 та раніше](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 Також є деякі виправлення помилок.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+Див. [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog)
 для деталей.
 
 ## Завантаження

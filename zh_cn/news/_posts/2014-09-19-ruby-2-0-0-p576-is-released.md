@@ -15,7 +15,7 @@ lang: zh_cn
 * 修正了许多与具体平台相关的问题（尤其是在构建过程中的那些），
 * 修正了许多文档相关问题。
 
-详情请到对应的 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) 以及 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_576/ChangeLog) 进行确认。
+详情请到对应的 [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5) 以及 [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_576/ChangeLog) 进行确认。
 
 ## 下载
 

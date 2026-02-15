@@ -15,7 +15,7 @@ lang: bg
 
 * [CVE-2015-1855: Ruby OpenSSL верифициране на хост](https://www.ruby-lang.org/bg/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-Виж [Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+Виж [Списък с промени](https://github.com/ruby/ruby/blob//v2_2_2/ChangeLog)
 за повече информация.
 
 ## Сваляне

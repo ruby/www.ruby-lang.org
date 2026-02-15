@@ -20,7 +20,7 @@ Then, maintenance of Ruby 1.9.3 will be ended at Feb. 24th, 2015.
 
 This release includes many bugfixes.
 See [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-and [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) for details.
+and [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_545/ChangeLog) for details.
 
 ## Download
 

@@ -12,7 +12,7 @@ lang: zh_tw
 Ruby 2.1 不僅向下兼容，速度也改良許多。在 Rails 與某些應用使用 Ruby 2.1 將獲得更加愉快的體驗。
 
 本發行版修正了許多錯誤。參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-與 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog) 來了解更多細節。
+與 [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_1/ChangeLog) 來了解更多細節。
 
 如先前公告的 [Ruby 2.1 版本方針的變動](https://www.ruby-lang.org/zh_tw/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)，這個版本簡稱為 “2.1.1”。
 

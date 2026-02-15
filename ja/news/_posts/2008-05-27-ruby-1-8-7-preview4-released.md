@@ -31,8 +31,8 @@ lang: ja
 
 1\.8.7での変更点は、以下のページを参考にしてください。
 
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7\_preview4/NEWS&gt;][5]
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7\_preview4/ChangeLog&gt;][6]
+* [&lt;URL:https://github.com/ruby/ruby/blob//v1\_8\_7\_preview4/NEWS&gt;][5]
+* [&lt;URL:https://github.com/ruby/ruby/blob//v1\_8\_7\_preview4/ChangeLog&gt;][6]
 
 何か問題点等を見つけられた方は、ruby-dev MLか、下記のBTSの方まで、お早めにご連絡ください。
 
@@ -50,6 +50,6 @@ lang: ja
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-preview4.zip
-[5]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_preview4/NEWS
-[6]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_preview4/ChangeLog
+[5]: https://github.com/ruby/ruby/blob//v1_8_7_preview4/NEWS
+[6]: https://github.com/ruby/ruby/blob//v1_8_7_preview4/ChangeLog
 [7]: http://rubyforge.org/tracker/?atid=22040&amp;group_id=426&amp;func=browse

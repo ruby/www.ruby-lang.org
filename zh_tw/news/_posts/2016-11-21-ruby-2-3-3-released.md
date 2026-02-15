@@ -12,7 +12,7 @@ Ruby 2.3.3 發佈了。
 本次發佈修復了關於 Refinements 和 Module#prepend 的錯誤：對同個類別混用 Module#refine 和 Module#prepend 會造成預期之外的 NoMethodError，這是上禮拜發佈的 2.3.2 版本的 regression。參考 [Bug #12920](https://bugs.ruby-lang.org/issues/12920) 來進一步了解。
 
 本次發佈也包含了許多錯誤修正。
-請參考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_3/ChangeLog) 來進一步了解。
+請參考 [ChangeLog](https://github.com/ruby/ruby/blob//v2_3_3/ChangeLog) 來進一步了解。
 
 ## 下載
 

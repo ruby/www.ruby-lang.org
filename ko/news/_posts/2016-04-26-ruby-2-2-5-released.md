@@ -11,7 +11,7 @@ lang: ko
 
 이번 릴리스는 많은 버그 수정을 포함하고 있습니다.
 자세한 사항은
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)를
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog)를
 확인해주세요.
 
 ## 다운로드

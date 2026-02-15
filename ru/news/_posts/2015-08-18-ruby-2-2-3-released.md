@@ -16,7 +16,7 @@ lang: ru
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 В релиз включены также несколько других исправлений.
-Смотри [лог изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+Смотри [лог изменений](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog)
 за подробностями.
 
 ## Скачать

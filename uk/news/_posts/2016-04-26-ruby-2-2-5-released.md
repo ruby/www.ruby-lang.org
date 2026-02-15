@@ -10,7 +10,7 @@ lang: uk
 Ruby 2.2.5 випущено.
 
 Цей випуск включає багато виправлень помилок.
-Див. [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+Див. [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog)
 для деталей.
 
 ## Завантаження

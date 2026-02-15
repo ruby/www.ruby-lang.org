@@ -11,7 +11,7 @@ Ruby 2.2.1 がリリースされました。これは 2.2 シリーズにおけ�
 
 このリリースは ffi によるビルドの失敗、また Symbol GC のメモリリーク問題 ([Bug #10686](https://bugs.ruby-lang.org/issues/10686)) が修正されています。
 
-その他詳細は [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_1/ChangeLog) を参照してください。
+その他詳細は [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_1/ChangeLog) を参照してください。
 
 ## ダウンロード
 

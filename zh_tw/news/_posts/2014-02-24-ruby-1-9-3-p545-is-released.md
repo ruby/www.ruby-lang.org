@@ -15,7 +15,7 @@ lang: zh_tw
 
 本發行版修正了許多錯誤。
 參見 [tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-與 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_545/ChangeLog) 來了解更多細節。
+與 [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_545/ChangeLog) 來了解更多細節。
 
 ## 下載
 

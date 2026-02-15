@@ -19,7 +19,7 @@ tetapi ini baru dan berbeda dengan sebelumnya.
 
 Dan, beberapa perbaikan *bug* juga ikut dimasukkan.
 Lihat [tiket](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+dan [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_5/ChangeLog)
 untuk lebih detil.
 
 ## Unduh

@@ -43,7 +43,7 @@ lang: uk
 Основні виправлення перелічені нижче.
 
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_247/ChangeLog) для деталей.
+та [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_247/ChangeLog) для деталей.
 
 ### Ключові аргументи
 

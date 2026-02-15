@@ -30,8 +30,8 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
 1.8.6 との互換性情報を含む変更点のリストは、同梱の NEWS および ChangeLog
 を参照してください。以下のURLでも閲覧できます。
 
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS&gt;][5]
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog&gt;][6]
+* [&lt;URL:https://github.com/ruby/ruby/blob//v1\_8\_7/NEWS&gt;][5]
+* [&lt;URL:https://github.com/ruby/ruby/blob//v1\_8\_7/ChangeLog&gt;][6]
 
 なお、本リリースからは、新たに[RubySpec][7]を活用しての互換性の検証も行われています。
 
@@ -44,6 +44,6 @@ Ruby 1.8.7がリリースされました。 (リリースについてのアナ�
 [2]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7.zip
-[5]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/NEWS
-[6]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7/ChangeLog
+[5]: https://github.com/ruby/ruby/blob//v1_8_7/NEWS
+[6]: https://github.com/ruby/ruby/blob//v1_8_7/ChangeLog
 [7]: https://github.com/ruby/spec

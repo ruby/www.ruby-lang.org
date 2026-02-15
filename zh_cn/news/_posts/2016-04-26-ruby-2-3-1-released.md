@@ -11,7 +11,7 @@ Ruby 2.3.1 今天发布了。
 
 这是 2.3 系列的第一个小版本。
 
-这一版修正了很多缺陷，详情参见[更改日志](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_1/ChangeLog)。
+这一版修正了很多缺陷，详情参见[更改日志](https://github.com/ruby/ruby/blob//v2_3_1/ChangeLog)。
 
 ## 下载
 

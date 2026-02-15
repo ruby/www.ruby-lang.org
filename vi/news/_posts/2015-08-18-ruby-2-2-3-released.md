@@ -15,7 +15,7 @@ Phiên bản này bao gồm một số vá về bảo mật cho cho việc xác 
 * [CVE-2015-3900 Request hijacking vulnerability in RubyGems 2.4.6 and earlier](http://blog.rubygems.org/2015/05/14/CVE-2015-3900.html)
 
 Ngoài ra còn một số sửa lỗi khác.
-Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_3/ChangeLog)
+Xem [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_3/ChangeLog)
 để biết chi tiết.
 
 ## Tải về

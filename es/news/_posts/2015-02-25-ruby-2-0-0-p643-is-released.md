@@ -23,7 +23,7 @@ Te recomendamos comenzar a planear una migración a versiones más modernas de R
 
 Esta entrega contiene muchas correcciones.
 Puedes ver los [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_643/ChangeLog)
 para conocer los detalles.
 
 ## Descarga

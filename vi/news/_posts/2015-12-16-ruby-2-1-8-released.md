@@ -15,7 +15,7 @@ Vui lòng xem thông tin bên dưới để biết thêm chi tiết.
 * [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 Đồng thời bao gồm nhiều bản vá lỗi khác.
-Xem thêm tại [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog)
+Xem thêm tại [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_8/ChangeLog)
 để biết thêm chi tiết
 
 ## Tải xuống

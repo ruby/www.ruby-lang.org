@@ -15,7 +15,7 @@ Rilis ini termasuk sebuah perbaikan keamanan tentang floating point parsing.
 
 Dan beberapa bugfix juga dimasukan.
 Lihat [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-dan [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog) untuk rincian.
+dan [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_353/ChangeLog) untuk rincian.
 
 ## Unduh
 

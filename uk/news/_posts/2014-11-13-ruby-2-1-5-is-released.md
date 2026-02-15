@@ -19,7 +19,7 @@ Ruby 2.1.5 випущено.
 
 І, деякі виправлення помилок також включені.
 Див. [тікети](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
-та [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
+та [ChangeLog](https://github.com/ruby/ruby/blob//v2_1_5/ChangeLog)
 для деталей.
 
 ## Завантаження

@@ -17,7 +17,7 @@ flotantes.
 
 La versión incluye otras correcciones.
 Puedes leer los [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_353/ChangeLog)
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v2_0_0_353/ChangeLog)
 para obtener más detalles.
 
 ## Descarga

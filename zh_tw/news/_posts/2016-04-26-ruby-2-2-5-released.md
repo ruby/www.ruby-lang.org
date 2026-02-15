@@ -10,7 +10,7 @@ lang: zh_tw
 Ruby 2.2.5 釋出。
 
 本次發行版包含了許多錯誤修正。
-請參考 [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog) 來進一步了解。
+請參考 [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog) 來進一步了解。
 
 ## 下載
 

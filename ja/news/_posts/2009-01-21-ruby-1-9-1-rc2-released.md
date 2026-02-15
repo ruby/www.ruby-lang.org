@@ -30,7 +30,7 @@ RC2のリリースのアナウンスがありました。
 
 1\.8.7からの変更点は以下のURLにあります。
 
-* [&lt;URL:https://svn.ruby-lang.org/repos/ruby/tags/v1\_9\_1\_rc2/NEWS&gt;][5]
+* [&lt;URL:https://github.com/ruby/ruby/blob//v1\_9\_1\_rc2/NEWS&gt;][5]
 
 1\.9.1 RC1から修正された点は以下のURLにあります。
 
@@ -47,6 +47,6 @@ RC2のリリースのアナウンスがありました。
 [2]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.bz2
 [3]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.tar.gz
 [4]: https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-rc2.zip
-[5]: https://svn.ruby-lang.org/repos/ruby/tags/v1_9_1_rc2/NEWS
+[5]: https://github.com/ruby/ruby/blob//v1_9_1_rc2/NEWS
 [6]: https://bugs.ruby-lang.org/projects/ruby-19/issues?query_id=7
 [7]: https://bugs.ruby-lang.org/projects/show/ruby-19

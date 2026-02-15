@@ -15,7 +15,7 @@ Guarda i topic qui sotto per maggiori informazioni.
 * [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/en/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 E molti altri fix.
-Vedi il [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) per maggiori informazioni.
+Vedi il [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_4/ChangeLog) per maggiori informazioni.
 
 ## Download
 

@@ -52,8 +52,8 @@ Checksums:
 Die Änderungsübersicht befindet sich innerhalb der TAR Archive. Sie ist
 weiterhin unter den folgenden Links verfügbar:
 
-* [https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_6\_368/ChangeLog][7]
-* [https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7\_160/ChangeLog][8]
+* [https://github.com/ruby/ruby/blob//v1\_8\_6\_368/ChangeLog][7]
+* [https://github.com/ruby/ruby/blob//v1\_8\_7\_160/ChangeLog][8]
 
 
 
@@ -63,5 +63,5 @@ weiterhin unter den folgenden Links verfügbar:
 [4]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.gz
 [5]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.tar.bz2
 [6]: https://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p160.zip
-[7]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_6_368/ChangeLog
-[8]: https://svn.ruby-lang.org/repos/ruby/tags/v1_8_7_160/ChangeLog
+[7]: https://github.com/ruby/ruby/blob//v1_8_6_368/ChangeLog
+[8]: https://github.com/ruby/ruby/blob//v1_8_7_160/ChangeLog

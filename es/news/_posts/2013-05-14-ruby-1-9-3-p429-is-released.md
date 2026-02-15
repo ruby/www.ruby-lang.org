@@ -19,7 +19,7 @@ Esta versión incluye una corrección de seguridad de las extensiones Ruby DL / 
 Y otras correcciones menores.
 
 Para mas detalles ver [Tickets](https://bugs.ruby-lang.org/projects/ruby-193/issues?set_filter=1&amp;status_id=5)
-y el [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v1_9_3_429/ChangeLog) correspondientes.
+y el [ChangeLog](https://github.com/ruby/ruby/blob//v1_9_3_429/ChangeLog) correspondientes.
 
 ## Descarga
 

@@ -15,7 +15,7 @@ Vui lòng xem chi tiết ở chủ đề dưới đây.
 * [CVE-2015-7551: Sử dụng string nhiễm độc không an toàn ở Fiddle và DL](https://www.ruby-lang.org/vi/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 Ngoài ra còn sửa chữa một số lỗi khác.
-Xem chi tiết tại đây [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog).
+Xem chi tiết tại đây [ChangeLog](https://github.com/ruby/ruby/blob//v2_2_4/ChangeLog).
 
 ## Tải về
 

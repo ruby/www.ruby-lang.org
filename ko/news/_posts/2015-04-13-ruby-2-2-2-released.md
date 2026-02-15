@@ -16,7 +16,7 @@ lang: ko
 
 버그 수정도 조금 있었습니다.
 자세한 내용은
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)를
+[변경로그](https://github.com/ruby/ruby/blob//v2_2_2/ChangeLog)를
 확인하세요.
 
 ## 다운로드

@@ -15,7 +15,7 @@ lang: bg
 * [CVE-2015-7551: Уязвимост във Fiddle и DL](https://www.ruby-lang.org/bg/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
 Включени са и много бъгфиксове.
-Вижте [Списък с промени](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_8/ChangeLog)
+Вижте [Списък с промени](https://github.com/ruby/ruby/blob//v2_1_8/ChangeLog)
 за повече информация.
 
 ## Сваляне

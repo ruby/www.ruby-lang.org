@@ -10,7 +10,7 @@ lang: vi
 Chúng tôi vừa phát hành Ruby 2.2.5.
 
 Phiên bản này bao gồm nhiều bản vá lỗi, được liệt kê đầy đủ trong
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog).
+[ChangeLog](https://github.com/ruby/ruby/blob//v2_2_5/ChangeLog).
 
 ## Tải về
 

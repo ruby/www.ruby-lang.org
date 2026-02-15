@@ -44,8 +44,8 @@ Akinori MUSHA оголосив сьогодні, що Ruby 1.8.7 випущен�
 див. включені файли з назвами NEWS та ChangeLog, які також доступні
 за наступними адресами:
 
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/NEWS
-* https://svn.ruby-lang.org/repos/ruby/tags/v1\_8\_7/ChangeLog
+* https://github.com/ruby/ruby/blob//v1\_8\_7/NEWS
+* https://github.com/ruby/ruby/blob//v1\_8\_7/ChangeLog
 
 
 

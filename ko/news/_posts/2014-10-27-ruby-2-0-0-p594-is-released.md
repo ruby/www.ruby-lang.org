@@ -21,7 +21,7 @@ lang: ko
 그리고 많은 버그 수정도 포함되어 있습니다.
 
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_594/ChangeLog)를 참고하세요.
+[변경로그](https://github.com/ruby/ruby/blob//v2_0_0_594/ChangeLog)를 참고하세요.
 
 ## 다운로드
 

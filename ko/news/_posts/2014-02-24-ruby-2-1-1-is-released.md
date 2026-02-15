@@ -15,7 +15,7 @@ lang: ko
 
 이 릴리스는 많은 버그 수정을 포함합니다.
 자세한 내용은 [티켓](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)과
-[변경로그](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_1/ChangeLog)를 보세요.
+[변경로그](https://github.com/ruby/ruby/blob//v2_1_1/ChangeLog)를 보세요.
 
 전에 [루비 2.1의 버전 정책](https://www.ruby-lang.org/ko/news/2013/12/21/ruby-version-policy-changes-with-2-1-0/)에서 안내해드린 대로 간단히 "2.1.1"로 바뀌었습니다.
 
