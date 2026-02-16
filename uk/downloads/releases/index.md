@@ -30,6 +30,6 @@ lang: uk
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
 <td><a href="{{ release.url.gz }}">завантажити</a></td>
-<td><a href="{{ release.post }}">детальніше...</a></td>
+<td><a href="{{ release.post | localize_post_url: page.lang }}">детальніше...</a></td>
 </tr>{% endfor %}
 </table>
