@@ -14,7 +14,7 @@ Ruby 4.0 вводить Ruby::Box і "ZJIT" та додає багато пок�
 ## Ruby::Box
 
 Нова (експериментальна) функція для розділення визначень.
-Докладніше про "Ruby Box" див. [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+Докладніше про "Ruby Box" див. [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html).
 [[Feature #21311]] [[Misc #21385]]
 
 ## Зміни мови
@@ -173,7 +173,7 @@ Ruby 4.0 вводить Ruby::Box і "ZJIT" та додає багато пок�
 * Ruby::Box
 
     * Нова (експериментальна) функція для розділення визначень.
-      Докладніше про "Ruby Box" див. [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md).
+      Докладніше про "Ruby Box" див. [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html).
       [[Feature #21311]] [[Misc #21385]]
 
 * Set

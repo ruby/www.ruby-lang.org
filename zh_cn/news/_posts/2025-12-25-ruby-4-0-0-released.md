@@ -254,7 +254,7 @@ Ractor 最初在 Ruby 3.0 作为实验性功能被引入。我们计划明年取
 * Ruby::Box
 
     * 这是一项新的（实验性）功能，用于实现定义分离。
-      关于 "Ruby Box" 的详细信息，请参阅 [doc/language/box.md](doc/language/box.md)。
+      关于 "Ruby Box" 的详细信息，请参阅 [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)。
       [[Feature #21311]] [[Misc #21385]]
 
 * Set

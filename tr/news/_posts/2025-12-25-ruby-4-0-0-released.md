@@ -278,7 +278,7 @@ Not: Yalnızca öne çıkan sınıf güncellemelerini listeliyoruz.
 * Ruby::Box
 
     * Tanımlamalar hakkında ayrım sağlamak için yeni bir (deneysel) özellik.
-      "Ruby Box" detayı için, [doc/language/box.md](doc/language/box.md)'ye bakın.
+      "Ruby Box" detayı için, [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)'ye bakın.
       [[Feature #21311]] [[Misc #21385]]
 
 * Set
