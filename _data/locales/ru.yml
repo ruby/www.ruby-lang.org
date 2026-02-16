@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Разработка ядра Ruby
     url: /ru/community/ruby-core/
-  - text: Руководство по репозиторию
-    url: /ru/documentation/repository-guide/
   - text: Почтовые рассылки
     url: /ru/community/mailing-lists/
   - text: Прочее
