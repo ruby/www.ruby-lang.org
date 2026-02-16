@@ -8,6 +8,12 @@ navigation:
     url: /ru/documentation/installation/
   - text: Скачать
     url: /ru/downloads/
+  - text: Релизы
+    url: /ru/downloads/releases/
+  - text: Ветки
+    url: /ru/downloads/branches/
+  - text: Зеркала
+    url: /ru/downloads/mirrors/
   - text: Менеджеры пакетов
     submenu:
     - text: rbenv
@@ -44,6 +50,8 @@ navigation:
       url: /ru/documentation/ruby-from-other-languages/to-ruby-from-php/
     - text: В Ruby из Python
       url: /ru/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: FAQ
+    url: /ru/documentation/faq/
   - text: Начните сейчас & Исследуйте
     submenu:
     - text: TryRuby
@@ -94,6 +102,10 @@ navigation:
     url: /ru/documentation/repository-guide/
   - text: Почтовые рассылки
     url: /ru/community/mailing-lists/
+  - text: Правила списков рассылки
+    url: /ru/community/mailing-lists/ruby-talk-guidelines/
+  - text: Руководство по созданию патчей
+    url: /ru/community/ruby-core/writing-patches/
   - text: Прочее
     submenu:
     - text: ruby/ruby
@@ -114,6 +126,10 @@ navigation:
     url: /ru/community/user-groups/
   - text: Блоги и рассылки
     url: /ru/community/weblogs/
+  - text: Подкасты
+    url: /ru/community/podcasts/
+  - text: Кодекс поведения
+    url: /ru/conduct/
   - text: События и конференции
     submenu:
     - text: RubyKaigi
@@ -121,6 +137,11 @@ navigation:
       external: true
     - text: Ruby Events
       url: https://www.rubyevents.org/
+      external: true
+  - text: Организации
+    submenu:
+    - text: Ruby Association
+      url: https://www.ruby.or.jp/en/
       external: true
 - text: Новости
   url: /ru/news/
