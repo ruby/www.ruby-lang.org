@@ -1,7 +1,7 @@
 {
-  "name": "www-renewal",
+  "name": "www.ruby-lang.org",
   "version": "1.0.0",
-  "description": "Ruby Language Website Renewal with Tailwind CSS",
+  "description": "Ruby Language Website with Tailwind CSS",
   "scripts": {
     "build-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css",
     "watch-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css --watch"
