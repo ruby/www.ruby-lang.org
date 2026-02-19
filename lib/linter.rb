@@ -18,7 +18,9 @@ class Linter
     %r{\Aadmin/index\.md},
     %r{\A[^/]*/examples/},
     %r{\A_includes/},
-    %r{\Atest/}
+    %r{\Atest/},
+    %r{\Anode_modules/},
+    %r{\A_site/}
   ].freeze
 
   WHITESPACE_EXCLUSIONS = [
