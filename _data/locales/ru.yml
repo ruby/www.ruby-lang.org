@@ -204,5 +204,5 @@ footer:
       text: Новости RSS
       url: /ru/feeds/news.rss
     ruby_license:
-      text: Ruby License
+      text: Лицензия Ruby
       url: /en/about/license.txt
