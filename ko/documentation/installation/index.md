@@ -426,7 +426,7 @@ $ sudo make install
 [terminal]: https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90_%EC%97%90%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0_%EB%AA%A9%EB%A1%9D
 [download]: /ko/downloads/
 [installers]: /ko/documentation/installation/#installers
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[building-ruby]: https://docs.ruby-lang.org/en/master/contributing/building_ruby_md.html
 [wsl]: https://docs.microsoft.com/ko-kr/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
