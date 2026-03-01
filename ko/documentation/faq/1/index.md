@@ -254,9 +254,6 @@ set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]
   [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim)에서 찾을 수 있습니다.
 * [Jedit](http://jedit.sourceforge.net/): Java로 작성된 휴대용 편집기로 Ruby를
   지원합니다.
-* [Nedit](http://www.nedit.org): Eric Santonacci는 Nedit에 대한 Ruby 지원을
-  작성했습니다.
-  [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz)에서 사용 가능합니다.
 * Barry Shultz는 TextPad용 Ruby 정의 파일을 작성했습니다.
   [https://www.textpad.com/add-ons/synn2t.html](https://www.textpad.com/add-ons/synn2t.html)에서 사용 가능합니다.
 
