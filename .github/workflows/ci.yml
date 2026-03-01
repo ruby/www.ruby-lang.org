@@ -29,6 +29,12 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Install node dependencies
+        run: npm install
       - name: Dump Ruby version
         run: ruby -v
       - name: Run tests
