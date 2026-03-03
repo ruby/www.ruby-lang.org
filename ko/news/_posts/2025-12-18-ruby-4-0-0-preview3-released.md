@@ -14,7 +14,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 ## Ruby::Box
 
 정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다.
-"Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md)를 참조하세요.
+"Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)를 참조하세요.
 [[Feature #21311]] [[Misc #21385]]
 
 ## 언어 변경
@@ -175,7 +175,7 @@ Ruby 4.0은 Ruby::Box와 "ZJIT"를 도입하고, 많은 개선을 추가합니�
 * Ruby::Box
 
     * 정의에 대한 분리를 제공하는 새로운 (실험적) 기능입니다.
-      "Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md)를 참조하세요.
+      "Ruby Box"에 대한 자세한 내용은 [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)를 참조하세요.
       [[Feature #21311]] [[Misc #21385]]
 
 * Set

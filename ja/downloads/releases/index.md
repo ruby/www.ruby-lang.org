@@ -28,6 +28,6 @@ lang: ja
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
 <td><a href="{{ release.url.gz }}">download</a></td>
-<td><a href="{{ release.post }}">more...</a></td>
+<td><a href="{{ release.post | localize_post_url: page.lang }}">more...</a></td>
 </tr>{% endfor %}
 </table>

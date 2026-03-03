@@ -149,8 +149,6 @@ Ruby를 받으려면, 다음과 같이 하면 됩니다.
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-이는 Ruby의 최신 안정판을 설치할 것입니다.
-
 
 ### Homebrew (macOS)
 {: #homebrew}
