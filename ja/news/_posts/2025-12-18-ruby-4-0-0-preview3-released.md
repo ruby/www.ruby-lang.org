@@ -133,7 +133,7 @@ Ruby {{ release.version }} が公開されました。
 
 * Ruby::Box
 
-    * 定義の分離を提供するための新しい (実験的な) 機能です。"Ruby Box" の詳細については、[doc/language/box.md](https://github.com/ruby/ruby/blob/master/doc/language/box.md) を参照してください。
+    * 定義の分離を提供するための新しい (実験的な) 機能です。"Ruby Box" の詳細については、[doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html) を参照してください。
       [[Feature #21311]] [[Misc #21385]]
 
 * Set
