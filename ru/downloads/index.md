@@ -68,7 +68,7 @@ lang: ru
 в частности, про старые или предварительные релизы,
 обратитесь к [странице со списком релизов][releases].
 Информацию о текущем состоянии поддержки различных веток Ruby
-можно найти на [странице ветвей][branches].
+можно найти на [странице веток][branches].
 
 Информацию про Ruby-репозитории Subversion и Git, пожалуйста,
 посмотрите на странице о [ядре Ruby](/ru/community/ruby-core/).
@@ -82,9 +82,9 @@ lang: ru
 
 [license]: {{ site.license.url }}
 [installation]: /ru/documentation/installation/
-[releases]: /en/downloads/releases/
-[branches]: /en/downloads/branches/
-[mirrors]: /en/downloads/mirrors/
+[releases]: /ru/downloads/releases/
+[branches]: /ru/downloads/branches/
+[mirrors]: /ru/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
