@@ -1,36 +1,36 @@
 ---
 layout: page
-title: "Ruby Releases"
+title: "Релизы Ruby"
 lang: ru
 ---
 
-This page lists individual Ruby releases.
+На этой странице перечислены отдельные релизы Ruby.
 {: .summary}
 
-For information about the current maintenance status of the various
-Ruby branches see the
-[Branches page](../branches/).
+Информацию о текущем статусе поддержки различных
+веток Ruby смотрите на
+[странице веток](../branches/).
 
-### Ruby releases by version number
+### Релизы Ruby по номеру версии
 
-This is a list of Ruby releases.
-The shown dates correspond to the publication dates of the
-English versions of release posts and may differ from the
-actual creation dates of the source tarballs.
+Это список релизов Ruby.
+Указанные даты соответствуют датам публикации
+английских версий постов о релизах и могут отличаться от
+фактических дат создания архивов с исходным кодом.
 
 <table class="release-list">
 <tr>
-<th>Release Version</th>
-<th>Release Date</th>
-<th>Download URL</th>
-<th>Release Notes</th>
+<th>Версия релиза</th>
+<th>Дата релиза</th>
+<th>Ссылка для скачивания</th>
+<th>Заметки о релизе</th>
 </tr>
 {% assign releases = site.data.releases | reverse | sort: "date" | reverse %}
 {% for release in releases %}
 <tr>
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
-<td><a href="{{ release.url.gz }}">download</a></td>
-<td><a href="{{ release.post }}">more...</a></td>
+<td><a href="{{ release.url.gz }}">скачать</a></td>
+<td><a href="{{ release.post | localize_post_url: page.lang }}">подробнее...</a></td>
 </tr>{% endfor %}
 </table>
