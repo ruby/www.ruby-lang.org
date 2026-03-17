@@ -9,7 +9,7 @@ lang: ja
 
 Ruby 4.0.2 がリリースされました。
 
-このリリースには [Puma における NoMethodError](https://github.com/puma/puma/issues/3620) に関する YJIT のバグ修正を含む、定期的なアップデートです。
+このリリースは [Puma における NoMethodError](https://github.com/puma/puma/issues/3620) に関する YJIT のバグ修正を含む、定期的なアップデートです。
 詳細は [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.2) を参照してください。
 
 ## リリーススケジュール
