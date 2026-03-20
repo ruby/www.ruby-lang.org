@@ -31,6 +31,7 @@
   }
 
   function buildTOCHTML(headings) {
+    const pageLang = document.documentElement.lang;
     let html = '<ul class="space-y-3 text-sm list-disc pl-5 marker:text-stone-400 dark:marker:text-stone-500">';
     let currentLevel = 2;
 
@@ -39,13 +40,17 @@
       const text = heading.textContent;
       const id = heading.id;
 
+      // Check for lang attribute on heading or its ancestors
+      const lang = heading.getAttribute('lang') || heading.closest('[lang]')?.getAttribute('lang');
+      const langAttr = (lang && lang !== pageLang) ? ` lang="${lang}"` : '';
+
       if (level > currentLevel) {
         html += '<ul class="space-y-3 pl-4 mt-2 list-disc marker:text-stone-400 dark:marker:text-stone-500">';
       } else if (level < currentLevel) {
         html += '</ul>';
       }
 
-      html += `<li class="mb-3"><a href="#${id}" class="toc-link text-stone-700 dark:text-stone-300 no-underline transition-colors" data-heading-id="${id}">${text}</a></li>`;
+      html += `<li class="mb-3"${langAttr}><a href="#${id}" class="toc-link text-stone-700 dark:text-stone-300 no-underline transition-colors" data-heading-id="${id}">${text}</a></li>`;
       currentLevel = level;
     });
 

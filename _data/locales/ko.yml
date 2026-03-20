@@ -161,6 +161,7 @@ month_names:
 
 posted_by: '작성자: AUTHOR (%Y-%m-%d)'
 translated_by: '번역자:'
+fallback_notice: "이 콘텐츠는 아직 한국어 번역이 제공되지 않아 영어로 표시됩니다"
 
 feed:
   title: Ruby 뉴스
