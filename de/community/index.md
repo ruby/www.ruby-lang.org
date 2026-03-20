@@ -55,9 +55,8 @@ Für den, der sich gerne einbringen möchte, ist die folgende Liste ein guter Ei
   anderen Rubyisten zu chatten.
 
 [Ruby Core](ruby-core/)
-: Gerade jetzt, wo Ruby 2.0 in Arbeit ist, ist die beste Gelegenheit,
-  die Entwicklungen rund um Ruby näher zu betrachten. Wer daran
-  interessiert ist zu helfen, startet am Besten hier.
+: Die beste Gelegenheit, um die Entwicklungen rund um Ruby näher zu betrachten.
+  Wer daran interessiert ist zu helfen, startet am besten hier.
 
 [Weblogs zu Ruby](weblogs/)
 : Nur wenige Dinge passieren in der Ruby-Community, die nicht in Blogs

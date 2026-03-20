@@ -21,6 +21,30 @@
 
 # 4.0 series
 
+- version: 4.0.2
+  date: 2026-03-16
+  post: /en/news/2026/03/16/ruby-4-0-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.2.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.2.tar.xz
+  size:
+    gz:  23824654
+    zip: 29123568
+    xz:  17874724
+  sha1:
+    gz:  47c3627e2bdfe53dda77d3fa1730e44ef1ed7dfe
+    zip: 3cfd813761009f8fbb6001cf14149dc03bcd85d7
+    xz:  d927e26d22b15c6737df24cdf6ae80542a057240
+  sha256:
+    gz:  51502b26b50b68df4963336ca41e368cde92c928faf91654de4c4c1791f82aac
+    zip: 7cdbef9028a64f73ca59e21cd46c73c794df9c8294f1cb5c50c4d93c6060b240
+    xz:  4618db85bb9ec04d8152d0099db488694a3d3c4f52106625e4ad547f1318db87
+  sha512:
+    gz:  16a6ca0e9407051f58c8e3c4ec2058c52d62a9863174a3eb6dd5e9e2e893a66427e97a6e7fc8b4c3480163bd19a7a0ec4c00e481f90ff42e8f30bdbc9555f628
+    zip: ecac80a6861fd666fc024701233f5b5b93bed9ed9047cd7ca9e11799681b0102729cc53203cee4ac33245a41b786a4a4c802633d1031881200378b011ed74580
+    xz:  be71a5452068dfc3c86b8ec07456b3fdf6dc64e8c0cd16c358fc4ed8ac08707a9c28285ea8a79dbef82031d8c93c71032a82a0b45f3c9ac5325bf3b70d06fbf2
+
 - version: 4.0.1
   date: 2026-01-13
   post: /en/news/2026/01/13/ruby-4-0-1-released/
@@ -164,6 +188,30 @@
     xz:  835bd0b65d546722c83b0ab454256357b48898a0de9aa8e38966f53d2370a6e99552eeaff76a0b680aefbbe7491e701e5e7357797e50f063c53e79d9561c1dac
 
 # 3.4 series
+
+- version: 3.4.9
+  date: 2026-03-11
+  post: "/en/news/2026/03/11/ruby-3-4-9-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.9.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.9.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.9.zip
+  size:
+    gz: 22456968
+    xz: 16682004
+    zip: 27645906
+  sha1:
+    gz: 6386200753caf4e336dafceeee165fa73fd234ec
+    xz: 1eb1b0b45b9e9191de9d2f360164e60eedf77012
+    zip: 8c4312fe946c7eaa269e5c7cee90f3b7350235b5
+  sha256:
+    gz: 7bb4d4f5e807cc27251d14d9d6086d182c5b25875191e44ab15b709cd7a7dd9c
+    xz: 4231c54072601a171faed1699f105985e9971c94cd382b78feb4eb44eec2dd1a
+    zip: a4dd555fddefcdd4a58d2169a568f5887b125edbbda2815ea826ca1833dc41ec
+  sha512:
+    gz: ac7147c0e575cf74f669abb991ee8695d4191c919f306f124b3ee85d6b61361e752a4f1afb7bdffb49aee21edace1fcc9bf2b074ada15fa6c1eb611354c1d54b
+    xz: 356fb47cc56f2d25198cb95253fc20ff7d9a6fd1fa53bc475e5c440012aebe27562537c399d271357235114ade263fd625029b66cb0f9b526f9c04f169fb9580
+    zip: 1c6cc4d03edb071f79f9ae41d43defa8393b467d30000e89ee872c6fe99bde015421cb1dd3ecfd5f0359c1c095b60833a95cd5f6c4397358f8ed98eace8720e2
 
 - version: 3.4.8
   date: 2025-12-17

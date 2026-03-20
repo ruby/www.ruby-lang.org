@@ -29,6 +29,6 @@ Ruby 릴리스 목록입니다.
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
 <td><a href="{{ release.url.gz }}">다운로드</a></td>
-<td><a href="{{ release.post }}">더 보기...</a></td>
+<td><a href="{{ release.post | localize_post_url: page.lang }}">더 보기...</a></td>
 </tr>{% endfor %}
 </table>
