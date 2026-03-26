@@ -33,8 +33,8 @@ jobs:
 
       - name: Update data files
         run: |
-          tool/format-release .. ${{ github.event.client_payload.version || github.event.inputs.version }} .
-        working-directory: ruby
+          tool/format-release .. ${{ github.event.client_payload.version || github.event.inputs.version }} . | (cd .. && git apply)
+          working-directory: ruby
 
       - name: Cleanup ruby directory
         run: |
