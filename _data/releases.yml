@@ -936,8 +936,8 @@
 # 3.2 series
 
 - version: 3.2.11
-  date: 2026-03-26
-  post: /en/news/2026/03/26/ruby-3-2-11-released/
+  date: 2026-03-27
+  post: /en/news/2026/03/27/ruby-3-2-11-released/
   url:
     gz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.11.tar.gz
     zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.11.zip
