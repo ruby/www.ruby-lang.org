@@ -21,16 +21,6 @@ bundle exec rake serve
 bundle exec jekyll serve --watch --future --incremental
 ```
 
-### CSS (Tailwind)
-
-```bash
-# Build CSS (production)
-npm run build-css
-
-# Watch CSS for development
-npm run watch-css
-```
-
 ### Testing & Quality Assurance
 
 ```bash
@@ -40,6 +30,7 @@ bundle exec rake test
 # Run individual test suites
 bundle exec rake test-news-plugin     # News archive plugin tests
 bundle exec rake test-linter          # Linter library tests
+bundle exec rake test-postcss-incremental-fix-plugin # PostCSS incremental build plugin tests
 
 # Linting
 bundle exec rake lint                 # Markdown linter
@@ -56,7 +47,7 @@ bundle exec rake check:links          # Check for broken links (needs local serv
 bundle exec rake new_post:en    # English
 bundle exec rake new_post:ja    # Japanese
 bundle exec rake new_post:fr    # French
-# ... etc for: bg, de, es, id, it, ko, pl, pt, ru, tr, vi, zh_cn, zh_tw
+# ... etc for: bg, de, es, id, it, ja, ko, pl, pt, ru, tr, vi, zh_cn, zh_tw
 ```
 
 ## Architecture & Structure
@@ -83,7 +74,7 @@ bundle exec rake new_post:fr    # French
 - `_data/`: YAML data files (releases.yml, downloads.yml, branches.yml, locales/)
 - `lib/`: Ruby utilities (linter, markup checker, draft release)
 - `test/`: Test files for plugins and linter
-- `stylesheets/`: CSS source and compiled output
+- `stylesheets/`: CSS source (includes partials that Jekyll excludes by default: directories prefixed with `_` and files starting with `_`)
 - `_javascripts_src/`: TypeScript source files
 - `javascripts/`: Compiled JavaScript output
 
@@ -91,15 +82,16 @@ bundle exec rake new_post:fr    # French
 
 The site uses a custom Tailwind configuration with:
 
-- **Semantic color tokens** via CSS variables (defined in `tailesheets/semantic-colors.css`)
+- **Semantic color tokens** via CSS variables (defined in `stylesheets/semantic-colors.css`)
   - Accessible via `bg-semantic-*`, `text-semantic-*`, `border-semantic-*` classes
   - Automatically handles light/dark mode via `prefers-color-scheme`
+- **Incremental Build**: Uses `_plugins/postcss_incremental_fix.rb` to trigger PostCSS rebuilds during `jekyll serve --incremental` when CSS partials are modified
+  - **CSS partials**: Files/directories that Jekyll normally excludes (underscore-prefixed like `_components/` or `_variables. css`) but are imported by main stylesheets
+  - The plugin watches these excluded partials and forces a rebuild when they change, ensuring Tailwind processes updated styles
 - **Brand colors**: Ruby (red) and Gold palettes
 - **Typography plugin** for prose styling
 - **Custom breakpoints**: Container max-widths configured for content layouts
 - **Dark mode**: Enabled via OS preference (`darkMode: 'media'`)
-
-Input: `stylesheets/tailwind.css` → Output: `stylesheets/compiled.css`
 
 ### News System
 
@@ -179,6 +171,11 @@ lang: en
 **Node (package.json):**
 - `tailwindcss` - CSS framework
 - `@tailwindcss/typography` - Prose styling plugin
+- `postcss` - CSS transformation tool
+- `postcss-cli` - PostCSS command-line interface
+- `postcss-import` - PostCSS plugin for @import resolution
+- `autoprefixer` - PostCSS plugin for vendor prefix automation
+- `cssnano` - CSS minification tool (activated only in production builds to optimize CSS file size)
 
 ## Important Conventions
 

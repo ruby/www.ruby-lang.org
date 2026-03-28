@@ -14,6 +14,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
 ### Prerequisites
 
 - **Ruby** (latest stable version recommended) - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- **Node.js** - [Install Node.js](https://nodejs.org/en/download/)
 - **Git** - [Install Git](https://git-scm.com/downloads)
 
 ### Get It Running
@@ -29,6 +30,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
    cd www.ruby-lang.org/
    bundle config set --local without production
    bundle install
+   npm install
    ```
 
 3. **Start the development server**:
@@ -125,16 +127,9 @@ If you can't build locally or want to test under production conditions:
 
 ## Styling with Tailwind CSS
 
-This site uses [Tailwind CSS](https://tailwindcss.com/) for styling.
-After making changes to HTML/Markdown files or Tailwind configuration:
+This site uses [Tailwind CSS](https://tailwindcss.com/) for styling. 
 
-``` sh
-npm run build-css   # build CSS
-npm run watch-css   # watch and rebuild CSS automatically
-```
-
-**Note:** You need to have Node.js installed to run these commands.
-
+⏱️ **Note:** When you modify CSS files or add/modify CSS classes in HTML or Markdown files, it might take a moment for the changes to be reflected in the preview, as the CSS needs to be rebuilt.
 
 ## Testing
 
