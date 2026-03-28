@@ -21,6 +21,30 @@
 
 # 4.0 series
 
+- version: 4.0.2
+  date: 2026-03-16
+  post: /en/news/2026/03/16/ruby-4-0-2-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.2.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.2.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.2.tar.xz
+  size:
+    gz:  23824654
+    zip: 29123568
+    xz:  17874724
+  sha1:
+    gz:  47c3627e2bdfe53dda77d3fa1730e44ef1ed7dfe
+    zip: 3cfd813761009f8fbb6001cf14149dc03bcd85d7
+    xz:  d927e26d22b15c6737df24cdf6ae80542a057240
+  sha256:
+    gz:  51502b26b50b68df4963336ca41e368cde92c928faf91654de4c4c1791f82aac
+    zip: 7cdbef9028a64f73ca59e21cd46c73c794df9c8294f1cb5c50c4d93c6060b240
+    xz:  4618db85bb9ec04d8152d0099db488694a3d3c4f52106625e4ad547f1318db87
+  sha512:
+    gz:  16a6ca0e9407051f58c8e3c4ec2058c52d62a9863174a3eb6dd5e9e2e893a66427e97a6e7fc8b4c3480163bd19a7a0ec4c00e481f90ff42e8f30bdbc9555f628
+    zip: ecac80a6861fd666fc024701233f5b5b93bed9ed9047cd7ca9e11799681b0102729cc53203cee4ac33245a41b786a4a4c802633d1031881200378b011ed74580
+    xz:  be71a5452068dfc3c86b8ec07456b3fdf6dc64e8c0cd16c358fc4ed8ac08707a9c28285ea8a79dbef82031d8c93c71032a82a0b45f3c9ac5325bf3b70d06fbf2
+
 - version: 4.0.1
   date: 2026-01-13
   post: /en/news/2026/01/13/ruby-4-0-1-released/
@@ -164,6 +188,30 @@
     xz:  835bd0b65d546722c83b0ab454256357b48898a0de9aa8e38966f53d2370a6e99552eeaff76a0b680aefbbe7491e701e5e7357797e50f063c53e79d9561c1dac
 
 # 3.4 series
+
+- version: 3.4.9
+  date: 2026-03-11
+  post: "/en/news/2026/03/11/ruby-3-4-9-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.9.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.9.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.9.zip
+  size:
+    gz: 22456968
+    xz: 16682004
+    zip: 27645906
+  sha1:
+    gz: 6386200753caf4e336dafceeee165fa73fd234ec
+    xz: 1eb1b0b45b9e9191de9d2f360164e60eedf77012
+    zip: 8c4312fe946c7eaa269e5c7cee90f3b7350235b5
+  sha256:
+    gz: 7bb4d4f5e807cc27251d14d9d6086d182c5b25875191e44ab15b709cd7a7dd9c
+    xz: 4231c54072601a171faed1699f105985e9971c94cd382b78feb4eb44eec2dd1a
+    zip: a4dd555fddefcdd4a58d2169a568f5887b125edbbda2815ea826ca1833dc41ec
+  sha512:
+    gz: ac7147c0e575cf74f669abb991ee8695d4191c919f306f124b3ee85d6b61361e752a4f1afb7bdffb49aee21edace1fcc9bf2b074ada15fa6c1eb611354c1d54b
+    xz: 356fb47cc56f2d25198cb95253fc20ff7d9a6fd1fa53bc475e5c440012aebe27562537c399d271357235114ade263fd625029b66cb0f9b526f9c04f169fb9580
+    zip: 1c6cc4d03edb071f79f9ae41d43defa8393b467d30000e89ee872c6fe99bde015421cb1dd3ecfd5f0359c1c095b60833a95cd5f6c4397358f8ed98eace8720e2
 
 - version: 3.4.8
   date: 2025-12-17
@@ -474,6 +522,30 @@
     xz:  4ce306b9beb1e2d88c76d7f809724b66bed17e354c07a2b54aa050fc2035652e4d83deadc8dbf7a375bbdb1c816f2996334bb8e7ff5e6c24b71a858bf6b0cb7c
 
 # 3.3 series
+
+- version: 3.3.11
+  date: 2026-03-26
+  post: "/en/news/2026/03/26/ruby-3-3-11-released/"
+  url:
+    gz: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.11.tar.gz
+    xz: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.11.tar.xz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.11.zip
+  size:
+    gz: 21483089
+    xz: 15879844
+    zip: 26947458
+  sha1:
+    gz: 7f18e7e74ab64c5b159a8dfe8da3cc019b32bdb6
+    xz: 520afae357283c96610f340c92a6567ff7b2b923
+    zip: e01bf3ff08d96438decc35b80d4d289b9d012681
+  sha256:
+    gz: 59f0fafb1a59a05dc3765117af3fa68e153eb48254708549f321c1e9e078d7a0
+    xz: 9116bb2e313203bd78cd3e8dc09284d34b2645f725877623a7185bf3807c8ca3
+    zip: 94c9d920aade547bafe392c6a288f996c151cb217ab548be5747867353568243
+  sha512:
+    gz: effbcffce1cad4fa7158ce9159b6109a92e88c29f5d33151c2ec609c54fe24b747354b0e722e0fefe8164700acb2d650b8c65aad0e17e3dec2c26969a44fc524
+    xz: 1f8eb206a90121015b294dada7ea61ebd136e7e7dbb1c4bb7df21b85f359a2e733f438153bf07c57815a963e4ef3f766081fd4226caa6547f4c263b33ed7726e
+    zip: fc4d4299df8414daeb81ae329d67f4d0ea961443e3505407a4faa134d8b9971c49b5c6750d55b4fdc210e15276845ee9b11c4ee25461f99a743f714da7096391
 
 - version: 3.3.10
   date: 2025-10-23
@@ -862,6 +934,30 @@
     xz:  46c1134dba5810847f7f6b4298900a91f5225679d7873548b271f4ef2ad1dc168722562a2e468a2ccf136314176ee613d8c7792fd4411a3f7a44c80b93b417ee
 
 # 3.2 series
+
+- version: 3.2.11
+  date: 2026-03-27
+  post: /en/news/2026/03/27/ruby-3-2-11-released/
+  url:
+    gz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.11.tar.gz
+    zip: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.11.zip
+    xz:  https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.11.tar.xz
+  size:
+    gz:  19984344
+    zip: 24594356
+    xz:  14695828
+  sha1:
+    gz:  9534a3aa08d2ccb4d3c50b1301b2da9a9b91c4ab
+    zip: 7e84c9433f32a758da123d3b5532cc632d19d503
+    xz:  501cecc15ba079087967888ae455d62e5886fbc1
+  sha256:
+    gz:  b3eeabd6636f334531db3ffdc3229eb05e524740e6c84fdc043720573cf2f8b2
+    zip: 08ab90aa4ada9268e96aa47fb6c3a77fdb3b2f792f2671053e3b55a6141618ce
+    xz:  c13aec0c206725d5d356acbae6e5fd8bffd92dc325aec14fd5dd7795d4b763d2
+  sha512:
+    gz:  95896bbf519604da0dc3d82066ac92c3f661b2ee9ffd8e2c9effce4773677445f1dcc43b05539050024b57f4f94f43984a734a03015ac6e29679e79d5a093a67
+    zip: 133d63cd9bb7c9fe38eecd18c996013de0a56fef09c89c42f4fc9c383f09ab4ab3b0b31edbadd1fd1aaa797fbb9c86128ded51c6e5263cd3225754e714b3d195
+    xz:  418739d476d34e2467e7f1ee60ff63a1969a362b49871bdc488676c1ac7d28b198deee85e2bd951a23f5b0e8425bc89ca59d5c8cb8415fa5ed835555e3d3af8d
 
 - version: 3.2.10
   date: 2026-01-14

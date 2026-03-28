@@ -72,7 +72,7 @@ lang: ko
   </tr>
   <tr>
     <td><a href="https://www.ibm.com/">IBM</a> (호스팅)</td>
-    <td class="sponsor-logo"></td>
+    <td class="sponsor-logo"><!-- 의도적으로 로고를 생략했습니다. 추가하지 마세요. 맥락: https://github.com/ruby/www.ruby-lang.org/issues/3829 --></td>
   </tr>
   <tr>
     <td><a href="http://www.fastly.com">Fastly</a> (CDN)</td>
