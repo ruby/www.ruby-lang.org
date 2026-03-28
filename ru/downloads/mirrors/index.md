@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Mirror Sites"
+title: "Зеркала"
 lang: ru
 ---
 
@@ -8,32 +8,32 @@ lang: ru
 Not to be translated. Link to this page (/en/downloads/mirrors/) instead.
 {% endcomment %}
 
-The Ruby source is available from a worldwide set of mirror sites.
-Please try to use a mirror that is near you.
+Исходный код Ruby доступен на множестве зеркал по всему миру.
+Пожалуйста, старайтесь использовать зеркало, которое находится ближе к вам.
 {: .summary}
 
-### Mirror sites via HTTP
-
+### Зеркала через HTTP
 * [CDN][mirror-https-cdn] (fastly.com)
-* [Japan][mirror-http-jp-ring] (RingServer)
-* [Holland][mirror-http-nl] (XS4ALL) - only release packages
-* [France][mirror-http-fr] (cyberbits.eu)
-* [China 2][mirror-http-cn2] (Ruby China)
-* [South Korea][mirror-http-kr] (Korea FreeBSD Users Group)
+* [Япония][mirror-http-jp-ring] (RingServer)
+* [Нидерланды][mirror-http-nl] (XS4ALL) — только пакеты релизов
+* [Франция][mirror-http-fr] (cyberbits.eu)
+* [Китай 2][mirror-http-cn2] (Ruby China)
+* [Южная Корея][mirror-http-kr] (Korea FreeBSD Users Group)
 
-### Mirror sites via FTP
+### Зеркала через FTP
 
-* [Japan][mirror-ftp-jp-ring] (RingServer)
-* [Japan 3][mirror-ftp-jp3] (IIJ)
-* [South Korea][mirror-ftp-kr] (Korea FreeBSD Users Group)
-* [Germany][mirror-ftp-de] (FU Berlin)
-* [Greece][mirror-ftp-gr] (ntua.gr)
+* [Япония][mirror-ftp-jp-ring] (RingServer)
+* [Япония 3][mirror-ftp-jp3] (IIJ)
+* [Южная Корея][mirror-ftp-kr] (Korea FreeBSD Users Group)
+* [Германия][mirror-ftp-de] (FU Berlin)
+* [Греция][mirror-ftp-gr] (ntua.gr)
 
-### Mirror sites via rsync
+### Зеркала через rsync
 
-* [France][mirror-rsync-fr] (cyberbits.eu)
-* [South Korea][mirror-rsync-kr] (Korea FreeBSD Users Group)
+* [Франция][mirror-rsync-fr] (cyberbits.eu)
+* [Южная Корея][mirror-rsync-kr] (Korea FreeBSD Users Group)
 
+[mirror-https-cdn]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-https-cdn]: https://cache.ruby-lang.org/pub/ruby/
 [mirror-http-jp-ring]: http://www.ring.gr.jp/pub/lang/ruby/
 [mirror-http-nl]: http://www.xs4all.nl/~hipster/lib/mirror/ruby/
