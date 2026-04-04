@@ -65,7 +65,7 @@ why_ruby:
       read: Ottieni di più con meno codice.<br />Una sintassi espressiva accelera lo sviluppo.
       copy: |
         La sintassi espressiva di Ruby permette di condensare logiche complesse in poche righe.
-        Metaprogrammazione, blocchi e altre funzionalità potenti riducono la duplicazione e ti concentrano sul problema da risolvere.
+        Metaprogrammazione, blocchi e altre funzionalità potenti riducono la duplicazione e ti permettono di concentrarti sul problema da risolvere.
         Con framework di test solidi puoi mantenere alta la qualità pur iterando in fretta.
 
       comment:

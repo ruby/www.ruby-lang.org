@@ -30,8 +30,8 @@ Ascolta notizie, interviste e discussioni su Ruby e sulla sua comunità.
 
 ### Partecipare
 
-I conduttori dei podcast cercano sempre ospiti. Se avete da condividere
-qualche intuizione su Ruby, contattate i creatori di questi programmi.
+I conduttori dei podcast cercano sempre ospiti. Se avete esperienze su
+Ruby da condividere, contattate i creatori di questi programmi.
 
 Potete anche avviare un vostro podcast su Ruby e farlo aggiungere a questo elenco!
 
