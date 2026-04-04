@@ -24,7 +24,7 @@
              target="_blank"
              rel="noopener noreferrer"
              class="inline-flex items-center justify-center gap-2 bg-gold-500 dark:bg-gold-500 text-stone-800 hover:bg-ruby-600 dark:hover:bg-ruby-600 hover:text-white text-lg px-8 py-2.5 rounded-full font-bold tracking-wide transition-all duration-200 shadow-sm hover:scale-105">
-            TRY!
+            {{ home.try_ruby.cta_button | default: "TRY!" }}
             <span class="icon-external text-xs transition-colors" aria-hidden="true"></span>
           </a>
         </div>
@@ -40,7 +40,7 @@
            target="_blank"
            rel="noopener noreferrer"
            class="text-semantic-text-link text-lg font-bold hover:underline inline-flex items-center gap-1">
-          <span class="icon-arrow-forward" aria-hidden="true"></span>Try Ruby
+          <span class="icon-arrow-forward" aria-hidden="true"></span>{{ home.try_ruby.link_text | default: "Try Ruby" }}
           <span class="icon-external text-xs" aria-hidden="true"></span>
         </a>
       </p>
