@@ -1,0 +1,19 @@
+# Open Graph og:locale values (language_REGION). Used by layouts for meta tags.
+# https://ogp.me/#optional
+bg: bg_BG
+de: de_DE
+en: en_US
+es: es_ES
+fr: fr_FR
+id: id_ID
+it: it_IT
+ja: ja_JP
+ko: ko_KR
+pl: pl_PL
+pt: pt_BR
+ru: ru_RU
+tr: tr_TR
+uk: uk_UA
+vi: vi_VN
+zh_cn: zh_CN
+zh_tw: zh_TW
