@@ -411,7 +411,7 @@ diatur oleh alat bantu apa pun.
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [download]: /id/downloads/
 [installers]: /id/documentation/installation/#installers
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[building-ruby]: https://docs.ruby-lang.org/en/master/contributing/building_ruby_md.html
 [wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
