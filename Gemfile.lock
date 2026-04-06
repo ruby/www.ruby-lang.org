@@ -96,6 +96,7 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-postcss-v2 (1.0.2)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-watch (2.2.1)
@@ -249,6 +250,7 @@ DEPENDENCIES
   csv
   html-proofer
   jekyll
+  jekyll-postcss-v2
   logger
   minitest
   rake
@@ -298,6 +300,7 @@ CHECKSUMS
   i18n (1.14.7) sha256=ceba573f8138ff2c0915427f1fc5bdf4aa3ab8ae88c8ce255eb3ecf0a11a5d0f
   io-event (1.10.0) sha256=e4e1f5bf01a1a8b8484db3c5d99b431eb3609dbc988b96622d14d77993e0e9dc
   jekyll (4.4.1) sha256=4c1144d857a5b2b80d45b8cf5138289579a9f8136aadfa6dd684b31fe2bc18c1
+  jekyll-postcss-v2 (1.0.2) sha256=f179d3de83918ebb266ac8adc3191e422107fec5b088cb1c35fa9ff9c50b89c3
   jekyll-sass-converter (3.1.0) sha256=83925d84f1d134410c11d0c6643b0093e82e3a3cf127e90757a85294a3862443
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   json (2.10.2) sha256=34e0eada93022b2a0a3345bb0b5efddb6e9ff5be7c48e409cfb54ff8a36a8b06
