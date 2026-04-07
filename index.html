@@ -24,14 +24,11 @@
       var language = languages[code];
       if (!language) { language = "en"; }
 
-      // If we're running on localhost/loopback for local development,
-      // keep redirects relative so the developer can test locally.
       var host = window.location.hostname;
-      var isLocal = (host === 'localhost' || host === '127.0.0.1' || host === '::1');
-      if (isLocal) {
-        document.location = "/" + language + "/";
-      } else {
+      if (host === 'www.ruby-lang.org') {
         document.location = "https://www.ruby-lang.org/" + language + "/";
+      } else {
+        document.location = "/" + language + "/";
       }
     </script>
     <noscript>
