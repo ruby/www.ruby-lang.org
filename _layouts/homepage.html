@@ -12,7 +12,12 @@ layout: root
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  {% assign home_for_meta = site.data.locales.home[page.lang] %}
   {% assign meta_description = "A Programmer's Best Friend" %}
+  {% if home_for_meta.meta_description %}
+    {% assign meta_description = home_for_meta.meta_description %}
+  {% endif %}
+  {% assign og_locale = site.data.og_locales[page.lang] | default: 'en_US' %}
   {% assign meta_title = page.title | default: "Ruby Programming Language" %}
 
   <meta name="description" content="{{ meta_description }}">
@@ -24,7 +29,7 @@ layout: root
   <meta property="og:description" content="{{ meta_description }}">
   <meta property="og:image" content="{{ site.url }}/images/og-image.png">
   <meta property="og:site_name" content="Ruby Programming Language">
-  <meta property="og:locale" content="{{ page.lang | default: 'en' }}">
+  <meta property="og:locale" content="{{ og_locale }}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">

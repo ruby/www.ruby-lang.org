@@ -112,8 +112,12 @@ navigation:
     url: /it/community/
   - text: Gruppi di Utenti
     url: /it/community/user-groups/
-  - text: Blog
+  - text: Blog e newsletter
     url: /it/community/weblogs/
+  - text: Podcast
+    url: /it/community/podcasts/
+  - text: Codice di condotta
+    url: /it/conduct/
   - text: Eventi e Conferenze
     submenu:
     - text: RubyKaigi
@@ -121,6 +125,11 @@ navigation:
       external: true
     - text: Ruby Events
       url: https://www.rubyevents.org/
+      external: true
+  - text: Organizzazioni
+    submenu:
+    - text: Ruby Association
+      url: https://www.ruby.or.jp/en/
       external: true
 - text: Notizie
   url: /it/news/
@@ -203,6 +212,9 @@ footer:
     news_rss:
       text: Notizie RSS
       url: /it/feeds/news.rss
+    privacy:
+      text: Informativa sulla privacy
+      url: /it/privacy/
     ruby_license:
       text: Ruby License
       url: /en/about/license.txt
