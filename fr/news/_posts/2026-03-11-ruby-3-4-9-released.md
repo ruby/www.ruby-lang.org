@@ -8,11 +8,11 @@ lang: fr
 ---
 Ruby 3.4.9 est désormais disponible.
 
-Cette version comprend [une mise à jour de la gemme zlib corrigeant la vulnérabilité CVE-2026-27820](https://www.ruby-lang.org/fr/news/2026/03/05/buffer-overflow-zlib-cve-2026-27820/),
+Cette version comprend [une mise à jour de la gem zlib corrigeant la vulnérabilité CVE-2026-27820](https://www.ruby-lang.org/fr/news/2026/03/05/buffer-overflow-zlib-cve-2026-27820/),
 ainsi que d'autres corrections de bogues.
 Veuillez consulter les [versions GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_9) pour plus de détails.
 
-Nous vous recommandons de mettre à jour votre version de la gemme zlib. Cette version a été publiée pour faciliter la tâche à ceux qui souhaitent continuer à l'utiliser comme gemme par défaut.
+Nous vous recommandons de mettre à jour votre version de la gem zlib. Cette version a été publiée pour faciliter la tâche à ceux qui souhaitent continuer à l'utiliser comme gem par défaut.
 
 ## Téléchargements
 
