@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 3.4.6 Released"
+title: "Ruby 3.4.6 リリース"
 author: k0kubun
 translator: TrES-12
 date: 2025-09-16 00:00:00 +0000
