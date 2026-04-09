@@ -97,8 +97,6 @@ navigation:
   submenu:
   - text: Rubyコア開発
     url: /ja/dev/
-  - text: リポジトリガイド
-    url: /ja/documentation/repository-guide/
   - text: メーリングリスト
     url: /ja/community/mailing-lists/
   - text: その他

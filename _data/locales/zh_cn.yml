@@ -94,8 +94,6 @@ navigation:
   submenu:
   - text: Ruby 核心开发
     url: /zh_cn/community/ruby-core/
-  - text: 仓库指南
-    url: /zh_cn/documentation/repository-guide/
   - text: 邮件列表
     url: /zh_cn/community/mailing-lists/
   - text: 其他
