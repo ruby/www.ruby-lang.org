@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "루비 1.8.3 릴리스"
+title: "Ruby 1.8.3 릴리스"
 author: "David Black"
 lang: ko
 ---
 
-루비 1.8.3이 릴리스되었습니다. 소스는 [여기][1]에 있으며, md5sum은
+Ruby 1.8.3이 릴리스되었습니다. 소스는 [여기][1]에 있으며, md5sum은
 63d6c2bddd6af86664e338b31f3189a6입니다.
 
 
