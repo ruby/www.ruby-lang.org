@@ -14,6 +14,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
 ### Prerequisites
 
 - **Ruby** (latest stable version recommended) - [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- **Node.js** (for Tailwind CSS) - [Install Node.js](https://nodejs.org/)
 - **Git** - [Install Git](https://git-scm.com/downloads)
 
 ### Get It Running
@@ -29,6 +30,7 @@ This is the [Jekyll](http://www.jekyllrb.com/) source code for the official [Rub
    cd www.ruby-lang.org/
    bundle config set --local without production
    bundle install
+   npm install
    ```
 
 3. **Start the development server**:
