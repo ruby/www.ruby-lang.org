@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "루비 CVS 리포지터리 가이드"
+title: "Ruby CVS 리포지터리 가이드"
 author: "Unknown Author"
 lang: ko
 ---
 
-루비 소스 코드는 CVS 리포지터리에 저장되어 있습니다. CVSweb을 통해 탐색할 수
+Ruby 소스 코드는 CVS 리포지터리에 저장되어 있습니다. CVSweb을 통해 탐색할 수
 있습니다:
 
 * https://www.ruby-lang.org/cgi-bin/cvsweb.cgi/
