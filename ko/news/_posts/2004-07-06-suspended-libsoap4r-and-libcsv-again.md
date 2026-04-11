@@ -1,18 +1,16 @@
 ---
 layout: news_post
-title: "suspended lib/soap4r and lib/csv again"
+title: "lib/soap4r 및 lib/csv 익명 CVS 일시 중단"
 author: "NaHi"
 lang: ko
 ---
 
-Anonymous CVS repository for csv(lib/csv) and soap4r(lib/soap4r) were
-once released to public at 2004-07-05 15:30:00 JST (2004-07-05 06:30:00 UTC).
-But I, the maintainer of these repository, found my checking
-process of CVS repository was not enough. So I suspended the
-repositories again. Users who checkout these repositories from
-<abbr title="2004-07-05 06:30:00 UTC">2004-07-05 15:30:00 JST</abbr>
-to <abbr title="2004-07-06 07:30:00 UTC">2004-07-06 16:30:00 JST</abbr>
-must check your CVS workspace. I’m sorry
-for the trouble this error caused you. I’ll report again after
-confirmation of these repositories. csv and soap libraries which are
-bundled to ruby’s repository(/src/ruby) were confirmed that it is safe.
+csv(lib/csv) 및 soap4r(lib/soap4r)의 익명 CVS 저장소가 2004-07-05 15:30:00 JST
+(2004-07-05 06:30:00 UTC)에 공개된 바 있습니다.
+그러나 해당 저장소의 유지 관리자인 저는 CVS 저장소 확인 절차가 충분하지 않았음을 발견했습니다.
+이에 해당 저장소를 다시 중단하였습니다.
+<abbr title="2004-07-05 06:30:00 UTC">2004-07-05 15:30:00 JST</abbr>부터
+<abbr title="2004-07-06 07:30:00 UTC">2004-07-06 16:30:00 JST</abbr> 사이에
+이 저장소를 체크아웃한 사용자는 반드시 CVS 워크스페이스를 확인하시기 바랍니다.
+이번 문제로 불편을 드려서 죄송합니다. 저장소 확인이 완료되는 대로 다시 공지하겠습니다.
+루비 저장소(/src/ruby)에 포함된 csv 및 soap 라이브러리는 안전한 것으로 확인되었습니다.

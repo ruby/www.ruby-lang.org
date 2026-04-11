@@ -1,14 +1,13 @@
 ---
 layout: news_post
-title: "Ruby Track and Tutorials at OSCON"
+title: "OSCON에서 Ruby 트랙 및 튜토리얼"
 author: "Unknown Author"
 lang: ko
 ---
 
-The [O’Reilly Open Source Convention][1], taking place July 26-30 in
-Portland, OR, will include both a [Ruby track][2] and a series of [Ruby
-tutorials][3]. This is the first year the Conference has included a Ruby
-track.
+7월 26일부터 30일까지 미국 오리건주 포틀랜드에서 열리는 [O'Reilly 오픈 소스 컨벤션(OSCON)][1]에서
+[Ruby 트랙][2]과 함께 [Ruby 튜토리얼][3] 시리즈가 진행됩니다.
+올해는 컨퍼런스 최초로 Ruby 트랙이 포함됩니다.
 
 
 

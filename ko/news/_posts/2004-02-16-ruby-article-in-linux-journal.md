@@ -1,15 +1,13 @@
 ---
 layout: news_post
-title: "Ruby Article in Linux Journal"
+title: "Linux Journal에 Ruby 기사 게재"
 author: "Unknown Author"
 lang: ko
 ---
 
-The March issue of [Linux Journal][1] has an article by James Britt on
-manipulating OpenOffice.org documents using Ruby. Please note that the
-article has at least one error: James, who, honestly, really does know
-better, incorrectly attributed REXML. The creator/owner of REXML is Sean
-Russell.
+[Linux Journal][1] 3월호에 James Britt가 루비를 사용하여 OpenOffice.org 문서를 조작하는 방법에 관한 기사를 실었습니다.
+단, 기사에 오류가 하나 있습니다. James가 REXML의 작성자를 잘못 기재했습니다.
+REXML의 실제 창작자 및 소유자는 Sean Russell입니다.
 
 
 
