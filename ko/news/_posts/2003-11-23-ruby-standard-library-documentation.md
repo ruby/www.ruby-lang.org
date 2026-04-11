@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "루비 표준 라이브러리 문서"
+title: "Ruby 표준 라이브러리 문서"
 author: "Unknown Author"
 lang: ko
 ---

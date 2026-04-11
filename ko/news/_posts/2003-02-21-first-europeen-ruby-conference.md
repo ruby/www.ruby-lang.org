@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "첫 번째 유럽 루비 컨퍼런스"
+title: "첫 번째 유럽 Ruby 컨퍼런스"
 author: "NaHi"
 lang: ko
 ---
