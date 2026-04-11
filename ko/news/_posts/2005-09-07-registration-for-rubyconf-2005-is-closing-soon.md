@@ -1,17 +1,16 @@
 ---
 layout: news_post
-title: "Registration for RubyConf 2005 is CLOSING soon."
+title: "루비콘프 2005 등록이 곧 마감됩니다"
 author: "james"
 lang: ko
 ---
 
-Registration for RubyConf 2005 is CLOSING soon. The schedule is as
-follows:
+루비콘프 2005 등록이 곧 마감됩니다. 일정은 다음과 같습니다:
 
-* Friday, September 16: last day for full registration (meals included)
-* Friday, September 23: last day for events-only registration (no meals)
+* 9월 16일 금요일: 전체 등록(식사 포함) 마감일
+* 9월 23일 금요일: 행사 전용 등록(식사 미포함) 마감일
 
-So, all you stragglers, get over to the [RubyConf site][1]
+서두르셔서 [루비콘프 사이트][1]를 방문해 주세요.
 
 
 
