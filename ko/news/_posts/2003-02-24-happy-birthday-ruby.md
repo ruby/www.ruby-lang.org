@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Happy Birthday, Ruby"
+title: "생일 축하해요, Ruby"
 author: "NaHi"
 lang: ko
 ---
 
-(dblack posted an article ‘Happy Birthday, Ruby, and an announcement….’
-\[ruby-talk:65632\]. Following is excerpted from the article.)
+(dblack이 'Happy Birthday, Ruby, and an announcement….'라는 글을
+[ruby-talk:65632]에 올렸습니다. 이하 발췌.)
 
-> Today, February 24, 2003, is Ruby’s 10th birthday. Happy Birthday,
-> Ruby! And congratz to Matz!
+> 오늘, 2003년 2월 24일은 Ruby의 10번째 생일입니다. 생일 축하합니다,
+> Ruby! 그리고 Matz에게도 축하를!
 
-dblack also announces the new non-profit organization [Ruby Central,
-Inc][1] and RubyConf 2003!. See [\[ruby-talk:65632\]][2].
+dblack은 또한 새로운 비영리 단체 [Ruby Central, Inc][1]와 RubyConf 2003!을
+발표했습니다. [\[ruby-talk:65632\]][2]를 참조하세요.
 
 
 

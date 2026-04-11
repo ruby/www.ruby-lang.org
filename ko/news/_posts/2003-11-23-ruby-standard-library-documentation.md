@@ -1,10 +1,10 @@
 ---
 layout: news_post
-title: "Ruby Standard Library Documentation"
+title: "루비 표준 라이브러리 문서"
 author: "Unknown Author"
 lang: ko
 ---
 
-“Documentation for the Ruby 1.8 standard library”:
-http://www.ruby-doc.org/stdlib/ is available. This is the HTML from the
-RDoc comments resulting from Gavin Sinclair’s stdlib-doc project.
+"Ruby 1.8 표준 라이브러리 문서":
+http://www.ruby-doc.org/stdlib/ 가 공개되었습니다. 이는 Gavin Sinclair의
+stdlib-doc 프로젝트에서 RDoc 주석으로 생성된 HTML 문서입니다.
