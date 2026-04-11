@@ -2,7 +2,6 @@
 layout: page
 title: "Безопасность"
 lang: ru
-translator: "ablzh"
 ---
 
 Здесь вы найдёте информацию об уязвимостях Ruby.
@@ -24,6 +23,8 @@ translator: "ablzh"
 
 ## Известные проблемы
 
+_Смотрите [английскую версию страницы](/en/security/) для получения полного и актуального списка уязвимостей.
+Ниже приведен список только переведенных объявлений о безопасности, он может быть неполным или устаревшим._
 
 Последние проблемы:
 
@@ -45,7 +46,7 @@ translator: "ablzh"
 * [Unintentional file creation caused by inserting a illegal NUL
   character (CVE-2012-4522)][5]
   published at 12 Oct, 2012.
-* [$SAFE escaping vulnerability about Exception#to\_s / NameError#to\_s
+* [$SAFE escaping vulnerability about Exception#to_s / NameError#to_s
   (CVE-2012-4464, CVE-2012-4466)][6]
   published at 12 Oct, 2012.
 * [Security Fix for RubyGems: SSL server verification failure for remote
@@ -62,14 +63,14 @@ translator: "ablzh"
   published at 18 Feb, 2011.
 * [XSS in WEBrick (CVE-2010-0541)][12]
   published at 16 Aug, 2010.
-* [Buffer over-run in ARGF.inplace\_mode=][13]
+* [Buffer over-run in ARGF.inplace_mode=][13]
   published at 2 Jul, 2010.
 * [WEBrick has an Escape Sequence Injection vulnerability (CVE-2009-4492)][14]
   published at 10 Jan, 2010.
 * [Heap overflow in String (CVE-2009-4124)][15]
   published at 7 Dec, 2009.
 * [DoS vulnerability in
-  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/ (CVE-2009-1904))
+  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/ "CVE-2009-1904")
   published at 9 Jun, 2009.
 * [DoS vulnerability (CVE-2008-3790) in
   REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/)
@@ -94,8 +95,6 @@ translator: "ablzh"
 * [Ruby vulnerability in the safe level
   settings](/en/news/2005/10/03/ruby-vulnerability-in-the-safe-level-settings/)
   published at 2 Oct, 2005.
-
-
 
 [1]: /ru/news/2013/02/22/rexml-dos-2013-02-22/
 [2]: /ru/news/2013/02/22/json-dos-cve-2013-0269/
