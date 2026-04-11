@@ -1,23 +1,21 @@
 ---
 layout: news_post
-title: "\"Ruby Hacking Guide\" is out though ..."
+title: ""루비 해킹 가이드" 출간"
 author: "NaHi"
 lang: ko
 ---
 
 [![RHG](http://direct.ips.co.jp/directsys/Images/Goods/1/1721B.gif){:
-.icon width="70" height="88"}][1] A book named “Ruby source code Kanzen
-Kaisetsu – Ruby Hacking Guide” by Aoki-san is out though it’s written in
-Japanese…
+.icon width="70" height="88"}][1] 아오키 씨가 집필한 "루비 소스 코드 완전
+해설 – 루비 해킹 가이드"가 출간되었습니다만... 일본어로 쓰여 있습니다.
 
-It’s a must-buy item for Ruby hacker, who can read Japanese. :(
+일본어를 읽을 수 있는 루비 해커라면 반드시 구매해야 할 책입니다. :(
 
-* Publisher: Impress
-* Author: AOKI, Minero under the editorship of MATSUMOTO, Yukihiro
+* 출판사: Impress
+* 저자: AOKI, Minero, MATSUMOTO, Yukihiro 감수
 * ISBN: 4-8443-1721-0
 
-I tried to translate the . Bear in mind that it’s an unofficial
-translation.
+비공식 번역을 시도해 보았습니다. 비공식 번역임을 참고해 주세요.
 
 
 

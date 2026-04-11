@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Stable snapshot is available"
+title: "안정 스냅샷 공개"
 author: "Matz"
 lang: ko
 ---
 
-[Stable snapshot][1] is available. This is tar’ed and gzip’ed file of
-the latest stable CVS. It should be better than the last release.
+[안정 스냅샷][1]이 공개되었습니다. 최신 안정 CVS를 tar와 gzip으로 압축한
+파일입니다. 마지막 릴리스보다 개선된 버전입니다.
 
 
 

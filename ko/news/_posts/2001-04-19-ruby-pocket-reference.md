@@ -1,12 +1,12 @@
 ---
 layout: news_post
-title: "Ruby Pocket Reference"
+title: "루비 포켓 레퍼런스"
 author: "Matz"
 lang: ko
 ---
 
-O’Reilly finally decided to publish translation of Ruby Pocket
-Reference. It will be [full-sized book titled “Ruby in a Nutshell”][1].
+O'Reilly가 마침내 루비 포켓 레퍼런스의 번역본 출판을 결정했습니다.
+["루비 인 어 넛쉘"이라는 제목의 전문 도서][1]로 출판될 예정입니다.
 
 
 
