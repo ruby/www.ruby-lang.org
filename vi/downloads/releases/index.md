@@ -30,6 +30,6 @@ các tarball mã nguồn.
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
 <td><a href="{{ release.url.gz }}">tải về</a></td>
-<td><a href="{{ release.post }}">xem thêm...</a></td>
+<td><a href="{{ release.post | localize_post_url: page.lang }}">xem thêm...</a></td>
 </tr>{% endfor %}
 </table>

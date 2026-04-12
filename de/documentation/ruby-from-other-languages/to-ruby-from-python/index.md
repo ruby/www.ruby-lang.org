@@ -84,7 +84,7 @@ Ruby-Referenz-Buch) online auf [Englisch][4].
 * Ruby hat **globale Variablen** (`$foo`), die aber selten verwendet
   werden.
 
-#### Strings, Symbole und Reguläre Ausrücke
+#### Strings, Symbole und Reguläre Ausdrücke
 
 * **Ruby-Strings** können ihren Wert ändern (sind also *mutable*).
 * In Ruby werden statt Strings häufig **Symbole** verwendet, wenn der

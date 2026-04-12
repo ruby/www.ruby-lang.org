@@ -13,18 +13,23 @@ CONFIG = "_config.yml"
 
 task default: [:build]
 
+desc "Build CSS with Tailwind"
+task :"build-css" do
+  sh "npm run build-css"
+end
+
 desc "Run tests (test-linter, lint, build)"
 task test: %i[test-news-plugin test-html-lang-plugin test-postcss-incremental-fix-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
-task :build do
+task build: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Build.process({})
 end
 
 desc "Serve the Jekyll site locally"
-task :serve do
+task serve: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Serve.process({})

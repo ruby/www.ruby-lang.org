@@ -4,10 +4,10 @@ title: "Ruby Core"
 lang: fr
 ---
 
-Avec l’arrivée de Ruby 2.0, participer au développement du langage est
-certainement plus attrayant que jamais. Les nouveaux talents et les
-bonnes volontés sont les bienvenus, que ce soit pour participer au cœur
-du code ou à la documentation. Mais par où commencer ?
+C’est une période formidable pour suivre le développement de Ruby. Avec
+l’attention accrue que Ruby a reçue ces dernières années, il y a un besoin
+croissant de talents pour aider à améliorer Ruby et documenter ses
+composants. Alors, par où commencer ?
 {: .summary}
 
 Cette page couvre les sujets suivants :

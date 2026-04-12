@@ -9,6 +9,6 @@ vendor
 bin
 .jekyll*
 node_modules/
-package-lock.json
+stylesheets/compiled.css
 _figma/
 _svg-backup/

@@ -23,19 +23,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Setup Ruby
-        uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd # v1.288.0
+        uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64 # v1.299.0
         with:
           ruby-version: '3.2'
           bundler-cache: true
-      - name: Setup Node
-        uses: actions/setup-node@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
-          node-version: '24'
-      - name: Install node dependencies
-        run: npm install
+          node-version: '22'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Build CSS
+        run: npm run build-css
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
@@ -53,4 +56,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0

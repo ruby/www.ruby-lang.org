@@ -19,18 +19,17 @@
   eol_date:
 
 - name: 3.3
-  status: normal maintenance
+  status: security maintenance
   date: 2023-12-25
-  security_maintenance_date: 
+  security_maintenance_date: 2026-04-01
   eol_date:
   expected_eol_date: 2027-03-31
 
 - name: 3.2
-  status: security maintenance
+  status: eol
   date: 2022-12-25
   security_maintenance_date: 2025-04-01
-  eol_date:
-  expected_eol_date: 2026-03-31
+  eol_date: 2026-04-01
 
 - name: 3.1
   status: eol

@@ -25,16 +25,19 @@ jobs:
         with:
           fetch-depth: 1
       - name: Setup Ruby
-        uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd # v1.288.0
+        uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64 # v1.299.0
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
-      - name: Setup Node
-        uses: actions/setup-node@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
-          node-version: '24'
-      - name: Install node dependencies
-        run: npm install
+          node-version: '22'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Build CSS
+        run: npm run build-css
       - name: Dump Ruby version
         run: ruby -v
       - name: Run tests
