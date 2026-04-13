@@ -4,16 +4,16 @@ title: "Ruby 3.4.6 リリース"
 author: k0kubun
 translator: TrES-12
 date: 2025-09-16 00:00:00 +0000
-lang: en
+lang: ja
 ---
 
 Ruby 3.4.6 がリリースされました。
 
-これは定期的なアップデートであり、バグ修正を含みます。詳しくは [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_6) を参照して下さい。
+このリリースは定期的なアップデートであり、バグ修正を含みます。詳しくは [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_6) を参照して下さい。
 
 ## リリーススケジュール
 
-最新の安定版 Ruby (現在は Ruby 3.4) を最新のリリースから2ヶ月おきにリリースする予定です。Ruby 3.4.7 は11月に、3.4.8 は1月にリリースされる予定です。
+最新の安定版 Ruby (現在は Ruby 3.4) を最新のリリースから2ヶ月おきにリリースする予定です。Ruby 3.4.7 は11月、3.4.8 は1月にリリースされる予定です。
 
 ユーザーに重大な影響を与える変更が発生した場合はリリースが予定より早く行われ、それに応じて後続のスケジュールが早まる可能性があります。
 
