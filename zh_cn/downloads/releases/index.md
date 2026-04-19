@@ -28,6 +28,6 @@ lang: zh_cn
 <td>Ruby {{ release.version }}</td>
 <td>{{ release.date }}</td>
 <td><a href="{{ release.url.gz }}">下载</a></td>
-<td><a href="{{ release.post }}">查看…</a></td>
+<td><a href="{{ release.post | localize_post_url: page.lang }}">查看…</a></td>
 </tr>{% endfor %}
 </table>

@@ -2,28 +2,16 @@
 layout: homepage
 title: "Език за програмиране Ruby"
 lang: bg
-
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Ruby e...</h1>
-
-      <p>
-      Динамичен език за програмиране с отворен код, фокусиран върху лесната
-      употреба и продуктивноста. Той притежава елегантен и лесен за четене
-      и писане синтаксис.
-      </p>
-
-      <a href="downloads/" class="download-link">Изтегляне на Ruby</a>
-      или
-      <a href="about/">Прочетете още...</a>
-    </div>
-    <div id="code"></div>
-  </div>
-
 ---
 
-{% include unmaintained.html %}
+{% include home/hero.html %}
+
+
+{% include warnings/unmaintained.html %}
+
+{% include home/why_ruby.html %}
+
+
+{% include home/community.html %}
+
+{% include home/news_security.html %}

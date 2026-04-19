@@ -25,7 +25,7 @@ Java와는 다르게, Ruby에서는...
 
 * 코드를 컴파일할 필요가 없습니다. 직접 실행하면 됩니다.
 * 여러 인기 있는 서드파티 GUI 툴킷이 있습니다. Ruby 유저는
-  [WxRuby][1], [FXRuby][2], [Ruby-GNOME2][3], [Qt][4],
+  [WxRuby][1], [FXRuby][2], [Ruby-GNOME][3],
   [Ruby Tk](https://github.com/ruby/tk) 등을 사용할 수 있습니다.
 * 클래스 같은 것을 정의할 때 코드 블록에 중괄호를 넣는 대신, 선언 뒤에
   `end` 키워드를 사용합니다.
@@ -50,7 +50,6 @@ Java와는 다르게, Ruby에서는...
 
 
 
-[1]: https://github.com/eumario/wxruby
+[1]: https://github.com/mcorino/wxRuby3
 [2]: https://github.com/larskanis/fxruby
-[3]: https://ruby-gnome2.osdn.jp/
-[4]: https://github.com/ryanmelt/qtbindings/
+[3]: https://ruby-gnome.github.io/

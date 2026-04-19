@@ -14,3 +14,6 @@ gem "validate-website", "~> 1.6"
 # Jekyll need them for Ruby 3.4+
 gem "csv"
 gem "base64"
+
+# Jekyll need this for Ruby 4.0.0+
+gem "logger"

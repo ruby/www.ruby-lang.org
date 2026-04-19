@@ -1,35 +1,37 @@
 ---
 layout: news_post
-title: "Cuộc thi giải Fukuoka Ruby 2014 - Giám khảo bao gồm Matz"
+title: "Cuộc thi Fukuoka Ruby Award 2014 - Bài dự thi được Matz chấm"
 author: "Fukuoka Ruby"
-translator: "Trung Lê"
+translator:
 date: 2013-11-21 08:17:06 +0000
 lang: vi
 ---
 
-Gửi các bạn đam mê Ruby,
+Gửi những người yêu thích Ruby,
 
-Chính phủ của Fukuoka, Nhật cùng với "Matz" Matsumoto thân mời
-mọi người tham gia giải. Nếu bạn đã phái triển một chương trình
-hay với Ruby, xin nộp đơn dự thi.
+Chính quyền Fukuoka, Nhật Bản cùng với "Matz" Matsumoto muốn mời bạn tham
+gia cuộc thi Ruby sau đây. Nếu bạn đã phát triển một chương trình Ruby thú
+vị, vui lòng mạnh dạn đăng ký.
 
-Giải nhất 2014 Fukuoka Ruby Award Competition với giá trị 1 triệu Yên
+Cuộc thi Fukuoka Ruby Award 2014 - Giải thưởng lớn - 1 Triệu Yên!
 
-Hạn chót: 29/11/2013
+Hạn nộp bài: 29 tháng 11, 2013
 
-Matz và hội đồng giám khảo sẽ chọn ra người thắng giải. Giải nhất là
-1 triệu Yên. Những trình thắng giải các năm trước bao gồm Rhomobile (Mỹ)
-và APEC Climate Center (Hàn Quốc).
+Matz và nhóm giám khảo sẽ chọn ra những người chiến thắng của cuộc thi
+Fukuoka. Giải thưởng lớn của cuộc thi Fukuoka là 1 triệu yên. Những người
+đoạt giải lớn trước đây bao gồm Rhomobile (Mỹ) và APEC Climate Center
+(Hàn Quốc).
 
-Xem danh sách thắng giải năm trước tại:
+Xem những người chiến thắng năm ngoái:
 
 [http://www.myfukuoka.com/category/ruby-award-winners][1]
 
-Trình dự thi không nhất thiết phải viết hoàn toàn với Ruby nhưng có thể
-áp dụng các chức năng đặc biệt của Ruby.
+Các chương trình tham gia cuộc thi không nhất thiết phải được viết hoàn toàn
+bằng Ruby nhưng nên tận dụng các đặc điểm độc đáo của Ruby.
 
-Điều kiện tham gia là dự án phải được phát triển và hoàn thành trong vòng 12 tháng đổ lại.
-Xin xem thêm chi tiết tại:
+Các dự án phải được phát triển hoặc hoàn thành trong vòng 12 tháng qua để đủ
+điều kiện. Vui lòng truy cập trang web Fukuoka sau để biết thêm chi tiết hoặc
+để đăng ký:
 
 [http://www.digitalfukuoka.jp/events/22?locale=ja][2]
 hoặc
@@ -37,30 +39,31 @@ hoặc
 
 [http://www.digitalfukuoka.jp/uploaded/26/RubyAward_ApplicationForm_2014.doc][4]
 
-Gửi email đơn đăng kí tới [award@f-ruby.com][5].
+Vui lòng gửi email đơn đăng ký đến [award@f-ruby.com][5].
 
-Năm nay chúng tôi có một số giải đặc biệt sau:
+Năm nay, chúng tôi có các giải thưởng đặc biệt sau:
+Người chiến thắng giải Engine Yard sẽ nhận:
 
-Người thắng giải nhất sẽ nhận:
+* Credit cho 5.000 giờ Engine Yard Cloud
+* Một cặp vé đến RubyKaigi (bao gồm 50.000 yên/người cho chi phí đi lại)
+* Bộ quà tặng Engine Yard
 
-* Tín dụng cho 5,000 giời của Engine Yard Cloud
-* Một cặp vé đi RubyKaigi (thêm 50,000 Yên một người cho chi phí vận chuyển)
-* Quà của Engine Yard
+Người chiến thắng giải Heroku sẽ nhận:
 
-Người thắng giải Heroku sẽ nhận:
+* 100.000 yên
+* Một cặp vé đến RubyKaigi (bao gồm 50.000 yên/người cho chi phí đi lại)
+* Bộ quà tặng Heroku
 
-* 100,000 Yên
-* Một cặp vé đi RubyKaigi (thêm 50,000 Yên một người cho chi phí vận chuyển)
-* Quà của Heroku
+Người chiến thắng giải paperboy&co. sẽ nhận:
 
-Người thắng giải paperboy&co sẽ nhận:
+* Cặp vé miễn phí đến Shimane (Ruby City Matsue) trong 3 ngày
+  (chi phí đi lại tối đa 50.000 yên/người)
+* gTLD miễn phí (com, net, org, info, biz) trong 10 năm
 
-* Một cặp vé đi Shimane (Thành phố Ruby Matsue) cho 3 ngày (thêm 50,000 Yên một người cho chi phí vận chuyển)
-* Miễn phí tên miền gTLD (com, net, org, info, biz) cho 10 năm
+"Matz sẽ kiểm tra và đánh giá mã nguồn của bạn một cách kỹ lưỡng, vì vậy
+việc đăng ký rất có ý nghĩa! Cuộc thi miễn phí tham gia."
 
-"Matz sẽ kiểm tra và chấm mã nguồn của bài thi. Đăng kí miễn phí"
-
-Thân
+Chúc vui vẻ!
 
 [1]: http://www.myfukuoka.com/category/ruby-award-winners
 [2]: http://www.digitalfukuoka.jp/events/22?locale=ja

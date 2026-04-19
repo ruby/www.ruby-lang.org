@@ -1,28 +1,28 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.1.5"
+title: "Phát hành Ruby 2.1.5"
 author: "nagachika"
-translator: "thomastran"
+translator:
 date: 2014-11-13 12:00:00 +0000
 lang: vi
 ---
 
-Ruby 2.1.5 vừa được ra mắt.
+Ruby 2.1.5 đã được phát hành.
 
-Phiên bản này bao gồm bản vá cho lỗ hổng bảo mật DoS của REXML.
+Bản phát hành này bao gồm bản vá bảo mật cho lỗ hổng DoS của REXML.
 Nó tương tự với
-[bản vá lỗ hổng bảo mật](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
-trong [phiên bản trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/),
-nhưng theo cách mới và khác.
+[lỗ hổng đã được sửa](https://www.ruby-lang.org/vi/news/2014/10/27/rexml-dos-cve-2014-8080/)
+trong [bản phát hành trước](https://www.ruby-lang.org/vi/news/2014/10/27/ruby-2-1-4-released/),
+nhưng là lỗ hổng mới và khác biệt.
 
-* [CVE-2014-8090: Tấn công từ chối dịch vụ giãn nở XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
+* [CVE-2014-8090: Một lỗ hổng từ chối dịch vụ mở rộng XML khác](https://www.ruby-lang.org/vi/news/2014/11/13/rexml-dos-cve-2014-8090/)
 
-Ngoài ra, phiên bản này cũng bao gồm một số vá lỗi khác.
+Ngoài ra, một số bản sửa lỗi cũng được bao gồm.
 Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
-để biết thêm chi tiết.
+để biết chi tiết.
 
-## Download
+## Tải về
 
 * [https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2](https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.5.tar.bz2)
 
@@ -52,7 +52,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_5/ChangeLog)
       SHA256: 69c517a6d3ea65264455a9316719ffdec49cf6a613a24fd89b3f6da7146a8aa7
       SHA512: a55cf5970203904e7bc8cef2b6fbf7b8d5067a160289a1a49d13c4dfef8c95002bcdf697f5d04d420ef663efad5ee80d5a9e4e7445c4db9a02f9cbc9e4b8444e
 
-## Ý kiến cho phiên bản này
+## Ghi chú phát hành
 
-Xin lỗi nếu sự ra mắt các phiên bản một cách thường xuyên gây ra bất tiện cho các bạn.
-Cảm ơn tất cả mọi người đã đóng góp công sức để ra được phiên bản này.
+Xin lỗi vì sự bất tiện khi phát hành thường xuyên.
+Cảm ơn mọi người đã hợp tác cho bản phát hành.

@@ -2,20 +2,20 @@
 layout: news_post
 title: "Phát hành Ruby 2.2.4"
 author: "nagachika"
-translator: "Nhat Tan"
+translator:
 date: 2015-12-16 12:00:00 +0000
 lang: vi
 ---
 
 Ruby 2.2.4 đã được phát hành.
 
-Bản phát hành này bao gồm việc sửa chữa bảo mật cho phần mở rộng Fiddle.
-Vui lòng xem chi tiết ở chủ đề dưới đây.
+Bản phát hành này bao gồm bản vá bảo mật cho phần mở rộng Fiddle.
+Vui lòng xem chủ đề bên dưới để biết thêm chi tiết.
 
-* [CVE-2015-7551: Sử dụng string nhiễm độc không an toàn ở Fiddle và DL](https://www.ruby-lang.org/vi/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
+* [CVE-2015-7551: Unsafe tainted string usage in Fiddle and DL](https://www.ruby-lang.org/vi/news/2015/12/16/unsafe-tainted-string-usage-in-fiddle-and-dl-cve-2015-7551/)
 
-Ngoài ra còn sửa chữa một số lỗi khác.
-Xem chi tiết tại đây [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog).
+Ngoài ra còn có một số bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_4/ChangeLog) để biết chi tiết.
 
 ## Tải về
 
@@ -47,8 +47,7 @@ Xem chi tiết tại đây [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags
       SHA256: 9b7f9e96ef84eef97f44bd5ab1fa70ece1668a52585a88ba6a3487579f12e6f4
       SHA512: 7a6678d3f9bc81eb7bb60de342820ed1bf44e834ee3e5ed6c713c8fa0a80c758c5a5260f17aa5ceae32e1f180187c9cb4e278e9fc6a7b8ad4386f9261426ad5b
 
-## Chú thích
+## Ghi chú phát hành
 
-Nhiều lập trình viên, người dùng cung cấp các báo cáo về lỗi đã giúp chúng tôi
-ra mắt phiên bản này.
-Xin cảm ơn tất cả về những đóng góp đó.
+Nhiều committer, nhà phát triển, và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

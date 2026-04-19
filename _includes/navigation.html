@@ -1,0 +1,118 @@
+{% if site.data.locales[page.lang].sidebar %}
+  {% assign sidebar = site.data.locales[page.lang].sidebar %}
+{% else %}
+  {% assign sidebar = site.data.locales['en'].sidebar %}
+{% endif %}
+
+<div class="bg-stone-50 dark:bg-stone-800 rounded-lg p-4 md:bg-transparent md:dark:bg-transparent md:p-0 border border-stone-200 dark:border-stone-700 md:border-0">
+  <div class="flex justify-between items-center mb-4 md:block">
+    <h3 class="font-bold text-stone-900 dark:text-stone-100">Navigation</h3>
+    <!-- Close button for mobile -->
+    <button id="nav-close-btn" class="md:hidden p-2 hover:bg-stone-200 dark:hover:bg-stone-700 rounded-md">
+      <span class="material-icons text-base">close</span>
+    </button>
+  </div>
+
+  {% if page.sidebar != null %}
+  <div class="mb-6">
+    {{ page.sidebar }}
+  </div>
+  {% endif %}
+
+  {% if sidebar.get_started != null %}
+  <div class="mb-6">
+    <h3 class="font-semibold text-sm text-stone-900 dark:text-stone-100 mb-2">{{ sidebar.get_started.text }}</h3>
+    <ul class="space-y-1.5 text-sm">
+      <li><a href="{{ sidebar.get_started.try_ruby.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.get_started.try_ruby.text }}</a></li>
+      {% if sidebar.get_started.quickstart != null %}
+      <li><a href="{{ sidebar.get_started.quickstart.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.get_started.quickstart.text }}</a></li>
+      {% endif %}
+      {% if sidebar.get_started.ruby_from_other_languages != null %}
+      <li><a href="{{ sidebar.get_started.ruby_from_other_languages.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.get_started.ruby_from_other_languages.text }}</a></li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if sidebar.explore != null %}
+  <div class="mb-6">
+    <h3 class="font-semibold text-sm text-stone-900 dark:text-stone-100 mb-2">{{ sidebar.explore.text }}</h3>
+    <ul class="space-y-1.5 text-sm">
+      {% if sidebar.explore.documentation != null %}
+      <li><a href="{{ sidebar.explore.documentation.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.explore.documentation.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.books != null %}
+      <li><a href="{{ sidebar.explore.books.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.explore.books.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.rubybib != null %}
+      <li><a href="{{ sidebar.explore.rubybib.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.explore.rubybib.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.libraries != null %}
+      <li><a href="{{ sidebar.explore.libraries.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.explore.libraries.text }}</a></li>
+      {% endif %}
+      {% if sidebar.explore.success_stories != null %}
+      <li><a href="{{ sidebar.explore.success_stories.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.explore.success_stories.text }}</a></li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if sidebar.participate != null %}
+  <div class="mb-6">
+    <h3 class="font-semibold text-sm text-stone-900 dark:text-stone-100 mb-2">{{ sidebar.participate.text }}</h3>
+    <ul class="space-y-2 text-sm">
+      {% if sidebar.participate.mailing_lists != null %}
+      <li>
+        <a href="{{ sidebar.participate.mailing_lists.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.participate.mailing_lists.text }}</a>
+        {% if sidebar.participate.mailing_lists.description %}
+        <span class="text-stone-600 dark:text-stone-400">: {{ sidebar.participate.mailing_lists.description }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% if sidebar.participate.user_groups != null %}
+      <li>
+        <a href="{{ sidebar.participate.user_groups.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.participate.user_groups.text }}</a>
+        {% if sidebar.participate.user_groups.description %}
+        <span class="text-stone-600 dark:text-stone-400">: {{ sidebar.participate.user_groups.description }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% if sidebar.participate.weblogs != null %}
+      <li>
+        <a href="{{ sidebar.participate.weblogs.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.participate.weblogs.text }}</a>
+        {% if sidebar.participate.weblogs.description %}
+        <span class="text-stone-600 dark:text-stone-400">: {{ sidebar.participate.weblogs.description }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% if sidebar.participate.ruby_core != null %}
+      <li>
+        <a href="{{ sidebar.participate.ruby_core.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.participate.ruby_core.text }}</a>
+        {% if sidebar.participate.ruby_core.description %}
+        <span class="text-stone-600 dark:text-stone-400">: {{ sidebar.participate.ruby_core.description }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% if sidebar.participate.issue_tracking != null %}
+      <li>
+        <a href="{{ sidebar.participate.issue_tracking.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.participate.issue_tracking.text }}</a>
+        {% if sidebar.participate.issue_tracking.description %}
+        <span class="text-stone-600 dark:text-stone-400">: {{ sidebar.participate.issue_tracking.description }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if sidebar.top_ruby_projects != null %}
+  <div class="mb-6">
+    <h3 class="font-semibold text-sm text-stone-900 dark:text-stone-100 mb-2">{{ sidebar.top_ruby_projects.text }}</h3>
+    <p class="text-sm">
+      <a href="{{ sidebar.top_ruby_projects.more.url }}" class="text-semantic-text-link hover:text-semantic-text-link-hovered dark:text-blue-400 dark:hover:text-blue-300">{{ sidebar.top_ruby_projects.more.text }}</a>
+    </p>
+  </div>
+  {% endif %}
+
+  {% include syndicate.html %}
+</div>

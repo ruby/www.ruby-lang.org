@@ -2,15 +2,16 @@
 layout: news_post
 title: "Phát hành Ruby 2.2.5"
 author: "usa"
-translator: "Nguyễn Đức Giang"
+translator:
 date: 2016-04-26 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi vừa phát hành Ruby 2.2.5.
+Ruby 2.2.5 đã được phát hành.
 
-Phiên bản này bao gồm nhiều bản vá lỗi, được liệt kê đầy đủ trong
-[ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog).
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_5/ChangeLog)
+để biết chi tiết.
 
 ## Tải về
 
@@ -42,15 +43,14 @@ Phiên bản này bao gồm nhiều bản vá lỗi, được liệt kê đầy 
       SHA256: d5094d7cc50266772a8352c68b7fcd865889fd174c09e2f11bb003696cd04bb3
       SHA512: b3789063252e361aa4598ecd9170fc360f0d5685497975ce09442fe5815c438b67b95fc67e56b99ab4044a49715ed1a8b1fb089f757c7c0d1a777536e06de8cf
 
-## Lời nhắn
+## Ghi chú phát hành
 
-Xin gửi lời cảm ơn tới những người đã đóng góp cho việc phát hành phiên bản này.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này.
 
-Cùng với việc phát hành phiên bản mới, người duy trì Ruby 2.2 được thay đổi từ
-nagachika-san sang usa. Khoảng 2/3 các thay đổi trong phiên bản này (2.2.5)
-là do sự đóng góp của nagachika-san.
-Xin gửi lời cảm ơn tới ông vì những đóng góp tuyệt vời này.
+Với bản phát hành này, người bảo trì Ruby 2.2 đã thay đổi từ nagachika-san sang usa.
+Khoảng hai phần ba các thay đổi trong bản phát hành này được thực hiện bởi nagachika-san.
+Cảm ơn những đóng góp tuyệt vời của anh ấy.
 
-Việc bảo trì Ruby 2.2, bao gồm cả phiên bản này, dựa trên
-"Thỏa thuận cho các phiên bản Ruby ổn định" của
+Việc bảo trì Ruby 2.2, bao gồm bản phát hành này,
+dựa trên "Thỏa thuận cho phiên bản ổn định của Ruby" của
 [Ruby Association](http://www.ruby.or.jp/).

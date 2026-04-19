@@ -2,28 +2,16 @@
 layout: homepage
 title: "Il linguaggio di programmazione Ruby"
 lang: it
-
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Ruby è...</h1>
-
-      <p>
-      Un linguaggio open-source dinamico che dà particolare rilevanza alla
-      semplicità e alla produttività, dotato di una sintassi elegante,
-      naturale da leggere e facile da scrivere.
-      </p>
-
-      <a href="downloads/" class="download-link">Scarica Ruby</a>
-      oppure
-      <a href="about/">Ulteriori Informazioni...</a>
-    </div>
-    <div id="code"></div>
-  </div>
-
 ---
 
-{% include unmaintained.html %}
+{% include home/hero.html %}
+
+
+{% include warnings/unmaintained.html %}
+
+{% include home/why_ruby.html %}
+
+
+{% include home/community.html %}
+
+{% include home/news_security.html %}

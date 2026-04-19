@@ -6,7 +6,7 @@ lang: zh_tw
 
 全世界有越來越多的研討會讓 Ruby 程式設計師可以參與，分享他們的工作經驗、討論 Ruby 的未來，同時也歡迎新成員的加入。
 
-[RubyConferences.org][rc] 是一個簡單的 Ruby 研討會列表，由 Ruby 社群協作公布，你可以在此查詢到研討會的日期、地點、徵求訊息和報名資訊。
+[RubyEvents.org][rc] 是一個簡單的 Ruby 研討會列表，由 Ruby 社群協作公布，你可以在此查詢到研討會的日期、地點、徵求訊息和報名資訊。
 
 
 ### 主要的 Ruby 大會
@@ -72,7 +72,7 @@ lang: zh_tw
 [sor]: http://groups.google.com/group/shanghaionrails
 [jpr]: http://jp.rubyist.net/
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/

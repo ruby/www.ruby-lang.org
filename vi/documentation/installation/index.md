@@ -4,45 +4,62 @@ title: "Cài đặt Ruby"
 lang: vi
 ---
 
-Bạn có thể cài đặt Ruby bằng nhiều công cụ khác nhau.
-Bài viết này hướng dẫn sử dụng các hệ thống quản lý gói
-và các công cụ của bên thứ 3 để quản lý, cài đặt Ruby
-và cách biên dịch Ruby từ mã nguồn.
+Với các trình quản lý gói hoặc công cụ của bên thứ ba, bạn có nhiều lựa chọn
+để cài đặt và quản lý Ruby.
 {: .summary}
 
+Có thể bạn đã cài sẵn Ruby trên máy tính. Bạn có thể kiểm tra
+bằng cách mở [trình giả lập terminal][terminal] và gõ:
 
-## Chọn phương thức cài đặt của bạn
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
 
-Bạn có thể cài đặt Ruby bằng một trong những cách sau:
+Lệnh này sẽ hiển thị thông tin về phiên bản Ruby đã được cài đặt.
 
-* Nếu bạn đang dùng hệ điều hành giống UNIX, sử dụng
-  **trình quản lý gói** sẵn có là cách dễ nhất.
-  Tuy nhiên, phiên bản Ruby được đóng gói thường không phải là bản mới nhất.
-* **Installer** có thể được sử dụng để cài đặt một hoặc một số
-  phiên bản Ruby. Installer cũng có sẵn trên Windows.
-* **Trình quản lý** giúp bạn chuyển đổi giữa các bản cài đặt Ruby
-  trên hệ điều hành của bạn.
-* Và cuối cùng, bạn cũng có thể **biên dịch Ruby từ mã nguồn**.
+## Chọn phương pháp cài đặt
 
-Tổng quan các phương thức cài đặt có sẵn
-theo nhu cầu và nền tảng khác nhau.
+Có nhiều cách để cài đặt Ruby:
+
+* Trên hệ điều hành tương tự UNIX, sử dụng **trình quản lý gói**
+  của hệ thống là cách dễ nhất.
+  Tuy nhiên, phiên bản Ruby được đóng gói có thể không phải là phiên bản mới nhất.
+* **Trình cài đặt** có thể được dùng để cài đặt một hoặc nhiều
+  phiên bản Ruby. Cũng có trình cài đặt dành cho Windows.
+* **Trình quản lý phiên bản** giúp bạn chuyển đổi giữa nhiều phiên bản Ruby
+  trên hệ thống.
+* Cuối cùng, bạn cũng có thể **biên dịch Ruby từ mã nguồn**.
+
+Trên Windows 10, bạn cũng có thể sử dụng [Windows Subsystem for Linux][wsl]
+để cài đặt một trong các bản phân phối Linux được hỗ trợ và sử dụng bất kỳ
+phương pháp cài đặt nào có sẵn trên hệ thống đó.
+
+Dưới đây là các phương pháp cài đặt có sẵn:
 
 * [Hệ thống quản lý gói](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
-  * [Solaris, OpenIndiana](#solaris)
+  * [FreeBSD](#freebsd)
+  * [OpenBSD](#openbsd)
+  * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
+  * [Chocolatey package manager cho Windows](#chocolatey)
   * [Các bản phân phối khác](#other-systems)
-* [Installers](#installers)
+* [Trình cài đặt](#installers)
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
-  * [RailsInstaller và Ruby Stack](#railsinstaller)
-* [Trình quản lý](#managers)
+  * [Ruby Stack](#rubystack)
+* [Trình quản lý phiên bản](#managers)
+  * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
+  * [mise-en-place](#mise-en-place)
   * [rbenv](#rbenv)
+  * [rbenv cho Windows](#rbenv-for-windows)
   * [RVM](#rvm)
   * [uru](#uru)
 * [Biên dịch từ mã nguồn](#building-from-source)
@@ -51,34 +68,30 @@ theo nhu cầu và nền tảng khác nhau.
 ## Hệ thống quản lý gói
 {: #package-management-systems}
 
-Nếu bạn không thể tự biên dịch Ruby và bạn không muốn sử dụng một
-công cụ của bên thứ ba, bạn có thể sử dụng trình quản lý gói
-của hệ điều hành để cài đặt Ruby.
+Nếu bạn không thể tự biên dịch Ruby và không muốn sử dụng công cụ
+của bên thứ ba, bạn có thể dùng trình quản lý gói của hệ thống để cài đặt Ruby.
 
-Một số thành viên trong cộng đồng Ruby khuyên rằng bạn không nên sử dụng
-một trình quản lý gói để cài đặt Ruby mà bạn nên sử dụng các công cụ
-thay thế khác. Trong khi danh sách đầy đủ các ưu, nhược điểm nằm ngoài phạm vi
-của trang này thì lý do cơ bản nhất là hầu hết các trình quản lý gói có chứa các
-phiên bản cũ của Ruby trong repository chính thức. Nếu bạn muốn sử dụng phiên
-bản Ruby mới nhất, hãy chắc chắn rằng bạn sử dụng tên gói đúng,
-hoặc sử dụng các công cụ được mô tả chi tiết ở dưới đây để thay thế.
+Một số thành viên trong cộng đồng Ruby cho rằng bạn nên tránh sử dụng trình
+quản lý gói để cài đặt Ruby và nên dùng các công cụ chuyên dụng thay thế.
+
+Có thể các trình quản lý gói lớn sẽ cài đặt phiên bản Ruby cũ hơn
+thay vì bản phát hành mới nhất. Để sử dụng bản phát hành Ruby mới nhất,
+hãy kiểm tra xem tên gói có khớp với số phiên bản hay không. Hoặc sử dụng
+[trình cài đặt][installers] chuyên dụng.
 
 
-### apt (Debian và Ubuntu)
+### apt (Debian hoặc Ubuntu)
 {: #apt}
 
-Debian GNU/Linux và Ubuntu sử dụng trình quản lý gói apt.
-Bạn có thể sử dụng như sau:
+Debian GNU/Linux và Ubuntu sử dụng trình quản lý gói apt. Bạn có thể
+sử dụng như sau:
 
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
 
-`ruby-full` ở lệnh trên cung cấp Ruby 2.3.1, một bản phân phối ổn định cũ,
-trên Debian và Ubuntu.
 
-
-### yum (CentOS, Fedora, và RHEL)
+### yum (CentOS, Fedora, hoặc RHEL)
 {: #yum}
 
 CentOS, Fedora, và RHEL sử dụng trình quản lý gói yum.
@@ -88,8 +101,29 @@ Bạn có thể sử dụng như sau:
 $ sudo yum install ruby
 {% endhighlight %}
 
-Phiên bản được cài đặt thường là phiên bản mới nhất của Ruby ở thời gian
-phát hành bản phân phối của hệ điều hành đó.
+Phiên bản được cài đặt thường là phiên bản Ruby mới nhất có sẵn
+tại thời điểm phát hành của phiên bản bản phân phối cụ thể đó.
+
+
+### snap (Ubuntu hoặc các bản phân phối Linux khác)
+{: #snap}
+
+Snap là trình quản lý gói được phát triển bởi Canonical.
+Nó có sẵn trên Ubuntu, nhưng snap cũng hoạt động
+trên nhiều bản phân phối Linux khác.
+Bạn có thể sử dụng như sau:
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+Chúng tôi có nhiều kênh cho mỗi dòng phiên bản phụ của Ruby.
+Ví dụ, các lệnh sau chuyển sang Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
 
 
 ### portage (Gentoo)
@@ -101,176 +135,262 @@ Gentoo sử dụng trình quản lý gói portage.
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-Mặc định, lệnh trên sẽ cài đặt các phiên bản 1.9 và 2.0,
-nhưng các phiên bản khác cũng có sẵn.
-Để cài đặt một phiên bản nhất định, đặt giá trị cho `RUBY_TARGETS`
-trong `make.conf`.
-Xem chi tiết tại [Gentoo Ruby Project website][gentoo-ruby]
+Để cài đặt một phiên bản cụ thể, hãy thiết lập `RUBY_TARGETS` trong `make.conf`.
+Xem [trang web Gentoo Ruby Project][gentoo-ruby] để biết thêm chi tiết.
 
 
 ### pacman (Arch Linux)
 {: #pacman}
 
-Arch Linux sử dụng trình quản lý gói pacman.
-Bạn có thể sử dụng như sau:
+Arch Linux sử dụng trình quản lý gói có tên pacman.
+Để cài đặt Ruby, chỉ cần chạy:
 
 {% highlight sh %}
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-Lệnh trên sẽ cài đặt phiên bản ổn định mới nhất của Ruby.
+Lệnh này sẽ cài đặt phiên bản Ruby ổn định mới nhất.
 
 
 ### Homebrew (macOS)
 {: #homebrew}
 
-Trên Yosemite và Mavericks, Ruby 2.0 có sẵn trong homebrew
-Đối với OS X Mountain Lion, Lion, và Snow Leopard thì là Ruby 1.8.7.
+Ruby phiên bản 2.0 trở lên đã được tích hợp sẵn trong các bản phát hành macOS
+ít nhất kể từ El Capitan (10.11).
 
-Nhiều người sử dụng [Homebrew][homebrew] trên macOS như một trình quản lý gói.
-Rất dễ để cài đặt phiên bản mới nhất của Ruby bằng Homebrew:
+[Homebrew][homebrew] là trình quản lý gói phổ biến trên macOS.
+Cài đặt Ruby bằng Homebrew rất đơn giản:
 
 {% highlight sh %}
 $ brew install ruby
 {% endhighlight %}
 
-Lệnh trên sẽ cài đặt phiên bản mới nhất của Ruby.
+Lệnh này sẽ cài đặt phiên bản Ruby mới nhất.
 
 
-### Ruby trên Solaris và OpenIndiana
-{: #solaris}
+### FreeBSD
+{: #freebsd}
 
-Ruby 1.8.7 có sẵn từ Solaris 8 đến Solaris 10 trên
-[Sunfreeware][sunfreeware] và Ruby 1.8.7 có sẵn ở
-Blastwave.
-Ruby 1.9.2p0 cũng có sẵn tại [Sunfreeware][sunfreeware],
-nhưng đây là phiên bản đã lỗi thời.
-
-Để cài đặt Ruby trên [OpenIndiana][openindiana], vui lòng sử dụng
-[Image Packaging System (IPS)][opensolaris-pkg] client.
-Nó sẽ cài đặt các gói nhị phân mới nhất của Ruby và RubyGems trực tiếp
-từ repository của OpenSolaris cho Ruby 1.9. Thật dễ dàng:
+FreeBSD cung cấp cả phương pháp cài đặt từ gói dựng sẵn và từ mã nguồn.
+Các gói dựng sẵn có thể được cài đặt thông qua công cụ pkg:
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install ruby
 {% endhighlight %}
 
-Tuy nhiên, các công cụ của bên thứ ba cũng là một cách tốt để có được
-phiên bản mới nhất của Ruby.
+Phương pháp từ mã nguồn có thể được sử dụng để cài đặt Ruby thông qua
+[Ports Collection][freebsd-ports-collection]. Cách này hữu ích nếu bạn muốn
+tùy chỉnh các tùy chọn cấu hình biên dịch.
 
+Thông tin thêm về Ruby và hệ sinh thái của nó trên FreeBSD
+có thể được tìm thấy tại [trang web FreeBSD Ruby Project][freebsd-ruby].
+
+
+### OpenBSD
+{: #openbsd}
+
+OpenBSD cũng như bản phân phối adJ của nó có các gói cho ba
+phiên bản chính của Ruby. Lệnh sau cho phép bạn xem các
+phiên bản có sẵn và cài đặt một phiên bản:
+
+{% highlight sh %}
+$ doas pkg_add ruby
+{% endhighlight %}
+
+Bạn có thể cài đặt nhiều phiên bản chính song song, vì các
+tệp nhị phân có tên khác nhau (ví dụ `ruby27`, `ruby26`).
+
+Nhánh `HEAD` của ports collection OpenBSD có thể có phiên bản
+Ruby mới nhất cho nền tảng này vài ngày sau khi nó được phát hành,
+xem [thư mục lang/ruby trong ports collection mới nhất][openbsd-current-ruby-ports].
+
+
+### Ruby trên OpenIndiana
+{: #openindiana}
+
+Để cài đặt Ruby trên [OpenIndiana][openindiana], vui lòng sử dụng
+Image Packaging System (IPS) client.
+Lệnh này sẽ cài đặt các tệp nhị phân Ruby và RubyGems trực tiếp
+từ kho lưu trữ OpenIndiana. Rất đơn giản:
+
+{% highlight sh %}
+$ pkg install runtime/ruby
+{% endhighlight %}
+
+Tuy nhiên, các công cụ của bên thứ ba có thể là cách tốt hơn để có được
+phiên bản Ruby mới nhất.
+
+### Windows Package Manager
+{: #winget}
+
+Trên Windows, bạn có thể sử dụng [Windows Package Manager CLI](https://github.com/microsoft/winget-cli)
+để cài đặt Ruby:
+
+{% highlight powershell %}
+> winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+# Example
+> winget install RubyInstallerTeam.Ruby.3.2
+# To see all versions available
+> winget search RubyInstallerTeam.Ruby
+# Note: if you are installing ruby for projects, you may want to install RubyWithDevKit
+> winget install RubyInstallerTeam.RubyWithDevKit.3.2
+{% endhighlight %}
+
+### Chocolatey package manager cho Windows
+{: #chocolatey}
+
+Cũng trên Windows, bạn có thể sử dụng [Chocolatey Package Manager](https://chocolatey.org/install)
+để cài đặt Ruby:
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+Lệnh này sẽ sử dụng lại `msys2` hiện có, hoặc cài đặt riêng để có môi trường phát triển Ruby hoàn chỉnh
 
 ### Các bản phân phối khác
 {: #other-systems}
 
-Trên các hệ điều hành khác, bạn có thể tìm các gói bằng trình quản lý có sẵn
-hoặc các công cụ của bên thứ ba.
+Trên các hệ thống khác, bạn có thể tìm kiếm Ruby trong kho gói của trình
+quản lý bản phân phối Linux. Ngoài ra, bạn có thể sử dụng
+[trình cài đặt của bên thứ ba][installers].
 
 
-## Installers
+## Trình cài đặt
 {: #installers}
 
-Nếu phiên bản của Ruby được cung cấp bởi hệ điều hành hoặc trình quản lý
-bị lỗi thời, bạn có thể sử dụng một installer của bên thứ ba để cài đặt
-phiên bản mới nhất.
-Một số installer cho phép bạn có thể cài đặt nhiều phiên bản Ruby trên cùng
-hệ điều hành; các trình quản lý đi kèm có thể giúp bạn chuyển đổi giữa
+Nếu phiên bản Ruby do hệ thống hoặc trình quản lý gói cung cấp đã lỗi thời,
+bạn có thể cài đặt phiên bản mới hơn bằng trình cài đặt của bên thứ ba.
+
+Một số trình cài đặt cho phép bạn cài đặt nhiều phiên bản trên cùng
+một hệ thống; các trình quản lý liên quan có thể giúp chuyển đổi giữa
 các phiên bản Ruby khác nhau.
-Nếu bạn đang có ý định sử dụng [RVM](#rvm) như một trình quản lý phiên bản
-thì bạn không cần thêm installer nữa vì RVM đã có một installer riêng.
+
+Nếu bạn dự định sử dụng [RVM](#rvm) làm trình quản lý phiên bản, bạn không
+cần trình cài đặt riêng, vì nó đã tích hợp sẵn.
 
 
 ### ruby-build
 {: #ruby-build}
 
-[ruby-build][ruby-build] là một plugin cho [rbenv](#rbenv)
-cho phép bạn có thể biên dịch và cài đặt các phiên bản khác nhau của Ruby
-trong các thư mục tuỳ ý.
-ruby-build có thể được sử dụng như một chương trình độc lập mà không cần rbenv.
-Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
+[ruby-build][ruby-build] là plugin cho [rbenv](#rbenv) cho phép bạn
+biên dịch và cài đặt các phiên bản Ruby khác nhau. ruby-build cũng có thể
+được sử dụng như một chương trình độc lập mà không cần rbenv. Nó có sẵn cho macOS,
+Linux, và các hệ điều hành tương tự UNIX khác.
 
 
 ### ruby-install
 {: #ruby-install}
 
-[ruby-install][ruby-install] cho phép bạn biên dịch và cài đặt các
-phiên bản khác nhau của Ruby trong các thư mục tuỳ ý.
-Người anh em của nó là [chruby](#chruby), dùng để chuyển đổi giữa các
-phiên bản Ruby.
-Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
+[ruby-install][ruby-install] cho phép bạn biên dịch và cài đặt các phiên bản
+Ruby khác nhau vào các thư mục tùy ý. [chruby](#chruby) là
+công cụ bổ trợ dùng để chuyển đổi giữa các phiên bản Ruby. Nó có sẵn
+cho macOS, Linux, và các hệ điều hành tương tự UNIX khác.
 
 
 ### RubyInstaller
 {: #rubyinstaller}
 
-Nếu bạn đang sử dụng Windows, có một dự án tuyệt vời giúp bạn cài đặt Ruby:
-[RubyInstaller][rubyinstaller]. Nó cung cấp cho bạn mọi thứ cần thiết để cài
-đặt một môi trường phát triển đầy đủ trên Windows.
+Trên Windows, [RubyInstaller][rubyinstaller] cung cấp cho bạn mọi thứ cần thiết
+để thiết lập môi trường phát triển Ruby hoàn chỉnh.
 
-Chỉ việc tải xuống và chạy là xong!
-
-
-### RailsInstaller và Ruby Stack
-{: #railsinstaller}
-
-Nếu bạn đang cài đặt Ruby để sử dụng Ruby on Rails,
-bạn có thể sử dụng các installers sau đây:
-
-* [RailsInstaller][railsinstaller],
-  sử dụng RubyInstaller nhưng cung cấp cho bạn
-  thêm nhiều công cụ trợ giúp để phát triển Rails.
-  Có sẵn trên OS X và Windows.
-* [Bitnami Ruby Stack][rubystack],
-  cung cấp một môi trường phát triển hoàn chỉnh cho Rails.
-  Có sẵn trên macOS, Linux, Windows, các máy ảo và các cloud image.
+Chỉ cần tải về, chạy, và bạn đã hoàn tất!
 
 
-## Trình quản lý
+### Ruby Stack
+{: #rubystack}
+
+Nếu bạn cài đặt Ruby để sử dụng Ruby on Rails,
+bạn có thể dùng trình cài đặt sau:
+
+* [Bitnami Ruby Stack][rubystack] cung cấp môi trường phát triển
+  hoàn chỉnh cho Rails. Nó hỗ trợ macOS, Linux, Windows, máy ảo,
+  và cloud image.
+
+
+## Trình quản lý phiên bản
 {: #managers}
 
-Nhiều Rubyist sử dụng các trình quản lý Ruby để quản lý các phiên bản Ruby.
-Mặc dù, chúng có nhiều điểm mạnh nhưng lại không được hỗ trợ chính thức.
-Tuy nhiên, các cộng đồng của họ cũng rất hữu ích.
+Nhiều lập trình viên Ruby sử dụng trình quản lý phiên bản để quản lý nhiều
+phiên bản Ruby. Chúng cho phép chuyển đổi giữa các phiên bản Ruby dễ dàng
+hoặc thậm chí tự động tùy thuộc vào dự án và có nhiều ưu điểm khác,
+nhưng không được hỗ trợ chính thức. Tuy nhiên, bạn có thể tìm được
+sự hỗ trợ trong cộng đồng tương ứng của chúng.
+
+
+### asdf-vm
+{: #asdf-vm}
+
+[asdf-vm][asdf-vm] là trình quản lý phiên bản mở rộng được, có thể quản lý nhiều
+phiên bản runtime ngôn ngữ theo từng dự án. Bạn sẽ cần plugin
+[asdf-ruby][asdf-ruby] (sử dụng [ruby-build](#ruby-build) bên trong)
+để cài đặt Ruby.
 
 
 ### chruby
 {: #chruby}
 
-[chruby][chruby] cho phép bạn chuyển đổi giữa các phiên bản Ruby.
-chruby có thể quản lý các phiên bản Ruby được cài đặt bằng
-[ruby-install](#ruby-install)
-hoặc thậm chí là các phiên bản được biên dịch từ mã nguồn.
+[chruby][chruby] cho phép bạn chuyển đổi giữa nhiều phiên bản Ruby. Nó có thể
+quản lý các phiên bản Ruby được cài đặt bởi [ruby-install](#ruby-install) hoặc
+thậm chí được biên dịch từ mã nguồn.
+
+
+### mise-en-place
+{: #mise-en-place}
+
+[mise-en-place][mise-en-place] cho phép bạn chuyển đổi giữa nhiều phiên bản Ruby mà không cần thêm công cụ nào.
+Nó quản lý việc cài đặt tự động và bao gồm [gem backend](https://mise.jdx.dev/dev-tools/backends/gem.html) để quản lý các phiên bản CLI được viết bằng Ruby.
+Nó hỗ trợ các hệ điều hành tương tự UNIX và Windows.
 
 
 ### rbenv
 {: #rbenv}
 
-[rbenv][rbenv] cho phép bạn quản lý nhiều bản cài đặt của Ruby.
-Nó không hỗ trợ cài đặt Ruby, nhưng bạn có thể dùng plugin
-[ruby-build](#ruby-build) để cài đặt Ruby.
-Cả hai công cụ trên đều có sẵn trên macOS, Linux,
-và các hệ điều hành giống UNIX khác.
+[rbenv][rbenv] cho phép bạn quản lý nhiều bản cài đặt Ruby.
+Mặc dù mặc định nó không thể cài đặt Ruby, nhưng plugin [ruby-build](#ruby-build)
+của nó có thể. Cả hai công cụ đều có sẵn cho macOS, Linux, hoặc
+các hệ điều hành tương tự UNIX khác.
+
+
+### rbenv cho Windows
+{: #rbenv-for-windows}
+
+[rbenv cho Windows][rbenv-for-windows] cho phép bạn cài đặt và
+quản lý nhiều bản cài đặt Ruby trên Windows. Nó được viết bằng
+PowerShell, cung cấp cách sử dụng Ruby tự nhiên cho người dùng Windows.
+Ngoài ra, giao diện dòng lệnh tương thích với [rbenv][rbenv]
+trên các hệ thống tương tự UNIX.
 
 
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
-[RVM][rvm] cho phép bạn cài đặt và quản lý nhiều bản cài đặt của Ruby.
-Nó cũng có thể quản lý các gemset khác nhau.
-Có sẵn trên macOS, Linux, và các hệ điều hành giống UNIX khác.
+[RVM][rvm] cho phép bạn cài đặt và quản lý nhiều bản cài đặt
+Ruby trên hệ thống. Nó cũng có thể quản lý các gemset khác nhau. Nó có sẵn
+cho macOS, Linux, hoặc các hệ điều hành tương tự UNIX khác.
+
+
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] cho phép bạn cài đặt và quản lý nhiều
+bản cài đặt Ruby trên Windows. Nó là bản sao của RVM gốc và
+hỗ trợ dòng lệnh cổ điển cũng như Powershell bằng cách cung cấp
+giao diện dòng lệnh giống như RVM gốc.
 
 
 ### uru
 {: #uru}
 
-[Uru][uru] là một công cụ dòng lệnh đa nền tảng, gọn nhẹ giúp bạn
+[Uru][uru] là công cụ dòng lệnh nhẹ, đa nền tảng giúp bạn
 sử dụng nhiều phiên bản Ruby trên macOS, Linux, hoặc Windows.
 
 
 ## Biên dịch từ mã nguồn
 {: #building-from-source}
 
-Bạn hoàn toàn có thể cài đặt Ruby từ mã nguồn.
-[Tải về](/vi/downloads/) và giải nén tarball, sau đó:
+Tất nhiên, bạn có thể cài đặt Ruby từ mã nguồn.
+[Tải về][download] và giải nén tarball, sau đó chạy:
 
 {% highlight sh %}
 $ ./configure
@@ -278,25 +398,39 @@ $ make
 $ sudo make install
 {% endhighlight %}
 
-Mặc định, lệnh trên sẽ cài đặt Ruby vào `/usr/local`.
-Để thay đổi, thêm lựa chọn `--prefix=DIR` vào script `./configure`.
+Mặc định, lệnh này sẽ cài đặt Ruby vào `/usr/local`.
+Để thay đổi, truyền tùy chọn `--prefix=DIR` cho script `./configure`.
 
-Sử dụng các công cụ của bên thứ ba hoặc các trình quản lý gói có thể là một
-ý tưởng hay hơn, tuy nhiên, Ruby được cài đặt sẽ không được quản lý bởi
-bất kỳ công cụ nào.
+Bạn có thể tìm thêm thông tin về biên dịch từ mã nguồn trong
+[hướng dẫn biên dịch Ruby][building-ruby].
+
+Tuy nhiên, sử dụng các công cụ của bên thứ ba hoặc trình quản lý gói có thể là
+ý tưởng tốt hơn, vì Ruby được cài đặt theo cách này sẽ không được quản lý
+bởi bất kỳ công cụ nào.
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
-[railsinstaller]: http://railsinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[download]: /vi/downloads/
+[installers]: /vi/documentation/installation/#installers
+[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
+[asdf-vm]: https://asdf-vm.com/
+[asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[mise-en-place]: https://mise.jdx.dev
+[mise-en-place-ruby]: https://mise.jdx.dev/lang/ruby.html
+[openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD

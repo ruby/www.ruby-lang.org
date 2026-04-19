@@ -8,7 +8,7 @@ diz = "Eu gosto de Ruby"
 puts diz
 
 # Saída "EU *GOSTO* DE RUBY"
-diz['gosto'] = "*gosto*"
+diz = diz.sub("gosto", "*gosto*")
 puts diz.upcase
 
 # Output: "Eu *gosto*

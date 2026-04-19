@@ -8,3 +8,7 @@ vendor
 .env
 bin
 .jekyll*
+node_modules/
+stylesheets/compiled.css
+_figma/
+_svg-backup/

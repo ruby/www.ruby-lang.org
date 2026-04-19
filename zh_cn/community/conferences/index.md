@@ -6,7 +6,7 @@ lang: zh_cn
 
 全世界有越來越多的研讨会让 Ruby 工程师可以参与，分享他们的工作经验、讨论 Ruby 的未来，同时也欢迎新成员加入 Ruby 社区。
 
-[RubyConferences.org][rc] 是由 Ruby 社区合作发布的一个简单的 Ruby 具体研讨会列表，在那里你可以找到研讨会的日期，地点，提议和注册信息。
+[RubyEvents.org][rc] 是由 Ruby 社区合作发布的一个简单的 Ruby 具体研讨会列表，在那里你可以找到研讨会的日期，地点，提议和注册信息。
 
 ### 主要的 Ruby 研讨会
 
@@ -59,7 +59,7 @@ Ruby 相关的内容都在逐年增加。许多研讨会都以 [Ruby on Rails][1
 
 
 
-[rc]: http://rubyconferences.org/
+[rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
 [2]: http://rubycentral.org
 [3]: http://rubykaigi.org/

@@ -4,60 +4,61 @@ title: "Đến với Ruby từ Perl"
 lang: vi
 ---
 
-Perl rất tuyệt vời, các tài liệu của Perl cũng vậy. Cộng đồng Perl cũng …
-tuyệt vời. Tuy nhiên, ngôn ngữ này khá rộng lớn và phức tạp. Ruby có lẽ
-được dành cho các Perler những người đã có một khoảng thời gian dễ dàng,
-một ngôn ngữ trực quan hơn, và các tính năng OO được xây dựng ngay từ đầu.
+Perl thật tuyệt vời. Tài liệu của Perl thật tuyệt vời. Cộng đồng Perl
+cũng… tuyệt vời.
+Đối với những lập trình viên Perl khao khát các tính năng OO thanh lịch
+được tích hợp sẵn ngay từ đầu, Ruby có thể dành cho bạn.
 
 ### Điểm tương đồng
 
 Giống như Perl, trong Ruby,...
 
-* Bạn có một gói quản lý hệ thống, như là CPAN (trong Ruby thì được
-  gọi là [RubyGems][1]).
-* Các regex đã được xây dựng sẵn.
-* Có một số lượng built-ins khá lớn được xây dựng sẵn.
-* Các ngoặc đơn thường tùy chọn.
-* Cách hoạt động của các String cũng tương tự nhau.
-* Có một ký tự phân cách giữa chuỗi và regex khi trích dẫn cú pháp
-  như của Perls (như `%q{(dẫu nháy đơn) này}`, hoặc `%Q{(nháy kép) này}`,
-  và `%w{trích dẫn danh sách các từ}`.
-  Bạn `%Q|có thể|` `%Q(dùng)` ký tự `%Q^khác^` nếu thích.
-* You’ve got double-quotish variable interpolation, though
-  nó `"trông #{như thế} này"` (và bạn có thể đặt bất cứ đoạn mã mình thích vào
+* Bạn có một hệ thống quản lý gói, hơi giống CPAN (được gọi là
+  [RubyGems][1]).
+* Regex được tích hợp sẵn. Bon appétit!
+* Có một số lượng khá lớn các hàm tích hợp thường dùng.
+* Dấu ngoặc đơn thường là tùy chọn.
+* Chuỗi hoạt động cơ bản giống nhau.
+* Có cú pháp phân cách chuỗi và regex tổng quát tương tự như Perl.
+  Nó trông như `%q{this}` (ngoặc đơn), hoặc `%Q{this}` (ngoặc kép),
+  và `%w{this for a single-quoted list of words}`. Bạn `%Q|can|`
+  `%Q(use)` `%Q^other^` dấu phân cách nếu muốn.
+* Bạn có nội suy biến trong ngoặc kép, mặc dù nó `"looks
+  #{like} this"` (và bạn có thể đặt bất kỳ mã Ruby nào bên trong
   `#{}`).
-* Mở rộng lệnh shell bằng `` `backticks` ``.
-* Có tích hợp các công cụ doc (trong Ruby là rdoc).
+* Mở rộng lệnh shell sử dụng `` `backticks` ``.
+* Bạn có các công cụ tài liệu tích hợp (của Ruby gọi là rdoc).
 
 ### Khác biệt
 
-Khác với Perl, trong Ruby,...
+Không giống Perl, trong Ruby,...
 
-* Bạn không cần các quy tắc về ngữ cảnh như Perl.
-* Một biến không giống như đối tượng mà nó có thể tham chiếu.
-  Thay vào đó nó luôn được tham chiếu đến đối tượng.
-* Mặc dù `$` và `@` đôi khi được sử dụng khi khai báo
-  tên biến, chứ không chỉ loại của nó, nó chỉ ra phạm vi (`$`
-  cho toàn cục, `@` cho thể hiện của đối tượng, và
-  `@@` cho thuộc tính của lớp).
-* Các phần tử của mảng đặt trong ngoặc vuông thay vì ngoặc đơn.
-* Kết hợp list từ các list khác không làm cho chúng trở nên lớn hơn.
-  Thay vào đó bạn sẽ nhận được một mảng của mảng.
+* Bạn không có các quy tắc phụ thuộc ngữ cảnh như với Perl.
+* Một biến không giống với đối tượng mà nó tham chiếu đến. Thay vào đó,
+  nó luôn chỉ là một tham chiếu đến một đối tượng.
+* Mặc dù `$` và `@` đôi khi được sử dụng làm ký tự đầu tiên trong
+  tên biến, thay vì chỉ định kiểu, chúng chỉ định phạm vi
+  (`$` cho biến toàn cục, `@` cho instance của đối tượng, và
+  `@@` cho thuộc tính lớp).
+* Mảng được đặt trong ngoặc vuông thay vì ngoặc đơn.
+* Kết hợp danh sách từ các danh sách khác không làm phẳng chúng thành
+  một danh sách lớn. Thay vào đó, bạn nhận được một mảng chứa các mảng.
 * Sử dụng `def` thay vì `sub`.
-* Không cần dấu chấm phẩy ở mỗi cuối dòng. Thay vào đó, bạn kết thúc
-  các chức năng, lớp và các điều kiện với từ khóa `end`.
-* Đối tượng là kiểu dữ liệu chủ đạo. Bạn có thể gọi `foo.to_i`,
-  `foo.to_s`, v.v., nếu bạn muốn chuyển đổi kiểu dữ liệu.
-* Không có `eq`, `ne`, `lt`, `gt`, `ge`, nor `le`.
-* Không có toán tử diamond (`<>`). Bạn có thể sử dụng `IO.some_method`
-  để thay thế.
-* Dấu suy ra `=>` chỉ được dùng cho các chuỗi ký tự hash.
-* Không có `undef`. Trong Ruby bạn có `nil`. `nil` là một đối tượng (như
-  những thứ khác trong Ruby). Không phải là một biến không xác định.
-  Nó sẽ là `false` nếu bạn xem nó như kiểu boolean.
-* Khi kiểm tra đúng sai, chỉ có `false` và `nil` là dành cho các giá trị
-  sai. Tất cả mọi thứ đều là true (bao gồm `0`,`0.0` và `"0"`).
-* Không có [PerlMonks][2]. Mặc dù hộp thư chung của ruby-talk là một nơi
+* Không cần dấu chấm phẩy ở cuối mỗi dòng. Nhân tiện,
+  bạn kết thúc các thứ như định nghĩa hàm, định nghĩa lớp, và câu lệnh
+  case bằng từ khóa `end`.
+* Các đối tượng được định kiểu mạnh. Bạn sẽ phải gọi `foo.to_i`,
+  `foo.to_s`, v.v. một cách thủ công nếu cần chuyển đổi giữa các kiểu.
+* Không có `eq`, `ne`, `lt`, `gt`, `ge`, hay `le`.
+* Không có toán tử kim cương (`<>`).
+  Bạn thường sử dụng `IO.some_method` thay thế.
+* Dấu phẩy béo `=>` chỉ được sử dụng cho hash literal.
+* Không có `undef`. Trong Ruby bạn có `nil`. `nil` là một đối tượng (giống
+  như mọi thứ khác trong Ruby). Nó không giống với một biến chưa được định
+  nghĩa. Nó được đánh giá là `false` nếu bạn coi nó như boolean.
+* Khi kiểm tra giá trị thật, chỉ `false` và `nil` được đánh giá là giá
+  trị false. Mọi thứ khác là true (bao gồm `0`, `0.0`, và `"0"`).
+* Không có [PerlMonks][2]. Tuy nhiên mailing list ruby-talk là một nơi
   rất hữu ích.
 
 

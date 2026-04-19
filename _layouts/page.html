@@ -2,18 +2,80 @@
 layout: default
 ---
 
-<div id="content-wrapper">
-  {% include title.html %}
+{% capture homepage_url %}/{{ page.lang }}/{% endcapture %}
+{% assign is_homepage = false %}
+{% if page.url == homepage_url %}
+  {% assign is_homepage = true %}
+{% endif %}
 
-  <div id="content">
-    {{ content }}
+{% unless is_homepage %}
+<!-- Mobile Navigation Panel (collapsible, full width) -->
+{% capture nav_content %}{% include side_navigation.html %}{% endcapture %}
+<div class="md:hidden bg-stone-50 dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700">
+  <!-- Navigation toggle header -->
+  <button id="nav-toggle" class="flex items-center justify-between w-full px-4 py-3 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors">
+    <span class="flex items-center gap-2 text-sm font-bold text-stone-900 dark:text-stone-100">
+      <span class="icon-menu text-base relative top-0.5" aria-hidden="true"></span>
+      <span id="nav-section-title"></span>
+    </span>
+    <span id="nav-chevron" class="icon-dropdown text-base text-stone-500 dark:text-stone-400 transition-transform"></span>
+  </button>
+
+  <!-- Navigation content panel -->
+  <div id="nav-mobile-panel" class="hidden border-t border-stone-200 dark:border-stone-700">
+    <div class="px-4 pb-6">
+      {{ nav_content }}
+    </div>
   </div>
 </div>
-<hr class="hidden-modern" />
+{% endunless %}
 
-<div id="sidebar-wrapper">
-  <div id="sidebar">
-    {% include sidebar.html %}
-  </div>
+<div class="container px-4 md:px-6 lg:px-8 py-6 md:py-8 lg:py-12">
+  {% if is_homepage %}
+    <!-- Home page: Single column layout -->
+    <div class="max-w-4xl mx-auto">
+      <article id="content-wrapper" class="prose">
+        {% include title.html %}
+
+        <div id="content">
+          {{ content }}
+        </div>
+
+        {% include pagination.html %}
+      </article>
+    </div>
+  {% else %}
+    <!-- Other pages: 3-column layout -->
+    <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-8">
+      <!-- Desktop Navigation (hidden on mobile) -->
+      <div class="hidden md:block md:w-40 lg:w-44 xl:w-56 flex-shrink-0 sticky top-24 self-start max-h-[calc(100vh-6rem)] overflow-y-auto">
+        {% include side_navigation.html %}
+      </div>
+
+      <!-- Main content and TOC wrapper -->
+      <div class="flex-1 min-w-0 flex flex-col gap-6">
+
+      <!-- TOC Section (Mobile/Tablet) -->
+      <div class="lg:hidden mb-6 md:ml-4">
+        {% include toc.html %}
+      </div>
+
+      <!-- Main content -->
+      <article id="content-wrapper" class="prose md:px-4 lg:px-6">
+        {% include title.html %}
+
+        <div id="content">
+          {{ content }}
+        </div>
+
+        {% include pagination.html %}
+      </article>
+    </div>
+
+      <!-- Desktop TOC (hidden below lg) -->
+      <div class="hidden lg:block lg:w-56 xl:w-64 flex-shrink-0 sticky top-24 self-start max-h-[calc(100vh-6rem)] overflow-y-auto">
+        {% include toc.html %}
+      </div>
+    </div>
+  {% endif %}
 </div>
-<hr class="hidden-modern" />

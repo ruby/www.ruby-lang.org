@@ -77,7 +77,7 @@ deutschsprachigen Artikeln. Für weitergehende Fragen steht eine große
 [3]: https://poignant.guide
 [4]: http://www.moccasoft.de/papers/ruby_tutorial
 [5]: http://pine.fm/LearnToProgram/
-[6]: http://www.ruby-doc.org/docs/ProgrammingRuby/
+[6]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
 [8]: http://www.approximity.com/rubybuch2/
 [9]: http://www.ruby-doc.org/core
 [10]: http://www.ruby-doc.org/stdlib

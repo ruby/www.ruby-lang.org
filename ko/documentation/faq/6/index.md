@@ -40,7 +40,7 @@ header: |
 ### 즉시 값(immediate value)과 참조의 차이점은 무엇인가요?
 {: #immediate}
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 `Fixnum`, `true`, `nil`, `false`는 즉시 값으로 구현되어 있습니다. 즉시
 값을 사용하면 변수는 객체에 대한 참조가 아니라 객체 자체를 보유합니다.

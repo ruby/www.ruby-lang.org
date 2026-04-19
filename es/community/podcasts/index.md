@@ -29,6 +29,6 @@ shows.
 ¡También puedes comenzar tu propio podcast sobre Ruby y ser agregado
 a esta lista!
 
-[onrails]: https://onrails.buzzsprout.com/
+[onrails]: https://podcast.rubyonrails.org/
 [rorpodcast]: https://www.therubyonrailspodcast.com
 [rogues]: https://rubyrogues.com

@@ -2,19 +2,21 @@
 layout: news_post
 title: "Phát hành Ruby 2.2.2"
 author: "nagachika"
-translator: "Dôn Đinh"
+translator:
 date: 2015-04-13 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi vui mừng thông báo về việc phát hành Ruby 2.2.2. Đây là một phiên bản nhỏ của seri 2.2.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.2.2.
+Đây là bản phát hành TEENY của nhánh ổn định 2.2.
 
-Phiên bản này đã sửa chữa lỗi bảo mật do lỗ hổng xác minh cho một hostname của OpenSSL extension.
+Bản phát hành này bao gồm bản sửa lỗi bảo mật cho lỗ hổng xác minh hostname của extension OpenSSL.
 
-* [CVE-2015-1855: Xác nhận Hostname Ruby OpenSSL](https://www.ruby-lang.org/en/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
+* [CVE-2015-1855: Ruby OpenSSL Hostname Verification](https://www.ruby-lang.org/vi/news/2015/04/13/ruby-openssl-hostname-matching-vulnerability/)
 
-Ngoài ra còn sửa chữa một số lỗi khác.
-Xem chi tiết tại đây [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog).
+Ngoài ra còn có một số bản sửa lỗi khác.
+Xem [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_2_2/ChangeLog)
+để biết chi tiết.
 
 ## Tải về
 
@@ -46,6 +48,7 @@ Xem chi tiết tại đây [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags
       SHA256: dd96db09348034b21889df1b561c7482ee553558486707503c83908eddb3c768
       SHA512: 7487032e9108ea4b35f909e26c7202994524090b3c237713b8b406917cf65543ec7372d260dcacd5c9b269bb7645e1703b3a64ca3cc2efc8b2135c1d06729246
 
-## Lời Nhắn
+## Nhận xét về bản phát hành
 
-Rất nhiều các committers, nhà phát triển và người dùng đã cung cấp các thông báo lỗi tạo điều kiện cho chúng tôi hoàn thành phiên bản này. Xin trân trọng gửi lời cảm ơn.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn những đóng góp của họ.

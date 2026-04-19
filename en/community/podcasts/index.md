@@ -35,7 +35,7 @@ wisdom to share, get in touch with the creators of these shows.
 
 You can also start your own Ruby podcast and get added to this list!
 
-[onrails]: https://onrails.buzzsprout.com/
+[onrails]: https://podcast.rubyonrails.org/
 [rooftop_ruby]: https://www.rooftopruby.com
 [remote_ruby]: https://www.remoteruby.com
 [rorpodcast]: https://www.therubyonrailspodcast.com

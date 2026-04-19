@@ -8,7 +8,7 @@ phrase = "J'aime Ruby"
 puts phrase
 
 # Écrit "J'*AIME* RUBY"
-phrase['aime'] = "*aime*"
+phrase = phrase.sub("aime", "*aime*")
 puts phrase.upcase
 
 # Écrit "J'*aime* Ruby"

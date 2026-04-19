@@ -1,22 +1,21 @@
 ---
 layout: news_post
-title: "Ra mắt phiên bản Ruby 2.1.3"
+title: "Phát hành Ruby 2.1.3"
 author: "nagachika"
-translator: "Vũ Văn Lý"
+translator:
 date: 2014-09-19 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi hân hạnh thông báo về việc phiên bản 2.1.3 chính thức được ra mắt.
-Đây là một phiên bản vá nằm trong chuỗi các phiên bản ổn định của Ruby 2.1.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.1.3.
+Đây là bản phát hành patchlevel của dòng ổn định 2.1.
 
-Phiên bản lần này bao gồm thay đổi ở full GC timing nhằm giảm thiểu việc tiêu
-tốn bộ nhớ (xem thêm ở [Bug #9607](https://bugs.ruby-lang.org/issues/9607)),
-và nhiều lỗi được sửa khác.
+Bản phát hành này bao gồm thay đổi thời điểm full GC để giảm tiêu thụ bộ nhớ
+(xem [Bug #9607](https://bugs.ruby-lang.org/issues/9607)), và nhiều bản sửa lỗi.
 
-Vui lòng xem thêm tại [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
-để biết thêm thông tin chi tiết.
+để biết chi tiết.
 
 ## Tải về
 
@@ -49,8 +48,7 @@ và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_3/ChangeLog)
       SHA512: d6b06edcab5f6b70810f838ba942ec5072f7018c0b21709884126d997bbd06028ef74f4b2f7bf439255e165599ee6a94e097bcfc52b72d5cfbf16b2e4476316f
 
 
-## Chú thích
+## Ghi chú phát hành
 
-Nhiều lập trình viên, người dùng cung cấp các báo cáo về lỗi đã giúp chúng tôi
-ra mắt phiên bản này.
-Xin cảm ơn tất cả về những đóng góp đáng quý đó.
+Nhiều committer, nhà phát triển và người dùng đã cung cấp báo cáo lỗi đã giúp chúng tôi thực hiện bản phát hành này.
+Cảm ơn sự đóng góp của họ.

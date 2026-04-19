@@ -31,6 +31,6 @@ Ruby bilgisine sahipseniz, bu gösterilerin sahipleri ile temasa geçin.
 
 Ayrıca kendi Ruby podcast'inizi başlatıp bu listeye ekleyebilirsiniz.
 
-[onrails]: https://onrails.buzzsprout.com/
+[onrails]: https://podcast.rubyonrails.org/
 [rorpodcast]: https://www.therubyonrailspodcast.com
 [rogues]: https://rubyrogues.com

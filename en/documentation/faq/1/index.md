@@ -210,7 +210,7 @@ You can search the mailing list archives using
 
 ### How can I thread the mailing list in mutt?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 For some of the Ruby mailing lists, the mailing list software adds a prefix
 to the subject lines, for example `ruby-core:1234`. This can confuse the
@@ -234,7 +234,7 @@ Originally, or historically, it was called “ruby”.
 
 ### Are there any Ruby books?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 * Programming Ruby: The Pragmatic Programmer's Guide,
   (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7,
@@ -257,7 +257,7 @@ Originally, or historically, it was called “ruby”.
 
 ### Which editors provide support for Ruby?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 * [Emacs](http://www.gnu.org/software/emacs/emacs.html)
   or [XEmacs](http://www.xemacs.org/): `ruby-mode.el` is supplied in the Ruby
@@ -270,15 +270,12 @@ Originally, or historically, it was called “ruby”.
   [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim).
 * [Jedit](http://jedit.sourceforge.net/): A portable editor written in Java,
   comes with support for Ruby.
-* [Nedit](http://www.nedit.org): Eric Santonacci has written Ruby support for
-  Nedit, available from
-  [ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz](ftp://ftp.talc.fr/pub/ruby/ruby.nedit-0.1.tar.gz).
 * Barry Shultz has written a Ruby definition file for TextPad, available at
   [https://www.textpad.com/add-ons/synn2t.html](https://www.textpad.com/add-ons/synn2t.html).
 
 ### How can I annotate Ruby code with its results?
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 People commonly annotate Ruby code by showing the results of executing each
 statement as a comment attached to that statement. For example, in the
@@ -315,7 +312,7 @@ In both cases, highlight a region of code and hit Meta-F10 to annotate it.
 
 ### I can't understand Ruby even after reading the manual!
 
-{% include faq-out-of-date.html %}
+{% include warnings/faq-out-of-date.html %}
 
 The syntax of Ruby has been fairly stable since Ruby 1.0, but new features are
 added every now and then. So, the books and the online documentation can get

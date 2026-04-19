@@ -8,7 +8,7 @@ say = "I love Ruby"
 puts say
 
 # Çıktı "I *LOVE* RUBY"
-say['love'] = "*love*"
+say = say.sub("love", "*love*")
 puts say.upcase
 
 # Çıktı "I *love* Ruby"

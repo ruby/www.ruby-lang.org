@@ -26,7 +26,7 @@ Information about Ruby user groups can be found on various websites:
   their home. Meetup provides a number of tools for user groups,
   including: private forums, a place for announcements, automated
   meeting reminders, and a nice RSVP system.
-- [rubyconferences.org/meetups][rc-meetups] now has a list of Ruby Meetup events
+- [RubyEvents.org][rc-meetups] now has a list of Ruby Meetup events
   from around the world.
 - There is a [Google Group][meetups-google-group] for Ruby Meetup Organizers
 - [OnRuby][onruby] - A number of user groups can also be found at OnRuby. OnRuby is an
@@ -44,5 +44,5 @@ group if you're looking for advice on how to start your own group.
 [meetup]: https://www.meetup.com/topics/ruby/
 [onruby]: https://www.onruby.eu/
 [onruby-github]: https://github.com/phoet/on_ruby
-[rc-meetups]: https://rubyconferences.org/meetups/
+[rc-meetups]: https://www.rubyevents.org/events
 [meetups-google-group]: https://groups.google.com/g/ruby-meetups

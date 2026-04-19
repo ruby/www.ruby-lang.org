@@ -10,26 +10,28 @@ Here you will find information about security issues of Ruby.
 ## Reporting Security Vulnerabilities
 
 Security vulnerabilities in the Ruby programming language should be
-reported through our
-[bounty program page at HackerOne](https://hackerone.com/ruby).
+reported through our [HackerOne program page](https://hackerone.com/ruby)
+or via email to security@ruby-lang.org
+([the PGP public key](/security.asc)), which is a private mailing list.
 Please ensure you read the specific details around the scope of
 our program before reporting an issue. Any valid reported problems
 will be published after fixes.
 
 If you have found an issue affecting one of our websites, please
-report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new) or you can check our [Google Groups](https://groups.google.com/g/ruby-security-ann) for security announcements.
+report it [via GitHub](https://github.com/ruby/www.ruby-lang.org/issues/new).
 
 If you have found an issue that affects a specific Ruby community’s gem, follow the
 [instructions on RubyGems.org](http://guides.rubygems.org/security/#reporting-security-vulnerabilities).
 
-To get in touch with the security team directly outside
-of HackerOne, you can send email to security@ruby-lang.org
-([the PGP public key](/security.asc)), which is a private mailing list.
+## Security Mailing List
 
-The members of the mailing list are people who provide Ruby
-(Ruby committers and authors of other Ruby implementations,
+The members of the security@ruby-lang.org mailing list are people who
+provide Ruby (Ruby committers and authors of other Ruby implementations,
 distributors, PaaS platformers).
+
 The members must be individual people, mailing lists are not permitted.
+If you represent one of these organizations, please contact us to
+join the list.
 
 ## Known issues
 
@@ -81,14 +83,14 @@ More known issues:
   published at 16 Aug, 2010.
 * [Buffer over-run in ARGF.inplace\_mode=][13]
   published at 2 Jul, 2010.
-* [WEBrick has an Escape Sequence Injection vulnerability][14]
+* [WEBrick has an Escape Sequence Injection vulnerability (CVE-2009-4492)][14]
   published at 10 Jan, 2010.
 * [Heap overflow in String (CVE-2009-4124)][15]
   published at 7 Dec, 2009.
 * [DoS vulnerability in
-  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/)
+  BigDecimal](/en/news/2009/06/09/dos-vulnerability-in-bigdecimal/ (CVE-2009-1904))
   published at 9 Jun, 2009.
-* [DoS vulnerability in
+* [DoS vulnerability (CVE-2008-3790) in
   REXML](/en/news/2008/08/23/dos-vulnerability-in-rexml/)
   published at 23 Aug, 2008.
 * [Multiple vulnerabilities in

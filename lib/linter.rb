@@ -14,10 +14,12 @@ class Linter
   EXCLUDE_PATTERNS = [
     %r{\A404\.md\z},
     %r{\AREADME\.md\z},
+    %r{\ACLAUDE\.md\z},
     %r{\Aadmin/index\.md},
     %r{\A[^/]*/examples/},
     %r{\A_includes/},
-    %r{\Atest/}
+    %r{\Atest/},
+    %r{\Anode_modules/}
   ].freeze
 
   WHITESPACE_EXCLUSIONS = [
@@ -125,6 +127,7 @@ class Linter
       errors[release] << invalid_url_message(release.post)  if release.post_url_invalid?
       errors[release] << "release date and post date do not match"  if release.date_mismatch?
       errors[release] << missing_post_message(release.post_filename)  if release.post_missing?
+      errors[release] << "release date is a string, not a Date object"  if release.date.is_a?(String)
     end
   end
 

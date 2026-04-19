@@ -2,40 +2,14 @@
 layout: homepage
 title: "Linguagem de Programação Ruby"
 lang: pt
-
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Ruby é...</h1>
-
-      <p>
-      Uma linguagem dinâmica, open source com foco na simplicidade e na
-      produtividade. Tem uma sintaxe elegante de leitura natural e fácil escrita.
-      </p>
-
-      <a href="downloads/" class="download-link">Baixe o Ruby</a>
-      ou
-      <a href="about/">Leia Mais...</a>
-
-    </div>
-    <div id="code"></div>
-  </div>
-
 ---
-{% comment %}
-<!-- {% include unmaintained.html %} -->
 
-<p class="warning">
-Essa tradução de www.ruby-lang.org não tem manutenção ativa
-e pode conter informações obsoletas ou até mesmo erros.
-Favor acessar o <a href="/en/">website original em Inglês</a>
-para um conteúdo mais atualizado.
-</p>
-<p class="warning">
-Se você deseja contribuir ou ajudar a melhorar esse site,
-favor visitar <a href="https://github.com/ruby/www.ruby-lang.org/"> a página do projeto no GitHub</a>.
-</p>
-{% endcomment %}
+{% include home/hero.html %}
+
+
+{% include home/why_ruby.html %}
+
+
+{% include home/community.html %}
+
+{% include home/news_security.html %}

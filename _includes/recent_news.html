@@ -1,0 +1,60 @@
+{% comment %}
+  Recent News component for news post pages
+  Displays latest news posts excluding the current post
+{% endcomment %}
+
+{% if site.data.locales[page.lang].news %}
+  {% assign news_locale = site.data.locales[page.lang].news %}
+{% else %}
+  {% assign news_locale = site.data.locales['en'].news %}
+{% endif %}
+
+{% comment %}Get recent news posts (excluding current post and security posts){% endcomment %}
+{% assign recent_posts = '' | split: '' %}
+
+{% for post in site.categories[page.lang] %}
+  {% unless post.url == page.url %}
+    {% unless post.tags contains 'security' %}
+      {% if recent_posts.size < 4 %}
+        {% assign recent_posts = recent_posts | push: post %}
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
+  {% if recent_posts.size >= 4 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if recent_posts.size > 0 %}
+<section class="not-prose mt-16 p-6 md:p-8 border border-stone-200 dark:border-stone-700 rounded-xl">
+  <h2 class="text-2xl font-bold mb-6">
+    <a href="/{{ page.lang }}/news/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
+      {{ news_locale.recent_news }}<span class="icon-chevron-right text-2xl" aria-hidden="true"></span>
+    </a>
+  </h2>
+
+  <div class="space-y-4">
+    {% for post in recent_posts %}
+    <article class="pb-4 border-b border-stone-200 dark:border-stone-700 last:border-b-0">
+      <h3 class="text-lg font-bold mb-2">
+        <a href="{{ post.url }}" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors">
+          {{ post.title }}
+        </a>
+      </h3>
+
+      <p class="text-stone-600 dark:text-stone-400 text-sm mb-2 line-clamp-2">
+        {{ post.excerpt | strip_html | truncatewords: 25 }}
+      </p>
+
+      <p class="text-xs text-stone-500 dark:text-stone-400">{{ post.date | posted_by:post.author }}</p>
+    </article>
+    {% endfor %}
+  </div>
+
+  <p class="mt-6">
+    <a href="/{{ page.lang }}/news/" class="text-sm text-semantic-text-link hover:text-semantic-text-link-hovered transition-colors inline-flex items-center gap-1">
+      {{ news_locale.more_news }}<span class="icon-chevron-right" aria-hidden="true"></span>
+    </a>
+  </p>
+</section>
+{% endif %}

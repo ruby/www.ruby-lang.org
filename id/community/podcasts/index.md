@@ -36,7 +36,7 @@ Ruby untuk dibagi, hubungi pembuat *podcast* tersebut.
 Anda juga dapat memulai *podcast* Ruby sendiri and menambahkan pada daftar
 berikut!
 
-[onrails]: https://onrails.buzzsprout.com/
+[onrails]: https://podcast.rubyonrails.org/
 [rooftop_ruby]: https://www.rooftopruby.com
 [remote_ruby]: https://www.remoteruby.com
 [rorpodcast]: https://www.therubyonrailspodcast.com

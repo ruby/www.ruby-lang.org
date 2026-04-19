@@ -2,16 +2,25 @@
 layout: news_post
 title: "Phát hành Ruby 2.0.0-p643"
 author: "usa"
-translator: "Nguyễn Đức Giang"
+translator:
 date: 2015-02-25 12:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi vui mừng thông báo về việc phát hành Ruby 2.0.0-p643.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.0.0-p643.
 
-Đây sẽ là phiên bản thường kì cuối cùng được phát hành. Ruby 2.0.0 tiến vào giai đoạn bảo trì an ninh và sẽ không có thêm bản cập nhật trừ trường hợp có lỗi hoặc vấn đề về bảo mật nghiêm trọng được phát hiện. Giai đoạn này dự định sẽ kéo dài 1 năm. Tính từ ngày hôm nay, việc bảo trì Ruby 2.0.0 sẽ kết thúc vào ngày 24 / 02 / 2016. Chúng tôi khuyến khích (các bạn) lên kế hoạch nâng cấp lên các phiên bản Ruby mới hơn, chẳng hạn 2.1 hay 2.2.
+Đây là bản phát hành thông thường cuối cùng của Ruby 2.0.0.
+Ruby 2.0.0 chuyển sang giai đoạn bảo trì bảo mật,
+và sẽ không bao giờ được phát hành trừ khi phát hiện các lỗi hồi quy nghiêm trọng
+hoặc các vấn đề bảo mật.
+Giai đoạn này dự kiến được duy trì trong 1 năm.
+Sau đó, việc bảo trì Ruby 2.0.0 sẽ kết thúc vào ngày 24 tháng 2 năm 2016.
+Chúng tôi khuyến nghị bạn bắt đầu lên kế hoạch chuyển sang các phiên bản Ruby mới hơn, như 2.1 hoặc 2.2.
 
-Phiên bản này cung cấp bản vá cho nhiều lỗi. Vui lòng xem chi tiết tại [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&status_id=5) và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog).
+Bản phát hành này bao gồm nhiều bản sửa lỗi.
+Xem [tickets](https://bugs.ruby-lang.org/projects/ruby-200/issues?set_filter=1&amp;status_id=5)
+và [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_0_0_643/ChangeLog)
+để biết chi tiết.
 
 ## Tải về
 
@@ -43,6 +52,6 @@ Phiên bản này cung cấp bản vá cho nhiều lỗi. Vui lòng xem chi ti�
       SHA256: 0f0ac0b075c924cfdd0e95e66560d99d9de36256af6fe51d375efe9dd0a0b996
       SHA512: 2c5780972bd27f5160c1f7524b3bc221dc8fba857863e53216fc3511df0415003ed1d4bc8c49533a34eedab0de72a261e5d4f2cecc251c64be843194ce3efbb6
 
-## Lời nhắn
+## Nhận xét về bản phát hành
 
-Trân trọng cảm ơn tất cả những người đã đóng góp vào bản cập nhật này cũng như các bản trước đó.
+Cảm ơn tất cả những người đã giúp đỡ cho bản phát hành này và các bản phát hành trước đó.

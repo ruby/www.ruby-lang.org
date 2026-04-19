@@ -4,51 +4,59 @@ title: "Cộng Đồng"
 lang: vi
 ---
 
-Cộng đồng phát triển xung quanh một ngôn ngữ lập trình là một trong những điểm
-lợi thế nhất của ngôn ngữ đó.  Ruby có một cộng đồng phát triển sôi động, thân
-thiện với mọi người ở mọi cấp độ.
+Cộng đồng phát triển xung quanh một ngôn ngữ lập trình là một trong
+những thế mạnh quan trọng nhất của nó. Ruby có một cộng đồng sôi động
+và đang phát triển, luôn thân thiện với mọi người ở mọi trình độ.
 {: .summary}
 
-Nếu bạn muốn tham gia thì dưới đây là một vài nơi để bắt đầu:
+Nếu bạn muốn tham gia, đây là một vài nơi để bắt đầu:
 
-[Các nhóm người dùng Ruby](user-groups/)
-: Nhóm người sử dụng Ruby trong khu vực của bạn là một nơi tuyệt vời để kết
-  nối với những người lập trình Ruby khác.  Các nhóm người dùng Ruby là các nhóm
-  tự phát và thường xuyên có các cuộc gặp gỡ hàng tháng, một hộp thư chung, một
-  website, và nếu như may mắn thì thường xuyên có cả các cuộc hội thảo thảo luận
-  về code.
+[Nhóm người dùng Ruby](user-groups/)
+: Nhóm người dùng Ruby tại địa phương của bạn là một nơi tuyệt vời để
+  kết nối với các lập trình viên Ruby khác. Các nhóm người dùng Ruby
+  tự tổ chức và thường có các buổi gặp mặt hàng tháng, hộp thư chung,
+  trang web, và nếu bạn may mắn, các buổi lập trình thường xuyên.
 
-[Danh sách các hộp thư và các nhóm tin](mailing-lists/)
-: Ruby có một loạt danh sách về các chủ đề và ngôn ngữ khác nhau.  Nếu như bạn
-  có vấn đề gì về Ruby, gửi mail vào hộp thư chung là cách tốt nhất để tìm được
-  câu trả lời.
+[Hộp thư chung và nhóm tin Ruby](mailing-lists/)
+: Ruby có nhiều danh sách về các chủ đề khác nhau và bằng nhiều ngôn
+  ngữ. Nếu bạn có câu hỏi về Ruby, đặt câu hỏi trên hộp thư chung
+  là một cách tuyệt vời để nhận được câu trả lời.
+
+[Máy chủ Discord Ruby (liên kết mời)][ruby-discord]
+: Máy chủ Discord Ngôn ngữ Ruby là nơi bạn có thể trò chuyện với
+  các Rubyist khác, nhận trợ giúp về các câu hỏi Ruby, hoặc giúp đỡ
+  người khác. Discord là một điểm khởi đầu tốt cho các lập trình viên
+  mới và rất dễ tham gia.
 
 [Ruby trên IRC (#ruby)](https://web.libera.chat/#ruby)
-: Kênh ngôn ngữ Ruby IRC là một lựa chọn tuyệt vời để trò chuyện cùng những
-  người dùng Ruby khác.
+: Kênh IRC Ngôn ngữ Ruby là một cách tuyệt vời để trò chuyện với các
+  Rubyist khác.
 
-[Ruby Core](ruby-core/)
-: Bây giờ là thời điểm tuyệt vời để theo dõi sự phát triển của Ruby. Nếu như
-  bạn có hứng thú trong việc giúp đỡ cho sự phát triển của Ruby, bắt đầu ngay
-  ở đây.
+[Lõi Ruby](ruby-core/)
+: Bây giờ là thời điểm tuyệt vời để theo dõi sự phát triển của Ruby.
+  Nếu bạn muốn giúp đỡ với Ruby, hãy bắt đầu từ đây.
 
-[Nhật ký web về Ruby](weblogs/)
-: Trong cộng đồng Ruby, hầu hết các sự việc xảy ra đều được trao đổi trên các
-  blog. Ở đây chúng tôi có một bảng đề xuất chi tiết cho bạn để theo dõi.
+[Blog và Bản tin Ruby](weblogs/)
+: Hầu hết các hoạt động và cập nhật trong cộng đồng Ruby được thảo luận
+  qua blog và bản tin. Đây là danh sách được tuyển chọn để giúp bạn
+  luôn kết nối và cập nhật thông tin.
 
-[Các cuộc hội thảo về Ruby](conferences/)
-: Các lập trình viên Ruby trên khắp thế giới đang nhận được lời mời tham gia
-  các hội thảo, nơi mà họ có thể chia sẻ các báo cáo về tiến độ làm việc, thảo
-  luận về tương lai của Ruby và chào đón những thành viên mới đến với cộng
-  đồng Ruby.
+[Các hội thảo Ruby](conferences/)
+: Các lập trình viên Ruby trên khắp thế giới đang tham gia ngày càng
+  nhiều hội thảo, nơi họ cùng nhau chia sẻ báo cáo về công việc đang
+  tiến hành, thảo luận về tương lai của Ruby, và chào đón những người
+  mới đến cộng đồng Ruby.
 
-Thông tin chung về Ruby
-: * [Ruby Central][ruby-central]
-  * [Ruby at Open Directory Project][ruby-opendir]
-  * [Rails at Open Directory Project][rails-opendir]
+  Ngoài ra, bạn có thể truy cập [RubyEvents.org](https://www.rubyevents.org/) để tìm video về các hội thảo và bài nói chuyện về Ruby.
 
+[Podcast](podcasts/)
+: Nếu bạn thích nghe thảo luận về Ruby hơn là đọc, bạn có thể theo
+  dõi một trong những podcast Ruby tuyệt vời này. Các Rubyist sử dụng
+  podcast của họ để đưa tin về các bản phát hành mới, tin tức cộng đồng,
+  và phỏng vấn các lập trình viên Ruby khác.
 
+[Ruby Central][ruby-central]
+: Ruby Central là một tổ chức phi lợi nhuận chuyên hỗ trợ cộng đồng Ruby trên toàn thế giới.
 
 [ruby-central]: http://rubycentral.org/
-[ruby-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/
-[rails-opendir]: https://dmoztools.net/Computers/Programming/Languages/Ruby/Software/Frameworks/Rails/
+[ruby-discord]: https://discord.gg/ad2acQFtkh

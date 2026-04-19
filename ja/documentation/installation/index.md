@@ -198,8 +198,14 @@ $ pkg install runtime/ruby
 {: #winget}
 WindowsでRubyをインストールするには[Windows Package Manager CLI](https://github.com/microsoft/winget-cli)を利用します。
 
-{% highlight sh %}
-> winget install RubyInstallTeam.Ruby
+{% highlight powershell %}
+> winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+# 例
+> winget install RubyInstallerTeam.Ruby.3.2
+# 利用可能なすべてのバージョンを表示する
+> winget search RubyInstallerTeam.Ruby
+# 注意: プロジェクトで使用する Ruby をインストールする場合、RubyWithDevKit をインストールできます
+> winget install RubyInstallerTeam.RubyWithDevKit.3.2
 {% endhighlight %}
 
 ### Chocolatey package manager for Windows
@@ -333,7 +339,7 @@ $ sudo make install
 [opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
 [homebrew]: http://brew.sh/
-[building-ruby]: https://github.com/ruby/ruby/blob/master/doc/contributing/building_ruby.md
+[building-ruby]: https://docs.ruby-lang.org/en/master/contributing/building_ruby_md.html
 [terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
 [wsl]: https://learn.microsoft.com/ja-jp/windows/wsl/about
 [ruby-build]: https://github.com/rbenv/ruby-build#readme

@@ -1,19 +1,20 @@
 ---
 layout: news_post
-title: "Đề cử giải Ruby Hero 2014"
+title: "Đề cử Giải thưởng Ruby Hero 2014"
 author: "Gregg Pollack"
-translator: "Hiếu Lê"
+translator:
 date: 2014-02-12 14:02:03 +0000
 lang: vi
 ---
 
-Bạn có biết ai đã giúp đỡ bạn trong cộng đồng Ruby trong năm vừa qua? Có thể
-họ chỉ bạn một vài thứ, viết một gem hoặc giúp bạn với các vấn đề kỹ thuật? Nếu
-bạn biết một ai như trên, xin hay dành một chút thời gian [đề cử họ](http://rubyheroes.com/)
-cho giải Ruby Hero.
+Có ai đã giúp đỡ bạn rất nhiều trong cộng đồng Ruby năm qua không? Có thể họ
+đã dạy bạn điều gì đó, viết một gem, hoặc hỗ trợ kỹ thuật cho bạn? Nếu ai đó
+hiện lên trong đầu bạn, vui lòng dành thời gian
+[đề cử họ](http://rubyheroes.com/) cho Giải thưởng Ruby Hero.
 
-Trong 6 năm, tôi đã trao 38 giải cho những người đã cống hiến hết mình cho cộng
-đồng. Nếu bạn muốn thể hiện lòng biết ơn một trong những người được đề cử, xin hãy
-giành thời gian [bình chọn](http://rubyheroes.com/). Xin lưu ý rằng kết quả bình
-chọn sẽ được hội động ban giám khảo bao gồm những 'người hùng' các năm trước
-đánh giá và quyết định suốt 3 tuần trước ngày công bố.
+Trong 6 năm qua, tôi đã trao 38 cúp cho những người trong cộng đồng chúng ta
+mà không nhận được sự công nhận xứng đáng. Trong ba tuần tới, các Ruby Hero
+từ tất cả các năm trước sẽ xem xét các đề cử và quyết định ai sẽ nhận
+giải thưởng (bằng cách này không có cuộc thi phổ biến). Tuy nhiên, đề cử
+của bạn rất quan trọng, vì vậy hãy dành một chút thời gian và lan tỏa lòng
+biết ơn. [Bỏ phiếu ngay hôm nay!](http://rubyheroes.com/)

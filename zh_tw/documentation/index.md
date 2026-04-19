@@ -15,7 +15,7 @@ lang: zh_tw
 
 [docs.ruby-lang.org/en][docs-rlo]: 包含所有 Ruby 2.1 版本之後的文件。
 
-[docs.ruby-lang.org/en/3.4][docs-rlo-3.4]: Ruby 3.4 版本文件。
+[docs.ruby-lang.org/en/4.0][docs-rlo-4.0]: Ruby 4.0 版本文件。
 
 [docs.ruby-lang.org/en/master][docs-rlo-master]: Ruby master 分支版本文件。
 
@@ -177,7 +177,7 @@ lang: zh_tw
 [5]: https://poignant.guide
 [7]: https://www.techotopia.com/index.php/Ruby_Essentials
 [8]: https://pine.fm/LearnToProgram/
-[9]: https://ruby-doc.com/docs/ProgrammingRuby/
+[9]: https://web.archive.org/web/20250512022451/https://ruby-doc.com/docs/ProgrammingRuby/
 [10]: https://pragprog.com/titles/ruby5/programming-ruby-3-3-5th-edition/
 [12]: https://en.wikibooks.org/wiki/Ruby_programming_language
 [16]: https://www.rubydoc.info/
@@ -207,7 +207,7 @@ lang: zh_tw
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
 [docs-rlo]: https://docs.ruby-lang.org/en
-[docs-rlo-3.4]: https://docs.ruby-lang.org/en/3.4
+[docs-rlo-4.0]: https://docs.ruby-lang.org/en/4.0
 [docs-rlo-master]: https://docs.ruby-lang.org/en/master
 [docs-rlo-extension]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [enh-ruby-mode]: https://github.com/zenspider/enhanced-ruby-mode/

@@ -5,7 +5,10 @@ highlighter: rouge
 timezone: UTC
 
 kramdown:
-  auto_ids: false
+  auto_ids: true  # Enable auto IDs for TOC links
+
+include:
+  - _headers
 
 exclude:
   - Gemfile
@@ -16,6 +19,7 @@ exclude:
   - test
   - vendor
   - tsconfig.json
+  - CLAUDE.md
 
 url: https://www.ruby-lang.org
 

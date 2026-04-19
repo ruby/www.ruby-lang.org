@@ -8,7 +8,7 @@ say = "I love Ruby"
 puts say
 
 # "I *LOVE* RUBY" 출력
-say['love'] = "*love*"
+say = say.sub("love", "*love*")
 puts say.upcase
 
 # 다섯 번

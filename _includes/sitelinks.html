@@ -1,8 +1,0 @@
-{% if site.data.locales[page.lang].sitelinks %}
-  {% assign sitelinks = site.data.locales[page.lang].sitelinks %}
-{% else %}
-  {% assign sitelinks = site.data.locales['en'].sitelinks %}
-{% endif %}
-{% for link in sitelinks %}
-  <a href="{{ link.url }}/"{% if link.home %} class="home"{% endif %}>{{ link.text }}</a>
-{% endfor %}

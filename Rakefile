@@ -8,23 +8,28 @@ rescue LoadError => e
   exit(-1)
 end
 
-LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr vi zh_cn zh_tw].freeze
+LANGUAGES = %w[bg de en es fr id it ja ko pl pt ru tr ua vi zh_cn zh_tw].freeze
 CONFIG = "_config.yml"
 
 task default: [:build]
 
+desc "Build CSS with Tailwind"
+task :"build-css" do
+  sh "npm run build-css"
+end
+
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-news-plugin test-linter lint build]
+task test: %i[test-news-plugin test-html-lang-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
-task :build do
+task build: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Build.process({})
 end
 
 desc "Serve the Jekyll site locally"
-task :serve do
+task serve: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Serve.process({})
@@ -127,5 +132,13 @@ Rake::TestTask.new(:"test-news-plugin") do |t|
   t.description = "Run tests for the news archive plugin"
   t.libs = ["test"]
   t.test_files = FileList['test/test_plugin_news.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-html-lang-plugin") do |t|
+  t.description = "Run tests for the HTML language plugin"
+  t.libs = ["test"]
+  t.test_files = FileList['test/test_plugin_html_lang.rb']
   t.verbose = true
 end

@@ -21,14 +21,23 @@ jobs:
       - name: Dump environment
         run: env | sort
       - name: Checkout ruby/www.ruby-lang.org
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           fetch-depth: 1
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854 # v1.190.0
+        uses: ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5 # v1.301.0
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install npm dependencies
+        run: npm ci
+      - name: Build CSS
+        run: npm run build-css
       - name: Dump Ruby version
         run: ruby -v
       - name: Run tests

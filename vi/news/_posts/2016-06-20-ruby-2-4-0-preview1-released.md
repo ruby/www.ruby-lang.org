@@ -2,81 +2,81 @@
 layout: news_post
 title: "Phát hành Ruby 2.4.0-preview1"
 author: "naruse"
-translator: "Tạ Duy Anh"
+translator:
 date: 2016-06-20 09:00:00 +0000
 lang: vi
 ---
 
-Chúng tôi rất hân hạnh được thông báo về việc phát hành Ruby phiên bản
-2.4.0-preview1.
+Chúng tôi vui mừng thông báo phát hành Ruby 2.4.0-preview1.
 
-Phiên bản Ruby 2.4.0-preview1 là phiên bản preview đầu tiên của Ruby 2.4.0.
-Bản preview1 lần này được phát hành sớm hơn so với thông thường vì nó bao gồm rất
-nhiều chức năng và cải tiến. Mọi người đừng ngại
-[phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report) lại cho
-chúng tôi về phiên bản này, vì các chức năng vẫn có thể được thay đổi và cập nhật.
+Ruby 2.4.0-preview1 là bản xem trước đầu tiên của Ruby 2.4.0.
+Bản preview1 này được phát hành sớm hơn bình thường vì nó bao gồm rất
+nhiều tính năng mới và cải tiến.
+Hãy thoải mái
+[gửi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)
+vì bạn vẫn có thể thay đổi các tính năng.
 
-## [Hợp nhất Fixnum và Bignum vào Integer](https://bugs.ruby-lang.org/issues/12005)
+## [Hợp nhất Fixnum và Bignum thành Integer](https://bugs.ruby-lang.org/issues/12005)
 
-Mặc dù chuẩn [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
-không mô tả chi tiết nội dung của lớp (class) Integer, CRuby
-hiện đang tồn tại hai lớp `Integer` : `Fixnum` và `Bignum`. Ruby 2.4 đã thống
-nhất lại và gộp chung 2 lớp này thành 1 lớp có tên là `Integer`.
+Mặc dù [ISO/IEC 30170:2012](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
+không chỉ định chi tiết về lớp Integer,
+CRuby có hai lớp Integer hiển thị: Fixnum và Bignum.
+Ruby 2.4 hợp nhất chúng thành Integer.
 
-## [Lớp String hỗ trợ Unicode trong việc xử lý hoa-thường](https://bugs.ruby-lang.org/issues/10085)
+## [String hỗ trợ ánh xạ chữ hoa/thường Unicode](https://bugs.ruby-lang.org/issues/10085)
 
-Hàm `String/Symbol#upcase/downcase/swapcase/capitalize(!)` ở phiên bản 2.4.0 đã
-hỗ trợ việc biến đổi hoa - thường cho các ký tự Unicode
-(vi du: `'Türkiye'.upcase 'tr' # => 'TÜRKİYE'`).
+`String/Symbol#upcase/downcase/swapcase/capitalize(!)` giờ đây xử lý
+ánh xạ chữ hoa/thường Unicode thay vì chỉ ánh xạ ASCII.
 
-## Cải thiện hiệu năng
+## Cải thiện hiệu suất
 
-Ruby 2.4 cũng bao gồm các cải thiện về hiệu năng song song với các thay đổi
-về chức năng. Sau đây là nội dung của các cải thiện:
+Ruby 2.4 cũng bao gồm các cải thiện hiệu suất sau bao gồm
+các thay đổi ngôn ngữ:
 
 ### [Array#max, Array#min](https://bugs.ruby-lang.org/issues/12172)
 
-`[x, y].max` và `[x, y].min` đã được tinh chỉnh lại để ko tạo các mảng
-tạm (temporary array) trong một số  trường hợp.
+`[x, y].max` và `[x, y].min` được tối ưu hóa để không tạo mảng tạm thời
+trong một số điều kiện nhất định.
 
 ### [Regexp#match?](https://bugs.ruby-lang.org/issues/8110)
 
-Thêm hàm `Regexp#match?`, với chức năng thực hiện việc kiểm tra (match)
-một biểu thức chính quy mà không tạo ra object cho các tham chiếu ngược
-(`back reference`) và thay đổi `$~` nhằm giảm việc khởi tạo các đối tượng.
+Thêm `Regexp#match?`, thực thi khớp biểu thức chính quy mà không tạo
+đối tượng tham chiếu ngược và thay đổi `$~` để giảm cấp phát đối tượng.
 
-### Một số cải tiến khác
+### Các cải thiện hiệu suất khác
 
-* [Tăng tốc độ truy cập biến instance](https://bugs.ruby-lang.org/issues/12274)
+* [tăng tốc truy cập biến instance](https://bugs.ruby-lang.org/issues/12274)
 
-## Debugging
+## Gỡ lỗi
 
 ### [Thread#report_on_exception và Thread.report_on_exception](https://bugs.ruby-lang.org/issues/6647)
 
-Ruby sẽ bỏ qua các exception trong các thread trừ khi có một thread khác tham
-gia vào tiến trình của thread có exception. Tuy nhiên với việc
-set `report_on_exception = true`, bạn có thể nhận biết được việc thread bị
-kết thúc bởi một exception chưa  được xử lý.
+Ruby bỏ qua các ngoại lệ trong thread trừ khi một thread khác tường minh join chúng.
+Với `report_on_exception = true`,
+bạn có thể nhận biết nếu một thread đã chết do một ngoại lệ không được xử lý.
 
-Hãy góp ý thêm cho chúng tôi về giá trị mặc định của `report_on_exception`
-và về việc report-on-GC (thống kê ở Garbage Collection).
+Gửi cho chúng tôi phản hồi về giá trị mặc định nên là gì cho `report_on_exception`
+và về report-on-GC.
 
-### [Khi phát hiện ra Thread Deadlock, Ruby sẽ hiển thị các threads bị lỗi với backtrace và dependency](https://bugs.ruby-lang.org/issues/8214)
+### [Phát hiện deadlock Thread giờ đây hiển thị các thread với backtrace và dependency](https://bugs.ruby-lang.org/issues/8214)
 
-Ruby đã có cơ chế phát hiện deadlock của các threads, tuy nhiên các thông tin
-được báo cáo về deadlock thường không đầy đủ cho việc debug. Từ bản 2.4 trở đi,
-khi phát hiện ra Deadlock, Ruby sẽ hiển thị các thread cùng với backtrace
-và các threads liên quan.
+Ruby có khả năng phát hiện deadlock xung quanh các thread đang chờ, nhưng báo cáo không
+bao gồm đủ thông tin để gỡ lỗi.
+Phát hiện deadlock của Ruby 2.4 hiển thị các thread với backtrace và
+các thread phụ thuộc.
 
-Mời mọi người dùng thử và cảm nhận việc lập trình với Ruby 2.4.0-preview1,
-đồng thời [gửi phản hồi cho chúng tôi](https://github.com/ruby/ruby/wiki/How-To-Report)!
+Hãy thử và tận hưởng lập trình với Ruby 2.4.0-preview1, và
+[gửi cho chúng tôi phản hồi](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
-## Thay đổi đáng chú ý so với phiên bản 2.3
+## Thay đổi đáng chú ý kể từ 2.3
 
-Chi tiết mời xem [Thông tin](https://github.com/ruby/ruby/blob/v2_4_0_preview1/NEWS) và
-[ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog).
+Xem [NEWS](https://github.com/ruby/ruby/blob/v2_4_0_preview1/NEWS)
+và [ChangeLog](https://github.com/ruby/ruby/blob/v2_4_0_preview1/ChangeLog)
+để biết chi tiết.
 
-Với lần cập nhật này, [1140 files đã được cập nhật, bao gồm 33126 insertion và 50993 deletions so với phiên bản 2.3.0](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)!
+Với những thay đổi đó,
+[1140 tập tin thay đổi, 33126 dòng thêm(+), 50993 dòng xóa(-)](https://github.com/ruby/ruby/compare/v2_3_0...v2_4_0_preview1)
+kể từ Ruby 2.3.0!
 
 ## Tải về
 
@@ -108,8 +108,8 @@ Với lần cập nhật này, [1140 files đã được cập nhật, bao gồm
   * SHA256: fd588aea1558b1171f87a3dd342ee207b8995a2c0a8241d7aa15bcfa16036854
   * SHA512: f2fff35ff9157a4b31177b3d6b91bdaad04c22b3c626c3a5e5ec9a31b103f9607b31c909ef27880065cfdbcfa5d6901a6db89d22e0c645666d069c5b6dd1818b
 
-## Lời nhắn của lần release này
+## Ghi chú phát hành
 
-Xem thêm thông tin về kế hoạch release và các nội dung khác ở đây:
+Xem thêm lịch phát hành và thông tin khác:
 
 [ReleaseEngineering24](https://bugs.ruby-lang.org/projects/ruby-master/wiki/ReleaseEngineering24)

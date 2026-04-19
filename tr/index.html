@@ -2,37 +2,14 @@
 layout: homepage
 title: "Ruby Programlama Dili"
 lang: tr
-
-header: |
-  <!-- //-->
-
-intro: |
-  <div id="intro-wrapper">
-    <div id="intro">
-      <h1>Ruby...</h1>
-
-      <p>
-      Verimlilik ve sadelik üzerine odaklanmış, açık kaynak kodlu dinamik bir
-      dildir. Okuması doğal ve yazması kolay zarif bir sözdizimine sahiptir.
-      </p>
-
-      <a href="downloads/" class="download-link">Ruby'yi İndirin</a>
-      veya
-      <a href="about/">Devamını  Okuyun...</a>
-    </div>
-    <div id="code"><noscript><div class="highlight"><pre><code class="ruby">
-      <span class="c1"># Meşhur Hello World</span>
-      <span class="c1"># programı Ruby'de çok</span>
-      <span class="c1"># basit. Şunlar gereksiz:</span>
-      <span class="c1">#</span>
-      <span class="c1"># * Bir &quot;main&quot; metodu</span>
-      <span class="c1"># * Yeni satır</span>
-      <span class="c1"># * Noktalı virgüller</span>
-      <span class="c1">#</span>
-      <span class="c1"># İşte kodumuz:</span>
-
-      <span class="nb">puts</span> <span class="s2">&quot;Hello World!&quot;</span>
-    </code></pre></div></noscript></div>
-  </div>
-
 ---
+
+{% include home/hero.html %}
+
+
+{% include home/why_ruby.html %}
+
+
+{% include home/community.html %}
+
+{% include home/news_security.html %}

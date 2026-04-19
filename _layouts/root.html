@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% if page.lang != null %}
+<html lang="{{ page.lang | to_html_lang }}">
+{% else %}
+<html>
+{% endif %}
+  {{ content }}
+</html>
