@@ -5,7 +5,7 @@ author: "Unknown Author"
 lang: ko
 ---
 
-ruby-lang.org 웹마스터 팀이 자연스러운 콘텐츠 탐색과 루비에 관한 적시
+ruby-lang.org 웹마스터 팀이 자연스러운 콘텐츠 탐색과 제때 Ruby에 관한 
 정보 제공을 목표로 공식 사이트 디자인을 개편했습니다.
 
 현재 미래 공식 사이트의 시험판을 공개했습니다:
