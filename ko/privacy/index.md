@@ -14,11 +14,11 @@ lang: ko
 
 ruby-lang.org는 웹 서버에 도달하는 요청에 대한 접근 로그를 기록하지만, 이 파일들은 디버깅 및 통계 목적으로만 사용합니다.
 
-www.ruby-lang.org에는 GitHub Pages를 사용합니다. [GitHub Pages의 사용 제한](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)을 참고하시기 바랍니다.
+www.ruby-lang.org는 GitHub Pages를 사용합니다. [GitHub Pages의 사용 제한](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection)을 참고하시기 바랍니다.
 
 ## 쿠키
 
-ruby-lang.org 하위의 일부 사이트(예: bugs.ruby-lang.org)는 사용자 환경 설정을 추적하기 위해 쿠키를 사용합니다. 해당 사이트에 로그인하지 않는 한, 쿠키는 개인 정보를 저장하는 데 사용되지 않으며, 쿠키에서 수집된 정보를 외부에 제공하지 않습니다.
+ruby-lang.org의 일부 하위 사이트(예: bugs.ruby-lang.org)는 사용자 환경 설정을 추적하기 위해 쿠키를 사용합니다. 해당 사이트에 로그인하지 않는 한, 쿠키는 개인정보를 저장하는 데 사용되지 않으며, 쿠키에서 수집된 정보를 외부에 제공하지 않습니다.
 
 ## 감사의 말
 
