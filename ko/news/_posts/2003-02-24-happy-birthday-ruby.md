@@ -6,7 +6,7 @@ lang: ko
 ---
 
 (dblack이 'Happy Birthday, Ruby, and an announcement….'라는 글을
-[ruby-talk:65632]에 올렸습니다. 이하 발췌.)
+\[ruby-talk:65632\]에 올렸습니다. 이하 발췌.)
 
 > 오늘, 2003년 2월 24일은 Ruby의 10번째 생일입니다. 생일 축하합니다,
 > Ruby! 그리고 Matz에게도 축하를!

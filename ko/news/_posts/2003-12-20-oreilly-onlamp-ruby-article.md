@@ -5,11 +5,11 @@ author: "Unknown Author"
 lang: ko
 ---
 
-Mike Stok이 "Ruby의 현재와 미래"라는 제목으로 제3회 국제 Ruby 컨퍼런스에
+Mike Stok이 "Ruby의 현재와 미래"라는 제목으로 제3회 국제 Ruby 콘퍼런스에
 대한 뛰어난 [요약 기사][1]를 작성했으며, O'Reilly의 [ONLamp][2] 사이트
 첫 페이지에 게재되었습니다.
 
-컨퍼런스 이후 추가 정보는 Jim Weirich의 [사이트][3] 또는 Ryan Davis의
+콘퍼런스 이후 추가 정보는 Jim Weirich의 [사이트][3] 또는 Ryan Davis의
 RubyConf 발표 [아카이브][4]를 참조하세요.
 
 

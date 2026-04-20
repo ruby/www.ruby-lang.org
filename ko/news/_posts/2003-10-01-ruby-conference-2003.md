@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 컨퍼런스 2003"
+title: "Ruby 콘퍼런스 2003"
 author: "sughimsi"
 lang: ko
 ---
