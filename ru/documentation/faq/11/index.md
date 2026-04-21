@@ -1,69 +1,63 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
     <strong>11</strong>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Other features
+## Другие возможности
 
-### What does `a ? b : c` mean?
+### Что означает `a ? b : c`?
 
-This is the so-called “ternary operator” and is the same as saying
-`if a then b else c end`.
+Это так называемый «тернарный оператор», и он эквивалентен записи `if a then b else c end`.
 
-### How can I count the number of lines in a file?
+### Как я могу подсчитать количество строк в файле?
 
-The following code may give the fastest result.
+Следующий код может дать самый быстрый результат.
 
 ~~~
 File.readlines("example").size  # => 3
 ~~~
 
-### What do `MatchData#begin` and `MatchData#end` return?
+### Что возвращают `MatchData#begin` и `MatchData#end`?
 
-They act with `$~`, and return the start index and the end index of
-the matched data in the original string. See an example in
-[tab expansion](../9/#tab-expansion).
+Они работают с `$~` и возвращают начальный и конечный индексы совпавших данных в исходной строке. Смотрите пример в разделе [развертывание табуляции](../9/#tab-expansion).
 
-### How can I sum the elements in an array?
+### Как я могу просуммировать элементы массива?
 
 {% include warnings/faq-out-of-date.html %}
 
-Rather than solve the specific problem, let's solve the general case.
-The first thing we will do is produce a method that will iterate over
-an `Enumerable` object and collect a single result. Smalltalk calls that
-method inject, so we will too:
+Вместо решения конкретной задачи, давайте решим её в общем виде. Первое, что мы сделаем — создадим метод, который будет итерироваться по объекту `Enumerable` и собирать единый результат. В Smalltalk этот метод называется inject, так же назовем его и мы:
 
 ~~~
 module Enumerable
@@ -77,12 +71,7 @@ module Enumerable
 end
 ~~~
 
-Notice how we have added the method to `Enumerable`. This means that anything
-that includes Enumerable can now use `inject`. But how do we use it? It takes
-a single argument `n` and a block. For each element in the thing being
-enumerated, it calls the block, passing in `n` and the element itself.
-The result of the block is assigned back to `n`. So, to define `sum`,
-we could write:
+Обратите внимание, как мы добавили метод в `Enumerable`. Это означает, что все, что включает в себя Enumerable, теперь может использовать `inject`. Но как нам его использовать? Он принимает один аргумент `n` и блок. Для каждого перечисляемого элемента он вызывает блок, передавая `n` и сам элемент. Результат выполнения блока присваивается обратно в `n`. Таким образом, чтобы определить `sum`, мы могли бы написать:
 
 ~~~
 module Enumerable
@@ -95,17 +84,13 @@ end
 (1..100).sum     # => 5050
 ~~~
 
-### How can I use continuations?
+### Как я могу использовать продолжения (continuations)?
 
 {% include warnings/faq-out-of-date.html %}
 
-Ruby's continuations allow you to create an object representing a place in a
-Ruby program, and then return to that place at any time (even if it has
-apparently gone out of scope). Continuations can be used to implement complex
-control structures, but are typically more useful as ways of confusing people.
+Продолжения (continuations) в Ruby позволяют создать объект, представляющий определенное место в программе на Ruby, а затем вернуться в это место в любое время (даже если оно, казалось бы, вышло за пределы области видимости). Продолжения можно использовать для реализации сложных структур управления, но обычно они более полезны как способ запутать людей.
 
-In [\[ruby-talk:4482\]][ruby-talk:4482], Jim Weirich posted the following
-examples of continuations:
+В [\[ruby-talk:4482\]][ruby-talk:4482], Jim Weirich опубликовал следующие примеры использования продолжений:
 
 ~~~
 # --------------------------------------------------------------------

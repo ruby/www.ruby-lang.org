@@ -1,51 +1,49 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
     <strong>8</strong>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Classes and modules
+## Классы и модули
 
-### Can a class definition be repeated?
+### Может ли определение класса повторяться?
 
-A class can be defined repeatedly. Each definition is added to the last
-definition. If a method is redefined, the former one is overridden and lost.
+Класс можно определять многократно. Каждое определение добавляется к предыдущему. Если метод переопределяется, старый метод замещается и теряется.
 
-### Are there class variables?
+### Существуют ли переменные класса?
 
-There are. A variable prefixed with two at signs (`@@`) is a class variable,
-accessible within both instance and class methods of the class.
+Да. Переменная с префиксом из двух символов «собака» (`@@`) — это переменная класса, доступная как в методах экземпляра, так и в методах класса.
 
 ~~~
 class Entity
@@ -72,12 +70,11 @@ entities[6].who_am_i  # => "I'm 7 of 9"
 Entity.total          # => 9
 ~~~
 
-However, you probably should use _class instance variables_ instead.
+Однако вам, вероятно, стоит использовать _переменные экземпляра класса_ (class instance variables) вместо них.
 
-### What is a class instance variable?
+### Что такое переменная экземпляра класса?
 
-Here the example of the previous section rewritten
-using a class instance variable:
+Вот пример из предыдущего раздела, переписанный с использованием переменной экземпляра класса:
 
 ~~~
 class Entity
@@ -109,24 +106,15 @@ Entity.instances      # => 9
 Entity.total          # => 9
 ~~~
 
-Here, `@instances` is a _class_ instance variable. It does not belong
-to an instance of class `Entity`, but to the class object `Entity`,
-which is an instance of class `Class`.
+Здесь `@instances` — это переменная экземпляра _класса_. Она принадлежит не экземпляру класса `Entity`, а самому объекту класса `Entity`, который является экземпляром класса `Class`.
 
-Class instance variables are directly accessible only within class methods
-of the class.
+Переменные экземпляра класса доступны напрямую только внутри методов класса.
 
-### What is the difference between class variables and class instance variables?
+### В чем разница между переменными класса и переменными экземпляра класса?
 
-The main difference is the behavior concerning inheritance:
-class variables are shared between a class and all its subclasses,
-while class instance variables only belong to one specific class.
+Основное различие заключается в поведении при наследовании: переменные класса разделяются между классом и всеми его подклассами, в то время как переменные экземпляра класса принадлежат только одному конкретному классу.
 
-Class variables in some way can be seen as global variables within
-the context of an inheritance hierarchy, with all the problems
-that come with global variables.
-For instance, a class variable might (accidentally) be reassigned
-by any of its subclasses, affecting all other classes:
+Переменные класса в некотором роде можно рассматривать как глобальные переменные в контексте иерархии наследования со всеми вытекающими проблемами. Например, переменная класса может быть (случайно) переприсвоена любым из подклассов, что повлияет на все остальные классы:
 
 ~~~
 class Woof
@@ -148,8 +136,7 @@ LoudWoof.sound  # => "WOOF"
 Woof.sound      # => "WOOF" (!)
 ~~~
 
-Or, an ancestor class might later be reopened and changed,
-with possibly surprising effects:
+Или класс-предок может быть позже открыт заново и изменен, что приведет к неожиданным эффектам:
 
 ~~~
 class Foo
@@ -170,22 +157,16 @@ end
 Foo.var  # => "object" (!)
 ~~~
 
-So, unless you exactly know what you are doing and explicitly need
-this kind of behavior, you better should use class instance variables.
+Поэтому, если вы точно не знаете, что делаете, и вам не требуется именно такое поведение, лучше использовать переменные экземпляра класса.
 
-### Does Ruby have class methods?
+### Есть ли в Ruby методы класса?
 {: #class-method}
 
-A [singleton method](../7/#singleton-method) of a class object is called a
-class method.
-(Actually, the class method is defined in the metaclass, but that is pretty
-much transparent). Another way of looking at it is to say that a class method
-is a method whose receiver is a class.
+[Синглтон-метод](../7/#singleton-method) объекта класса называется методом класса. (На самом деле метод класса определяется в метаклассе, но это происходит практически незаметно). Другой способ взглянуть на это — сказать, что метод класса — это метод, получателем которого является класс.
 
-It all comes down to the fact that you can call class methods without having
-to have instances of that class (objects) as the receiver.
+Все сводится к тому, что вы можете вызывать методы класса, не имея экземпляров этого класса (объектов) в качестве получателя.
 
-Let's create a singleton method of class `Foo`:
+Давайте создадим синглтон-метод класса `Foo`:
 
 ~~~
 class Foo
@@ -199,18 +180,15 @@ end
 Foo.test  # => "this is foo"
 ~~~
 
-In this example, `Foo.test` is a class method.
+В этом примере `Foo.test` является методом класса.
 
-Instance methods which are defined in class `Class` can be used
-as class methods for every(!) class.
+Методы экземпляра, определенные в классе `Class`, могут использоваться как методы класса для каждого(!) класса.
 
-### What is a singleton class?
+### Что такое синглтон-класс?
 
-A singleton class is an anonymous class that is created by subclassing the
-class associated with a particular object. Singleton classes are another
-way of extending the functionality associated with just one object.
+Синглтон-класс (singleton class) — это анонимный класс, который создается путем наследования класса, связанного с конкретным объектом. Синглтон-классы — это еще один способ расширения функциональности только одного объекта.
 
-Take the lowly `Foo`:
+Возьмем скромный `Foo`:
 
 ~~~
 class Foo
@@ -223,8 +201,7 @@ foo = Foo.new
 foo.hello  # => "hello"
 ~~~
 
-Now let's say we need to add class-level functionality to just this one
-instance:
+Теперь допустим, нам нужно добавить функциональность на уровне класса только для этого одного экземпляра:
 
 ~~~
 class << foo
@@ -240,30 +217,26 @@ foo.hello         # => "hello, I'm Tom"
 Foo.new.hello     # => "hello"
 ~~~
 
-We've customized `foo` without changing the characteristics of `Foo`.
+Мы настроили `foo` без изменения характеристик `Foo`.
 
-### What is a module function?
+### Что такое функция модуля?
 
 {% include warnings/faq-out-of-date.html %}
 
-A module function is a private, singleton method defined in a module.
-In effect, it is similar to a [class method](#class-method),
-in that it can be called using the `Module.method` notation:
+Функция модуля — это приватный синглтон-метод, определенный в модуле. По сути, она похожа на [метод класса](#class-method) тем, что её можно вызвать с использованием нотации `Module.method`:
 
 ~~~
 Math.sqrt(2)  # => 1.414213562
 ~~~
 
-However, because modules can be mixed in to classes, module functions can
-also be used without the prefix (that's how all those `Kernel` functions are
-made available to objects):
+Однако, поскольку модули могут быть подмешаны в классы, функции модуля также могут использоваться без префикса (именно так все функции `Kernel` становятся доступными объектам):
 
 ~~~
 include Math
 sqrt(2)  # => 1.414213562
 ~~~
 
-Use `module_function` to make a method a module function.
+Используйте `module_function`, чтобы сделать метод функцией модуля.
 
 ~~~
 module Test
@@ -274,37 +247,27 @@ module Test
 end
 ~~~
 
-### What is the difference between a class and a module?
+### В чем разница между классом и модулем?
 
-Modules are collections of methods and constants. They cannot generate
-instances. Classes may generate instances (objects), and have per-instance
-state (instance variables).
+Модули — это коллекции методов и констант. Они не могут создавать экземпляры. Классы могут создавать экземпляры (объекты) и имеют состояние для каждого экземпляра (переменные экземпляра).
 
-Modules may be mixed in to classes and other modules. The mixed in module's
-constants and methods blend into that class's own, augmenting the class's
-functionality. Classes, however, cannot be mixed in to anything.
+Модули могут быть подмешаны (mixed in) в классы и другие модули. Константы и методы подмешанного модуля смешиваются с собственными константами и методами класса, дополняя его функциональность. Однако классы нельзя подмешить во что-либо.
 
-A class may inherit from another class, but not from a module.
+Класс может наследоваться от другого класса, но не от модуля.
 
-A module may not inherit from anything.
+Модуль не может наследоваться ни от чего.
 
-### Can you subclass modules?
+### Можно ли создавать подклассы модулей?
 
-No. However, a module may be included in a class or another module to mimic
-multiple inheritance (the mixin facility).
+Нет. Однако модуль может быть включен в класс или другой модуль, чтобы имитировать множественное наследование (механизм примесей).
 
-This does not generate a subclass (which would require inheritance), but does
-generate an `is_a?` relationship between the class and the module.
+Это не создает подкласс (для чего потребовалось бы наследование), но создает отношение `is_a?` между классом и модулем.
 
-### Give me an example of a mixin
+### Дайте мне пример примеси (mixin)
 
-The module `Comparable` provides a variety of comparison operators
-(`<`, `<=`, `==`, `>=`, `>`, `between?`). It defines these in terms
-of calls to the general comparison method, `<=>`. However, it does
-not itself define `<=>`.
+Модуль `Comparable` предоставляет различные операторы сравнения (`<`, `<=`, `==`, `>=`, `>`, `between?`). Он определяет их через вызовы общего метода сравнения `<=>`. Однако сам он не определяет `<=>`.
 
-Say you want to create a class where comparisons are based on the number of
-legs an animal has:
+Допустим, вы хотите создать класс, в котором сравнение основано на количестве ног у животного:
 
 ~~~
 class Animal
@@ -336,16 +299,11 @@ p.between?(s, c)  # => true
 [p, s, c].sort    # => [snake, parrot, cat]
 ~~~
 
-All `Animal` must do is define its own semantics for the operator `<=>`,
-and mix in the `Comparable` module. `Comparable`'s methods now become
-indistinguishable from `Animal`'s and your class suddenly sprouts new
-functionality. And because the same `Comparable` module is used by many
-classes, your new class will share a consistent and well understood semantics.
+Все, что должен сделать `Animal`, — это определить собственную семантику для оператора `<=>` и подмешить модуль `Comparable`. Методы `Comparable` теперь становятся неотличимы от методов `Animal`, и ваш класс внезапно обретает новую функциональность. А поскольку один и тот же модуль `Comparable` используется многими классами, ваш новый класс будет иметь согласованную и понятную семантику.
 
-### Why are there two ways of defining class methods?
+### Почему существует два способа определения методов класса?
 
-You can define a class method in the class definition, and you can define
-a class method at the top level.
+Вы можете определить метод класса внутри определения класса или на верхнем уровне.
 
 ~~~
 class Demo
@@ -357,22 +315,16 @@ def Demo.another_class_method
 end
 ~~~
 
-There is only one significant difference between the two.
-In the class definition you can refer to the class's constants directly,
-as the constants are within scope. At the top level, you have to use the
-`Class::CONST` notation.
+Между ними есть только одно существенное различие. В определении класса вы можете обращаться к константам класса напрямую, так как они находятся в области видимости. На верхнем уровне вам придется использовать нотацию `Class::CONST`.
 
-### What is the difference between `include` and `extend`?
+### В чем разница между `include` и `extend`?
 
 {% include warnings/faq-out-of-date.html %}
 
-`include` mixes a module into a class or another module. Methods from that
-module are called function-style (without a receiver).
+`include` подмешивает модуль в класс или другой модуль. Методы из этого модуля вызываются в стиле функций (без получателя).
 
-`extend` is used to include a module in an object (instance).
-Methods in the module become methods in the object.
+`extend` используется для включения модуля в объект (экземпляр). Методы модуля становятся методами объекта.
 
-### What does `self` mean?
+### Что означает `self`?
 
-`self` is the currently executing receiver, the object to which a method
-is applied. A function-style method call implies `self` as the receiver.
+`self` — это текущий исполняемый получатель, объект, к которому применяется метод. Вызов метода в стиле функции подразумевает `self` в качестве получателя.

@@ -1,69 +1,60 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
     <strong>10</strong>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Extension library
+## Библиотека расширений
 
-### How can I use Ruby interactively?
+### Как я могу использовать Ruby интерактивно?
 {: #irb}
 
 {% include warnings/faq-out-of-date.html %}
 
-You can try using `irb`. The following is paraphrased from Kentaro Goto
-(Gotoken), and originally appeared in [\[ruby-talk:444\]][ruby-talk:444].
+Вы можете попробовать использовать `irb`. Ниже приведено переложение текста Kentaro Goto (Gotoken), который изначально появился в [\[ruby-talk:444\]][ruby-talk:444].
 
-1. Get the latest tarball of `irb` from the
-   [contrib directory](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/)
-   in the Ruby archive.
-2. Extract the `irb` directory tree.
-3. Add the location of the `irb/` directory to the `$RUBYLIB`
-   environment variable.
-4. Make a symbolic link from `$RUBYLIB/irb/irb.rb` to a file called `irb`
-   somewhere in your path.
+1. Получите последний тарбол `irb` из [директории contrib](ftp://ftp.netlab.co.jp/pub/lang/ruby/contrib/) в архиве Ruby.
+2. Распакуйте дерево директорий `irb`.
+3. Добавьте путь к директории `irb/` в переменную окружения `$RUBYLIB`.
+4. Создайте символическую ссылку из `$RUBYLIB/irb/irb.rb` на файл с именем `irb` где-нибудь в вашем пути PATH.
 5. `chmod +x $RUBYLIB/irb/irb.rb`
-6. Possibly use `rehash` to tell your login shell about the new command.
-7. Type `irb`.
+6. Возможно, используйте `rehash`, чтобы сообщить вашей оболочке о новой команде.
+7. Введите `irb`.
 
-If the readline extension module works with your interpreter, it makes `irb`
-a lot more fun to use.
+Если модуль расширения readline работает с вашим интерпретатором, это сделает использование `irb` гораздо приятнее.
 
-There is also a simple program, `eval`, in the `samples/` directory of the
-Ruby distribution. It lets you enter expressions and view their values.
-You can copy `eval` into the `site_ruby` directory in the Ruby tree, and
-then invoke it using:
+В директории `samples/` дистрибутива Ruby также есть простая программа `eval`. Она позволяет вводить выражения и просматривать их значения. Вы можете скопировать `eval` в директорию `site_ruby` в дереве Ruby, а затем вызывать её с помощью:
 
 ~~~
 ruby -r eval -e0
@@ -71,75 +62,54 @@ ruby -r eval -e0
 
 [ruby-talk:444]: https://blade.ruby-lang.org/ruby-talk/444
 
-### Is there a debugger for Ruby?
+### Есть ли отладчик для Ruby?
 
-There is a gdb-like debugger for Ruby.
+Для Ruby существует gdb-подобный отладчик.
 
 ~~~
 ruby -r debug your_program
 ~~~
 
-### How can I use a library written in C from Ruby?
+### Как я могу использовать библиотеку, написанную на C, из Ruby?
 
-Of all the scripting languages, Ruby is probably the easiest to extend.
-There are no problems with reference counting and variable types, and very
-few interfaces to learn. In fact, C code used to extend Ruby often ends up
-looking surprisingly like Ruby code itself.
+Из всех скриптовых языков Ruby, вероятно, проще всего расширять. Здесь нет проблем с подсчетом ссылок и типами переменных, и нужно изучить совсем немного интерфейсов. На самом деле код на C, используемый для расширения Ruby, часто в итоге выглядит удивительно похожим на сам код Ruby.
 
-First, read the `doc/extension.rdoc` file in the Ruby source,
-or read [extension.rdoc on docs.ruby-lang.org][extension-rdoc].
-This is a good document, not only if you are writing an extension library,
-but also if you want to understand Ruby more deeply.
+Сначала прочитайте файл `doc/extension.rdoc` в исходниках Ruby или прочитайте [extension.rdoc на docs.ruby-lang.org][extension-rdoc]. Это отличный документ не только если вы пишете библиотеку расширения, но и если вы хотите глубже понять Ruby.
 
-Then, the RubyGems site provides a
-[guide on creating gems with extensions][rubygems-guide].
-It shows how to setup a gem with C extensions that are built at install time.
-It has also links to some existing gems that wrap C libraries and
-to further reading.
+Затем сайт RubyGems предоставляет [руководство по созданию гемов с расширениями][rubygems-guide]. В нем показано, как настроить гем с расширениями на C, которые собираются во время установки. Там также есть ссылки на некоторые существующие гемы, которые оборачивают библиотеки на C, и материалы для дальнейшего чтения.
 
-You might also want to have a look at the source of the interpreter itself,
-and at the various supplied extensions in the `ext/` directory
-(you can browse the [Ruby repository on GitHub][ruby-github]).
+Вы также можете взглянуть на исходный код самого интерпретатора и на различные поставляемые расширения в директории `ext/` (вы можете просмотреть [репозиторий Ruby на GitHub][ruby-github]).
 
 [extension-rdoc]: https://docs.ruby-lang.org/en/master/extension_rdoc.html
 [rubygems-guide]: http://guides.rubygems.org/gems-with-extensions/
 [ruby-github]:    https://github.com/ruby/ruby
 
-### Can I use Tcl/Tk in Ruby?
+### Могу ли я использовать Tcl/Tk в Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
-There are two interfaces to Tcl/Tk included in the standard distribution.
-One is under `ext/tcltk/` and loaded with `require "tcltk"`. The syntax is
-very close to that Tcl which is passed on to the Tcl interpreter.
-Unfortunately, the description for this library is written in Japanese.
+В стандартный дистрибутив включены два интерфейса к Tcl/Tk. Один находится в `ext/tcltk/` и загружается с помощью `require "tcltk"`. Синтаксис очень близок к синтаксису Tcl, который передается интерпретатору Tcl. К сожалению, описание этой библиотеки написано на японском языке.
 
-The other is under `ext/tk/` and loaded with `require "tk"`. Its syntax
-is closer to the style of the Tk interface provided by the Perl and Python
-interfaces.
+Другой находится в `ext/tk/` и загружается с помощью `require "tk"`. Его синтаксис ближе к стилю интерфейса Tk, предоставляемого интерфейсами Perl и Python.
 
-### Tk won't work. Why?
+### Tk не работает. Почему?
 
 {% include warnings/faq-out-of-date.html %}
 
-Your Tk version may be old, try a newer version.
+Ваша версия Tk может быть старой, попробуйте более новую версию.
 
-### Can I use gtk+ or xforms interfaces in Ruby?
-
-{% include warnings/faq-out-of-date.html %}
-
-You will find `ruby-gtk-x.xx.tar.gz` and `ruby-forms-x.x.tar.gz`
-under `contrib/` on the Ruby ftp sites.
-
-### How can I do date arithmetic?
+### Могу ли я использовать интерфейсы gtk+ или xforms в Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
-A `Time` object can express only the dates between Jan 1, 1970 and
-Jan 19, 2038.
+Вы найдете `ruby-gtk-x.xx.tar.gz` и `ruby-forms-x.x.tar.gz` в директории `contrib/` на ftp-сайтах Ruby.
 
-Two standard extension library modules are provided:
-`require "date"`, which is simple and uses the English calendar,
-and `require "date2"`, which is more general purpose.
+### Как я могу выполнять арифметические операции с датами?
 
-Also see `sample/cal.rb`.
+{% include warnings/faq-out-of-date.html %}
+
+Объект `Time` может выражать только даты между 1 января 1970 года и 19 января 2038 года.
+
+Предоставляются два стандартных модуля библиотеки расширений: `require "date"`, который прост и использует английский календарь, и `require "date2"`, который более универсален.
+
+Также смотрите `sample/cal.rb`.

@@ -1,55 +1,47 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
     <strong>7</strong>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Methods
+## Методы
 
-### How does Ruby choose which method to invoke?
+### Как Ruby выбирает, какой метод вызвать?
 
-Ruby binds all messages to methods dynamically. It searches first for
-singleton methods in the receiver, then for methods defined in the receiver's
-own class, and finally for methods defined in the receiver's superclasses
-(including any modules which may have been mixed in). You can see the order
-of searching by displaying `ClassName.ancestors`, which shows the ancestor
-classes and modules of `ClassName`.
+Ruby связывает все сообщения с методами динамически. Сначала он ищет синглтон-методы у получателя, затем методы, определенные в собственном классе получателя, и, наконец, методы, определенные в суперклассах получателя (включая любые модули, которые могли быть подмешаны). Вы можете увидеть порядок поиска, выведя `ClassName.ancestors`, который показывает классы-предки и модули `ClassName`.
 
-If after searching the alternatives a matching method could not be found,
-Ruby tries to invoke a method called `method_missing`, repeating the same
-search procedure to find it. This allows you to handle messages to unknown
-methods, and is often used to provide dynamic interfaces to classes.
+Если после поиска альтернатив подходящий метод не был найден, Ruby пытается вызвать метод с именем `method_missing`, повторяя ту же процедуру поиска для его нахождения. Это позволяет вам обрабатывать сообщения к неизвестным методам и часто используется для предоставления динамических интерфейсов классам.
 
 ~~~
 module Emphasizable
@@ -68,12 +60,9 @@ String.ancestors
 "Wow!".emphasize  # => "**Wow!**"
 ~~~
 
-When the method `emphasize` is searched for, it is not found in class
-`String`, so Ruby searches next in the module `Emphasizable`.
+Когда ищется метод `emphasize`, он не обнаруживается в классе `String`, поэтому Ruby ищет далее в модуле `Emphasizable`.
 
-In order to override a method that already exists in the receiver's class,
-e.g. `String#capitalize`, you need to insert the module into the
-ancestor chain in front of that class, by using `prepend`:
+Для того чтобы переопределить метод, который уже существует в классе получателя, например `String#capitalize`, вам нужно вставить модуль в цепочку предков перед этим классом, используя `prepend`:
 
 ~~~
 module PrettyCapitalize
@@ -92,10 +81,9 @@ String.ancestors
 "hello".capitalize  # => "**Hello**"
 ~~~
 
-### Are `+`, `-`, `*`, ... operators?
+### Являются ли `+`, `-`, `*`, ... операторами?
 
-`+`, `-`, and the like are not operators but method calls.
-They can, therefore, be overloaded by new definitions.
+`+`, `-` и тому подобные являются не операторами, а вызовами методов. Поэтому они могут быть перегружены новыми определениями.
 
 ~~~
 class MyString < String
@@ -105,17 +93,15 @@ class MyString < String
 end
 ~~~
 
-However, the following are built-in control structures, not methods,
-which cannot be overridden:
+Однако следующие являются встроенными структурами управления, а не методами, и их нельзя переопределить:
 
 ~~~
 =, .., ..., not, ||, &&, and, or, ::
 ~~~
 
-To overload or to define the unary `+` and `-` operators,
-you need to use `+@` and `-@` as the method names.
+Чтобы перегрузить или определить унарные операторы `+` и `-`, вам нужно использовать `+@` и `-@` в качестве имен методов.
 
-`=` is used to define a method to set an attribute of the object:
+`=` используется для определения метода установки атрибута объекта:
 
 ~~~
 class Test
@@ -128,20 +114,18 @@ t = Test.new
 t.attribute = 1
 ~~~
 
-If operators such as `+` and `-` are defined, Ruby automatically handles
-the self assignment forms (`+=`, `-=`, and so on).
+Если определены такие операторы, как `+` и `-`, Ruby автоматически обрабатывает формы самоприсваивания (`+=`, `-=`, и так далее).
 
-### Where are `++` and `--` ?
+### Где `++` и `--` ?
 
-Ruby does not have the autoincrement and autodecrement operators.
-You can use `+= 1` and `-= 1` instead.
+В Ruby нет операторов автоинкремента и автодекремента. Вместо них вы можете использовать `+= 1` и `-= 1`.
 
-### What is a singleton method?
+### Что такое синглтон-метод?
 {: #singleton-method}
 
-A singleton method is an instance method associated with one specific object.
+Синглтон-метод (singleton method) — это метод экземпляра, связанный с одним конкретным объектом.
 
-You create a singleton method by including the object in the definition:
+Вы создаете синглтон-метод, включая объект в определение:
 
 ~~~
 class Foo; end
@@ -157,20 +141,18 @@ foo.hello
 bar.hello
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 Hello
-prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NoMethodError)
+prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NameError)
 ~~~
 
-Singleton methods are useful when you want to add a method to an object and
-creating a new subclass is not appropriate.
+Синглтон-методы полезны, когда вы хотите добавить метод к объекту, а создание нового подкласса нецелесообразно.
 
-### All these objects are fine, but does Ruby have any simple functions?
+### Все эти объекты — это прекрасно, но есть ли в Ruby обычные функции?
 
-Yes and no. Ruby has methods that look like functions in languages such
-as C or Perl:
+И да, и нет. В Ruby есть методы, которые выглядят как функции в таких языках, как C или Perl:
 
 ~~~
 def hello(name)
@@ -180,38 +162,27 @@ end
 hello("World")
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 Hello, World!
 ~~~
 
-However, they are actually method calls with the receiver omitted.
-In this case, Ruby assumes the receiver is self.
+Однако на самом деле это вызовы методов с опущенным получателем. В этом случае Ruby предполагает, что получателем является `self`.
 
-So, `hello` resembles a function but it's actually a method belonging to
-class `Object` and sent as a message to the hidden receiver self.
-Ruby is a pure object-oriented language.
+Таким образом, `hello` напоминает функцию, но на самом деле это метод, принадлежащий классу `Object` и отправляемый как сообщение скрытому получателю `self`. Ruby — это чистый объектно-ориентированный язык.
 
-Of course you can use such methods as if they were functions.
+Конечно, вы можете использовать такие методы, как если бы они были функциями.
 
-### So where do all these function-like methods come from?
+### Откуда же берутся все эти методы, похожие на функции?
 
-Almost all classes in Ruby are derived from class `Object`. The definition
-of class `Object` mixes in the methods defined in the `Kernel` module.
-These methods are therefore available within every object in the system.
+Почти все классы в Ruby производны от класса `Object`. Определение класса `Object` подмешивает методы, определенные в модуле `Kernel`. Таким образом, эти методы доступны внутри каждого объекта в системе.
 
-Even if you are writing a simple Ruby program without classes, you are
-actually working inside class `Object`.
+Даже если вы пишете простую программу на Ruby без классов, вы на самом деле работаете внутри класса `Object`.
 
-### Can I access an object's instance variables?
+### Могу ли я получить доступ к переменным экземпляра объекта?
 
-An object's instance variables (those variables starting with `@`) are not
-directly accessible outside the object. This promotes good encapsulation.
-However, Ruby makes it easy for you to define accessors to these instance
-variables in such a way that users of your class can treat instance variables
-just like attributes. Just use one or more of `attr_reader`, `attr_writer`,
-or `attr_accessor`.
+Переменные экземпляра объекта (те переменные, которые начинаются с `@`) недоступны напрямую вне объекта. Это способствует хорошей инкапсуляции. Однако Ruby позволяет вам легко определять аксессоры (accessors) к этим переменным экземпляра таким образом, чтобы пользователи вашего класса могли обращаться с переменными экземпляра так же, как с атрибутами. Просто используйте один или несколько из `attr_reader`, `attr_writer` или `attr_accessor`.
 
 ~~~
 class Person
@@ -230,21 +201,11 @@ p.wearing_a_hat = true
 p.wearing_a_hat  # => true
 ~~~
 
-You can also define your own accessor functions (perhaps to perform
-validation, or to handle derived attributes). The read accessor is simply a
-method that takes no parameters, and the assignment accessor is a method name
-ending in `=` that takes a single parameter. Although there can be no space
-between the method name and the `=` in the method definition, you can insert
-spaces there when you call the method, making it look like any other
-assignment. You can also utilize self assignments such as `+=` and `-=`,
-as long as the corresponding `+` or `-` methods are defined.
+Вы также можете определить свои собственные функции доступа (возможно, для выполнения валидации или обработки производных атрибутов). Аксессор для чтения — это просто метод без параметров, а аксессор для присваивания — это имя метода, заканчивающееся на `=`, который принимает один параметр. Хотя в определении метода между именем метода и `=` не может быть пробела, вы можете вставлять пробелы при вызове метода, что делает его похожим на любое другое присваивание. Вы также можете использовать самоприсваивания, такие как `+=` и `-=`, при условии, что определены соответствующие методы `+` или `-`.
 
-### What's the difference between `private` and `protected`?
+### В чем разница между `private` и `protected`?
 
-The visibility keyword `private` makes a method callable only in a function
-form, without an explicit receiver, and so it can only have `self` as its
-receiver. A private method is callable only within the class in which the
-method was defined or in its subclasses.
+Ключевое слово видимости `private` делает метод вызываемым только в форме функции, без явного получателя, и поэтому он может иметь только `self` в качестве своего получателя. Приватный метод можно вызвать только внутри класса, в котором этот метод был определен, или в его подклассах.
 
 ~~~
 class Test
@@ -272,7 +233,7 @@ end
 t1.test(t2)
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 99
@@ -282,9 +243,7 @@ prog.rb:8:in `test': private method `foo' called for #<Test:0x00000000b57a48> (N
         from prog.rb:23:in `<main>'
 ~~~
 
-Protected methods are also callable only from within their own class or
-its subclasses, but they can be called both in function form and using
-a receiver. For example:
+Защищенные (protected) методы также можно вызвать только из их собственного класса или его подклассов, но их можно вызывать как в форме функции, так и с использованием получателя. Например:
 
 ~~~
 def <=>(other)
@@ -292,16 +251,13 @@ def <=>(other)
 end
 ~~~
 
-Will compile if `age` is a protected method, but not if it is private.
+Скомпилируется, если `age` — защищенный метод, но не если он приватный.
 
-These features help you control access to your class's internals.
+Эти возможности помогают вам контролировать доступ к внутренностям вашего класса.
 
-### How can I change the visibility of a method?
+### Как я могу изменить видимость метода?
 
-You change the visibility of methods using `private`, `protected`, and
-`public`. When used without parameters during a class definition, they affect
-the visibility of subsequent methods. When used with parameters, they change
-the visibility of the named methods.
+Вы меняете видимость методов, используя `private`, `protected` и `public`. Когда они используются без параметров в определении класса, они влияют на видимость последующих методов. При использовании с параметрами они изменяют видимость указанных методов.
 
 ~~~
 class Foo
@@ -315,13 +271,13 @@ foo = Foo.new
 foo.test
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 prog.rb:9:in `<main>': private method `test' called for #<Foo:0x0000000284dda0> (NoMethodError)
 ~~~
 
-You can make a class method private using `private_class_method`.
+Вы можете сделать метод класса приватным, используя `private_class_method`.
 
 ~~~
 class Foo
@@ -334,68 +290,42 @@ end
 Foo.test
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 prog.rb:8:in `<main>': private method `test' called for Foo:Class (NoMethodError)
 ~~~
 
-The default visibility for the methods defined in a class is public.
-The exception is the instance initializing method, `initialize`.
+По умолчанию видимость методов, определенных в классе, является публичной (`public`). Исключением является метод инициализации экземпляра `initialize`.
 
-Methods defined at the toplevel are also public by default.
+Методы, определенные на верхнем уровне, также являются публичными по умолчанию.
 
-### Can an identifier beginning with a capital letter be a method name?
+### Может ли идентификатор, начинающийся с заглавной буквы, быть именем метода?
 
-Yes, it can, but we don't do it lightly! If Ruby sees a capitalized name
-followed by a space, it will probably (depending on the context) assume it's
-a constant, not a method name. So, if you use capitalized method names,
-always remember to put parameter lists in parentheses, and always put the
-parentheses next to the method name with no intervening spaces.
-(This last suggestion is a good idea anyway!)
+Да, может, но мы не делаем этого просто так! Если Ruby видит имя с большой буквы, за которым следует пробел, он, вероятно (в зависимости от контекста), предположит, что это константа, а не имя метода. Поэтому, если вы используете имена методов с большой буквы, всегда помните о том, что списки параметров нужно заключать в скобки, и всегда ставьте скобки сразу после имени метода без пробелов. (Этот последний совет полезен в любом случае!)
 
-### Calling `super` gives an `ArgumentError`.
+### Вызов `super` выдает `ArgumentError`.
 
-Invoking `super` with no parameters in a method passes all the arguments of
-that method to a method of the same name in a superclass. If the number of
-arguments to the original method disagrees with that of the higher-level
-method, an `ArgumentError` is raised. To get around this, simply call `super`
-and pass a suitable number of arguments.
+Вызов `super` без параметров в методе передает все аргументы этого метода методу с тем же именем в суперклассе. Если количество аргументов в исходном методе не совпадает с количеством аргументов в методе более высокого уровня, возникает ошибка `ArgumentError`. Чтобы обойти это, просто вызовите `super` и передайте подходящее количество аргументов.
 
-### How can I call the method of the same name two levels up?
+### Как я могу вызвать метод с тем же именем на два уровня выше?
 
-`super` invokes the same named method one level up. If you are overloading a
-method in a more distant ancestor, use `alias` to give it a new name before
-masking it with your method definition. You can then call it using that
-aliased name.
+`super` вызывает одноименный метод на один уровень выше. Если вы перегружаете метод у более далекого предка, используйте `alias`, чтобы дать ему новое имя перед тем, как скрыть его своим определением метода. Затем вы сможете вызвать его по этому новому имени.
 
-### How can I invoke an original built-in method after redefining it?
+### Как я могу вызвать оригинальный встроенный метод после его переопределения?
 
-Within the method definition, you can use `super`. You can also use `alias`
-to give it an alternative name. Finally, you can call the original method as
-a singleton method of `Kernel`.
+Внутри определения метода вы можете использовать `super`. Также вы можете использовать `alias`, чтобы дать ему альтернативное имя. Наконец, вы можете вызвать оригинальный метод как синглтон-метод `Kernel`.
 
-### What is a destructive method?
+### Что такое деструктивный метод?
 {: #destructive-method}
 
-A destructive method is one which alters the state of an object. `String`,
-`Array`, `Hash`, and others have such methods. Often there are two
-versions of a method, one with a plain name, the other with the same name,
-but followed by `!`. The plain version creates a copy of the receiver, makes
-its change to it, and returns the copy. The “bang” version (with the `!`)
-modifies the receiver in place.
+Деструктивный метод — это метод, который изменяет состояние объекта. `String`, `Array`, `Hash` и другие имеют такие методы. Часто существуют две версии метода: одна с обычным именем, другая с тем же именем, но с восклицательным знаком `!` в конце. Обычная версия создает копию получателя, вносит в неё изменения и возвращает копию. Версия с восклицательным знаком (с `!`) модифицирует получателя на месте.
 
-Beware, however, that there are a fair number of destructive methods that
-do not have an `!`, including assignment methods (`name=`), array assignment
-(`[]=`), and methods such as `Array.delete`.
+Однако имейте в виду, что существует немало деструктивных методов, у которых нет `!`, включая методы присваивания (`name=`), присваивание в массив (`[]=`) и такие методы, как `Array.delete`.
 
-### Why can destructive methods be dangerous?
+### Почему деструктивные методы могут быть опасны?
 
-Remember that assignment in most cases just copies object references, and that
-parameter passing is equivalent to assignment. This means you can end up with
-multiple variables referencing the same object. If one of those variables is
-used to invoke a destructive method, the object referenced by all of them will
-be changed.
+Помните, что присваивание в большинстве случаев просто копирует ссылки на объекты, и что передача параметров эквивалентна присваиванию. Это означает, что у вас может оказаться несколько переменных, ссылающихся на один и тот же объект. Если одна из этих переменных используется для вызова деструктивного метода, объект, на который ссылаются все они, будет изменен.
 
 ~~~
 def foo(str)
@@ -407,11 +337,11 @@ foo(obj)     # => "baz"
 obj          # => "baz"
 ~~~
 
-In this case the actual argument is altered.
+В этом случае фактический аргумент изменяется.
 
-### Can I return multiple values from a method?
+### Могу ли я вернуть несколько значений из метода?
 
-Yes and no.
+И да, и нет.
 
 ~~~
 def m1
@@ -426,9 +356,7 @@ m1  # => [1, 2, 3]
 m2  # => [1, 2, 3]
 ~~~
 
-So, only one thing is returned, but that thing can be an arbitrarily complex
-object. In the case of arrays, you can use multiple assignment to get the
-effect of multiple return values. For example:
+Таким образом, возвращается только одна вещь, но эта вещь может быть сколь угодно сложным объектом. В случае массивов вы можете использовать множественное присваивание для получения эффекта возврата нескольких значений. Например:
 
 ~~~
 def foo
