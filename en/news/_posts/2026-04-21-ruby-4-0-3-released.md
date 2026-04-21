@@ -11,7 +11,7 @@ Ruby 4.0.3 has been released.
 
 This release only contains ERB 6.0.1.1, which fixes [CVE-2026-41316](https://www.ruby-lang.org/en/news/2026/04/21/erb-cve-2026-41316/).
 
-If your application calls Marshal.load on untrusted data AND has both erb and activesupport loaded, please update your ERB to one of those versions. You can use this Ruby 4.0.3 release to do so.
+If your application calls Marshal.load on untrusted data AND has both erb and activesupport loaded, please update your ERB to 4.0.3.1, 4.0.4.1, 6.0.1.1, 6.0.4 or later. You can use this Ruby 4.0.3 release to do so.
 
 ## Release Schedule
 
