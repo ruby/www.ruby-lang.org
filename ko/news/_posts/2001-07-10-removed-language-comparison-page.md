@@ -1,15 +1,15 @@
 ---
 layout: news_post
-title: "Removed language comparison page"
+title: "언어 비교 페이지 삭제"
 author: "NaHi"
 lang: ko
 ---
 
-Matz decided to remove the page.
+Matz가 페이지를 삭제하기로 결정했습니다.
 
 
 
 
-    "I removed the link to the language comparison page,
-    because there're too many people to take it too serious.
-    It was supposed to be funny."
+    "언어 비교 페이지 링크를 삭제했습니다. 너무 많은 사람들이
+    이것을 지나치게 진지하게 받아들이기 때문입니다.
+    원래 재미를 위한 페이지였습니다."
