@@ -1,17 +1,17 @@
 ---
 layout: news_post
-title: "Ruby Conference 2003"
+title: "Ruby 콘퍼런스 2003"
 author: "sughimsi"
 lang: ko
 ---
 
-[Ruby Conference 2003][1] will soon be held in November 14-16, 2003, on
-Austin, Texas U.S.A.
+[Ruby Conference 2003][1]이 2003년 11월 14일부터 16일까지 미국 텍사스주
+오스틴에서 곧 개최됩니다.
 
-[The registration is open][2]. Sign in! Full registration will be open
-until Sunday, October 26.
+[등록이 시작][2]되었습니다. 지금 신청하세요! 정규 등록은 10월 26일
+일요일까지 가능합니다.
 
-See also [\[ruby-talk:83169\]][3], and [\[ruby-talk:84427\]][4].
+[\[ruby-talk:83169\]][3]와 [\[ruby-talk:84427\]][4]도 참조하세요.
 
 
 

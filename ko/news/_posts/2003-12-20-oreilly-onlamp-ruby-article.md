@@ -1,16 +1,16 @@
 ---
 layout: news_post
-title: "O'Reilly ONLamp Ruby article"
+title: "O'Reilly ONLamp Ruby 기사"
 author: "Unknown Author"
 lang: ko
 ---
 
-Mike Stok has written an excellent [ recap][1] of the 3rd International
-Ruby Conference, featured on the front page of O’Reilly’s [ ONLamp][2]
-site, entitled “Ruby’s Present and Future”.
+Mike Stok이 "Ruby의 현재와 미래"라는 제목으로 제3회 국제 Ruby 콘퍼런스에
+대한 뛰어난 [요약 기사][1]를 작성했으며, O'Reilly의 [ONLamp][2] 사이트
+첫 페이지에 게재되었습니다.
 
-For additional post-conference information, see Jim Weirich’s [ site][3]
-or Ryan Davis’s [ Archive][4] of the RubyConf presentations.
+콘퍼런스 이후 추가 정보는 Jim Weirich의 [사이트][3] 또는 Ryan Davis의
+RubyConf 발표 [아카이브][4]를 참조하세요.
 
 
 
