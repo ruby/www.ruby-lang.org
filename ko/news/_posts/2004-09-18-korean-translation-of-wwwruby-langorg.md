@@ -1,12 +1,11 @@
 ---
 layout: news_post
-title: "Korean translation of www.ruby-lang.org"
+title: "www.ruby-lang.org 한국어 번역 공개"
 author: "Shugo Maeda"
 lang: ko
 ---
 
-[Korean translation of www.ruby-lang.org][1] is available. Thanks to
-Bryan Kang.
+[www.ruby-lang.org 한국어 번역][1]이 공개되었습니다. Bryan Kang 님께 감사드립니다.
 
 
 
