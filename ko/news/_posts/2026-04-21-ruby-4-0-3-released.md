@@ -2,7 +2,7 @@
 layout: news_post
 title: "Ruby 4.0.3 릴리스"
 author: k0kubun
-translator: "shia"
+translator: "copilot"
 date: 2026-04-21 08:45:44 +0000
 lang: ko
 ---
