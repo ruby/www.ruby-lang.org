@@ -9,7 +9,7 @@ lang: ja
 
 Ruby 3.4.6 がリリースされました。
 
-このリリースは定期的なアップデートであり、バグ修正を含みます。詳しくは [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_6) を参照して下さい。
+このリリースは定期的なアップデートであり、バグ修正を含みます。詳しくは [release notes on GitHub](https://github.com/ruby/ruby/releases/tag/v3_4_6) を参照してください。
 
 ## リリーススケジュール
 
