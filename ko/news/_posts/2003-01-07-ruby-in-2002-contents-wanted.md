@@ -1,20 +1,19 @@
 ---
 layout: news_post
-title: "Ruby In 2002: Contents Wanted"
+title: "Ruby In 2002: 콘텐츠 모집"
 author: "tamura"
 lang: ko
 ---
 
-Here on the Ruby Garden Wiki comes [a page][1] to compile Ruby’s year
-2002 and plans on 2003. The deadline is January 9. RubyIn2002
-[http://www.rubygarden.org/ruby?RubyIn2002][1] This page supports a
-following plan: “The Year in Scripting
-Languages(Lua/Perl/Python/Ruby/Tcl)”. The aim of that is to encourage
-these scripting language communities to collaborate with each other; its
-first step is to know neighbors, which will lead us to be able to share
-our efforts on scriptings. The chair person is Mitchell N. Charity. see
-also: [\[ruby-talk:60604\]][2], [\[ruby-talk:60731\]][3] Final result
-can be seen at [http://www.vendian.org/language\_year/][4].
+Ruby Garden Wiki에 Ruby의 2002년을 정리하고 2003년의 계획을 담을 [페이지][1]가
+생겼습니다. 마감일은 1월 9일입니다. RubyIn2002
+[http://www.rubygarden.org/ruby?RubyIn2002][1] 이 페이지는 다음 계획을
+지원합니다: "스크립팅 언어의 한 해(Lua/Perl/Python/Ruby/Tcl)". 이 목표는
+스크립팅 언어 커뮤니티들이 서로 협력하도록 장려하는 것이며, 첫 번째 단계는
+이웃을 알아가는 것으로, 이를 통해 스크립팅에 대한 노력을 공유할 수 있게
+됩니다. 의장은 Mitchell N. Charity입니다. 참조:
+[\[ruby-talk:60604\]][2], [\[ruby-talk:60731\]][3] 최종 결과는
+[http://www.vendian.org/language\_year/][4]에서 확인할 수 있습니다.
 
 
 

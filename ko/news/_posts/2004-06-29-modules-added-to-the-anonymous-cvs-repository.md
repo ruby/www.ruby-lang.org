@@ -1,14 +1,14 @@
 ---
 layout: news_post
-title: "modules added to the Anonymous CVS repository"
+title: "익명 CVS 저장소에 모듈 추가"
 author: "Shugo Maeda"
 lang: ko
 ---
 
-These checked modules are added to the Anonymous CVS repository.
+검증된 다음 모듈들이 익명 CVS 저장소에 추가되었습니다.
 
 * app
-* lib(except soap4r,csv)
+* lib(soap4r, csv 제외)
 * eruby
 * oniguruma
 * rough

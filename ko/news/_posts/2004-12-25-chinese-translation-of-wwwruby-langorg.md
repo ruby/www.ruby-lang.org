@@ -1,12 +1,11 @@
 ---
 layout: news_post
-title: "Chinese translation of www.ruby-lang.org"
+title: "www.ruby-lang.org 중국어 번역 공개"
 author: "Shugo Maeda"
 lang: ko
 ---
 
-[Chinese translation of www.ruby-lang.org][1] is available now. Thanks,
-KOBAYASHI Toshihito.
+[www.ruby-lang.org 중국어 번역][1]이 공개되었습니다. KOBAYASHI Toshihito 님께 감사드립니다.
 
 
 

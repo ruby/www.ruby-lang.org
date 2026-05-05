@@ -1,13 +1,10 @@
 ---
 layout: news_post
-title: "Ruby-talk Mailing Posting Policy Change"
+title: "Ruby-talk 메일링 리스트 게시 정책 변경"
 author: "Unknown Author"
 lang: ko
 ---
 
-The ruby-talk mailing has changed its posting policy. The list now
-requires one to be a member before posting a message. This is a change
-from the previous “anyone may post” policy. If you’ve sent some recent
-list messages, but have not seen them on the list, check if you’re using
-an appropriate “from” address, and look for any automated list admin
-messages coming back.
+ruby-talk 메일링 리스트의 게시 정책이 변경되었습니다. 이제 메시지를 게시하려면 리스트에 가입되어 있어야 합니다.
+이전의 "누구나 게시 가능" 정책에서 변경된 것입니다. 최근에 리스트에 메시지를 보냈지만 목록에서 보이지 않는다면,
+적절한 "발신자" 주소를 사용하고 있는지 확인하시고, 리스트 관리자로부터 오는 자동 메시지가 있는지 확인해 보세요.
