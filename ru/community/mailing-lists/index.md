@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Почтовая рассылка"
+title: "Почтовые рассылки"
 lang: ru
 ---
 
@@ -12,11 +12,11 @@ lang: ru
 
 Ruby-Talk
 : Это наиболее популярная почтовая рассылка, рассматривая основные
-  вопросы о Ruby. ([Архив][3])
+  вопросы о Ruby. ([Архив][3], [Posting Guidelines][guidelines], [Community Archive][rubytalk])
 
 Ruby-Core
 : Эта рассылка для обсуждения ядра и внутреннего устройства Ruby. Часто
-  используется для демонстрации патчей. ([Архив][4])
+  используется для демонстрации патчей. ([Архив][4]
 
 Ruby-Doc
 : Данная рассылка служит для обсуждения инструментов и стандартов документации
@@ -27,15 +27,19 @@ Ruby-CVS
 
 Новостная группа comp.lang.ruby
 : Те, кто предпочитает Usenet почтовой рассылке, возможно захотят
-взглянуть на [comp.lang.ruby](news:comp.lang.ruby) новостную группу.
+взглянуть на [comp.lang.ruby](news:comp.lang.ruby) новостную группу. ([FAQ][clrFAQ])
 
 
 ## Подписаться или не подписаться
 
-[Подписаться или не подписаться](https://ml.ruby-lang.org/mailman3/lists/)
+Смотрите [https://ml.ruby-lang.org/mailman3/lists/](https://ml.ruby-lang.org/mailman3/lists/)
+для дополнительной информации обо всех списках рассылки на ruby-lang.org,
+включая списки на японском языке.
 
 
-
+[guidelines]: ruby-talk-guidelines/
+[clrFAQ]: http://rubyhacker.com/clrFAQ.html
 [3]: https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/
 [4]: https://ml.ruby-lang.org/archives/list/ruby-core@ml.ruby-lang.org/
 [5]: https://ml.ruby-lang.org/archives/list/ruby-doc@ml.ruby-lang.org/
+[rubytalk]: https://rubytalk.org/
