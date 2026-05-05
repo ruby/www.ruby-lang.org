@@ -1,22 +1,15 @@
 ---
 layout: page
-title: "The Ruby Community Conduct Guideline"
+title: "Руководство по поведению в сообществе Ruby"
 lang: ru
 ---
 
-We have picked the following conduct guideline based on an early proposed draft
-of the PostgreSQL CoC, for Ruby developers community for safe, productive
-collaboration.
-Each Ruby related community (conference etc.) may pick their own Code of Conduct.
+Мы выбрали следующее руководство по поведению, основанное на раннем проекте CoC PostgreSQL, для сообщества разработчиков Ruby в целях безопасного и продуктивного сотрудничества. Каждое сообщество, связанное с Ruby (конференции и т. д.), может выбрать свой собственный Кодекс поведения (Code of Conduct).
 {: .summary}
 
-This document provides community guidelines for a safe, respectful, productive,
-and collaborative place for any person who is willing to contribute to the Ruby
-community. It applies to all "collaborative space", which is defined as
-community communications channels (such as mailing lists, submitted patches,
-commit comments, etc.).
+Этот документ содержит рекомендации сообщества по созданию безопасного, уважительного, продуктивного и совместного пространства для любого человека, который готов внести свой вклад в сообщество Ruby. Он применяется ко всему «совместному пространству», под которым понимаются каналы коммуникации сообщества (такие как списки рассылки, отправленные патчи, комментарии к коммитам и т. д.).
 
- * Participants will be tolerant of opposing views.
- * Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.
- * When interpreting the words and actions of others, participants should always assume good intentions.
- * Behaviour which can be reasonably considered harassment will not be tolerated.
+ * Участники будут терпимы к противоположным взглядам.
+ * Участники должны гарантировать, что их высказывания и действия не содержат личных нападок и уничижительных замечаний.
+ * При интерпретации слов и действий других всегда следует исходить из добрых намерений.
+ * Поведение, которое может быть обоснованно расценено как домогательство (harassment), не будет допускаться.
