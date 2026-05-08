@@ -1,82 +1,62 @@
 ---
 layout: page
-title: "Posting Guidelines for the Ruby-Talk Mailing List"
+title: "Правила публикации в списке рассылки Ruby-Talk"
 lang: ru
 ---
 
-You should follow these guidelines when posting to the ruby-talk mailing list.
+Вы должны следовать этим правилам при публикации в списке рассылки ruby-talk.
 {: .summary}
 
 
-1. **Always** be friendly, considerate, tactful, and tasteful. We want to
-   keep this list hospitable to the growing ranks of newbies, very
-   young people, and their teachers, as well as cater to fire breathing
-   wizards. :-)
+1. **Всегда** будьте дружелюбны, внимательны, тактичны и вежливы. Мы хотим, чтобы этот список оставался гостеприимным для растущего числа новичков, совсем юных участников и их учителей, а также отвечал потребностям огнедышащих магов. :-)
 
-2. Keep your content relevant and easy to follow. Try to keep your
-   content brief and to the point, but also try to include all relevant
-   information.
+2. Следите за тем, чтобы ваш контент был релевантным и легко читаемым. Старайтесь излагать свои мысли кратко и по существу, но при этом включайте всю необходимую информацию.
 
-   1. The general format guidelines (aka Netiquette) are
-      matters of common sense and common courtesy that make life
-      easier for third parties to follow along (in real time or when
-      perusing archives):
+   1. Общие правила форматирования (так называемый Нетикет) — это вопросы здравого смысла и элементарной вежливости, которые облегчают жизнь третьим лицам при чтении (в реальном времени или при изучении архивов):
 
-      * **Please note:**
-        Include quoted text from previous posts **before** your responses
-        and **selectively** quote as much as is relevant.
-      * Use **plain text**; don't use HTML, RTF, or Word.
-        Most email programs have an option for this; if yours doesn't,
-        get a (free) program or use a web-based service that does.
-      * Include examples from files as **in-line** text; don't use
-        attachments.
+      * **Обратите внимание:** Вставляйте цитируемый текст из предыдущих сообщений **перед** вашими ответами и цитируйте **выборочно**, только то, что имеет отношение к делу.
+      * Используйте **обычный текст** (plain text); не используйте HTML, RTF или Word. В большинстве почтовых программ есть такая опция; если в вашей её нет, скачайте (бесплатную) программу или воспользуйтесь веб-сервисом, где она есть.
+      * Включайте примеры из файлов как **встроенный** (in-line) текст; не используйте вложения.
 
-   2. If reporting a problem, give **all** the relevant information
-      the first time; this isn't the psychic friends newsgroup. :-)
+   2. Если сообщаете о проблеме, предоставляйте **всю** релевантную информацию сразу; это не новостная группа экстрасенсов. :-)
 
-      When appropriate, include:
+      Если уместно, укажите:
 
-      * an example (preferably simple) that produces the problem
-      * the actual error messages
-      * the version of Ruby (`ruby -v`)
-      * the OS type and version (`uname -a`)
-      * the compiler name and version used to build Ruby
+      * пример (желательно простой), который воспроизводит проблему
+      * фактические сообщения об ошибках
+      * версию Ruby (`ruby -v`)
+      * тип и версию ОС (`uname -a`)
+      * название и версию компилятора, использованного для сборки Ruby
 
-3. Make the subject line maximally informative, so that people who
-   should be interested will read your post and so that people who
-   wouldn't be interested can easily avoid it.
+3. Сделайте тему письма максимально информативной, чтобы люди, которым это должно быть интересно, прочитали ваш пост, а те, кому это не интересно, могли легко его пропустить.
 
-   **Usefully** describe the contents of your post.
+   **Полезно** опишите содержимое вашего поста.
 
-   This is OK:
+   Так правильно:
 
    * "How can I do x with y on z?"
    * "Problem: did x, expected y, got z."
    * "BUG: doing x with module y crashed z."
 
-   This is **not** OK:
+   Так **не** правильно:
 
    * "Please help!!!"
    * "Newbie question"
    * "Need Ruby guru to tell me what's wrong"
 
-   These prefixes have become common for subject lines:
+   Эти префиксы стали общепринятыми для тем сообщений:
 
-   * `[ANN]` (for announcements)
-   * `[BUG]` (for bug reports)
-   * `[OT]`  (for off-topic, if you must post off-topic)
+   * `[ANN]` (для анонсов)
+   * `[BUG]` (для отчетов об ошибках)
+   * `[OT]`  (для оффтопа, если вам необходимо написать не по теме)
 
-4. Finally, be considerate: Don't be too lazy. If you are seeking
-   information, first make a reasonable effort to look it up. As
-   appropriate, check the [Ruby home page][ruby-lang],
-   check the [Ruby FAQ][faq] and other documentation,
-   use a search engine to search past postings, and so on.
+4. Наконец, будьте внимательны: не ленитесь. Если вы ищете информацию, сначала приложите разумные усилия, чтобы найти её самостоятельно. По мере необходимости проверяйте [домашнюю страницу Ruby][ruby-lang], [Ruby FAQ][faq] и другую документацию, используйте поисковик для поиска прошлых публикаций и так далее.
 
 
-_These guidelines where adopted from the [comp.lang.ruby FAQ][clrFAQ]._
+_Эти правила были заимствованы из [comp.lang.ruby FAQ][clrFAQ]._
 
 
 
-[ruby-lang]: /en/
-[faq]: /en/documentation/faq/
+[ruby-lang]: /ru/
+[faq]: /ru/documentation/faq/
 [clrFAQ]: http://rubyhacker.com/clrFAQ.html
