@@ -1,12 +1,11 @@
 ---
 layout: news_post
-title: "Dutch translation of www.ruby-lang.org"
+title: "www.ruby-lang.org 네덜란드어 번역 공개"
 author: "Unknown Author"
 lang: ko
 ---
 
-[Dutch translation of www.ruby-lang.org][1] is available. Thanks to John
-Jacobs.
+John Jacobs 덕분에 [www.ruby-lang.org 네덜란드어 번역][1]이 공개되었습니다.
 
 
 

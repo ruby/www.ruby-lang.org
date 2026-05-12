@@ -1,20 +1,20 @@
 ---
 layout: news_post
-title: "First Europeen Ruby Conference"
+title: "첫 번째 유럽 Ruby 콘퍼런스"
 author: "NaHi"
 lang: ko
 ---
 
-(MNeumann announced the first European Ruby Conference at
-[\[ruby-talk:65418\]][1]. Following is excerpted from the post.)
+(MNeumann이 [\[ruby-talk:65418\]][1]에서 첫 번째 유럽 Ruby 콘퍼런스를
+발표했습니다. 이하 발표 내용에서 발췌.)
 
-> The first European Ruby Conference will be held from Saturday 21th to
-> Sunday 22th June at the University of Karslruhe in Germany.
+> 첫 번째 유럽 Ruby 콘퍼런스가 독일 칼스루에 대학교에서 6월 21일 토요일부터
+> 22일 일요일까지 개최될 예정입니다.
 >
-> Everyone instested in Ruby is welcome!
+> Ruby에 관심 있는 모든 분을 환영합니다!
 
-(For more detail about the entrance fee, calling for speakers,
-mailing-lists, and so on, see [\[ruby-talk:65418\]][1])
+(입장료, 발표자 모집, 메일링 리스트 등에 대한 자세한 내용은
+[\[ruby-talk:65418\]][1]을 참조하세요.)
 
 
 

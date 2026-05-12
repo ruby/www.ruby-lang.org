@@ -1,39 +1,39 @@
 ---
 layout: page
-title: "Podcasts"
+title: "Подкасты"
 lang: ru
 ---
 
-Listen to news, interviews, and discussions about Ruby and its community.
+Слушайте новости, интервью и дискуссии о Ruby и его сообществе.
 
 [On Rails][onrails]
-: Ruby on Rails developers share real-world technical challenges,
-  architectural decisions, and scaling strategies. Join experienced
-  engineers for technical deep-dives and retrospectives on building
-  production Rails applications.
+: Разработчики Ruby on Rails делятся реальными техническими проблемами,
+  архитектурными решениями и стратегиями масштабирования. Присоединяйтесь к опытным
+  инженерам для глубокого технического погружения и ретроспектив создания
+  рабочих приложений на Rails.
 
 [Ruby Rogues][rogues]
-: The Ruby Rogues podcast is a panel discussion about topics relating to
-  programming, careers, community, and Ruby.
+: Подкаст Ruby Rogues — это панельная дискуссия на темы, связанные с
+  программированием, карьерой, сообществом и Ruby.
 
 [Ruby on Rails Podcast][rorpodcast]
-: The Ruby on Rails Podcast, a weekly conversation about Ruby on Rails,
-  open source software, and the programming profession.
+: Ruby on Rails Podcast — еженедельные беседы о Ruby on Rails,
+  open source программном обеспечении и профессии программиста.
 
 [Remote Ruby][remote_ruby]
-: Virtual meetup turned podcast, Remote Ruby celebrates and highlights
-  the Ruby community in an informal setting.
+: Виртуальная встреча, превратившаяся в подкаст. Remote Ruby прославляет и освещает
+  сообщество Ruby в неформальной обстановке.
 
 [Rooftop Ruby][rooftop_ruby]
-: Collin and Joel discuss Ruby, software development, open source, career,
-  and a lot more together and with guests.
+: Collin и Joel обсуждают Ruby, разработку программного обеспечения, open source, карьеру
+  и многое другое вместе и с гостями.
 
-### Getting Involved
+### Участие
 
-Podcast hosts are always looking for guests. If you have some Ruby
-wisdom to share, get in touch with the creators of these shows.
+Ведущие подкастов всегда ищут гостей. Если у вас есть мудрость в области Ruby,
+которой вы хотите поделиться, свяжитесь с создателями этих шоу.
 
-You can also start your own Ruby podcast and get added to this list!
+Вы также можете запустить свой собственный подкаст о Ruby и попасть в этот список!
 
 [onrails]: https://podcast.rubyonrails.org/
 [rooftop_ruby]: https://www.rooftopruby.com

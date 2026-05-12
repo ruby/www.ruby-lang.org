@@ -1,11 +1,11 @@
 ---
 layout: news_post
-title: "Ruby Garden"
+title: "Ruby 가든"
 author: "Matz"
 lang: ko
 ---
 
-[Ruby Garden][1] – News Portal for Ruby.
+[Ruby 가든][1] – Ruby 뉴스 포털.
 
 
 

@@ -1,65 +1,55 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
     <strong>9</strong>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Built-in libraries
+## Встроенные библиотеки
 
-### What does `instance_methods(false)` return?
+### Что возвращает `instance_methods(false)`?
 
-The method `instance_methods` returns an array containing the names of
-instance methods in the receiving class or module. This will include
-the methods in superclasses and in mixed in modules.
+Метод `instance_methods` возвращает массив, содержащий имена методов экземпляра в получающем классе или модуле. Сюда входят методы в суперклассах и в подмешанных модулях.
 
-`instance_methods(false)` or `instance_methods(nil)` returns the names
-of just those methods which are defined in the receiver.
+`instance_methods(false)` или `instance_methods(nil)` возвращает имена только тех методов, которые определены в самом получателе.
 
-### How do random number seeds work?
+### Как работают начальные числа (seeds) для случайных чисел?
 
-If `rand` is called without a prior call to `srand`,
-Ruby's pseudo-random number generator uses a random(ish) seed that
-amongst other things uses an entropy source provided by the OS,
-if available.
-Successive runs of a program that does not use `srand` will generate
-different sequences of random numbers.
+Если вы вызываете `rand` без предварительного вызова `srand`, генератор псевдослучайных чисел Ruby использует случайное (или близкое к нему) начальное число, которое, помимо прочего, использует источник энтропии, предоставляемый ОС, если он доступен. Последовательные запуски программы, которая не использует `srand`, будут генерировать разные последовательности случайных чисел.
 
-For testing purposes, you can get a predictable behavior with the same
-series of numbers each time the program is run by calling `srand`
-with a constant seed.
+Для целей тестирования вы можете получить предсказуемое поведение с одной и той же серией чисел при каждом запуске программы, вызвав `srand` с константным начальным числом.
 
-### I read a file and changed it, but the file on disk has not changed.
+### Я прочитал файл и изменил его, но файл на диске не изменился.
 
 ~~~
 File.open("example", "r+").readlines.each_with_index do |line, i|
@@ -67,11 +57,7 @@ File.open("example", "r+").readlines.each_with_index do |line, i|
 end
 ~~~
 
-This program does _not_ add line numbers to the file `example`. It does read
-the contents of the file, and for each line read does prepend the line number,
-but the data is never written back. The code below _does_ update the file
-(although somewhat dangerously, as it takes no backup before starting the
-update):
+Эта программа _не_ добавляет номера строк в файл `example`. Она считывает содержимое файла и для каждой прочитанной строки добавляет номер строки в начало, но данные никогда не записываются обратно. Приведенный ниже код _обновляет_ файл (хотя и несколько рискованно, так как он не делает резервную копию перед началом обновления):
 
 ~~~
 File.open("example", "r+") do |f|
@@ -82,23 +68,21 @@ File.open("example", "r+") do |f|
 end
 ~~~
 
-### How can I process a file and update its contents?
+### Как я могу обработать файл и обновить его содержимое?
 
-Using the command-line option `-i`, or built-in variable `$-i`, you can read
-a file and replace it.
+Используя опцию командной строки `-i` или встроенную переменную `$-i`, вы можете прочитать файл и заменить его.
 
-The code in the preceding question, which added line numbers to a file,
-is probably best written using this technique:
+Код из предыдущего вопроса, который добавлял номера строк в файл, вероятно, лучше всего написать с использованием этой техники:
 
 ~~~
 $ ruby -i -ne 'print "#$.: #$_"' example
 ~~~
 
-If you want to preserve the original file, use `-i.bak` to create a backup.
+Если вы хотите сохранить исходный файл, используйте `-i.bak` для создания резервной копии.
 
-### I wrote a file, copied it, but the end of the copy seems to be lost.
+### Я записал файл, скопировал его, но конец копии, похоже, потерян.
 
-This code will not work correctly:
+Этот код не будет работать корректно:
 
 ~~~
 require "fileutils"
@@ -107,12 +91,9 @@ File.open("file", "w").puts "This is a file."
 FileUtils.cp("file", "newfile")
 ~~~
 
-Because I/O is buffered, `file` is being copied before its contents have been
-written to disk. `newfile` will probably be empty. However, when the program
-terminates, the buffers are flushed, and file has the expected content.
+Поскольку ввод-вывод буферизуется, `file` копируется до того, как его содержимое будет записано на диск. `newfile`, скорее всего, будет пустым. Однако, когда программа завершается, буферы сбрасываются (flushed), и файл обретает ожидаемое содержимое.
 
-The problem doesn't arise if you make sure that `file` is closed before
-copying:
+Проблема не возникает, если вы убедитесь, что файл `file` закрыт перед копированием:
 
 ~~~
 require "fileutils"
@@ -121,15 +102,11 @@ File.open("file", "w") {|f| f.puts "This is a file." }
 FileUtils.cp("file", "newfile")
 ~~~
 
-### How can I get the line number in the current input file?
+### Как я могу получить номер строки в текущем входном файле?
 
-As you read from a file, Ruby increments a line number counter in the global
-variable `$.`. This is also available using the `lineno` attribute of the
-`File` object.
+По мере чтения из файла Ruby увеличивает счетчик номеров строк в глобальной переменной `$.`. Он также доступен через атрибут `lineno` объекта `File`.
 
-The special constant `ARGF` is a file-like object that can be used to read
-all the input files specified on the command line (or standard input if there
-are no files). `ARGF` is used implicitly by code such as:
+Специальная константа `ARGF` — это объект, похожий на файл, который можно использовать для чтения всех входных файлов, указанных в командной строке (или стандартного ввода, если файлов нет). `ARGF` используется неявно в коде вида:
 
 ~~~
 while gets
@@ -137,40 +114,35 @@ while gets
 end
 ~~~
 
-In this case, `$.` will be the cumulative number of lines read across all
-input files. To get the line number in the current file, use
+В этом случае `$.` будет кумулятивным количеством строк, прочитанных во всех входных файлах. Чтобы получить номер строки в текущем файле, используйте:
 
 ~~~
 ARGF.file.lineno
 ~~~
 
-You can also get the name of the current file using `ARGF.file.path`.
+Вы также можете получить имя текущего файла с помощью `ARGF.file.path`.
 
-### How can I use `less` to display my program's output?
+### Как я могу использовать `less` для отображения вывода моей программы?
 
-I tried the following, but nothing came out:
+Я попробовал следующее, но ничего не вышло:
 
 ~~~
 open("|less", "w").puts "abc"
 ~~~
 
-That's because the program ends immediately, and `less` never gets a chance
-to see the stuff you've written to it, never mind to display it.
-Make sure that the IO is properly closed and it will wait until `less` ends.
+Это происходит потому, что программа немедленно завершается, и у `less` нет возможности увидеть то, что вы в него записали, не говоря уже о том, чтобы это отобразить. Убедитесь, что ввод-вывод (IO) должным образом закрыт, и программа будет ждать завершения `less`.
 
 ~~~
 open("|less", "w") {|f| f.puts "abc" }
 ~~~
 
-### What happens to a `File` object which is no longer referenced?
+### Что происходит с объектом `File`, на который больше нет ссылок?
 
-A `File` object which is no longer referenced becomes eligible for garbage
-collection. The file will be closed automatically when the `File` object is
-garbage collected.
+Объект `File`, на который больше нет ссылок, становится доступным для сборки мусора. Файл будет автоматически закрыт, когда объект `File` будет собран сборщиком мусора.
 
-### I feel uneasy if I don't close a file.
+### Я чувствую себя неспокойно, если не закрываю файл.
 
-There are at least four good ways of ensuring that you do close a file:
+Существует как минимум четыре хороших способа гарантировать закрытие файла:
 
 ~~~
 # (1)
@@ -193,24 +165,22 @@ File.foreach("file") {|line| print line }
 File.readlines("file").each {|line| print line }
 ~~~
 
-### How can I sort files by their modification time?
+### Как я могу отсортировать файлы по времени их изменения?
 
 ~~~
 Dir.glob("*").sort {|a, b| File.mtime(b) <=> File.mtime(a) }
 ~~~
 
-Although this works (returning a list in reverse chronological order) it
-isn't very efficient, as it fetches the files' modification times from the
-operating system on every comparison.
+Хотя это работает (возвращая список в обратном хронологическом порядке), это не очень эффективно, так как при каждом сравнении время изменения файлов запрашивается у операционной системы.
 
-More efficiency can be bought with some extra complexity:
+Большей эффективности можно добиться с некоторой дополнительной сложностью:
 
 ~~~
 Dir.glob("*").map {|f| [File.mtime(f), f] }.
   sort {|a, b| b[0] <=> a[0] }.map(&:last)
 ~~~
 
-### How can I count the frequency of words in a file?
+### Как я могу подсчитать частоту слов в файле?
 
 ~~~
 freq = Hash.new(0)
@@ -218,7 +188,7 @@ File.read("example").scan(/\w+/) {|word| freq[word] += 1 }
 freq.keys.sort.each {|word| puts "#{word}: #{freq[word]}" }
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 and: 1
@@ -230,13 +200,11 @@ three: 1
 two: 1
 ~~~
 
-### How can I sort strings in alphabetical order?
+### Как я могу отсортировать строки в алфавитном порядке?
 
-If you want your strings to sort 'AAA', 'BBB', ..., 'ZZZ', 'aaa', 'bbb',
-then the built-in comparison will work just fine.
+Если вы хотите, чтобы ваши строки сортировались как 'AAA', 'BBB', ..., 'ZZZ', 'aaa', 'bbb', тогда встроенное сравнение будет работать отлично.
 
-If you want to sort ignoring case distinctions, compare downcased versions of
-the strings in the sort block:
+Если вы хотите сортировать, игнорируя различия в регистре, сравнивайте версии строк в нижнем регистре в блоке сортировки:
 
 ~~~
 array = %w( z bB Bb bb Aa BB aA AA aa a A )
@@ -244,18 +212,17 @@ array.sort {|a, b| a.downcase <=> b.downcase }
   # => ["a", "A", "Aa", "aA", "AA", "aa", "bB", "Bb", "bb", "BB", "z"]
 ~~~
 
-If you want to sort so that the 'A's and 'a's come together, but 'a' is
-considered greater than 'A' (so 'Aa' comes after 'AA' but before 'AB'), use:
+Если вы хотите сортировать так, чтобы 'A' и 'a' шли вместе, но 'a' считалось больше, чем 'A' (так что 'Aa' идет после 'AA', но перед 'AB'), используйте:
 
 ~~~
 array.sort {|a, b| (a.downcase <=> b.downcase).nonzero? || a <=> b }
   # => ["A", "a", "AA", "Aa", "aA", "aa", "BB", "Bb", "bB", "bb", "z"]
 ~~~
 
-### How can I expand tabs to spaces?
+### Как я могу развернуть знаки табуляции в пробелы?
 {: #tab-expansion}
 
-If `a` holds the string to be expanded, you could use one of:
+Если `a` хранит строку, которую нужно развернуть, вы можете использовать один из вариантов:
 
 ~~~
 1 while a.sub!(/(^[^\t]*)\t(\t*)/){$1+" "*(8-$1.size%8+8*$2.size)}
@@ -265,35 +232,23 @@ If `a` holds the string to be expanded, you could use one of:
 a.gsub!(/([^\t]{8})|([^\t]*)\t/n){[$+].pack("A8")}
 ~~~
 
-### How can I escape a backslash in a regular expression?
+### Как я могу экранировать обратный слэш в регулярном выражении?
 
-`Regexp.quote('\\')` escapes a backslash.
+`Regexp.quote('\\')` экранирует обратный слэш.
 
-It gets trickier if you are using `sub` and `gsub`. Say you write
-`gsub(/\\/, '\\\\')`, hoping to replace each backslash with two.
-The second argument is converted to `'\\'` in syntax analysis. When the
-substitution occurs, the regular expression engine converts this to `'\'`,
-so the net effect is to replace each single backslash with another single
-backslash. You need to write `gsub(/\\/, '\\\\\\')`!
+Ситуация усложняется, если вы используете `sub` и `gsub`. Допустим, вы пишете `gsub(/\\/, '\\\\')`, надеясь заменить каждый обратный слэш двумя. Второй аргумент преобразуется в `'\\'` при синтаксическом анализе. Когда происходит замена, движок регулярных выражений преобразует это в `'\'`, поэтому конечный эффект заключается в замене каждого одиночного обратного слэша другим одиночным обратным слэшем. Вам нужно написать `gsub(/\\/, '\\\\\\')`!
 
-However, using the fact that `\&` contains the matched string, you could also
-write `gsub(/\\/, '\&\&')`.
+Однако, используя тот факт, что `\&` содержит совпавшую строку, вы также могли бы написать `gsub(/\\/, '\&\&')`.
 
-If you use the block form of `gsub`, i.e. `gsub(/\\/) { '\\\\' }`, the string
-for substitution is analyzed only once (during the syntax pass) and the
-result is what you intended.
+Если вы используете блочную форму `gsub`, то есть `gsub(/\\/) { '\\\\' }`, строка для замены анализируется только один раз (во время синтаксического прохода), и результат будет таким, как вы и задумывали.
 
-### What is the difference between `sub` and `sub!`?
+### В чем разница между `sub` и `sub!`?
 
-In `sub`, a copy of the receiver is generated, substituted, and returned.
+В `sub` создается копия получателя, в ней производится замена, и она возвращается.
 
-In `sub!`, the receiver is altered and returned if any match was found.
-Otherwise, `nil` is returned.
+В `sub!` изменяется сам получатель, который и возвращается, если было найдено совпадение. В противном случае возвращается `nil`.
 
-Methods like `sub!`, which alter the attribute of the receiver,
-are called [destructive methods](../7/#destructive-method).
-Usually, if there are two similar methods and one is destructive,
-the destructive one has a suffix `!`.
+Методы вроде `sub!`, которые изменяют атрибут получателя, называются [деструктивными методами](../7/#destructive-method). Обычно, если существуют два похожих метода и один из них деструктивный, у деструктивного есть суффикс `!`.
 
 ~~~
 def foo(str)
@@ -312,48 +267,40 @@ foo(obj)  # => "baz"
 obj       # => "baz"
 ~~~
 
-### Where does `\Z` match?
+### Где совпадает `\Z`?
 
-`\Z` matches just before the last `\n` (newline) if the string ends
-with a `\n`, otherwise it matches at the end of a string.
+`\Z` совпадает непосредственно перед последним `\n` (символом новой строки), если строка заканчивается на `\n`, в противном случае оно совпадает в конце строки.
 
-### What is the difference between `thread` and `fork`?
+### В чем разница между `thread` и `fork`?
 
 {% include warnings/faq-out-of-date.html %}
 
-Ruby threads are implemented within the interpreter, while `fork` invokes the
-operating system to create a separately executing subprocess.
+Потоки Ruby (threads) реализованы внутри интерпретатора, в то время как `fork` обращается к операционной системе для создания отдельно выполняемого подпроцесса.
 
-Thread and fork have the following characteristics:
+Потоки и форки имеют следующие характеристики:
 
-* `fork` is slow, `thread` is not.
-* `fork` does not share the memory space.
-* `thread` does not cause thrashing.
-* `thread` works on DOS.
-* When `thread` gets in a deadlock, the whole process stops.
-* `fork` can take advantage of pauses waiting for I/O to complete,
-  `thread` does not (at least not without some help).
+* `fork` работает медленно, `thread` — нет.
+* `fork` не разделяет пространство памяти.
+* `thread` не вызывает «пробуксовки» (thrashing).
+* `thread` работает под DOS.
+* Когда `thread` попадает в состояние взаимной блокировки (deadlock), останавливается весь процесс.
+* `fork` может использовать паузы при ожидании завершения ввода-вывода, `thread` — нет (по крайней мере, не без некоторой помощи).
 
-You probably shouldn't mix `fork` and `thread`.
+Вам, вероятно, не стоит смешивать `fork` и `thread`.
 
-### How can I use `Marshal`?
+### Как я могу использовать `Marshal`?
 
-`Marshal` is used to store an object in a file or a string, and later
-reconstitute it. Objects may be stored using:
+`Marshal` используется для сохранения объекта в файл или строку и его последующего восстановления. Объекты можно сохранять с помощью:
 
 ~~~
 Marshal.dump( obj [, io ] [, lev] )
 ~~~
 
-`io` is a writable `IO` object, `lev` designates the level to which objects
-are dereferred and stored. If `lev` levels of dereferring are done and object
-references still exist, then `dump` stores just the reference, not the object
-referenced. This is not good, as these referenced objects cannot be
-subsequently reconstructed.
+`io` — это объект `IO`, доступный для записи, `lev` указывает уровень, до которого объекты разыменовываются и сохраняются. Если выполнено `lev` уровней разыменования, а ссылки на объекты все еще существуют, то `dump` сохраняет только ссылку, а не сам объект, на который она указывает. Это плохо, так как такие объекты не могут быть впоследствии восстановлены.
 
-If `io` is omitted, the marshaled objects are returned in a string.
+Если `io` опущено, маршалированные объекты возвращаются в виде строки.
 
-You can load objects back using:
+Вы можете загрузить объекты обратно, используя:
 
 ~~~
 obj = Marshal.load(io)
@@ -361,11 +308,11 @@ obj = Marshal.load(io)
 obj = Marshal.load(str)
 ~~~
 
-where `io` is a readable `IO` object, `str` is the dumped string.
+где `io` — это объект `IO`, доступный для чтения, `str` — это дамп строки.
 
-### How can I use `trap`?
+### Как я могу использовать `trap`?
 
-`trap` associates code blocks with external events (signals).
+`trap` связывает блоки кода с внешними событиями (сигналами).
 
 ~~~
 trap("PIPE") { raise "SIGPIPE" }

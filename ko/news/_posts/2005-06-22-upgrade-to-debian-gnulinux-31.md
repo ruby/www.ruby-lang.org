@@ -1,10 +1,9 @@
 ---
 layout: news_post
-title: "Upgrade to Debian GNU/Linux 3.1"
+title: "Debian GNU/Linux 3.1로 업그레이드"
 author: "Shugo Maeda"
 lang: ko
 ---
 
-We’ll upgrade this host to Debian GNU/Linux 3.1 (sarge) on Wed Jun 29
-05:00:00 UTC 2005. Services will be stopped for a while. Successfully
-DONE. Thank you.
+2005년 6월 29일 수요일 05:00:00 UTC에 이 호스트를 Debian GNU/Linux 3.1(sarge)로
+업그레이드할 예정입니다. 서비스가 잠시 중단됩니다. 성공적으로 완료되었습니다. 감사합니다.

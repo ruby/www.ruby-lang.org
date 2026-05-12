@@ -1,106 +1,81 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
     <strong>6</strong>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Syntax
+## Синтаксис
 
-### What is the difference between an immediate value and a reference?
+### В чем разница между непосредственным значением и ссылкой?
 {: #immediate}
 
 {% include warnings/faq-out-of-date.html %}
 
-`Fixnum`, `true`, `nil`, and `false` are implemented as immediate values.
-With immediate values, variables hold the objects themselves, rather than
-references to them.
+`Fixnum`, `true`, `nil` и `false` реализованы как непосредственные (immediate) значения. В случае непосредственных значений переменные хранят сами объекты, а не ссылки на них.
 
-Singleton methods cannot be defined for such objects. Two `Fixnums` of the
-same value always represent the same object instance, so (for example)
-instance variables for the `Fixnum` with the value `1` are shared between
-all the `1`'s in the system. This makes it impossible to define a singleton
-method for just one of these.
+Для таких объектов нельзя определить синглтон-методы. Два объекта `Fixnum` с одинаковым значением всегда представляют один и тот же экземпляр объекта, поэтому (например) переменные экземпляра для `Fixnum` со значением `1` разделяются между всеми `1` в системе. Это делает невозможным определение синглтон-метода только для одного из них.
 
-### What is the difference between `nil` and `false`?
+### В чем разница между `nil` и `false`?
 
-First the similarity: `nil` and `false` are the only two objects
-that evaluate to `false` in a boolean context.
-(In other words: they are the only “falsy” values, all other
-objects are “truthy”.)
+Сначала о сходстве: `nil` и `false` — единственные два объекта, которые в булевом контексте вычисляются как `false`. (Другими словами: это единственные «ложные» значения, все остальные объекты являются «истинными»).
 
-However, `nil` and `false` are instances of different classes
-(`NilClass` and `FalseClass`), and have different behavior elsewhere.
+Однако `nil` и `false` являются экземплярами разных классов (`NilClass` и `FalseClass`) и ведут себя по-разному в остальных случаях.
 
-We recommend that predicate methods (those whose name ends with a question
-mark) return `true` or `false`. Other methods that need to indicate failure
-should return `nil`.
+Мы рекомендуем, чтобы предикатные методы (те, чье имя заканчивается вопросительным знаком) возвращали `true` или `false`. Другие методы, которым нужно указать на ошибку или отсутствие результата, должны возвращать `nil`.
 
-### Why is an empty string not `false`?
+### Почему пустая строка не является `false`?
 
-Q: An empty string (`""`) returns `true` in a conditional expression!
-In Perl, it's `false`.
+В: Пустая строка (`""`) возвращает `true` в условном выражении! В Perl она ложна (`false`).
 
-A: But Ruby is not Perl ;-). It's very simple: in Ruby, only `nil`
-and `false` are false in conditional contexts.
+О: Но Ruby — это не Perl ;-). Все очень просто: в Ruby только `nil` и `false` являются ложными в контексте условий.
 
-You can use `empty?`, compare the string to `""`, or compare the string's
-`size` or `length` to `0` to find out if a string is empty.
+Вы можете использовать `empty?`, сравнивать строку с `""` или сравнивать `size` или `length` строки с `0`, чтобы узнать, пуста ли она.
 
-### What does `:name` mean?
+### Что означает `:name`?
 
-A colon followed by a name generates a Symbol object which corresponds
-one to one with the identifier. During the duration of a program's
-execution the same Symbol object will be created for a given name or string.
-Symbols can also be created with `"name".intern` or `"name".to_sym`.
+Двоеточие, за которым следует имя, создает объект Symbol (символ), который однозначно соответствует этому идентификатору. В течение времени выполнения программы для одного и того же имени или строки будет создаваться один и тот же объект Symbol. Символы также можно создавать с помощью `"name".intern` или `"name".to_sym`.
 
-Symbol objects can represent identifiers for methods, variables, and so on.
-Some methods, like `define_method`, `method_missing`, or `trace_var`,
-require a symbol. Other methods, e.g. `attr_accessor`, `send`, or `autoload`,
-also accept a string.
+Объекты Symbol могут представлять идентификаторы для методов, переменных и так далее. Некоторые методы, такие как `define_method`, `method_missing` или `trace_var`, требуют символ. Другие методы, например `attr_accessor`, `send` или `autoload`, также принимают строку.
 
-Due to the fact that they are created only once, Symbols are often used as
-hash keys. String hash keys would create a new object for every single use,
-thereby causing some memory overhead.
-There is even a special syntax for symbol hash keys:
+Благодаря тому, что они создаются только один раз, символы часто используются в качестве ключей хеша. Строковые ключи хеша создавали бы новый объект при каждом использовании, что приводило бы к некоторым накладным расходам памяти. Для ключей хеша в виде символов существует даже специальный синтаксис:
 
 ~~~
 person_1 = { :name => "John", :age => 42 }
-person_2 = { name: "Jane", age: 24 }        # alternate syntax
+person_2 = { name: "Jane", age: 24 }        # альтернативный синтаксис
 ~~~
 
-Symbols can also be used as enumeration values
-or to assign unique values to constants:
+Символы также можно использовать в качестве перечисляемых значений или для присвоения уникальных значений константам:
 
 ~~~
 status = :open  # :closed, ...
@@ -109,11 +84,9 @@ NORTH = :NORTH
 SOUTH = :SOUTH
 ~~~
 
-### How can I access the value of a symbol?
+### Как я могу получить доступ к значению символа?
 
-To get the value of the variable corresponding to a symbol, you can use
-`symbol.to_s` or `"#{symbol}"` to get the name of the variable, and then
-eval that in the scope of the symbol to get the variable's contents:
+Чтобы получить значение переменной, соответствующей символу, вы можете использовать `symbol.to_s` или `"#{symbol}"`, чтобы получить имя переменной, а затем выполнить `eval` в области видимости символа, чтобы получить содержимое переменной:
 
 ~~~
 a = "This is the content of `a'"
@@ -121,13 +94,13 @@ b = eval("#{:a}")
 a.object_id == b.object_id  # => true
 ~~~
 
-You can also use
+Вы также можете использовать
 
 ~~~
 b = binding.local_variable_get(:a)
 ~~~
 
-If your symbol corresponds to the name of a method, you can use `send`:
+Если ваш символ соответствует имени метода, вы можете использовать `send`:
 
 ~~~
 class Demo
@@ -140,27 +113,22 @@ demo = Demo.new
 demo.send(:hello)
 ~~~
 
-Or you can use `Object#method` to return a corresponding `Method` object,
-which you may then call:
+Или вы можете использовать `Object#method`, чтобы вернуть соответствующий объект `Method`, который затем можно вызвать:
 
 ~~~
 m = demo.method(:hello)  # => #<Method: Demo#hello>
 m.call                   # => "Hello, world"
 ~~~
 
-### Is `loop` a control structure?
+### Является ли `loop` структурой управления?
 
-Although `loop` looks like a control structure, it is actually a method
-defined in `Kernel`. The block which follows introduces a new scope for
-local variables.
+Хотя `loop` выглядит как структура управления, на самом деле это метод, определенный в `Kernel`. Следующий за ним блок вводит новую область видимости для локальных переменных.
 
-### Ruby doesn't have a post-test loop
+### В Ruby нет цикла с постусловием
 
-Q: Ruby does not have a `do { ... } while` construct, so how can I implement
-loops that test the condition at the end?
+В: В Ruby нет конструкции `do { ... } while`, так как же мне реализовать циклы, проверяющие условие в конце?
 
-Clemens Hintze says: You can use a combination of Ruby's `begin ... end`
-and the `while` or `until` statement modifiers to achieve the same effect:
+О: Clemens Hintze говорит: Вы можете использовать сочетание `begin ... end` и модификаторов инструкций `while` или `until` для достижения того же эффекта:
 
 ~~~
 i = 0
@@ -170,7 +138,7 @@ begin
 end until i > 4
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 i = 0
@@ -180,15 +148,13 @@ i = 3
 i = 4
 ~~~
 
-### Why can't I pass a hash literal to a method: `p {}`?
+### Почему я не могу передать литерал хеша в метод: `p {}`?
 
-The `{}` is parsed as a block, not a `Hash` constructor. You can force the
-`{}` to be treated as an expression by making the fact that it's a parameter
-explicit: `p({})`.
+`{}` парсится как блок, а не как конструктор `Hash`. Вы можете заставить `{}` рассматриваться как выражение, сделав факт того, что это параметр, явным: `p({})`.
 
-### I can't get `def pos=(val)` to work!
+### Я не могу заставить `def pos=(val)` работать!
 
-I have the following code, but I cannot use the method `pos = 1`.
+У меня есть следующий код, но я не могу использовать метод `pos = 1`.
 
 ~~~
 def pos=(val)
@@ -197,75 +163,62 @@ def pos=(val)
 end
 ~~~
 
-Methods with `=` appended must be called with an explicit receiver
-(without the receiver, you are just assigning to a local variable).
-Invoke it as `self.pos = 1`.
+Методы с приписанным `=` должны вызываться с явным получателем (без получателя вы просто присваиваете значение локальной переменной). Вызывайте его как `self.pos = 1`.
 
-### What is the difference between `'\1'` and `'\\1'`?
+### В чем разница между `'\1'` и `'\\1'`?
 
-They have the same meaning. In a single quoted string, only `\'` and `\\`
-are transformed and other combinations remain unchanged.
+Они имеют одинаковое значение. В строке в одинарных кавычках только `\'` и `\\` трансформируются, а другие комбинации остаются без изменений.
 
-However, in a double quoted string, `"\1"` is the byte `\001`
-(an octal bit pattern), while `"\\1"` is the two character string
-containing a backslash and the character `"1"`.
+Однако в строке в двойных кавычках `"\1"` — это байт `\001` (восьмеричный битовый паттерн), в то время как `"\\1"` — это строка из двух символов, содержащая обратный слэш и символ `"1"`.
 
-### What is the difference between `..` and `...`?
+### В чем разница между `..` и `...`?
 
-`..` includes the right hand side in the range, `...` does not:
+`..` включает правую границу в диапазон, `...` — нет:
 
 ~~~
 (5..8).to_a   # => [5, 6, 7, 8]
 (5...8).to_a  # => [5, 6, 7]
 ~~~
 
-### What is the difference between `or` and `||`?
+### В чем разница между `or` и `||`?
 
-Q: `p(nil || "Hello")` prints `"Hello"`, while `p(nil or "Hello")` gives a
-parse error. Why?
+В: `p(nil || "Hello")` выводит `"Hello"`, в то время как `p(nil or "Hello")` выдает ошибку парсинга. Почему?
 
-A: `or` has a very low precedence, `p( (nil or "Hello") )` will work.
+О: `or` имеет очень низкий приоритет, `p( (nil or "Hello") )` будет работать.
 
-The precedence of `or` is for instance also lower than that of `=`,
-whereas `||` has a higher precedence:
+Приоритет `or`, например, также ниже, чем у `=`, в то время как у `||` приоритет выше:
 
 ~~~
-foo = nil || "Hello"  # parsed as: foo = (nil || "Hello")
+foo = nil || "Hello"  # парсится как: foo = (nil || "Hello")
 foo  # => "Hello"
 
-# but perhaps surprisingly:
+# но, возможно, это удивительно:
 
-foo = nil or "Hello"  # parsed as: (foo = nil) or "Hello"
+foo = nil or "Hello"  # парсится как: (foo = nil) or "Hello"
 foo  # => nil
 ~~~
 
-`or` (and similarly `and`) is best used **not** for combining
-boolean expressions, but for control flow, like in
+`or` (и аналогично `and`) лучше всего использовать **не** для объединения булевых выражений, а для управления потоком выполнения, например:
 
 ~~~
 do_something  or raise "some error!"
 ~~~
 
-where `do_something` returns `false` or `nil` when an error occurs.
+где `do_something` возвращает `false` или `nil` при возникновении ошибки.
 
-### Does Ruby have function pointers?
+### Есть ли в Ruby указатели на функции?
 
-A `Proc` object generated by `Proc.new`, `proc`, or `lambda` can be referenced
-from a variable, so that variable could be said to be a function pointer. You
-can also get references to methods within a particular object instance using
-`object.method`.
+Объект `Proc`, созданный с помощью `Proc.new`, `proc` или `lambda`, может быть доступен через переменную, так что эту переменную можно назвать указателем на функцию. Вы также можете получить ссылки на методы внутри конкретного экземпляра объекта, используя `object.method`.
 
-### What is the difference between `load` and `require`?
+### В чем разница между `load` и `require`?
 
-`load` will load and execute a Ruby program (`*.rb`).
+`load` загружает и выполняет программу на Ruby (`*.rb`).
 
-`require` loads Ruby programs as well, but will also load binary Ruby
-extension modules (shared libraries or DLLs). In addition,
-`require` ensures that a feature is never loaded more than once.
+`require` также загружает программы на Ruby, но кроме того загружает бинарные модули расширения Ruby (разделяемые библиотеки или DLL). В дополнение к этому, `require` гарантирует, что функциональность никогда не будет загружена более одного раза.
 
-### Does Ruby have exception handling?
+### Есть ли в Ruby обработка исключений?
 
-Ruby supports a flexible exception handling scheme:
+Ruby поддерживает гибкую схему обработки исключений:
 
 ~~~
 begin
@@ -279,15 +232,10 @@ ensure
 end
 ~~~
 
-If an exception occurs in the `begin` clause, the `rescue` clause with the
-matching exception name is executed. The `ensure` clause is executed whether
-an exception occurred or not. `rescue` and `ensure` clauses may be omitted.
+Если в блоке `begin` возникает исключение, выполняется блок `rescue` с соответствующим именем исключения. Блок `ensure` выполняется независимо от того, возникло исключение или нет. Блоки `rescue` и `ensure` могут быть опущены.
 
-If no exception class is designated for a `rescue` clause, `StandardError`
-exception is implied, and exceptions which are in a `is_a?` relation to
-`StandardError` are captured.
+Если для блока `rescue` не указан класс исключения, подразумевается исключение `StandardError`, и перехватываются исключения, находящиеся в отношении `is_a?` к `StandardError`.
 
-This expression returns the value of the `begin` clause.
+Это выражение возвращает значение блока `begin`.
 
-The latest exception is accessed by the global variable `$!`
-(and so its type can be determined using `$!.type`).
+Последнее исключение доступно через глобальную переменную `$!` (и, таким образом, его тип можно определить с помощью `$!.type`).

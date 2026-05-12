@@ -1,65 +1,54 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
     <strong>4</strong>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Variables, constants, and arguments
+## Переменные, константы и аргументы
 
-### Does assignment generate a new copy of an object?
+### Создает ли присваивание новую копию объекта?
 {: #assignment}
 
-All variables and constants reference (point at) some object. (With the
-exception of uninitialized local variables, which reference nothing.
-These raise a `NameError` exception if used). When you assign to a variable,
-or initialize a constant, you set the object that the variable or constant
-references.
+Все переменные и константы ссылаются (указывают) на какой-либо объект. (За исключением неинициализированных локальных переменных, которые ни на что не ссылаются. Они вызывают исключение `NameError` при использовании). Когда вы присваиваете значение переменной или инициализируете константу, вы устанавливаете объект, на который ссылается эта переменная или константа.
 
-Assignment on its own therefore never creates a new copy of an object.
+Само по себе присваивание никогда не создает новую копию объекта.
 
-There's a slightly deeper explanation in certain special cases. Instances of
-`Fixnum`, `NilClass`, `TrueClass`, and `FalseClass` are contained directly in
-variables or constants---there is no reference involved. A variable holding
-the number `42` or the constant `true` actually holds the value, and not a
-reference to it. Assignment therefore physically produces a copy of objects
-of these types. We discuss this more in
-[Immediate and Reference Objects](../6/#immediate).
+В некоторых особых случаях есть чуть более глубокое объяснение. Экземпляры `Fixnum`, `NilClass`, `TrueClass` и `FalseClass` содержатся непосредственно в переменных или константах — здесь нет ссылок. Переменная, содержащая число `42`, или константа `true` фактически хранят значение, а не ссылку на него. Присваивание, таким образом, физически создает копию объектов этих типов. Мы обсудим это подробнее в разделе [Непосредственные и ссылочные объекты](../6/#immediate).
 
-### What is the scope of a local variable?
+### Какова область видимости локальной переменной?
 
-A new scope for a local variable is introduced in (1) the toplevel (main),
-(2) a class (or module) definition, or (3) a method definition.
+Новая область видимости для локальной переменной вводится в (1) верхнем уровне (main), (2) определении класса (или модуля) или (3) определении метода.
 
 ~~~
 var = 1         # (1)
@@ -75,7 +64,7 @@ puts "at top level: var = #{var}"
 Demo.new.method
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 in class: var = 2
@@ -83,14 +72,9 @@ at top level: var = 1
 in method: var = 3
 ~~~
 
-(Note that the class definition is executable code: the trace message it
-contains is written as the class is defined).
+(Обратите внимание, что определение класса — это исполняемый код: трассировочное сообщение, которое он содержит, записывается по мере определения класса).
 
-A block (`{ ... }` or `do ... end`) almost introduces a new scope ;-)
-Local variables created within a block are not accessible outside the block.
-However, if a local variable within the block has the same name as an existing
-local variable in the caller's scope, then no new local variable is created,
-and you can subsequently access that variable outside the block.
+Блок (`{ ... }` или `do ... end`) почти вводит новую область видимости ;-) Локальные переменные, созданные внутри блока, недоступны вне блока. Однако, если локальная переменная внутри блока имеет то же имя, что и существующая локальная переменная в области видимости вызывающей стороны, то новая локальная переменная не создается, и вы можете впоследствии обращаться к этой переменной вне блока.
 
 ~~~
 a = 0
@@ -99,11 +83,10 @@ a = 0
   b = i*i
 end
 a  # => 6
-# b is not defined here
+# b здесь не определена
 ~~~
 
-This becomes significant when you use threading---each thread receives its
-own copy of the variables local to the thread's block:
+Это становится важным при использовании многопоточности — каждый поток получает свою собственную копию переменных, локальных для блока потока:
 
 ~~~
 threads = []
@@ -123,8 +106,7 @@ end
 threads.each {|t| t.join }
 ~~~
 
-Might produce (in case the scheduler switches threads as hinted
-by `Thread.pass`; this depends on OS and processor):
+Может вывести (в случае, если планировщик переключает потоки, как указано в `Thread.pass`; это зависит от ОС и процессора):
 
 ~~~
 one: 0
@@ -135,20 +117,11 @@ one: 3
 two: 3
 ~~~
 
-`while`, `until`, and `for` are control structures, not blocks, so local
-variables within them will be accessible in the enclosing environment.
-`loop`, however, is a method and the associated block introduces a new scope.
+`while`, `until` и `for` — это структуры управления, а не блоки, поэтому локальные переменные внутри них будут доступны во внешней среде. `loop`, однако, является методом, и связанный с ним блок вводит новую область видимости.
 
-### When does a local variable become accessible?
+### Когда локальная переменная становится доступной?
 
-Actually, the question may be better asked as: “at what point does Ruby work
-out that something is a variable?” The problem arises because the simple
-expression `a` could be either a variable or a call to a method with no
-parameters. To decide which is the case, Ruby looks for assignment statements.
-If at some point in the source prior to the use of `a` it sees it being
-assigned to, it decides to parse `a` as a variable, otherwise it treats it
-as a method. As a somewhat pathological case of this, consider this code
-fragment, originally submitted by Clemens Hintze:
+На самом деле, вопрос лучше поставить так: «в какой момент Ruby понимает, что что-то является переменной?» Проблема возникает потому, что простое выражение `a` может быть либо переменной, либо вызовом метода без параметров. Чтобы решить, что это за случай, Ruby ищет инструкции присваивания. Если в какой-то момент в исходном коде до использования `a` он видит, что `a` присваивается значение, он решает парсить `a` как переменную, в противном случае он рассматривает её как метод. В качестве несколько патологического примера рассмотрите этот фрагмент кода, изначально представленный Clemens Hintze:
 
 ~~~
 def a
@@ -167,7 +140,7 @@ end
 end
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 a = 1
@@ -175,41 +148,30 @@ method `a' called
 a = 99
 ~~~
 
-During the parse, Ruby sees the use of `a` in the first `puts` statement
-and, as it hasn't yet seen any assignment to `a`, assumes that it is a method
-call. By the time it gets to the second `puts` statement, though, it has seen
-an assignment, and so treats `a` as a variable.
+Во время парсинга Ruby видит использование `a` в первой инструкции `puts` и, поскольку он еще не видел никакого присваивания `a`, предполагает, что это вызов метода. Однако к тому моменту, когда он добирается до второй инструкции `puts`, он уже видел присваивание и поэтому рассматривает `a` как переменную.
 
-Note that the assignment does not have to be executed---Ruby just has to have
-seen it. This program does not raise an error:
+Обратите внимание, что присваивание не обязательно должно быть выполнено — Ruby просто должен его увидеть. Эта программа не вызывает ошибки:
 
 ~~~
 a = 1 if false; a  # => nil
 ~~~
 
-This issue with variables is not normally a problem. If you do bump into it,
-try putting an assignment such as `a = nil` before the first access to the
-variable. This has the additional benefit of speeding up the access time to
-local variables that subsequently appear in loops.
+Эта проблема с переменными обычно не является помехой. Если вы столкнетесь с ней, попробуйте добавить присваивание вида `a = nil` перед первым обращением к переменной. Это дает дополнительное преимущество в виде ускорения времени доступа к локальным переменным, которые впоследствии появляются в циклах.
 
-### What is the scope of a constant?
+### Какова область видимости константы?
 
-A constant defined in a class or module definition can be accessed directly
-within that class's or module's definition.
+Константа, определенная в определении класса или модуля, может быть доступна напрямую внутри определения этого класса или модуля.
 
-You can directly access the constants in outer classes and modules from
-within nested classes and modules.
+Вы можете напрямую обращаться к константам во внешних классах и модулях из вложенных классов и модулей.
 
-You can also directly access constants in superclasses and included modules.
+Вы также можете напрямую обращаться к константам в суперклассах и включенных модулях.
 
-Apart from these cases, you can access class and module constants using
-the `::` operator, `ModuleName::CONST1` or `ClassName::CONST2`.
+Помимо этих случаев, вы можете обращаться к константам классов и модулей, используя оператор `::`, например `ModuleName::CONST1` или `ClassName::CONST2`.
 
-### How are arguments passed?
+### Как передаются аргументы?
 
-The actual argument is assigned to the formal argument when the method is
-invoked.
-(See [assignment](#assignment) for more on the semantics of assignment.)
+Фактический аргумент присваивается формальному аргументу при вызове метода.
+(Смотрите [присваивание](#assignment) для более подробной информации о семантике присваивания.)
 
 ~~~
 def add_one(number)
@@ -221,8 +183,7 @@ add_one(a)  # => 2
 a           # => 1
 ~~~
 
-As you are passing object references, it is possible that a method may modify
-the contents of a mutable object passed into it.
+Поскольку вы передаете ссылки на объекты, возможно, что метод изменит содержимое переданного в него изменяемого объекта.
 
 ~~~
 def downer(string)
@@ -234,26 +195,19 @@ downer(a)    # => "hello"
 a            # => "hello"
 ~~~
 
-There is no equivalent of other language's pass-by-reference semantics.
+В Ruby нет эквивалента семантике передачи по ссылке, как в других языках.
 
-### Does assignment to a formal argument influence the actual argument?
+### Влияет ли присваивание формальному аргументу на фактический аргумент?
 
-A formal argument is a local variable. Within a method, assigning to a formal
-argument simply changes the argument to reference another object.
+Формальный аргумент является локальной переменной. Внутри метода присваивание формальному аргументу просто изменяет аргумент так, чтобы он ссылался на другой объект.
 
-### What happens when I invoke a method via a formal argument?
+### Что происходит, когда я вызываю метод через формальный аргумент?
 
-All Ruby variables (including method arguments) act as references to objects.
-You can invoke methods in these objects to get or change the object's state
-and to make the object do something. You can do this with objects passed to
-methods. You need to be careful when doing this, as these kinds of side
-effects can make programs hard to follow.
+Все переменные Ruby (включая аргументы методов) выступают в качестве ссылок на объекты. Вы можете вызывать методы в этих объектах, чтобы получить или изменить состояние объекта и заставить объект что-то сделать. Вы можете делать это с объектами, переданными в методы. Вам нужно быть осторожными при этом, так как побочные эффекты такого рода могут сделать программы трудными для понимания.
 
-### What does `*` prepended to an argument mean?
+### Что означает `*` перед аргументом?
 
-When used as part of a formal parameter list, the asterisk allows arbitrary
-numbers of arguments to be passed to a method by collecting them into an
-array, and assigning that array to the starred parameter.
+При использовании в списке формальных параметров звездочка позволяет передавать методу произвольное количество аргументов, собирая их в массив и присваивая этот массив параметру со звездочкой.
 
 ~~~
 def foo(prefix, *all)
@@ -265,7 +219,7 @@ end
 foo("val = ", 1, 2, 3)
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 val = 1
@@ -273,23 +227,22 @@ val = 2
 val = 3
 ~~~
 
-When used in a method call, `*` expands an array, passing its individual
-elements as arguments.
+При использовании в вызове метода `*` разворачивает массив, передавая его отдельные элементы в качестве аргументов.
 
 ~~~
 a = [1, 2, 3]
 foo(*a)
 ~~~
 
-You can prepend `*` to the last argument of
+Вы можете добавить `*` перед последним аргументом в следующих случаях:
 
-1. Left hand side of a multiple assignment.
-2. Right hand side of a multiple assignment.
-3. Definition of method formal arguments.
-4. Actual arguments in a method call.
-5. In `when` clause of `case` structure.
+1. Левая часть множественного присваивания.
+2. Правая часть множественного присваивания.
+3. Определение формальных аргументов метода.
+4. Фактические аргументы в вызове метода.
+5. В условии `when` структуры `case`.
 
-For example:
+Например:
 
 ~~~
 x, *y = [7, 8, 9]
@@ -301,15 +254,11 @@ x     = [7, 8, 9]
 x                  # => [7, 8, 9]
 ~~~
 
-### What does `&` prepended to an argument mean?
+### Что означает `&` перед аргументом?
 
-If the last formal argument of a method is preceded with an ampersand (`&`),
-a block following the method call will be converted into a `Proc` object
-and assigned to the formal parameter.
+Если перед последним формальным аргументом метода стоит амперсанд (`&`), блок, следующий за вызовом метода, будет преобразован в объект `Proc` и присвоен формальному параметру.
 
-If the last actual argument in a method invocation is a `Proc` object,
-you can precede its name with an ampersand to convert it into a block.
-The method may then use `yield` to call it.
+Если последний фактический аргумент в вызове метода является объектом `Proc`, вы можете поставить перед его именем амперсанд, чтобы преобразовать его в блок. Затем метод может использовать `yield` для его вызова.
 
 ~~~
 def meth1(&b)
@@ -328,7 +277,7 @@ meth2 {|i| i + i }
 meth2 &square
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 18
@@ -336,7 +285,7 @@ Produces:
 64
 ~~~
 
-### How can I specify a default value for a formal argument?
+### Как я могу указать значение по умолчанию для формального аргумента?
 
 ~~~
 def greet(p1="hello", p2="world")
@@ -348,7 +297,7 @@ greet("hi")
 greet("morning", "mom")
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 hello world
@@ -356,26 +305,21 @@ hi world
 morning mom
 ~~~
 
-The default value (which can be an arbitrary expression) is evaluated when
-the method is invoked. It is evaluated using the scope of the method.
+Значение по умолчанию (которое может быть произвольным выражением) вычисляется при вызове метода. Оно вычисляется с использованием области видимости метода.
 
-### How do I pass arguments to a block?
+### Как мне передать аргументы в блок?
 
-The formal parameters of a block appear between vertical bars at the start
-of the block:
+Формальные параметры блока указываются между вертикальными чертами в начале блока:
 
 ~~~
 proc {|a, b| a <=> b }
 ~~~
 
-These parameters are actually local variables. If an existing local variable
-of the same name exists when the block executes, that variable will be
-modified by the call to the block. This may or may not be a good thing.
+Эти параметры на самом деле являются локальными переменными. Если при выполнении блока существует локальная переменная с таким же именем, эта переменная будет изменена вызовом блока. Это может быть как хорошо, так и плохо.
 
-Typically, arguments are passed to a block using `yield` (or an iterator that
-calls `yield`), or by using the `Proc.call` method.
+Обычно аргументы передаются в блок с помощью `yield` (или итератора, который вызывает `yield`) или с помощью метода `Proc.call`.
 
-### Why did my object change unexpectedly?
+### Почему мой объект неожиданно изменился?
 
 ~~~
 A = a = b = "abc"
@@ -384,45 +328,37 @@ a              # => "abcd"
 A              # => "abcd"
 ~~~
 
-Variables hold references to objects. The assignment `A = a = b = "abc"` puts
-a reference to the string `"abc"` into `A`, `a`, and `b`.
+Переменные хранят ссылки на объекты. Присваивание `A = a = b = "abc"` помещает ссылку на строку `"abc"` в `A`, `a` и `b`.
 
-When you call `b.concat("d")`, you invoke the concat method on that object,
-changing it from `"abc"` to `"abcd"`. Because `a` and `A` also reference that
-same object, their apparent values change too.
+Когда вы вызываете `b.concat("d")`, вы вызываете метод concat для этого объекта, изменяя его с `"abc"` на `"abcd"`. Поскольку `a` и `A` также ссылаются на тот же самый объект, их видимые значения тоже меняются.
 
-This is less of a problem in practice than it might appear.
+На практике это представляет меньше проблем, чем может показаться.
 
-In addition, all objects may be frozen, protecting them from change.
+Кроме того, все объекты могут быть заморожены, что защищает их от изменений.
 
-### Does the value of a constant ever change?
+### Меняется ли когда-нибудь значение константы?
 
-A constant is a variable whose name starts with an upper case letter.
-Constants may not be reassigned from within instance methods,
-but can otherwise be changed at will.
-When a constant is assigned a new value, a warning is issued.
+Константа — это переменная, имя которой начинается с заглавной буквы. Константам нельзя переприсваивать значения из методов экземпляра, но в остальных случаях их можно менять по желанию. Когда константе присваивается новое значение, выдается предупреждение.
 
-### Why can't I load variables from a separate file?
+### Почему я не могу загрузить переменные из отдельного файла?
 
-Say `file1.rb` contains:
+Допустим, `file1.rb` содержит:
 
 ~~~
 var1 = 99
 ~~~
 
-and some other file loads it in:
+и какой-то другой файл загружает его:
 
 ~~~
 require_relative "file1"
 puts var1
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 prog.rb:2:in `<main>': undefined local variable or method `var1' for main:Object (NameError)
 ~~~
 
-You get an error because `load` and `require` arrange for local variables to
-be stored into a separate, anonymous namespace, effectively discarding them.
-This is designed to protect your code from being polluted.
+Вы получаете ошибку, потому что `load` и `require` организуют хранение локальных переменных в отдельном анонимном пространстве имен, фактически отбрасывая их. Это сделано для защиты вашего кода от загрязнения.
