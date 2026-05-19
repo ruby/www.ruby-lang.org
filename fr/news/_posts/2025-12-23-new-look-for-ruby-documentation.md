@@ -17,7 +17,7 @@ Après la [refonte de ruby-lang.org](https://www.ruby-lang.org/fr/news/2025/12/2
 - **Recherche améliorée** : tri tenant compte de la casse, correspondance approximative et prise en charge de la recherche de constantes
 - **Mode sombre** : respecte les préférences de votre système d'exploitation, avec un bouton de basculement manuel
 - **Mise en page à trois colonnes** : barre latérale gauche pour la navigation, partie centrale pour le contenu, barre latérale droite pour la table des matières
-- **Améliorations des blocs de code** : boutons de copie sur les blocs de code et colorisation syntaxique du code C
+- **Améliorations des blocs de code** : boutons de copie sur les blocs de code et mise en évidence syntaxique du code C
 - **Pied de page personnalisable** : les mainteneurs de gems peuvent ajouter des liens vers leur dépôt, leur outil de suivi des tickets et d'autres ressources
 
 ## Pour les auteurs de gems
