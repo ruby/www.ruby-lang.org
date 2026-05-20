@@ -11,7 +11,7 @@ Ruby 4.0.5 has been released.
 
 This release only contains a security fix for
 [CVE-2026-46727: Use-after-free in pthread-based getaddrinfo timeout handler](/en/news/2026/05/20/getaddrinfo-cve-2026-46727/)
-and a build system regression under C locale ([[Bug #22065]](https://bugs.ruby-lang.org/issues/22065)).
+and a build system regression in Ruby 4.0.4 under C locale [[Bug #22065]](https://bugs.ruby-lang.org/issues/22065).
 
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.5) for further details.
 
