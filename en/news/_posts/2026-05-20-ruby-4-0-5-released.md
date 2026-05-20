@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 4.0.5 Released"
-author:
+author: k0kubun
 translator:
 date: 2026-05-20 00:12:20 +0000
 lang: en
@@ -9,7 +9,17 @@ lang: en
 
 Ruby 4.0.5 has been released.
 
+This release only contains a security fix for
+[CVE-2026-46727: Use-after-free in pthread-based getaddrinfo timeout handler](/en/news/2026/05/20/getaddrinfo-cve-2026-46727/)
+and a build system regression under C locale ([[Bug #22065]](https://bugs.ruby-lang.org/issues/22065)).
+
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.5) for further details.
+
+## Release Schedule
+
+We intend to release the latest stable Ruby version (currently Ruby 4.0) every two months following the most recent *regular* release. Ruby 4.0.6 will be released in July, 4.0.7 in September, and 4.0.8 in November.
+
+If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
 
 ## Download
 
