@@ -86,8 +86,6 @@ navigation:
   submenu:
   - text: Desarrollo de Ruby Core
     url: /es/community/ruby-core/
-  - text: Guía del repositorio
-    url: /es/documentation/repository-guide/
   - text: Listas de correo
     url: /es/community/mailing-lists/
   - text: Guía de Parches

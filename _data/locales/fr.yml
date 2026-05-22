@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Développement de Ruby Core
     url: /fr/community/ruby-core/
-  - text: Guide du dépôt
-    url: /fr/documentation/repository-guide/
   - text: Listes de diffusion
     url: /fr/community/mailing-lists/
   - text: Autres
