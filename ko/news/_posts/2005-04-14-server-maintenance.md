@@ -1,9 +1,9 @@
 ---
 layout: news_post
-title: "Server Maintenance"
+title: "서버 점검"
 author: "Unknown Author"
 lang: ko
 ---
 
-We’ll be performing server maintenance on Thu Apr 14 03:00:00 UTC 2005.
-It may be down briefly.
+2005년 4월 14일 목요일 03:00:00 UTC에 서버 점검이 진행될 예정입니다.
+잠시 서비스가 중단될 수 있습니다.

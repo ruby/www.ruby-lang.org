@@ -1,52 +1,36 @@
 ---
 layout: page
-title: "Patch Writer’s Guide"
+title: "Руководство по написанию патчей"
 lang: ru
+translator: "ablzh"
 ---
 
-Here follow some tips, straight from Matz, on how to get
-your patches considered.
+Ниже приведены несколько советов, полученных непосредственно от Matz, о том, как добиться рассмотрения ваших патчей.
 {: .summary}
 
-These guidelines were adopted from a [post by Matz][ruby-core-post]
-on the Ruby-Core mailing list:
+Эти рекомендации были взяты из [сообщения Matz][ruby-core-post] в списке рассылки Ruby-Core:
 
-* Implement one modification per patch
+* Вносите одно изменение в один патч
 
-  This is the biggest issue for most deferred patches. When you
-  submit a patch that fixes multiple bugs (and adds features) at once,
-  we have to separate them before applying it. It is a rather hard task
-  for us busy developers, so this kind of patches tends to be deferred.
-  No big patches please.
+  Это самая большая проблема для большинства отложенных патчей. Когда вы отправляете патч, который исправляет несколько ошибок (и добавляет новые функции) одновременно, нам приходится разделять их перед применением. Это довольно сложная задача для нас, занятых разработчиков, поэтому такие патчи, как правило, откладываются. Пожалуйста, не присылайте большие патчи.
 
-* Provide descriptions
+* Предоставляйте описание
 
-  Sometimes a mere patch does not sufficiently describe the problem it fixes.
-  A better description (the problem it fixes, preconditions, platform, etc.)
-  would help a patch to be merged earlier.
+  Иногда сам патч недостаточно описывает проблему, которую он исправляет. Более подробное описание (исправляемая проблема, условия, платформа и т. д.) помогло бы быстрее принять патч.
 
-* Diff to the latest revision
+* Создавайте diff относительно последней ревизии
 
-  Your problem might have been fixed in the latest revision. Or the code
-  might be totally different by now. Before submitting a patch, try to fetch
-  the latest version (the `trunk` branch for the latest development version,
-  `{{ site.svn.stable.branch }}` for {{ site.svn.stable.version }})
-  from the Subversion repository, please.
+  Ваша проблема, возможно, уже была исправлена в последней ревизии. Или код к настоящему моменту может полностью отличаться. Пожалуйста, перед отправкой патча постарайтесь получить последнюю версию (ветку `trunk` для последней разрабатываемой версии, `{{ site.svn.stable.branch }}` для {{ site.svn.stable.version }}) из репозитория Subversion.
 
-* Use `diff -u`
+* Используйте `diff -u`
 
-  We prefer `diff -u` style unified diff patches to `diff -c`
-  or any other style of patches. They are far easier to review.
-  Do not send modified files, we do not want to make a diff by ourselves.
+  Мы предпочитаем патчи в формате unified diff (`diff -u`), а не `diff -c` или любые другие стили патчей. Их гораздо легче рецензировать. Не присылайте измененные файлы, мы не хотим делать diff самостоятельно.
 
-* Provide test cases (optional)
+* Предоставляйте тест-кейсы (опционально)
 
-  A patch providing test cases (preferably a patch to `test/*/test_*.rb`)
-  would help us understand the patch and your intention.
+  Патч, содержащий тест-кейсы (желательно патч для `test/*/test_*.rb`), поможет нам лучше понять патч и ваши намерения.
 
-We might move to a Git style push/pull workflow in the future.
-But until then, following the above guidelines would help you to avoid
-frustration.
+В будущем мы можем перейти на рабочий процесс в стиле Git (push/pull). Но до тех пор соблюдение приведенных выше рекомендаций поможет вам избежать разочарований.
 
 
 [ruby-core-post]: https://blade.ruby-lang.org/ruby-core/25139

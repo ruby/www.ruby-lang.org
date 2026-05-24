@@ -1,9 +1,8 @@
 ---
 layout: news_post
-title: "WWW/FTP service restart"
+title: "WWW/FTP 서비스 재시작"
 author: "Shugo Maeda"
 lang: ko
 ---
 
-We have finished the validation on WWW/FTP contents, so we restarted
-WWW/FTP services.
+WWW/FTP 콘텐츠 검증을 완료하고 WWW/FTP 서비스를 재시작했습니다.

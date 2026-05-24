@@ -1,67 +1,67 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
     <strong>3</strong>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Installing Ruby
+## Установка Ruby
 
-For current information on downloading and installing Ruby
-see the [Installation](/en/documentation/installation/)
-or [Downloads](/en/downloads/) page.
+Актуальную информацию о скачивании и установке Ruby
+смотрите на страницах [Установка](/ru/documentation/installation/)
+или [Скачать](/ru/downloads/).
 
-### What operating systems support Ruby?
-
-{% include warnings/faq-out-of-date.html %}
-
-Ruby is developed under Linux, and is written in fairly straightforward C.
-It runs under Linux and other UNIX-like operating systems, macOS,
-Windows, DOS, BeOS, Amiga, Acorn Risc OS, and OS/2.
-
-### Where can I get Ruby sources?
-
-The latest version of Ruby can be downloaded from:
-[www.ruby-lang.org/en/downloads/](/en/downloads/).
-Mirror sites are also listed on this page.
-
-Also on this page is a link to a nightly snapshot of the development tree.
-
-### Can I get to the development source tree?
+### Какие операционные системы поддерживают Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
-If you have a CVS client, you can check out the current source tree using:
+Ruby разрабатывается под Linux и написан на довольно простом C.
+Он работает под Linux и другими UNIX-подобными операционными системами, macOS,
+Windows, DOS, BeOS, Amiga, Acorn Risc OS и OS/2.
+
+### Где я могу получить исходный код Ruby?
+
+Последнюю версию Ruby можно скачать с:
+[www.ruby-lang.org/ru/downloads/](/ru/downloads/).
+Зеркала также перечислены на этой странице.
+
+Также на этой странице есть ссылка на ночной снапшот дерева разработки.
+
+### Могу ли я получить доступ к дереву исходного кода разработки?
+
+{% include warnings/faq-out-of-date.html %}
+
+Если у вас есть клиент CVS, вы можете получить текущее дерево исходного кода, используя:
 
 ~~~
 $ cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs login
@@ -70,15 +70,12 @@ CVS password: guest
 $ cvs -d :pserver:anonymous@cvs.netlab.co.jp:/home/cvs co ruby
 ~~~
 
-If you do not have CVS you can get a nightly snapshot of the development
-source from
+Если у вас нет CVS, вы можете получить ночной снапшот исходного кода разработки с
 [https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz](https://cache.ruby-lang.org/pub/ruby/snapshot.tar.gz).
 
-### How do I compile Ruby?
+### Как мне скомпилировать Ruby?
 
-Under Unix, Ruby uses the `autoconf` system to configure the build
-environment. You don't need the `autoconf` command on your box to build Ruby
-from a distribution; just use the commands:
+Под Unix Ruby использует систему `autoconf` для настройки среды сборки. Вам не нужна команда `autoconf` на вашей машине, чтобы собрать Ruby из дистрибутива; просто используйте команды:
 
 ~~~
 $ ./configure [configure options]
@@ -87,32 +84,28 @@ $ make test
 $ make install
 ~~~
 
-You may need superuser privileges to install Ruby if you don't override the
-default installation location (`/usr/local`). You can get a full list of
-`configure` options using:
+Вам могут понадобиться права суперпользователя для установки Ruby, если вы не переопределите стандартный путь установки (`/usr/local`). Вы можете получить полный список опций `configure`, используя:
 
 ~~~
 $ ./configure --help
 ~~~
 
-If you are working from the source repository, you may need to run
-`autoconf` before running `configure`.
+Если вы работаете из репозитория исходного кода, вам может потребоваться запустить
+`autoconf` перед запуском `configure`.
 
-### How do I tell Ruby where my libraries are?
+### Как мне указать Ruby, где находятся мои библиотеки?
 
 {% include warnings/faq-out-of-date.html %}
 
-On some systems, the build process may fail to find libraries used by
-extension modules (for example the `dbm` libraries).
+На некоторых системах процесс сборки может не найти библиотеки, используемые модулями расширения (например, библиотеки `dbm`).
 
-You can tell Ruby where to find libraries using options to `configure`.
-From [\[ruby-talk:5041\]][ruby-talk:5041]:
+Вы можете указать Ruby, где искать библиотеки, используя опции `configure`. Из [\[ruby-talk:5041\]][ruby-talk:5041]:
 
 ~~~
 $ ./configure --with-xxx-yyy=DIR
 ~~~
 
-where xxx is either
+где xxx это либо
 
 ~~~
 opt           extra software path in general
@@ -123,7 +116,7 @@ tk            ...for Tk...
 tcl           ...for Tcl...
 ~~~
 
-and yyy is either
+и yyy это либо
 
 ~~~
 dir           specifies -I DIR/include -L DIR/lib
@@ -131,68 +124,49 @@ include       specifies -I DIR
 lib           specifies -L DIR
 ~~~
 
-On HP-UX, there may be problems building with `gcc`. Try using the native
-compiler instead. WATANABE Tetsuya recommends:
+На HP-UX могут возникнуть проблемы при сборке с помощью `gcc`. Попробуйте использовать нативный компилятор. WATANABE Tetsuya рекомендует:
 
 ~~~
 $ CC="cc -Ae" CFLAGS=-O ./configure --prefix=/opt/gnu
 ~~~
 
-There may also be problems with HP's native `sed`.
-He recommends installing the GNU equivalent.
+Также могут быть проблемы с нативным `sed` от HP.
+Он рекомендует установить аналог от GNU.
 
 [ruby-talk:5041]: https://blade.ruby-lang.org/ruby-talk/5041
 
-### Are precompiled binaries available?
+### Доступны ли скомпилированные бинарные файлы?
 
-A single download that contains everything you need to run Ruby under various
-Windows operating systems is available from [RubyInstaller](https://rubyinstaller.org/).
+Единый файл для скачивания, содержащий все необходимое для запуска Ruby в различных операционных системах Windows, доступен на [RubyInstaller](https://rubyinstaller.org/).
 
-[Reuben Thomas](mailto:Reuben.Thomas@cl.cam.ac.uk) writes:
+[Reuben Thomas](mailto:Reuben.Thomas@cl.cam.ac.uk) пишет:
 
-> You could mention that there's a port to Acorn RISC OS, currently of v1.4.3.
-> I made the port, and have no plans to maintain it, but I did send the
-> patches to matz, so newer versions may well compile too.
+> Вы могли бы упомянуть, что существует порт для Acorn RISC OS, в данный момент версии 1.4.3.
+> Я сделал этот порт и не планирую его поддерживать, но я отправил
+> патчи Matz, так что более новые версии тоже могут скомпилироваться.
 
-### What's all this “cygwin”, “mingw”, and “djgpp” stuff?
-
-{% include warnings/faq-out-of-date.html %}
-
-Ruby is written to take advantage of the rich feature set of a Unix
-environment. Unfortunately, Windows is missing some of the functions, and
-implements others differently. As a result, some kind of mapping layer is
-needed to run Ruby (and other Unix-based programs) under Windows.
-
-You may come across different versions of the Ruby executable that use
-different wrapper mapping layers.
-
-The rbdj version is a stand-alone version of the Windows binary of Ruby.
-It uses the DJ Delorie tools
-([http://www.delorie.com](http://www.delorie.com)).
-
-The rbcw version is a Windows binary of Ruby that requires the cygwin library,
-available at [http://www.cygwin.com](http://www.cygwin.com) or from the
-Ruby download pages. Cygwin is both an emulation layer and a set of
-utilities initially produced by Cygnus Solutions (now part of Redhat).
-The cygwin version of Ruby probably has the fullest set of features under
-Windows, so most programmers will want to use it.
-
-To use the rbcw version, you will need to install the cygwin .dll separately.
-Once you have installed cygwin on your computer, copy `cygwin1.dll` (which
-is found in the `bin` subdirectory of the cygwin distribution) to your
-`Windows\System32` folder (or somewhere else on your path).
-
-Thanks to Anders Schneiderman for the basis of this description.
-
-### Why doesn't Tk graphics work under Windows?
+### Что это за штуки «cygwin», «mingw» и «djgpp»?
 
 {% include warnings/faq-out-of-date.html %}
 
-Is Tk installed correctly on your Windows box? Go to
-[https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae)
-to find a precompiled binary Tcl/Tk distribution for your box.
+Ruby написан так, чтобы использовать богатый набор возможностей среды Unix. К сожалению, в Windows отсутствуют некоторые функции, а другие реализованы иначе. В результате для запуска Ruby (и других программ на базе Unix) в Windows требуется своего рода промежуточный слой.
 
-Are the environment variables `TCL_LIBRARY` and `TK_LIBRARY` pointing to the
-directories containing tcl and tk?
+Вы можете столкнуться с различными версиями исполняемого файла Ruby, которые используют разные слои сопоставления оберток.
 
-Is the tk library in your path?
+Версия rbdj — это автономная версия Windows-бинарника Ruby. Она использует инструменты DJ Delorie ([http://www.delorie.com](http://www.delorie.com)).
+
+Версия rbcw — это Windows-бинарник Ruby, которому требуется библиотека cygwin, доступная на [http://www.cygwin.com](http://www.cygwin.com) или на страницах скачивания Ruby. Cygwin — это одновременно и уровень эмуляции, и набор утилит, изначально созданных Cygnus Solutions (ныне часть Redhat). Версия Ruby для cygwin, вероятно, обладает наиболее полным набором функций под Windows, поэтому большинство программистов предпочтут использовать именно её.
+
+Чтобы использовать версию rbcw, вам нужно будет установить cygwin .dll отдельно. Как только вы установите cygwin на свой компьютер, скопируйте `cygwin1.dll` (который находится в поддиректории `bin` дистрибутива cygwin) в папку `Windows\System32` (или в другое место в вашем пути PATH).
+
+Спасибо Anders Schneiderman за основу этого описания.
+
+### Почему графика Tk не работает в Windows?
+
+{% include warnings/faq-out-of-date.html %}
+
+Правильно ли установлен Tk на вашей Windows-машине? Перейдите на [https://wiki.tcl-lang.org/page/Binary+Distributions](https://wiki.tcl-lang.org/page/Binary+Distributions#85b8647b1ec80c2fa1698c3c7e76204a944a95db2487347c51773f26b9dad6ae), чтобы найти скомпилированный бинарный дистрибутив Tcl/Tk для вашей системы.
+
+Указывают ли переменные окружения `TCL_LIBRARY` и `TK_LIBRARY` на директории, содержащие tcl и tk?
+
+Находится ли библиотека tk в вашем пути PATH?

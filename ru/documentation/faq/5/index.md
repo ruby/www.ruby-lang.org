@@ -1,51 +1,47 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
     <strong>5</strong>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## Iterators
+## Итераторы
 
-### What is an iterator?
+### Что такое итератор?
 
-An iterator is a method which accepts a block or a `Proc` object. In the
-source file, the block is placed immediately after the invocation of the
-method. Iterators are used to produce user-defined control
-structures---especially loops.
+Итератор — это метод, который принимает блок или объект `Proc`. В исходном файле блок помещается сразу после вызова метода. Итераторы используются для создания пользовательских структур управления — особенно циклов.
 
-Let's look at an example to see how this works. Iterators are often used to
-repeat the same action on each element of a collection, like this:
+Давайте рассмотрим пример, чтобы увидеть, как это работает. Итераторы часто используются для повторения одного и того же действия для каждого элемента коллекции, например так:
 
 ~~~
 data = [1, 2, 3]
@@ -54,7 +50,7 @@ data.each do |i|
 end
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 1
@@ -62,11 +58,9 @@ Produces:
 3
 ~~~
 
-The each method of the array `data` is passed the `do ... end` block,
-and executes it repeatedly. On each call, the block is passed successive
-elements of the array.
+Методу `each` массива `data` передается блок `do ... end`, и он выполняет его многократно. При каждом вызове блоку передаются последовательные элементы массива.
 
-You can define blocks with `{ ... }` in place of `do ... end`.
+Вы можете определять блоки с помощью `{ ... }` вместо `do ... end`.
 
 ~~~
 data = [1, 2, 3]
@@ -75,7 +69,7 @@ data.each { |i|
 }
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 1
@@ -83,34 +77,26 @@ Produces:
 3
 ~~~
 
-This code has the same meaning as the last example. However, in some cases,
-precedence issues cause `do ... end` and `{ ... }` to act differently.
+Этот код имеет тот же смысл, что и в предыдущем примере. Однако в некоторых случаях из-за приоритетов операций `do ... end` и `{ ... }` ведут себя по-разному.
 
 ~~~
-foobar a, b do ... end  # foobar is the iterator.
-foobar a, b { ... }     # b is the iterator.
+foobar a, b do ... end  # foobar является итератором.
+foobar a, b { ... }     # b является итератором.
 ~~~
 
-This is because `{ ... }` binds more tightly to the preceding expression
-than does a `do ... end` block. The first example is equivalent to
-`foobar(a, b) do ... end`, while the second is `foobar(a, b { ... })`.
+Это происходит потому, что `{ ... }` связывается с предшествующим выражением сильнее, чем блок `do ... end`. Первый пример эквивалентен `foobar(a, b) do ... end`, а второй — `foobar(a, b { ... })`.
 
-### How can I pass a block to an iterator?
+### Как мне передать блок итератору?
 
-You simply place the block after the iterator call. You can also pass a
-`Proc` object by prepending `&` to the variable or constant name that refers
-to the `Proc`.
+Вы просто помещаете блок после вызова итератора. Вы также можете передать объект `Proc`, добавив `&` перед именем переменной или константы, которая ссылается на `Proc`.
 
-### How is a block used in an iterator?
+### Как блок используется в итераторе?
 
 {% include warnings/faq-out-of-date.html %}
 
-There are three ways to execute a block from an iterator method:
-(1) the `yield` control structure; (2) calling a `Proc` argument
-(made from a block) with `call`; and (3) using `Proc.new` followed by a call.
+Существует три способа выполнить блок из метода итератора: (1) управляющая структура `yield`; (2) вызов аргумента `Proc` (созданного из блока) с помощью `call`; и (3) использование `Proc.new`, за которым следует вызов.
 
-The `yield` statement calls the block, optionally passing it one or more
-arguments.
+Инструкция `yield` вызывает блок, опционально передавая ему один или несколько аргументов.
 
 ~~~
 def my_iterator
@@ -120,16 +106,14 @@ end
 my_iterator {|a, b| puts a, b }
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 1
 2
 ~~~
 
-If a method definition has a block argument (the last formal parameter has
-an ampersand (`&`) prepended), it will receive the attached block, converted
-to a `Proc` object. This may be called using `prc.call(args)`.
+Если в определении метода есть аргумент блока (перед последним формальным параметром стоит амперсанд (`&`)), он получит прикрепленный блок, преобразованный в объект `Proc`. Его можно вызвать с помощью `prc.call(args)`.
 
 ~~~
 def my_iterator(&b)
@@ -139,20 +123,16 @@ end
 my_iterator {|a, b| puts a, b }
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 1
 2
 ~~~
 
-`Proc.new` (or the equivalent `proc` or `lambda` calls), when used in an
-iterator definition, takes the block which is given to the method as its
-argument and generates a procedure object from it.
-(`proc` and `lambda` are effectively synonyms.)
+`Proc.new` (или эквивалентные вызовы `proc` или `lambda`) при использовании в определении итератора берет блок, переданный методу в качестве аргумента, и генерирует из него объект процедуры. (`proc` и `lambda` фактически являются синонимами).
 
-_[Update needed: `lambda` behaves in a slightly different way and
-produces a warning `tried to create Proc object without a block`.]_
+_[Требуется обновление: `lambda` ведет себя немного иначе и вызывает предупреждение `tried to create Proc object without a block`.]_
 
 ~~~
 def my_iterator
@@ -164,7 +144,7 @@ end
 my_iterator {|a, b| puts a, b }
 ~~~
 
-Produces:
+Результат:
 
 ~~~
 3
@@ -175,24 +155,17 @@ Produces:
 8
 ~~~
 
-Perhaps surprisingly, `Proc.new` and friends do not in any sense consume
-the block attached to the method---each call to `Proc.new` generates a new
-procedure object out of the same block.
+Возможно, это удивительно, но `Proc.new` и компания ни в коем случае не «потребляют» блок, прикрепленный к методу — каждый вызов `Proc.new` генерирует новый объект процедуры из того же самого блока.
 
-You can tell if there is a block associated with a method by calling
-`block_given?`.
+Вы можете узнать, связан ли с методом блок, вызвав `block_given?`.
 
-### What does `Proc.new` without a block do?
+### Что делает `Proc.new` без блока?
 
-`Proc.new` without a block cannot generate a procedure object and an error
-occurs. In a method definition, however, `Proc.new` without a block implies
-the existence of a block at the time the method is called, and so no error
-will occur.
+`Proc.new` без блока не может сгенерировать объект процедуры, и возникает ошибка. Однако в определении метода `Proc.new` без блока подразумевает наличие блока в момент вызова метода, поэтому ошибки не возникнет.
 
-### How can I run iterators in parallel?
+### Как я могу запускать итераторы параллельно?
 
-Here an adoption of a solution by Matz, in
-[\[ruby-talk:5252\]][ruby-talk:5252], that uses threads:
+Вот адаптация решения от Matz из [\[ruby-talk:5252\]][ruby-talk:5252], которое использует потоки:
 
 ~~~
 require "thread"
@@ -230,7 +203,7 @@ def it2
 end
 
 combine(:it1, :it2) do |x|
-  # x is [1, 4], then [2, 5], then [3, 6]
+  # x это [1, 4], затем [2, 5], затем [3, 6]
 end
 ~~~
 

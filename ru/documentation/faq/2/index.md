@@ -1,102 +1,102 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
-    <a href="../1/" title="Part 1">1</a>
+    <a href="../1/" title="Часть 1">1</a>
     <span class="separator"> | </span>
     <strong>2</strong>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## How does Ruby stack up against...?
+## Как Ruby выглядит на фоне...?
 
-### How does Ruby compare with Python?
+### Как Ruby соотносится с Python?
 
-Python and Ruby are both object oriented languages that provide a smooth
-transition from procedural to OO programming styles. Smalltalk, by contrast,
-is object only---you can't do anything until you understand objects,
-inheritance and the sizable Smalltalk class hierarchy. By providing procedural
-training wheels, Python and Ruby “fix” one of the features that may have
-kept Smalltalk out of the mainstream. The two languages differ by approaching
-this solution from opposite directions.
+Python и Ruby — это оба объектно-ориентированные языки, которые обеспечивают плавный
+переход от процедурного к объектно-ориентированному стилю программирования. Smalltalk, для контраста,
+является исключительно объектным — вы ничего не можете сделать, пока не поймете объекты,
+наследование и солидную иерархию классов Smalltalk. Предоставляя процедурные
+вспомогательные средства, Python и Ruby «исправляют» одну из особенностей, которая, возможно,
+удерживала Smalltalk в стороне от мейнстрима. Эти два языка отличаются тем, что подходят
+к этому решению с противоположных сторон.
 
-Python is a hybrid language. It has functions for procedural programming and
-objects for OO programming. Python bridges the two worlds by allowing
-functions and methods to interconvert using the explicit `self` parameter
-of every method def. When a function is inserted into an object, the first
-argument automagically becomes a reference to the receiver.
+Python — гибридный язык. У него есть функции для процедурного программирования и
+объекты для ООП. Python связывает эти два мира, позволяя
+функциям и методам взаимопревращаться с использованием явного параметра `self`
+каждого определения метода. Когда функция вставляется в объект, первый
+аргумент автоматически становится ссылкой на получателя.
 
-Ruby is a pure OO language that can masquerade as a procedural one. It has no
-functions, only method calls. In a Ruby method the receiver, also called
-`self`, is a hidden argument like `this` in C++. A `def` statement outside of
-a class definition, which defines a function in Python, actually defines a method
-in Ruby. These ersatz functions become private methods of class Object, the
-root of the Ruby class hierarchy. Procedural programming is neatly solved from
-the other direction---everything is an object. If the user doesn't grok
-objects yet, they can just pretend that `def` is a function definition and
-still get useful work done.
+Ruby — это чисто объектно-ориентированный язык, который может маскироваться под процедурный. В нем нет
+функций, только вызовы методов. В методе Ruby получатель, также называемый
+`self`, является скрытым аргументом, подобно `this` в C++. Инструкция `def` вне
+определения класса, которая в Python определяет функцию, в Ruby на самом деле определяет метод.
+Эти эрзац-функции становятся приватными методами класса Object,
+корня иерахии классов Ruby. Процедурное программирование изящно решается
+с другой стороны — все является объектом. Если пользователь еще не осознает
+объекты, он может просто притвориться, что `def` — это определение функции, и
+все равно делать полезную работу.
 
-Ruby's OO purity provides a number of features that Python lacks or is still
-working toward: a unified type/class hierarchy, metaclasses, the ability to
-subclass everything, and uniform method invocation (none of this `len()` is a
-function but `items()` is a method rubbish). Ruby, like Smalltalk, only
-supports single inheritance, but it does have a very powerful mixin concept:
-a class definition may include a module, which inserts that module's methods,
-constants, etc. into the class.
+Чистота ООП в Ruby предоставляет ряд возможностей, которых не хватает Python или к которым он все еще
+стремится: единая иерархия типов/классов, метаклассы, возможность
+наследовать все, и единообразный вызов методов (ничего из этой чепухи, что `len()` — это
+функция, а `items()` — это метод). Ruby, как и Smalltalk, поддерживает только
+одиночное наследование, но в нем есть очень мощная концепция примесей (mixin):
+определение класса может включать модуль, который вставляет методы этого модуля,
+константы и т.д. в класс.
 
-Ruby, again like Smalltalk, provides closures and code blocks and uses them
-to the same good effect. The Ruby collection classes and iterators are
-outstanding, much more powerful and elegant than the ad hoc solutions that
-Python is sprouting (lambdas and list comprehensions).
+Ruby, опять же как и Smalltalk, предоставляет замыкания и блоки кода и использует их
+с тем же хорошим эффектом. Коллекции классов и итераторы Ruby
+выдающиеся, гораздо более мощные и элегантные, чем специальные решения, которые
+появляются в Python (лямбды и генераторы списков).
 
-Ruby's syntax and design philosophy are heavily influenced by Perl. It has a
-lot of syntactic variability. Statement modifiers (`if`, `unless`, `while`,
-`until`, etc.) may appear at the end of any statement. Some key words are
-optional (the `then` in an `if` statement for example). Parentheses may
-sometimes be elided in method calls. The receiver of a method may usually be
-elided.
-Many, many things are lifted directly from Perl.
-Built in regular expressions, `$_` and friends, here documents, the
-single-quoted / double-quoted string distinction, `$` and `@` prefixes to
-distinguish different kinds of names and so forth.
+Синтаксис и философия дизайна Ruby находятся под сильным влиянием Perl. Он обладает
+большой синтаксической вариативностью. Модификаторы инструкций (`if`, `unless`, `while`,
+`until` и т.д.) могут появляться в конце любой инструкции. Некоторые ключевые слова
+необязательны (например, `then` в инструкции `if`). Скобки
+иногда можно опускать при вызовах методов. Получатель метода обычно также может быть
+опущен.
+Многое, многое заимствовано напрямую из Perl.
+Встроенные регулярные выражения, `$_` и компания, heredoc,
+различие между строками в одинарных и двойных кавычках, префиксы `$` и `@`
+для различения разных видов имен и так далее.
 
-If you like Perl, you will like Ruby and be right at home with its syntax.
-If you like Smalltalk, you will like Ruby and be right at home with its
-semantics. If you like Python, you may or may not be put off by the huge
-difference in design philosophy between Python and Ruby/Perl.
+Если вам нравится Perl, вам понравится Ruby и вы будете чувствовать себя как дома с его синтаксисом.
+Если вам нравится Smalltalk, вам понравится Ruby и вы будете чувствовать себя как дома с его
+семантикой. Если вам нравится Python, вас может оттолкнуть (или нет) огромная
+разница в философии дизайна между Python и Ruby/Perl.
 
-Ruby is much more complex than Python but its features, for the most part,
-hang together well. Ruby is well designed and full of neat ideas that might be
-mined for P3K. I'm not sure how many Python programmers will be attracted to
-it though---it hasn't won me over (yet). But it is worthy of serious study and
-could be a real threat to Perl.
+Ruby намного сложнее Python, но его возможности, по большей части,
+хорошо сочетаются друг с другом. Ruby хорошо спроектирован и полон отличных идей, которые можно было бы
+использовать для P3K. Однако я не уверен, сколько программистов на Python он
+привлечет — он меня (пока) не покорил. Но он достоин серьезного изучения и
+мог бы стать реальной угрозой для Perl.
 
-Posted by [John Dell'Aquila](mailto:jbd@alum.mit.edu) in comp.lang.python,
-11/17/2000. Reproduced with permission.
+Опубликовано от [John Dell'Aquila](mailto:jbd@alum.mit.edu) в comp.lang.python,
+11/17/2000. Воспроизведено с разрешения.

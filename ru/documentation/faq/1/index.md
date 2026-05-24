@@ -1,73 +1,73 @@
 ---
 layout: page
-title: "Official Ruby FAQ"
+title: "Официальный FAQ по Ruby"
 lang: ru
 
 header: |
   <div class="multi-page">
-    <a href="../" title="Content">Content</a>
+    <a href="../" title="Оглавление">Оглавление</a>
     <span class="separator"> | </span>
     <strong>1</strong>
     <span class="separator"> | </span>
-    <a href="../2/" title="Part 2">2</a>
+    <a href="../2/" title="Часть 2">2</a>
     <span class="separator"> | </span>
-    <a href="../3/" title="Part 3">3</a>
+    <a href="../3/" title="Часть 3">3</a>
     <span class="separator"> | </span>
-    <a href="../4/" title="Part 4">4</a>
+    <a href="../4/" title="Часть 4">4</a>
     <span class="separator"> | </span>
-    <a href="../5/" title="Part 5">5</a>
+    <a href="../5/" title="Часть 5">5</a>
     <span class="separator"> | </span>
-    <a href="../6/" title="Part 6">6</a>
+    <a href="../6/" title="Часть 6">6</a>
     <span class="separator"> | </span>
-    <a href="../7/" title="Part 7">7</a>
+    <a href="../7/" title="Часть 7">7</a>
     <span class="separator"> | </span>
-    <a href="../8/" title="Part 8">8</a>
+    <a href="../8/" title="Часть 8">8</a>
     <span class="separator"> | </span>
-    <a href="../9/" title="Part 9">9</a>
+    <a href="../9/" title="Часть 9">9</a>
     <span class="separator"> | </span>
-    <a href="../10/" title="Part 10">10</a>
+    <a href="../10/" title="Часть 10">10</a>
     <span class="separator"> | </span>
-    <a href="../11/" title="Part 11">11</a>
+    <a href="../11/" title="Часть 11">11</a>
   </div>
-  <h1>Official Ruby FAQ</h1>
+  <h1>Официальный FAQ по Ruby</h1>
 
 ---
 
 {% include faq-notice.md %}
 
-## General questions
+## Общие вопросы
 
-### What is Ruby?
+### Что такое Ruby?
 
-Ruby is a simple and powerful object-oriented programming language, created by
-Yukihiro Matsumoto (who goes by the handle "Matz" in this document and on the
-mailing lists).
+Ruby — это простой и мощный объектно-ориентированный язык программирования, созданный
+Yukihiro Matsumoto (который использует никнейм "Matz" в этом документе и в
+списках рассылки).
 
-Like Perl, Ruby is good at text processing. Like Smalltalk, everything in Ruby
-is an object, and Ruby has blocks, iterators, meta-classes and other good
-stuff.
+Подобно Perl, Ruby хорош в обработке текста. Подобно Smalltalk, все в Ruby
+является объектом, и в Ruby есть блоки, итераторы, метаклассы и другие хорошие
+вещи.
 
-You can use Ruby to write servers, experiment with prototypes, and for
-everyday programming tasks. As a fully-integrated object-oriented language,
-Ruby scales well.
+Вы можете использовать Ruby для написания серверов, экспериментов с прототипами и для
+повседневных задач программирования. Как полностью интегрированный объектно-ориентированный язык,
+Ruby хорошо масштабируется.
 
-Ruby features:
+Возможности Ruby:
 
-* Simple syntax,
-* Basic OO features (classes, methods, objects, and so on),
-* Special OO features (mixins, singleton methods, renaming, and so on),
-* Operator overloading,
-* Exception handling,
-* Iterators and closures,
-* Garbage collection,
-* Dynamic loading (depending on the architecture),
-* High transportability (runs on various Unices, Windows, DOS, macOS, OS/2,
-  Amiga, and so on).
+* Простой синтаксис,
+* Базовые возможности ООП (классы, методы, объекты и так далее),
+* Специальные возможности ООП (примеси, синглтон-методы, переименование и так далее),
+* Перегрузка операторов,
+* Обработка исключений,
+* Итераторы и замыкания,
+* Сборка мусора,
+* Динамическая загрузка (в зависимости от архитектуры),
+* Высокая переносимость (работает на различных Unices, Windows, DOS, macOS, OS/2,
+  Amiga и так далее).
 
-### Show me some Ruby code!
+### Покажите мне немного кода на Ruby!
 
-Let's define a class called `Person`, with a name and an age. We'll test our
-code by creating a few people and examining them.
+Давайте определим класс с названием `Person`, с именем и возрастом. Мы проверим наш
+код, создав несколько человек и изучив их.
 
 ~~~
 class Person
@@ -90,8 +90,8 @@ p1  # => Elmo (4)
 p2  # => Zoe (7)
 ~~~
 
-Now let's populate an array of people by reading their names and ages from a
-file `ages` containing lines like:
+Теперь давайте заполним массив людей, считывая их имена и возраст из
+файла `ages`, содержащего строки вида:
 
 ~~~
 Bert:    8
@@ -101,9 +101,9 @@ Ernie:   8
 Zoe:     7
 ~~~
 
-The code uses regular expressions to parse successive lines from the input
-file, creating a new `Person` object for each match and pushing it onto the
-end of the array `people`.
+Код использует регулярные выражения для парсинга последовательных строк из входного
+файла, создавая новый объект `Person` для каждого совпадения и добавляя его в
+конец массива `people`.
 
 ~~~
 people = Array.new
@@ -115,16 +115,16 @@ end
 people  # => [Bert (8), Cookie (11), Elmo (4), Ernie (8), Zoe (7)]
 ~~~
 
-Now, let's sort the result based on the person's age. There are many ways to
-do this. We can define a sort block, which tells Ruby how to do the comparison
-of two people:
+Теперь давайте отсортируем результат на основе возраста человека. Существует множество способов
+сделать это. Мы можем определить блок сортировки, который указывает Ruby, как выполнять сравнение
+двух людей:
 
 ~~~
 sorted = people.sort {|a, b| a.age <=> b.age }
 sorted  # => [Elmo (4), Zoe (7), Bert (8), Ernie (8), Cookie (11)]
 ~~~
 
-Another way would be to change the comparison method for class `Person`:
+Другим способом было бы изменение метода сравнения для класса `Person`:
 
 ~~~
 class Person
@@ -135,161 +135,160 @@ end
 people.sort  # => [Elmo (4), Zoe (7), Bert (8), Ernie (8), Cookie (11)]
 ~~~
 
-### Why the name “Ruby”?
+### Почему название «Ruby»?
 
-Influenced by Perl, Matz wanted to use a jewel name for his new language, so
-he named Ruby after a colleague's birthstone.
+Под влиянием Perl, Matz хотел использовать имя драгоценного камня для своего нового языка, поэтому
+он назвал Ruby в честь камня рождения своего коллеги.
 
-Later, he realized that Ruby comes right after Perl in several situations.
-In birthstones, pearl is June, ruby is July. When measuring font sizes,
-pearl is 5pt, ruby is 5.5pt. He thought Ruby was a good name for a
-programming language newer (and hopefully better) than Perl.
+Позже он понял, что Ruby (рубин) идет сразу после Perl (жемчуг) в нескольких ситуациях.
+В камнях рождения жемчуг — это июнь, рубин — июль. При измерении размеров шрифта,
+pearl составляет 5pt, ruby — 5.5pt. Он подумал, что Ruby — хорошее имя для
+языка программирования, более нового (и, как мы надеемся, лучшего), чем Perl.
 
-(Based on an explanation from Matz in [\[ruby-talk:00394\]][ruby-talk:00394]
-on June 11, 1999.)
+(Основано на объяснении от Matz в [\[ruby-talk:00394\]][ruby-talk:00394]
+от 11 июня 1999 года.)
 
 [ruby-talk:00394]: https://blade.ruby-lang.org/ruby-talk/394
 
-### What is the history of Ruby?
+### Какова история Ruby?
 
-The following is a summary of a posting made by Matz in
-[\[ruby-talk:00382\]][ruby-talk:00382] on June 4, 1999.
-(The birthday of Ruby has been corrected in
+Ниже приводится краткое изложение сообщения, сделанного от Matz в
+[\[ruby-talk:00382\]][ruby-talk:00382] от 4 июня 1999 года.
+(День рождения Ruby был исправлен в
 [\[ruby-list:15977\]][ruby-list:15977].)
 
-> Well, Ruby was born on February 24, 1993. I was talking with my colleague
-> about the possibility of an object-oriented scripting language. I knew Perl
-> (Perl4, not Perl5), but I didn't like it really, because it had the smell of
-> a toy language (it still has). The object-oriented scripting language seemed
-> very promising.
+> Что ж, Ruby родился 24 февраля 1993 года. Я разговаривал со своим коллегой
+> о возможности создания объектно-ориентированного скриптового языка. Я знал Perl
+> (Perl4, не Perl5), но он мне не очень нравился, потому что в нем чувствовался запах
+> игрушечного языка (и до сих пор чувствуется). Объектно-ориентированный скриптовый язык казался
+> очень многообещающим.
 
-> I knew Python then. But I didn't like it, because I didn't think it was a
-> true object-oriented language---OO features appeared to be an add-on to the
-> language. As a language manic and OO fan for 15 years, I really wanted a
-> genuine object-oriented, easy-to-use scripting language. I looked for, but
-> couldn't find one.
+> Я тогда знал Python. Но он мне не нравился, потому что я не считал его
+> по-настоящему объектно-ориентированным языком — возможности ООП казались дополнением к
+> языку. Как маньяк языков и фанат ООП с 15-летним стажем, я действительно хотел
+> настоящий объектно-ориентированный, простой в использовании скриптовый язык. Я искал, но
+> не смог такого найти.
 
-> So, I decided to make it. It took several months to make the interpreter
-> run. I put into it the features I love to have in my language, such as
-> iterators, exception handling, garbage collection.
+> Поэтому я решил создать его сам. Мне потребовалось несколько месяцев, чтобы заставить
+> интерпретатор работать. Я добавил в него возможности, которые хотел бы видеть в своем языке, такие как
+> итераторы, обработка исключений, сборка мусора.
 
-> Then, I reorganized the features of Perl into a class library, and
-> implemented them. I posted Ruby 0.95 to the Japanese domestic newsgroups
-> in Dec. 1995.
+> Затем я реорганизовал возможности Perl в библиотеку классов и
+> реализовал их. Я опубликовал Ruby 0.95 в японских внутренних новостных группах
+> в декабре 1995 года.
 
-> Since then, highly active mailing lists have been established and
-> web pages formed.
+> С тех пор были созданы очень активные списки рассылки и
+> сформированы веб-страницы.
 
 [ruby-talk:00382]: https://blade.ruby-lang.org/ruby-talk/382
 [ruby-list:15977]: https://blade.ruby-lang.org/ruby-list/15977
 
-### Where is the Ruby Home Page?
+### Где находится домашняя страница Ruby?
 
-The official Ruby Home Page is [www.ruby-lang.org](https://www.ruby-lang.org).
-Besides the English and Japanese versions, there exist translations
-into various other languages.
+Официальная домашняя страница Ruby — [www.ruby-lang.org](https://www.ruby-lang.org).
+Помимо английской и японской версий, существуют переводы
+на различные другие языки.
 
-Good starting points for finding Ruby information are the
-[Documentation](/en/documentation/) and [Community](/en/community/)
-pages.
+Хорошими отправными точками для поиска информации о Ruby являются страницы
+[Документация](/ru/documentation/) и [Сообщество](/ru/community/).
 
-### Is there a Ruby newsgroup?
+### Есть ли новостная группа по Ruby?
 
-comp.lang.ruby was established in May, 2000 (thanks to the efforts of
+comp.lang.ruby была создана в мае 2000 года (спасибо усилиям
 [Conrad Schneiker](mailto:schneiker@jump.net)).
 
-### Is there a Ruby mailing list?
+### Есть ли список рассылки по Ruby?
 
-There are several mailing lists talking about Ruby. See the
-[Mailing Lists](/en/community/mailing-lists/)
-page for more information.
+Существует несколько списков рассылки, обсуждающих Ruby. Смотрите страницу
+[Списки рассылки](/ru/community/mailing-lists/)
+для получения дополнительной информации.
 
-You can search the mailing list archives using
+Вы можете искать по архивам списка рассылки с помощью
 [https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/](https://ml.ruby-lang.org/archives/list/ruby-talk@ml.ruby-lang.org/).
-(This is the URL for the ruby-talk list, munge as required for the others).
+(Это URL для списка ruby-talk, измените его по мере необходимости для других).
 
-### How can I thread the mailing list in mutt?
+### Как я могу структурировать список рассылки по цепочкам в mutt?
 
 {% include warnings/faq-out-of-date.html %}
 
-For some of the Ruby mailing lists, the mailing list software adds a prefix
-to the subject lines, for example `ruby-core:1234`. This can confuse the
-threading in some mail user agents.
+В некоторых списках рассылки по Ruby программное обеспечение списка добавляет префикс
+к темам сообщений, например `ruby-core:1234`. Это может запутать
+группировку по цепочкам (threading) в некоторых почтовых клиентах.
 
-In mutt, you can get threading to work using the following variable setting.
+В mutt вы можете заставить группировку работать, используя следующую настройку переменной.
 
 ~~~
 # reply regexp, to support MLs like ruby-talk.
 set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]]*"
 ~~~
 
-### Which is correct, “Ruby” or “ruby”?
+### Как правильно, «Ruby» или «ruby»?
 
-Officially, the language is called “Ruby”. On most systems, it is invoked
-using the command `ruby`. It's OK to use “ruby” instead of “Ruby”.
+Официально язык называется «Ruby». На большинстве систем он вызывается
+с помощью команды `ruby`. Допустимо использовать «ruby» вместо «Ruby».
 
-Please don't use “RUBY” as the language name.
+Пожалуйста, не используйте «RUBY» в качестве названия языка.
 
-Originally, or historically, it was called “ruby”.
+Изначально, или исторически, он назывался «ruby».
 
-### Are there any Ruby books?
+### Есть ли книги по Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
 * Programming Ruby: The Pragmatic Programmer's Guide,
-  (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7,
-  Addison-Wesley, October 2000.
+  (книга с киркой) от David Thomas и Andrew Hunt: ISBN 0-20171-089-7,
+  Addison-Wesley, октябрь 2000.
 
-* A Japanese language Ruby reference book by Matz et al. and published by
-  ASCII is available in Japan (ISBN 4-7561-3254-5). An English translation,
-  “The Ruby Programming Language”, is available from O'Reilly & Associates
+* Справочник по Ruby на японском языке от Matz и других, изданный
+  ASCII, доступен в Японии (ISBN 4-7561-3254-5). Английский перевод,
+  «The Ruby Programming Language», доступен от O'Reilly & Associates
   (ISBN 978-0596516178).
 
-* A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
-  (ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
-  translation.
+* «Ruby Pocket Reference» на японском языке издан O'Reilly Japan
+  (ISBN 4-87311-023-8). Сообщите O'Reilly в США, если хотите увидеть
+  перевод.
 
-* In addition, “Mastering Regular Expressions”, by Jeffrey Friedl,
-  (the Hip Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates,
-  is a reference work that covers the art and implementation of regular
-  expressions in various programming languages. Most of it is highly
-  relevant to Ruby regular expressions.
+* Кроме того, «Mastering Regular Expressions» от Jeffrey Friedl,
+  (книга с совой): ISBN 1-56592-257-3 от O'Reilly & Associates,
+  — это справочник, который охватывает искусство и реализацию регулярных
+  выражений в различных языках программирования. Большая часть из этого крайне
+  актуальна для регулярных выражений в Ruby.
 
-### Which editors provide support for Ruby?
+### Какие редакторы поддерживают Ruby?
 
 {% include warnings/faq-out-of-date.html %}
 
 * [Emacs](http://www.gnu.org/software/emacs/emacs.html)
-  or [XEmacs](http://www.xemacs.org/): `ruby-mode.el` is supplied in the Ruby
-  distribution. With some versions of XEmacs, you may need to add
-  `(load "font-lock")` to your `.emacs` file to allow `ruby-mode.el` to detect
-  the syntax highlighting package you are using.
-* [Vim](http://www.vim.org/): Vim 5.7 and later have Ruby syntax files as
-  standard in the runtime package. For prior versions, a syntax file for Ruby
-  is available at
+  или [XEmacs](http://www.xemacs.org/): `ruby-mode.el` поставляется в дистрибутиве
+  Ruby. В некоторых версиях XEmacs вам может потребоваться добавить
+  `(load "font-lock")` в ваш файл `.emacs`, чтобы позволить `ruby-mode.el` обнаружить
+  пакет подсветки синтаксиса, который вы используете.
+* [Vim](http://www.vim.org/): Vim 5.7 и более поздние версии имеют файлы синтаксиса Ruby в качестве
+  стандарта в пакете среды выполнения. Для предыдущих версий файл синтаксиса для Ruby
+  доступен на
   [http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim](http://www.xs4all.nl/~hipster/lib/ruby/ruby.vim).
-* [Jedit](http://jedit.sourceforge.net/): A portable editor written in Java,
-  comes with support for Ruby.
-* Barry Shultz has written a Ruby definition file for TextPad, available at
+* [Jedit](http://jedit.sourceforge.net/): Портативный редактор, написанный на Java,
+  поставляется с поддержкой Ruby.
+* Barry Shultz написал файл определений Ruby для TextPad, доступный на
   [https://www.textpad.com/add-ons/synn2t.html](https://www.textpad.com/add-ons/synn2t.html).
 
-### How can I annotate Ruby code with its results?
+### Как я могу аннотировать код на Ruby его результатами?
 
 {% include warnings/faq-out-of-date.html %}
 
-People commonly annotate Ruby code by showing the results of executing each
-statement as a comment attached to that statement. For example, in the
-following code, we show that the assignment generates the string "Billy Bob",
-and then the result of extracting some substrings.
+Люди часто аннотируют код на Ruby, показывая результаты выполнения каждого
+выражения в виде комментария, прикрепленного к этому выражению. Например, в
+следующем коде мы показываем, что присваивание генерирует строку "Billy Bob",
+а затем результат извлечения некоторых подстрок.
 
 ~~~
 str = "Billy" + " Bob"           # => "Billy Bob"
 str[0,1] + str[2,1] + str[-2,2]  # => "Blob"
 ~~~
 
-Emacs and vim users can integrate this with their editing environments, which
-is useful if you want to send people e-mail with annotated Ruby code. Having
-installed `xmp`, Emacs users can add the following to their `.emacs` file:
+Пользователи Emacs и vim могут интегрировать это в свои среды редактирования, что
+полезно, если вы хотите отправлять людям электронные письма с аннотированным кодом на Ruby. Установив
+`xmp`, пользователи Emacs могут добавить следующее в свой файл `.emacs`:
 
 ~~~
 (defun ruby-xmp-region (reg-start reg-end)
@@ -302,36 +301,35 @@ installed `xmp`, Emacs users can add the following to their `.emacs` file:
 (global-set-key [(meta f10)] 'ruby-xmp-region)
 ~~~
 
-Vim users can use the mapping (thanks to hipster):
+Пользователи Vim могут использовать маппинг (спасибо hipster):
 
 ~~~
 map <M-F10> :!ruby -r xmp -n -e 'xmp($_, "\%l\t\t\# \%r\n")'<CR>
 ~~~
 
-In both cases, highlight a region of code and hit Meta-F10 to annotate it.
+В обоих случаях выделите область кода и нажмите Meta-F10 для ее аннотирования.
 
-### I can't understand Ruby even after reading the manual!
+### Я не могу понять Ruby даже после прочтения руководства!
 
 {% include warnings/faq-out-of-date.html %}
 
-The syntax of Ruby has been fairly stable since Ruby 1.0, but new features are
-added every now and then. So, the books and the online documentation can get
-behind.
+Синтаксис Ruby был довольно стабильным начиная с Ruby 1.0, но время от времени
+добавляются новые возможности. Поэтому книги и онлайн-документация могут устаревать.
 
-If you have a problem, feel free to ask in the mailing list
-(see the [Mailing Lists page](/en/community/mailing-lists/)).
-Generally you'll get timely answers from Matz himself, the
-author of the language, from other gurus, and from those who have solved
-problems similar to your own.
+Если у вас возникла проблема, не стесняйтесь задавать вопросы в списке рассылки
+(смотрите страницу [Списки рассылки](/ru/community/mailing-lists/)).
+Обычно вы получите своевременные ответы от Matz, автора языка,
+от других гуру и от тех, кто уже решил
+проблемы, похожие на вашу.
 
-Please include the output of `ruby -v` along with any problematic
-source code.
+Пожалуйста, включайте вывод `ruby -v` вместе с любым проблемным
+исходным кодом.
 
-If you have a problem using [`irb`](../10/#irb),
-be aware that it has some limitations.
-Try the script using `irb --single-irb`, or directly using the
-`ruby` command.
+Если у вас возникла проблема с использованием [`irb`](../10/#irb),
+имейте в виду, что у него есть некоторые ограничения.
+Попробуйте запустить скрипт с помощью `irb --single-irb`, или напрямую используя
+команду `ruby`.
 
-There might be similar questions in the mailing list, and it is good
-netiquette to read through recent mails (RFC1855:3.1.1, 3.1.2) before asking.
-But do ask on the list, and a correct answer will be forthcoming.
+В списке рассылки могут быть похожие вопросы, и хорошим
+сетевым этикетом является чтение недавних писем (RFC1855:3.1.1, 3.1.2) перед тем, как задать вопрос.
+Но обязательно спрашивайте в списке, и правильный ответ не заставит себя ждать.
