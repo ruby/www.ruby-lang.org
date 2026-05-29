@@ -1,4 +1,9 @@
+meta_description: "A Programmer's Best Friend"
+
 hero:
+  tagline: "A Programmer's Best Friend"
+  loader_alt: "Loading…"
+  gem_alt: "Ruby"
   since: "Since"
   year: "1995"
   title: "Ruby"
@@ -11,6 +16,8 @@ try_ruby:
   title: "Try Ruby!"
   description: "Try Ruby in your browser right now"
   button_url: "https://try.ruby-lang.org/"
+  cta_button: "TRY!"
+  link_text: "Try Ruby"
   bottom_text: "Want to learn more or try Ruby?"
   bottom_link_url: "https://try.ruby-lang.org/"
 
