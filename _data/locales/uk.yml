@@ -98,6 +98,8 @@ navigation:
   submenu:
   - text: Розробка ядра Ruby
     url: /uk/community/ruby-core/
+  - text: Посібник з репозиторію
+    url: /uk/documentation/repository-guide/
   - text: Поштові розсилки
     url: /uk/community/mailing-lists/
   - text: Правила поштових розсилок
