@@ -12,7 +12,8 @@ layout: root
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% assign meta_description = "A Programmer's Best Friend" %}
+  {% assign en_home = site.data.locales.home.en %}
+  {% assign meta_description = site.data.locales.home[page.lang].hero.tagline | default: en_home.hero.tagline %}
   {% assign meta_title = page.title | default: "Ruby Programming Language" %}
 
   <meta name="description" content="{{ meta_description }}">
