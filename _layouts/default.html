@@ -19,7 +19,8 @@ layout: root
 
   {% capture homepage_path %}/{{ page.lang }}/{% endcapture %}
   {% if page.url == homepage_path %}
-    {% assign meta_description = "A Programmer's Best Friend" %}
+  {% assign en_home = site.data.locales.home.en %}
+  {% assign meta_description = site.data.locales.home[page.lang].hero.tagline | default: en_home.hero.tagline %}
   {% elsif page.description %}
     {% assign meta_description = page.description %}
   {% elsif page.excerpt %}
