@@ -13,21 +13,20 @@ Ruby 4.0 導入了 Ruby::Box 和 "ZJIT"，以及許多改進功能。
 
 ## Ruby Box
 
-Ruby Box 是一項用來提供定義區隔的(實驗性質)新功能。
+Ruby Box 是一項用來提供定義隔離的 (實驗性質) 新功能。
 可以透過設定環境變數 `RUBY_BOX=1` 啟用 Ruby Box。類別是 `Ruby::Box`。
 
 在 Ruby Box 中載入的定義是互相隔離的。
-Ruby Box 可以將從其他 boxes 載入的 monkey patches、全域/類別變數、類別/模組定義、和載入的原生/Ruby 函式庫做隔離。
+Ruby Box 可以將從其他 Box 載入的 monkey patches、全域/類別變數、類別/模組定義、和載入的原生/Ruby 函式庫做隔離。
 
 預期的使用場景有：
 
-* Run test cases in box to protect other tests when the test case uses monkey patches to override something
-* 當測試案例使用 monkey patches 覆蓋時，在 box 環境中執行測試案例可以保護其他測試。
-* 在 Ruby 進程中平行執行 Web 應用伺服器 boxes，以在應用程式伺服器上執行藍綠部署。
-* 執行 Web 應用伺服器 boxes 來用 Ruby 程式碼檢查回應差異，評估特定時間段內的依賴更新。
+* 當測試案例使用 monkey patches 覆蓋時，在 Box 環境中執行測試案例可以保護其他測試。
+* 在 Ruby 進程中平行執行 Web 應用伺服器 Box，以在應用程式伺服器上執行藍綠部署。
+* 執行 Web 應用伺服器 Box 來用 Ruby 程式碼檢查回應差異，評估特定時間段內的依賴更新。
 * 作為基礎（底層）API，以實現某種「套件」（高層）API（尚未設計）。
 
-參見  [Ruby::Box](https://docs.ruby-lang.org/en/master/Ruby/Box.html) 以了解更多關於「Ruby Box」的細節。
+參見 [Ruby::Box](https://docs.ruby-lang.org/en/master/Ruby/Box.html) 以了解更多關於「Ruby Box」的細節。
 [[Feature #21311]] [[Misc #21385]]
 
 ## ZJIT
@@ -46,7 +45,7 @@ ZJIT 比直譯器快，但還不如 YJIT 快。
 
 Ruby 的平行執行機制 Ractor 已經得到了多項改進。
 導入了一個新的類別 `Ractor::Port`，用於解決與訊息發送和接收相關的問題。 (參見 [我們的部落格文章](https://dev.to/ko1/ractorport-revamping-the-ractor-api-98))。
-此外，`Ractor.shareable proc` 讓在 Reactor 之間共用 `Proc` 物件變得更加容易。
+此外，`Ractor.shareable proc` 讓在 Ractor 之間共用 `Proc` 物件變得更加容易。
 
 在效能方面，許多內部資料結構都得到了改進，顯著減少了對全域鎖定的競爭，從而提高了平行執行的效率。
 此外，Ractor 共用的內部資料也減少了，因此在平行執行時，CPU 快取競爭也相應降低。
@@ -261,7 +260,7 @@ Ractor 最初在 Ruby 3.0 中作為一項實驗性功能導入。我們計劃明
 
 * Ruby::Box
 
-    * 這是一項用來提供定義區隔的(實驗性質)新功能。關於「Ruby Box」的詳細資訊，請參閱[doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)。
+    * 這是一項用來提供定義隔離的 (實驗性質) 新功能。關於「Ruby Box」的詳細資訊，請參閱 [doc/language/box.md](https://docs.ruby-lang.org/en/4.0/language/box_md.html)。
       [[Feature #21311]] [[Misc #21385]]
 
 * Set
