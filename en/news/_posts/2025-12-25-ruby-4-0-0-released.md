@@ -624,7 +624,7 @@ A lot of work has gone into making Ractors more stable, performant, and usable. 
     * `--rjit` is removed. We will move the implementation of the third-party JIT API
       to the [ruby/rjit](https://github.com/ruby/rjit) repository.
 
-See [NEWS](https://docs.ruby-lang.org/en/{{ release.tag }}/NEWS_md.html)
+See [NEWS](https://docs.ruby-lang.org/en/4.0/NEWS_md.html)
 or [commit logs](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
 for more details.
 
