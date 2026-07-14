@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 4.0.6 Released"
-author:
+author: k0kubun
 translator:
 date: 2026-07-14 01:41:20 +0000
 lang: en
@@ -9,7 +9,14 @@ lang: en
 
 Ruby 4.0.6 has been released.
 
+This is a routine update that includes bugfixes.
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.6) for further details.
+
+## Release Schedule
+
+We intend to release the latest stable Ruby version (currently Ruby 4.0) every two months following the most recent release. Ruby 4.0.7 will be released in September, and 4.0.8 in November.
+
+If a change arises that significantly affects users, a release may occur earlier than planned, and the subsequent schedule may shift accordingly.
 
 ## Download
 
