@@ -15,7 +15,6 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v3_4_
 
 We recommend updating your version of the zlib gem. This release has been made for the convenience of those who wish to continue using it as a default gem.
 
-
 ## Download
 
 {% assign release = site.data.releases | where: "version", "3.4.9" | first %}
