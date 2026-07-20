@@ -1,17 +1,20 @@
+---
+---
+
 /* Import CSS variables */
-@import './variables.css';
+@import '_variables.css';
 
 /* Custom fonts if needed */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 /* Import component styles */
-@import './components/base.css';
-@import './components/pagination.css';
-@import './components/toc.css';
-@import './components/tables.css';
-@import './components/icons.css';
-@import './components/print.css';
-@import './components/syntax-highlighting.css';
+@import '_components/base.css';
+@import '_components/pagination.css';
+@import '_components/toc.css';
+@import '_components/tables.css';
+@import '_components/icons.css';
+@import '_components/print.css';
+@import '_components/syntax-highlighting.css';
 
 /* Tailwind layers */
 @tailwind base;

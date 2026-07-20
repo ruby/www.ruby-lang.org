@@ -19,7 +19,7 @@ task :"build-css" do
 end
 
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-news-plugin test-html-lang-plugin test-linter lint build]
+task test: %i[test-news-plugin test-html-lang-plugin test-postcss-incremental-fix-plugin test-linter lint build]
 
 desc "Build the Jekyll site"
 task build: :"build-css" do
@@ -140,5 +140,13 @@ Rake::TestTask.new(:"test-html-lang-plugin") do |t|
   t.description = "Run tests for the HTML language plugin"
   t.libs = ["test"]
   t.test_files = FileList['test/test_plugin_html_lang.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-postcss-incremental-fix-plugin") do |t|
+  t.description = "Run tests for the PostCSS incremental fix plugin"
+  t.libs = ["test"]
+  t.test_files = FileList['test/test_plugin_postcss_incremental_fix.rb']
   t.verbose = true
 end
