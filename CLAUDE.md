@@ -11,11 +11,14 @@ This is the Jekyll-based source for the official Ruby programming language websi
 ### Jekyll Site Operations
 
 ```bash
-# Build the site (takes several minutes)
+# Build the site and its search index (takes several minutes)
 bundle exec rake build
 
-# Serve locally at http://localhost:4000/
+# Serve locally at http://localhost:4000/ (rebuilds, so no search index)
 bundle exec rake serve
+
+# Serve an already-built site, search included, without live reload
+bundle exec rake serve-built
 
 # Alternative: Jekyll direct serve with incremental builds
 bundle exec jekyll serve --watch --future --incremental
@@ -40,6 +43,7 @@ bundle exec rake test
 # Run individual test suites
 bundle exec rake test-news-plugin     # News archive plugin tests
 bundle exec rake test-linter          # Linter library tests
+bundle exec rake test-search-index    # Search index library tests
 
 # Linting
 bundle exec rake lint                 # Markdown linter
@@ -110,6 +114,28 @@ The news system is powered by a custom Jekyll plugin (`_plugins/news.rb`):
 - **Archive pages**: Index, yearly archives, monthly archives
 - **RSS feeds**: Generated per language via `news_feed.rss` layout
 
+### Search (Pagefind)
+
+Search is client-side and needs no backend. `rake build` runs `npm run
+build-search` over `_site` once Jekyll is done, so the index only exists after a
+full build.
+
+- **Indexed region**: `_includes/search_body.html` emits `data-pagefind-body` on
+  the `<article>` of `page.html` and `news_post.html`. Everything outside it, and
+  anything marked `data-pagefind-ignore` inside it, stays out of results.
+- **Per-language indexes**: Pagefind splits the index by the `lang` attribute on
+  `<html>` and the browser loads the one matching the page, so a translation only
+  ever finds its own pages. The same attribute picks the interface language, so
+  no UI strings live in `_data/locales`.
+- **Unsupported languages**: `search.unsupported` in `_config.yml` lists the
+  languages Pagefind cannot index well (currently `bg`). Their pages get no
+  `data-pagefind-body`, and `lib/search_index.rb` rewrites `pagefind-entry.json`
+  so they resolve to `search.fallback`. Without that rewrite Pagefind would fall
+  back to whichever index has the most pages, which is not a language we choose.
+- **UI**: `_includes/search.html` (button, modal, config) and
+  `_includes/search_assets.html` (bundle, loaded before `compiled.css` so the
+  site's `--pf-*` overrides win).
+
 ### Linter (`lib/linter.rb`)
 
 Enforces strict content quality rules:
@@ -179,6 +205,7 @@ lang: en
 **Node (package.json):**
 - `tailwindcss` - CSS framework
 - `@tailwindcss/typography` - Prose styling plugin
+- `pagefind` - Static search index and UI
 
 ## Important Conventions
 
