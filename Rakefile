@@ -19,13 +19,23 @@ task :"build-css" do
 end
 
 desc "Run tests (test-linter, lint, build)"
-task test: %i[test-news-plugin test-html-lang-plugin test-linter lint build]
+task test: %i[test-news-plugin test-html-lang-plugin test-linter test-search-index lint build]
 
 desc "Build the Jekyll site"
 task build: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Build.process({})
+
+  Rake::Task[:"search-index"].invoke
+end
+
+desc "Build the Pagefind search index over the built site"
+task :"search-index" do
+  require_relative "lib/search_index"
+
+  sh "npm run build-search"
+  SearchIndex.new.apply_fallbacks
 end
 
 desc "Serve the Jekyll site locally"
@@ -33,6 +43,15 @@ task serve: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Serve.process({})
+end
+
+desc "Serve the built site without rebuilding, so its search index survives"
+task :"serve-built" do
+  require "webrick"
+
+  server = WEBrick::HTTPServer.new(Port: 4000, DocumentRoot: "_site")
+  trap("INT") { server.shutdown }
+  server.start
 end
 
 namespace :new_post do
@@ -140,5 +159,13 @@ Rake::TestTask.new(:"test-html-lang-plugin") do |t|
   t.description = "Run tests for the HTML language plugin"
   t.libs = ["test"]
   t.test_files = FileList['test/test_plugin_html_lang.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-search-index") do |t|
+  t.description = "Run tests for the search index library"
+  t.libs = ["test", "lib"]
+  t.test_files = FileList['test/test_search_index.rb']
   t.verbose = true
 end
