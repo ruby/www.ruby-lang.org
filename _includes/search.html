@@ -1,0 +1,25 @@
+{%- comment -%}
+Site search. The button opens a modal; Cmd+K or Ctrl+K opens it from anywhere.
+
+Pagefind picks both the index it searches and the language of its own interface
+from the `lang` attribute on `<html>`, so every translation searches its own
+pages and reads its own labels without anything to maintain here. The `lang`
+override below is for the languages under `search.unsupported` in _config.yml,
+whose pages are not indexed: lib/search_index.rb points their index at
+`search.fallback` and this points their interface at the same language, so the
+two cannot drift apart.
+
+`pagefind-config` has to come first. Its attributes are read once, when the
+first component of the instance connects. The trigger here is the one in the top
+bar; below 640px it gives way to the one in the mobile menu, which shares this
+modal through the default instance.
+{%- endcomment -%}
+{%- assign search_lang = page.lang -%}
+{%- if site.search.unsupported contains page.lang -%}
+  {%- assign search_lang = site.search.fallback -%}
+{%- endif -%}
+<pagefind-config highlight-param="highlight" lang="{{ search_lang | to_html_lang }}"></pagefind-config>
+<div class="search-trigger-bar">
+  <pagefind-modal-trigger compact></pagefind-modal-trigger>
+</div>
+<pagefind-modal reset-on-close></pagefind-modal>

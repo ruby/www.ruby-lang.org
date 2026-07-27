@@ -1,0 +1,19 @@
+{%- comment -%}
+Pagefind's search bundle. `rake search-index` writes it to /pagefind/ after
+Jekyll builds, so it is absent under `rake serve` and the search button opens an
+empty modal there. README.md covers previewing search locally.
+
+This has to come before compiled.css: Pagefind ships its `--pf-*` defaults on
+`:root`, the same specificity stylesheets/components/search.css uses to override
+them, so whichever stylesheet loads last would win.
+{%- endcomment -%}
+<link rel="stylesheet" type="text/css" href="/pagefind/pagefind-component-ui.css">
+<script type="module" src="/pagefind/pagefind-component-ui.js"></script>
+<script type="module">
+  // pagefind-highlight.js carries mark.js with it, so it is only worth loading
+  // on the pages a search result linked to.
+  if (new URLSearchParams(window.location.search).has('highlight')) {
+    await import('/pagefind/pagefind-highlight.js');
+    new PagefindHighlight({ highlightParam: 'highlight' });
+  }
+</script>
