@@ -8,7 +8,7 @@
   {% assign header_parts = page.header | split: '</div>' %}
   {% for part in header_parts %}
     {% if part contains 'class="multi-page"' %}
-      <div class="pagination-footer">
+      <div class="pagination-footer" data-pagefind-ignore>
         {{ part }}</div>
       </div>
       {% break %}

@@ -1,0 +1,13 @@
+{%- comment -%}
+Marks the element this is placed on as the only region Pagefind indexes, which
+keeps navigation, the table of contents and the footer out of search results.
+
+Pages in a language listed under `search.unsupported` in _config.yml emit
+nothing here. Once Pagefind has seen a `data-pagefind-body` anywhere on the site
+it skips every page without one, so leaving the attribute off is what keeps
+those pages out of the index. lib/search_index.rb then points the language at
+`search.fallback` so its visitors still get results.
+{%- endcomment -%}
+{%- unless site.search.unsupported contains page.lang -%}
+data-pagefind-body data-pagefind-meta="title:{{ page.title | strip_html | escape }}"
+{%- endunless -%}

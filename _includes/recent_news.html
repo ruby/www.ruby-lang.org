@@ -26,7 +26,7 @@
 {% endfor %}
 
 {% if recent_posts.size > 0 %}
-<section class="not-prose mt-16 p-6 md:p-8 border border-stone-200 dark:border-stone-700 rounded-xl">
+<section class="not-prose mt-16 p-6 md:p-8 border border-stone-200 dark:border-stone-700 rounded-xl" data-pagefind-ignore>
   <h2 class="text-2xl font-bold mb-6">
     <a href="/{{ page.lang }}/news/" class="text-stone-900 dark:text-stone-100 hover:text-ruby-600 dark:hover:text-ruby-400 transition-colors inline-flex items-center">
       {{ news_locale.recent_news }}<span class="icon-chevron-right text-2xl" aria-hidden="true"></span>
