@@ -7,7 +7,11 @@ nothing here. Once Pagefind has seen a `data-pagefind-body` anywhere on the site
 it skips every page without one, so leaving the attribute off is what keeps
 those pages out of the index. lib/search_index.rb then points the language at
 `search.fallback` so its visitors still get results.
+
+A page can opt out on its own with `searchable: false` in its front matter.
 {%- endcomment -%}
 {%- unless site.search.unsupported contains page.lang -%}
+  {%- if page.searchable != false -%}
 data-pagefind-body data-pagefind-meta="title:{{ page.title | strip_html | escape }}"
+  {%- endif -%}
 {%- endunless -%}
