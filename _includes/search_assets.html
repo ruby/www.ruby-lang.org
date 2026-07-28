@@ -12,9 +12,12 @@ them, so whichever stylesheet loads last would win.
 <script type="module" src="/pagefind/pagefind-component-ui.js"></script>
 <script type="module">
   // pagefind-highlight.js carries mark.js with it, so it is only worth loading
-  // on the pages a search result linked to.
+  // on the pages a search result linked to. A build that skipped the index has
+  // no such file, and highlighting is not worth an unhandled rejection.
   if (new URLSearchParams(window.location.search).has('highlight')) {
-    await import('/pagefind/pagefind-highlight.js');
-    new PagefindHighlight({ highlightParam: 'highlight' });
+    try {
+      await import('/pagefind/pagefind-highlight.js');
+      new PagefindHighlight({ highlightParam: 'highlight' });
+    } catch {}
   }
 </script>
