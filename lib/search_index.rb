@@ -86,8 +86,13 @@ class SearchIndex
     lang.tr("_", "-").downcase
   end
 
+  # The entry is UTF-8 no matter what locale the build runs under: Pagefind
+  # lists the word characters it splits on in `include_characters`, and those
+  # reach past ASCII. Build hosts that leave the locale at POSIX, Cloudflare
+  # Pages among them, give `File.read` a US-ASCII string, and JSON.parse raises
+  # on the first of those bytes as it converts the source to UTF-8.
   def read_entry
-    JSON.parse(File.read(@entry_path))
+    JSON.parse(File.read(@entry_path, encoding: Encoding::UTF_8))
   rescue Errno::ENOENT
     raise Error, "#{@entry_path} is missing, Pagefind wrote no index"
   rescue JSON::ParserError => e
