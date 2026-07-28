@@ -17,12 +17,31 @@ describe SearchIndex do
     teardown_tempdir
   end
 
+  # `include_characters` is the list of characters Pagefind counts as part of a
+  # word. It reaches past ASCII, which is what makes the entry a UTF-8 file.
   def write_entry(languages)
-    File.write(@entry_path, JSON.generate({ "version" => "1.5.2", "languages" => languages }))
+    entry = {
+      "version" => "1.5.2",
+      "languages" => languages,
+      "include_characters" => ["_", "‿", "⁀", "＿"],
+    }
+    File.write(@entry_path, JSON.generate(entry))
   end
 
   def read_entry
-    JSON.parse(File.read(@entry_path))
+    JSON.parse(File.read(@entry_path, encoding: Encoding::UTF_8))
+  end
+
+  # Stands in for a build host that leaves the locale at POSIX, which is what
+  # Cloudflare Pages does.
+  def with_default_external(encoding)
+    original = Encoding.default_external
+    verbose, $VERBOSE = $VERBOSE, nil
+    Encoding.default_external = encoding
+    yield
+  ensure
+    Encoding.default_external = original
+    $VERBOSE = verbose
   end
 
   def search_index(pagefind: SearchIndex::PAGEFIND)
@@ -146,6 +165,14 @@ describe SearchIndex do
 
       error = _(-> { search_index.apply_fallbacks }).must_raise SearchIndex::Error
       _(error.message).must_match(/missing index "en"/)
+    end
+
+    it "reads the entry as UTF-8 whatever locale the build runs under" do
+      write_entry({ "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 560 } })
+
+      with_default_external(Encoding::US_ASCII) { search_index.apply_fallbacks }
+
+      _(read_entry["languages"]["bg"]["hash"]).must_equal "en_abc"
     end
 
     it "raises when the bundle has no languages" do
