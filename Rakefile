@@ -18,8 +18,8 @@ task :"build-css" do
   sh "npm run build-css"
 end
 
-desc "Run tests (test-linter, lint, build)"
-task test: %i[test-news-plugin test-html-lang-plugin test-linter lint build]
+desc "Run every test suite, the markdown linter and a full build"
+task test: %i[test-news-plugin test-html-lang-plugin test-linter test-search-index lint build]
 
 desc "Build the Jekyll site"
 task build: :"build-css" do
@@ -32,7 +32,13 @@ desc "Serve the Jekyll site locally"
 task serve: :"build-css" do
   require "jekyll"
 
-  Jekyll::Commands::Serve.process({})
+  # Same pair `jekyll serve` runs. Serving on its own only hands out whatever
+  # _site already holds, which leaves a fresh clone with nothing to serve and
+  # never picks up an edit.
+  options = { "serving" => true, "watch" => true }
+
+  Jekyll::Commands::Build.process(options)
+  Jekyll::Commands::Serve.process(options)
 end
 
 namespace :new_post do
@@ -140,5 +146,13 @@ Rake::TestTask.new(:"test-html-lang-plugin") do |t|
   t.description = "Run tests for the HTML language plugin"
   t.libs = ["test"]
   t.test_files = FileList['test/test_plugin_html_lang.rb']
+  t.verbose = true
+end
+
+require "rake/testtask"
+Rake::TestTask.new(:"test-search-index") do |t|
+  t.description = "Run tests for the search index library"
+  t.libs = ["test", "lib"]
+  t.test_files = FileList['test/test_search_index.rb']
   t.verbose = true
 end

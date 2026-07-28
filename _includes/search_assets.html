@@ -1,0 +1,23 @@
+{%- comment -%}
+Pagefind's search bundle, written to /pagefind/ by _plugins/search_index.rb once
+Jekyll has finished writing the site. Every build produces it, `rake serve` and
+its regenerations included, so these files are missing only when the index was
+skipped for want of Node.
+
+This has to come before compiled.css: Pagefind ships its `--pf-*` defaults on
+`:root`, the same specificity stylesheets/components/search.css uses to override
+them, so whichever stylesheet loads last would win.
+{%- endcomment -%}
+<link rel="stylesheet" type="text/css" href="/pagefind/pagefind-component-ui.css">
+<script type="module" src="/pagefind/pagefind-component-ui.js"></script>
+<script type="module">
+  // pagefind-highlight.js carries mark.js with it, so it is only worth loading
+  // on the pages a search result linked to. A build that skipped the index has
+  // no such file, and highlighting is not worth an unhandled rejection.
+  if (new URLSearchParams(window.location.search).has('highlight')) {
+    try {
+      await import('/pagefind/pagefind-highlight.js');
+      new PagefindHighlight({ highlightParam: 'highlight' });
+    } catch {}
+  }
+</script>

@@ -35,6 +35,14 @@
         root.classList.remove('dark');
       }
     }
+
+    // Pagefind's search components read `data-pf-theme` and nothing else, so
+    // derive it from the class rather than repeating the decision above.
+    if (root.classList.contains('dark')) {
+      root.setAttribute('data-pf-theme', 'dark');
+    } else {
+      root.removeAttribute('data-pf-theme');
+    }
   }
 
   // Update toggle button icon

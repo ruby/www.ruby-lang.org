@@ -138,6 +138,28 @@ npm run watch-css   # watch and rebuild CSS automatically
 **Note:** You need to have Node.js installed to run these commands.
 
 
+## Search
+
+Search is [Pagefind](https://pagefind.app/), which indexes the HTML Jekyll
+produced rather than the Markdown behind it, so it needs no server of its own.
+`_plugins/search_index.rb` runs it whenever Jekyll finishes writing the site,
+which means `rake build` and `rake serve` both leave you with a search index
+matching the site they just produced. Nothing extra to run.
+
+Indexing adds a few seconds to a build and needs Node, so run `npm install`
+first. Without it `bundle exec jekyll build` still finishes and only reports that
+the index was skipped, which is enough for editing content. The `rake` tasks
+stop earlier than that, since they build the CSS with Tailwind first.
+
+Pagefind builds one index per language and picks one by the `lang` attribute of
+the page the visitor is on, so each translation searches its own pages and reads
+its own interface labels. Bulgarian is the exception: Pagefind has neither word
+stemming nor interface translations for it, so `search.unsupported` in
+`_config.yml` keeps its pages out of the index and its search runs against
+English instead. Adding a language there is all it takes to do the same for
+another one.
+
+
 ## Testing
 
 Besides generating and previewing the site

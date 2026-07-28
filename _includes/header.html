@@ -26,8 +26,11 @@
         {% endfor %}
       </nav>
 
-      <!-- Right section: Language selector + Theme toggle + Mobile menu button -->
+      <!-- Right section: Search + Language selector + Theme toggle + Mobile menu button -->
       <div class="flex items-center gap-0.5 sm:gap-2">
+        <!-- Search -->
+        {% include search.html %}
+
         <!-- Language Selector -->
         {% include language_selector.html %}
 
@@ -51,6 +54,11 @@
   <!-- Mobile Navigation Menu -->
   <div id="mobile-menu" class="hidden lg:hidden border-t border-stone-200 dark:border-stone-700">
     <nav class="container mx-auto px-4 py-4">
+      <!-- Search, for the widths where the top bar has no room for it -->
+      <div class="search-trigger-menu mb-3">
+        <pagefind-modal-trigger></pagefind-modal-trigger>
+      </div>
+
       {% for item in nav_items %}
       <a href="{{ item.url }}"
          class="block px-5 py-2 text-sm font-bold text-stone-900 dark:text-stone-300 hover:text-semantic-text-hovered dark:hover:text-ruby-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md transition-colors mb-2">

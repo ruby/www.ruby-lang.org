@@ -20,6 +20,16 @@ exclude:
   - vendor
   - CLAUDE.md
 
+# Pagefind builds one search index per language and the browser picks one by the
+# `lang` of the page it is on. Pagefind has neither word stemming nor interface
+# translations for the languages under `unsupported`, so their pages are left
+# out of the index and their search runs against `fallback` instead. Both the
+# layouts and lib/search_index.rb read these keys.
+search:
+  fallback: en
+  unsupported:
+    - bg
+
 url: https://www.ruby-lang.org
 
 license:
