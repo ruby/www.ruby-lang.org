@@ -84,8 +84,7 @@ bundle exec rake new_post:fr    # French
 - `lib/`: Ruby utilities (linter, markup checker, draft release)
 - `test/`: Test files for plugins and linter
 - `stylesheets/`: CSS source and compiled output
-- `_javascripts_src/`: TypeScript source files
-- `javascripts/`: Compiled JavaScript output
+- `javascripts/`: Hand-written JavaScript, served as-is
 
 ### Design System (Tailwind CSS)
 
@@ -158,12 +157,12 @@ lang: en
 ---
 ```
 
-## TypeScript/JavaScript
+## JavaScript
 
-- Source files in `_javascripts_src/` (TypeScript)
-- Compiled to `javascripts/` (JavaScript)
-- Files: `examples.ts`, `page.ts`
-- No build command specified - likely manual compilation or external process
+- Plain JavaScript in `javascripts/`, edited in place and served directly by Jekyll
+- No build, bundling, or transpilation step
+- Files: `branch-timeline.js`, `header-navigation.js`, `hero-animation.js`, `navigation-toggle.js`, `theme-toggle.js`, `toc.js`, `try-ruby-examples.js`
+- Loaded via `<script>` tags in `_layouts/default.html`, `_layouts/homepage.html`, and `_includes/branches-timeline.html`
 
 ## Dependencies
 
