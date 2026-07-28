@@ -2,7 +2,7 @@
 
 require "helper"
 require "json"
-require_relative "../lib/search_index"
+require "search_index"
 
 describe SearchIndex do
   before do
@@ -29,6 +29,15 @@ describe SearchIndex do
     SearchIndex.new(bundle_dir: @bundle_dir, search_config: @search_config, pagefind: pagefind)
   end
 
+  # Stands in for Pagefind. The bundle it would have written is set up by
+  # `write_entry`, so the stub only has to reproduce the exit status.
+  def stub_pagefind(status)
+    path = File.join(TEMP_DIR, "pagefind-exit-#{status}")
+    File.write(path, "#!/bin/sh\nexit #{status}\n")
+    File.chmod(0o755, path)
+    path
+  end
+
   describe "#build" do
     it "skips indexing when Pagefind is not installed" do
       index = search_index(pagefind: File.join(TEMP_DIR, "no-such-pagefind"))
@@ -38,6 +47,21 @@ describe SearchIndex do
 
       _(result).must_equal false
       _(stderr).must_match(/npm install/)
+    end
+
+    it "applies the fallbacks and returns the entry once Pagefind has run" do
+      write_entry({ "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 560 } })
+
+      entry = search_index(pagefind: stub_pagefind(0)).build
+
+      _(entry["languages"]["bg"]["hash"]).must_equal "en_abc"
+      _(read_entry["languages"]["bg"]["hash"]).must_equal "en_abc"
+    end
+
+    it "raises when Pagefind exits non-zero" do
+      error = _(-> { search_index(pagefind: stub_pagefind(1)).build }).must_raise SearchIndex::Error
+
+      _(error.message).must_match(/Pagefind failed to index/)
     end
   end
 
