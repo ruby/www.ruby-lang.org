@@ -18,7 +18,7 @@ task :"build-css" do
   sh "npm run build-css"
 end
 
-desc "Run tests (test-linter, lint, build)"
+desc "Run every test suite, the markdown linter and a full build"
 task test: %i[test-news-plugin test-html-lang-plugin test-linter test-search-index lint build]
 
 desc "Build the Jekyll site"

@@ -1,7 +1,8 @@
 {%- comment -%}
-Pagefind's search bundle. `rake search-index` writes it to /pagefind/ after
-Jekyll builds, so it is absent under `rake serve` and the search button opens an
-empty modal there. README.md covers previewing search locally.
+Pagefind's search bundle, written to /pagefind/ by _plugins/search_index.rb once
+Jekyll has finished writing the site. Every build produces it, `rake serve` and
+its regenerations included, so these files are missing only when the index was
+skipped for want of Node.
 
 This has to come before compiled.css: Pagefind ships its `--pf-*` defaults on
 `:root`, the same specificity stylesheets/components/search.css uses to override

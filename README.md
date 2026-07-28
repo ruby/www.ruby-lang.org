@@ -146,9 +146,10 @@ produced rather than the Markdown behind it, so it needs no server of its own.
 which means `rake build` and `rake serve` both leave you with a search index
 matching the site they just produced. Nothing extra to run.
 
-Indexing adds a few seconds to a build. It needs Node, so run `npm install`
-first; without it the build says the index was skipped and carries on, which is
-enough for editing content.
+Indexing adds a few seconds to a build and needs Node, so run `npm install`
+first. Without it `bundle exec jekyll build` still finishes and only reports that
+the index was skipped, which is enough for editing content. The `rake` tasks
+stop earlier than that, since they build the CSS with Tailwind first.
 
 Pagefind builds one index per language and picks one by the `lang` attribute of
 the page the visitor is on, so each translation searches its own pages and reads
