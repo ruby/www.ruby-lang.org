@@ -54,6 +54,12 @@ describe SearchIndex do
       _(search_index.fallbacks).must_be_empty
     end
 
+    it "keys locales the way Pagefind keys its indexes" do
+      @search_config = { "fallback" => "zh_TW", "unsupported" => ["zh_cn"] }
+
+      _(search_index.fallbacks).must_equal({ "zh-cn" => "zh-tw" })
+    end
+
     it "raises when no fallback language is configured" do
       @search_config = { "unsupported" => ["bg"] }
 

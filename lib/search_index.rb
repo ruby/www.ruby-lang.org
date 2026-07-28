@@ -20,7 +20,7 @@ require "json"
 class SearchIndex
   class Error < StandardError; end
 
-  PAGEFIND = File.join(File.expand_path("..", __dir__), "node_modules", ".bin", "pagefind")
+  PAGEFIND = File.join(File.expand_path("..", __dir__), "node_modules", ".bin", "pagefind").freeze
 
   def initialize(bundle_dir:, search_config:, pagefind: PAGEFIND)
     @bundle_dir = bundle_dir
@@ -47,12 +47,13 @@ class SearchIndex
     apply_fallbacks
   end
 
-  # Maps each unsupported language to the language it searches instead.
+  # Maps each unsupported language to the language it searches instead, keyed the
+  # way Pagefind keys its indexes.
   def fallbacks
     fallback = @search_config["fallback"]
     raise Error, "search.fallback is not configured" unless fallback.is_a?(String)
 
-    Array(@search_config["unsupported"]).to_h { |lang| [lang, fallback] }
+    Array(@search_config["unsupported"]).to_h { |lang| [index_key(lang), index_key(fallback)] }
   end
 
   def apply_fallbacks
@@ -76,6 +77,14 @@ class SearchIndex
   end
 
   private
+
+  # _config.yml and the site directories spell locales `zh_cn`, while Pagefind
+  # keys its indexes off the `lang` attribute that _plugins/html_lang.rb writes
+  # and lowercases it, giving `zh-cn`. Without this, a locale with a region
+  # would be written under a key the browser never looks up.
+  def index_key(lang)
+    lang.tr("_", "-").downcase
+  end
 
   def read_entry
     JSON.parse(File.read(@entry_path))
