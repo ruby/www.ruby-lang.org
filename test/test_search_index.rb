@@ -2,25 +2,19 @@
 
 require "helper"
 require "json"
-require "yaml"
 require_relative "../lib/search_index"
 
 describe SearchIndex do
   before do
     setup_tempdir
-    @bundle_dir = File.join(TEMP_DIR, "pagefind")
+    @bundle_dir = File.join(TEMP_DIR, "_site", "pagefind")
     FileUtils.mkdir_p(@bundle_dir)
     @entry_path = File.join(@bundle_dir, "pagefind-entry.json")
-    @config_path = File.join(TEMP_DIR, "_config.yml")
-    write_config(fallback: "en", unsupported: ["bg"])
+    @search_config = { "fallback" => "en", "unsupported" => ["bg"] }
   end
 
   after do
     teardown_tempdir
-  end
-
-  def write_config(search)
-    File.write(@config_path, YAML.dump({ "search" => search.transform_keys(&:to_s) }))
   end
 
   def write_entry(languages)
@@ -31,29 +25,48 @@ describe SearchIndex do
     JSON.parse(File.read(@entry_path))
   end
 
-  def search_index
-    SearchIndex.new(bundle_dir: @bundle_dir, config_path: @config_path)
+  def search_index(pagefind: SearchIndex::PAGEFIND)
+    SearchIndex.new(bundle_dir: @bundle_dir, search_config: @search_config, pagefind: pagefind)
+  end
+
+  describe "#build" do
+    it "skips indexing when Pagefind is not installed" do
+      index = search_index(pagefind: File.join(TEMP_DIR, "no-such-pagefind"))
+
+      result = nil
+      _, stderr = capture_io { result = index.build }
+
+      _(result).must_equal false
+      _(stderr).must_match(/npm install/)
+    end
   end
 
   describe "#fallbacks" do
     it "maps every unsupported language to the fallback language" do
-      write_config(fallback: "en", unsupported: %w[bg xx])
+      @search_config = { "fallback" => "en", "unsupported" => %w[bg xx] }
 
       _(search_index.fallbacks).must_equal({ "bg" => "en", "xx" => "en" })
     end
 
     it "is empty when no language is unsupported" do
-      write_config(fallback: "en", unsupported: [])
+      @search_config = { "fallback" => "en", "unsupported" => [] }
 
       _(search_index.fallbacks).must_be_empty
+    end
+
+    it "raises when no fallback language is configured" do
+      @search_config = { "unsupported" => ["bg"] }
+
+      error = _(-> { search_index.fallbacks }).must_raise SearchIndex::Error
+      _(error.message).must_match(/search.fallback is not configured/)
     end
   end
 
   describe "#apply_fallbacks" do
     it "points an unsupported language at the index it falls back to" do
       write_entry({
-        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 563 },
-        "ja" => { "hash" => "ja_def", "wasm" => nil, "page_count" => 541 },
+        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 560 },
+        "ja" => { "hash" => "ja_def", "wasm" => nil, "page_count" => 536 },
       })
 
       search_index.apply_fallbacks
@@ -64,8 +77,8 @@ describe SearchIndex do
 
     it "does not leave the fallback to the largest index" do
       write_entry({
-        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 563 },
-        "uk" => { "hash" => "uk_def", "wasm" => nil, "page_count" => 564 },
+        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 560 },
+        "uk" => { "hash" => "uk_def", "wasm" => nil, "page_count" => 900 },
       })
 
       search_index.apply_fallbacks
@@ -75,8 +88,8 @@ describe SearchIndex do
 
     it "leaves the other languages untouched" do
       write_entry({
-        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 563 },
-        "zh-cn" => { "hash" => "zh-cn_ghi", "wasm" => nil, "page_count" => 281 },
+        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 560 },
+        "zh-cn" => { "hash" => "zh-cn_ghi", "wasm" => nil, "page_count" => 276 },
       })
 
       search_index.apply_fallbacks
@@ -88,7 +101,7 @@ describe SearchIndex do
 
     it "warns when a language meant to be skipped was indexed anyway" do
       write_entry({
-        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 563 },
+        "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 560 },
         "bg" => { "hash" => "bg_xyz", "wasm" => nil, "page_count" => 60 },
       })
 
@@ -99,7 +112,7 @@ describe SearchIndex do
     end
 
     it "raises when the index it falls back to is missing" do
-      write_entry({ "ja" => { "hash" => "ja_def", "wasm" => nil, "page_count" => 541 } })
+      write_entry({ "ja" => { "hash" => "ja_def", "wasm" => nil, "page_count" => 536 } })
 
       error = _(-> { search_index.apply_fallbacks }).must_raise SearchIndex::Error
       _(error.message).must_match(/missing index "en"/)
@@ -112,17 +125,9 @@ describe SearchIndex do
       _(error.message).must_match(/did the site build/)
     end
 
-    it "raises when the bundle entry does not exist" do
+    it "raises when Pagefind wrote no index" do
       error = _(-> { search_index.apply_fallbacks }).must_raise SearchIndex::Error
-      _(error.message).must_match(/npm run build-search/)
-    end
-
-    it "raises when the config has no search section" do
-      write_entry({ "en" => { "hash" => "en_abc", "wasm" => "en", "page_count" => 563 } })
-      File.write(@config_path, YAML.dump({ "url" => "https://www.ruby-lang.org" }))
-
-      error = _(-> { search_index.apply_fallbacks }).must_raise SearchIndex::Error
-      _(error.message).must_match(/No search section/)
+      _(error.message).must_match(/wrote no index/)
     end
   end
 end

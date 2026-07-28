@@ -26,32 +26,19 @@ task build: :"build-css" do
   require "jekyll"
 
   Jekyll::Commands::Build.process({})
-
-  Rake::Task[:"search-index"].invoke
-end
-
-desc "Build the Pagefind search index over the built site"
-task :"search-index" do
-  require_relative "lib/search_index"
-
-  sh "npm run build-search"
-  SearchIndex.new.apply_fallbacks
 end
 
 desc "Serve the Jekyll site locally"
 task serve: :"build-css" do
   require "jekyll"
 
-  Jekyll::Commands::Serve.process({})
-end
+  # Same pair `jekyll serve` runs. Serving on its own only hands out whatever
+  # _site already holds, which leaves a fresh clone with nothing to serve and
+  # never picks up an edit.
+  options = { "serving" => true, "watch" => true }
 
-desc "Serve the built site without rebuilding, so its search index survives"
-task :"serve-built" do
-  require "webrick"
-
-  server = WEBrick::HTTPServer.new(Port: 4000, DocumentRoot: "_site")
-  trap("INT") { server.shutdown }
-  server.start
+  Jekyll::Commands::Build.process(options)
+  Jekyll::Commands::Serve.process(options)
 end
 
 namespace :new_post do

@@ -14,11 +14,8 @@ This is the Jekyll-based source for the official Ruby programming language websi
 # Build the site and its search index (takes several minutes)
 bundle exec rake build
 
-# Serve locally at http://localhost:4000/ (rebuilds, so no search index)
+# Build, watch and serve at http://localhost:4000/, search index included
 bundle exec rake serve
-
-# Serve an already-built site, search included, without live reload
-bundle exec rake serve-built
 
 # Alternative: Jekyll direct serve with incremental builds
 bundle exec jekyll serve --watch --future --incremental
@@ -116,9 +113,12 @@ The news system is powered by a custom Jekyll plugin (`_plugins/news.rb`):
 
 ### Search (Pagefind)
 
-Search is client-side and needs no backend. `rake build` runs `npm run
-build-search` over `_site` once Jekyll is done, so the index only exists after a
-full build.
+Search is client-side and needs no backend. `_plugins/search_index.rb` hooks
+Jekyll's `post_write` and calls `lib/search_index.rb`, so every build and every
+regeneration under `rake serve` ends with a matching index. It has to run after
+the write because Pagefind reads the generated HTML, and it has to run every
+time because Jekyll deletes destination files with no source counterpart, the
+previous bundle included. Without Node installed the hook warns and skips.
 
 - **Indexed region**: `_includes/search_body.html` emits `data-pagefind-body` on
   the `<article>` of `page.html` and `news_post.html`. Everything outside it, and

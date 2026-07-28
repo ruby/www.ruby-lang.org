@@ -4,8 +4,7 @@
   "description": "Ruby Language Website with Tailwind CSS",
   "scripts": {
     "build-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css",
-    "watch-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css --watch",
-    "build-search": "pagefind --site _site"
+    "watch-css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/compiled.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",

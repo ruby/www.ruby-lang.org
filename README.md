@@ -140,18 +140,15 @@ npm run watch-css   # watch and rebuild CSS automatically
 
 ## Search
 
-Search is [Pagefind](https://pagefind.app/), which indexes the built site as a
-post-processing step, so it needs no server of its own. `bundle exec rake build`
-runs it after Jekyll and writes the index to `_site/pagefind`.
+Search is [Pagefind](https://pagefind.app/), which indexes the HTML Jekyll
+produced rather than the Markdown behind it, so it needs no server of its own.
+`_plugins/search_index.rb` runs it whenever Jekyll finishes writing the site,
+which means `rake build` and `rake serve` both leave you with a search index
+matching the site they just produced. Nothing extra to run.
 
-`rake serve` rebuilds `_site` on every change and wipes that index, so the search
-button opens on an empty index there. To try search locally, build once and serve
-the result:
-
-``` sh
-bundle exec rake build
-bundle exec rake serve-built   # http://localhost:4000/, no live reload
-```
+Indexing adds a few seconds to a build. It needs Node, so run `npm install`
+first; without it the build says the index was skipped and carries on, which is
+enough for editing content.
 
 Pagefind builds one index per language and picks one by the `lang` attribute of
 the page the visitor is on, so each translation searches its own pages and reads
