@@ -188,6 +188,13 @@ feed:
   description: The latest news from ruby-lang.org.
   lang_code: en-US
 
+# Shown inside the search modal on pages whose language is listed under
+# `search.unsupported` in _config.yml. Other languages never see it.
+search:
+  fallback_notice: >-
+    Search is not available in this language, so it looks through the English
+    pages. Type your search in English.
+
 news:
   other_news: Other News
   more_news: More News...

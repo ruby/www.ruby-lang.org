@@ -59,6 +59,21 @@
   }
 }
 
+/* Tells visitors in a language Pagefind cannot index that their search runs
+ * against another one. The class must stay out of Pagefind's `pf-` namespace:
+ * it reverts every `[class^="pf-"]` inside its components to UA styles, which
+ * would strip this rule. Nothing here is inherited from the site either, since
+ * the modal body sits under `all: initial`. */
+.search-notice {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border-radius: var(--pf-border-radius);
+  background: var(--pf-hover);
+  color: var(--pf-text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 /* Where a result landed on the page it linked to. */
 .pagefind-highlight {
   background-color: #fadad3; /* ruby-100 */

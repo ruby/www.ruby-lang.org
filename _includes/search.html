@@ -13,13 +13,37 @@ two cannot drift apart.
 first component of the instance connects. The trigger here is the one in the top
 bar; below 640px it gives way to the one in the mobile menu, which shares this
 modal through the default instance.
+
+An empty `pagefind-modal` builds its own contents. Those languages that fall
+back get the same parts written out so a notice can sit above the results,
+because otherwise a search in their own language just returns nothing and reads
+as a broken feature.
 {%- endcomment -%}
 {%- assign search_lang = page.lang -%}
+{%- assign falls_back = false -%}
 {%- if site.search.unsupported contains page.lang -%}
   {%- assign search_lang = site.search.fallback -%}
+  {%- assign falls_back = true -%}
 {%- endif -%}
 <pagefind-config highlight-param="highlight" lang="{{ search_lang | to_html_lang }}"></pagefind-config>
 <div class="search-trigger-bar">
   <pagefind-modal-trigger compact></pagefind-modal-trigger>
 </div>
+{%- if falls_back -%}
+  {%- assign search_locale = site.data.locales[page.lang].search | default: site.data.locales.en.search -%}
+<pagefind-modal reset-on-close>
+  <pagefind-modal-header>
+    <pagefind-input></pagefind-input>
+  </pagefind-modal-header>
+  <pagefind-modal-body>
+    <p class="search-notice">{{ search_locale.fallback_notice }}</p>
+    <pagefind-summary></pagefind-summary>
+    <pagefind-results></pagefind-results>
+  </pagefind-modal-body>
+  <pagefind-modal-footer>
+    <pagefind-keyboard-hints></pagefind-keyboard-hints>
+  </pagefind-modal-footer>
+</pagefind-modal>
+{%- else -%}
 <pagefind-modal reset-on-close></pagefind-modal>
+{%- endif -%}

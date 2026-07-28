@@ -166,6 +166,11 @@ feed:
   description: Последните новини от ruby-lang.org.
   lang_code: bg
 
+search:
+  fallback_notice: >-
+    Търсенето не поддържа български, затова обхваща страниците на английски
+    език. Въведете заявката си на английски.
+
 news:
   other_news: Други новини
   more_news: Още новини...
