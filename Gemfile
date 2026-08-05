@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "rake"
 gem "jekyll"
+gem "jekyll-sitemap"
 gem "rouge"
 
 # We didn't use development group for them
