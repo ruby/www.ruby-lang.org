@@ -35,3 +35,7 @@ permalink: /llms.txt
 {%- for post in en_posts limit: 10 %}
 - [{{ post.title }}]({{ site.url }}{{ post.markdown_url }}): {{ post.date | date: "%Y-%m-%d" }}
 {%- endfor %}
+
+## Optional
+
+- [llms-full.txt]({{ site.url }}/llms-full.txt): All English pages of this site concatenated into a single Markdown file
