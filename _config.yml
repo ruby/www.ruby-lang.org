@@ -10,6 +10,9 @@ kramdown:
 include:
   - _headers
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - Gemfile
   - Gemfile.lock
