@@ -18,6 +18,7 @@ class Linter
     %r{\Aadmin/index\.md},
     %r{\A[^/]*/examples/},
     %r{\A_includes/},
+    %r{\A_site/},
     %r{\Atest/},
     %r{\Anode_modules/}
   ].freeze
