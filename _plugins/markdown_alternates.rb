@@ -19,7 +19,7 @@ module MarkdownAlternates
   end
 
   def self.markdown_for(site, page)
-    raw = File.read(site.in_source_dir(page.path))
+    raw = File.read(site.in_source_dir(page.path), encoding: "bom|utf-8")
     raw = Regexp.last_match.post_match if raw =~ FRONT_MATTER
 
     payload = site.site_payload
