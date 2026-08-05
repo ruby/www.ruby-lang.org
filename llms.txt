@@ -1,42 +1,37 @@
 ---
 permalink: /llms.txt
 ---
-{%- comment -%}
-TODO: Once the Markdown-mirror plugin (rubygems/guides#524 style) lands and
-pages expose markdown_url, switch these links to the .md routes, e.g.
-https://www.ruby-lang.org/en/about.md.
-{%- endcomment -%}
 # Ruby Programming Language
 
 > Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The current stable version is Ruby {{ site.data.downloads.stable | first }}.
 
 ## Getting Started
 
-- [About Ruby]({{ site.url }}/en/about/): An introduction to Ruby's philosophy, history, and features
-- [Download Ruby]({{ site.url }}/en/downloads/): Source code and installation options for the latest releases
-- [Installing Ruby]({{ site.url }}/en/documentation/installation/): How to install Ruby with package managers or third-party tools
-- [Ruby in Twenty Minutes]({{ site.url }}/en/documentation/quickstart/): A short hands-on tutorial for newcomers
+- [About Ruby]({{ site.url }}/en/about.md): An introduction to Ruby's philosophy, history, and features
+- [Download Ruby]({{ site.url }}/en/downloads.md): Source code and installation options for the latest releases
+- [Installing Ruby]({{ site.url }}/en/documentation/installation.md): How to install Ruby with package managers or third-party tools
+- [Ruby in Twenty Minutes]({{ site.url }}/en/documentation/quickstart.md): A short hands-on tutorial for newcomers
 
 ## Documentation
 
-- [Documentation]({{ site.url }}/en/documentation/): Guides, tutorials, and reference material for learning Ruby
-- [Ruby from Other Languages]({{ site.url }}/en/documentation/ruby-from-other-languages/): What to expect when coming from C, Java, PHP, Python, or Perl
-- [Official Ruby FAQ]({{ site.url }}/en/documentation/faq/): Frequently asked questions about Ruby
-- [Libraries]({{ site.url }}/en/libraries/): How to find and install third-party libraries with RubyGems and Bundler
+- [Documentation]({{ site.url }}/en/documentation.md): Guides, tutorials, and reference material for learning Ruby
+- [Ruby from Other Languages]({{ site.url }}/en/documentation/ruby-from-other-languages.md): What to expect when coming from C, Java, PHP, Python, or Perl
+- [Official Ruby FAQ]({{ site.url }}/en/documentation/faq.md): Frequently asked questions about Ruby
+- [Libraries]({{ site.url }}/en/libraries.md): How to find and install third-party libraries with RubyGems and Bundler
 
 ## Releases
 
-- [Ruby Releases]({{ site.url }}/en/downloads/releases/): A list of all Ruby releases with download links
-- [Ruby Maintenance Branches]({{ site.url }}/en/downloads/branches/): Maintenance status and end-of-life dates of each Ruby branch
+- [Ruby Releases]({{ site.url }}/en/downloads/releases.md): A list of all Ruby releases with download links
+- [Ruby Maintenance Branches]({{ site.url }}/en/downloads/branches.md): Maintenance status and end-of-life dates of each Ruby branch
 
 ## Community
 
-- [Community]({{ site.url }}/en/community/): Mailing lists, user groups, conferences, and other ways to get involved
-- [Ruby Community Conduct Guideline]({{ site.url }}/en/conduct/): The conduct guideline for the Ruby developer community
-- [Security]({{ site.url }}/en/security/): How to report security vulnerabilities in Ruby and past advisories
+- [Community]({{ site.url }}/en/community.md): Mailing lists, user groups, conferences, and other ways to get involved
+- [Ruby Community Conduct Guideline]({{ site.url }}/en/conduct.md): The conduct guideline for the Ruby developer community
+- [Security]({{ site.url }}/en/security.md): How to report security vulnerabilities in Ruby and past advisories
 
 ## Recent News
 {% assign en_posts = site.posts | where: "lang", "en" %}
 {%- for post in en_posts limit: 10 %}
-- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ site.url }}{{ post.markdown_url }}): {{ post.date | date: "%Y-%m-%d" }}
 {%- endfor %}
