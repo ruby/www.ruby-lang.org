@@ -6,6 +6,7 @@ hero:
   download_button: "Скачать"
   or: "или"
   learn_more: "Узнать больше"
+  tagline: "Лучший Друг Программиста"
 
 try_ruby:
   title: "Попробуйте Ruby!"
@@ -13,6 +14,8 @@ try_ruby:
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "Хотите узнать больше или попробовать Ruby?"
   bottom_link_url: "https://try.ruby-lang.org/"
+  button_text: "ПОПРОБУЙ!"
+  bottom_link_text: "Попробуй Ruby"
 
 why_ruby:
   title: Почему Ruby?

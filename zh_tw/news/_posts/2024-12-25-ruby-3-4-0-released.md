@@ -8,7 +8,7 @@ lang: zh_tw
 ---
 
 {% assign release = site.data.releases | where: "version", "3.4.0" | first %}
-我們很高興宣布 Ruby {{ release.version }} 發佈了。 Ruby 3.4 加入了 `it` 區塊參數參考變數，
+我們很高興宣布 Ruby {{ release.version }} 發布了。Ruby 3.4 加入了 `it` 區塊參數參考變數，
 將 Prism 作為預設的解析器，為 socket 函式庫加入 Happy Eyeballs Version 2 支援，改進 YJIT，加入 Modular GC，與其他更多。
 
 ## 導入 `it`
@@ -23,7 +23,7 @@ p ary.map { it.upcase } #=> ["FOO", "BAR", "BAZ"]
 
 `it` 行為與 `_1` 類似。當意圖在區塊中只想使用 `_1` 時，其他編號的參數例如 `_2` 也可能會出現，這會對讀者造成額外的認知負擔。因此 `it` 被導入作為一個方便的別名。在使用 `it` 能表示自身的簡單情境下使用 `it`，例如在單行區塊中。
 
-## Prism 先在是預設解析器
+## Prism 現在是預設解析器
 
 預設的解析器從 parse.y 切換為 Prism。 [[Feature #20564]]
 
@@ -50,9 +50,9 @@ socket 函式庫引入新功能[Happy Eyeballs 版本2 (RFC 8305)](https://datat
 
 ### TL;DR
 
-* 在 x86-64 與 arn64 平台上的大多數基準測試都有更好的效能
-* 減少編輯後設資料的的記憶體用量
-* 修復多個錯誤。YJIT 現在更加勇健且有更好的測試。
+* 在 x86-64 與 arm64 平台上的大多數基準測試都有更好的效能
+* 減少編譯後設資料的記憶體用量
+* 修復多個錯誤。YJIT 現在更加穩健且有更好的測試。
 
 ### 新功能
 
@@ -69,8 +69,8 @@ socket 函式庫引入新功能[Happy Eyeballs 版本2 (RFC 8305)](https://datat
 
 * 透過壓縮上下文來減少儲存 YJIT 後設資料所需的記憶體空間
 * 改善後的分配器能為本地變數分配暫存器
-* 當啟用 YJIT 時，使用更多用 Ruby 邊寫的核心程式：
-  * 使用 Ruby 改寫`Array#each`、`Array#select`、`Array#map` 提高效能 [[Feature #20182]].
+* 當啟用 YJIT 時，使用更多用 Ruby 編寫的核心程式：
+  * 使用 Ruby 改寫 `Array#each`、`Array#select`、`Array#map` 提高效能 [[Feature #20182]].
 * 能夠內聯小型/簡單的方法，例如：
   * 空方法
   * 回傳常數的方法
@@ -79,7 +79,7 @@ socket 函式庫引入新功能[Happy Eyeballs 版本2 (RFC 8305)](https://datat
 * 適用於更多執行環境方法的程式碼產生器
 * 改善 `String#getbyte`、`String#setbyte` 和其他字串方法
 * 改善位元計算來加速低階位元/位元組操作
-* 各種其他的增量改善
+* 各種其他的漸進式改善
 
 ## 模組化垃圾收集器
 

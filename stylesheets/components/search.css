@@ -1,0 +1,88 @@
+/* Pagefind search.
+ *
+ * Pagefind's components set `all: initial` on themselves, so none of the site's
+ * styles reach into them and these custom properties are the whole theming
+ * surface. Their dark palette comes from `[data-pf-theme="dark"]`, which
+ * javascripts/theme-toggle.js sets alongside the site's own `.dark`; what is
+ * left here is the brand on top of both. */
+:root {
+  --pf-font: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --pf-border-radius: 6px;
+
+  --pf-text: #1c1917;          /* stone-900 */
+  --pf-text-secondary: #57534e; /* stone-600 */
+  --pf-text-muted: #78716c;    /* stone-500 */
+  --pf-border: #e7e5e4;        /* stone-200 */
+  --pf-hover: #f5f5f4;         /* stone-100 */
+
+  --pf-mark: #b8211c;          /* ruby-700 */
+  --pf-border-focus: #e62923;  /* ruby-600 */
+  --pf-outline-focus: #e62923; /* ruby-600 */
+}
+
+.dark {
+  --pf-text: #fafaf9;          /* stone-50 */
+  --pf-text-secondary: #a8a29e; /* stone-400 */
+  --pf-text-muted: #a8a29e;    /* stone-400 */
+  --pf-background: #1c1917;    /* stone-900, matches the page */
+  --pf-border: #44403c;        /* stone-700 */
+  --pf-hover: #292524;         /* stone-800 */
+
+  --pf-mark: #f5a9a7;          /* ruby-300 */
+  --pf-border-focus: #f07f7b;  /* ruby-400 */
+  --pf-outline-focus: #f07f7b; /* ruby-400 */
+}
+
+/* Below 640px the top bar cannot hold the logo alongside the search button, the
+ * language selector and the menu button: the longer language names squeeze the
+ * logo until it clips. Search moves into the mobile menu at those widths and
+ * the two triggers share one modal through Pagefind's default instance.
+ *
+ * Both `display` values stay here rather than on Tailwind utility classes,
+ * which are emitted after this file and would win the cascade. */
+.search-trigger-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-trigger-menu {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .search-trigger-bar {
+    display: none;
+  }
+
+  .search-trigger-menu {
+    display: block;
+  }
+}
+
+/* Tells visitors in a language Pagefind cannot index that their search runs
+ * against another one. The class must stay out of Pagefind's `pf-` namespace:
+ * it reverts every `[class^="pf-"]` inside its components to UA styles, which
+ * would strip this rule. Nothing here is inherited from the site either, since
+ * the modal body sits under `all: initial`. */
+.search-notice {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border-radius: var(--pf-border-radius);
+  background: var(--pf-hover);
+  color: var(--pf-text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Where a result landed on the page it linked to. */
+.pagefind-highlight {
+  background-color: #fadad3; /* ruby-100 */
+  color: #1c1917;            /* stone-900 */
+  border-radius: 2px;
+  padding: 0 0.1em;
+}
+
+.dark .pagefind-highlight {
+  background-color: #8a1915; /* ruby-800 */
+  color: #fafaf9;            /* stone-50 */
+}

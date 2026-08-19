@@ -6,6 +6,7 @@ hero:
   download_button: "Download"
   or: "또는"
   learn_more: "자세히 알아보기"
+  tagline: "프로그래머의 가장 친한 친구"
 
 try_ruby:
   title: "Ruby를 체험해보세요!"
@@ -13,6 +14,8 @@ try_ruby:
   button_url: "https://try.ruby-lang.org/"
   bottom_text: "더 알아보거나 Ruby를 체험해보고 싶으신가요?"
   bottom_link_url: "https://try.ruby-lang.org/"
+  button_text: "체험하기!"
+  bottom_link_text: "Ruby 체험하기"
 
 why_ruby:
   title: 왜 Ruby인가?
