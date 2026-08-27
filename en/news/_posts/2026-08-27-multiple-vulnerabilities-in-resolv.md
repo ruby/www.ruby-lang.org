@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Multiple vulnerabilities in resolv gem"
+title: "Security advisories: CVE-2026-80212 and CVE-2026-80213"
 author: "hsbt"
 translator:
 date: 2026-08-27 00:00:00 +0000

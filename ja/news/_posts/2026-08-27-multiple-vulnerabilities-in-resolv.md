@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "resolv gem の複数の脆弱性"
+title: "セキュリティアドバイザリ: CVE-2026-80212 および CVE-2026-80213"
 author: "hsbt"
 translator: "hsbt"
 date: 2026-08-27 00:00:00 +0000
