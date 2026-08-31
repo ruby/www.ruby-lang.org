@@ -32,6 +32,9 @@
 - code: pt
   name: Portuguese
   native_name: Português
+- code: pt_br
+  name: Brazilian Portuguese
+  native_name: Português do Brasil
 - code: ru
   name: Russian
   native_name: Русский
