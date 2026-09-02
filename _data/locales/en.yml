@@ -98,8 +98,6 @@ navigation:
   submenu:
   - text: Ruby Core Development
     url: /en/community/ruby-core/
-  - text: Repository Guide
-    url: /en/documentation/repository-guide/
   - text: Mailing Lists
     url: /en/community/mailing-lists/
   - text: Mailing List Guidelines
