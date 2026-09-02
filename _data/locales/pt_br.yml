@@ -1,0 +1,208 @@
+---
+
+navigation:
+- text: Downloads
+  url: /pt_br/documentation/installation/
+  submenu:
+  - text: Instalar Ruby
+    url: /pt_br/documentation/installation/
+  - text: Downloads
+    url: /pt_br/downloads/
+  - text: Gerenciadores de Pacotes
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: Documentação
+  url: /pt_br/documentation/
+  submenu:
+  - text: Documentação
+    url: /pt_br/documentation/
+  - text: Sobre Ruby
+    url: /pt_br/about/
+  - text: Ruby em 20 minutos
+    url: /pt_br/documentation/quickstart/
+  - text: Ruby a partir de outras linguagens
+    url: /pt_br/documentation/ruby-from-other-languages/
+    submenu:
+    - text: Ruby a partir de C e C++
+      url: /pt_br/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+    - text: Ruby a partir de Java
+      url: /pt_br/documentation/ruby-from-other-languages/to-ruby-from-java/
+    - text: Ruby a partir de Perl
+      url: /pt_br/documentation/ruby-from-other-languages/to-ruby-from-perl/
+    - text: Ruby a partir de PHP
+      url: /pt_br/documentation/ruby-from-other-languages/to-ruby-from-php/
+    - text: Ruby a partir de Python
+      url: /pt_br/documentation/ruby-from-other-languages/to-ruby-from-python/
+  - text: Primeiros passos e exploração
+    submenu:
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/4.0/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: Módulos
+  url: /pt_br/libraries/
+  submenu:
+  - text: Módulos
+    url: /pt_br/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: Gems Populares
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: Contribuição
+  url: /pt_br/community/ruby-core/
+  submenu:
+  - text: Desenvolvimento do Ruby Core
+    url: /pt_br/community/ruby-core/
+  - text: Guia do Repositório
+    url: /pt_br/documentation/repository-guide/
+  - text: Listas de E-mail
+    url: /pt_br/community/mailing-lists/
+  - text: Outros
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
+- text: Comunidade
+  url: /pt_br/community/
+  submenu:
+  - text: Comunidade
+    url: /pt_br/community/
+  - text: Grupos de Usuários
+    url: /pt_br/community/user-groups/
+  - text: Blogs
+    url: /pt_br/community/weblogs/
+  - text: Eventos e Conferências
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+- text: Notícias
+  url: /pt_br/news/
+  submenu:
+  - text: Notícias
+    url: /pt_br/news/
+  - text: Segurança
+    url: /pt_br/security/
+
+syndicate:
+  text: Feeds de notícias (RSS)
+  recent_news:
+    text: Em português do Brasil
+    url: /pt_br/feeds/news.rss
+
+languages_heading: 'Este site em outros idiomas:'
+
+toc:
+  heading: Índice
+credits:
+  <a href="/pt_br/about/website/">Este site</a>
+  é mantido com orgulho por membros da comunidade Ruby.
+
+month_names:
+- Janeiro
+- Fevereiro
+- Março
+- Abril
+- Maio
+- Junho
+- Julho
+- Agosto
+- Setembro
+- Outubro
+- Novembro
+- Dezembro
+
+posted_by: Escrito por AUTHOR em %d/%m/%Y
+translated_by: Traduzido por
+
+feed:
+  title: Notícias sobre Ruby
+  description: As notícias mais recentes do ruby-lang.org em português do Brasil.
+  lang_code: pt-BR
+
+news:
+  other_news: Outras Notícias
+  more_news: Mais Notícias...
+  continue: Continue lendo...
+  back_to_year: Voltar aos arquivos de %Y
+  recent_news: Notícias Recentes
+  yearly_archive_title: Arquivos de %Y
+  monthly_archive_title: Arquivos de %B %Y
+  yearly_archives: Arquivos por Ano
+  monthly_archives: Arquivos por Mês
+  yearly_archive_link: Arquivos de %Y
+  monthly_archive_link: "%B %Y"
+  select_year: "--- Selecionar ano ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: Listas de e-mail
+      url: /pt_br/community/mailing-lists/
+    security:
+      text: Segurança
+      url: /pt_br/security/
+    about_website:
+      text: Sobre este site
+      url: /pt_br/about/website/
+    logo_page:
+      text: Sobre o logotipo
+      url: /pt_br/about/logo/
+    news_rss:
+      text: Notícias RSS
+      url: /pt_br/feeds/news.rss
+    ruby_license:
+      text: Ruby License
+      url: /en/about/license.txt
