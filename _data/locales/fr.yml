@@ -8,6 +8,12 @@ navigation:
     url: /fr/documentation/installation/
   - text: Téléchargements
     url: /fr/downloads/
+  - text: Versions
+    url: /fr/downloads/releases/
+  - text: Branches
+    url: /fr/downloads/branches/
+  - text: Miroirs
+    url: /fr/downloads/mirrors/
   - text: Gestionnaires de paquets
     submenu:
     - text: rbenv
