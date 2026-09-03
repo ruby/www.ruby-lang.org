@@ -165,6 +165,7 @@ $ brew install ruby
 
 This should install the latest Ruby version.
 
+Alternatively, if you want multiple different versions of ruby that you can switch between you may want to use either a **manager** such as [rbenv](#rbenv) or [RVM](#rvm).
 
 ### FreeBSD
 {: #freebsd}
