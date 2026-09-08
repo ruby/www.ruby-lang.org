@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Разработка на Ruby ядро
     url: /bg/community/ruby-core/
-  - text: Ръководство за хранилището
-    url: /bg/documentation/repository-guide/
   - text: Пощенски списъци
     url: /bg/community/mailing-lists/
   - text: Други

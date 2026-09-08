@@ -25,7 +25,6 @@ Rubyの不具合や機能追加の要望などは[Redmine(問題追跡システ�
 ## ソースコード
 
 開発中のソースコードを取得できます。
-詳しくは[リポジトリガイド](/ja/documentation/repository-guide)のページを参照してください。
 
 また、毎日、日本時間の午後10時頃に、開発版系列(現在はRuby
 {{ site.data.downloads.nightly_snapshot.version }})および安定版系列(現在はRuby
