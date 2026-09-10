@@ -35,6 +35,9 @@
 - code: ru
   name: Russian
   native_name: Русский
+- code: tok
+  name: Toki Pona
+  native_name: toki pona
 - code: tr
   name: Turkish
   native_name: Türkçe

@@ -18,3 +18,9 @@ gem "base64"
 
 # Jekyll need this for Ruby 4.0.0+
 gem "logger"
+
+gem "tzinfo", "~> 2.0"
+
+gem "jimmu", "~> 1.0"
+
+gem "tzinfo-data", "~> 1.2026"

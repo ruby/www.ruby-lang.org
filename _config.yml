@@ -32,6 +32,7 @@ search:
   fallback: en
   unsupported:
     - bg
+    - tok
 
 url: https://www.ruby-lang.org
 

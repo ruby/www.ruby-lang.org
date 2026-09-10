@@ -1,0 +1,116 @@
+hero:
+  since: "tan"
+  year: "1995"
+  title: "Ruby"
+  latest_version_label: "nanpa sin:"
+  download_button: "kama jo"
+  or: "anu"
+  learn_more: "kama sona e mute"
+  tagline: "jan pona nanpa wan pi jan pali"
+
+try_ruby:
+  title: "o lukin e Ruby!"
+  description: "sina ken kepeken e Ruby lon ilo sona sina — tenpo ni!"
+  button_url: "https://try.ruby-lang.org/"
+  bottom_text: "sina wile kama sona e mute, anu sina wile lukin e Ruby?"
+  bottom_link_url: "https://try.ruby-lang.org/"
+  button_text: "O LUKIN!"
+  bottom_link_text: "o lukin e Ruby"
+
+why_ruby:
+  title: Ruby li pona tan seme?
+  description: jan pali lon ma ale li olin e Ruby. ijo seme li pana e <strong>pilin pona</strong> tawa ona?
+  features:
+    - id: ecosystem
+      title: namako
+      read: namako mute li pona e pali mute.<br />ilo pona li lon, li awen ken kepeken.
+      copy: |
+        Ruby li jo e namako mute (mi toki e ona "gem"), li pona tawa pali lipu, pali sona, e pali ante mute.
+        kulupu li pali e ilo suli sama Rails, li pali e nasin ilo pona mute.
+        tan ni, sina ken pali e ilo pona lon tenpo lili, sina wile ala pali sin e ijo lon ale.
+      comment:
+        author:
+          id: matz
+          name: Yukihiro "Matz" Matsumoto
+          title: jan pi open Ruby
+        content: |
+          tenpo mi pana e Ruby tawa ma ale, mi sona ala e ni: namako mute li kama tan ona.
+          namako 200,000 li lon, sama Ruby on Rails, RSpec, Bundler — kulupu li pali e ijo ni ale, li awen pona e ona.
+          mi wile e ni: jan pali li pilin pona. wile ni li kama lon nasin mi sona ala e ona.
+    - id: simple
+      title: pona
+      read: o sitelen li pona, o lukin li pona.<br />nasin sitelen li sama nasin toki jan.
+      copy: |
+        Ruby li jo e nasin sitelen pona e nasin sitelen sama toki jan lawa.
+        Ruby li weka e sitelen ike e nasin pi mute ike, tan ni sina ken toki e wile sina lon nasin pona.
+        sitelen li lili, li ken lukin pona, tan ni ona li pona tawa jan sin, li pona tawa jan pi sona suli.
+      comment:
+        author:
+          id: dhh
+          name: David Heinemeier Hansson
+          title: jan pi open Ruby on Rails
+        content: |
+          Ruby li toki ilo pi pona mute nanpa wan lon ale mi lukin e ona.<br />
+          mi lukin mute e toki ilo sin, e nasin sin, e ilo sin,
+          taso mi lukin ala e toki ilo ante li sama Ruby lon nasin ona li pona lukin, li pona wan.
+    - id: productivity
+      title: wawa
+      read: sitelen lili li pali e ijo mute.<br />nasin sitelen li pona tawa pali wawa.
+      copy: |
+        nasin sitelen pi Ruby li ken pana e sitelen lili tawa ijo pi nasin suli.
+        kepeken ilo sama metaprogramming e blocks, sina ken weka e sitelen sama, sina ken lukin taso e pali suli.
+        Ruby li jo e ilo alasa-pakala pona mute, tan ni sina ken awen pona lon pali wawa.
+      comment:
+        author:
+          id: pragdave
+          name: Dave Thomas
+          title: jan pi sitelen lipu "The Pragmatic Programmer"
+        content: |
+          Ruby li ante e pilin sona tawa sitelen lon tenpo lili.
+          nasin pona ona li awen e lawa mi; nasin toki ona li ken mi sitelen sama nasin pilin mi.<br />
+          ona li sama toki ilo li weka, li lon taso mi en pali.
+          kepeken ilo pona e namako pona, pilin sona li kama sitelen wawa lon tenpo lili.
+    - id: community
+      title: kulupu
+      read: jan pali lon ma ale li pana pona tawa jan ante.<br />kulupu li seli, li wawa.
+      copy: |
+        kulupu Ruby li kepeken nasin "Matz li pona, tan ni mi ale li pona" (MINASWAN),
+        li open e jan sin en jan pi sona suli. tenpo kulupu lon ma mute li pana e sona en poka pona.
+        ona li kulupu seli, li kulupu awen, jan li pana pona tawa jan ante, li kama suli sama.
+      comment:
+        author:
+          id: amanda
+          name: Amanda Perino
+          title: jan lawa suli pi Rails Foundation
+        content: |
+          kulupu Ruby li jo e sona mute e pali sin mute; jan pali li olin e nasin sitelen pona Ruby, li pali tan pilin pona.
+          ona li kulupu wawa, kulupu open, jan li wile pana e olin ni pi pali sitelen tawa jan ale.
+          pilin seli e pali kulupu ni li ijo suli nanpa wan pi Ruby.
+
+companies:
+  title: "kulupu pali"
+  heart: "♥"
+  subtitle: "Ruby"
+
+community:
+  title: "o kama tawa kulupu"
+  description_1: "jan li kepeken e Ruby, li pali mute lon poka ona, mi kama toki e ona jan Ruby (Rubyist)."
+  description_2: "jan Ruby li olin e Ruby, ale li #rubyfriends pona. pali kulupu li kama suli, li pilin pona."
+  motto_prefix: "toki lawa pi kulupu ale li"
+  motto_minaswan: "MINASWAN"
+  motto_separator: "—"
+  motto_translation: "Matz li pona, tan ni mi ale li pona"
+  links:
+    - text: "o kama sona e mute pi kulupu"
+      url: "/community/"
+    - text: "tenpo kulupu suli kama"
+      url: "https://www.rubyevents.org"
+      external: true
+
+news_security:
+  news:
+    title: "sona sin"
+    more_link: "o lukin e sona sin mute"
+  security:
+    title: "awen pona"
+    more_link: "o lukin e awen pona mute"
