@@ -1,0 +1,204 @@
+---
+
+navigation:
+- text: kama jo
+  url: /tok/documentation/installation/
+  submenu:
+  - text: kama jo e Ruby
+    url: /tok/documentation/installation/
+  - text: kama jo
+    url: /tok/downloads/
+  - text: ilo lawa pi namako
+    submenu:
+    - text: rbenv
+      url: https://github.com/rbenv/rbenv
+      external: true
+    - text: RVM
+      url: https://rvm.io/
+      external: true
+    - text: RubyInstaller for Windows
+      url: https://rubyinstaller.org/
+      external: true
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+- text: lipu sona
+  url: /tok/documentation/
+  submenu:
+  - text: lipu sona
+    url: /tok/documentation/
+  - text: Ruby li seme
+    url: /tok/about/
+  - text: Ruby lon tenpo lili
+    url: /tok/documentation/quickstart/
+  - text: o kama sona e Ruby
+    submenu:
+    - text: TryRuby
+      url: https://try.ruby-lang.org/
+      external: true
+    - text: Ruby Reference Manual
+      url: https://docs.ruby-lang.org/en/4.0/
+      external: true
+    - text: The Ruby Bibliography
+      url: https://rubybib.org/
+      external: true
+- text: namako
+  url: /tok/libraries/
+  submenu:
+  - text: namako
+    url: /tok/libraries/
+  - text: RubyGems
+    submenu:
+    - text: RubyGems.org
+      url: https://rubygems.org/
+      external: true
+    - text: The Ruby Toolbox
+      url: https://www.ruby-toolbox.com/
+      external: true
+  - text: namako suli
+    submenu:
+    - text: Bundler
+      url: https://bundler.io/
+      external: true
+    - text: Ruby on Rails
+      url: https://rubyonrails.org/
+      external: true
+    - text: Rack
+      url: https://github.com/rack/rack
+      external: true
+    - text: Rake
+      url: https://github.com/ruby/rake
+      external: true
+    - text: RSpec
+      url: https://github.com/rspec/rspec
+      external: true
+- text: pana pali
+  url: /tok/community/mailing-lists/
+  submenu:
+  - text: lipu toki
+    url: /tok/community/mailing-lists/
+  - text: ante
+    submenu:
+    - text: ruby/ruby
+      url: https://github.com/ruby/ruby
+      external: true
+    - text: Wiki
+      url: https://github.com/ruby/ruby/wiki
+      external: true
+    - text: Ruby Issue Tracking System
+      url: https://bugs.ruby-lang.org/
+      external: true
+- text: kulupu
+  url: /tok/community/
+  submenu:
+  - text: kulupu
+    url: /tok/community/
+  - text: lipu toki
+    url: /tok/community/mailing-lists/
+  - text: lawa pona pi kulupu
+    url: /tok/conduct/
+  - text: tenpo kulupu
+    submenu:
+    - text: RubyKaigi
+      url: https://rubykaigi.org/
+      external: true
+    - text: Ruby Events
+      url: https://www.rubyevents.org/
+      external: true
+  - text: kulupu lawa
+    submenu:
+    - text: Ruby Association
+      url: https://www.ruby.or.jp/en/
+      external: true
+- text: sona sin
+  url: /tok/news/
+  submenu:
+  - text: sona sin
+    url: /tok/news/
+  - text: awen pona
+    url: /tok/security/
+
+syndicate:
+  text: pana sona
+  recent_news:
+    text: sona sin (RSS)
+    url: /tok/feeds/news.rss
+
+languages_heading: 'lipu ni lon toki ante:'
+
+toc:
+  heading: ale insa
+
+credits: >-
+  <a href="/tok/about/website/">lipu ni</a>
+  li pali pona tan jan pi kulupu Ruby, li awen pona tan ona.
+
+month_names:
+- tenpo mun nanpa wan
+- tenpo mun nanpa tu
+- tenpo mun nanpa tu wan
+- tenpo mun nanpa tu tu
+- tenpo mun nanpa luka
+- tenpo mun nanpa luka wan
+- tenpo mun nanpa luka tu
+- tenpo mun nanpa luka tu wan
+- tenpo mun nanpa luka tu tu
+- tenpo mun nanpa luka luka
+- tenpo mun nanpa luka luka wan
+- tenpo mun nanpa luka luka tu
+
+posted_by: "jan pali: AUTHOR — tenpo: %-d pi mun %b pi sike %Y"
+translated_by: ante toki tan
+
+feed:
+  title: sona sin Ruby
+  description: sona sin li kama tan ruby-lang.org.
+  lang_code: tok
+
+# lipu ni li kama lon insa poki lukin, taso lon lipu pi toki ni li ken ala
+# alasa pona. o lukin lon toki Inglisi.
+search:
+  fallback_notice: >-
+    mi ken ala alasa lon toki pona. mi alasa lon lipu Inglisi taso.
+    o sitelen e nimi alasa sina lon toki Inglisi.
+
+news:
+  other_news: sona sin ante
+  more_news: sona sin mute...
+  continue: o lukin e ale...
+  back_to_year: tawa lipu pi sike %Y
+  recent_news: sona sin
+  yearly_archive_title: "lipu pi sike %Y"
+  monthly_archive_title: "lipu pi mun %B pi sike %Y"
+  yearly_archives: lipu pi sike ale
+  monthly_archives: lipu pi mun ale
+  yearly_archive_link: "sike %Y"
+  monthly_archive_link: "%B %Y"
+  select_year: "--- o wile e sike ---"
+
+footer:
+  links:
+    github:
+      text: ruby/ruby
+      url: https://github.com/ruby/ruby
+    slack:
+      text: ruby-jp.slack.com
+      url: https://ruby-jp.github.io/
+    mailing_list:
+      text: lipu toki
+      url: /tok/community/mailing-lists/
+    security:
+      text: awen pona
+      url: /tok/security/
+    about_website:
+      text: lipu ni li seme
+      url: /tok/about/website/
+    logo_page:
+      text: sitelen nimi Ruby
+      url: /tok/about/logo/
+    news_rss:
+      text: sona sin RSS
+      url: /tok/feeds/news.rss
+    ruby_license:
+      text: lawa kepeken Ruby
+      url: /en/about/license.txt
