@@ -18,3 +18,4 @@ gem "base64"
 
 # Jekyll need this for Ruby 4.0.0+
 gem "logger"
+gem "tzinfo"
