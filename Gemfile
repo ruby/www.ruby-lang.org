@@ -19,3 +19,4 @@ gem "base64"
 # Jekyll need this for Ruby 4.0.0+
 gem "logger"
 gem "tzinfo"
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin]
