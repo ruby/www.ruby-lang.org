@@ -70,7 +70,7 @@ peut-être vous aider.
 Pour plus d’information sur le dépôt Subversion de Ruby, voyez la page
 [Ruby Core](/fr/community/ruby-core/).
 
-Pour plus d’informations sur des versions spécifiques, en particulier d'anciennes versions ou des aperçus, voyez la page [Releases][releases]. Vous trouverez des informations sur l'état actuel de la maintenance des différentes branches de Ruby voyez la page [Branches][branches].
+Pour plus d’informations sur des versions spécifiques, en particulier d'anciennes versions ou des aperçus, voyez la page [Versions][releases]. Vous trouverez des informations sur l'état actuel de la maintenance des différentes branches de Ruby voyez la page [Branches][branches].
 
 Les sources de Ruby sont disponibles depuis des [miroirs][mirrors] répartis dans le monde.
 Utilisez s'il-vous-plaît un miroir proche de vous.
@@ -78,9 +78,9 @@ Utilisez s'il-vous-plaît un miroir proche de vous.
 
 [license]: {{ site.license.url }}
 [installation]: /fr/documentation/installation/
-[releases]: /en/downloads/releases/
-[branches]: /en/downloads/branches/
-[mirrors]: /en/downloads/mirrors/
+[releases]: /fr/downloads/releases/
+[branches]: /fr/downloads/branches/
+[mirrors]: /fr/downloads/mirrors/
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
