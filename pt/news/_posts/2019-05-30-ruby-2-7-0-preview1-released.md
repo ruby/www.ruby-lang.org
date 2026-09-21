@@ -27,7 +27,7 @@ páginas possam ser usadas e a heap possa ser mais _CoW friendly_. [#15626](http
 
 ## Pattern Matching [Experimental]
 
-Pattern matching, funcionalidade amplamenta utilizada em linguagens para programação funcional, é introduzida como uma funcionalidade experimental. [#14912](https://bugs.ruby-lang.org/issues/14912)
+Pattern matching, funcionalidade amplamente utilizada em linguagens para programação funcional, é introduzida como uma funcionalidade experimental. [#14912](https://bugs.ruby-lang.org/issues/14912)
 Ela pode examinar um dado objeto e definir seu valor se um padrão for.
 
 ```ruby

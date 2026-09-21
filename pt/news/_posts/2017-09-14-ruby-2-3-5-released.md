@@ -65,4 +65,4 @@ Arrumaremos este problema com a próxima versão, mas se você estiver enfrentan
 
 Obrigado a todos que ajudaram com esta versão.
 
-A manuntenção de Ruby 2.3, incluindo esta versão, é baseado no “Agreement for the Ruby stable version” da _Ruby Association_.
+A manutenção de Ruby 2.3, incluindo esta versão, é baseado no “Agreement for the Ruby stable version” da _Ruby Association_.

@@ -14,7 +14,7 @@ partir do código fonte.
 
 ## Escolha o seu Método de Instalação
 
-Existem diveras maneiras de instalar o Ruby:
+Existem diversas maneiras de instalar o Ruby:
 
 * Quando você está em um sistema operacional baseado em UNIX, utilizar o
   **sistema de gerenciamento de pacotes** do seu sistema é a maneira mais fácil
