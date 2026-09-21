@@ -54,7 +54,7 @@ número da versão. Você não deve utilizá-la em produção, mas deve testá-l
       SHA256: 8610fdb1836d493c19600cfed4828083f85197096c0aea3f73fa1ed532cbb5a7
       SHA512: a212b6a58637f6bf4f456d7ecc7bbd8ceaa0c3f16cb844b872eb62eaf261b5874fdb79705241d05a356fcdc1d3fdd8a94fcd8e6ca62190e9f544c8f45a9f41af
 
-## Comentário da *release*
+## Comentário sobre o Lançamento
 
 Obrigado a todos que ajudaram nessa *release*.
 

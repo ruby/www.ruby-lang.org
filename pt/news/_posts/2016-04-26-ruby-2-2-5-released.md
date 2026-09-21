@@ -43,7 +43,7 @@ para mais detalhes.
       SHA256: d5094d7cc50266772a8352c68b7fcd865889fd174c09e2f11bb003696cd04bb3
       SHA512: b3789063252e361aa4598ecd9170fc360f0d5685497975ce09442fe5815c438b67b95fc67e56b99ab4044a49715ed1a8b1fb089f757c7c0d1a777536e06de8cf
 
-## Comentários da *release*
+## Comentário sobre o Lançamento
 
 Obrigado a todos que contribuíram para essa *release*.
 

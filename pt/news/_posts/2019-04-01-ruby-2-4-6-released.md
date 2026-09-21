@@ -54,7 +54,7 @@ Assim sendo, nós recomendamos que você comece a planejar para migrar para o Ru
       SHA256: c5de9f11d4b7608d57139b96f7bc94899bb2fc9dee2e192c8951f6647a9d60f7
       SHA512: cfa779cdb970dfd35dc2a97951310cb3cde1d380b040c283fda6609c591039817a2847ab7174f7a9ee7f7adbb610709b57914bb26e5c015a20d5fe880c569855
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Desculpas por fazer-lhes esperar muito tempo.
 Obrigado a todas as pessoas que ajudaram nesta versão.

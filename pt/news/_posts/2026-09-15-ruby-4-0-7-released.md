@@ -44,6 +44,6 @@ Caso surja uma alteração que afete significativamente os usuários, um lançam
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Notas de lançamento
+## Comentário sobre o Lançamento
 
 Muitos committers, desenvolvedores e usuários que enviaram relatórios de bugs ajudaram a tornar este lançamento possível. Obrigado pelas contribuições de todos.

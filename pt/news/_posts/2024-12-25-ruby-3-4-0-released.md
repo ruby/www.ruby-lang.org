@@ -32,7 +32,7 @@ Esta é uma melhoria interna e deve haver pouca mudança visível para o usuári
 
 Para usar o parser convencional, use o argumento de linha de comando `--parser=parse.y`.
 
-## A biblioteca de socket agora possui Happy Eyeballs Versão 2 (RFC 8305)
+## Comentário sobre o Lançamento
 
 A biblioteca de socket agora possui [Happy Eyeballs Version 2 (RFC 8305)](https://datatracker.ietf.org/doc/html/rfc8305), a versão padronizada mais recente de uma abordagem amplamente adotada para melhor conectividade em muitas linguagens de programação, em `TCPSocket.new` (`TCPSocket.open`) e `Socket.tcp`.
 Esta melhoria permite que o Ruby forneça conexões de rede eficientes e confiáveis, adaptadas aos ambientes modernos da internet.

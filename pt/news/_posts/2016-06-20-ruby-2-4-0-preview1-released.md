@@ -109,7 +109,7 @@ desde Ruby 2.3.0!
   * SHA256: fd588aea1558b1171f87a3dd342ee207b8995a2c0a8241d7aa15bcfa16036854
   * SHA512: f2fff35ff9157a4b31177b3d6b91bdaad04c22b3c626c3a5e5ec9a31b103f9607b31c909ef27880065cfdbcfa5d6901a6db89d22e0c645666d069c5b6dd1818b
 
-## Comentário de lançamento
+## Comentário sobre o Lançamento
 
 Veja também o calendário de lançamento e outras informações:
 

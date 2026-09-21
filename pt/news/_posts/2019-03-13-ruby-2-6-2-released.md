@@ -42,7 +42,7 @@ Veja detalhes em [Múltiplas vulnerabilidades em RubyGems](/pt/news/2019/03/05/m
       SHA256: 91fcde77eea8e6206d775a48ac58450afe4883af1a42e5b358320beb33a445fa
       SHA512: 13f7d7b483a037378eac4bf4bebddc21d69f4e19e6bbb397dd53e7518037ae9a3aa5b41fc20bf1fe410803c6efc3a6a65a65af47648d3a93713f75cfe885326a
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Vários committers, desenvolvedores e usuários que providenciaram relatórios de bug nos ajudaram a fazer esta versão.
 Obrigado por suas contribuições.

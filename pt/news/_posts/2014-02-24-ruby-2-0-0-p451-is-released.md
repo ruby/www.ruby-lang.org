@@ -35,7 +35,7 @@ para detalhes.
       MD5:    e90cb32e9cf534d180754d7492988748
       SHA256: 8999133f35ad5ddc9a6174860c795c5022e3868ff3b6587448b86af81ea2d5ec
 
-## Comentários do Lançamento
+## Comentário sobre o Lançamento
 
 Muitos commiters, desenvolvedores e usuários que enviaram relatórios
 de bug me ajudaram a fazer este lançamento.
