@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 4.0.7 foi lançado"
+title: "Ruby 4.0.7 Lançado"
 author: k0kubun
 translator: Gabriel Lidenor
 date: 2026-09-15 00:25:58 +0000

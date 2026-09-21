@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 2.2.5 lançado"
+title: "Ruby 2.2.5 Lançado"
 author: "usa"
 translator: "fpgentil"
 date: 2016-04-26 12:00:00 +0000
