@@ -96,8 +96,6 @@ navigation:
   submenu:
   - text: Ruby 코어 개발
     url: /ko/community/ruby-core/
-  - text: 저장소 가이드
-    url: /ko/documentation/repository-guide/
   - text: 메일링 리스트
     url: /ko/community/mailing-lists/
   - text: 메일링 리스트 가이드라인
