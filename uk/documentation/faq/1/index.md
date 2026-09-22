@@ -234,24 +234,24 @@ set reply_regexp="^(\[[a-z0-9:-]+\][[:space:]]*)?(re([\[0-9\]+])*|aw):[[:space:]
 
 {% include warnings/faq-out-of-date.html %}
 
-* Programming Ruby: The Pragmatic Programmer's Guide
-  (відома як Pickaxe Book) авторства David Thomas та Andrew Hunt:
-  ISBN 0-20171-089-7, Addison-Wesley, жовтень 2000 року.
+* Programming Ruby: The Pragmatic Programmer's Guide,
+  (the Pickaxe Book) by David Thomas and Andrew Hunt: ISBN 0-20171-089-7,
+  Addison-Wesley, October 2000.
 
-* У Японії доступний довідник із Ruby японською мовою, написаний Matz
-  та співавторами й виданий ASCII (ISBN 4-7561-3254-5). Англійський переклад
-  під назвою “The Ruby Programming Language” доступний у видавництві
-  O'Reilly & Associates (ISBN 978-0596516178).
+* A Japanese language Ruby reference book by Matz et al. and published by
+  ASCII is available in Japan (ISBN 4-7561-3254-5). An English translation,
+  “The Ruby Programming Language”, is available from O'Reilly & Associates
+  (ISBN 978-0596516178).
 
-* Видавництво O'Reilly Japan випускає “Ruby Pocket Reference” японською
-  мовою (ISBN 4-87311-023-8). Повідомте O'Reilly у США, якщо хотіли б
-  побачити переклад.
+* A Japanese language “Ruby Pocket Reference” is published by O'Reilly Japan
+  (ISBN 4-87311-023-8). Let O'Reilly in the US know if you'd like to see a
+  translation.
 
-* Крім того, “Mastering Regular Expressions” авторства Jeffrey Friedl
-  (відома як Hip Owl Book), ISBN 1-56592-257-3, від O'Reilly & Associates —
-  це довідник, що охоплює мистецтво використання та реалізацію регулярних
-  виразів у різних мовах програмування. Більша частина матеріалу стосується
-  й регулярних виразів Ruby.
+* In addition, “Mastering Regular Expressions”, by Jeffrey Friedl,
+  (the Hip Owl Book): ISBN 1-56592-257-3 from O'Reilly & Associates,
+  is a reference work that covers the art and implementation of regular
+  expressions in various programming languages. Most of it is highly
+  relevant to Ruby regular expressions.
 
 ### Які редактори підтримують Ruby?
 
