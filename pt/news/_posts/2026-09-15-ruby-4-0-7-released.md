@@ -1,6 +1,6 @@
 ---
 layout: news_post
-title: "Ruby 4.0.7 foi lançado"
+title: "Ruby 4.0.7 Lançado"
 author: k0kubun
 translator: Gabriel Lidenor
 date: 2026-09-15 00:25:58 +0000
@@ -44,6 +44,6 @@ Caso surja uma alteração que afete significativamente os usuários, um lançam
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Notas de lançamento
+## Comentário sobre o Lançamento
 
 Muitos committers, desenvolvedores e usuários que enviaram relatórios de bugs ajudaram a tornar este lançamento possível. Obrigado pelas contribuições de todos.

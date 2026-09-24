@@ -80,7 +80,7 @@ A deteção de *deadlocks* no Ruby 2.4 mostra *threads* com o seu *backtrace* e 
 Experimente e desfrute a programação com o Ruby 2.4.0-preview3 e
 [envie-nos o seu *feedback*](https://github.com/ruby/ruby/wiki/How-To-Report)!
 
-## Outras alterações importantes desde a versão 2.3
+## Comentário sobre o Lançamento
 
 * Suporta OpenSSL 1.1.0
 * ext/tk foi removido de stdlib [Feature #8539](https://bugs.ruby-lang.org/issues/8539)
@@ -124,7 +124,7 @@ desde o Ruby 2.3.0!
       SHA256: b95a8f67fb7d6e852db77c5660c8878c14d68eb72c5501dac164a7e640ecb06e
       SHA512: fa15e1b7ab0cab56c9a580e1b1e2fee250ee0b9c59546079675a1931a36e37131bd37d64033c75e05d8e9d9fcc33ce7850254d3acaca2136cf3bd08b070244f0
 
-## Comentários de Lançamento
+## Comentário sobre o Lançamento
 
 Consulte também o calendário de lançamentos e outras informações:
 

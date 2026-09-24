@@ -60,7 +60,7 @@ Arrumaremos este problema com a próxima versão, mas se você estiver enfrentan
       SHA256: 37d7cb27d8abd4b143556260506306659930548652343076f7f8470f07818824
       SHA512: 234765091528be1310ac315868f84ae6c505aa696672929df2f00828c1bbdc7cbcb2fc690eab4e73efde6be9104584ba7b6944853861f6d05e775b124ce8dfd5
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Muitos contribuidores, desenvolvedores e usuários que forneceram relatórios de _bug_ que nos ajudaram a fazer esta versão.
 Obrigado por suas contribuições.

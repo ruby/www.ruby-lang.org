@@ -43,7 +43,7 @@ e os [commit logs](https://github.com/ruby/ruby/compare/v2_5_3...v2_5_4).
       SHA256: 823a6a2c9c7baa18554fd78d430837a01ab33cc16ad1759c9842bdd9523e9cea
       SHA512: a83f90514b09c217fbbd154cfc09c804553353a97cbff7df24185b613e1c7be69a965fe9ec925ac3f4bd6170f2c3d0d60be7ea4ab1037ce64300d7443b6e08e8
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Vários committers, desenvolvedores e usuários que providenciaram relatórios de bug nos ajudaram a fazer esta versão.
 Obrigado por suas contribuições.

@@ -49,6 +49,6 @@ novas de Ruby, como a 2.6 ou 2.5.
       SHA256: 1016797925e55c78d9c15633da8ddbd19daed2993a99d35377d2a16c3175cfe5
       SHA512: 1bddd5616edb1a671224bc1c22cc3ac6f70e96e41cb2937efb437e8920fe09ce2ef0f29c591499d3682ac547e1d3eb7474f89ff86a3834d25724329e4927ed76
 
-## Comentário de versão
+## Comentário sobre o Lançamento
 
 Obrigado a todas as pessoas que ajudaram com esta versão, principalmente, as que reportaram a vulnerabilidade.

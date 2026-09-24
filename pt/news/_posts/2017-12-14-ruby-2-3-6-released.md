@@ -47,7 +47,7 @@ Veja o [ChangeLog](https://svn.ruby-lang.org/repos/ruby/tags/v2_3_6/ChangeLog) p
       SHA256: 6fee49a2099d49a1b98bf0637fe974fd87af3ae64978392c802ba4d10ac70fb5
       SHA512: c6dc2ee01a4ef84850b0ca4d1e60841f07fbff263ebbbc44c8bd0f72ced3172c2e0b9c883496bfc4f5a42f4827a061f8f479d05bda5f693a274c451914e0b03e
 
-## Comentários da versão
+## Comentário sobre o Lançamento
 
 Obrigado a todos que contribuiram com esse lançamento.
 
