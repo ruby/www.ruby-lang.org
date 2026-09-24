@@ -7,6 +7,7 @@ require "date"
 
 require_relative "linter/document"
 require_relative "linter/release"
+require_relative "linter/downloads"
 
 
 class Linter
@@ -31,6 +32,8 @@ class Linter
   ].freeze
 
   RELEASES_FILE = "_data/releases.yml"
+  DOWNLOADS_FILE = "_data/downloads.yml"
+  BRANCHES_FILE = "_data/branches.yml"
 
   attr_accessor :docs, :posts, :releases, :errors
 
@@ -53,6 +56,7 @@ class Linter
     load_releases
     check
     check_releases
+    check_downloads
     report
 
     exit(1)  if errors.any? && exit_on_errors
@@ -79,6 +83,12 @@ class Linter
                     end
 
     @releases = releases_yaml.map {|release_data| Release.new(release_data) }
+  end
+
+  def load_yaml(filename)
+    return  unless Pathname.new(filename).exist?
+
+    YAML.load_file(filename, fallback: nil, permitted_classes: [Date])
   end
 
   def check
@@ -130,6 +140,15 @@ class Linter
       errors[release] << missing_post_message(release.post_filename)  if release.post_missing?
       errors[release] << "release date is a string, not a Date object"  if release.date.is_a?(String)
     end
+  end
+
+  def check_downloads
+    downloads_data = load_yaml(DOWNLOADS_FILE)
+    return  unless downloads_data
+
+    downloads = Downloads.new(downloads_data, load_yaml(BRANCHES_FILE), releases.map(&:version))
+
+    downloads.errors.each {|message| errors[downloads] << message }
   end
 
   def report
