@@ -2,7 +2,7 @@
 layout: news_post
 title: "Вышел Ruby 2.1.4"
 author: "nagachika"
-translator: "gazay"
+translator: "ablzh"
 date: 2014-10-27 12:00:00 +0000
 lang: ru
 ---
@@ -12,9 +12,9 @@ lang: ru
 Этот релиз содержит исправления уязвимостей безопасности:
 
 * [CVE-2014-8080: DoS уязвимость в REXML](https://www.ruby-lang.org/ru/news/2014/10/27/rexml-dos-cve-2014-8080/)
-* [Изменились дефолтные настройки ext/openssl](https://www.ruby-lang.org/ru/news/2014/10/27/changing-default-settings-of-ext-openssl/)
+* [Изменены настройки ext/openssl по умолчанию в связи с CVE-2014-3566](https://www.ruby-lang.org/ru/news/2014/10/27/changing-default-settings-of-ext-openssl/)
 
-И несколько других фиксов.
+И несколько других исправлений ошибок.
 
 См. [тикеты](https://bugs.ruby-lang.org/projects/ruby-21/issues?set_filter=1&amp;status_id=5)
 и [лог изменений](https://svn.ruby-lang.org/repos/ruby/tags/v2_1_4/ChangeLog)
