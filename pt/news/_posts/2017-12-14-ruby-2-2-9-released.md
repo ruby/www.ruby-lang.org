@@ -48,6 +48,6 @@ Recomendamos fortemente que você planeje em migrar para uma nova versão do Rub
       SHA256: c3055ef4f985079d392dddebb1eab1e91851bfc19c0e8a11779872647d89b3b1
       SHA512: 41de195641bc8cca43a726c1d707720dc9d3b8a853002548a31d171508b78dc353328c9a526dfbbc76493307c0e9e5fce669cc9fc3efc9626f84f2af5aca1a55
 
-## Comentários da versão
+## Comentário sobre o Lançamento
 
 Obrigado a todos que contribuiram com esse lançamento.

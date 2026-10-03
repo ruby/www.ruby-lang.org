@@ -45,7 +45,7 @@ Esta versão inclui correções de bug adicionais. Veja os [commit logs](https:/
       SHA256: 47b629808e9fd44ce1f760cdf3ed14875fc9b19d4f334e82e2cf25cb2898f2f2
       SHA512: fb36289a955f0596c683cdadf1e4a9a9fd35222b1e1c6160c2e7cd82e5befd40a7aa4361e55f7a8f83c06ee899ec493821c7db34a60c4ac3bca0e874d33ef1a9
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Vários committers, desenvolvedores e usuários que providenciaram relatórios de bug nos ajudaram a fazer esta versão.
 Obrigado por suas contribuições.

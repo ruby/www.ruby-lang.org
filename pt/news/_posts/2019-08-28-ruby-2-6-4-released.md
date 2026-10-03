@@ -46,7 +46,7 @@ Veja os [commit logs](https://github.com/ruby/ruby/compare/v2_6_3...v2_6_4) para
       SHA256: 8446eaaa633a8d55146df0874154b8eb1e5ea5a000d803503d83fd67d9e9372c
       SHA512: 5696f2921b8488bde42536dd23d933c8a5ab9ce33632760d217d79567324c4a20f8007d4815f33e56c0a764d1ca372b40c41a5937f9938bb1d63ea078d10d657
 
-## Comentários de versão
+## Comentário sobre o Lançamento
 
 Vários committers, desenvolvedores e usuários que providenciaram relatórios de bug nos ajudaram a fazer esta versão.
 Obrigado por suas contribuições.

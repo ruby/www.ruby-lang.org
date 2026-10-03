@@ -48,7 +48,7 @@ para mais detalhes.
       SHA256: cbffda17fdb1bbd86dd36de093524b0a9b5c92e007fd60acac1c9804b429886e
       SHA512: 5f75b77962c9d01fe591d87e20900d71a54c737e0d1198fae437729f21a9af84278a91ee73e850b5f49361b3cbf48af7a0a3ed9920cce932b58fd8e2420d5b26
 
-## Comentários de Lançamento
+## Comentário sobre o Lançamento
 
 Muitos *committers*, programadores e utilizadores que forneceram relatórios de *bugs* ajudaram-nos nesta versão.
 Obrigado pelas contribuições.

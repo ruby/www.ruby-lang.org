@@ -49,7 +49,7 @@ Veja os [logs de commit](https://github.com/ruby/ruby/compare/v2_7_6...v2_7_7) p
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Comentário da Release
+## Comentário sobre o Lançamento
 
 Muitos committers, desenvolvedores e usuários que forneceram bug reports ajudaram-nos a fazer esta release.
 Obrigado por suas contribuições.
