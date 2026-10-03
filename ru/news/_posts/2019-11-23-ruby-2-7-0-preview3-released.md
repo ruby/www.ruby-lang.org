@@ -2,7 +2,7 @@
 layout: news_post
 title: "Вышел Ruby 2.7.0-preview3"
 author: "naruse"
-translator: "shprotru"
+translator: "ablzh"
 date: 2019-11-23 12:00:00 +0000
 lang: ru
 ---
@@ -315,7 +315,7 @@ end
 * Требование к компиляторам поддерживать C99
   [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
   * Подробнее о нашем диалекте:
-    <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+    <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 * ~~`Regexp#match{?}` с `nil` приводит к TypeError as String, Symbol.
   [[Feature #13083]](https://bugs.ruby-lang.org/issues/13083)~~ отменено

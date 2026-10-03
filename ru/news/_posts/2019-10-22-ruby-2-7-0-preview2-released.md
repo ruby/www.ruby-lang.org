@@ -2,12 +2,12 @@
 layout: news_post
 title: "Вышел Ruby 2.7.0-preview2"
 author: "naruse"
-translator: "shprotru"
+translator: "ablzh"
 date: 2019-10-22 12:00:00 +0000
 lang: ru
 ---
 
-Мы рады сообщить о выпуске Ruby 2.7.0-preview 2.
+Мы рады сообщить о выпуске Ruby 2.7.0-preview2.
 
 Предварительная версия выходит, чтобы собрать обратную связь для окончательного релиза, запланированного на декабрь. В нём вводится ряд новшеств и улучшений производительности, в первую очередь:
 
@@ -213,7 +213,7 @@ end
 * `Date.jisx0301`, `Date#jisx0301`, и `Date.parse` предварительно поддерживают новую Японскую эру.  [[Feature #15742]](https://bugs.ruby-lang.org/issues/15742)
 
 * Требование к компиляторам поддерживать C99 [[Misc #15347]](https://bugs.ruby-lang.org/issues/15347)
-  * Подробнее о нашем диалекте: <https://bugs.ruby-lang.org/projects/ruby-trunk/wiki/C99>
+  * Подробнее о нашем диалекте: <https://bugs.ruby-lang.org/projects/ruby-master/wiki/C99>
 
 Смотрите [НОВОСТИ](https://github.com/ruby/ruby/blob/v2_7_0_preview2/NEWS) или [историю коммитов](https://github.com/ruby/ruby/compare/v2_6_0...v2_7_0_preview2) для подробностей об изменениях.
 

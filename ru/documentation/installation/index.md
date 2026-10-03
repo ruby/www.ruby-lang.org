@@ -2,14 +2,21 @@
 layout: page
 title: "Установка Ruby"
 lang: ru
+translator: "ablzh"
 ---
 
-Вы можете использовать различные инструменты для установки Ruby.
-Эта страница описывает, как использовать основные системы управления пакетами
-и сторонние инструменты для управления и установки Ruby,
-и как собрать Ruby из исходников.
+Менеджеры пакетов и сторонние инструменты предлагают множество способов
+установки Ruby и управления его версиями.
 {: .summary}
 
+Возможно, Ruby уже установлен на вашем компьютере. Чтобы проверить это,
+введите в [эмуляторе терминала][terminal]:
+
+{% highlight sh %}
+ruby -v
+{% endhighlight %}
+
+Команда должна вывести информацию об установленной версии Ruby.
 
 ## Выберите ваш метод установки
 
@@ -24,17 +31,24 @@ lang: ru
   установленными на вашей системе.
 * Ну и наконец, вы можете также **собрать Ruby из исходников**.
 
-В следующем списке перечислены доступные способы установки для различных нужд
-и платформ.
+В Windows 10 также можно использовать [Windows Subsystem for Linux][wsl],
+чтобы установить один из поддерживаемых дистрибутивов Linux и воспользоваться
+любым из доступных в нём способов установки.
+
+Доступные способы установки:
 
 * [Системы управления пакетами](#package-management-systems)
   * [Debian, Ubuntu](#apt)
   * [CentOS, Fedora, RHEL](#yum)
+  * [Snap](#snap)
   * [Gentoo](#portage)
   * [Arch Linux](#pacman)
   * [macOS](#homebrew)
+  * [FreeBSD](#freebsd)
   * [OpenBSD](#openbsd)
-  * [Solaris, OpenIndiana](#solaris)
+  * [OpenIndiana](#openindiana)
+  * [Windows Package Manager](#winget)
+  * [Менеджер пакетов Chocolatey для Windows](#chocolatey)
   * [Другие дистрибутивы](#other-systems)
 * [Установщики](#installers)
   * [ruby-build](#ruby-build)
@@ -44,7 +58,9 @@ lang: ru
 * [Менеджеры](#managers)
   * [asdf-vm](#asdf-vm)
   * [chruby](#chruby)
+  * [mise-en-place](#mise-en-place)
   * [rbenv](#rbenv)
+  * [rbenv for Windows](#rbenv-for-windows)
   * [RVM](#rvm)
   * [uru](#uru)
 * [Сборка из исходников](#building-from-source)
@@ -57,15 +73,13 @@ lang: ru
 использовать сторонний инструмент для установки – вы можете
 воспользоваться пакетным менеджером вашей операционной системы.
 
-Некоторые участники сообщества Ruby убеждены, что никогда не стоит
-пользоваться пакетными менеджерами для установки Ruby. Вместо этого
-лучше воспользоваться другими инструментами.
-Оставим все плюсы и минусы данного подхода за
-границами данного текста, отметим лишь, что основной причиной данной
-убежденности является то, что в пакетных менеджерах зачастую содержится
-информация об устаревших версиях Ruby. Если вы хотите использовать
-новейшую версию Ruby, убедитесь, что вы используете верное имя пакета
-или воспользуйтесь инструментами описанными ниже вместо этого.
+Некоторые участники сообщества Ruby считают, что для установки Ruby стоит
+использовать специализированные инструменты вместо менеджеров пакетов.
+
+Основные менеджеры пакетов могут устанавливать старые версии Ruby вместо
+последнего релиза. Чтобы использовать последний релиз Ruby, убедитесь, что
+имя пакета соответствует номеру версии. Или воспользуйтесь
+специализированным [установщиком][installers].
 
 
 ### apt (Debian или Ubuntu)
@@ -77,10 +91,6 @@ Debian GNU/Linux и Ubuntu используют систему управлен�
 {% highlight sh %}
 $ sudo apt-get install ruby-full
 {% endhighlight %}
-
-Пакет `ruby-full` установит Ruby версии 2.3.1, которая является последним
-стабильным релизом.
-
 
 ### yum (CentOS, Fedora, или RHEL)
 {: #yum}
@@ -96,6 +106,26 @@ $ sudo yum install ruby
 на момент выхода конкретной версии дистрибутива.
 
 
+### snap (Ubuntu или другие дистрибутивы Linux)
+{: #snap}
+
+Snap — менеджер пакетов, разработанный Canonical.
+Он доступен в Ubuntu по умолчанию, но работает и во многих других
+дистрибутивах Linux. Использовать его можно так:
+
+{% highlight sh %}
+$ sudo snap install ruby --classic
+{% endhighlight %}
+
+Для каждой серии минорных версий Ruby есть несколько каналов.
+Например, следующие команды переключают на Ruby 2.3:
+
+{% highlight sh %}
+$ sudo snap switch ruby --channel=2.3/stable
+$ sudo snap refresh
+{% endhighlight %}
+
+
 ### portage (Gentoo)
 {: #portage}
 
@@ -105,7 +135,6 @@ Gentoo использует систему управления пакетами
 $ sudo emerge dev-lang/ruby
 {% endhighlight %}
 
-По умолчанию, будут установлены версии 1.9 и 2.0, но доступны и другие версии.
 Для установки конкретной версии, заполните `RUBY_TARGETS` в вашем `make.conf`.
 Подробнее смотрите на [сайте проекта Gentoo Ruby][gentoo-ruby].
 
@@ -120,14 +149,11 @@ Ruby, просто напишите следующее:
 $ sudo pacman -S ruby
 {% endhighlight %}
 
-Это должно установить последнюю стабильную версию Ruby.
-
-
 ### Homebrew (macOS)
 {: #homebrew}
 
-На OS X El Capitan, Yosemite и Mavericks, Ruby 2.0 уже включены.
-OS X Mountain Lion, Lion и Snow Leopard поставляются с версией Ruby 1.8.7.
+Версии Ruby 2.0 и выше включены по умолчанию в выпуски macOS
+как минимум начиная с El Capitan (10.11).
 
 Многие люди на macOS используют [Homebrew][homebrew] как пакетный менеджер.
 И это действительно просто – установить Ruby:
@@ -137,6 +163,24 @@ $ brew install ruby
 {% endhighlight %}
 
 Это установит последнюю версию Ruby.
+
+
+### FreeBSD
+{: #freebsd}
+
+FreeBSD позволяет установить Ruby из готовых пакетов или из исходников.
+Готовые пакеты можно установить с помощью pkg:
+
+{% highlight sh %}
+$ pkg install ruby
+{% endhighlight %}
+
+Для установки из исходников можно использовать
+[коллекцию портов][freebsd-ports-collection]. Это полезно, если вы хотите
+настроить параметры сборки.
+
+Подробнее о Ruby и его экосистеме во FreeBSD можно узнать
+на [сайте проекта FreeBSD Ruby][freebsd-ruby].
 
 
 ### OpenBSD
@@ -159,32 +203,56 @@ $ doas pkg_add ruby
 [директорию lang/ruby в самой последней коллекции портов][openbsd-current-ruby-ports].
 
 
-### Ruby на Solaris и OpenIndiana
-{: #solaris}
-
-Ruby 1.8.7 доступен для Solaris 8-10 на [Sunfreeware][sunfreeware] и
-Blastwave. Ruby 1.9.2p0 также доступен на [Sunfreeware][sunfreeware],
-но это все уже устарело.
+### Ruby на OpenIndiana
+{: #openindiana}
 
 Чтобы установить Ruby на [OpenIndiana][openindiana], пожалуйста, используйте
-клиент [Image Packaging System, или IPS][opensolaris-pkg]. Это установит
-последние бинарники Ruby и RubyGems прямо из сетевого репозитория
-OpenSolaris для Ruby 1.9. Это просто:
+клиент Image Packaging System (IPS). Он установит бинарные файлы Ruby
+и RubyGems прямо из репозиториев OpenIndiana. Это просто:
 
 {% highlight sh %}
-$ pkg install runtime/ruby-18
+$ pkg install runtime/ruby
 {% endhighlight %}
 
 Однако, сторонние инструменты могут быть хорошим способом получить
 последнюю версию Ruby.
 
 
+### Windows Package Manager
+{: #winget}
+
+В Windows можно установить Ruby с помощью
+[Windows Package Manager CLI](https://github.com/microsoft/winget-cli):
+
+{% highlight powershell %}
+> winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+# Example
+> winget install RubyInstallerTeam.Ruby.3.2
+# To see all versions available
+> winget search RubyInstallerTeam.Ruby
+# Note: if you are installing ruby for projects, you may want to install RubyWithDevKit
+> winget install RubyInstallerTeam.RubyWithDevKit.3.2
+{% endhighlight %}
+
+### Менеджер пакетов Chocolatey для Windows
+{: #chocolatey}
+
+В Windows также можно установить Ruby с помощью
+[менеджера пакетов Chocolatey](https://chocolatey.org/install):
+
+{% highlight sh %}
+> choco install ruby
+{% endhighlight %}
+
+Он использует уже установленный `msys2` или установит собственный,
+чтобы предоставить полноценное окружение для разработки на Ruby.
+
 ### Другие дистрибутивы
 {: #other-systems}
 
 На других системах, вы можете поискать репозиторий пакета Ruby
 для пакетного менеджера вашего Linux дистрибутива, или же
-сторонние инструменты могут стать хорошим выбором для вас.
+[сторонний установщик][installers] может стать хорошим выбором для вас.
 
 
 ## Установщики
@@ -202,7 +270,7 @@ $ pkg install runtime/ruby-18
 {: #ruby-build}
 
 [ruby-build][ruby-build] - это плагин для [rbenv](#rbenv), который позволяет
-вам скомпилировать и установить разные версии Ruby в произвольные каталоги.
+вам скомпилировать и установить разные версии Ruby.
 ruby-build может использоваться как отдельная программа без rbenv.
 Он доступен для macOS, Linux и других UNIX-подобных операционных систем.
 
@@ -241,6 +309,8 @@ ruby-build может использоваться как отдельная п�
 {: #managers}
 
 Многие рубисты используют менеджеры для управления несколькими версиями Ruby.
+Они позволяют легко или даже автоматически переключать версии Ruby
+в зависимости от проекта.
 Они предоставляют различные преимущества, но поддерживаются не официально.
 Однако их сообщество может оказать помощь.
 
@@ -262,6 +332,16 @@ chruby может управлять версиями Ruby, которые ус�
 [ruby-install](#ruby-install) или даже собранными из исходников.
 
 
+### mise-en-place
+{: #mise-en-place}
+
+[mise-en-place][mise-en-place] позволяет переключаться между версиями Ruby
+без дополнительных инструментов. Он автоматически управляет установками
+и включает [бэкенд для гемов (gem backend)](https://mise.jdx.dev/dev-tools/backends/gem.html)
+для управления версиями инструментов командной строки, написанных на Ruby.
+Поддерживает UNIX-подобные операционные системы и Windows.
+
+
 ### rbenv
 {: #rbenv}
 
@@ -271,12 +351,31 @@ chruby может управлять версиями Ruby, которые ус�
 UNIX-подобных операционных систем.
 
 
+### rbenv for Windows
+{: #rbenv-for-windows}
+
+[rbenv for Windows][rbenv-for-windows] позволяет устанавливать несколько
+версий Ruby в Windows и управлять ими. Он написан на PowerShell
+и предоставляет пользователям Windows нативный способ работы с Ruby.
+Его интерфейс командной строки совместим с [rbenv][rbenv]
+в UNIX-подобных системах.
+
+
 ### RVM ("Ruby Version Manager")
 {: #rvm}
 
 [RVM][rvm] позволяет вам устанавливать и управлять несколькими установленными
 версиями Ruby в вашей системе. Также он может управлять разными наборами гемов.
 Доступен для macOS, Linux и других UNIX-подобных операционных систем.
+
+
+### RVM 4 Windows
+{: #rvm-windows}
+
+[RVM 4 Windows][rvm-windows] позволяет устанавливать несколько версий Ruby
+в Windows и управлять ими. Это клон оригинального RVM, поддерживающий
+классическую командную строку и PowerShell с тем же интерфейсом командной
+строки, что и оригинальный RVM.
 
 
 ### uru
@@ -301,23 +400,34 @@ $ sudo make install
 По умолчанию, это установит Ruby в `/usr/local`.
 Для изменения, передайте опцию `--prefix=DIR` в скрипт `./configure`.
 
+Подробнее о сборке из исходников можно узнать в
+[инструкциях по сборке Ruby][building-ruby].
+
 Использование сторонних инструментов или пакетных менеджеров может быть лучше,
 хотя бы потому, что установленные Ruby не будут управляться любыми инструментами.
 
 
 [rvm]: http://rvm.io/
+[rvm-windows]: https://github.com/magynhard/rvm-windows#readme
 [rbenv]: https://github.com/rbenv/rbenv#readme
+[rbenv-for-windows]: https://github.com/RubyMetric/rbenv-for-windows#readme
 [ruby-build]: https://github.com/rbenv/ruby-build#readme
 [ruby-install]: https://github.com/postmodern/ruby-install#readme
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
 [rubystack]: http://bitnami.com/stack/ruby/installer
-[sunfreeware]: http://www.sunfreeware.com
 [openindiana]: http://openindiana.org/
-[opensolaris-pkg]: http://opensolaris.org/os/project/pkg/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
+[freebsd-ruby]: https://wiki.freebsd.org/Ruby
+[freebsd-ports-collection]: https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html
 [homebrew]: http://brew.sh/
+[terminal]: https://en.wikipedia.org/wiki/List_of_terminal_emulators
+[installers]: /ru/documentation/installation/#installers
+[building-ruby]: https://docs.ruby-lang.org/en/master/contributing/building_ruby_md.html
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/about
 [asdf-vm]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
+[mise-en-place]: https://mise.jdx.dev
+[mise-en-place-ruby]: https://mise.jdx.dev/lang/ruby.html
 [openbsd-current-ruby-ports]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/lang/ruby/?only_with_tag=HEAD
