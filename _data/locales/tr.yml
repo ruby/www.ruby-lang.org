@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Ruby Core Geliştirme
     url: /tr/community/ruby-core/
-  - text: Depo Rehberi
-    url: /tr/documentation/repository-guide/
   - text: Mail Listeleri
     url: /tr/community/mailing-lists/
   - text: E-posta Listesi Yönergeleri
