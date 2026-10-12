@@ -9,7 +9,7 @@ lang: en
 
 {% assign release = site.data.releases | where: "version", "4.1.0-preview1" | first %}
 We are pleased to announce the release of Ruby {{ release.version }}.
-Ruby 4.0 introduces Ractor local GC, Windows support of YJIT, autoload_relative,
+Ruby 4.1 introduces Ractor local GC, Windows support of YJIT, autoload_relative,
 and adds many improvements.
 
 ## Ractor improvements
@@ -401,7 +401,7 @@ They are still available on rubygems.org and can be installed with
 
 ### RubyGems and Bundler
 
-Ruby 4.0 bundled RubyGems and Bundler version 4. see the following links for details.
+Ruby 4.1 bundled RubyGems and Bundler version 4. see the following links for details.
 
 ## Supported platforms
 
