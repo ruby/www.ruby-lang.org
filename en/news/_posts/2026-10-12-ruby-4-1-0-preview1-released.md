@@ -279,7 +279,7 @@ Note: We're only listing outstanding class updates.
 We only list stdlib changes that are notable feature changes.
 
 Other changes are listed in the following sections. We also listed release
-history from the previous bundled version that is Ruby 3.4.0 if it has GitHub
+history from the previous bundled version that is Ruby 4.0.0 if it has GitHub
 releases.
 
 ### The following bundled gems are promoted from default gems.
