@@ -51,6 +51,6 @@ versões de Ruby, como a 2.6 ou 2.5.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Obrigado a todas as pessoas que ajudaram com esta versão.

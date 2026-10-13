@@ -52,6 +52,6 @@ Recomendamos que você comece planejando a migração para versões mais novas d
       SHA256: 58bf98b62d21d6cc622e6ef5c7d024db0458c6860199ab4c1bf68cdc4b36fa9d
       SHA512: 08cadfa72713f9e3348093c96af4c53f06f681bc29ada2d80f1c55faca6a59a3b2913aa2443bf645fea6f3840b32ce8ce894b358f972b1a295ee0860b656eb02
 
-## Comentário de Versão
+## Comentário sobre o Lançamento
 
 Obrigado a todos que ajudaram com esta versão, especialmente, com informe de vulnerabilidades.

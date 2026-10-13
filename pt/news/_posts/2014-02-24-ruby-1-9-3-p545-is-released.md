@@ -43,7 +43,7 @@ para detalhes.
       MD5:    d056aefa64237737fedb127257b502d2
       SHA256: 2d0d17840da0dfbea8ace8a77050a7710d2ef3c9e05dd88f2731464532aea31e
 
-## Comentários do Lançamento
+## Comentário sobre o Lançamento
 
 Eu sou agradecido a todos que suportam o Ruby.
 Obrigado.

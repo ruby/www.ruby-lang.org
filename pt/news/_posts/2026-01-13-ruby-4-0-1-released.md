@@ -45,7 +45,7 @@ e o cronograma subsequente poderá ser ajustado de acordo.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Comentário do Lançamento
+## Comentário sobre o Lançamento
 
 Muitos committers, desenvolvedores e usuários que forneceram relatórios de bugs nos ajudaram a fazer este lançamento.
 Obrigado pelas contribuições.
