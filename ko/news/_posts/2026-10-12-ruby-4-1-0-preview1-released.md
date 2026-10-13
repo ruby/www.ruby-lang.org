@@ -1,58 +1,58 @@
 ---
 layout: news_post
-title: "Ruby 4.1.0-preview1 Released"
+title: "Ruby 4.1.0-preview1 릴리스"
 author: "naruse"
-translator:
+translator: "shia"
 date: 2026-10-12 00:00:00 +0000
-lang: en
+lang: ko
 ---
 
 {% assign release = site.data.releases | where: "version", "4.1.0-preview1" | first %}
-We are pleased to announce the release of Ruby {{ release.version }}.
-Ruby 4.1 introduces Ractor local GC, Windows support of YJIT, autoload_relative,
-and adds many improvements.
+Ruby {{ release.version }} 릴리스를 알리게 되어 기쁩니다.
+Ruby 4.1은 Ractor 로컬 GC, YJIT의 Windows 지원, autoload_relative를 도입하고,
+많은 개선을 추가합니다.
 
-## Ractor improvements
+## Ractor 개선
 
-A lot of work has gone into making Ractors more stable, performant, and usable. These improvements bring Ractor implementation closer to leaving experimental status.
+Ractor를 더 안정적이고, 빠르고, 사용하기 쉽게 만들기 위해 많은 작업이 이루어졌습니다. 이러한 개선으로 Ractor 구현이 실험적 단계를 벗어나는 데 한 걸음 더 가까워졌습니다.
 
-* The default GC now runs **per Ractor**: each Ractor collects its own heap
-  on its own thread without stopping the others, and a stop-the-world
-  collection only runs when it is really needed (explicit full `GC.start`,
-  shareable-object growth, reclaiming dead Ractors' heaps).  Allocation-heavy
-  Ractor programs now scale like forked processes.
+* 기본 GC가 이제 **Ractor별로** 동작합니다. 각 Ractor는 다른 Ractor를 멈추지 않고
+  자신의 스레드에서 자신의 힙을 회수하며, stop-the-world
+  수집은 정말 필요할 때만 실행됩니다(명시적인 전체 `GC.start`,
+  공유 가능 객체의 증가, 종료된 Ractor의 힙 회수). 할당이 많은
+  Ractor 프로그램도 이제 fork한 프로세스처럼 확장됩니다.
 
-* `GC.start(global: false)` can be used when multiple Ractors are running to force
-   a Ractor-local GC. By default, `GC.start` runs a global GC (all Ractors) like
-   before. This can also be triggered with `GC.start(global: true)`. The `global`
-   keyword argument has no effect when a single Ractor is running.
+* 여러 Ractor가 실행 중일 때 `GC.start(global: false)`를 사용하면 Ractor 로컬 GC를
+   강제로 실행할 수 있습니다. 기본적으로 `GC.start`는 이전처럼 전역 GC(모든 Ractor)를
+   실행합니다. 이는 `GC.start(global: true)`로도 실행할 수 있습니다. `global`
+   키워드 인수는 Ractor가 하나만 실행 중일 때는 아무런 효과가 없습니다.
 
-  Visible behavior changes:
+  눈에 보이는 동작 변경:
 
-  * `Ractor#value` returns the value only once; a second call raises
-    `Ractor::Error`.
-  * `GC.disable`/`GC.enable` act as per-Ractor holds on a process-wide
-    switch: one Ractor's `GC.enable` no longer overrides another Ractor's
-    `GC.disable`.
-  * `ObjectSpace.each_object` enumerates the calling Ractor's own objects
-    plus other Ractors' shareable objects (`ObjectSpace.dump_all` still
-    covers everything).
-  * `ObjectSpace.define_finalizer` on another Ractor's object raises
-    `Ractor::IsolationError`.
+  * `Ractor#value`는 값을 한 번만 반환합니다. 두 번째 호출은
+    `Ractor::Error`를 발생시킵니다.
+  * `GC.disable`/`GC.enable`은 프로세스 전체 스위치에 대한 Ractor별
+    보류로 동작합니다. 한 Ractor의 `GC.enable`이 더 이상 다른 Ractor의
+    `GC.disable`을 덮어쓰지 않습니다.
+  * `ObjectSpace.each_object`는 호출한 Ractor 자신의 객체와
+    다른 Ractor의 공유 가능 객체를 열거합니다(`ObjectSpace.dump_all`은 여전히
+    모든 것을 다룹니다).
+  * 다른 Ractor의 객체에 대해 `ObjectSpace.define_finalizer`를 호출하면
+    `Ractor::IsolationError`가 발생합니다.
 
-* `Ractor#monitor` now sends an Array naming the Ractor and what happened to
-  it, `[ractor, :exited]` or `[ractor, :aborted]`, where it used to send the
-  bare Symbol `:exited` or `:aborted`.  Several Ractors can then report to one
-  port and the receiver still knows which one finished.  The Array is built for
-  the receiving Ractor, so watching many Ractors leaves no shareable objects
-  behind.
+* `Ractor#monitor`는 이제 Ractor와 그 Ractor에 일어난 일을 담은 배열
+  `[ractor, :exited]` 또는 `[ractor, :aborted]`를 보냅니다. 이전에는
+  Symbol `:exited` 또는 `:aborted`만 보냈습니다. 이제 여러 Ractor가 하나의
+  포트에 보고해도 수신 측에서 어떤 Ractor가 끝났는지 알 수 있습니다. 배열은
+  수신하는 Ractor에서 만들어지므로, 많은 Ractor를 감시해도 공유 가능 객체가
+  남지 않습니다.
 
       r = Ractor.new { :ok }
       r.monitor(port = Ractor::Port.new)
       port.receive #=> [r, :exited]
 
-  One port can therefore watch a whole group, which is all a supervisor
-  needs:
+  따라서 하나의 포트로 그룹 전체를 감시할 수 있으며, 슈퍼바이저에게
+  필요한 것은 이것뿐입니다.
 
       workers.each { |r| r.monitor port }
 
@@ -62,243 +62,243 @@ A lot of work has gone into making Ractors more stable, performant, and usable. 
         workers << restart(r) if status == :aborted
       end
 
-## Language changes
+## 언어 변경
 
-* `super` in a module method that was called via `super` from a refinement
-  method now works correctly.
+* refinement 메서드에서 `super`로 호출된 모듈 메서드 안의 `super`가
+  이제 올바르게 동작합니다.
   [[Feature #22309]]
 
-* `Module#clone` and `Module#dup` no longer rewrite the lexical scope of
-  copied methods. Constants and class variables resolve through the
-  original class, consistent with inheritance and mixins.
+* `Module#clone`과 `Module#dup`은 더 이상 복사된 메서드의 렉시컬 스코프를
+  다시 쓰지 않습니다. 상수와 클래스 변수는 원래 클래스를 통해 해석되며,
+  이는 상속이나 믹스인과 일관됩니다.
   [[Feature #21981]]
 
-* `alias` and `Module#alias_method` in a module emit a deprecation warning
-  when the original method is not a method of the module or its ancestors
-  and is only found through the fallback to `Object`. The fallback will be
-  removed in Ruby 4.3, and such an alias will raise a `NameError`.
+* 모듈 안의 `alias`와 `Module#alias_method`는 원래 메서드가 그 모듈이나 조상의
+  메서드가 아니고 `Object`로의 폴백을 통해서만 발견되는 경우
+  폐기 예정 경고를 출력합니다. 이 폴백은 Ruby 4.3에서
+  제거될 예정이며, 그런 별칭은 `NameError`를 발생시키게 됩니다.
   [[Bug #22276]]
 
-* `alias` and `Module#alias_method` emit a deprecation warning when the
-  original method is defined in a prepended module. This behavior will
-  be removed in Ruby 4.3, and alias lookup will start at the origin
-  class (after prepended modules).
+* `alias`와 `Module#alias_method`는 원래 메서드가 prepend된 모듈에 정의되어 있을 때
+  폐기 예정 경고를 출력합니다. 이 동작은 Ruby 4.3에서
+  제거될 예정이며, 별칭 탐색은 원본 클래스(prepend된 모듈 다음)에서
+  시작하게 됩니다.
   [[Bug #22273]]
 
-## Core classes updates
+## 코어 클래스 변경
 
-Note: We're only listing outstanding class updates.
+주의: 주목할 만한 클래스 변경만을 포함합니다.
 
 * C API
 
-    * `RB_NOGVL_PENDING_INTR_FAIL` is added as a flag for `rb_nogvl`.
-      `rb_nogvl` does not enter the blocking region (and does not call the
-      given function), returning `0`, if the current thread has pending
-      interrupts, including interrupts masked by `Thread.handle_interrupt`.
-      As with the existing skip path, `errno` is `0` because the function was
-      never called.
-    * `RHASH_TBL` is deprecated.  [[Feature #22232]]
+    * `rb_nogvl`의 플래그로 `RB_NOGVL_PENDING_INTR_FAIL`이 추가되었습니다.
+      현재 스레드에 대기 중인 인터럽트(`Thread.handle_interrupt`로 마스크된
+      인터럽트 포함)가 있으면, `rb_nogvl`은 블로킹 영역에 들어가지 않고
+      (주어진 함수도 호출하지 않고) `0`을 반환합니다.
+      기존의 건너뛰기 경로와 마찬가지로, 함수가 호출되지 않았으므로
+      `errno`는 `0`입니다.
+    * `RHASH_TBL`이 폐기 예정되었습니다.  [[Feature #22232]]
 
 * Array
 
-    * `Array#pack` accepts new formats `R` and `r` for unsigned and signed
-      LEB128 encoded integers. [[Feature #21785]]
-    * `Array#pack` accepts new formats `x!` and `@!` to align the current
-      offset to a byte boundary or to the ABI alignment of another
-      directive. [[Feature #22185]]
+    * `Array#pack`이 부호 없는/부호 있는 LEB128 인코딩 정수를 위한
+      새 포맷 `R`과 `r`을 받습니다. [[Feature #21785]]
+    * `Array#pack`이 현재 오프셋을 바이트 경계나 다른 지시자의 ABI 정렬에
+      맞추는 새 포맷 `x!`와 `@!`를
+      받습니다. [[Feature #22185]]
 
 * Dir
 
-    * `Dir.glob` supports `***/` for recursive matching that follows
-      directory symbolic links, stopping at links to ancestor directories.
+    * `Dir.glob`이 디렉터리 심볼릭 링크를 따라가는 재귀 매칭을 위한 `***/`를
+      지원합니다. 조상 디렉터리로의 링크에서는 멈춥니다.
       [[Feature #17548]]
 
 * ENV
 
-    * `ENV.fetch_values` is added. It returns an array of values for the
-      given names, raising `KeyError` for missing names unless a block is
-      given. [[Feature #21781]]
+    * `ENV.fetch_values`가 추가되었습니다. 주어진 이름들에 대한 값의 배열을
+      반환하며, 블록이 주어지지 않으면 없는 이름에 대해 `KeyError`를
+      발생시킵니다. [[Feature #21781]]
 
 * Fiber::Scheduler
 
-    * The `fiber_interrupt` hook is now required. Schedulers which do not
-      implement it can no longer be installed with `Fiber.set_scheduler`.
+    * 이제 `fiber_interrupt` 훅이 필수입니다. 이를 구현하지 않은 스케줄러는
+      더 이상 `Fiber.set_scheduler`로 설치할 수 없습니다.
 
 * GC
 
-    * `GC.stat` accepts `scope: :ractor` (the default), `scope: :local`
-      (a synonym for `:ractor`), and `scope: :global`.
-      With the default collector, the global scope reports cumulative collection
-      counts and measured marking/sweeping CPU time across Ractors, including
-      history from destroyed object spaces, without requesting a stop-the-world
-      snapshot. Unscoped `GC.stat`, `GC.count`, and `GC.total_time` retain their
-      current-Ractor behavior.
-    * `GC.stat` reports a new key, `:global_gc_count`: the number of
-      stop-the-world global garbage collection cycles the current Ractor
-      initiated. Each global collection is attributed to exactly one Ractor,
-      so the values sum across Ractors. `GC.stat(:global_gc_count,
-      scope: :global)` reports the process total, including the counts of
-      terminated Ractors.
-    * A global garbage collection is not counted in `:major_gc_count`.
-      `:count` equals `:minor_gc_count` plus `:major_gc_count` plus
-      `:global_gc_count` in both scopes. When another Ractor's object space
-      exists, including one left by a terminated Ractor that is not yet
-      absorbed, or one was absorbed since the last global collection,
-      `GC.start` runs a global collection by default, so it increments
-      `:global_gc_count` rather than `:major_gc_count`; pass `global: false`
-      for a local major collection.
-    * Global compaction no longer counts overlapping CPU intervals in scalar GC
-      timing statistics. Profiler wall-time intervals are unchanged.
+    * `GC.stat`이 `scope: :ractor`(기본값), `scope: :local`
+      (`:ractor`의 동의어), `scope: :global`을 받습니다.
+      기본 GC에서 전역 스코프는 stop-the-world 스냅숏을 요청하지 않고,
+      파괴된 객체 공간의 이력을 포함하여 Ractor 전체에 걸친 누적 수집 횟수와
+      측정된 마킹/스위핑 CPU 시간을 보고합니다.
+      스코프를 지정하지 않은 `GC.stat`, `GC.count`, `GC.total_time`은
+      현재 Ractor 기준 동작을 유지합니다.
+    * `GC.stat`이 새 키 `:global_gc_count`를 보고합니다. 현재 Ractor가
+      시작한 stop-the-world 전역 가비지 컬렉션 사이클의 횟수입니다.
+      각 전역 수집은 정확히 하나의 Ractor에 귀속되므로,
+      값을 Ractor 전체에 대해 합산할 수 있습니다. `GC.stat(:global_gc_count,
+      scope: :global)`은 종료된 Ractor의 횟수를 포함한
+      프로세스 전체 합계를 보고합니다.
+    * 전역 가비지 컬렉션은 `:major_gc_count`에 포함되지 않습니다.
+      두 스코프 모두에서 `:count`는 `:minor_gc_count`, `:major_gc_count`,
+      `:global_gc_count`의 합과 같습니다. 다른 Ractor의 객체 공간이
+      존재하거나(종료되었지만 아직 흡수되지 않은 Ractor가 남긴 것 포함),
+      마지막 전역 수집 이후 흡수된 것이 있으면,
+      `GC.start`는 기본적으로 전역 수집을 실행하므로
+      `:major_gc_count`가 아니라 `:global_gc_count`가 증가합니다. 로컬 major 수집을
+      하려면 `global: false`를 넘기세요.
+    * 전역 컴팩션은 더 이상 스칼라 GC 시간 통계에서 겹치는 CPU 구간을
+      중복 계산하지 않습니다. 프로파일러의 벽시계 시간 구간은 변경되지 않습니다.
 
 * Hash
 
-    * `Hash.ruby2_keywords_hash?` and `Hash.ruby2_keywords_hash` are
-      deprecated and will be removed in Ruby 4.5. [[Feature #22205]]
+    * `Hash.ruby2_keywords_hash?`와 `Hash.ruby2_keywords_hash`는
+      폐기 예정이며 Ruby 4.5에서 제거될 예정입니다. [[Feature #22205]]
 
 * Integer
 
-    * `Integer#bit_count` is added. It returns the number of `1` bits in the
-      binary representation of a non-negative integer (its population count).
+    * `Integer#bit_count`가 추가되었습니다. 음이 아닌 정수의 이진 표현에서
+      `1`인 비트의 개수(population count)를 반환합니다.
       [[Feature #20163]]
 
 * IO::Buffer
 
-    * `read`, `write`, `pread`, and `pwrite` now perform one IO operation using
-      `(offset, length)`, where `length` is the maximum transfer size. Short
-      transfers are returned directly.
+    * `read`, `write`, `pread`, `pwrite`는 이제 `(offset, length)`를 사용해
+      한 번의 IO 작업을 수행합니다. `length`는 최대 전송 크기입니다. 짧은
+      전송은 그대로 반환됩니다.
 
-    * The corresponding fiber scheduler hooks are no longer experimental and
-      now use the same `(offset, length)` argument order and single-operation
-      semantics.
+    * 대응하는 파이버 스케줄러 훅은 더 이상 실험적이지 않으며,
+      이제 같은 `(offset, length)` 인수 순서와 단일 작업
+      시맨틱을 사용합니다.
 
 * Kernel
 
-    * `Kernel#autoload_relative` and `Module#autoload_relative` are added.
-      These methods work like `autoload`, but resolve the file path relative
-      to the file where the method is called, similar to `require_relative`.
-      This makes it easier to autoload constants from files in the same
-      directory without hardcoding absolute paths or manipulating `$LOAD_PATH`.
+    * `Kernel#autoload_relative`와 `Module#autoload_relative`가 추가되었습니다.
+      이 메서드들은 `autoload`처럼 동작하지만, `require_relative`와 비슷하게
+      메서드를 호출한 파일을 기준으로 파일 경로를 해석합니다.
+      이로써 절대 경로를 하드코딩하거나 `$LOAD_PATH`를 조작하지 않고도
+      같은 디렉터리의 파일에서 상수를 쉽게 autoload할 수 있습니다.
       [[Feature #15330]]
 
 * MatchData
 
-    * `MatchData#integer_at` is added.  It converts the matched substring to
-      integer and return the result.  [[Feature #21932]]
+    * `MatchData#integer_at`이 추가되었습니다. 매치된 부분 문자열을 정수로
+      변환하여 그 결과를 반환합니다.  [[Feature #21932]]
 
 * Module
 
-    * `Module#descendants` is added.  It returns an array of classes and
-      modules that have the receiver in their ancestors.  [[Feature #9779]]
-    * `Module#ruby2_keywords` and top-level `ruby2_keywords` are
-      deprecated and will be removed in Ruby 4.4.  [[Feature #22205]]
-    * `Module#method_defined?` now accepts a third optional argument to also
-      match private methods.  [[Feature #22297]]
+    * `Module#descendants`가 추가되었습니다. 리시버를 조상으로 가지는
+      클래스와 모듈의 배열을 반환합니다.  [[Feature #9779]]
+    * `Module#ruby2_keywords`와 최상위 `ruby2_keywords`는
+      폐기 예정이며 Ruby 4.4에서 제거될 예정입니다.  [[Feature #22205]]
+    * `Module#method_defined?`가 private 메서드도 매치하기 위한
+      세 번째 선택 인수를 받습니다.  [[Feature #22297]]
 
 * ObjectSpace
 
-    * `ObjectSpace._id2ref` was removed.  [[Feature #22135]]
+    * `ObjectSpace._id2ref`가 제거되었습니다.  [[Feature #22135]]
 
 * Proc
 
-    * `Proc#refined` is added. It returns a new `Proc` that behaves like the
-      receiver but with the refinements activated by the given modules
-      in effect inside its body, without affecting the original `Proc`.
+    * `Proc#refined`가 추가되었습니다. 리시버처럼 동작하되, 주어진 모듈로
+      활성화된 refinement가 본문 안에서 유효한 새 `Proc`을 반환합니다.
+      원래 `Proc`에는 영향을 주지 않습니다.
       [[Feature #22097]]
-    * `Proc#ruby2_keywords` is deprecated and will be removed in Ruby 4.4.
+    * `Proc#ruby2_keywords`는 폐기 예정이며 Ruby 4.4에서 제거될 예정입니다.
       [[Feature #22205]]
 
 * Range
 
-    * `Range#clamp` is added. It returns a new `Range` instance whose
-      begin and end values are clamped to the given bounds. [[Feature #22175]]
+    * `Range#clamp`가 추가되었습니다. 시작 값과 끝 값을 주어진 범위로
+      제한한 새 `Range` 인스턴스를 반환합니다. [[Feature #22175]]
 
 * Regexp
 
-    * All instances of `Regexp` are now frozen, not just literals.
-      Subclasses of `Regexp` are not frozen for compatibility.
+    * 리터럴뿐만 아니라 모든 `Regexp` 인스턴스가 이제 얼려집니다.
+      호환성을 위해 `Regexp`의 서브클래스는 얼려지지 않습니다.
       [[Feature #8948]]
 
 * Set
 
-    * A deprecated behavior, `Set#to_set`, `Range#to_set`, and
-      `Enumerable#to_set` accepting arguments, was removed.  [[Feature #21390]]
+    * 폐기 예정이었던 동작인, `Set#to_set`, `Range#to_set`,
+      `Enumerable#to_set`이 인수를 받는 동작이 제거되었습니다.  [[Feature #21390]]
 
 * String
 
-    * `String#unpack` and `String#unpack1` accept new formats `R` and `r`
-      for unsigned and signed LEB128 encoded integers. [[Feature #21785]]
-    * `String#unpack` and `String#unpack1` accept a new format `^` that
-      returns the current offset.  Useful when combined with variable
-      width formats like LEB128. [[Feature #21796]]
-    * `String#unpack` and `String#unpack1` accept new formats `x!` and
-      `@!` to align the current offset to a byte boundary or to the ABI
-      alignment of another directive. [[Feature #22185]]
-    * Basic bit operations are added. `String#bit_get`, `String#bit_set?`,
-      `String#bit_set`, `String#bit_clear`, `String#bit_flip` and
-      `String#bit_count` handle individual bits, and `String#bitwise_not`,
+    * `String#unpack`과 `String#unpack1`이 부호 없는/부호 있는 LEB128 인코딩 정수를 위한
+      새 포맷 `R`과 `r`을 받습니다. [[Feature #21785]]
+    * `String#unpack`과 `String#unpack1`이 현재 오프셋을 반환하는
+      새 포맷 `^`를 받습니다. LEB128 같은 가변 길이 포맷과 함께
+      사용할 때 유용합니다. [[Feature #21796]]
+    * `String#unpack`과 `String#unpack1`이 현재 오프셋을 바이트 경계나
+      다른 지시자의 ABI 정렬에 맞추는 새 포맷 `x!`와
+      `@!`를 받습니다. [[Feature #22185]]
+    * 기본 비트 연산이 추가되었습니다. `String#bit_get`, `String#bit_set?`,
+      `String#bit_set`, `String#bit_clear`, `String#bit_flip`,
+      `String#bit_count`는 개별 비트를 다루고, `String#bitwise_not`,
       `String#bitwise_and`, `String#bitwise_or`, `String#bitwise_xor`
-      (with their `!` variants) handle whole strings. [[Feature #22118]]
-    * `String#tr` now accept a Hash for multi-character replacement.
+      (및 각각의 `!` 버전)는 문자열 전체를 다룹니다. [[Feature #22118]]
+    * `String#tr`이 여러 문자 치환을 위해 Hash를 받습니다.
       [[Feature #22238]]
 
 * Symbol
 
-    * `Symbol#to_s` now returns a frozen string. [[Feature #22137]]
+    * `Symbol#to_s`가 이제 얼린 문자열을 반환합니다. [[Feature #22137]]
 
 * Thread
 
-    * Assigning `nil` with `Thread#thread_variable_set` now deletes the
-      thread-local variable. [[Feature #19333]]
+    * `Thread#thread_variable_set`으로 `nil`을 대입하면 이제
+      스레드 로컬 변수가 삭제됩니다. [[Feature #19333]]
 
 * Thread::Backtrace::Location
 
-    * `Thread::Backtrace::Location#source_range` is added. It returns a
-      `Ruby::SourceRange` for the Ruby expression associated with the frame.
+    * `Thread::Backtrace::Location#source_range`가 추가되었습니다. 프레임과 연관된
+      Ruby 식에 대한 `Ruby::SourceRange`를 반환합니다.
 
-## Stdlib updates
+## 표준 라이브러리 변경
 
 * Psych
 
-    * An experimental libfyaml backend has been added.  It is only
-      enabled when psych is built with `--enable-libfyaml`, and the
-      default libyaml backend remains unchanged otherwise.  It is not
-      supported on Windows.  [[GH-psych #805]]
+    * 실험적인 libfyaml 백엔드가 추가되었습니다. psych를
+      `--enable-libfyaml`로 빌드했을 때만 활성화되며, 그 외에는
+      기본 libyaml 백엔드가 그대로 유지됩니다. Windows에서는
+      지원되지 않습니다.  [[GH-psych #805]]
 
 * Ruby::Prism
 
-    * `Ruby::Prism` is added.  It is the prism parser built into the
-      interpreter, i.e., the very parser that parsed the running program,
-      independent of the prism gem.  It is autoloaded.
-      `Method#syntax_tree` and others return its nodes.  Its API may change
-      between Ruby minor versions; use the `prism` gem unless you need the
-      parser of the running interpreter.  [[Bug #22379]]
+    * `Ruby::Prism`이 추가되었습니다. 인터프리터에 내장된 prism 파서로,
+      즉 실행 중인 프로그램을 파싱한 바로 그 파서이며,
+      prism gem과는 독립적입니다. 자동으로 autoload됩니다.
+      `Method#syntax_tree` 등이 이 파서의 노드를 반환합니다. API는
+      Ruby 마이너 버전 간에 변경될 수 있으므로, 실행 중인 인터프리터의 파서가
+      필요한 경우가 아니라면 `prism` gem을 사용하세요.  [[Bug #22379]]
 
-### The following bundled gems are added.
+### 다음 번들 gem이 추가되었습니다.
 
 
-We only list stdlib changes that are notable feature changes.
+주목할 만한 기능 변경인 표준 라이브러리 변경만을 나열합니다.
 
-Other changes are listed in the following sections. We also listed release
-history from the previous bundled version that is Ruby 4.0.0 if it has GitHub
-releases.
+그 밖의 변경 사항은 다음 섹션에 나열되어 있습니다. 또한 GitHub 릴리스가 있는 경우,
+이전 번들 버전인 Ruby 4.0.0 이후의 릴리스 이력도
+함께 나열했습니다.
 
-### The following bundled gems are promoted from default gems.
+### 다음 번들 gem이 기본 gem에서 승격되었습니다.
 
 * prism 1.9.0
 * tsort 0.2.0
 * win32-registry 0.1.2
 
-### The following bundled gems are removed.
+### 다음 번들 gem이 제거되었습니다.
 
 * net-ftp 0.3.9
 * net-pop 0.1.2
 
-They are still available on rubygems.org and can be installed with
-`gem install`.  [[Feature #21835]]
+이 gem들은 여전히 rubygems.org에서 받을 수 있으며
+`gem install`로 설치할 수 있습니다.  [[Feature #21835]]
 
-### The following default gem is added.
+### 다음 기본 gem이 추가되었습니다.
 
-### The following default gems are updated.
+### 다음 기본 gem이 갱신되었습니다.
 
 * RubyGems 4.1.0.beta2
   * 4.0.3 to [v4.0.4][RubyGems-v4.0.4], [v4.0.5][RubyGems-v4.0.5], [v4.0.6][RubyGems-v4.0.6], [v4.0.7][RubyGems-v4.0.7], [v4.0.8][RubyGems-v4.0.8], [v4.0.9][RubyGems-v4.0.9], [v4.0.10][RubyGems-v4.0.10], [v4.0.11][RubyGems-v4.0.11], [v4.0.12][RubyGems-v4.0.12], [v4.0.13][RubyGems-v4.0.13], [v4.0.14][RubyGems-v4.0.14], [v4.0.15][RubyGems-v4.0.15], [v4.0.16][RubyGems-v4.0.16], [v4.0.17][RubyGems-v4.0.17], [v4.0.18][RubyGems-v4.0.18], [v4.0.19][RubyGems-v4.0.19], [v4.0.20][RubyGems-v4.0.20], [v4.0.21][RubyGems-v4.0.21], [v4.0.22][RubyGems-v4.0.22], [v4.1.0.beta1][RubyGems-v4.1.0.beta1], [v4.1.0.beta2][RubyGems-v4.1.0.beta2]
@@ -399,132 +399,132 @@ They are still available on rubygems.org and can be installed with
 * reline 0.7.0
   * 0.6.3 to [v0.7.0][reline-v0.7.0]
 
-### RubyGems and Bundler
+### RubyGems와 Bundler
 
-Ruby 4.1 bundled RubyGems and Bundler version 4. see the following links for details.
+Ruby 4.1은 RubyGems와 Bundler 버전 4를 포함합니다. 자세한 내용은 다음 링크를 참조하세요.
 
-## Supported platforms
+## 지원 플랫폼
 
-* Support code for the following platforms has been removed.  Their
-  vendors or distributors have ended support, there is no environment to
-  test Ruby on them, and none of them has a platform maintainer.
+* 다음 플랫폼에 대한 지원 코드가 제거되었습니다. 해당
+  벤더나 배포자가 지원을 종료했고, Ruby를 테스트할 환경이 없으며,
+  플랫폼 메인테이너도 없습니다.
 
     * AmigaOS
     * AtheOS
     * BSD/OS (BSDi)
     * ESIX
     * EWS-UX (NEC EWS4800)
-    * FreeBSD, NetBSD and OpenBSD with a.out binaries
+    * a.out 바이너리를 사용하는 FreeBSD, NetBSD, OpenBSD
     * GNU/kFreeBSD
     * GNU/kOpenSolaris
     * HI-UX/MPP
-    * HP-UX on the HP 9000 Series 300
+    * HP 9000 Series 300의 HP-UX
     * Interix (Windows Services for UNIX)
     * IRIX
     * MirOS BSD
-    * NeXTSTEP, OpenStep and Rhapsody
+    * NeXTSTEP, OpenStep, Rhapsody
     * OSF/1 (Tru64 UNIX)
     * QNX Neutrino
-    * SunOS 4 (Solaris, i.e. SunOS 5, is unaffected)
+    * SunOS 4 (Solaris, 즉 SunOS 5는 영향을 받지 않습니다)
     * System V Release 4
     * UNICOS/mp (Cray X1)
     * UX/PDS
 
-* Support code for the following old versions has been removed.
+* 다음 오래된 버전에 대한 지원 코드가 제거되었습니다.
 
-    * Cygwin 1.3 and earlier
-    * Solaris 9 and earlier
-    * Linux 2.6.23 and earlier (RHEL 5)
+    * Cygwin 1.3 이하
+    * Solaris 9 이하
+    * Linux 2.6.23 이하 (RHEL 5)
 
-* Windows 10 1703 or later no longer needs the `LongPathsEnabled` registry
-  value to use paths longer than 260 characters.  This applies to any process
-  running the interpreter, including a program which embeds libruby.  Each path
-  component is still limited to 255 characters, and a child process still
-  starts with the `MAX_PATH` limited current directory. [[Bug #18947]]
+* Windows 10 1703 이상에서는 260자보다 긴 경로를 사용하기 위해 더 이상
+  `LongPathsEnabled` 레지스트리 값이 필요하지 않습니다. 이는 libruby를 임베드한
+  프로그램을 포함하여, 인터프리터를 실행하는 모든 프로세스에 적용됩니다. 경로의
+  각 구성 요소는 여전히 255자로 제한되며, 자식 프로세스는 여전히
+  `MAX_PATH`로 제한된 현재 디렉터리에서 시작합니다. [[Bug #18947]]
 
-* Building Ruby with MSVC now requires Visual Studio 2017 version 15.8
-  (`_MSC_VER` 1915) or later.
+* MSVC로 Ruby를 빌드하려면 이제 Visual Studio 2017 버전 15.8
+  (`_MSC_VER` 1915) 이상이 필요합니다.
 
-* Ruby built with MSVC now requires Windows 10 version 1809 (build 17763)
-  or Windows Server 2019 or later.  Earlier Windows 10 releases and Windows
-  Server 2016 are no longer supported.
+* MSVC로 빌드한 Ruby는 이제 Windows 10 버전 1809(빌드 17763)
+  또는 Windows Server 2019 이상이 필요합니다. 그 이전의 Windows 10 릴리스와 Windows
+  Server 2016은 더 이상 지원되지 않습니다.
 
-* Ruby on macOS now requires Mac OS X 10.6 or later.  Mac OS X 10.5 and
-  PowerPC Macs are no longer supported.
+* macOS의 Ruby는 이제 Mac OS X 10.6 이상이 필요합니다. Mac OS X 10.5와
+  PowerPC Mac은 더 이상 지원되지 않습니다.
 
-## Compatibility issues
+## 호환성 문제
 
-* A class or module can now be modified only by the Ractor which created it,
-  its *owner*.  Defining, removing or undefining methods, `alias`, changing
-  visibility, `include`/`prepend`, `Module#refine`, defining or removing
-  constants, registering an `autoload`, writing the class's own instance
-  variables and class variables, `Module#freeze` and
-  `Module#set_temporary_name` raise `Ractor::IsolationError` in any other
-  Ractor.  Reading is unchanged.  Everything defined at boot or by the main
-  Ractor, `require`d libraries included, is owned by the main Ractor, so a
-  non-main Ractor can no longer monkey-patch it; and since defining a constant
-  in a foreign class is prohibited, it can not define a top-level class or
-  module name either.  In exchange a Ractor has full use of the classes it
-  creates itself, including unshareable constant, instance variable and class
-  variable values, which not even the main Ractor could do before.  See
-  doc/language/ractor.md. [[Feature #22226]]
+* 클래스나 모듈은 이제 그것을 만든 Ractor, 즉 *소유자*만 수정할 수 있습니다.
+  메서드 정의, 제거, 정의 취소, `alias`, 가시성
+  변경, `include`/`prepend`, `Module#refine`, 상수 정의나 제거,
+  `autoload` 등록, 클래스 자신의 인스턴스 변수와 클래스 변수 쓰기,
+  `Module#freeze`, `Module#set_temporary_name`은 다른 Ractor에서
+  `Ractor::IsolationError`를 발생시킵니다. 읽기는 변경되지 않습니다. 부팅 시나 메인
+  Ractor가 정의한 모든 것은 `require`한 라이브러리를 포함해 메인 Ractor가 소유하므로,
+  메인이 아닌 Ractor는 더 이상 이를 몽키 패치할 수 없습니다. 또한 다른 클래스에
+  상수를 정의하는 것이 금지되므로, 최상위 클래스나 모듈 이름도
+  정의할 수 없습니다. 그 대신 Ractor는 자신이 만든 클래스를
+  공유 불가능한 상수, 인스턴스 변수, 클래스 변수 값을 포함해
+  완전히 사용할 수 있으며,
+  이는 이전에는 메인 Ractor조차 할 수 없던 일입니다.
+  doc/language/ractor.md를 참조하세요. [[Feature #22226]]
 
-* `Kernel#at_exit` and `END {}` now raise `Ractor::IsolationError` when called
-  in a non-main Ractor.  Previously the registered handler ran in the main
-  Ractor at process exit, which was confusing. [[Feature #22139]]
+* `Kernel#at_exit`와 `END {}`는 이제 메인이 아닌 Ractor에서 호출되면
+  `Ractor::IsolationError`를 발생시킵니다. 이전에는 등록된 핸들러가 프로세스 종료 시
+  메인 Ractor에서 실행되어 혼란스러웠습니다. [[Feature #22139]]
 
-* `Ractor.make_shareable` now raises `Ractor::Error` for an `IO` object, and
-  `Ractor.shareable?` returns `false` for it.  A frozen `IO` used to be
-  shareable, but almost all of its methods raise `FrozenError` and it can
-  still refer to unshareable objects through the members of `rb_io_t`.
+* `Ractor.make_shareable`은 이제 `IO` 객체에 대해 `Ractor::Error`를 발생시키고,
+  `Ractor.shareable?`은 `false`를 반환합니다. 얼린 `IO`는 공유 가능했지만,
+  거의 모든 메서드가 `FrozenError`를 발생시키고 `rb_io_t`의 멤버를 통해
+  여전히 공유 불가능한 객체를 참조할 수 있었습니다.
 
-* `Random.urandom` now raises `RangeError` for every size too large for a
-  `long`, as `Random#bytes` does.  A size that still fit in an `unsigned long`
-  used to raise `ArgumentError`. [[Feature #22400]]
+* `Random.urandom`은 이제 `Random#bytes`와 마찬가지로 `long`에 담기에 너무 큰
+  모든 크기에 대해 `RangeError`를 발생시킵니다. 이전에는 `unsigned long`에 들어가는 크기라면
+  `ArgumentError`를 발생시켰습니다. [[Feature #22400]]
 
-* `Struct#[]` and `Struct#[]=` now raise `IndexError` for every out-of-range
-  Integer index that fits in a `long`.  An index past the `int` range used to
-  raise `RangeError`. [[Feature #22400]]
+* `Struct#[]`와 `Struct#[]=`는 이제 `long`에 들어가는 모든 범위 밖의
+  Integer 인덱스에 대해 `IndexError`를 발생시킵니다. 이전에는 `int` 범위를 넘는 인덱스에 대해
+  `RangeError`를 발생시켰습니다. [[Feature #22400]]
 
-## Stdlib compatibility issues
+## 표준 라이브러리 호환성 문제
 
-* prism is now a bundled gem.  Under Bundler, `require "prism"` needs prism
-  in the Gemfile.  Use `Ruby::Prism` for the parser of the running
-  interpreter.  [[Bug #22379]]
+* prism이 이제 번들 gem입니다. Bundler 환경에서 `require "prism"`을 하려면 Gemfile에
+  prism이 필요합니다. 실행 중인 인터프리터의 파서가 필요하면
+  `Ruby::Prism`을 사용하세요.  [[Bug #22379]]
 
-* `Etc.getlogin` on Windows now returns the login name determined when the
-  process starts, from the `USER` or `USERNAME` environment variable or
-  `GetUserName()`.  It used to follow later changes to `ENV['USER']`.
+* Windows에서 `Etc.getlogin`은 이제 프로세스 시작 시 `USER` 또는 `USERNAME`
+  환경 변수나 `GetUserName()`으로 결정된 로그인 이름을
+  반환합니다. 이전에는 이후의 `ENV['USER']` 변경을 따라갔습니다.
 
 * Socket
 
-    * On Windows, a connection that is refused or unreachable now raises the
-      matching `Errno` class as soon as Winsock reports it, instead of
-      `Errno::ETIMEDOUT` once the whole `connect_timeout` has passed. Code
-      rescuing `Errno::ETIMEDOUT` there has to rescue the real error instead.
+    * Windows에서 연결이 거부되거나 도달할 수 없으면, 이제 전체 `connect_timeout`이
+      지난 뒤에 `Errno::ETIMEDOUT`을 발생시키는 대신 Winsock이 보고하는 즉시
+      해당하는 `Errno` 클래스를 발생시킵니다. 그곳에서 `Errno::ETIMEDOUT`을
+      rescue하던 코드는 실제 에러를 rescue해야 합니다.
 
-    * On Windows, `BasicSocket#getsockopt(:SOCKET, :ERROR)` now reports an
-      errno as it does on the other platforms, instead of the raw WinSock
-      error code. Code comparing it with a `WSAE*` value has to compare it
-      with the matching `Errno::*::Errno` instead.
+    * Windows에서 `BasicSocket#getsockopt(:SOCKET, :ERROR)`는 이제 다른 플랫폼과
+      마찬가지로 WinSock의 원시 에러 코드 대신 errno를
+      보고합니다. 이를 `WSAE*` 값과 비교하던 코드는 대신 해당하는
+      `Errno::*::Errno`와 비교해야 합니다.
 
     [[Bug #18661]]
 
-## C API updates
+## C API 변경
 
-### Embedded TypedData
+### 임베디드 TypedData
 
-* The `RUBY_TYPED_EMBEDDABLE` flag is now public and documented and can be used by C extensions.
-  It allows allocating C structs directly into Ruby object slots, which reduces pointer chasing,
-  and in some case memory usage.
-  See the C extension documentation for details. [[Feature #21853]]
+* `RUBY_TYPED_EMBEDDABLE` 플래그가 이제 공개 및 문서화되어 C 확장에서 사용할 수 있습니다.
+  C 구조체를 Ruby 객체 슬롯에 직접 할당할 수 있게 해 주며, 포인터 추적을 줄이고
+  경우에 따라 메모리 사용량도 줄여 줍니다.
+  자세한 내용은 C 확장 문서를 참조하세요. [[Feature #21853]]
 
-* Added new C23 inspired allocator functions, that takes the previous memory size.
-  This allow the Ruby GC to better keep track of memory usage, improving its heuristics.
-  It also improves the performance of system allocators that support C23 `free_sized`.
+* 이전 메모리 크기를 받는, C23에서 영감을 받은 새 할당자 함수가 추가되었습니다.
+  이를 통해 Ruby GC가 메모리 사용량을 더 잘 추적하여 휴리스틱을 개선할 수 있습니다.
+  또한 C23 `free_sized`를 지원하는 시스템 할당자의 성능도 향상됩니다.
 
-  However, it is important to note that passing an incorrect size to these function is undefined
-  behavior and may result in crashes or memory leaks.
+  다만, 이 함수들에 잘못된 크기를 넘기는 것은 정의되지 않은 동작이며
+  크래시나 메모리 누수를 일으킬 수 있다는 점에 유의해야 합니다.
 
   - `ruby_xfree_sized(void *ptr, size_t size)`
   - `ruby_xrealloc_sized(void *ptr, size_t newsiz, size_t oldsiz)`
@@ -532,126 +532,126 @@ Ruby 4.1 bundled RubyGems and Bundler version 4. see the following links for det
 
   [[Feature #21861]]
 
-### Ractor-scoped GC address registration
+### Ractor 단위 GC 주소 등록
 
-* `rb_gc_register_address` and `rb_global_variable` now register the address
-  with the calling Ractor, and only that Ractor's GC marks the stored object.
+* `rb_gc_register_address`와 `rb_global_variable`은 이제 호출한 Ractor에
+  주소를 등록하며, 저장된 객체는 그 Ractor의 GC만 마킹합니다.
 
-  Any Ractor may register an address, but the value stored through it must be a
-  special constant, a shareable object, or an unshareable object owned by the
-  registering Ractor. Storing another Ractor's unshareable object can result in
-  the object being freed while the address still refers to it (use-after-free).
+  어떤 Ractor든 주소를 등록할 수 있지만, 그 주소를 통해 저장하는 값은
+  특수 상수, 공유 가능 객체, 또는 등록한 Ractor가 소유한 공유 불가능 객체여야
+  합니다. 다른 Ractor의 공유 불가능 객체를 저장하면, 주소가 아직 참조하고 있는데도
+  객체가 해제될 수 있습니다(use-after-free).
 
-  If the address has process lifetime (a static VALUE), register it from the
-  main Ractor or keep the stored values shareable.
+  주소가 프로세스 수명을 가진다면(정적 VALUE), 메인 Ractor에서 등록하거나
+  저장하는 값을 공유 가능하게 유지하세요.
 
-  When the registering Ractor is joined with `Ractor#value`, remaining
-  registrations move to the joining Ractor; otherwise they move to the main
-  Ractor once the dead Ractor is collected.
+  등록한 Ractor가 `Ractor#value`로 join되면, 남은 등록은
+  join한 Ractor로 이동합니다. 그렇지 않으면 종료된 Ractor가 회수될 때
+  메인 Ractor로 이동합니다.
 
   [[Feature #22277]]
 
-### Type for lengths and indices
+### 길이와 인덱스를 위한 타입
 
-* `rb_len_t` and `rb_ulen_t` are added as the types of the lengths and indices
-  of String, Array and MatchData, with `LEN2NUM`, `NUM2LEN`, `ULEN2NUM`,
-  `rb_len2int`, `PRIdLEN` and its siblings, `RB_LEN_MAX`, `RB_LEN_MIN`,
-  `RB_ULEN_MAX`, `SIZEOF_RB_LEN_T` and `HAVE_RB_LEN_T`.  `RbConfig::SIZEOF["rb_len_t"]`
-  gives its size to an extconf.rb.  They are `long` on every platform for now, and
-  the C API that carries such lengths, such as `RSTRING_LEN` and
-  `rb_range_beg_len`, uses them.  A later change will makes them 64 bits on mswin,
-  so extensions should keep these lengths in `rb_len_t`. [[Feature #22400]]
+* String, Array, MatchData의 길이와 인덱스를 위한 타입으로 `rb_len_t`와 `rb_ulen_t`가
+  추가되었으며, 함께 `LEN2NUM`, `NUM2LEN`, `ULEN2NUM`,
+  `rb_len2int`, `PRIdLEN`과 그 계열, `RB_LEN_MAX`, `RB_LEN_MIN`,
+  `RB_ULEN_MAX`, `SIZEOF_RB_LEN_T`, `HAVE_RB_LEN_T`가 추가되었습니다. `RbConfig::SIZEOF["rb_len_t"]`로
+  extconf.rb에서 크기를 알 수 있습니다. 현재는 모든 플랫폼에서 `long`이며,
+  `RSTRING_LEN`이나 `rb_range_beg_len`처럼 이러한 길이를 다루는
+  C API가 이 타입을 사용합니다. 이후 변경에서 mswin에서는 64비트가 될 예정이므로,
+  확장 라이브러리는 이러한 길이를 `rb_len_t`로 유지해야 합니다. [[Feature #22400]]
 
-* `rb_len2long` is added to convert an `rb_len_t` to `long`, raising
-  `RangeError` via the new `rb_out_of_long` when it does not fit, for
-  extensions that keep a length in `long`. [[Feature #22400]]
+* 길이를 `long`으로 유지하는 확장 라이브러리를 위해, `rb_len_t`를 `long`으로 변환하는
+  `rb_len2long`이 추가되었습니다. 값이 들어가지 않으면 새로운 `rb_out_of_long`을 통해
+  `RangeError`를 발생시킵니다. [[Feature #22400]]
 
-### Removed APIs
+### 제거된 API
 
-The following APIs, which have been deprecated for many years, are removed.
+오랫동안 폐기 예정이었던 다음 API가 제거되었습니다.
 [[Feature #21768]]
 
-* old postponed job functions,
-* untyped data object type/functions,
-* old APIs to allocate a data object,
-* taintedness/trustedness enums/macros,
-* `rb_gc_force_recycle` function,
-* `rb_iterate` function,
-* and some functions and constants for internal use.
+* 오래된 postponed job 함수,
+* 타입 없는 데이터 객체 타입/함수,
+* 데이터 객체를 할당하는 오래된 API,
+* taintedness/trustedness 열거형/매크로,
+* `rb_gc_force_recycle` 함수,
+* `rb_iterate` 함수,
+* 그리고 내부용 일부 함수와 상수.
 
-## Implementation improvements
+## 구현 개선
 
-- The default garbage collector has been switched from a freelist allocator to a bump pointer allocator. [[PR #17201]]
+- 기본 가비지 컬렉터가 프리리스트 할당자에서 범프 포인터 할당자로 전환되었습니다. [[PR #17201]]
 
-- The error_highlight, did_you_mean, and syntax_suggest gems are now
-  loaded lazily on the first error display instead of at interpreter
-  boot, which reduces startup time.  `Process.warmup` loads them
-  eagerly so that pre-forking servers keep their code in
-  copy-on-write shared memory.  [[Feature #21951]]
+- error_highlight, did_you_mean, syntax_suggest gem이 이제 인터프리터
+  부팅 시가 아니라 처음 에러를 표시할 때 지연 로드되어,
+  시작 시간이 줄었습니다. `Process.warmup`은 이를
+  미리 로드하므로, pre-fork 서버는 해당 코드를
+  copy-on-write 공유 메모리에 유지할 수 있습니다.  [[Feature #21951]]
 
-### M:N thread scheduler
+### M:N 스레드 스케줄러
 
-* The scheduler scales with the number of waiters and of Ractors, where it
-  used to walk a list or take one lock for all of them:
+* 스케줄러가 대기자 수와 Ractor 수에 맞춰 확장됩니다. 이전에는
+  리스트를 순회하거나 모두에 대해 하나의 락을 잡았습니다.
 
-  * A timed wait sits in a hierarchical timer wheel rather than on a list
-    sorted by deadline, which was inserted into by a linear scan.
-  * An fd stays armed in the backend between waits, instead of being added
-    before each wait and removed after each wake.
-  * The io-wait bookkeeping is sharded by fd, rather than serialized on one
-    lock across every fd.
-  * A timed wait on an fd rides the scheduler instead of going to a blocking
-    region, which cost a native thread handoff per wait.
-  * A context switch, and leaving or rejoining the shared pool, no longer take
-    the scheduler's global lock.
+  * 시간 제한 대기는 선형 탐색으로 삽입되던 마감 시간순 정렬 리스트 대신
+    계층형 타이머 휠에 놓입니다.
+  * fd는 매 대기 전에 추가되고 매 깨어남 후에 제거되는 대신,
+    대기 사이에도 백엔드에 등록된 상태로 유지됩니다.
+  * io-wait 관리 정보는 모든 fd에 걸쳐 하나의 락으로 직렬화되는 대신
+    fd별로 샤딩됩니다.
+  * fd에 대한 시간 제한 대기는 대기마다 네이티브 스레드 전환 비용이 들던
+    블로킹 영역으로 가는 대신 스케줄러를 이용합니다.
+  * 컨텍스트 스위치와 공유 풀에서 나가거나 다시 들어가는 일에 더 이상
+    스케줄러의 전역 락이 필요하지 않습니다.
 
-* The `RUBY_MN_THREADS` environment variable now runs from no M:N scheduling
-  at all to all of it.  `-1` is new: a Ractor's threads have been M:N since
-  the scheduler was added, with no way to turn that off.  `0` and `1` are
-  unchanged.
+* `RUBY_MN_THREADS` 환경 변수는 이제 M:N 스케줄링을 전혀 쓰지 않는 것부터
+  모두 쓰는 것까지 설정할 수 있습니다. `-1`이 새로 추가되었습니다. Ractor의 스레드는
+  스케줄러가 추가된 이래 M:N이었고, 이를 끌 방법이 없었습니다. `0`과 `1`은
+  변경되지 않았습니다.
 
-  | | main thread | the main Ractor's other threads | a Ractor's threads |
+  | | 메인 스레드 | 메인 Ractor의 다른 스레드 | Ractor의 스레드 |
   |---|---|---|---|
   | `-1` | 1:1 | 1:1 | 1:1 |
-  | `0` or unset | 1:1 | 1:1 | M:N |
+  | `0` 또는 미설정 | 1:1 | 1:1 | M:N |
   | `1` | 1:1 | M:N | M:N |
   | `2` | M:N | M:N | M:N |
 
-* `RUBY_MN_THREADS=2` is new.  The main thread is resumed like any other M:N
-  thread rather than woken on a native thread of its own, which costs an order
-  of magnitude more.  It pays off when the main thread drives the work, and
-  does nothing for one that only starts other threads and waits.
+* `RUBY_MN_THREADS=2`가 새로 추가되었습니다. 메인 스레드는 자신만의 네이티브 스레드에서
+  깨어나는 대신 다른 M:N 스레드처럼 재개되며, 전자는 한 자릿수 이상
+  비용이 더 듭니다. 메인 스레드가 작업을 주도할 때 효과가 있고,
+  다른 스레드를 시작하고 기다리기만 하는 경우에는 효과가 없습니다.
 
-  The main thread is then no longer bound to one OS thread, which is what the
-  M:N scheduler already meant for every other thread:
+  이 경우 메인 스레드는 더 이상 하나의 OS 스레드에 묶이지 않으며, 이는
+  M:N 스케줄러가 이미 다른 모든 스레드에 대해 의미하던 것입니다.
 
-  * A C extension that keeps state per OS thread has to call
-    `rb_thread_lock_native_thread()`.
-  * What must run on the process's initial thread does not work at all,
-    pinning included: macOS AppKit and CFRunLoop, and hosts that embed Ruby
-    and return into their own main loop.
+  * OS 스레드별로 상태를 유지하는 C 확장은
+    `rb_thread_lock_native_thread()`를 호출해야 합니다.
+  * 프로세스의 초기 스레드에서 실행되어야 하는 것은 고정(pinning)을 해도
+    전혀 동작하지 않습니다. macOS AppKit과 CFRunLoop, 그리고 Ruby를 임베드하고
+    자신의 메인 루프로 돌아가는 호스트가 그렇습니다.
 
-* The OS thread name is no longer set from the Ruby thread for M:N threads:
-  one native thread runs many of them over its life.  `Thread#name=` was
-  already skipped for the same reason.
+* M:N 스레드의 경우 더 이상 Ruby 스레드에서 OS 스레드 이름을 설정하지 않습니다.
+  하나의 네이티브 스레드가 수명 동안 많은 Ruby 스레드를 실행하기 때문입니다. `Thread#name=`은
+  같은 이유로 이미 생략되고 있었습니다.
 
 ## JIT
 
 ### YJIT
 
-* YJIT now supports Windows (mswin) on x64 CPUs.  Configure with
-  `win32\configure.bat --enable-yjit`, which requires `rustc` with the
-  `x86_64-pc-windows-msvc` target.  Only the release build is supported,
-  and MinGW is not.  [[Feature #18439]]
+* YJIT가 이제 x64 CPU의 Windows(mswin)를 지원합니다.
+  `win32\configure.bat --enable-yjit`로 설정하세요. `x86_64-pc-windows-msvc`
+  타깃을 지원하는 `rustc`가 필요합니다. 릴리스 빌드만 지원되며,
+  MinGW는 지원되지 않습니다.  [[Feature #18439]]
 
-See [NEWS](https://docs.ruby-lang.org/en/{{ release.tag }}/NEWS_md.html)
-or [commit logs](https://github.com/ruby/ruby/compare/v4_0_0...{{ release.tag }})
-for more details.
+자세한 내용은 [NEWS](https://docs.ruby-lang.org/en/{{ release.tag }}/NEWS_md.html)
+또는 [커밋 로그](https://github.com/ruby/ruby/compare/v4_0_0...{{ release.tag }})를
+참조하세요.
 
-With those changes, [{{ release.stats.files_changed }} files changed, {{ release.stats.insertions }} insertions(+), {{ release.stats.deletions }} deletions(-)](https://github.com/ruby/ruby/compare/v4_0_0...{{ release.tag }}#file_bucket)
-since Ruby 4.0.0!
+이러한 변경 사항에 따라, Ruby 4.0.0 이후로 [파일 {{ release.stats.files_changed }}개 변경, {{ release.stats.insertions }}줄 추가(+), {{ release.stats.deletions }}줄 삭제(-)](https://github.com/ruby/ruby/compare/v4_0_0...{{ release.tag }}#file_bucket)가
+이루어졌습니다!
 
-## Download
+## 다운로드
 
 * <{{ release.url.gz }}>
 
@@ -674,11 +674,11 @@ since Ruby 4.0.0!
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## What is Ruby
+## Ruby는
 
-Ruby was first developed by Matz (Yukihiro Matsumoto) in 1993,
-and is now developed as Open Source. It runs on multiple platforms
-and is used all over the world especially for web development.
+Ruby는 1993년에 Matz(마츠모토 유키히로)가 처음 개발했고,
+현재는 오픈 소스로 개발되고 있습니다. 여러 플랫폼에서 동작하며,
+전 세계적으로 특히 웹 개발에 사용됩니다.
 
 [Bug #18661]: https://bugs.ruby-lang.org/issues/18661
 [Bug #18947]: https://bugs.ruby-lang.org/issues/18947
