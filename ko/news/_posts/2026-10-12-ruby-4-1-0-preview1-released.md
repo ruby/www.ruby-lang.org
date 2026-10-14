@@ -69,7 +69,7 @@ Ractor를 더 안정적이고, 빠르고, 사용하기 쉽게 만들기 위해 �
   [[Feature #22309]]
 
 * `Module#clone`과 `Module#dup`은 더 이상 복사된 메서드의 렉시컬 스코프를
-  다시 쓰지 않습니다. 상수와 클래스 변수는 원래 클래스를 통해 해석되며,
+  다시 쓰지 않습니다. 상수와 클래스 변수는 기존 클래스를 통해 해석되며,
   이는 상속이나 믹스인과 일관됩니다.
   [[Feature #21981]]
 
@@ -97,7 +97,7 @@ Ractor를 더 안정적이고, 빠르고, 사용하기 쉽게 만들기 위해 �
       (주어진 함수도 호출하지 않고) `0`을 반환합니다.
       기존의 건너뛰기 경로와 마찬가지로, 함수가 호출되지 않았으므로
       `errno`는 `0`입니다.
-    * `RHASH_TBL`이 폐기 예정되었습니다.  [[Feature #22232]]
+    * `RHASH_TBL`은 폐기 예정입니다.  [[Feature #22232]]
 
 * Array
 
@@ -253,7 +253,7 @@ Ractor를 더 안정적이고, 빠르고, 사용하기 쉽게 만들기 위해 �
 * Thread::Backtrace::Location
 
     * `Thread::Backtrace::Location#source_range`가 추가되었습니다. 프레임과 연관된
-      Ruby 식에 대한 `Ruby::SourceRange`를 반환합니다.
+      Ruby 표현식에 대한 `Ruby::SourceRange`를 반환합니다.
 
 ## 표준 라이브러리 변경
 
@@ -357,7 +357,7 @@ Ractor를 더 안정적이고, 빠르고, 사용하기 쉽게 만들기 위해 �
 * zlib 3.2.4
   * 3.2.2 to [v3.2.3][zlib-v3.2.3], [v3.2.4][zlib-v3.2.4]
 
-### The following bundled gems are updated.
+### 다음 번들 gem이 갱신되었습니다.
 
 * minitest 6.0.6
 * power_assert 3.1.0
