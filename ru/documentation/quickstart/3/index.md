@@ -2,6 +2,7 @@
 layout: page
 title: "Ruby за двадцать минут"
 lang: ru
+translator: "ablzh"
 
 header: |
   <div class="multi-page">
@@ -20,21 +21,21 @@ header: |
 Давайте теперь создадим приветствующий объект и используем его:
 
 {% highlight irb %}
-irb(main):035:0> g = Greeter.new("Pat")
+irb(main):035:0> greeter = Greeter.new("Pat")
 => #<Greeter:0x16cac @name="Pat">
-irb(main):036:0> g.say_hi
+irb(main):036:0> greeter.say_hi
 Hi Pat!
 => nil
-irb(main):037:0> g.say_bye
+irb(main):037:0> greeter.say_bye
 Bye Pat, come back soon.
 => nil
 {% endhighlight %}
 
-Как только объект `g` создан, он запоминает, что имя – Pat. Хмм, а что
+Как только объект `greeter` создан, он запоминает, что имя – Pat. Хмм, а что
 если мы попробуем получить имя напрямую?
 
 {% highlight irb %}
-irb(main):038:0> g.@name
+irb(main):038:0> greeter.@name
 SyntaxError: (irb):38: syntax error, unexpected tIVAR, expecting '('
 {% endhighlight %}
 
@@ -75,18 +76,18 @@ irb(main):039:0> Greeter.instance_methods
 
 {% highlight irb %}
 irb(main):040:0> Greeter.instance_methods(false)
-=> ["say_bye", "say_hi"]
+=> [:say_hi, :say_bye]
 {% endhighlight %}
 
 Ага, это больше похоже на то, что нам нужно. Итак, давайте посмотрим на
 какие методы наш объект может отвечать:
 
 {% highlight irb %}
-irb(main):041:0> g.respond_to?("name")
+irb(main):041:0> greeter.respond_to?("name")
 => false
-irb(main):042:0> g.respond_to?("say_hi")
+irb(main):042:0> greeter.respond_to?("say_hi")
 => true
-irb(main):043:0> g.respond_to?("to_s")
+irb(main):043:0> greeter.respond_to?("to_s")
 => true
 {% endhighlight %}
 
@@ -112,22 +113,22 @@ irb(main):046:1> end
 поиграем с его свойством `@name`.
 
 {% highlight irb %}
-irb(main):047:0> g = Greeter.new("Andy")
+irb(main):047:0> greeter = Greeter.new("Andy")
 => #<Greeter:0x3c9b0 @name="Andy">
-irb(main):048:0> g.respond_to?("name")
+irb(main):048:0> greeter.respond_to?("name")
 => true
-irb(main):049:0> g.respond_to?("name=")
+irb(main):049:0> greeter.respond_to?("name=")
 => true
-irb(main):050:0> g.say_hi
+irb(main):050:0> greeter.say_hi
 Hi Andy!
 => nil
-irb(main):051:0> g.name="Betty"
+irb(main):051:0> greeter.name="Betty"
 => "Betty"
-irb(main):052:0> g
+irb(main):052:0> greeter
 => #<Greeter:0x3c9b0 @name="Betty">
-irb(main):053:0> g.name
+irb(main):053:0> greeter.name
 => "Betty"
-irb(main):054:0> g.say_hi
+irb(main):054:0> greeter.say_hi
 Hi Betty!
 => nil
 {% endhighlight %}

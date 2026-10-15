@@ -2,13 +2,12 @@
 layout: page
 title: "Конференции Ruby"
 lang: ru
+translator: "ablzh"
 ---
 
 Программисты Ruby по всему миру посещают все больше и больше
 конференций, где они делятся друг с другом о текущей работе, обсуждают
 будущее Ruby и приветствуют новичков в сообществе Ruby.
-
-### Основные конференции о Ruby
 
 [RubyEvents.org][rc] — это простой список конференций, посвящённых Ruby, который публикуется совместно с сообществом Ruby. Там вы найдёте даты мероприятий, место проведения, информацию о CFP (Call For Proposals) и регистрации.
 
@@ -31,6 +30,6 @@ lang: ru
 
 [rc]: https://www.rubyevents.org/
 [1]: http://rubyconf.org/
-[2]: http://rubycentral.org
+[2]: http://rubycentral.org/
 [3]: http://rubykaigi.org/
 [4]: http://euruko.org
