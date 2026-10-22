@@ -1,18 +1,18 @@
 ---
 layout: news_post
-title: "Ruby 4.0.8 Released"
+title: "Ruby 4.0.8 릴리스"
 author: k0kubun
-translator:
+translator: "shia"
 date: 2026-10-22 06:54:51 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 4.0.8 has been released.
+Ruby 4.0.8이 릴리스되었습니다.
 
-This is a routine update that includes bugfixes.
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.8) for further details.
+이번 릴리스는 버그 수정을 포함하는 일반적인 업데이트입니다.
+자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v4.0.8)를 참조하세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "4.0.8" | first %}
 
@@ -37,7 +37,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
