@@ -1,7 +1,7 @@
 ---
 layout: news_post
 title: "Ruby 4.0.8 Released"
-author:
+author: k0kubun
 translator:
 date: 2026-10-22 06:54:51 +0000
 lang: en
@@ -9,6 +9,7 @@ lang: en
 
 Ruby 4.0.8 has been released.
 
+This is a routine update that includes bugfixes.
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.8) for further details.
 
 ## Download
