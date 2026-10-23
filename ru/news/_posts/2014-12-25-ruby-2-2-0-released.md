@@ -2,7 +2,7 @@
 layout: news_post
 title: "Вышел Ruby 2.2.0"
 author: "naruse"
-translator: "arbox"
+translator: "ablzh"
 date: 2014-12-25 09:00:00 +0000
 lang: ru
 ---
@@ -48,9 +48,9 @@ lang: ru
 ## Важные изменения в сравнении с версией 2.1
 
 * [Инкрементальный алгоритм сборщика](https://bugs.ruby-lang.org/issues/10137)
-  ([YARV Maniacs No.12](http://magazine.rubyist.net/?0048-YARVManiacs))
+  ([презентация на RubyConf 2014: "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
 * [Сборщик для символов](https://bugs.ruby-lang.org/issues/9634)
-  ([презентация на RubyKaigi 2014: "Incremental GC for Ruby interpreter"](http://www.atdot.net/~ko1/activities/2014_rubyconf_pub.pdf))
+  ([презентация на RubyKaigi 2014](http://www.slideshare.net/authorNari/symbol-gc))
 * configure --with-jemalloc
   [Feature #9113](https://bugs.ruby-lang.org/issues/9113)
 * Ядро:

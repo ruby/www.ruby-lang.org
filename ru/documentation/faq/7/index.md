@@ -2,6 +2,7 @@
 layout: page
 title: "Официальный FAQ по Ruby"
 lang: ru
+translator: "ablzh"
 
 header: |
   <div class="multi-page">
@@ -145,7 +146,7 @@ bar.hello
 
 ~~~
 Hello
-prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NameError)
+prog.rb:11:in `<main>': undefined method `hello' for #<Foo:0x000000010f5a40> (NoMethodError)
 ~~~
 
 Синглтон-методы полезны, когда вы хотите добавить метод к объекту, а создание нового подкласса нецелесообразно.

@@ -2,6 +2,7 @@
 layout: page
 title: "О Ruby"
 lang: ru
+translator: "ablzh"
 ---
 
 Удивляетесь, почему Ruby так популярен? Его поклонники называют его красивым,
@@ -189,9 +190,10 @@ Ruby полон другими особенностями и конструкц�
 
 ### Другие реализации Ruby
 
-Ruby как язык имеет несколько разных реализаций. Данный сайт
-посвящен реализации **MRI** ("Matz's Ruby Interpreter" – Ruby
-интерпретатор Матца) или **CRuby**, но также существует несколько
+Ruby как язык имеет несколько разных реализаций. Эта страница
+посвящена эталонной реализации, которую в сообществе часто называют
+**MRI** («Matz’s Ruby Interpreter») или **CRuby** (поскольку она написана на C),
+но также существует несколько
 других. Они бывают очень полезны в различных ситуациях, предоставляют
 большую интеграцию с другими языками или окружениями, или имеют
 возможности, которых нет в MRI.
@@ -204,9 +206,11 @@ Ruby как язык имеет несколько разных реализац
 * [Rubinius][rubinius] это — «Ruby написанный на Ruby». Реализован на основе LLVM –
   изящной виртуальной машине, на который созданы и другие известные
   языки.
+* [TruffleRuby][truffleruby] — высокопроизводительная реализация Ruby на основе
+  GraalVM.
 * [mruby][mruby] — это легковесная реализация Ruby, которая может быть
   подключена и встроена в приложение. Возглавляет разработку mruby создатель
-  языка Ruby, Юкихиро Мацумото (Yukihiro Matsumoto), известного под псевдонимом Мац (Matz).
+  языка Ruby, Yukihiro “Matz” Matsumoto.
 * [IronRuby][ironruby] — это реализация «тесно интегрированная с .NET
   Framework».
 * [MagLev][maglev] — это «быстрая, стабильная реализация Ruby с
@@ -214,6 +218,8 @@ Ruby как язык имеет несколько разных реализац
   кешем".
 * [Cardinal][cardinal] — это «компилятор Ruby для виртуальной машины [Parrot][parrot]»
   (Perl 6).
+
+Более полный список можно найти в [Awesome Rubies][awesome-rubies].
 
 ### Ссылки
 
@@ -239,8 +245,10 @@ Ruby как язык имеет несколько разных реализац
 [tiobe]: http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 [jruby]: http://jruby.org
 [rubinius]: https://rubinius.com
+[truffleruby]: https://github.com/oracle/truffleruby
 [mruby]: http://www.mruby.org/
 [ironruby]: http://www.ironruby.net
 [maglev]: http://maglev.github.io
 [cardinal]: https://github.com/parrot/cardinal
 [parrot]: http://parrot.org
+[awesome-rubies]: https://github.com/planetruby/awesome-rubies
