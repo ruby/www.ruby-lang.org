@@ -1,13 +1,18 @@
 ---
 layout: news_post
 title: "Ruby 4.0.9 Released"
-author:
+author: k0kubun
 translator:
 date: 2026-10-23 03:11:22 +0000
 lang: en
 ---
 
 Ruby 4.0.9 has been released.
+
+This release includes a fix for a bug in Regexp compilation that GitLab's CVE-2026-110264 relies on.
+Please see the topic below for details.
+
+* [Regexp compilation fixes related to GitLab's CVE-2026-89078, CVE-2026-93577, CVE-2026-97229 and CVE-2026-110264]({% link en/news/_posts/2026-10-23-regexp-fixes-for-gitlab-cves.md %})
 
 Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.9) for further details.
 
