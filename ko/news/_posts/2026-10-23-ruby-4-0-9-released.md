@@ -1,22 +1,22 @@
 ---
 layout: news_post
-title: "Ruby 4.0.9 Released"
+title: "Ruby 4.0.9 릴리스"
 author: k0kubun
-translator:
+translator: "shia"
 date: 2026-10-23 03:11:22 +0000
-lang: en
+lang: ko
 ---
 
-Ruby 4.0.9 has been released.
+Ruby 4.0.9가 릴리스되었습니다.
 
-This release includes a fix for a bug in Regexp compilation that GitLab's CVE-2026-110264 relies on.
-Please see the topic below for details.
+이번 릴리스는 GitLab의 CVE-2026-110264의 원인이 된 정규표현식 컴파일 버그 수정을 포함합니다.
+자세한 내용은 아래 항목을 참조하세요.
 
-* [Regexp compilation fixes related to GitLab's CVE-2026-89078, CVE-2026-93577, CVE-2026-97229 and CVE-2026-110264]({% link en/news/_posts/2026-10-23-regexp-fixes-for-gitlab-cves.md %})
+* [GitLab의 CVE-2026-89078, CVE-2026-93577, CVE-2026-97229, CVE-2026-110264와 관련된 정규표현식 컴파일 수정]({% link ko/news/_posts/2026-10-23-regexp-fixes-for-gitlab-cves.md %})
 
-Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.9) for further details.
+자세한 내용은 [GitHub 릴리스](https://github.com/ruby/ruby/releases/tag/v4.0.9)를 참조하세요.
 
-## Download
+## 다운로드
 
 {% assign release = site.data.releases | where: "version", "4.0.9" | first %}
 
@@ -41,7 +41,7 @@ Please see the [GitHub releases](https://github.com/ruby/ruby/releases/tag/v4.0.
       SHA256: {{ release.sha256.zip }}
       SHA512: {{ release.sha512.zip }}
 
-## Release Comment
+## 릴리스 코멘트
 
-Many committers, developers, and users who provided bug reports helped us make this release.
-Thanks for their contributions.
+많은 커미터, 개발자, 버그를 보고해 준 사용자들이 이 릴리스를 만드는 데 도움을 주었습니다.
+그들의 기여에 감사드립니다.
