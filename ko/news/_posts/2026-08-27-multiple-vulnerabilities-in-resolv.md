@@ -1,46 +1,46 @@
 ---
 layout: news_post
-title: "Security advisories: CVE-2026-80212 and CVE-2026-80213"
+title: "보안 권고: CVE-2026-80212, CVE-2026-80213"
 author: "hsbt"
-translator:
+translator: "shia"
 date: 2026-08-27 00:00:00 +0000
 tags: security
-lang: en
+lang: ko
 ---
 
-Two vulnerabilities have been discovered in the `resolv` gem bundled with Ruby. They have been assigned the CVE identifiers [CVE-2026-80212](https://www.cve.org/CVERecord?id=CVE-2026-80212) and [CVE-2026-80213](https://www.cve.org/CVERecord?id=CVE-2026-80213). We recommend upgrading the resolv gem.
+Ruby에 포함된 `resolv` gem에서 취약점 2건이 발견되었습니다. 이 취약점들은 CVE 번호 [CVE-2026-80212](https://www.cve.org/CVERecord?id=CVE-2026-80212)와 [CVE-2026-80213](https://www.cve.org/CVERecord?id=CVE-2026-80213)으로 등록되었습니다. resolv gem을 업그레이드하는 것을 권장합니다.
 
-## CVE-2026-80212: Memory exhaustion through malicious DNS responses
+## CVE-2026-80212: 악의적인 DNS 응답을 통한 메모리 고갈
 
-An application that resolves a hostname an attacker can influence, such as a webhook target or a user-supplied URL, can be made to consume memory without bound. The attacker points a domain at a name server they control and returns responses that the library retains permanently. Repeated lookups grow the process until it runs out of memory and the service stops.
+웹훅 대상이나 사용자가 입력한 URL처럼 공격자가 영향을 줄 수 있는 호스트 이름을 조회하는 애플리케이션은 메모리를 끝없이 소비하게 될 수 있습니다. 공격자는 도메인이 자신이 제어하는 네임 서버를 가리키게 하고, 라이브러리가 영구적으로 보관하는 응답을 반환합니다. 조회가 반복될수록 프로세스가 커지고, 결국 메모리가 부족해져 서비스가 중단됩니다.
 
-## CVE-2026-80213: Hostname validation bypass
+## CVE-2026-80213: 호스트 이름 검증 우회
 
-An application that checks a hostname against an allow list or an SSRF filter and then resolves it can be made to look up a domain other than the one it checked. The string that passes validation and the name that reaches the network are not the same, so the connection can end up at a host the application never approved. This requires a hostname that exceeds the DNS length limits, so validation that rejects names longer than 255 octets, or labels longer than 63 octets, is not affected.
+호스트 이름을 허용 목록이나 SSRF 필터로 검사한 뒤 조회하는 애플리케이션이 검사한 것과 다른 도메인을 조회하게 될 수 있습니다. 검증을 통과한 문자열과 실제로 네트워크에 전달되는 이름이 같지 않으므로, 애플리케이션이 허용하지 않은 호스트에 연결될 수 있습니다. 이 문제는 DNS 길이 제한을 넘는 호스트 이름이 필요하므로, 255옥텟보다 긴 이름이나 63옥텟보다 긴 레이블을 거부하는 검증은 영향을 받지 않습니다.
 
-## Affected versions
+## 해당 버전
 
-* resolv gem 0.4.0 through 0.7.1
-* resolv gem 0.3.1 and earlier
+* resolv gem 0.4.0부터 0.7.1까지
+* resolv gem 0.3.1 이하
 
-The version bundled with Ruby differs per series: Ruby 4.0 ships resolv 0.7.0, Ruby 3.4 ships 0.7.1, and Ruby 3.3 ships 0.3.1.
+Ruby에 포함된 버전은 버전대마다 다릅니다. Ruby 4.0에는 resolv 0.7.0이, Ruby 3.4에는 0.7.1이, Ruby 3.3에는 0.3.1이 포함되어 있습니다.
 
-## What to check
+## 확인할 사항
 
-Only code that resolves names through this gem is affected. Ordinary socket connections, including `Net::HTTP` and anything built on `TCPSocket`, use the operating system resolver and are not. `Net::HTTP` does load the gem, but only for its IP address regular expressions, so a loaded gem is not by itself a sign of exposure.
+이 gem을 통해 이름을 조회하는 코드만 영향을 받습니다. `Net::HTTP`나 `TCPSocket` 기반의 코드를 포함한 일반적인 소켓 연결은 운영체제의 리졸버를 사용하므로 영향을 받지 않습니다. `Net::HTTP`도 이 gem을 불러오지만 IP 주소 정규표현식을 사용하기 위해서일 뿐이므로, gem이 로드되었다는 것만으로는 영향을 받는다고 볼 수 없습니다.
 
-An application reaches the affected code by calling `Resolv` itself, by loading `resolv-replace`, which routes all socket name resolution through the gem, or through a dependency that resolves names this way. Check your dependencies as well as your own code.
+애플리케이션이 영향을 받는 코드에 도달하는 경로는 `Resolv`를 직접 호출하는 경우, 모든 소켓의 이름 조회를 이 gem으로 처리하게 하는 `resolv-replace`를 불러오는 경우, 또는 이런 방식으로 이름을 조회하는 의존성을 사용하는 경우입니다. 직접 작성한 코드뿐만 아니라 의존성도 확인해 주세요.
 
-## Recommended action
+## 권장 조치
 
-Update the resolv gem to 0.7.2. For the Ruby 3.3 series, update to 0.3.2.
+resolv gem을 0.7.2로 업데이트하세요. Ruby 3.3 버전대에서는 0.3.2로 업데이트하세요.
 
-No release is planned for the 0.2.x line that the Ruby 3.2 series ships, because that series has reached its end of life. Install resolv 0.7.2 there instead.
+Ruby 3.2 버전대는 지원이 종료(EOL)되었으므로, Ruby 3.2에 포함된 0.2.x 계열의 릴리스는 예정되어 있지 않습니다. 대신 resolv 0.7.2를 설치하세요.
 
-## Credits
+## 도움을 준 사람
 
-Thanks to [dalifit](https://hackerone.com/dalifit) for discovering these issues.
+이 문제를 발견해 준 [dalifit](https://hackerone.com/dalifit)에게 감사를 표합니다.
 
-## History
+## 수정 이력
 
-* Originally published at 2026-08-27 00:00:00 (UTC)
+* 2026-08-27 00:00:00 (UTC) 최초 공개
