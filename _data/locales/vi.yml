@@ -98,8 +98,6 @@ navigation:
   submenu:
   - text: Phát triển Lõi Ruby
     url: /vi/community/ruby-core/
-  - text: Hướng dẫn kho lưu trữ
-    url: /vi/documentation/repository-guide/
   - text: Mailing Lists
     url: /vi/community/mailing-lists/
   - text: Hướng dẫn Mailing List
