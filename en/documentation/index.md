@@ -44,6 +44,10 @@ the [installation guide](installation/) for help on installing Ruby.
 [Codecademy][codecademy]
 : Online code bootcamp with a variety of topics.
 
+[Coddy][coddy]
+: Free interactive Ruby course. You write and run Ruby in the browser
+  in every lesson.
+
 ### Manuals / Books
 
 #### Beginner
@@ -224,6 +228,7 @@ These links were more prominent but haven't been updated in ages.
 [55]: https://github.com/ruby/typeprof
 [56]: https://github.com/soutaro/steep
 [codecademy]: https://www.codecademy.com/learn/learn-ruby
+[coddy]: https://coddy.tech/landing/ruby
 [docs-rlo]: https://docs.ruby-lang.org/en
 [docs-rlo-4.0]: https://docs.ruby-lang.org/en/4.0
 [docs-rlo-master]: https://docs.ruby-lang.org/en/master
