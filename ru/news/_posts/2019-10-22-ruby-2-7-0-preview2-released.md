@@ -2,7 +2,7 @@
 layout: news_post
 title: "Вышел Ruby 2.7.0-preview2"
 author: "naruse"
-translator: "ablzh"
+translator: "shprotru (перевод обновил ablzh)"
 date: 2019-10-22 12:00:00 +0000
 lang: ru
 ---

@@ -2,7 +2,7 @@
 layout: news_post
 title: "Работа списков рассылки временно приостановлена"
 author: "hsbt"
-translator: "ablzh"
+translator: "Vlad Bokov (перевод обновил ablzh)"
 date: 2014-05-31 12:30:00 +0000
 lang: ru
 ---

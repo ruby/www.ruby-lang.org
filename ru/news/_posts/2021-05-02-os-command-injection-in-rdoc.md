@@ -2,7 +2,7 @@
 layout: news_post
 title: "CVE-2021-31799: Уязвимость внедрения команды в RDoc"
 author: "aycabta"
-translator: "ablzh"
+translator: "nakilon (перевод обновил ablzh)"
 date: 2021-05-02 09:00:00 +0000
 tags: security
 lang: ru

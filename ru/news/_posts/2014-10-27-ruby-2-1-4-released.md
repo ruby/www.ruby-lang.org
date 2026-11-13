@@ -2,7 +2,7 @@
 layout: news_post
 title: "Вышел Ruby 2.1.4"
 author: "nagachika"
-translator: "ablzh"
+translator: "gazay (перевод обновил ablzh)"
 date: 2014-10-27 12:00:00 +0000
 lang: ru
 ---

@@ -2,7 +2,7 @@
 layout: news_post
 title: "Вышел Ruby 2.2.0"
 author: "naruse"
-translator: "ablzh"
+translator: "arbox (перевод обновил ablzh)"
 date: 2014-12-25 09:00:00 +0000
 lang: ru
 ---
