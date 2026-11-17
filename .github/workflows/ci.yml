@@ -11,8 +11,8 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ["3.2"]
-        os: [ubuntu-24.04]
+        ruby: ["4.0"]
+        os: [ubuntu-latest]
       fail-fast: false
 
     runs-on: ${{ matrix.os }}
