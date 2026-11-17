@@ -218,6 +218,6 @@ lang: en
 ## CI/CD
 
 GitHub Actions workflow (`.github/workflows/ci.yml`):
-- Runs on: Ruby 3.2, Ubuntu latest
+- Runs on: Ruby 4.0, Ubuntu latest
 - Executes: `bundle exec rake test` (includes linter, lint, build)
 - Triggers: Push and pull requests

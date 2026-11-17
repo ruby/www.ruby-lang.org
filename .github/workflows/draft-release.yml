@@ -28,7 +28,7 @@ jobs:
 
       - uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
         with:
-          ruby-version: 3.3.4
+          ruby-version: '4.0'
 
       - name: Generate draft release entry
         run: |
