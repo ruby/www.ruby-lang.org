@@ -4,6 +4,7 @@ title: "Regexp compilation fixes related to GitLab's CVE-2026-89078, CVE-2026-93
 author: "k0kubun"
 translator:
 date: 2026-10-23 03:11:22 +0000
+tags: security
 lang: en
 ---
 
@@ -22,11 +23,11 @@ GitLab compiles regular expressions supplied by its users, such as patterns in C
 
 The following table shows the change in Ruby that fixes the bug behind each CVE, and the first release of each series that contains it.
 
-| GitLab CVE | Bug in Ruby | Change | Ruby 4.0 | Ruby 3.4 | Ruby 3.3 |
-|---|---|---|---|---|---|
-| CVE-2026-89078 | Double free when parsing a pattern fails after an alternation | [#13332](https://github.com/ruby/ruby/pull/13332) | 4.0.0 | 3.4.12 | 3.3.13 |
-| CVE-2026-93577, CVE-2026-97229 | Integer overflow in the size of a compiled pattern | [#19020](https://github.com/ruby/ruby/pull/19020) | 4.0.8 | 3.4.12 | 3.3.13 |
-| CVE-2026-110264 | Overflow of internal IDs in a pattern with many repeats | [#16801](https://github.com/ruby/ruby/pull/16801) | 4.0.9 | 3.4.12 | 3.3.13 |
+| GitLab CVE | Bug in Ruby | Change | Ruby advisory | Ruby 4.0 | Ruby 3.4 | Ruby 3.3 |
+|---|---|---|---|---|---|---|
+| CVE-2026-89078 | Double free when parsing a pattern fails after an alternation | [#13332](https://github.com/ruby/ruby/pull/13332) | [GHSA-gfj3-8wj9-qx8p](https://github.com/ruby/ruby/security/advisories/GHSA-gfj3-8wj9-qx8p) | 4.0.0 | 3.4.12 | 3.3.13 |
+| CVE-2026-93577, CVE-2026-97229 | Integer overflow in the size of a compiled pattern | [#19020](https://github.com/ruby/ruby/pull/19020) | [GHSA-22mf-ggw7-pxfx](https://github.com/ruby/ruby/security/advisories/GHSA-22mf-ggw7-pxfx) | 4.0.8 | 3.4.12 | 3.3.13 |
+| CVE-2026-110264 | Overflow of internal IDs in a pattern with many repeats | [#16801](https://github.com/ruby/ruby/pull/16801) | [GHSA-qm4g-8pfh-6996](https://github.com/ruby/ruby/security/advisories/GHSA-qm4g-8pfh-6996) | 4.0.9 | 3.4.12 | 3.3.13 |
 
 Ruby 4.0.9, 3.4.12 and 3.3.13 contain all of these fixes.
 
@@ -46,13 +47,15 @@ Ruby 3.3 is in the security maintenance phase, in which we normally release only
 
 ## About CVE identifiers
 
-We have not requested CVE identifiers in Ruby for these fixes, at least for now.
+Update (2026-11-17): We now treat these issues as vulnerabilities in Ruby. We have published a security advisory for each of them in the ruby/ruby repository, listed in the table above, and requested CVE identifiers for them. We will add the CVE identifiers to this page when they are assigned.
+
+When we originally published this page, we had not requested CVE identifiers in Ruby for these fixes, for the following reason.
 
 Ruby has generally considered it unsafe to compile and use a regular expression created from untrusted input. We stated this in the advisory for [CVE-2022-28738]({% link en/news/_posts/2022-04-12-double-free-in-regexp-compilation-cve-2022-28738.md %}), where we nevertheless treated a double free in Regexp compilation as a vulnerability after a comprehensive assessment. We did the same for [CVE-2024-27282]({% link en/news/_posts/2024-04-23-arbitrary-memory-address-read-regexp-cve-2024-27282.md %}).
 
-However, the [Regexp documentation](https://docs.ruby-lang.org/en/master/Regexp.html#class-Regexp-label-Timeouts) currently discusses untrusted patterns only in terms of denial of service, and recommends a timeout for them. It does not clearly say whether compiling an untrusted pattern is a use case that Ruby supports. We plan to discuss how to document this, and whether we treat this kind of issue as a vulnerability in Ruby, including whether to request CVE identifiers for these fixes. If we request any, we will update this page.
+However, the [Regexp documentation](https://docs.ruby-lang.org/en/master/Regexp.html#class-Regexp-label-Timeouts) discussed untrusted patterns only in terms of denial of service, and recommended a timeout for them. It did not clearly say whether compiling an untrusted pattern is a use case that Ruby supports. We have since discussed this and decided that memory corruption reachable by compiling an untrusted pattern is a vulnerability in Ruby, which is why we have published the advisories above.
 
-In the meantime, please refer to GitLab's CVE identifiers listed above when you track these issues, for example in a security scanner.
+Until the CVE identifiers are assigned, please refer to the Ruby advisories or GitLab's CVE identifiers listed above when you track these issues, for example in a security scanner.
 
 ## Credits
 
@@ -61,3 +64,4 @@ Thanks to Johan Carlsson ([joaxcar](https://github.com/joaxcar)) for discovering
 ## History
 
 * Originally published at 2026-10-23 03:11:22 (UTC)
+* Updated at 2026-11-17 04:28:40 (UTC): Added the Ruby security advisories and marked this page as a security announcement
