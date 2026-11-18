@@ -9,7 +9,7 @@ preview:
 stable:
 
   - 4.0.10
-  - 3.4.12
+  - 3.4.13
 
 # optional
 security_maintenance:
