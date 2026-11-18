@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Pengembangan Ruby Core
     url: /id/community/ruby-core/
-  - text: Panduan Repositori
-    url: /id/documentation/repository-guide/
   - text: Mailing List
     url: /id/community/mailing-lists/
   - text: Lainnya

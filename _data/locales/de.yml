@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Ruby-Core-Entwicklung
     url: /de/community/ruby-core/
-  - text: Repository-Leitfaden
-    url: /de/documentation/repository-guide/
   - text: Mailing-Listen
     url: /de/community/mailing-lists/
   - text: Patch-Leitfaden
