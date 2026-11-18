@@ -23,6 +23,38 @@ package management systems or third-party tools.
 
 Of course, you can also install Ruby from source on all major platforms.
 
+### Other Implementations of Ruby
+
+Ruby, as a language, has a few different implementations.
+This page has been discussing the reference implementation, in the
+community often referred to as **MRI** (“Matz’s Ruby Interpreter”)
+or **CRuby** (since it is written in C), but there are also others.
+They are often useful in certain situations, provide extra
+integration to other languages or environments, or have special features
+that MRI doesn’t.
+
+Here’s a list:
+
+* [JRuby][jruby] is Ruby atop the JVM (Java Virtual Machine), utilizing the
+  JVM’s optimizing JIT compilers, garbage collectors, concurrent
+  threads, tool ecosystem, and vast collection of libraries.
+* [Rubinius][rubinius] is ‘Ruby written in Ruby’. Built on top of LLVM,
+  Rubinius sports a nifty virtual machine that other languages are being
+  built on top of, too.
+* [TruffleRuby][truffleruby] is a high performance Ruby implementation on top of
+  GraalVM.
+* [mruby][mruby] is a lightweight implementation of the Ruby language
+  that can be linked and embedded within an application.
+  Its development is led by Ruby’s creator Yukihiro “Matz” Matsumoto.
+* [IronRuby][ironruby] is an implementation “tightly integrated with the .NET
+  Framework”.
+* [MagLev][maglev] is “a fast, stable, Ruby implementation with integrated
+  object persistence and distributed shared cache”.
+* [Cardinal][cardinal] is a “Ruby compiler for [Parrot][parrot] Virtual Machine”
+  (Perl 6).
+
+For a more complete list, see [Awesome Rubies][awesome-rubies].
+
 ### Compiling Ruby — Source Code
 
 Installing from the source code is a great solution for when you are
