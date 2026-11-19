@@ -14,7 +14,7 @@ describe Linter do
       - name: 3.4
         status: normal maintenance
       - name: 3.3
-        status: security maintenance
+        status: legacy maintenance
       - name: 3.2
         status: eol
       - name: 2.0.0

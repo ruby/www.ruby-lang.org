@@ -4,7 +4,7 @@
 # Each entry has the following form:
 #
 # - name:     branch name (MAJOR.MINOR since 2.1)
-#   status:   normal maintenance | security maintenance | eol | preview
+#   status:   normal maintenance | legacy maintenance | eol | preview
 #   date:     date of first stable release (YYYY-MM-DD)
 #   eol_date: date of EOL (YYYY-MM-DD)
 
@@ -24,7 +24,7 @@
   eol_date:
 
 - name: 3.3
-  status: security maintenance
+  status: legacy maintenance
   date: 2023-12-25
   security_maintenance_date: 2026-04-01
   eol_date:

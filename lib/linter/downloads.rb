@@ -12,12 +12,12 @@ class Linter
     SECTION_STATUS = {
       "stable" => "normal maintenance",
       "preview" => "preview",
-      "security_maintenance" => "security maintenance",
+      "security_maintenance" => "legacy maintenance",
       "eol" => "eol"
     }.freeze
 
     # branches with one of these statuses must be listed on the downloads page
-    REQUIRED_STATUSES = ["normal maintenance", "security maintenance"].freeze
+    REQUIRED_STATUSES = ["normal maintenance", "legacy maintenance"].freeze
 
     def initialize(downloads, branches, release_versions)
       @downloads = downloads || {}

@@ -12,7 +12,7 @@ describe Linter do
       - name: 3.4
         status: normal maintenance
       - name: 3.3
-        status: security maintenance
+        status: legacy maintenance
       - name: 3.2
         status: eol
     YAML
@@ -49,7 +49,7 @@ describe Linter do
     teardown_tempdir
   end
 
-  it "reports a stable release whose branch is in security maintenance" do
+  it "reports a stable release whose branch is in legacy maintenance" do
     create_file("_data/downloads.yml", <<~YAML)
       stable:
         - 3.4.1
@@ -58,10 +58,10 @@ describe Linter do
         - 3.2.1
     YAML
 
-    _(linter_output).must_match "stable: Ruby 3.3.1 belongs to branch 3.3 whose status is `security maintenance' (expected `normal maintenance')"
+    _(linter_output).must_match "stable: Ruby 3.3.1 belongs to branch 3.3 whose status is `legacy maintenance' (expected `normal maintenance')"
   end
 
-  it "reports a security maintenance release whose branch is EOL" do
+  it "reports a legacy maintenance release whose branch is EOL" do
     create_file("_data/downloads.yml", <<~YAML)
       stable:
         - 3.4.1
@@ -70,7 +70,7 @@ describe Linter do
         - 3.2.1
     YAML
 
-    _(linter_output).must_match "security_maintenance: Ruby 3.2.1 belongs to branch 3.2 whose status is `eol' (expected `security maintenance')"
+    _(linter_output).must_match "security_maintenance: Ruby 3.2.1 belongs to branch 3.2 whose status is `eol' (expected `legacy maintenance')"
   end
 
   it "reports a maintained branch that is not listed" do
@@ -79,7 +79,7 @@ describe Linter do
         - 3.4.1
     YAML
 
-    _(linter_output).must_match "no release of branch 3.3 (status `security maintenance') is listed"
+    _(linter_output).must_match "no release of branch 3.3 (status `legacy maintenance') is listed"
   end
 
   it "reports a listed version that has no release data" do
