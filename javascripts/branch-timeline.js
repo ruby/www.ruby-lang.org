@@ -69,6 +69,7 @@
       id: 'End'
     });
     const today = new Date();
+    const legacy_maintenance_start = new Date("2026-11-19");
     const active = [];
     dataTable.addRows(source.map(e => {
       const name = e.name == 3 ? "3.0" : `${e.name}`;
@@ -105,7 +106,7 @@
         security_maintenance_date,
       ],[
         name,
-        "SECURITY MAINTENANCE",
+        eol_date < legacy_maintenance_start ? "SECURITY MAINTENANCE" : "LEGACY MAINTENANCE",
         color2,
         security_maintenance_date,
         eol_date,
