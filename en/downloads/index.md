@@ -45,7 +45,7 @@ one of the third party tools mentioned above. They may help you.
 {% endif %}
 
 {% if site.data.downloads.security_maintenance %}
-* **In security maintenance phase (will EOL soon!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
+* **In legacy maintenance phase (will EOL soon!):**{% for version in site.data.downloads.security_maintenance %}{% assign release = site.data.releases | where: "version", version | first %}
   * [Ruby {{ release.version }}]({{ release.url.gz }})<br>
     sha256: {{ release.sha256.gz }}{% endfor %}
 {% endif %}
