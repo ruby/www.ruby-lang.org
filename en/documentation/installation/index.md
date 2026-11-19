@@ -53,6 +53,7 @@ Here are available installation methods:
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
+  * [mswin builds and rbmanager](#mswin) (Windows)
   * [Ruby Stack](#rubystack)
 * [Managers](#managers)
   * [asdf-vm](#asdf-vm)
@@ -296,6 +297,30 @@ to set up a full Ruby development environment.
 Just download it, run it, and you are done!
 
 
+### mswin builds and rbmanager
+{: #mswin}
+
+ruby-lang.org provides official Ruby packages for Windows built with
+Microsoft Visual C++ (mswin), for x64 and arm64.
+Use them to test that native extensions build and work with MSVC.
+The default choice on Windows stays [RubyInstaller](#rubyinstaller),
+which most precompiled gems target.
+
+[rbmanager][rbmanager] installs these packages and switches between them.
+Download `rb-x64.exe` (`rb-arm64.exe` on ARM64) from its
+[releases][rbmanager-releases] and run:
+
+{% highlight powershell %}
+> .\rb-x64.exe setup
+# Open a new terminal, then:
+> rb install 4.0
+{% endhighlight %}
+
+`rb setup` puts `rb` on your PATH and offers to install the
+[Microsoft Visual C++ Redistributable][vc-redist] that the packages need.
+The packages are also available as [zip files][mswin-packages].
+
+
 ### Ruby Stack
 {: #rubystack}
 
@@ -415,6 +440,10 @@ though, because the installed Ruby won't be managed by any tools.
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
+[rbmanager]: https://github.com/ruby/rbmanager#readme
+[rbmanager-releases]: https://github.com/ruby/rbmanager/releases/latest
+[vc-redist]: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+[mswin-packages]: https://cache.ruby-lang.org/pub/ruby/binaries/mswin64/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
