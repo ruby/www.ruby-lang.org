@@ -17,6 +17,8 @@ We have several tools on each major platform to install Ruby:
   distribution or third-party tools ([rbenv][rbenv] and [RVM][rvm]).
 * On macOS machines, you can use third-party tools ([rbenv][rbenv] and [RVM][rvm]).
 * On Windows machines, you can use [RubyInstaller][rubyinstaller].
+  To test that native extensions build and work with MSVC,
+  use the [official mswin builds][mswin].
 
 See the [Installation][installation] page for details on using
 package management systems or third-party tools.
@@ -85,3 +87,4 @@ Please try to use a mirror that is near you.
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
+[mswin]: /en/documentation/installation/#mswin
