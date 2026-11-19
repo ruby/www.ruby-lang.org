@@ -19,8 +19,10 @@ the following phases:
 
 * **normal maintenance** (bug fix):
   Branch receives general bug fixes and security fixes.
-* **security maintenance** (security fix):
-  Only security fixes are backported to this branch.
+* **legacy maintenance** (security fix and selected bug fix):
+  Branch receives security fixes and bug fixes that we judge need
+  to be backported. Before Ruby 3.3.14 this phase was called
+  security maintenance and received only security fixes.
 * **eol** (end-of-life):
   Branch is not supported by the ruby-core team any longer and does
   not receive any fixes. No further patch release will be released.
