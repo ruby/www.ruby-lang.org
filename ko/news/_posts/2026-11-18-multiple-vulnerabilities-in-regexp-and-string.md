@@ -12,15 +12,15 @@ Ruby의 정규표현식 엔진과 문자열 대소문자 변환에서 취약점 
 
 이 취약점들에 대한 CVE 번호를 요청했지만 아직 할당되지 않았으므로, 이 보안 권고에서는 GitHub Security Advisory(GHSA) 번호로 각 취약점을 표기합니다.
 
-## [GHSA-34m4-m9fh-gqp5](https://github.com/ruby/ruby/security/advisories/GHSA-34m4-m9fh-gqp5): 문자열 대소문자 변환의 힙 버퍼 오버플로
+## [GHSA-34m4-m9fh-gqp5](https://github.com/ruby/ruby/security/advisories/GHSA-34m4-m9fh-gqp5): 문자열 대소문자 변환 시 발생하는 힙 버퍼 오버플로
 
 Ruby의 문자열 대소문자 변환에 1바이트 힙 버퍼 오버플로가 있습니다. 조작된 문자열의 대소문자를 변환하면 원격 코드가 실행될 수 있습니다. 특정 상황에서 이 결함을 악용해 원격 코드를 실행할 수 있다는 것을 입증하는 PoC가 있음을 확인했습니다.
 
-## [GHSA-7x2q-68qv-6p8x](https://github.com/ruby/ruby/security/advisories/GHSA-7x2q-68qv-6p8x): 정규표현식 컴파일의 중복 할당 해제
+## [GHSA-7x2q-68qv-6p8x](https://github.com/ruby/ruby/security/advisories/GHSA-7x2q-68qv-6p8x): 정규표현식 컴파일 시 발생하는 이중 해제
 
-Ruby의 정규표현식 엔진에 중복 할당 해제 문제가 있습니다. 공격자가 조작할 수 있는 패턴을 컴파일하는 애플리케이션에서는 조작된 정규표현식 패턴을 컴파일하면 원격 코드가 실행될 수 있습니다. 특정 상황에서 이 결함을 악용해 원격 코드를 실행할 수 있다는 것을 입증하는 PoC가 있음을 확인했습니다.
+Ruby의 정규표현식 엔진에 이중 해제 문제가 있습니다. 공격자가 조작할 수 있는 패턴을 컴파일하는 애플리케이션에서는 조작된 정규표현식 패턴을 컴파일하면 원격 코드가 실행될 수 있습니다. 특정 상황에서 이 결함을 악용해 원격 코드를 실행할 수 있다는 것을 입증하는 PoC가 있음을 확인했습니다.
 
-## [GHSA-87fm-7w84-j2px](https://github.com/ruby/ruby/security/advisories/GHSA-87fm-7w84-j2px): 문자열 대소문자 변환의 정수 오버플로
+## [GHSA-87fm-7w84-j2px](https://github.com/ruby/ruby/security/advisories/GHSA-87fm-7w84-j2px): 문자열 대소문자 변환 시 발생하는 정수 오버플로
 
 Ruby의 문자열 대소문자 변환에 정수 오버플로가 있으며, 이로 인해 힙 버퍼 오버플로가 발생합니다. 조작된 문자열의 대소문자를 변환하면 원격 코드가 실행될 수 있습니다. 특정 상황에서 이 결함을 악용해 원격 코드를 실행할 수 있다는 것을 입증하는 PoC가 있음을 확인했습니다.
 
@@ -28,7 +28,7 @@ Ruby의 문자열 대소문자 변환에 정수 오버플로가 있으며, 이�
 
 Ruby의 정규표현식 엔진에 범위 밖 읽기 문제가 있습니다. 공격자가 조작할 수 있는 패턴을 사용하는 애플리케이션에서는 조작된 정규표현식 패턴으로 매칭하면 원격 코드가 실행될 수 있습니다. 이 결함을 악용해 공격자가 의도한 방식으로 메모리를 손상시킬 수 있다는 것을 입증하는 PoC가 있음을 확인했습니다.
 
-## [GHSA-3p8q-wmhx-vm2w](https://github.com/ruby/ruby/security/advisories/GHSA-3p8q-wmhx-vm2w): 정규표현식 컴파일의 힙 버퍼 오버플로
+## [GHSA-3p8q-wmhx-vm2w](https://github.com/ruby/ruby/security/advisories/GHSA-3p8q-wmhx-vm2w): 정규표현식 컴파일 시 발생하는 힙 버퍼 오버플로
 
 Ruby의 정규표현식 엔진에 정수 오버플로가 있으며, 이로 인해 힙 버퍼 오버플로가 발생합니다. 공격자가 조작할 수 있는 패턴을 컴파일하는 애플리케이션에서는 조작된 정규표현식 패턴을 컴파일하면 원격 코드가 실행될 수 있습니다. 특정 상황에서 이 결함을 악용해 원격 코드를 실행할 수 있다는 것을 입증하는 PoC가 있음을 확인했습니다.
 
