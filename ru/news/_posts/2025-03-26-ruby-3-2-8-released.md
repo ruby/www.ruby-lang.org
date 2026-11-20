@@ -17,7 +17,7 @@ lang: ru
 
 ## Скачать
 
-{% assign release = site.data.releases | where: "version", "3.2.8" | first %}http://127.0.0.1:4000
+{% assign release = site.data.releases | where: "version", "3.2.8" | first %}
 
 - <{{ release.url.gz }}>
 
