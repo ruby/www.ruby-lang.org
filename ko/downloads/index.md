@@ -17,6 +17,8 @@ lang: ko
   서드파티 도구([rbenv][rbenv]나 [RVM][rvm])를 사용할 수 있습니다.
 * macOS에서는 서드파티 도구([rbenv][rbenv]나 [RVM][rvm])를 사용할 수 있습니다.
 * Windows에서는 [RubyInstaller][rubyinstaller]를 사용할 수 있습니다.
+  네이티브 확장이 MSVC에서 빌드되고 동작하는지 테스트하려면
+  [공식 mswin 빌드][mswin]를 사용하세요.
 
 패키지 관리 시스템이나 서드파티 도구에 대한 좀 더 자세한
 설명은 [설치][installation] 페이지를 보세요.
@@ -84,3 +86,4 @@ Ruby 소스는 전세계의 [미러 사이트][mirrors]에서 사용할 수 있�
 [rvm]: http://rvm.io/
 [rbenv]: https://github.com/rbenv/rbenv
 [rubyinstaller]: https://rubyinstaller.org/
+[mswin]: /ko/documentation/installation/#mswin
