@@ -624,7 +624,7 @@ Ruby 4.0 включает RubyGems и Bundler версии 4. Смотрите �
     * `--rjit` удален. Мы перенесем реализацию стороннего JIT API
       в репозиторий [ruby/rjit](https://github.com/ruby/rjit).
 
-Смотрите [NEWS](https://docs.ruby-lang.org/en/{{ release.tag }}/NEWS_md.html)
+Смотрите [NEWS](https://docs.ruby-lang.org/en/4.0/NEWS_md.html)
 или [логи коммитов](https://github.com/ruby/ruby/compare/v3_4_0...{{ release.tag }})
 для подробностей.
 

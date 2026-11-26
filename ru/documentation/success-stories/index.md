@@ -2,6 +2,7 @@
 layout: page
 title: "Успешный опыт"
 lang: ru
+translator: "ablzh"
 ---
 
 Многие люди используют Ruby на их повседневных работах. Другие лишь в
@@ -56,14 +57,18 @@ lang: ru
 
 #### Безопасность
 
-* [Metasploit Framework][metasploit], проект с открытым исходным кодом,
+* [Metasploit Framework][metasploit], open source проект сообщества,
   поддерживаемый [Rapid7][rapid7], это бесплатная платформа проникающего
   тестирования,
   которая помогает IT профессионалам проверить безопасность их сети и
   приложений. Metasploit Project содержит более 700 000 строк кода и был
   скачан больше миллиона раз в 2010 году.
-  Коммерческая версия Metasploit Express и Metasploit Pro разработаны Rapid7
-  и так же написаны на Ruby.
+  Коммерческие редакции, разработанные Rapid7, также основаны на Ruby.
+
+* [Arachni Web Application Security Scanner][arachni] — бесплатный, модульный,
+  высокопроизводительный фреймворк на Ruby, помогающий специалистам по тестированию
+  на проникновение (penetration testing) и администраторам оценивать безопасность
+  современных веб-приложений.
 
 
 
@@ -77,3 +82,4 @@ lang: ru
 
 [metasploit]: http://www.metasploit.com
 [rapid7]: http://www.rapid7.com
+[arachni]: http://www.arachni-scanner.com/
