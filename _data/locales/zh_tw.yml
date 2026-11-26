@@ -90,8 +90,6 @@ navigation:
   submenu:
   - text: Ruby 核心開發
     url: /zh_tw/community/ruby-core/
-  - text: 儲存庫指南
-    url: /zh_tw/documentation/repository-guide/
   - text: 郵件論壇
     url: /zh_tw/community/mailing-lists/
   - text: 其他
