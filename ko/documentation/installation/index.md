@@ -53,6 +53,7 @@ Windows 10을 사용 중이라면 [Windows Subsystem for Linux][wsl]를 사용�
   * [ruby-build](#ruby-build)
   * [ruby-install](#ruby-install)
   * [RubyInstaller](#rubyinstaller) (Windows)
+  * [mswin 빌드와 rbmanager](#mswin) (Windows)
   * [Ruby Stack](#rubystack)
 * [관리자](#managers)
   * [asdf-vm](#asdf-vm)
@@ -296,6 +297,30 @@ Windows에서는 [RubyInstaller][rubyinstaller]는 전체 Ruby 개발 환경을 
 다운로드 받으시고 인스톨러를 실행하기만 하면 끝입니다!
 
 
+### mswin 빌드와 rbmanager
+{: #mswin}
+
+ruby-lang.org는 Microsoft Visual C++(mswin)로 빌드한 Windows용 공식 Ruby
+패키지를 x64와 arm64용으로 제공합니다.
+네이티브 확장이 MSVC에서 빌드되고 동작하는지 테스트할 때 사용하세요.
+Windows에서는 여전히 [RubyInstaller](#rubyinstaller)가 기본 선택지이며,
+미리 컴파일된 gem 대부분이 RubyInstaller를 대상으로 합니다.
+
+[rbmanager][rbmanager]는 이 패키지들을 설치하고 버전을 전환해 줍니다.
+[릴리스][rbmanager-releases]에서 `rb-x64.exe`(ARM64에서는 `rb-arm64.exe`)를
+내려받아 다음과 같이 실행하세요.
+
+{% highlight powershell %}
+> .\rb-x64.exe setup
+# 새 터미널을 열고 다음을 실행합니다.
+> rb install 4.0
+{% endhighlight %}
+
+`rb setup`은 `rb`를 PATH에 추가하고, 패키지 실행에 필요한
+[Microsoft Visual C++ 재배포 가능 패키지][vc-redist]도 설치할지 묻습니다.
+패키지는 [zip 파일][mswin-packages]로도 받을 수 있습니다.
+
+
 ### Ruby Stack
 {: #rubystack}
 
@@ -415,6 +440,10 @@ $ sudo make install
 [chruby]: https://github.com/postmodern/chruby#readme
 [uru]: https://bitbucket.org/jonforums/uru
 [rubyinstaller]: https://rubyinstaller.org/
+[rbmanager]: https://github.com/ruby/rbmanager#readme
+[rbmanager-releases]: https://github.com/ruby/rbmanager/releases/latest
+[vc-redist]: https://learn.microsoft.com/ko-kr/cpp/windows/latest-supported-vc-redist
+[mswin-packages]: https://cache.ruby-lang.org/pub/ruby/binaries/mswin64/
 [rubystack]: http://bitnami.com/stack/ruby/installer
 [openindiana]: http://openindiana.org/
 [gentoo-ruby]: http://www.gentoo.org/proj/en/prog_lang/ruby/
